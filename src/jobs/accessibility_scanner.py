@@ -41,6 +41,37 @@ class AccessibilityScannerJob:
                     urls.append(url)
         return urls
 
+    def _extract_candidate_urls_from_toon(self, toon_data: dict) -> List[str]:
+        """Build probe URLs from domain-level ``candidate_paths``.
+
+        Each domain entry may carry an optional ``candidate_paths`` list of
+        URL path suffixes (e.g. ``["/accessibility", "/web-accessibility"]``).
+        This method expands them against the ``canonical_domain`` to produce
+        absolute URLs that the accessibility scanner can probe directly.
+
+        Returns:
+            Flat list of absolute candidate URLs, deduplicated.
+        """
+        seen: set[str] = set()
+        urls: List[str] = []
+        for domain_entry in toon_data.get("domains", []):
+            paths = domain_entry.get("candidate_paths", [])
+            if not paths:
+                continue
+            domain = domain_entry.get("canonical_domain", "")
+            if not domain:
+                continue
+            base = f"https://{domain}"
+            for path in paths:
+                # Ensure path starts with /
+                if not path.startswith("/"):
+                    path = f"/{path}"
+                candidate = f"{base}{path}"
+                if candidate not in seen:
+                    seen.add(candidate)
+                    urls.append(candidate)
+        return urls
+
     def _get_last_scan_time_per_country(self) -> Dict[str, str]:
         """Return the latest ``scanned_at`` timestamp per country code.
 
@@ -211,6 +242,18 @@ class AccessibilityScannerJob:
 
         toon_data = self._load_toon_file(toon_path)
         all_urls = self._extract_urls_from_toon(toon_data)
+        candidate_urls = self._extract_candidate_urls_from_toon(toon_data)
+
+        # Candidate probe URLs supplement (not replace) the regular page URLs.
+        # Deduplicate while preserving order: regular pages first, then candidates.
+        seen_urls: set[str] = set(all_urls)
+        for url in candidate_urls:
+            if url not in seen_urls:
+                seen_urls.add(url)
+                all_urls.append(url)
+
+        if candidate_urls:
+            print(f"Added {len(candidate_urls)} candidate probe URLs from seed")
 
         print(f"Found {len(all_urls)} URLs to scan")
 

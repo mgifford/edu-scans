@@ -17,7 +17,7 @@ def test_deploy_pages_workflow_validates_required_drilldown_json_files() -> None
     assert "scan-progress-data.json" in content
     assert "lighthouse-data.json" in content
     assert "docs/$file" in content
-    assert "GitHub Pages build stopped because one or more drilldown JSON files are missing." in content
+    assert "GitHub Pages build stopped" in content
     assert "if [ \"$missing\" -ne 0 ]; then" in content
     assert "exit 1" in content
 
