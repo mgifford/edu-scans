@@ -13,23 +13,20 @@ _No scan data yet — stats update automatically after every scan run._
 
 ## Overview
 
-The accessibility statement scanner checks whether each government page links
-to an **accessibility statement** as required by the
-[EU Web Accessibility Directive (Directive 2016/2102)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102).
+The accessibility statement scanner checks whether each institution page links
+to an **accessibility statement**.
 
-Under the Directive, public-sector bodies must:
+As a best-practice baseline, public-facing institutions should:
 
 1. Publish an accessibility statement describing the accessibility of their
    website or mobile app.
 2. Include a clearly labelled link to that statement on the page, ideally in
    the footer.
 
-The scanner detects these links using multilingual term matching across all
-**24 EU official languages** plus Norwegian and Icelandic.
+The scanner detects these links using multilingual term matching.
 
-Scans run **automatically every 4 hours** via GitHub Actions so that the full
-set of ~80,000 URLs across 31 countries can be covered gradually without
-overloading government servers.
+Scans run **automatically every 4 hours** via GitHub Actions so coverage grows
+progressively without overloading institutional servers.
 
 ---
 
@@ -81,13 +78,13 @@ the footer is considered best practice.
 
 ### Scan Progress Report
 
-The **[Scan Progress Report](scan-progress.md)** includes a per-country
+The **[Scan Progress Report](scan-progress.md)** includes a per-seed
 accessibility statement breakdown showing:
 
 - Total pages scanned and reachable count
 - Number of pages with a statement link
 - Number of pages where the link was found in the footer
-- Date range showing when each country was last scanned
+- Date range showing when each seed was last scanned
 
 ### GitHub Actions Artifacts
 
@@ -95,7 +92,7 @@ Each workflow run uploads a scan artifact containing:
 
 - `data/metadata.db` — the full SQLite results database
 - `accessibility-scan-output.txt` — the raw scan log
-- `data/toon-seeds/countries/**_accessibility.toon` — annotated TOON files
+- `data/toon-seeds/**_accessibility.toon` — annotated TOON files
 
 To download artifacts:
 
@@ -112,16 +109,16 @@ To download artifacts:
 
 1. Go to [Actions → Scan Accessibility Statements](https://github.com/mgifford/edu-scans/actions/workflows/scan-accessibility.yml)
 2. Click **Run workflow**
-3. Optionally enter a country code (e.g. `ICELAND`) or leave blank to scan all
+3. Optionally enter a seed code (e.g. `USA_EDU_MASTER`) or leave blank to scan all seed files
 4. Optionally adjust the rate limit (default: 1.0 req/sec)
 
 ### Via the command line
 
 ```bash
-# Scan a single country
-python3 -m src.cli.scan_accessibility --country ICELAND --rate-limit 1.0
+# Scan a single seed
+python3 -m src.cli.scan_accessibility --country USA_EDU_MASTER --rate-limit 1.0
 
-# Scan all countries (with a 110-minute runtime cap)
+# Scan all seed files (with a 110-minute runtime cap)
 python3 -m src.cli.scan_accessibility --all --max-runtime 110 --rate-limit 1.0
 ```
 
@@ -152,7 +149,7 @@ Each page entry gains an `accessibility` field:
 | Column | Type | Description |
 |--------|------|-------------|
 | `url` | TEXT | Page URL |
-| `country_code` | TEXT | Country identifier (e.g. `ICELAND`) |
+| `country_code` | TEXT | Legacy field name for seed identifier (e.g. `USA_EDU_MASTER`) |
 | `scan_id` | TEXT | Unique scan run identifier |
 | `is_reachable` | INTEGER | 1 = reachable, 0 = not reachable |
 | `has_statement` | INTEGER | 1 = accessibility statement link found |
@@ -164,14 +161,10 @@ Each page entry gains an `accessibility` field:
 
 ---
 
-## Countries Covered
+## Coverage Scope
 
-Scans cover all 27 EU member states plus 4 allied nations:
-
-| Region | Countries |
-|--------|----------|
-| EU member states | Austria, Belgium, Bulgaria, Croatia, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Republic of Cyprus, Romania, Slovakia, Slovenia, Spain, Sweden |
-| Allied nations | Iceland, Norway, Switzerland, United Kingdom |
+Scans currently target United States higher-education institutions in the
+seed set.
 
 ---
 

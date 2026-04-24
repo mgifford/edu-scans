@@ -21,26 +21,26 @@ their versions are stored in the metadata database and written back into an
 annotated `*_tech.toon` TOON file.
 
 Scans run **automatically every 6 hours** via GitHub Actions so that the full
-set of URLs across all countries can be covered gradually without overloading
+set of URLs across all seed files can be covered gradually without overloading
 government servers.
 
 ---
 
 ## Usage
 
-### Scan a single country
+### Scan a single seed
 
 ```bash
-python3 -m src.cli.scan_technology --country ICELAND --rate-limit 2
+python3 -m src.cli.scan_technology --country USA_EDU_MASTER --rate-limit 2
 ```
 
-### Scan all countries
+### Scan all seed files
 
 ```bash
 python3 -m src.cli.scan_technology --all --rate-limit 2
 ```
 
-### Scan all countries with a runtime cap (recommended for CI)
+### Scan all seed files with a runtime cap (recommended for CI)
 
 ```bash
 python3 -m src.cli.scan_technology --all --max-runtime 110 --rate-limit 2.0
@@ -50,9 +50,9 @@ python3 -m src.cli.scan_technology --all --max-runtime 110 --rate-limit 2.0
 
 | Option | Default | Description |
 |---|---|---|
-| `--country CODE` | — | Country code to scan (e.g. `FRANCE`, `ICELAND`) |
-| `--all` | — | Scan all countries in the TOON directory |
-| `--toon-dir PATH` | `data/toon-seeds/countries` | Directory with `.toon` seed files |
+| `--country CODE` | — | Seed code to scan (e.g. `USA_EDU_MASTER`) |
+| `--all` | — | Scan all seed files in the TOON directory |
+| `--toon-dir PATH` | `data/toon-seeds` | Directory with `.toon` seed files |
 | `--rate-limit N` | `2.0` | Maximum HTTP requests per second |
 | `--max-runtime N` | `0` (no limit) | Maximum runtime in minutes.  The scanner stops gracefully before this limit so that partial results can be saved.  Set to ~10 minutes less than the GitHub Actions `timeout-minutes` value. |
 
@@ -65,7 +65,7 @@ runs automatically every 6 hours and can also be triggered manually from the
 Actions tab:
 
 1. Go to **Actions → Scan Technology Stack → Run workflow**
-2. Optionally enter a country code (leave blank to scan all countries)
+2. Optionally enter a seed code (leave blank to scan all seed files)
 3. Optionally adjust the rate limit
 
 Artifacts uploaded after each run:
@@ -121,7 +121,7 @@ Query example:
 ```sql
 SELECT url, technologies
 FROM url_tech_results
-WHERE country_code = 'ICELAND'
+WHERE country_code = 'USA_EDU_MASTER'
 ORDER BY scanned_at DESC;
 ```
 

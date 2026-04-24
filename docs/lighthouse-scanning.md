@@ -3,8 +3,8 @@ title: Lighthouse Scanning
 layout: page
 ---
 
-This page describes how the project runs Google Lighthouse audits on European government
-websites to measure performance, accessibility, best practices, and SEO.
+This page describes how the project runs Google Lighthouse audits on United States higher-education
+institution websites to measure performance, accessibility, best practices, and SEO.
 
 👉 **[View the latest Lighthouse results →](lighthouse-results.md)**
 
@@ -13,7 +13,7 @@ websites to measure performance, accessibility, best practices, and SEO.
 ## Overview
 
 The Lighthouse scanner runs the [Google Lighthouse CLI](https://github.com/GoogleChrome/lighthouse)
-against each government page URL and extracts four headline category scores:
+against each scanned page URL and extracts four headline category scores:
 
 | Category | What it measures |
 |---|---|
@@ -24,8 +24,7 @@ against each government page URL and extracts four headline category scores:
 
 All scores are on a **0–100** scale (stored internally as 0.0–1.0).
 
-> PWA (Progressive Web App) audits are skipped — they are not relevant to EU
-> Web Accessibility Directive requirements and omitting them reduces per-URL
+> PWA (Progressive Web App) audits are skipped — they are not a current reporting priority for this project and omitting them reduces per-URL
 > scan time significantly.
 
 ---
@@ -41,19 +40,19 @@ npm install -g lighthouse
 # Chromium must also be available (pre-installed on ubuntu-latest GitHub runners)
 ```
 
-### Scan a single country
+### Scan a single seed
 
 ```bash
-python3 -m src.cli.scan_lighthouse --country ICELAND
+python3 -m src.cli.scan_lighthouse --country USA_EDU_MASTER
 ```
 
-### Scan all countries
+### Scan all seed files
 
 ```bash
 python3 -m src.cli.scan_lighthouse --all
 ```
 
-### Scan all countries with a runtime cap (recommended for CI)
+### Scan all seed files with a runtime cap (recommended for CI)
 
 ```bash
 python3 -m src.cli.scan_lighthouse \
@@ -69,9 +68,9 @@ python3 -m src.cli.scan_lighthouse \
 
 | Option | Default | Description |
 |---|---|---|
-| `--country CODE` | — | Country code to scan (e.g. `FRANCE`, `ICELAND`) |
-| `--all` | — | Scan all countries in the TOON directory |
-| `--toon-dir PATH` | `data/toon-seeds/countries` | Directory with `.toon` seed files |
+| `--country CODE` | — | Seed code to scan (e.g. `USA_EDU_MASTER`) |
+| `--all` | — | Scan all seed files in the TOON directory |
+| `--toon-dir PATH` | `data/toon-seeds` | Directory with `.toon` seed files |
 | `--rate-limit N` | `0.2` | Minimum gap (seconds⁻¹) between starting new Lighthouse processes |
 | `--concurrency N` | `1` | Maximum parallel Lighthouse processes.  `3` is a good default for CI. |
 | `--skip-recently-scanned-days N` | `0` | Skip URLs successfully scanned within the last N days.  `30` for a monthly refresh. |
@@ -88,7 +87,7 @@ The **Scan Lighthouse** workflow (`.github/workflows/scan-lighthouse.yml`) runs 
 every day at 03:00 UTC and can also be triggered manually from the Actions tab:
 
 1. Go to **Actions → Scan Lighthouse → Run workflow**
-2. Optionally enter a country code (leave blank to scan all countries)
+2. Optionally enter a seed code (leave blank to scan all seed files)
 3. Optionally adjust the rate limit, concurrency, and skip-recently-scanned-days
 
 ### Why daily?
@@ -146,7 +145,7 @@ Results are stored in the `url_lighthouse_results` table:
 | Column | Type | Description |
 |---|---|---|
 | `url` | TEXT | Page URL |
-| `country_code` | TEXT | Country identifier |
+| `country_code` | TEXT | Legacy field name for seed identifier |
 | `scan_id` | TEXT | Unique scan run ID |
 | `performance_score` | REAL | Performance score (0.0–1.0), NULL if not available |
 | `accessibility_score` | REAL | Accessibility score (0.0–1.0), NULL if not available |
@@ -161,7 +160,7 @@ Query example:
 ```sql
 SELECT url, accessibility_score * 100 AS accessibility
 FROM url_lighthouse_results
-WHERE country_code = 'ICELAND'
+WHERE country_code = 'USA_EDU_MASTER'
 ORDER BY accessibility_score DESC;
 ```
 
@@ -190,11 +189,11 @@ flowchart TD
 - **Parallelism:** Up to `--concurrency` Lighthouse processes run simultaneously, controlled
   by an `asyncio.Semaphore`.  The rate limit controls how quickly new processes are started.
 - **Speed flags:** `--only-categories performance,accessibility,best-practices,seo` skips the
-  PWA audit category (irrelevant for government sites) and `--throttling-method provided`
+  PWA audit category (not currently tracked in project summaries) and `--throttling-method provided`
   skips simulated slow-network throttling.  Together they reduce per-URL time from ~60–90 s
   to ~20–30 s.
 - **Skip recently scanned:** URLs successfully audited within the last N days are skipped,
-  so each run focuses on previously uncovered or overdue URLs.  Countries not yet scanned
+  so each run focuses on previously uncovered or overdue URLs.  Seed groups not yet scanned
   are prioritised.
 - Lighthouse requires **Chrome or Chromium** to be installed.  On GitHub Actions
   `ubuntu-latest` runners, Chromium is pre-installed.

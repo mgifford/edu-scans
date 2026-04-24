@@ -1,6 +1,6 @@
 # URL Validation GitHub Action
 
-This repository includes a GitHub Action workflow for validating government website URLs from TOON files.
+This repository includes a GitHub Action workflow for validating institution website URLs from TOON files.
 
 ## How to Trigger the Workflow
 
@@ -8,8 +8,8 @@ This repository includes a GitHub Action workflow for validating government webs
 2. Select **"Validate Government URLs"** from the workflows list
 3. Click **"Run workflow"**
 4. Configure the run:
-   - **Country**: (Optional) Enter a specific country code to validate (e.g., `ICELAND`, `FRANCE`, `BELGIUM`)
-     - Leave empty to validate all countries
+   - **Seed code**: (Optional) Enter a specific seed code to validate (e.g., `USA_EDU_MASTER`)
+     - Leave empty to validate all seed files
    - **Rate limit**: (Optional) Maximum requests per second (default: 2.0)
 5. Click **"Run workflow"** to start the validation
 
@@ -24,7 +24,7 @@ The workflow will:
    - Records redirects
    - Marks URLs that fail twice for removal
 3. **Generate report** - Creates a comprehensive markdown report with:
-   - Summary statistics by country
+   - Summary statistics by seed
    - Success rates
    - Detailed error information
    - List of URLs with issues
@@ -61,7 +61,7 @@ The validation report includes:
 
 ### Summary Table
 
-Shows for each country:
+Shows for each seed:
 - **Total URLs**: Number of URLs checked
 - **Valid**: URLs that responded successfully (HTTP 2xx)
 - **Invalid**: URLs that returned errors or non-2xx status
@@ -93,10 +93,10 @@ You can also run validations locally using the CLI:
 # Install dependencies
 pip install -r requirements.txt
 
-# Validate a specific country
-python3 -m src.cli.validate_urls --country ICELAND --rate-limit 2
+# Validate a specific seed file
+python3 -m src.cli.validate_urls --country USA_EDU_MASTER --rate-limit 2
 
-# Validate all countries
+# Validate all seed files
 python3 -m src.cli.validate_urls --all --rate-limit 2
 
 # Generate a report from the database
@@ -120,9 +120,9 @@ on:
 
 ### Workflow Times Out
 
-If validating all countries takes too long:
+If validating all seed files takes too long:
 - Increase the `timeout-minutes` value in the workflow
-- Run validations for individual countries instead of all at once
+- Run validations for individual seed files instead of all at once
 - Increase the `rate_limit` parameter (but be mindful of server load)
 
 ### High Failure Rate

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The URL validation scanner validates government website URLs from TOON files, tracking failures, redirects, and error codes. It supports quarterly validation runs and removes URLs that fail validation twice.
+The URL validation scanner validates institution website URLs from TOON files, tracking failures, redirects, and error codes. It supports quarterly validation runs and removes URLs that fail validation twice.
 
 ## Features
 
@@ -13,7 +13,7 @@ The URL validation scanner validates government website URLs from TOON files, tr
   - First failure: URL is noted but kept in the dataset
   - Second failure: URL is removed from the TOON file
 - **No retry in same session** - URLs are validated once per scan session
-- **Batch processing** - Can scan individual countries or all countries at once
+- **Batch processing** - Can scan individual seed files or all seed files at once
 
 ## Installation
 
@@ -27,22 +27,22 @@ pip install -r requirements.txt
 
 ### CLI Interface
 
-Validate URLs for a specific country:
+Validate URLs for a specific seed file:
 
 ```bash
-python3 -m src.cli.validate_urls --country iceland --rate-limit 2
+python3 -m src.cli.validate_urls --country USA_EDU_MASTER --rate-limit 2
 ```
 
-Validate all countries:
+Validate all seed files:
 
 ```bash
 python3 -m src.cli.validate_urls --all --rate-limit 2
 ```
 
 Options:
-- `--country <name>` - Specific country to scan (e.g., iceland, france)
-- `--all` - Scan all countries in the TOON directory
-- `--toon-dir <path>` - Directory containing TOON files (default: data/toon-seeds/countries)
+- `--country <name>` - Specific seed code to scan (e.g., USA_EDU_MASTER)
+- `--all` - Scan all seed files in the TOON directory
+- `--toon-dir <path>` - Directory containing TOON files (default: data/toon-seeds)
 - `--rate-limit <float>` - Maximum requests per second (default: 2.0)
 
 ## Output
@@ -54,12 +54,12 @@ The scanner creates updated TOON files with the suffix `_validated.toon` that:
 
 ## Quarterly Validation Workflow
 
-1. Run the scanner on all countries:
+1. Run the scanner on all seed files:
    ```bash
    python3 -m src.cli.validate_urls --all --rate-limit 2
    ```
 
-2. Review the statistics printed for each country
+2. Review the statistics printed for each seed file
 
 3. Use the validated TOON files for continued evaluation
 

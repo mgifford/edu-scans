@@ -10,7 +10,7 @@ The repository includes an automated system that monitors GitHub issues and trig
 
 1. **Issue Detection**: Every hour, a GitHub Actions workflow checks for open issues with specific title prefixes
 2. **Schedule Check**: Before running, the system checks whether the issue is due based on its prefix schedule and when it last ran. Issues that are not yet due are skipped without error.
-3. **Scan Execution**: When a trigger issue is found and is due, the system runs a URL validation scan across all countries
+3. **Scan Execution**: When a trigger issue is found and is due, the system runs a URL validation scan across all seed files
 4. **Time Budget**: Each run has a 50-minute budget. When approaching the limit, scanning stops early and a partial report is posted. The next hourly run will continue where it left off.
 5. **Report Generation**: After validation completes, a detailed report is posted as a comment to the issue
 6. **Issue Management**: 
@@ -92,7 +92,7 @@ MONDAYS: Start-of-week validation
 
 The system will post a detailed report including:
 - Summary statistics (total URLs, valid, invalid, etc.)
-- Per-country breakdown
+- Per-seed breakdown
 - Validation timestamp
 - Links to download full results
 
@@ -158,7 +158,7 @@ To trigger another one-time scan:
 
 **Timeout:** 60 minutes (workflow). The CLI uses a 50-minute budget, leaving a
 10-minute safety buffer. Each issue scan gets a share of that budget; if time
-runs low the scan stops early and the remaining countries are processed in the
+runs low the scan stops early and the remaining seed files are processed in the
 next hourly run.
 
 **Artifacts:**

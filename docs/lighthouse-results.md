@@ -14,7 +14,7 @@ _No Lighthouse scan data yet — stats update automatically after every scan run
 ## Overview
 
 The Lighthouse scanner runs the [Google Lighthouse CLI](https://github.com/GoogleChrome/lighthouse)
-against each government page URL and extracts four headline category scores:
+against each scanned page URL and extracts four headline category scores:
 
 | Category | What it measures |
 |---|---|
@@ -25,7 +25,7 @@ against each government page URL and extracts four headline category scores:
 
 All scores are on a **0–100** scale (stored internally as 0.0–1.0).
 
-> **Note:** PWA (Progressive Web App) audits are skipped for government sites because
+> **Note:** PWA (Progressive Web App) audits are skipped for this project because
 > they are not relevant to the EU Web Accessibility Directive requirements and omitting
 > them reduces per-URL scan time.
 
@@ -54,7 +54,7 @@ the [per-URL Lighthouse data (CSV)](lighthouse-data.csv).
 
 1. Go to [Actions → Scan Lighthouse](https://github.com/mgifford/edu-scans/actions/workflows/scan-lighthouse.yml)
 2. Click **Run workflow**
-3. Optionally enter a country code (e.g. `ICELAND`) or leave blank to scan all
+3. Optionally enter a seed code (e.g. `USA_EDU_MASTER`) or leave blank to scan all seed files
 4. Optionally adjust the rate limit, concurrency, and skip-recently-scanned-days parameters
 
 The scan runs automatically every day at 03:00 UTC.  With `--concurrency 3`
@@ -64,10 +64,10 @@ roughly 750–1,000 URLs while ensuring every URL is refreshed at least monthly.
 ### Via the command line
 
 ```bash
-# Scan a single country
-python3 -m src.cli.scan_lighthouse --country ICELAND
+# Scan a single seed
+python3 -m src.cli.scan_lighthouse --country USA_EDU_MASTER
 
-# Scan all countries (with a 110-minute runtime cap and 3 concurrent processes)
+# Scan all seed files (with a 110-minute runtime cap and 3 concurrent processes)
 python3 -m src.cli.scan_lighthouse \
   --all \
   --max-runtime 110 \

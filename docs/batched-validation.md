@@ -1,6 +1,6 @@
 # Batched URL Validation System
 
-This document explains the batched URL validation system designed to handle ~80k+ government URLs across 60 countries without exceeding GitHub Actions' 2-hour timeout limit.
+This document explains the batched URL validation system designed to handle ~80k+ institution URLs across many seed files without exceeding GitHub Actions' 2-hour timeout limit.
 
 ## Problem
 
@@ -23,7 +23,7 @@ The batched validation system breaks the work into small chunks that can be:
 
 1. **Batch Coordinator** (`src/services/batch_coordinator.py`)
    - Manages validation cycles and tracks progress
-   - Assigns countries to batches
+   - Assigns seed files to batches
    - Persists state in SQLite database
 
 2. **GitHub Issue Manager** (`src/services/github_issue_manager.py`)
@@ -33,7 +33,7 @@ The batched validation system breaks the work into small chunks that can be:
 
 3. **Batch CLI** (`src/cli/validate_urls_batch.py`)
    - Command-line interface for batch validation
-   - Processes countries in configurable batch sizes
+   - Processes seed files in configurable batch sizes
    - Integrates with coordinator and issue manager
 
 4. **Workflow Files**
@@ -47,7 +47,7 @@ The `validation_batch_state` table tracks cycle progress:
 ```sql
 CREATE TABLE validation_batch_state (
     cycle_id TEXT NOT NULL,           -- Format: YYYYMMDD-HHMMSS
-    country_code TEXT NOT NULL,       -- e.g., "FRANCE", "GERMANY"
+    country_code TEXT NOT NULL,       -- legacy field name; e.g., "USA_EDU_MASTER"
     status TEXT NOT NULL,             -- pending, processing, completed, failed
     started_at TEXT,                  -- ISO timestamp
     completed_at TEXT,                -- ISO timestamp
@@ -61,7 +61,7 @@ CREATE TABLE validation_batch_state (
 
 ### Manual Batch Validation
 
-Process the next 5 countries and create a GitHub issue:
+Process the next 5 seed files and create a GitHub issue:
 
 ```bash
 python3 -m src.cli.validate_urls_batch \
@@ -82,11 +82,11 @@ python3 -m src.cli.validate_urls_batch \
 
 ### Single Country Validation (Legacy)
 
-Validate a specific country:
+Validate a specific seed file:
 
 ```bash
 python3 -m src.cli.validate_urls_batch \
-  --country FRANCE \
+  --country USA_EDU_MASTER \
   --rate-limit 2.0
 ```
 
@@ -101,7 +101,7 @@ The system automatically:
 ### 1. Cycle Initiation
 
 When a new cycle starts:
-- All countries are initialized with `status = 'pending'`
+- All seed files are initialized with `status = 'pending'`
 - A GitHub issue is created to track progress
 - Cycle ID is generated (format: `YYYYMMDD-HHMMSS`)
 
@@ -110,16 +110,16 @@ When a new cycle starts:
 Every 2 hours:
 - Workflow runs via cron trigger
 - Downloads previous metadata DB from artifacts
-- Gets next N countries (default: 5) with `status = 'pending'`
+- Gets next N seed files (default: 5) with `status = 'pending'`
 - Marks them as `status = 'processing'`
-- Validates URLs for each country
+- Validates URLs for each seed file
 - Updates status to `completed` or `failed`
 - Updates GitHub issue with progress
 - Uploads metadata DB as artifact
 
 ### 3. Cycle Completion
 
-When all countries are complete:
+When all seed files are complete:
 - GitHub issue is automatically closed
 - Final statistics are reported
 - System waits for next quarterly cycle or manual restart
@@ -142,15 +142,15 @@ Status: 🟡 In Progress
 ### Batch Size
 
 Adjust based on:
-- Average URLs per country
+- Average URLs per seed file
 - Rate limiting settings
 - Desired completion time
 
-**Default**: 5 countries per batch (~1.5 hours with 2 req/sec)
+**Default**: 5 seed files per batch (~1.5 hours with 2 req/sec)
 
 ### Rate Limiting
 
-**Default**: 2.0 requests/second per country
+**Default**: 2.0 requests/second per seed file
 
 Configurable via:
 - CLI: `--rate-limit 5.0`
@@ -193,7 +193,7 @@ The system is fully resumable:
 - **State persists** in database artifact
 - **Workflow restarts** automatically every 2 hours
 - **Progress tracked** in GitHub issue
-- **Failed countries** can be retried in next cycle
+- **Failed seed files** can be retried in next cycle
 
 ## Cost Optimization
 
@@ -203,7 +203,7 @@ The system is fully resumable:
 
 ## Example Timeline
 
-For 60 countries with batch size 5:
+For 60 seed files with batch size 5:
 
 | Time | Batch | Countries | Status |
 |------|-------|-----------|--------|
@@ -214,7 +214,7 @@ For 60 countries with batch size 5:
 | T+22h | 12 | 5 | ✅ Completed |
 | T+24h | - | 60 | 🟢 Cycle Complete |
 
-**Total time**: ~24 hours to validate all 60 countries
+**Total time**: ~24 hours to validate all 60 seed files
 
 ## Troubleshooting
 
@@ -232,14 +232,14 @@ For 60 countries with batch size 5:
 
 ### Countries skipped
 
-- Check TOON files exist in `data/toon-seeds/countries/`
-- Verify country code matches filename
+- Check TOON files exist in `data/toon-seeds/`
+- Verify seed code matches filename
 - Check error messages in batch state table
 
 ## Future Improvements
 
-1. **Adaptive batch sizing**: Adjust based on URL count per country
-2. **Parallel processing**: Process multiple countries concurrently
-3. **Priority queuing**: Prioritize countries by update frequency
+1. **Adaptive batch sizing**: Adjust based on URL count per seed file
+2. **Parallel processing**: Process multiple seed files concurrently
+3. **Priority queuing**: Prioritize seed files by update frequency
 4. **Webhook notifications**: Alert on cycle completion
 5. **Web dashboard**: Real-time progress visualization

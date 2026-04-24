@@ -13,16 +13,15 @@ _No scan data yet — stats update automatically after every scan run._
 
 ## Overview
 
-This scan identifies **third-party JavaScript** loaded by government websites,
+This scan identifies **third-party JavaScript** loaded by institution websites,
 including analytics tags, tag managers, cookie-consent tools, CDNs, customer
 support widgets, and other externally hosted scripts.
 
-The goal is to make the external dependencies used across European government
-sites easier to inspect. This helps answer questions like:
+The goal is to make external dependencies across the current institution dataset easier to inspect. This helps answer questions like:
 
 - Which analytics or advertising vendors appear most often?
 - How common are third-party CDNs and consent managers?
-- Which countries lean more heavily on externally hosted web tooling?
+- Which seed groups lean more heavily on externally hosted web tooling?
 
 The scanner looks at every `<script src="...">` on a page, excludes
 same-origin scripts, and then tries to match known services such as Google Tag
@@ -40,28 +39,28 @@ Third-party JavaScript can affect:
 - **Security**: externally hosted libraries and widgets increase supply-chain
   risk.
 - **Resilience**: a page may depend on third-party infrastructure outside the
-  control of the public authority.
+  control of the institution.
 - **Performance**: extra scripts often increase page weight and network cost.
 
-This page gives an EU-wide view of those dependencies.
+This page gives a dataset-wide view of those dependencies.
 
 ---
 
 ## Usage
 
-### Scan a single country
+### Scan a single seed
 
 ```bash
-python3 -m src.cli.scan_third_party_js --country ICELAND --rate-limit 1.0
+python3 -m src.cli.scan_third_party_js --country USA_EDU_MASTER --rate-limit 1.0
 ```
 
-### Scan all countries
+### Scan all seed files
 
 ```bash
 python3 -m src.cli.scan_third_party_js --all --rate-limit 1.0
 ```
 
-### Scan all countries with a runtime cap
+### Scan all seed files with a runtime cap
 
 ```bash
 python3 -m src.cli.scan_third_party_js --all --max-runtime 110 --rate-limit 1.0
@@ -71,9 +70,9 @@ python3 -m src.cli.scan_third_party_js --all --max-runtime 110 --rate-limit 1.0
 
 | Option | Default | Description |
 |---|---|---|
-| `--country CODE` | — | Country code to scan (for example `FRANCE` or `ICELAND`) |
-| `--all` | — | Scan all countries in the TOON directory |
-| `--toon-dir PATH` | `data/toon-seeds/countries` | Directory with `.toon` seed files |
+| `--country CODE` | — | Seed code to scan (for example `USA_EDU_MASTER`) |
+| `--all` | — | Scan all seed files in the TOON directory |
+| `--toon-dir PATH` | `data/toon-seeds` | Directory with `.toon` seed files |
 | `--rate-limit N` | `1.0` | Maximum HTTP requests per second |
 | `--max-runtime N` | `0` (no limit) | Maximum runtime in minutes for graceful CI stops |
 
@@ -125,7 +124,7 @@ Results are stored in the `url_third_party_js_results` table:
 | Column | Type | Description |
 |---|---|---|
 | `url` | TEXT | Page URL |
-| `country_code` | TEXT | Country identifier |
+| `country_code` | TEXT | Legacy field name for seed identifier |
 | `scan_id` | TEXT | Unique scan run ID |
 | `is_reachable` | INTEGER | 1 = page fetched successfully |
 | `scripts` | TEXT | JSON array of third-party script records |
