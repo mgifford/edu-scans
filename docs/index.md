@@ -1,11 +1,11 @@
 ---
-title: EU Government Website Scans
+title: USA Higher-Education Website Scans
 layout: home
 ---
 
-This project discovers and catalogues how European (and allied) government websites
-use social media, whether their URLs are accessible, and what technology platforms
-power them, including which third-party JavaScript services they rely on.
+This project discovers and catalogs how United States higher-education institutions
+using `.edu` domains publish accessibility statements, maintain reachable URLs,
+and use modern web technologies and third-party JavaScript.
 
 ## Current Scan Progress
 
@@ -18,25 +18,25 @@ _Progress as of 2026-04-24 21:51 UTC_
 | **Combined Reachability** | **27 confirmed reachable** | **<span role="img" aria-label="0.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.7%</span></span>** |
 | Social Media | 38 scanned (27 reachable) | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
 
-**1 countries** with scan data · **27** of **3,763** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
+This section is refreshed automatically by workflows. See the [Scan Progress Report](scan-progress.md) for full details.
 
 <!-- SCAN_PROGRESS_END -->
 
 ## Latest Scan Results
 
-- **[Scan Progress Report](scan-progress.md)** — The best place to start for overall coverage, scan status, and country-level comparisons across the project.
-- **[Social Media](social-media.md)** — Government use of legacy and open social platforms, with evidence behind the published counts.
-- **[Accessibility Statements](accessibility-statements.md)** — Country-by-country evidence showing which pages do and do not publish accessibility statements.
-- **[Technology Scanning](technology-scanning.md)** — Detected CMSs, frameworks, analytics tools, and other software found on government sites.
-- **[Third-Party JavaScript](third-party-tools.md)** — External scripts, services, and hosted dependencies loaded by government pages.
+- **[Scan Progress Report](scan-progress.md)** — Overall coverage, scan status, and seed-level comparisons across the project.
+- **[Social Media](social-media.md)** — Institutional use of social platforms, with evidence behind the published counts.
+- **[Accessibility Statements](accessibility-statements.md)** — Evidence showing which pages do and do not publish accessibility statements.
+- **[Technology Scanning](technology-scanning.md)** — Detected CMSs, frameworks, analytics tools, and other software found on institution websites.
+- **[Third-Party JavaScript](third-party-tools.md)** — External scripts, services, and hosted dependencies loaded by scanned pages.
 - **[Lighthouse Scanning](lighthouse-scanning.md)** — Google Lighthouse methodology, workflow details, and page-level quality scores as they are collected.
-- **[Government Domains](domains.md)** — The tracked source dataset: government domains and page URLs used as the input for scans, grouped by country.
+- **[Institution Domains](domains.md)** — The tracked source dataset: institution domains and page URLs used as scan inputs.
 
 ## What We Track
 
 ### Social Media Presence
 
-We check government pages for links to legacy and open social platforms, then classify what was found at page and country level.
+We check institution pages for links to social platforms, then classify what was found at page and seed level.
 
 See **[Social Media](social-media.md)** for platform coverage, tier definitions, and downloadable evidence.
 
@@ -44,33 +44,33 @@ See **[Social Media](social-media.md)** for platform coverage, tier definitions,
 
 We validate tracked URLs, follow redirects, and monitor persistent failures so the source dataset stays current.
 
-See **[Scan Progress Report](scan-progress.md)** for current validation coverage and country-level results.
+See **[Scan Progress Report](scan-progress.md)** for current validation coverage and seed-level results.
 
 ### Technology Detection
 
-We detect the CMS, framework, analytics, hosting, and other technologies used by government sites.
+We detect the CMS, framework, analytics, hosting, and other technologies used by institution websites.
 
-See **[Technology Scanning](technology-scanning.md)** for the detected technologies and country tables.
+See **[Technology Scanning](technology-scanning.md)** for the detected technologies and seed-level tables.
 
 ### Third-Party JavaScript
 
 We track externally hosted scripts and services such as analytics tags, consent tools, CDNs, shared JavaScript libraries, and support widgets.
 
-See **[Third-Party JavaScript](third-party-tools.md)** for the EU-wide breakdown and evidence exports.
+See **[Third-Party JavaScript](third-party-tools.md)** for the current breakdown and evidence exports.
 
 ### Lighthouse Audits
 
-We run Google Lighthouse on each government page and record five quality scores:
+We run Google Lighthouse on each scanned page and record five quality scores:
 performance, accessibility, best practices, SEO, and PWA compliance (0–100 scale).
 
 See **[Lighthouse Scanning](lighthouse-scanning.md)** for full details.
 
-## Countries Covered
+## Coverage Scope
 
-The dataset covers **all EU member states** plus selected allied nations:
-United Kingdom, Switzerland, Iceland, Norway, and Canada.
+The dataset currently targets **United States higher-education institutions**
+that use `.edu` domains.
 
-See **[Government Domains](domains.md)** for the full domain and page-url source list per country.
+See **[Institution Domains](domains.md)** for the full source domain and page URL list.
 
 ## How the Scans Work
 
@@ -78,10 +78,10 @@ Scans run automatically on a schedule via **GitHub Actions**:
 
 | Scan | Schedule | Priority |
 |------|----------|----------|
-| Social Media | Every 3 hours | **Highest** — confirms reachability *and* collects social-link data in one pass |
-| Technology Detection | On demand | Medium — run manually for new countries |
-| URL Validation | Every 12 hours | Lowest — lightweight redirect/404 check; skipped for pages already confirmed reachable within 30 days |
-| Lighthouse Audits | Weekly (Sundays 04:00 UTC) | Medium — slow per-URL (~5 s); weekly cadence keeps data fresh without overloading servers |
+| Social Media | Every 2 hours | **Highest** — confirms reachability and collects social-link data in one pass |
+| Technology Detection | Every 4 hours | Medium |
+| URL Validation | Every 12 hours | Lowest — lightweight redirect/404 checks; skipped for recently validated URLs |
+| Lighthouse Audits | Daily | Medium — slower per URL, so scanned progressively |
 | Scan Progress Report | After every scan | — |
 
 After each scan run, this site is automatically updated with the latest results.
@@ -90,7 +90,7 @@ After each scan run, this site is automatically updated with the latest results.
 
 Each GitHub Actions scan run uploads its results as a downloadable artifact:
 
-1. Go to [GitHub Actions](https://github.com/mgifford/eu-plus-government-scans/actions)
+1. Go to [GitHub Actions](https://github.com/mgifford/edu-scans/actions)
 2. Click the relevant workflow
 3. Open a completed run and scroll to the **Artifacts** section
 4. Download the artifact to inspect the database, annotated TOON files, and scan logs
@@ -99,9 +99,9 @@ Each GitHub Actions scan run uploads its results as a downloadable artifact:
 
 ## Source Code & Data
 
-- [GitHub Repository](https://github.com/mgifford/eu-plus-government-scans)
-- [GitHub Actions Workflows](https://github.com/mgifford/eu-plus-government-scans/actions)
-- [Accessibility Statement](https://github.com/mgifford/eu-plus-government-scans/blob/main/ACCESSIBILITY.md)
+- [GitHub Repository](https://github.com/mgifford/edu-scans)
+- [GitHub Actions Workflows](https://github.com/mgifford/edu-scans/actions)
+- [Accessibility Statement](https://github.com/mgifford/edu-scans/blob/main/ACCESSIBILITY.md)
 
 ---
 

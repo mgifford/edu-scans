@@ -1,8 +1,8 @@
-title: EU Government Website Scans
+title: USA Higher-Education Website Scans
 description: >-
-  Accessibility statement discovery and social media usage tracking
-  for European (and allied) government websites.
-baseurl: "/eu-plus-government-scans"
+  Accessibility statement discovery and website scanning
+  for United States higher-education institutions on .edu domains.
+baseurl: "/edu-scans"
 url: "https://mgifford.github.io"
 
 # Theme - minima is the default GitHub Pages supported theme
