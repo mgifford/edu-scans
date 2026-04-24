@@ -6,11 +6,11 @@ on:
   schedule:
     - cron: '30 */6 * * *'
 
-  # Allow manual trigger for a single country or all countries
+  # Allow manual trigger for a single seed code or all seed files.
   workflow_dispatch:
     inputs:
       country:
-        description: 'Country code to scan (e.g., ICELAND, FRANCE) — leave empty for all'
+        description: 'Seed code to scan (legacy --country flag, e.g., TEXAS) — leave empty for all seed files'
         required: false
         type: string
       rate_limit:
@@ -73,7 +73,7 @@ jobs:
           run-id: ${{ steps.find-metadata.outputs.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run third-party JS scan (specific country)
+      - name: Run third-party JS scan (selected seed)
         if: ${{ github.event.inputs.country != '' }}
         run: |
           python3 -m src.cli.scan_third_party_js \
@@ -81,7 +81,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit }}" \
             2>&1 | tee 3pjs-scan-output.txt
 
-      - name: Run third-party JS scan (all countries)
+      - name: Run third-party JS scan (all seed files)
         if: ${{ github.event.inputs.country == '' || github.event_name == 'schedule' }}
         run: |
           python3 -m src.cli.scan_third_party_js \
@@ -98,7 +98,7 @@ jobs:
           path: |
             data/metadata.db
             3pjs-scan-output.txt
-            data/toon-seeds/countries/**_3pjs.toon
+            data/toon-seeds/**/*_3pjs.toon
           retention-days: 90
           if-no-files-found: warn
 

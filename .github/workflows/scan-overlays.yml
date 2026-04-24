@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       country:
-        description: 'Country code to scan (e.g., ICELAND, FRANCE) — leave empty for all'
+        description: 'Seed code to scan (legacy --country flag, e.g., TEXAS) — leave empty for all seed files'
         required: false
         type: string
       rate_limit:
@@ -70,7 +70,7 @@ jobs:
           run-id: ${{ steps.find-metadata.outputs.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run overlay scan (specific country)
+      - name: Run overlay scan (selected seed)
         if: ${{ github.event.inputs.country != '' }}
         run: |
           python3 -m src.cli.scan_overlays \
@@ -78,7 +78,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit }}" \
             2>&1 | tee overlay-scan-output.txt
 
-      - name: Run overlay scan (all countries)
+      - name: Run overlay scan (all seed files)
         if: ${{ github.event.inputs.country == '' }}
         run: |
           python3 -m src.cli.scan_overlays \
@@ -95,7 +95,7 @@ jobs:
           path: |
             data/metadata.db
             overlay-scan-output.txt
-            data/toon-seeds/countries/**_overlays.toon
+            data/toon-seeds/**/*_overlays.toon
           retention-days: 90
           if-no-files-found: warn
 

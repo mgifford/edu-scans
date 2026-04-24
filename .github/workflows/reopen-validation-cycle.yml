@@ -65,4 +65,4 @@ jobs:
           echo "A new quarterly validation cycle has been initiated." >> $GITHUB_STEP_SUMMARY
           echo "Check the created GitHub issue for progress tracking." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "The batch validation workflow will continue processing countries every 2 hours." >> $GITHUB_STEP_SUMMARY
+          echo "The batch validation workflow will continue processing seed groups every 2 hours." >> $GITHUB_STEP_SUMMARY

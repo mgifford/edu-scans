@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       country:
-        description: 'Specific country code to validate (e.g., ICELAND, FRANCE) or leave empty for all'
+        description: 'Specific seed code to validate (legacy --country flag, e.g., TEXAS) or leave empty for all seed files'
         required: false
         type: string
       rate_limit:
@@ -53,7 +53,7 @@ jobs:
           name: validation-metadata
           path: data/
       
-      - name: Run URL validation (specific country)
+      - name: Run URL validation (selected seed)
         if: ${{ github.event.inputs.country != '' }}
         run: |
           python3 -m src.cli.validate_urls \
@@ -62,7 +62,7 @@ jobs:
             --skip-recently-validated-days "${{ github.event.inputs.skip_recently_validated_days || '30' }}" \
             2>&1 | tee validation-output.txt
       
-      - name: Run URL validation (all countries)
+      - name: Run URL validation (all seed files)
         if: ${{ github.event.inputs.country == '' }}
         run: |
           # --max-runtime 110 leaves a 10-minute safety buffer before the

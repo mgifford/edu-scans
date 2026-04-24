@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: 'Number of countries per batch'
+        description: 'Number of seed groups per batch'
         required: false
         default: '4'
         type: string
@@ -29,7 +29,7 @@ on:
         default: 'true'
         type: boolean
       reset_failed:
-        description: 'Re-queue previously failed countries so they are retried in this run'
+        description: 'Re-queue previously failed seed groups so they are retried in this run'
         required: false
         default: 'false'
         type: boolean
@@ -120,7 +120,7 @@ jobs:
             CMD="$CMD --create-issue"
           fi
           
-          # Reset failed countries back to pending so they are retried
+          # Reset failed seed groups back to pending so they are retried
           if [ "$RESET_FAILED" = "true" ]; then
             CMD="$CMD --reset-failed"
           fi
@@ -165,6 +165,6 @@ jobs:
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Batch Processing Info" >> $GITHUB_STEP_SUMMARY
-          echo "- Batch Size: ${{ github.event.inputs.batch_size || '4' }} countries" >> $GITHUB_STEP_SUMMARY
+          echo "- Batch Size: ${{ github.event.inputs.batch_size || '4' }} seed groups" >> $GITHUB_STEP_SUMMARY
           echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '2.0' }} req/sec" >> $GITHUB_STEP_SUMMARY
           echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
