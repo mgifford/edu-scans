@@ -1,0 +1,176 @@
+parent_institution,institution_count,institution_names,domains,source_types
+:: Thomas Jefferson University : Jefferson Medical College : Jefferson College of Graduate Studies : Jefferson,1,:: Thomas Jefferson University : Jefferson Medical College : Jefferson College of Graduate Studies : Jefferson School of Health Profession : Jefferson School of Nursing : Jefferson School of Pharmacy : Jefferson School of Population Health ::,jefferson.edu;jeffersonlaw.edu;jeffersonstate.edu;tju.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+::AKKINENI NAGESWARA RAO COLLEGE,1,"::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::",anrcollege.edu,academic_domains;edu_inventory
+::Institute of Productivity & Management,1,"::Institute of Productivity & Management, INDIA::",ipm.edu,academic_domains;edu_inventory
+A Christian Bible College in Kansas City,1,"A Christian Bible College in Kansas City, Missouri",calvary.edu,academic_domains;edu_inventory;swot
+Alameda Beauty College & Beauty,1,Alameda Beauty College & Beauty School Of Cosmetology â Bay Area,alamedabeautycollege.edu;alameenmedical.edu,academic_domains;edu_inventory
+All India Institute of Medical Sciences,1,"All India Institute of Medical Sciences, New Delhi, INDIA",aiims.edu;aiit.edu,academic_domains;edu_inventory
+Alpena Community College,1,"Alpena Community College, Alpena, Michigan, USA",alpenacc.edu;alphagroup.edu,academic_domains;edu_inventory;hipo
+American InterContinental University â AIU South Florida,1,American InterContinental University â AIU South Florida Campus Homepage,aiufl.edu,academic_domains;edu_inventory
+American University,1,American University College of Technology,aut.edu,academic_domains;edu_inventory;swot
+Arellano University,1,Arellano University School of Law,arellanolaw.edu,academic_domains;edu_inventory
+Argosy University,1,"Argosy University, Sarasota",sarasota.edu;sarasotaschoolofmassagetherapy.edu,academic_domains;edu_inventory
+Arkansas State University,3,"Arkansas State University, Beebe;Arkansas State University, Mountain Home;Arkansas State University, Newport",asub.edu;asumh.edu;asun.edu,academic_domains;edu_inventory;hipo;swot
+Armstrong Atlantic State University Savannah,1,"Armstrong Atlantic State University Savannah, GA",armstrong.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Asian Institute of Medical Studies,1,"Asian Institute of Medical Studies, a School of Acupuncture and Oriental Medicine in Tucson",asianinstitute.edu,edu_inventory
+Atlanta University Center Consortium,1,"Atlanta University Center Consortium, Inc.",aucenter.edu;aucmed.edu;aucnyo.edu;auctr.edu,academic_domains;edu_inventory;swot
+Atria Institute of Technology,1,"Atria Institute of Technology, Bangalore, India",atria.edu,academic_domains;edu_inventory
+Avinashilingam University for Women,1,"Avinashilingam University for Women, Coimbatore, India",avinashilingam.edu;avtec.edu,academic_domains;edu_inventory
+B.P. Koirala Institute of Health Sciences,1,"B.P. Koirala Institute of Health Sciences, Dharan, Nepal",bpkihs.edu,academic_domains;edu_inventory;swot
+Barry University,2,"Barry University, Miami Shores, Florida;Barry University, Miami Shores, Florida",barry.edu;barstow.edu;barton.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Belmont Abbey College,1,"Belmont Abbey College, Charlotte, NC",bac.edu;belmontabbeycollege.edu,academic_domains;edu_inventory;swot
+Benedictine University,1,"Benedictine University, Springfield College in Illinois",sci.edu,academic_domains;edu_inventory;swot
+Bethel College,1,"Bethel College, Mishawaka IN",bethelcollege.edu,academic_domains;edu_inventory
+Bishop State Community College â Mobile,1,"Bishop State Community College â Mobile, Alabama",bishop.edu,academic_domains;edu_inventory;hipo
+Bridgewater State University,1,"Bridgewater State University, Bridgewater, Massachusetts",bridgew.edu,academic_domains;edu_inventory;hipo;swot
+Broward College,1,"Broward College, formerly Broward Community College",broward.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Bryan College Sacramento California,1,Bryan College Sacramento California Campus,bryancollege.edu,academic_domains;edu_inventory
+Business College Johnstown,1,"Business College Johnstown, Indiana, Pennsylvania, Cambria County,",crbc.edu,edu_inventory
+California Polytechnic State University,2,"California Polytechnic State University - San Luis Obispo;California Polytechnic State University, Pomona",calpoly.edu;cpp.edu,academic_domains;hipo;node_university_domains;swot
+California State Polytechnic University,1,California State Polytechnic University - Pomona,csupomona.edu,academic_domains;edu_inventory;node_university_domains;swot
+California State University,16,"California State University Channel Islands (CSUCI);California State University, Bakersfield;California State University, Dominguez Hills;California State University, Fresno;California State University, Fullerton;California State University, Hayward;California State University, Long Beach;California State University, Los Angeles;California State University, Monterey Bay;California State University, Northridge;California State University, Sacramento;California State University, San Bernardino;California State University, San Jose;California State University, San Marcos;California State University, Stanislaus;Welcome to Chicago State University",calstatela.edu;csub.edu;csubak.edu;csuchico.edu;csuci.edu;csudh.edu;csufresno.edu;csuhayward.edu;csulb.edu;csumb.edu;csun.edu;csus.edu;csusb.edu;csusm.edu;csustan.edu;fresnostate.edu;fullerton.edu;monterey.edu;sjsu.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Central Methodist University in Fayette,1,"Central Methodist University in Fayette, Missouri",centralmethodist.edu,academic_domains;edu_inventory
+Chatham University,2,"Chatham University, Pittsburgh, PA;Chatham University, Pittsburgh, PA",chatham.edu;chattahoocheetech.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester,2,"Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire;Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire",chestercollege.edu;cheyney.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Christ University,1,"Christ University, Bangalore, Karnataka",christcollege.edu,academic_domains;edu_inventory
+Christian Life College,3,"Christian Life College, Stockton, California;Christian Life College, Stockton, California;Christian Life College, Stockton, California",clc.edu;clcillinois.edu;clcmn.edu,academic_domains;edu_inventory;hipo
+City University of New York,1,"City University of New York, Queens College",qc.edu,academic_domains;edu_inventory;swot
+Colgate is a nationally recognized liberal arts college set on a beautiful,2,Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.;Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.,colgate.edu;colin.edu;colleenoharasbeautyacademy.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Colorado State University,1,Colorado State University - Global Campus,csuglobal.edu,academic_domains;hipo
+Community College of Denver,1,"Community College of Denver, CCD",ccd.edu,academic_domains;edu_inventory;hipo
+Concordia College,5,"Concordia College - Moorhead;Concordia College - St. Paul;Concordia College, Bronxville;Concordia College, Moorhead, Minn.;Concordia University Nebraska",concordia-ny.edu;concordiacollege.edu;concordiaselma.edu;cord.edu;csp.edu;cune.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Concordia University,4,"Concordia University Texas Home Page;Concordia University Wisconsin;Concordia University, Irvine;Concordia University, Portland",christ.edu;concordia.edu;cu-portland.edu;cuaa.edu;cui.edu;cuim.edu;cuis.edu;cula.edu;culinary.edu;cuw.edu,academic_domains;edu_inventory;hipo;swot
+Digital University of America + Peace University,1,"Digital University of America + Peace University, USA",digital.edu,academic_domains;edu_inventory
+Distance Learning Courses and Programs at Warnborough College at Bachelors,1,"Distance Learning Courses and Programs at Warnborough College at Bachelors, Masters, and PhD levels",warnborough.edu,academic_domains;edu_inventory;swot
+Drexel University,1,Drexel University College of Medicine,drexelmed.edu;dri.edu,academic_domains;edu_inventory
+Eastern New Mexico University-Roswell,1,Eastern New Mexico University-Roswell Campus,enmu.edu;eoccc.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Eastern Oklahoma State College,1,"Eastern Oklahoma State College, Premier Community College",eosc.edu,academic_domains;edu_inventory;hipo
+Edmonds Community College,1,"Edmonds Community College, Washington",edcc.edu;edcparis.edu,academic_domains;edu_inventory;hipo
+Embry Riddle Aeronautical University,1,"Embry Riddle Aeronautical University, Prescott",embryriddle.edu;erau.edu,academic_domains;hipo;node_university_domains;swot
+Emmanuel College,1,"Emmanuel College, Boston",ec.edu;ecam.edu;emmanuel.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Everest Institute,1,Everest Institute Campus Locations,everestinstitute.edu,academic_domains;edu_inventory
+Everest University,2,Everest University Campus Locations;Everest University Campus Locations,everestuniversity.edu;everett.edu;everettcc.edu;evergladesuniversity.edu,academic_domains;edu_inventory;hipo
+Fergusson College,1,"Fergusson College, Pune",fergusson.edu;fernbank.edu,academic_domains;edu_inventory
+Five Colleges,1,"Five Colleges, Incorporated",fivecolleges.edu;fivetowns.edu;fivetownscollege.edu;fje.edu,academic_domains;edu_inventory
+Futures Inspired l Holyoke Community College,2,"Futures Inspired l Holyoke Community College, Holyoke, MA;Futures Inspired l Holyoke Community College, Holyoke, MA",hcc.edu;hccc.edu,academic_domains;edu_inventory;hipo
+Galen College,1,"Galen College, Nursing Schools, Nursing Degrees",galencollege.edu,academic_domains;edu_inventory;hipo
+Gibbs College  Boston,1,"Gibbs College  Boston, Massachusetts",gibbsboston.edu,edu_inventory
+Glendale University,1,Glendale University College of Law,gccaz.edu;glendale.edu;glendalelaw.edu;glenoaks.edu,academic_domains;edu_inventory;hipo;swot
+Globe University & Minnesota,1,Globe University & Minnesota School of Business,msbcollege.edu,academic_domains;hipo
+Gonzaga University,1,"Gonzaga University, Spokane Washington",gonzaga.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Grand Canyon University is a private Christian University in Phoenix,1,"Grand Canyon University is a private Christian University in Phoenix, AZ",gcu.edu;gcuniv.edu;gda.edu;gdn.edu;geisinger.edu;grand-canyon.edu,academic_domains;edu_inventory;hipo;swot
+Harper College,1,"Harper College, Palatine, Il",harpercollege.edu,academic_domains;edu_inventory;hipo
+Heald College Honolulu,1,"Heald College Honolulu, Hawaii",healdhon.edu,edu_inventory
+Health Career Institute,1,"Health Career Institute, Home Page",hci.edu,academic_domains;edu_inventory
+Hellenic College and Holy Cross Greek Orthodox,1,Hellenic College and Holy Cross Greek Orthodox School of Theology,hchc.edu,academic_domains;edu_inventory
+Holy Names University,1,"Holy Names University, Oakland CA",hnu.edu,academic_domains;edu_inventory
+Home » Saint Mary\'s College,1,"Home » Saint Mary\'s College, Notre Dame, IN",saintmarys.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Indian Institute of Ecology and Environment,1,"Indian Institute of Ecology and Environment, New Delhi",ecology.edu,academic_domains;edu_inventory
+Indiana Wesleyan University,1,"Indiana Wesleyan University, Marion",indwes.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+INSTITUTE OF THERAPEUTIC MASSAGE LIMA,1,"INSTITUTE OF THERAPEUTIC MASSAGE LIMA, OHIO",iotm.edu,academic_domains;edu_inventory
+Itawamba Community College in Northeast Mississippi (Fulton,1,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",iccms.edu,academic_domains;edu_inventory;hipo
+Ithaca College,1,"Ithaca College, Ithaca, NY",ithaca.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Jacksonville College-Main,1,Jacksonville College-Main Campus,jacksonville-college.edu,academic_domains;hipo
+Jawaharlal Nehru Medical College,1,"Jawaharlal Nehru Medical College, K.L.E University, Belgaum.",jnmc.edu,academic_domains;edu_inventory
+Jump Start Your Education at Berkshire Community College,1,"Jump Start Your Education at Berkshire Community College, Massachusetts",berkshirecc.edu;berlitz.edu,academic_domains;edu_inventory;hipo
+Kilian Community College – An affordable University in Sioux Falls,1,"Kilian Community College – An affordable University in Sioux Falls, South Dakota",kilian.edu,academic_domains;edu_inventory;hipo
+Kongu Engineering College,1,"Kongu Engineering College, Perundurai",kongu.edu,academic_domains;edu_inventory
+Lake Erie College,1,"Lake Erie College, An Outstanding Educational Experience.",lakeerie.edu;lec.edu,academic_domains;edu_inventory;swot
+Lee College,1,"Lee College, Baytown, Texas",lee.edu;leecollege.edu;leeds.edu,academic_domains;edu_inventory;hipo
+Lynchburg College in Lynchburg,1,"Lynchburg College in Lynchburg, Virginia",lynchburg.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Lynn University,1,"Lynn University, Boca Raton, Florida",lynn.edu,academic_domains;edu_inventory;hipo;swot
+Macon State College in Macon and Warner Robins,1,"Macon State College in Macon and Warner Robins, GA",maconstate.edu;macquarie.edu,academic_domains;edu_inventory
+Maryland Institute,1,"The Maryland Institute, College of Art",mica.edu,academic_domains;hipo;swot
+Marymount College Rancho Palos Verdes,2,"Marymount College Rancho Palos Verdes, California;Marymount College Rancho Palos Verdes, California",marymountpv.edu;maryville.edu,academic_domains;edu_inventory;hipo
+McHenry County College,1,"McHenry County College, Crystal Lake, Illinois",mchenry.edu,academic_domains;edu_inventory;hipo
+Mendocino College,1,"Mendocino College, Ukiah California",mendocino.edu,academic_domains;edu_inventory;hipo
+Michigan State University. Est. 1855. East Lansing,2,"Michigan State University. Est. 1855. East Lansing, Michigan USA.;Michigan State University. Est. 1855. East Lansing, Michigan USA.",msu.edu;msubillings.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Minnesota State University,1,"Minnesota State University, Mankato",mnsu.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Mission College,1,"Mission College, Santa Clara, California",missioncollege.edu;mississippi.edu,academic_domains;edu_inventory;hipo
+Mohammad Ali Jinnah University,1,"Mohammad Ali Jinnah University, Karachi",jinnah.edu,academic_domains;edu_inventory;swot
+Mount Holyoke College,1,"Mount Holyoke College, South Hadley, Massachusetts",mtholyoke.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Mount Saint Mary College,1,"Mount Saint Mary College, Newburgh",msmc.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Naropa University,1,"Naropa University, Boulder, Colorado",naropa.edu,academic_domains;edu_inventory;swot
+Nebraska Methodist College (The Josie Harper,1,Nebraska Methodist College of Nursing and Allied Health,methodistcollege.edu;metnet.edu,academic_domains;edu_inventory;swot
+Northwestern College-Chicago,1,Northwestern College-Chicago Campus,northwesterncollege.edu,academic_domains;hipo
+Nova Southeastern University (NSU) a Private,1,"Nova Southeastern University (NSU) a Private, Research University",nova.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Oakland City University (OCU)  Oakland City,1,"Oakland City University (OCU)  Oakland City, Indiana",oak.edu,academic_domains;edu_inventory;swot
+Ohio State University,1,Ohio State University Agricultural Technical Institute,osu.edu,academic_domains;hipo;node_university_domains
+Ohio University,1,Welcome to Ohio University,ohiou.edu,academic_domains;edu_inventory;node_university_domains;swot
+Online University,1,"Online University, Online Degree Programs",coloradotech.edu;ctuonline.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Online University Degrees and,1,Online University Degrees and Campus Learning Education,hamiltonia.edu,academic_domains;edu_inventory
+Pacific College,1,"Pacific College, Acupuncture and Massage School",pacificcollege.edu,academic_domains;edu_inventory
+Paine College. Augusta,1,"Paine College. Augusta, GA.",paine.edu;pakaims.edu;palau.edu,academic_domains;edu_inventory;hipo;swot
+Pennsylvania Institute of Technology,2,"Pennsylvania Institute of Technology, Media, PA;Pennsylvania Institute of Technology, Media, PA",pit.edu;pitc.edu;pitt.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Pennsylvania State University,1,Pennsylvania State University - Schuylkill Campus,psu.edu,academic_domains;hipo;node_university_domains;swot
+Pomona College in Claremont,1,"Pomona College in Claremont, California",pomona.edu;pontotoctech.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Quinnipiac University  Hamden,1,"Quinnipiac University  Hamden, Connecticut",quinnipiac.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Rainy River Community College,1,"Rainy River Community College, International Falls Minnesota",rainyriver.edu;raiuniversity.edu;rajabhat.edu,academic_domains;edu_inventory
+Regis College,1,"Regis College, Massachusetts",regiscollege.edu;rei.edu;reinhardt.edu;remingtonadmin.edu;remingtoncollege.edu,academic_domains;edu_inventory;swot
+Ross University,1,"Ross University, School of Medicine",rossmed.edu;rossu.edu,academic_domains;edu_inventory;swot
+Ruparel College of arts,1,"Ruparel College of arts, science and commerce",ruparel.edu,academic_domains;edu_inventory
+Rutgers University,1,"Rutgers, The State University of New Jersey",rutgers.edu,academic_domains;hipo;node_university_domains;swot
+Saba University,1,Saba University School of Medicine,saba.edu;sabanci.edu,academic_domains;edu_inventory
+Samford University,1,"Samford University, Birmingham, Alabama",samford.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Schiller International University,1,"Schiller International University, Madrid",schiller.edu;schillermadrid.edu;schillingdouglas.edu,academic_domains;edu_inventory;hipo;swot
+Seton Hall University,1,"Seton Hall University, New Jersey",shu.edu;shueyan.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Shasta College,2,"Shasta College, Redding CA, Community College;Shasta College, Redding CA, Community College",shastacollege.edu;shawnee.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Shifa College of Medicine & Nursing,1,"Shifa College of Medicine & Nursing, Islamabad, Pakistan.",shifacollege.edu,edu_inventory
+Southeastern Baptist College,1,"Southeastern Baptist College, Laurel, Mississippi",southeasternbaptist.edu,academic_domains;edu_inventory;swot
+Southern Arkansas University â Magnolia,1,"Southern Arkansas University â Magnolia, Ark.",saumag.edu,academic_domains;edu_inventory;swot
+Southern Polytechnic State University Marietta,1,"Southern Polytechnic State University Marietta, Georgia",spsu.edu,academic_domains;edu_inventory;swot
+Southwestern College in Winfield,1,"Southwestern College in Winfield, KS",sckans.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Southwestern University,1,Southwestern University School of Law,swlaw.edu,academic_domains;swot
+St. Francis College,2,"St. Francis College, Fort Wayne;St. Francis College, Loretto",sfc.edu;sfcpa.edu;stfranciscollege.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+St. Luke\'s College,1,"St. Luke\'s College, Sioux City, Iowa",stlukescollege.edu,academic_domains;edu_inventory
+St. Olaf College—A private liberal arts,1,St. Olaf College—A private liberal arts college of the Lutheran church in Minnesota,stolaf.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+St.Joseph\'s College (Autonomous),1,"St.Joseph\'s College (Autonomous), Trichy, Tamilnadu.",sjctni.edu;sjeccd.edu,academic_domains;edu_inventory
+State College of Florida,1,"State College of Florida, Manatee",scf.edu,academic_domains;edu_inventory
+State University of New York,5,State University of New York College of Agriculture and Technology at Cobleskill;State University of New York College of Environmental Science and Forestry;State University of New York College of Optometry;State University of New York College of Technology at Alfred;State University of New York College of Technology at Farmingdale,alfredtech.edu;cobleskill.edu;esf.edu;farmingdale.edu;sunyopt.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Stony Brook University,1,"Stony Brook University, Stony Brook, New York",stonybrook.edu;sunysb.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Swinburne University of Technology,1,"Swinburne University of Technology, Melbourne, Australia",swinburne.edu,academic_domains;edu_inventory
+Symbiosis Institute of Media & Communication,1,"Symbiosis Institute of Media & Communication, SIMC",simc.edu,academic_domains;edu_inventory
+The Global Open University,1,"The Global Open University,Education For All",tgouwp.edu,academic_domains;edu_inventory
+The University of Arizona,1,"The University of Arizona, Tucson, Arizona",arizona.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+The University of Chicago Booth,1,The University of Chicago Booth School of Business,chicagobooth.edu;chicagogsb.edu,academic_domains;edu_inventory
+The University of Melbourne,1,"The University of Melbourne, Melbourne, Victoria, Australia",melbourne.edu,academic_domains;edu_inventory
+The University of the West Indies at St. Augustine,1,"The University of the West Indies at St. Augustine, Trinidad and Tobago",uwivet.edu,academic_domains;edu_inventory
+Trine University,1,"Trine University, Angola IN",trine.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Trinity International University (Excel),1,"Trinity International University (Excel), Miami",tiu.edu;trin.edu,academic_domains;edu_inventory;swot
+Undergraduate Degrees and Academic Programs for a Great College Education,1,"Undergraduate Degrees and Academic Programs for a Great College Education, Culver",culver.edu;cumberland.edu,academic_domains;edu_inventory;swot
+United Medical Institute,1,"United Medical Institute, Sacramento",unitedmedicalinstitute.edu,edu_inventory
+University of Asia Pacific,1,"University of Asia Pacific, Dhanmondi",uap-bd.edu,academic_domains;swot
+University of California,13,"University of California, Berkeley;University of California, Berkeley;University of California, Davis;University of California, Hastings College of Law;University of California, Irvine;University of California, Los Angeles;University of California, Merced;University of California, Office of the President;University of California, Riverside;University of California, San Diego;University of California, San Francisco;University of California, Santa Barbara;University of California, Santa Cruz",berkeley.edu;berkeleycitycollege.edu;ucdavis.edu;uchastings.edu;uchc.edu;uci.edu;ucirvine.edu;ucjc.edu;ucla.edu;ucm.edu;ucmerced.edu;ucop.edu;ucr.edu;ucsandiego.edu;ucsanfrancisco.edu;ucsantabarbara.edu;ucsb.edu;ucsc.edu;ucsd.edu;ucsf.edu;ucsgh.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Colorado Anschutz Medical,1,University of Colorado Anschutz Medical Campus,cuanschutz.edu,academic_domains;hipo
+University of Kansas,1,University of Kansas School of Medicine,kumc.edu,academic_domains;edu_inventory;hipo;node_university_domains
+University of Maine,1,"University of Maine, Orono",umaine.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Maryland,3,"University of Maryland, Baltimore;University of Maryland, Baltimore County;University of Maryland, College Park",umaryland.edu;umbc.edu;umd.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Minnesota,1,University of Minnesota - Twin Cities,umcrookston.edu;umn.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Nebraska,3,Nebraska College of Technical Agriculture;The University of Nebraska Kearney;University of Nebraska - Omaha,unk.edu;unl.edu;unomaha.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Nevada,2,University of Nevada - Las Vegas;University of Nevada - Reno,unlv.edu;unr.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of New Hampshire,2,"University of New Hampshire School of Law;University of New Hampshire, Durham",piercelaw.edu;unh.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Rochester Medical Center,1,"University of Rochester Medical Center, Rochester NY",urmc.edu,academic_domains;edu_inventory
+University of Saint Francis,1,"University of Saint Francis, Fort Wayne, Indiana",sf.edu,academic_domains;edu_inventory
+University of South Carolina,1,"University of South Carolina, Beaufort",uscb.edu;uscga.edu,academic_domains;edu_inventory;hipo
+University of St. Thomas,2,"University of St. Thomas, Houston;University of St. Thomas, St. Paul",stthom.edu;stthomas.edu,academic_domains;hipo;node_university_domains;swot
+University of Tennessee,2,The University of Tennessee at Martin;University of Tennessee - Knoxville,utk.edu;utm.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Texas Medical,1,University of Texas Medical Branch Galveston,utmb.edu;utmck.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+University of Virginia,1,"University of Virginia, Charlottesville",virginia.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Valencia College,1,"Valencia College, Orlando, Florida",valenciacollege.edu,academic_domains;edu_inventory;hipo
+Villa Maria College,2,"Villa Maria College, Buffalo, NY;Villa Maria College, Buffalo, NY",villa.edu;villanova.edu;villanueva.edu;vims.edu;vinu.edu;vips.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Washburn University,1,Washburn University School of Law,washburnlaw.edu,academic_domains;edu_inventory
+Washington University,1,"Washington University, Saint Louis",wustl.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+WashLaw Web – Washburn University,1,WashLaw Web – Washburn University School of Law,washlaw.edu,academic_domains;edu_inventory
+Watkins College of Art,1,"Watkins College of Art, Design & Film",watkins.edu,academic_domains;edu_inventory
+Weatherford College,1,"Weatherford College, Weatherford, Texas",wc.edu,academic_domains;edu_inventory;hipo
+Welcome to Elaine Steven Beauty College,1,"Welcome to Elaine Steven Beauty College, St. Louis, MO",esbc.edu,academic_domains;edu_inventory
+Welcome to Green River Community College,1,"Welcome to Green River Community College, Auburn, Washington",greenriver.edu,academic_domains;edu_inventory;hipo
+Welcome to National Institute of Design,1,"Welcome to National Institute of Design, India",nid.edu;nightingale.edu,academic_domains;edu_inventory
+Welcome to Professional Driver Institute,1,"Welcome to Professional Driver Institute, Inc.",pdi.edu,academic_domains;edu_inventory
+Welcome to South Texas College of Law South Texas College of Law,1,"Welcome to South Texas College of Law South Texas College of Law, Houston\'s oldest law school",stcl.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Welcome to Southeastern FWB College in Wendell,1,"Welcome to Southeastern FWB College in Wendell, NC",sfwbc.edu;sgc.edu;sgsl.edu,academic_domains;edu_inventory
+Welcome to Wesleyan University âÂ Middletown,1,"Welcome to Wesleyan University âÂ Middletown, Connecticut",wesleyan.edu,academic_domains;edu_inventory;hipo;node_university_domains;swot
+Western State University,1,Western State University College of Law,wsulaw.edu,academic_domains;swot
+Wheaton College,1,"Wheaton College, Norton MA",wheatonma.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Wichita State University,1,"Wichita State University, Wichita, Kansas",twsu.edu;wichita.edu,academic_domains;edu_inventory;hipo;node_university_domains
+Windsor University,1,Windsor University School of Medicine,windsor.edu,academic_domains;swot

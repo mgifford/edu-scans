@@ -1,283 +1,173 @@
-# eu-plus-government-scans
+# edu-scans
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
-[![Deploy GitHub Pages](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/deploy-pages.yml)
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://mgifford.github.io/eu-plus-government-scans/)
+[![Deploy GitHub Pages](https://github.com/mgifford/edu-scans/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/mgifford/edu-scans/actions/workflows/deploy-pages.yml)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://mgifford.github.io/edu-scans/)
 
-Scans and seed datasets for finding accessibility statements on government websites,
-with a Europe-first scope (plus selected non-EU countries like UK and Switzerland).
+Scans and seed datasets for finding accessibility statements and related web signals on
+United States educational institution websites, with an emphasis on `.edu` domains and the
+April 2027 WCAG 2.1 AA compliance horizon for public higher-education institutions.
 
-## Table of contents
+## Overview
 
-- [Who this is for](#who-this-is-for)
-- [How it works](#how-it-works)
-- [What is in this repository](#what-is-in-this-repository)
-- [Data imports](#data-imports)
-- [TOON seed outputs](#toon-seed-outputs)
-- [WP01 foundation implementation](#wp01-foundation-implementation)
-- [URL validation scanner](#url-validation-scanner)
-- [Google Lighthouse scanning](#google-lighthouse-scanning)
-- [Running tests locally](#running-tests-locally)
-- [Data caching and storage](#data-caching-and-storage)
-- [AI disclosure](#ai-disclosure)
-- [Next steps](#next-steps)
+This repository is being repurposed from an earlier government-domain project into a USA
+educational-institution scanning pipeline. The target scope is:
 
-## Who this is for
+- United States colleges and universities
+- Public and private higher-education institutions that publish on `.edu` domains
+- Seed-domain aggregation, de-duplication, URL validation, and downstream scanning
 
-This repository is intended for **developers and researchers** who want to:
+The codebase already contains working scanners for:
 
-- Fork or clone the project and run their own accessibility-statement discovery scans.
-- Contribute new country seed data (TOON files) or improve scanning logic.
-- Understand the automated batch-validation pipeline and extend it.
+- URL validation
+- Accessibility statement detection
+- Lighthouse audits
+- Social media detection
+- Technology detection
+- Third-party JavaScript detection
 
-If you are looking for the published scan results and reports, see the
-[GitHub Pages site](https://mgifford.github.io/eu-plus-government-scans/).
+What is still in progress is the dataset migration. The legacy `.gov` and EU-focused seed data
+has been removed, and the replacement USA `.edu` TOON seeds have not been generated yet.
 
-## How it works
+## Current Status
+
+The repository is currently in a migration phase.
+
+- The old government seed files are gone.
+- No committed `.toon` seed files are present under `data/toon-seeds/` yet.
+- Much of the scanner code still expects legacy TOON defaults such as
+    `data/toon-seeds/countries/` and the legacy `--country` CLI flag.
+- The next milestone is to build a normalized USA institution master list and emit TOON seed
+    files that the existing scanners can consume.
+
+If you are looking for a ready-to-run institutional dataset in this repository today, it is not
+here yet. The seed-generation pipeline is the active migration task.
+
+## Planned Source Lists
+
+The current plan is to aggregate, document, and de-duplicate USA higher-education domains from
+multiple public datasets, including:
+
+- `nickdenardis/edu-inventory`
+- `Hipo/university-domains-list`
+- `abadojack/swot`
+- `matlin/node-university-domains`
+- `mohsennazari/academic-domains-dataset`
+
+These sources differ in quality and shape:
+
+- Some are institution-first lists with names, country labels, and website URLs.
+- Some are domain inventories with little or no institution metadata.
+- Some include subdomains or non-`.edu` academic domains that must be filtered for the USA use case.
+- Some contain stale or incorrect entries that will need validation and merge rules.
+
+The repository goal is not to mirror any one upstream list verbatim. The goal is to produce one
+documented, reproducible USA institution seed set with source provenance.
+
+## How The Pipeline Is Intended To Work
 
 ```mermaid
 flowchart TD
-    A[Google Sheets / CSV imports] -->|data/imports/| B[TOON seed files\ndata/toon-seeds/]
-    B --> C{Scan type}
-    C -->|URL validation| D[validate_urls_batch CLI\nsrc/cli/validate_urls_batch.py]
-    C -->|Lighthouse audit| E[scan_lighthouse CLI\nsrc/cli/scan_lighthouse.py]
-    C -->|Social media scan| F[scan_social_media CLI\nsrc/cli/scan_social_media.py]
-    C -->|Technology detection| G[scan_technology CLI\nsrc/cli/scan_technology.py]
-    D --> H[(SQLite metadata DB\ndata/metadata.db)]
-    E --> H
-    F --> H
-    G --> H
-    H --> I[generate_validation_report CLI\nsrc/cli/generate_validation_report.py]
-    I --> J[Markdown reports\ndocs/]
-    J --> K[GitHub Pages\nhttps://mgifford.github.io/eu-plus-government-scans/]
+        A[Public upstream university/domain lists] -->|normalize + dedupe| B[USA institution master list]
+        B --> C[TOON seed files\ndata/toon-seeds/]
+        C --> D{Scan type}
+        D -->|URL validation| E[validate_urls_batch CLI\nsrc/cli/validate_urls_batch.py]
+        D -->|Accessibility statements| F[scan_accessibility CLI\nsrc/cli/scan_accessibility.py]
+        D -->|Lighthouse audit| G[scan_lighthouse CLI\nsrc/cli/scan_lighthouse.py]
+        D -->|Social media| H[scan_social_media CLI\nsrc/cli/scan_social_media.py]
+        D -->|Technology| I[scan_technology CLI\nsrc/cli/scan_technology.py]
+        E --> J[(SQLite metadata DB\ndata/metadata.db)]
+        F --> J
+        G --> J
+        H --> J
+        I --> J
 ```
 
-All scanning runs automatically via **GitHub Actions** (cron schedules + manual triggers).
-Results are stored as **workflow artifacts** and published to GitHub Pages — nothing is
-committed back to the repository except the original seed TOON files.
+## Repository Layout
 
-## What is in this repository
+- `data/imports/` raw source files and generated intermediate inputs
+- `data/toon-seeds/` version-controlled TOON seed files once generated
+- `docs/` public documentation and GitHub Pages content
+- `scripts/` utility scripts, including seed-generation work in progress
+- `src/cli/` command-line entry points for scanning and report generation
+- `src/jobs/` batch-oriented scanner jobs that process TOON files
+- `src/services/` reusable service logic and orchestration
+- `src/storage/` schema bootstrap and metadata persistence
+- `tests/` unit, integration, and contract tests
 
-- Planning and implementation artifacts for feature `001-eu-government-accessibility-statement-discovery`
-- Imported government domain/page source lists from Google Sheets
-- Country-split TOON seed files that include domains and page URLs
+## TOON Seed Format
 
-## Data imports
+The existing scanners expect TOON-like JSON seed files with a structure along these lines:
 
-Imported CSV source sheets are stored under:
-
-- `data/imports/google_sheets/`
-- `data/imports/government_domains_pages_gid_242285945.csv` (Canada list)
-
-Useful generated summaries:
-
-- `data/imports/google_sheets/manifest.csv`
-- `data/imports/google_sheets/summary.json`
-- `data/imports/google_sheets/coverage_check.json`
-- `data/imports/google_sheets/all_sheets_merged.csv`
-
-## TOON seed outputs
-
-All-country seed files:
-
-- `data/toon-seeds/countries/*.toon`
-- `data/toon-seeds/index.json`
-
-Review bundles:
-
-- EU-only bundle: `data/toon-seeds/eu-only/countries/*.toon`
-- EU-only index: `data/toon-seeds/eu-only/index.json`
-- UK + Switzerland bundle: `data/toon-seeds/uk-ch/countries/*.toon`
-- UK + Switzerland index: `data/toon-seeds/uk-ch/index.json`
-
-Each `.toon` seed currently contains, per country:
-
-- `domains[]` keyed by canonical domain
-- `pages[]` including URL and root-page flag (plus score fields when present)
-- `source_tabs[]` provenance references (`sheet_id`, `gid`, source URL)
-
-## WP01 foundation implementation
-
-Initial backend foundation for the feature is included (WP01):
-
-- `src/lib/settings.py` runtime settings and validation
-- `src/services/source_ingest.py` source ingestion adapters
-- `src/services/domain_normalizer.py` hostname normalization helpers
-- `src/storage/schema.py` metadata schema bootstrap + migration seed
-- Unit/integration tests under `tests/`
-
-## URL validation scanner
-
-A URL validation scanner is available to validate government site accessibility from TOON files:
-
-- `src/services/url_validator.py` - Async URL validation with redirect tracking
-- `src/jobs/url_validation_scanner.py` - Batch scanner for TOON files
-- `src/cli/validate_urls.py` - CLI interface for running scans (legacy)
-- `src/cli/validate_urls_batch.py` - **New batched CLI for large-scale validation**
-- `src/cli/generate_validation_report.py` - Generate validation reports from database
-
-Key features:
-- Validates URLs and tracks HTTP status codes and errors
-- Records and follows redirects, updating URLs for future scans
-- Tracks failure counts: first failure is noted, second failure removes URL
-- No retry within same scan session
-- **Batched processing** - Handle 80k+ URLs without timeout
-- **GitHub Issue tracking** - Monitor progress across multiple runs
-- **Automated cron scheduling** - Run every 2 hours automatically
-- **Issue-triggered validation** - Trigger scans by creating GitHub issues
-
-### Issue-triggered validation (NEW!)
-
-Trigger validation scans by simply creating a GitHub issue with a special title prefix:
-
-- **`SCAN: <description>`** - Run once and close issue when complete
-- **`QUARTERLY:`, `MONTHLY:`, `WEEKLY:`, etc.** - Run periodically, keep issue open
-
-When triggered, the system:
-1. Validates all URLs across all countries
-2. Posts a detailed report as a comment to the issue
-3. Closes the issue (for one-time scans) or keeps it open (for periodic scans)
-
-See **[docs/issue-triggered-validation.md](docs/issue-triggered-validation.md)** for complete documentation.
-
-**Example:**
-1. Create issue titled `SCAN: Validate URL`
-2. Wait for hourly check (runs every hour)
-3. Review report posted as comment
-4. Issue automatically closes when complete
-
-**Workflows:**
-- `.github/workflows/issue-triggered-validation.yml` - Checks for trigger issues every hour
-
-### Batched validation (recommended)
-
-For large-scale validation (all countries), use the **batched system** which:
-- Processes countries in small batches (default: 5 at a time)
-- Runs automatically every 2 hours via GitHub Actions cron
-- Tracks progress in a GitHub Issue
-- Never times out (spreads work over multiple days)
-- Fully resumable if interrupted
-
-See **[docs/batched-validation.md](docs/batched-validation.md)** for complete documentation.
-
-Quick start:
-```bash
-# Process next batch of countries (creates GitHub issue)
-python3 -m src.cli.validate_urls_batch --batch-mode --create-issue
-
-# Process specific batch size
-python3 -m src.cli.validate_urls_batch --batch-mode --batch-size 10
+```json
+{
+    "version": "0.1-seed",
+    "country": "INSTITUTION_OR_GROUP_LABEL",
+    "domains": [
+        {
+            "canonical_domain": "example.edu",
+            "pages": [
+                {
+                    "url": "https://example.edu/",
+                    "is_root_page": true
+                }
+            ]
+        }
+    ]
+}
 ```
 
-**Workflows:**
-- `.github/workflows/validate-urls-batch.yml` - Runs every 2 hours (automatic)
-- `.github/workflows/reopen-validation-cycle.yml` - Starts new cycles quarterly
+That schema is still carrying legacy field names such as `country`. During the migration, the
+priority is compatibility first: produce seed files the scanners can read, then rename the
+abstractions cleanly afterward.
 
-### Single country / legacy validation
+## Running The Existing Scanners
 
-For validating individual countries or small sets:
+The scanners are usable once TOON seed files exist, but some command names and defaults still
+reflect the earlier data model.
 
-**GitHub Action (UI-based):**
-
-The easiest way to run single-country validations:
-
-1. Go to the **Actions** tab in this repository
-2. Select **"Validate Government URLs"**
-3. Click **"Run workflow"** and optionally specify a country
-4. View results in the workflow summary and download detailed reports
-
-See [docs/github-action-validation.md](docs/github-action-validation.md) for full instructions.
-
-**CLI Usage:**
-
-For local or manual validation:
+Typical commands:
 
 ```bash
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
-# Validate a specific country
-python3 -m src.cli.validate_urls --country ICELAND --rate-limit 2
+# Run tests
+python3 -m pytest tests/ -v
 
-# Validate all countries (may timeout - use batch mode instead)
+# Validate all seed files once they exist
 python3 -m src.cli.validate_urls --all --rate-limit 2
 
-# Generate a report from validation results
-python3 -m src.cli.generate_validation_report --output validation-report.md
-```
+# Run a batch validation cycle
+python3 -m src.cli.validate_urls_batch --batch-mode --batch-size 2
 
-See [docs/url-validation-scanner.md](docs/url-validation-scanner.md) for detailed CLI usage.
-
-## Google Lighthouse scanning
-
-The Lighthouse scanner runs Google Lighthouse audits on government page URLs and stores five
-headline scores: **performance**, **accessibility**, **best practices**, **SEO**, and **PWA**.
-
-- `src/services/lighthouse_scanner.py` — Async Lighthouse runner (subprocess-based)
-- `src/jobs/lighthouse_scanner.py` — Job that processes TOON files and persists results
-- `src/cli/scan_lighthouse.py` — CLI entry point
-
-```bash
-# Prerequisites: install the Lighthouse CLI
-npm install -g lighthouse
-
-# Scan a specific country
-python3 -m src.cli.scan_lighthouse --country ICELAND
-
-# Scan all countries with a runtime cap
+# Run Lighthouse scans
 python3 -m src.cli.scan_lighthouse --all --max-runtime 110 --rate-limit 0.2
 ```
 
-The GitHub Actions workflow (`.github/workflows/scan-lighthouse.yml`) runs automatically
-every week (Sunday at 04:00 UTC) and can also be triggered manually.
+Important caveat:
 
-See [docs/lighthouse-scanning.md](docs/lighthouse-scanning.md) for full documentation.
+- Several CLIs still default to `data/toon-seeds/countries/`.
+- Those defaults will need to be updated as part of the `.edu` migration.
+- Until the new seeds are generated, many scan commands will fail because there are no `.toon`
+    inputs to process.
 
-## Running tests locally
-
-A `tests/` directory is present with unit, integration, and contract tests.
-
-**Prerequisites:**
+## Running Tests Locally
 
 ```bash
 pip install -r requirements.txt
-```
-
-**Run the full test suite:**
-
-```bash
 python3 -m pytest tests/ -v
 ```
 
-**Run only unit tests:**
+Focused examples:
 
 ```bash
 python3 -m pytest tests/unit/ -v
-```
-
-**Run only integration tests:**
-
-```bash
 python3 -m pytest tests/integration/ -v
-```
-
-**Run a single test file:**
-
-```bash
-python3 -m pytest tests/unit/test_url_validation_scanner.py -v
-```
-
-**Lint Python files you changed before committing:**
-
-```bash
 ruff check path/to/file.py tests/path/to/test_file.py
 ```
 
-For larger cleanup passes, you can still run `ruff check src/ tests/`, but the
-current repository includes some older Python that is being brought into
-compliance gradually.
-
-**Run the GitHub Pages accessibility smoke test locally:**
+For the GitHub Pages accessibility smoke tests:
 
 ```bash
 npm ci
@@ -285,91 +175,43 @@ npx playwright install --with-deps chromium
 python3 -m http.server 4000 --directory _site
 ```
 
-In a second terminal:
+Then in a second terminal:
 
 ```bash
 A11Y_SITE_DIR=_site A11Y_BASE_URL=http://127.0.0.1:4000 npm run test:a11y
 ```
 
-The GitHub Actions workflow at
-[`/.github/workflows/axe-site-accessibility.yml`](./.github/workflows/axe-site-accessibility.yml)
-builds the Jekyll site and runs these axe checks automatically on every fifth
-push to `main`, with manual runs available through `workflow_dispatch`.
+## Data Storage
 
-## AI disclosure
+The validation system uses an SQLite database at `data/metadata.db` to store:
 
-This project is committed to transparency about how artificial intelligence tools have been
-used in its development and operation.
+- URL validation results
+- Redirect history
+- Failure counts across runs
+- Scan outputs used by reports
+- Batch-processing state
 
-### Build-time AI assistance
+This database is not committed to git.
 
-AI coding assistants (large language models) have been used to help write, review, and refine
-code and documentation in this repository. Known uses include:
+Validated or annotated TOON outputs are also not committed. Only the original seed files are
+intended to be version-controlled.
+
+## AI Disclosure
+
+This project is committed to transparency about build-time AI assistance.
 
 | Tool / LLM | What it was used for |
 |---|---|
-| GitHub Copilot (OpenAI Codex / GPT-4 family) | Code completion, refactoring suggestions, and inline documentation while writing Python source files |
-| Claude (Anthropic) | PR reviews, writing and editing documentation (README, AGENTS.md, docs/), and code-generation tasks via the GitHub Copilot Coding Agent |
-| ChatGPT / GPT-4 / GPT-5 (OpenAI) | Answering design questions, reviewing draft implementations, helping implement docs/report-generation pages for scan outputs such as technology and third-party JavaScript reporting, adding table drilldowns and CSV evidence downloads for published scan counts, and debugging CI/browser automation such as Playwright + axe accessibility checks for the generated site |
+| GitHub Copilot (GPT-5.4) | Code edits, refactoring, repository migration work, documentation updates, and implementation assistance in VS Code |
+| Claude (Anthropic) | PR reviews, documentation editing, and code-generation assistance during repository maintenance |
+| ChatGPT / GPT-4 / GPT-5 (OpenAI) | Design review, implementation review, debugging help, and documentation/report-generation assistance |
 
-> **Note for contributors and AI agents:** if you use an AI tool while contributing to this
-> repository — whether for writing code, tests, or documentation — please add or update the
-> row for that tool in the table above and describe what it was used for.
+No AI model runs as part of the application at runtime.
 
-### Runtime AI
+## Next Steps
 
-**No AI model runs as part of the application at runtime.** The validation scanner, batch
-coordinator, social-media scanner, and technology-detection service all use deterministic
-rule-based or HTTP-based logic only (HTTPX, BeautifulSoup4, python-Wappalyzer). No inference
-calls are made to any LLM API during normal operation.
-
-### Browser-based AI
-
-**No browser-based AI (e.g. browser extensions, client-side LLM inference, or AI-powered
-browser automation) is used to run any part of this application.** All automation runs
-server-side via GitHub Actions using the Python CLI entry points documented above.
-
----
-
-## Next steps
-
-- Continue implementation by work package (`WP02`, `WP03`, ...)
-- Use TOON seeds as source inputs for country scans
-- Refine statement detection confidence and multilingual glossary coverage
-
-## Data caching and storage
-
-### Validation metadata database
-
-The validation system uses an SQLite database (`data/metadata.db`) to track:
-- URL validation results (status codes, errors, redirect chains)
-- Failure counts across scans (remove URLs after 2 failures)
-- Batch processing state (cycle tracking, country progress)
-
-**Storage Location:**
-- **NOT committed to the repository** (excluded in `.gitignore`)
-- Stored as a **GitHub Actions artifact** named `validation-metadata`
-- Artifact retention: **90 days**
-- Automatically downloaded at the start of each workflow run
-- Automatically uploaded at the end of each workflow run
-
-This approach ensures:
-- State persists across workflow runs without bloating the repository
-- Failed URLs are consistently tracked and eventually removed
-- Batch validation cycles can resume after any interruption
-- No merge conflicts or version control issues with binary database files
-
-**Viewing Artifacts:**
-1. Go to a completed workflow run in the **Actions** tab
-2. Scroll to the **Artifacts** section at the bottom
-3. Download `validation-metadata` to inspect the database locally
-
-### Validated TOON files
-
-Updated TOON files with validation results are also **not committed**:
-- Pattern: `data/toon-seeds/countries/*_validated.toon`
-- Excluded in `.gitignore`
-- Generated during validation runs
-- Contain validation metadata (status codes, redirects, etc.)
-
-Only the original seed TOON files (without `_validated` suffix) are version controlled.
+- Build the USA `.edu` source aggregation script
+- Document each upstream source and its normalization rules
+- Generate the first committed TOON seed files for USA educational institutions
+- Update scanner defaults away from `data/toon-seeds/countries/`
+- Add focused tests for seed generation and de-duplication

@@ -1,0 +1,2885 @@
+[
+  {
+    "parent_institution": ":: Thomas Jefferson University : Jefferson Medical College : Jefferson College of Graduate Studies : Jefferson",
+    "institution_count": 1,
+    "institutions": [
+      ":: Thomas Jefferson University : Jefferson Medical College : Jefferson College of Graduate Studies : Jefferson School of Health Profession : Jefferson School of Nursing : Jefferson School of Pharmacy : Jefferson School of Population Health ::"
+    ],
+    "domains": [
+      "jefferson.edu",
+      "jeffersonlaw.edu",
+      "jeffersonstate.edu",
+      "tju.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "::AKKINENI NAGESWARA RAO COLLEGE",
+    "institution_count": 1,
+    "institutions": [
+      "::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::"
+    ],
+    "domains": [
+      "anrcollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "::Institute of Productivity & Management",
+    "institution_count": 1,
+    "institutions": [
+      "::Institute of Productivity & Management, INDIA::"
+    ],
+    "domains": [
+      "ipm.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "A Christian Bible College in Kansas City",
+    "institution_count": 1,
+    "institutions": [
+      "A Christian Bible College in Kansas City, Missouri"
+    ],
+    "domains": [
+      "calvary.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Alameda Beauty College & Beauty",
+    "institution_count": 1,
+    "institutions": [
+      "Alameda Beauty College & Beauty School Of Cosmetology â Bay Area"
+    ],
+    "domains": [
+      "alamedabeautycollege.edu",
+      "alameenmedical.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "All India Institute of Medical Sciences",
+    "institution_count": 1,
+    "institutions": [
+      "All India Institute of Medical Sciences, New Delhi, INDIA"
+    ],
+    "domains": [
+      "aiims.edu",
+      "aiit.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Alpena Community College",
+    "institution_count": 1,
+    "institutions": [
+      "Alpena Community College, Alpena, Michigan, USA"
+    ],
+    "domains": [
+      "alpenacc.edu",
+      "alphagroup.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "American InterContinental University â AIU South Florida",
+    "institution_count": 1,
+    "institutions": [
+      "American InterContinental University â AIU South Florida Campus Homepage"
+    ],
+    "domains": [
+      "aiufl.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "American University",
+    "institution_count": 1,
+    "institutions": [
+      "American University College of Technology"
+    ],
+    "domains": [
+      "aut.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Arellano University",
+    "institution_count": 1,
+    "institutions": [
+      "Arellano University School of Law"
+    ],
+    "domains": [
+      "arellanolaw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Argosy University",
+    "institution_count": 1,
+    "institutions": [
+      "Argosy University, Sarasota"
+    ],
+    "domains": [
+      "sarasota.edu",
+      "sarasotaschoolofmassagetherapy.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Arkansas State University",
+    "institution_count": 3,
+    "institutions": [
+      "Arkansas State University, Beebe",
+      "Arkansas State University, Mountain Home",
+      "Arkansas State University, Newport"
+    ],
+    "domains": [
+      "asub.edu",
+      "asumh.edu",
+      "asun.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Armstrong Atlantic State University Savannah",
+    "institution_count": 1,
+    "institutions": [
+      "Armstrong Atlantic State University Savannah, GA"
+    ],
+    "domains": [
+      "armstrong.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Asian Institute of Medical Studies",
+    "institution_count": 1,
+    "institutions": [
+      "Asian Institute of Medical Studies, a School of Acupuncture and Oriental Medicine in Tucson"
+    ],
+    "domains": [
+      "asianinstitute.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Atlanta University Center Consortium",
+    "institution_count": 1,
+    "institutions": [
+      "Atlanta University Center Consortium, Inc."
+    ],
+    "domains": [
+      "aucenter.edu",
+      "aucmed.edu",
+      "aucnyo.edu",
+      "auctr.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Atria Institute of Technology",
+    "institution_count": 1,
+    "institutions": [
+      "Atria Institute of Technology, Bangalore, India"
+    ],
+    "domains": [
+      "atria.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Avinashilingam University for Women",
+    "institution_count": 1,
+    "institutions": [
+      "Avinashilingam University for Women, Coimbatore, India"
+    ],
+    "domains": [
+      "avinashilingam.edu",
+      "avtec.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "B.P. Koirala Institute of Health Sciences",
+    "institution_count": 1,
+    "institutions": [
+      "B.P. Koirala Institute of Health Sciences, Dharan, Nepal"
+    ],
+    "domains": [
+      "bpkihs.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Barry University",
+    "institution_count": 2,
+    "institutions": [
+      "Barry University, Miami Shores, Florida",
+      "Barry University, Miami Shores, Florida"
+    ],
+    "domains": [
+      "barry.edu",
+      "barstow.edu",
+      "barton.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Belmont Abbey College",
+    "institution_count": 1,
+    "institutions": [
+      "Belmont Abbey College, Charlotte, NC"
+    ],
+    "domains": [
+      "bac.edu",
+      "belmontabbeycollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Benedictine University",
+    "institution_count": 1,
+    "institutions": [
+      "Benedictine University, Springfield College in Illinois"
+    ],
+    "domains": [
+      "sci.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Bethel College",
+    "institution_count": 1,
+    "institutions": [
+      "Bethel College, Mishawaka IN"
+    ],
+    "domains": [
+      "bethelcollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Bishop State Community College â Mobile",
+    "institution_count": 1,
+    "institutions": [
+      "Bishop State Community College â Mobile, Alabama"
+    ],
+    "domains": [
+      "bishop.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Bridgewater State University",
+    "institution_count": 1,
+    "institutions": [
+      "Bridgewater State University, Bridgewater, Massachusetts"
+    ],
+    "domains": [
+      "bridgew.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Broward College",
+    "institution_count": 1,
+    "institutions": [
+      "Broward College, formerly Broward Community College"
+    ],
+    "domains": [
+      "broward.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Bryan College Sacramento California",
+    "institution_count": 1,
+    "institutions": [
+      "Bryan College Sacramento California Campus"
+    ],
+    "domains": [
+      "bryancollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Business College Johnstown",
+    "institution_count": 1,
+    "institutions": [
+      "Business College Johnstown, Indiana, Pennsylvania, Cambria County,"
+    ],
+    "domains": [
+      "crbc.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "California Polytechnic State University",
+    "institution_count": 2,
+    "institutions": [
+      "California Polytechnic State University - San Luis Obispo",
+      "California Polytechnic State University, Pomona"
+    ],
+    "domains": [
+      "calpoly.edu",
+      "cpp.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "California State Polytechnic University",
+    "institution_count": 1,
+    "institutions": [
+      "California State Polytechnic University - Pomona"
+    ],
+    "domains": [
+      "csupomona.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "California State University",
+    "institution_count": 16,
+    "institutions": [
+      "California State University Channel Islands (CSUCI)",
+      "California State University, Bakersfield",
+      "California State University, Dominguez Hills",
+      "California State University, Fresno",
+      "California State University, Fullerton",
+      "California State University, Hayward",
+      "California State University, Long Beach",
+      "California State University, Los Angeles",
+      "California State University, Monterey Bay",
+      "California State University, Northridge",
+      "California State University, Sacramento",
+      "California State University, San Bernardino",
+      "California State University, San Jose",
+      "California State University, San Marcos",
+      "California State University, Stanislaus",
+      "Welcome to Chicago State University"
+    ],
+    "domains": [
+      "calstatela.edu",
+      "csub.edu",
+      "csubak.edu",
+      "csuchico.edu",
+      "csuci.edu",
+      "csudh.edu",
+      "csufresno.edu",
+      "csuhayward.edu",
+      "csulb.edu",
+      "csumb.edu",
+      "csun.edu",
+      "csus.edu",
+      "csusb.edu",
+      "csusm.edu",
+      "csustan.edu",
+      "fresnostate.edu",
+      "fullerton.edu",
+      "monterey.edu",
+      "sjsu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Central Methodist University in Fayette",
+    "institution_count": 1,
+    "institutions": [
+      "Central Methodist University in Fayette, Missouri"
+    ],
+    "domains": [
+      "centralmethodist.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Chatham University",
+    "institution_count": 2,
+    "institutions": [
+      "Chatham University, Pittsburgh, PA",
+      "Chatham University, Pittsburgh, PA"
+    ],
+    "domains": [
+      "chatham.edu",
+      "chattahoocheetech.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester",
+    "institution_count": 2,
+    "institutions": [
+      "Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire",
+      "Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire"
+    ],
+    "domains": [
+      "chestercollege.edu",
+      "cheyney.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Christ University",
+    "institution_count": 1,
+    "institutions": [
+      "Christ University, Bangalore, Karnataka"
+    ],
+    "domains": [
+      "christcollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Christian Life College",
+    "institution_count": 3,
+    "institutions": [
+      "Christian Life College, Stockton, California",
+      "Christian Life College, Stockton, California",
+      "Christian Life College, Stockton, California"
+    ],
+    "domains": [
+      "clc.edu",
+      "clcillinois.edu",
+      "clcmn.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "City University of New York",
+    "institution_count": 1,
+    "institutions": [
+      "City University of New York, Queens College"
+    ],
+    "domains": [
+      "qc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Colgate is a nationally recognized liberal arts college set on a beautiful",
+    "institution_count": 2,
+    "institutions": [
+      "Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.",
+      "Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York."
+    ],
+    "domains": [
+      "colgate.edu",
+      "colin.edu",
+      "colleenoharasbeautyacademy.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Colorado State University",
+    "institution_count": 1,
+    "institutions": [
+      "Colorado State University - Global Campus"
+    ],
+    "domains": [
+      "csuglobal.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Community College of Denver",
+    "institution_count": 1,
+    "institutions": [
+      "Community College of Denver, CCD"
+    ],
+    "domains": [
+      "ccd.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Concordia College",
+    "institution_count": 5,
+    "institutions": [
+      "Concordia College - Moorhead",
+      "Concordia College - St. Paul",
+      "Concordia College, Bronxville",
+      "Concordia College, Moorhead, Minn.",
+      "Concordia University Nebraska"
+    ],
+    "domains": [
+      "concordia-ny.edu",
+      "concordiacollege.edu",
+      "concordiaselma.edu",
+      "cord.edu",
+      "csp.edu",
+      "cune.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Concordia University",
+    "institution_count": 4,
+    "institutions": [
+      "Concordia University Texas Home Page",
+      "Concordia University Wisconsin",
+      "Concordia University, Irvine",
+      "Concordia University, Portland"
+    ],
+    "domains": [
+      "christ.edu",
+      "concordia.edu",
+      "cu-portland.edu",
+      "cuaa.edu",
+      "cui.edu",
+      "cuim.edu",
+      "cuis.edu",
+      "cula.edu",
+      "culinary.edu",
+      "cuw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Digital University of America + Peace University",
+    "institution_count": 1,
+    "institutions": [
+      "Digital University of America + Peace University, USA"
+    ],
+    "domains": [
+      "digital.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Distance Learning Courses and Programs at Warnborough College at Bachelors",
+    "institution_count": 1,
+    "institutions": [
+      "Distance Learning Courses and Programs at Warnborough College at Bachelors, Masters, and PhD levels"
+    ],
+    "domains": [
+      "warnborough.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Drexel University",
+    "institution_count": 1,
+    "institutions": [
+      "Drexel University College of Medicine"
+    ],
+    "domains": [
+      "drexelmed.edu",
+      "dri.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Eastern New Mexico University-Roswell",
+    "institution_count": 1,
+    "institutions": [
+      "Eastern New Mexico University-Roswell Campus"
+    ],
+    "domains": [
+      "enmu.edu",
+      "eoccc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Eastern Oklahoma State College",
+    "institution_count": 1,
+    "institutions": [
+      "Eastern Oklahoma State College, Premier Community College"
+    ],
+    "domains": [
+      "eosc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Edmonds Community College",
+    "institution_count": 1,
+    "institutions": [
+      "Edmonds Community College, Washington"
+    ],
+    "domains": [
+      "edcc.edu",
+      "edcparis.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Embry Riddle Aeronautical University",
+    "institution_count": 1,
+    "institutions": [
+      "Embry Riddle Aeronautical University, Prescott"
+    ],
+    "domains": [
+      "embryriddle.edu",
+      "erau.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Emmanuel College",
+    "institution_count": 1,
+    "institutions": [
+      "Emmanuel College, Boston"
+    ],
+    "domains": [
+      "ec.edu",
+      "ecam.edu",
+      "emmanuel.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Everest Institute",
+    "institution_count": 1,
+    "institutions": [
+      "Everest Institute Campus Locations"
+    ],
+    "domains": [
+      "everestinstitute.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Everest University",
+    "institution_count": 2,
+    "institutions": [
+      "Everest University Campus Locations",
+      "Everest University Campus Locations"
+    ],
+    "domains": [
+      "everestuniversity.edu",
+      "everett.edu",
+      "everettcc.edu",
+      "evergladesuniversity.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Fergusson College",
+    "institution_count": 1,
+    "institutions": [
+      "Fergusson College, Pune"
+    ],
+    "domains": [
+      "fergusson.edu",
+      "fernbank.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Five Colleges",
+    "institution_count": 1,
+    "institutions": [
+      "Five Colleges, Incorporated"
+    ],
+    "domains": [
+      "fivecolleges.edu",
+      "fivetowns.edu",
+      "fivetownscollege.edu",
+      "fje.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Futures Inspired l Holyoke Community College",
+    "institution_count": 2,
+    "institutions": [
+      "Futures Inspired l Holyoke Community College, Holyoke, MA",
+      "Futures Inspired l Holyoke Community College, Holyoke, MA"
+    ],
+    "domains": [
+      "hcc.edu",
+      "hccc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Galen College",
+    "institution_count": 1,
+    "institutions": [
+      "Galen College, Nursing Schools, Nursing Degrees"
+    ],
+    "domains": [
+      "galencollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Gibbs College  Boston",
+    "institution_count": 1,
+    "institutions": [
+      "Gibbs College  Boston, Massachusetts"
+    ],
+    "domains": [
+      "gibbsboston.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Glendale University",
+    "institution_count": 1,
+    "institutions": [
+      "Glendale University College of Law"
+    ],
+    "domains": [
+      "gccaz.edu",
+      "glendale.edu",
+      "glendalelaw.edu",
+      "glenoaks.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Globe University & Minnesota",
+    "institution_count": 1,
+    "institutions": [
+      "Globe University & Minnesota School of Business"
+    ],
+    "domains": [
+      "msbcollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Gonzaga University",
+    "institution_count": 1,
+    "institutions": [
+      "Gonzaga University, Spokane Washington"
+    ],
+    "domains": [
+      "gonzaga.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Grand Canyon University is a private Christian University in Phoenix",
+    "institution_count": 1,
+    "institutions": [
+      "Grand Canyon University is a private Christian University in Phoenix, AZ"
+    ],
+    "domains": [
+      "gcu.edu",
+      "gcuniv.edu",
+      "gda.edu",
+      "gdn.edu",
+      "geisinger.edu",
+      "grand-canyon.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Harper College",
+    "institution_count": 1,
+    "institutions": [
+      "Harper College, Palatine, Il"
+    ],
+    "domains": [
+      "harpercollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Heald College Honolulu",
+    "institution_count": 1,
+    "institutions": [
+      "Heald College Honolulu, Hawaii"
+    ],
+    "domains": [
+      "healdhon.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Health Career Institute",
+    "institution_count": 1,
+    "institutions": [
+      "Health Career Institute, Home Page"
+    ],
+    "domains": [
+      "hci.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Hellenic College and Holy Cross Greek Orthodox",
+    "institution_count": 1,
+    "institutions": [
+      "Hellenic College and Holy Cross Greek Orthodox School of Theology"
+    ],
+    "domains": [
+      "hchc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Holy Names University",
+    "institution_count": 1,
+    "institutions": [
+      "Holy Names University, Oakland CA"
+    ],
+    "domains": [
+      "hnu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Home » Saint Mary\\'s College",
+    "institution_count": 1,
+    "institutions": [
+      "Home » Saint Mary\\'s College, Notre Dame, IN"
+    ],
+    "domains": [
+      "saintmarys.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Indian Institute of Ecology and Environment",
+    "institution_count": 1,
+    "institutions": [
+      "Indian Institute of Ecology and Environment, New Delhi"
+    ],
+    "domains": [
+      "ecology.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Indiana Wesleyan University",
+    "institution_count": 1,
+    "institutions": [
+      "Indiana Wesleyan University, Marion"
+    ],
+    "domains": [
+      "indwes.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "INSTITUTE OF THERAPEUTIC MASSAGE LIMA",
+    "institution_count": 1,
+    "institutions": [
+      "INSTITUTE OF THERAPEUTIC MASSAGE LIMA, OHIO"
+    ],
+    "domains": [
+      "iotm.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Itawamba Community College in Northeast Mississippi (Fulton",
+    "institution_count": 1,
+    "institutions": [
+      "Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)"
+    ],
+    "domains": [
+      "iccms.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Ithaca College",
+    "institution_count": 1,
+    "institutions": [
+      "Ithaca College, Ithaca, NY"
+    ],
+    "domains": [
+      "ithaca.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Jacksonville College-Main",
+    "institution_count": 1,
+    "institutions": [
+      "Jacksonville College-Main Campus"
+    ],
+    "domains": [
+      "jacksonville-college.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Jawaharlal Nehru Medical College",
+    "institution_count": 1,
+    "institutions": [
+      "Jawaharlal Nehru Medical College, K.L.E University, Belgaum."
+    ],
+    "domains": [
+      "jnmc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Jump Start Your Education at Berkshire Community College",
+    "institution_count": 1,
+    "institutions": [
+      "Jump Start Your Education at Berkshire Community College, Massachusetts"
+    ],
+    "domains": [
+      "berkshirecc.edu",
+      "berlitz.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Kilian Community College – An affordable University in Sioux Falls",
+    "institution_count": 1,
+    "institutions": [
+      "Kilian Community College – An affordable University in Sioux Falls, South Dakota"
+    ],
+    "domains": [
+      "kilian.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Kongu Engineering College",
+    "institution_count": 1,
+    "institutions": [
+      "Kongu Engineering College, Perundurai"
+    ],
+    "domains": [
+      "kongu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Lake Erie College",
+    "institution_count": 1,
+    "institutions": [
+      "Lake Erie College, An Outstanding Educational Experience."
+    ],
+    "domains": [
+      "lakeerie.edu",
+      "lec.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Lee College",
+    "institution_count": 1,
+    "institutions": [
+      "Lee College, Baytown, Texas"
+    ],
+    "domains": [
+      "lee.edu",
+      "leecollege.edu",
+      "leeds.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Lynchburg College in Lynchburg",
+    "institution_count": 1,
+    "institutions": [
+      "Lynchburg College in Lynchburg, Virginia"
+    ],
+    "domains": [
+      "lynchburg.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Lynn University",
+    "institution_count": 1,
+    "institutions": [
+      "Lynn University, Boca Raton, Florida"
+    ],
+    "domains": [
+      "lynn.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Macon State College in Macon and Warner Robins",
+    "institution_count": 1,
+    "institutions": [
+      "Macon State College in Macon and Warner Robins, GA"
+    ],
+    "domains": [
+      "maconstate.edu",
+      "macquarie.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Maryland Institute",
+    "institution_count": 1,
+    "institutions": [
+      "The Maryland Institute, College of Art"
+    ],
+    "domains": [
+      "mica.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Marymount College Rancho Palos Verdes",
+    "institution_count": 2,
+    "institutions": [
+      "Marymount College Rancho Palos Verdes, California",
+      "Marymount College Rancho Palos Verdes, California"
+    ],
+    "domains": [
+      "marymountpv.edu",
+      "maryville.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "McHenry County College",
+    "institution_count": 1,
+    "institutions": [
+      "McHenry County College, Crystal Lake, Illinois"
+    ],
+    "domains": [
+      "mchenry.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Mendocino College",
+    "institution_count": 1,
+    "institutions": [
+      "Mendocino College, Ukiah California"
+    ],
+    "domains": [
+      "mendocino.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Michigan State University. Est. 1855. East Lansing",
+    "institution_count": 2,
+    "institutions": [
+      "Michigan State University. Est. 1855. East Lansing, Michigan USA.",
+      "Michigan State University. Est. 1855. East Lansing, Michigan USA."
+    ],
+    "domains": [
+      "msu.edu",
+      "msubillings.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Minnesota State University",
+    "institution_count": 1,
+    "institutions": [
+      "Minnesota State University, Mankato"
+    ],
+    "domains": [
+      "mnsu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Mission College",
+    "institution_count": 1,
+    "institutions": [
+      "Mission College, Santa Clara, California"
+    ],
+    "domains": [
+      "missioncollege.edu",
+      "mississippi.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Mohammad Ali Jinnah University",
+    "institution_count": 1,
+    "institutions": [
+      "Mohammad Ali Jinnah University, Karachi"
+    ],
+    "domains": [
+      "jinnah.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Mount Holyoke College",
+    "institution_count": 1,
+    "institutions": [
+      "Mount Holyoke College, South Hadley, Massachusetts"
+    ],
+    "domains": [
+      "mtholyoke.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Mount Saint Mary College",
+    "institution_count": 1,
+    "institutions": [
+      "Mount Saint Mary College, Newburgh"
+    ],
+    "domains": [
+      "msmc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Naropa University",
+    "institution_count": 1,
+    "institutions": [
+      "Naropa University, Boulder, Colorado"
+    ],
+    "domains": [
+      "naropa.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Nebraska Methodist College (The Josie Harper",
+    "institution_count": 1,
+    "institutions": [
+      "Nebraska Methodist College of Nursing and Allied Health"
+    ],
+    "domains": [
+      "methodistcollege.edu",
+      "metnet.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Northwestern College-Chicago",
+    "institution_count": 1,
+    "institutions": [
+      "Northwestern College-Chicago Campus"
+    ],
+    "domains": [
+      "northwesterncollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Nova Southeastern University (NSU) a Private",
+    "institution_count": 1,
+    "institutions": [
+      "Nova Southeastern University (NSU) a Private, Research University"
+    ],
+    "domains": [
+      "nova.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Oakland City University (OCU)  Oakland City",
+    "institution_count": 1,
+    "institutions": [
+      "Oakland City University (OCU)  Oakland City, Indiana"
+    ],
+    "domains": [
+      "oak.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Ohio State University",
+    "institution_count": 1,
+    "institutions": [
+      "Ohio State University Agricultural Technical Institute"
+    ],
+    "domains": [
+      "osu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Ohio University",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Ohio University"
+    ],
+    "domains": [
+      "ohiou.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Online University",
+    "institution_count": 1,
+    "institutions": [
+      "Online University, Online Degree Programs"
+    ],
+    "domains": [
+      "coloradotech.edu",
+      "ctuonline.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Online University Degrees and",
+    "institution_count": 1,
+    "institutions": [
+      "Online University Degrees and Campus Learning Education"
+    ],
+    "domains": [
+      "hamiltonia.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Pacific College",
+    "institution_count": 1,
+    "institutions": [
+      "Pacific College, Acupuncture and Massage School"
+    ],
+    "domains": [
+      "pacificcollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Paine College. Augusta",
+    "institution_count": 1,
+    "institutions": [
+      "Paine College. Augusta, GA."
+    ],
+    "domains": [
+      "paine.edu",
+      "pakaims.edu",
+      "palau.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Pennsylvania Institute of Technology",
+    "institution_count": 2,
+    "institutions": [
+      "Pennsylvania Institute of Technology, Media, PA",
+      "Pennsylvania Institute of Technology, Media, PA"
+    ],
+    "domains": [
+      "pit.edu",
+      "pitc.edu",
+      "pitt.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Pennsylvania State University",
+    "institution_count": 1,
+    "institutions": [
+      "Pennsylvania State University - Schuylkill Campus"
+    ],
+    "domains": [
+      "psu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Pomona College in Claremont",
+    "institution_count": 1,
+    "institutions": [
+      "Pomona College in Claremont, California"
+    ],
+    "domains": [
+      "pomona.edu",
+      "pontotoctech.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Quinnipiac University  Hamden",
+    "institution_count": 1,
+    "institutions": [
+      "Quinnipiac University  Hamden, Connecticut"
+    ],
+    "domains": [
+      "quinnipiac.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Rainy River Community College",
+    "institution_count": 1,
+    "institutions": [
+      "Rainy River Community College, International Falls Minnesota"
+    ],
+    "domains": [
+      "rainyriver.edu",
+      "raiuniversity.edu",
+      "rajabhat.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Regis College",
+    "institution_count": 1,
+    "institutions": [
+      "Regis College, Massachusetts"
+    ],
+    "domains": [
+      "regiscollege.edu",
+      "rei.edu",
+      "reinhardt.edu",
+      "remingtonadmin.edu",
+      "remingtoncollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Ross University",
+    "institution_count": 1,
+    "institutions": [
+      "Ross University, School of Medicine"
+    ],
+    "domains": [
+      "rossmed.edu",
+      "rossu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Ruparel College of arts",
+    "institution_count": 1,
+    "institutions": [
+      "Ruparel College of arts, science and commerce"
+    ],
+    "domains": [
+      "ruparel.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Rutgers University",
+    "institution_count": 1,
+    "institutions": [
+      "Rutgers, The State University of New Jersey"
+    ],
+    "domains": [
+      "rutgers.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Saba University",
+    "institution_count": 1,
+    "institutions": [
+      "Saba University School of Medicine"
+    ],
+    "domains": [
+      "saba.edu",
+      "sabanci.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Samford University",
+    "institution_count": 1,
+    "institutions": [
+      "Samford University, Birmingham, Alabama"
+    ],
+    "domains": [
+      "samford.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Schiller International University",
+    "institution_count": 1,
+    "institutions": [
+      "Schiller International University, Madrid"
+    ],
+    "domains": [
+      "schiller.edu",
+      "schillermadrid.edu",
+      "schillingdouglas.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Seton Hall University",
+    "institution_count": 1,
+    "institutions": [
+      "Seton Hall University, New Jersey"
+    ],
+    "domains": [
+      "shu.edu",
+      "shueyan.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Shasta College",
+    "institution_count": 2,
+    "institutions": [
+      "Shasta College, Redding CA, Community College",
+      "Shasta College, Redding CA, Community College"
+    ],
+    "domains": [
+      "shastacollege.edu",
+      "shawnee.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Shifa College of Medicine & Nursing",
+    "institution_count": 1,
+    "institutions": [
+      "Shifa College of Medicine & Nursing, Islamabad, Pakistan."
+    ],
+    "domains": [
+      "shifacollege.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Southeastern Baptist College",
+    "institution_count": 1,
+    "institutions": [
+      "Southeastern Baptist College, Laurel, Mississippi"
+    ],
+    "domains": [
+      "southeasternbaptist.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Southern Arkansas University â Magnolia",
+    "institution_count": 1,
+    "institutions": [
+      "Southern Arkansas University â Magnolia, Ark."
+    ],
+    "domains": [
+      "saumag.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Southern Polytechnic State University Marietta",
+    "institution_count": 1,
+    "institutions": [
+      "Southern Polytechnic State University Marietta, Georgia"
+    ],
+    "domains": [
+      "spsu.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Southwestern College in Winfield",
+    "institution_count": 1,
+    "institutions": [
+      "Southwestern College in Winfield, KS"
+    ],
+    "domains": [
+      "sckans.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Southwestern University",
+    "institution_count": 1,
+    "institutions": [
+      "Southwestern University School of Law"
+    ],
+    "domains": [
+      "swlaw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "St. Francis College",
+    "institution_count": 2,
+    "institutions": [
+      "St. Francis College, Fort Wayne",
+      "St. Francis College, Loretto"
+    ],
+    "domains": [
+      "sfc.edu",
+      "sfcpa.edu",
+      "stfranciscollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "St. Luke\\'s College",
+    "institution_count": 1,
+    "institutions": [
+      "St. Luke\\'s College, Sioux City, Iowa"
+    ],
+    "domains": [
+      "stlukescollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "St. Olaf College—A private liberal arts",
+    "institution_count": 1,
+    "institutions": [
+      "St. Olaf College—A private liberal arts college of the Lutheran church in Minnesota"
+    ],
+    "domains": [
+      "stolaf.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "St.Joseph\\'s College (Autonomous)",
+    "institution_count": 1,
+    "institutions": [
+      "St.Joseph\\'s College (Autonomous), Trichy, Tamilnadu."
+    ],
+    "domains": [
+      "sjctni.edu",
+      "sjeccd.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "State College of Florida",
+    "institution_count": 1,
+    "institutions": [
+      "State College of Florida, Manatee"
+    ],
+    "domains": [
+      "scf.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "State University of New York",
+    "institution_count": 5,
+    "institutions": [
+      "State University of New York College of Agriculture and Technology at Cobleskill",
+      "State University of New York College of Environmental Science and Forestry",
+      "State University of New York College of Optometry",
+      "State University of New York College of Technology at Alfred",
+      "State University of New York College of Technology at Farmingdale"
+    ],
+    "domains": [
+      "alfredtech.edu",
+      "cobleskill.edu",
+      "esf.edu",
+      "farmingdale.edu",
+      "sunyopt.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Stony Brook University",
+    "institution_count": 1,
+    "institutions": [
+      "Stony Brook University, Stony Brook, New York"
+    ],
+    "domains": [
+      "stonybrook.edu",
+      "sunysb.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Swinburne University of Technology",
+    "institution_count": 1,
+    "institutions": [
+      "Swinburne University of Technology, Melbourne, Australia"
+    ],
+    "domains": [
+      "swinburne.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Symbiosis Institute of Media & Communication",
+    "institution_count": 1,
+    "institutions": [
+      "Symbiosis Institute of Media & Communication, SIMC"
+    ],
+    "domains": [
+      "simc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "The Global Open University",
+    "institution_count": 1,
+    "institutions": [
+      "The Global Open University,Education For All"
+    ],
+    "domains": [
+      "tgouwp.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "The University of Arizona",
+    "institution_count": 1,
+    "institutions": [
+      "The University of Arizona, Tucson, Arizona"
+    ],
+    "domains": [
+      "arizona.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "The University of Chicago Booth",
+    "institution_count": 1,
+    "institutions": [
+      "The University of Chicago Booth School of Business"
+    ],
+    "domains": [
+      "chicagobooth.edu",
+      "chicagogsb.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "The University of Melbourne",
+    "institution_count": 1,
+    "institutions": [
+      "The University of Melbourne, Melbourne, Victoria, Australia"
+    ],
+    "domains": [
+      "melbourne.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "The University of the West Indies at St. Augustine",
+    "institution_count": 1,
+    "institutions": [
+      "The University of the West Indies at St. Augustine, Trinidad and Tobago"
+    ],
+    "domains": [
+      "uwivet.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Trine University",
+    "institution_count": 1,
+    "institutions": [
+      "Trine University, Angola IN"
+    ],
+    "domains": [
+      "trine.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Trinity International University (Excel)",
+    "institution_count": 1,
+    "institutions": [
+      "Trinity International University (Excel), Miami"
+    ],
+    "domains": [
+      "tiu.edu",
+      "trin.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Undergraduate Degrees and Academic Programs for a Great College Education",
+    "institution_count": 1,
+    "institutions": [
+      "Undergraduate Degrees and Academic Programs for a Great College Education, Culver"
+    ],
+    "domains": [
+      "culver.edu",
+      "cumberland.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "United Medical Institute",
+    "institution_count": 1,
+    "institutions": [
+      "United Medical Institute, Sacramento"
+    ],
+    "domains": [
+      "unitedmedicalinstitute.edu"
+    ],
+    "source_types": [
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "University of Asia Pacific",
+    "institution_count": 1,
+    "institutions": [
+      "University of Asia Pacific, Dhanmondi"
+    ],
+    "domains": [
+      "uap-bd.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of California",
+    "institution_count": 13,
+    "institutions": [
+      "University of California, Berkeley",
+      "University of California, Berkeley",
+      "University of California, Davis",
+      "University of California, Hastings College of Law",
+      "University of California, Irvine",
+      "University of California, Los Angeles",
+      "University of California, Merced",
+      "University of California, Office of the President",
+      "University of California, Riverside",
+      "University of California, San Diego",
+      "University of California, San Francisco",
+      "University of California, Santa Barbara",
+      "University of California, Santa Cruz"
+    ],
+    "domains": [
+      "berkeley.edu",
+      "berkeleycitycollege.edu",
+      "ucdavis.edu",
+      "uchastings.edu",
+      "uchc.edu",
+      "uci.edu",
+      "ucirvine.edu",
+      "ucjc.edu",
+      "ucla.edu",
+      "ucm.edu",
+      "ucmerced.edu",
+      "ucop.edu",
+      "ucr.edu",
+      "ucsandiego.edu",
+      "ucsanfrancisco.edu",
+      "ucsantabarbara.edu",
+      "ucsb.edu",
+      "ucsc.edu",
+      "ucsd.edu",
+      "ucsf.edu",
+      "ucsgh.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Colorado Anschutz Medical",
+    "institution_count": 1,
+    "institutions": [
+      "University of Colorado Anschutz Medical Campus"
+    ],
+    "domains": [
+      "cuanschutz.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "University of Kansas",
+    "institution_count": 1,
+    "institutions": [
+      "University of Kansas School of Medicine"
+    ],
+    "domains": [
+      "kumc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "University of Maine",
+    "institution_count": 1,
+    "institutions": [
+      "University of Maine, Orono"
+    ],
+    "domains": [
+      "umaine.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Maryland",
+    "institution_count": 3,
+    "institutions": [
+      "University of Maryland, Baltimore",
+      "University of Maryland, Baltimore County",
+      "University of Maryland, College Park"
+    ],
+    "domains": [
+      "umaryland.edu",
+      "umbc.edu",
+      "umd.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Minnesota",
+    "institution_count": 1,
+    "institutions": [
+      "University of Minnesota - Twin Cities"
+    ],
+    "domains": [
+      "umcrookston.edu",
+      "umn.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Nebraska",
+    "institution_count": 3,
+    "institutions": [
+      "Nebraska College of Technical Agriculture",
+      "The University of Nebraska Kearney",
+      "University of Nebraska - Omaha"
+    ],
+    "domains": [
+      "unk.edu",
+      "unl.edu",
+      "unomaha.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Nevada",
+    "institution_count": 2,
+    "institutions": [
+      "University of Nevada - Las Vegas",
+      "University of Nevada - Reno"
+    ],
+    "domains": [
+      "unlv.edu",
+      "unr.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of New Hampshire",
+    "institution_count": 2,
+    "institutions": [
+      "University of New Hampshire School of Law",
+      "University of New Hampshire, Durham"
+    ],
+    "domains": [
+      "piercelaw.edu",
+      "unh.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Rochester Medical Center",
+    "institution_count": 1,
+    "institutions": [
+      "University of Rochester Medical Center, Rochester NY"
+    ],
+    "domains": [
+      "urmc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "University of Saint Francis",
+    "institution_count": 1,
+    "institutions": [
+      "University of Saint Francis, Fort Wayne, Indiana"
+    ],
+    "domains": [
+      "sf.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "University of South Carolina",
+    "institution_count": 1,
+    "institutions": [
+      "University of South Carolina, Beaufort"
+    ],
+    "domains": [
+      "uscb.edu",
+      "uscga.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "University of St. Thomas",
+    "institution_count": 2,
+    "institutions": [
+      "University of St. Thomas, Houston",
+      "University of St. Thomas, St. Paul"
+    ],
+    "domains": [
+      "stthom.edu",
+      "stthomas.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Tennessee",
+    "institution_count": 2,
+    "institutions": [
+      "The University of Tennessee at Martin",
+      "University of Tennessee - Knoxville"
+    ],
+    "domains": [
+      "utk.edu",
+      "utm.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Texas Medical",
+    "institution_count": 1,
+    "institutions": [
+      "University of Texas Medical Branch Galveston"
+    ],
+    "domains": [
+      "utmb.edu",
+      "utmck.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "University of Virginia",
+    "institution_count": 1,
+    "institutions": [
+      "University of Virginia, Charlottesville"
+    ],
+    "domains": [
+      "virginia.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Valencia College",
+    "institution_count": 1,
+    "institutions": [
+      "Valencia College, Orlando, Florida"
+    ],
+    "domains": [
+      "valenciacollege.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Villa Maria College",
+    "institution_count": 2,
+    "institutions": [
+      "Villa Maria College, Buffalo, NY",
+      "Villa Maria College, Buffalo, NY"
+    ],
+    "domains": [
+      "villa.edu",
+      "villanova.edu",
+      "villanueva.edu",
+      "vims.edu",
+      "vinu.edu",
+      "vips.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Washburn University",
+    "institution_count": 1,
+    "institutions": [
+      "Washburn University School of Law"
+    ],
+    "domains": [
+      "washburnlaw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Washington University",
+    "institution_count": 1,
+    "institutions": [
+      "Washington University, Saint Louis"
+    ],
+    "domains": [
+      "wustl.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "WashLaw Web – Washburn University",
+    "institution_count": 1,
+    "institutions": [
+      "WashLaw Web – Washburn University School of Law"
+    ],
+    "domains": [
+      "washlaw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Watkins College of Art",
+    "institution_count": 1,
+    "institutions": [
+      "Watkins College of Art, Design & Film"
+    ],
+    "domains": [
+      "watkins.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Weatherford College",
+    "institution_count": 1,
+    "institutions": [
+      "Weatherford College, Weatherford, Texas"
+    ],
+    "domains": [
+      "wc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to Elaine Steven Beauty College",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Elaine Steven Beauty College, St. Louis, MO"
+    ],
+    "domains": [
+      "esbc.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to Green River Community College",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Green River Community College, Auburn, Washington"
+    ],
+    "domains": [
+      "greenriver.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to National Institute of Design",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to National Institute of Design, India"
+    ],
+    "domains": [
+      "nid.edu",
+      "nightingale.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to Professional Driver Institute",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Professional Driver Institute, Inc."
+    ],
+    "domains": [
+      "pdi.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to South Texas College of Law South Texas College of Law",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to South Texas College of Law South Texas College of Law, Houston\\'s oldest law school"
+    ],
+    "domains": [
+      "stcl.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to Southeastern FWB College in Wendell",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Southeastern FWB College in Wendell, NC"
+    ],
+    "domains": [
+      "sfwbc.edu",
+      "sgc.edu",
+      "sgsl.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory"
+    ]
+  },
+  {
+    "parent_institution": "Welcome to Wesleyan University âÂ Middletown",
+    "institution_count": 1,
+    "institutions": [
+      "Welcome to Wesleyan University âÂ Middletown, Connecticut"
+    ],
+    "domains": [
+      "wesleyan.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Western State University",
+    "institution_count": 1,
+    "institutions": [
+      "Western State University College of Law"
+    ],
+    "domains": [
+      "wsulaw.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "swot"
+    ]
+  },
+  {
+    "parent_institution": "Wheaton College",
+    "institution_count": 1,
+    "institutions": [
+      "Wheaton College, Norton MA"
+    ],
+    "domains": [
+      "wheatonma.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Wichita State University",
+    "institution_count": 1,
+    "institutions": [
+      "Wichita State University, Wichita, Kansas"
+    ],
+    "domains": [
+      "twsu.edu",
+      "wichita.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "edu_inventory",
+      "hipo",
+      "node_university_domains"
+    ]
+  },
+  {
+    "parent_institution": "Windsor University",
+    "institution_count": 1,
+    "institutions": [
+      "Windsor University School of Medicine"
+    ],
+    "domains": [
+      "windsor.edu"
+    ],
+    "source_types": [
+      "academic_domains",
+      "swot"
+    ]
+  }
+]
