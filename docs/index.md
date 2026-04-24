@@ -11,17 +11,14 @@ power them, including which third-party JavaScript services they rely on.
 
 <!-- SCAN_PROGRESS_START -->
 
-_Progress as of 2026-04-24 05:59 UTC_
+_Progress as of 2026-04-24 21:51 UTC_
 
 | Scan Type | Pages Scanned | Coverage |
 |-----------|--------------|----------|
-| **Combined Reachability** | **76,018 confirmed reachable** | **<span role="img" aria-label="91.9% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:110px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">91.9%</span></span>** |
-| Social Media | 82,714 scanned (76,018 reachable) | <span role="img" aria-label="100.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:120px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">100.0%</span></span> |
-| Technology | 37,578 scanned | <span role="img" aria-label="45.4% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:55px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">45.4%</span></span> |
-| Lighthouse | 300 scanned | <span role="img" aria-label="0.4% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:2px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.4%</span></span> |
-| Accessibility Statements | 71,680 scanned | <span role="img" aria-label="86.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:104px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">86.7%</span></span> |
+| **Combined Reachability** | **27 confirmed reachable** | **<span role="img" aria-label="0.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.7%</span></span>** |
+| Social Media | 38 scanned (27 reachable) | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
 
-**31 countries** with scan data · **76,018** of **82,714** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
+**1 countries** with scan data · **27** of **3,763** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
 
 <!-- SCAN_PROGRESS_END -->
 
