@@ -1,0 +1,130 @@
+name: Deploy GitHub Pages
+
+on:
+  # Re-deploy whenever docs are updated (e.g. after a scan-progress commit).
+  push:
+    branches: [main]
+    paths: ['docs/**']
+
+  # Also deploy after the scan-progress report is regenerated.
+  workflow_run:
+    workflows: ["Generate Scan Progress Report"]
+    types: [completed]
+
+  # Allow manual trigger at any time.
+  workflow_dispatch:
+
+# Allow only one pages deployment at a time; newer runs cancel queued ones.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+# Permissions required for GitHub Pages deployment.
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  REQUIRED_DRILLDOWN_JSON_FILES: "social-media-data.json technology-data.json accessibility-data.json third-party-tools-data.json scan-progress-data.json lighthouse-data.json"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Download scan-progress artifact from triggering workflow run
+        if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: scan-progress-report-*
+          path: /tmp/scan-progress-artifact
+          merge-multiple: true
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Find latest scan-progress artifact run ID
+        if: github.event_name != 'workflow_run'
+        id: find-scan-progress-artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eo pipefail
+          ARTIFACT_ROWS=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100" \
+            --jq '.artifacts[] | select(.expired == false and (.name|startswith("scan-progress-report-"))) | "\(.created_at) \(.workflow_run.id)"' || true)
+          RUN_ID=$(printf "%s\n" "$ARTIFACT_ROWS" | sort -rk1 | head -1 | awk '{print $2}') || true
+          echo "run_id=${RUN_ID}" >> "$GITHUB_OUTPUT"
+          if [ -n "$RUN_ID" ]; then
+            echo "Found scan-progress artifact run $RUN_ID"
+          else
+            echo "No scan-progress artifact run found; API may have returned no matching artifacts."
+          fi
+
+      - name: Download latest scan-progress artifact
+        if: github.event_name != 'workflow_run' && steps.find-scan-progress-artifact.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: scan-progress-report-*
+          path: /tmp/scan-progress-artifact
+          merge-multiple: true
+          run-id: ${{ steps.find-scan-progress-artifact.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Hydrate drilldown JSON files for site build
+        run: |
+          set -eo pipefail
+          for file in $REQUIRED_DRILLDOWN_JSON_FILES; do
+            if [ -f "/tmp/scan-progress-artifact/docs/$file" ]; then
+              cp "/tmp/scan-progress-artifact/docs/$file" "docs/$file"
+            elif [ -f "/tmp/scan-progress-artifact/$file" ]; then
+              cp "/tmp/scan-progress-artifact/$file" "docs/$file"
+            fi
+          done
+
+      - name: Validate required drilldown JSON files
+        run: |
+          set -eo pipefail
+          missing=0
+          for file in $REQUIRED_DRILLDOWN_JSON_FILES; do
+            if [ ! -f "docs/$file" ]; then
+              echo "Missing required data file: docs/$file"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            echo "GitHub Pages build stopped because one or more drilldown JSON files are missing."
+            exit 1
+          fi
+
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

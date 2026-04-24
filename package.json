@@ -1,0 +1,13 @@
+{
+  "name": "eu-plus-government-scans-site-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Accessibility smoke tests for the generated GitHub Pages site.",
+  "scripts": {
+    "test:a11y": "node scripts/run-axe-site-check.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "playwright": "^1.54.2"
+  }
+}

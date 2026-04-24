@@ -1,0 +1,68 @@
+name: Reopen Validation Cycle
+
+on:
+  # Run quarterly (1st day of Jan, Apr, Jul, Oct at midnight)
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  reopen-cycle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Download previous metadata DB (if exists)
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+      
+      - name: Start new validation cycle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -m src.cli.validate_urls_batch \
+            --batch-mode \
+            --batch-size 5 \
+            --rate-limit 2.0 \
+            --create-issue \
+            2>&1 | tee cycle-start-output.txt
+      
+      - name: Upload metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+      
+      - name: Display summary
+        if: always()
+        run: |
+          echo "## New Validation Cycle Started" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "A new quarterly validation cycle has been initiated." >> $GITHUB_STEP_SUMMARY
+          echo "Check the created GitHub issue for progress tracking." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The batch validation workflow will continue processing countries every 2 hours." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,125 @@
+name: Scan Accessibility Overlays
+
+on:
+  # Trigger manually only — overlay adoption does not change frequently enough
+  # to warrant a scheduled scan.  Run this when you need a fresh inventory of
+  # which government sites are using accessibility overlay products.
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country code to scan (e.g., ICELAND, FRANCE) — leave empty for all'
+        required: false
+        type: string
+      rate_limit:
+        description: 'Maximum requests per second (keep low for polite crawling)'
+        required: false
+        default: '1.0'
+        type: string
+
+# Share concurrency group with the other metadata-producing scan workflows so
+# only one of them runs at a time, protecting the shared validation-metadata
+# artifact without letting low-priority URL validation block richer scans.
+concurrency:
+  group: metadata-scans
+  cancel-in-progress: false
+
+jobs:
+  scan-overlays:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Find latest metadata artifact run ID
+        id: find-metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100&name=validation-metadata" \
+            --jq '.artifacts[] | select(.expired == false) | "\(.created_at) \(.workflow_run.id)"' \
+            2>/dev/null | sort -rk1 | head -1 | awk '{print $2}' || echo "")
+          echo "run_id=${RUN_ID}" >> $GITHUB_OUTPUT
+          if [ -n "$RUN_ID" ]; then
+            echo "Found validation-metadata artifact from run $RUN_ID"
+          else
+            echo "No validation-metadata artifact found — will start with fresh database"
+          fi
+
+      - name: Download previous metadata DB (if exists)
+        if: steps.find-metadata.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+          run-id: ${{ steps.find-metadata.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run overlay scan (specific country)
+        if: ${{ github.event.inputs.country != '' }}
+        run: |
+          python3 -m src.cli.scan_overlays \
+            --country "${{ github.event.inputs.country }}" \
+            --rate-limit "${{ github.event.inputs.rate_limit }}" \
+            2>&1 | tee overlay-scan-output.txt
+
+      - name: Run overlay scan (all countries)
+        if: ${{ github.event.inputs.country == '' }}
+        run: |
+          python3 -m src.cli.scan_overlays \
+            --all \
+            --max-runtime 110 \
+            --rate-limit "${{ github.event.inputs.rate_limit || '1.0' }}" \
+            2>&1 | tee overlay-scan-output.txt
+
+      - name: Upload scan results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: overlay-scan-${{ github.run_number }}
+          path: |
+            data/metadata.db
+            overlay-scan-output.txt
+            data/toon-seeds/countries/**_overlays.toon
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Update shared validation metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: warn
+
+      - name: Display scan summary
+        if: always()
+        run: |
+          echo "## Accessibility Overlay Scan Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f overlay-scan-output.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -50 overlay-scan-output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '1.0' }} req/sec" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

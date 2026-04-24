@@ -1,0 +1,187 @@
+name: Generate Scan Progress Report
+
+on:
+  # Re-generate progress once per day.
+  schedule:
+    - cron: "15 5 * * *"
+
+  # Allow manual trigger at any time.
+  workflow_dispatch:
+
+# Only one report-generation job at a time; newer runs cancel older queued ones.
+concurrency:
+  group: scan-progress-report
+  cancel-in-progress: true
+
+jobs:
+  generate-progress-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Find latest metadata artifact run ID
+        id: find-metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100&name=validation-metadata" \
+            --jq '.artifacts[] | select(.expired == false) | "\(.created_at) \(.workflow_run.id)"' \
+            2>/dev/null | sort -rk1 | head -1 | awk '{print $2}' || echo "")
+          echo "run_id=${RUN_ID}" >> $GITHUB_OUTPUT
+          if [ -n "$RUN_ID" ]; then
+            echo "Found validation-metadata artifact from run $RUN_ID"
+          else
+            echo "No validation-metadata artifact found — reports will show empty stats"
+          fi
+
+      - name: Download latest metadata DB (if exists)
+        if: steps.find-metadata.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+          run-id: ${{ steps.find-metadata.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest main before generating reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Generate scan progress report
+        run: |
+          python3 -m src.cli.generate_scan_progress \
+            --output docs/scan-progress.md \
+            --data docs/scan-progress-data.json \
+            --update-index docs/index.md \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee scan-progress-output.txt
+
+      - name: Generate social media stats page
+        run: |
+          python3 -m src.cli.generate_social_media_report \
+            --page docs/social-media.md \
+            --data docs/social-media-data.json \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee social-media-report-output.txt
+
+      - name: Generate domains report
+        run: |
+          python3 -m src.cli.generate_domains_report \
+            --output docs/domains.md \
+            2>&1 | tee domains-report-output.txt
+
+      - name: Generate technology stats page
+        run: |
+          python3 -m src.cli.generate_technology_report \
+            --page docs/technology-scanning.md \
+            --data docs/technology-data.json \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee technology-report-output.txt
+
+      - name: Generate third-party JavaScript stats page
+        run: |
+          python3 -m src.cli.generate_third_party_js_report \
+            --page docs/third-party-tools.md \
+            --data docs/third-party-tools-data.json \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee third-party-js-report-output.txt
+
+      - name: Generate accessibility statement stats page
+        run: |
+          python3 -m src.cli.generate_accessibility_report \
+            --page docs/accessibility-statements.md \
+            --data docs/accessibility-data.json \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee accessibility-report-output.txt
+
+      - name: Generate Lighthouse results page
+        run: |
+          python3 -m src.cli.generate_lighthouse_report \
+            --page docs/lighthouse-results.md \
+            --data docs/lighthouse-data.json \
+            --csv docs/lighthouse-data.csv \
+            --seeds-dir data/toon-seeds/countries \
+            2>&1 | tee lighthouse-report-output.txt
+
+      - name: Commit progress report to repository
+        run: |
+          # docs/social-media-data.json, docs/accessibility-data.json,
+          # docs/technology-data.json, and docs/lighthouse-data.json are excluded
+          # from git because they can exceed GitHub's 100 MB file-size limit.
+          # All four files are still uploaded as workflow artifacts above.
+          git add docs/scan-progress.md docs/domains.md docs/index.md \
+                  docs/social-media.md \
+                  docs/technology-scanning.md \
+                  docs/third-party-tools.md docs/third-party-tools-data.json \
+                  docs/accessibility-statements.md \
+                  docs/lighthouse-results.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit — reports are up to date."
+          else
+            git commit -m "docs: update scan reports and generated site pages [skip ci]"
+            git push
+            echo "Reports committed and pushed."
+          fi
+
+      - name: Upload progress report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-progress-report-${{ github.run_number }}
+          path: |
+            docs/scan-progress.md
+            docs/scan-progress-data.json
+            docs/domains.md
+            docs/index.md
+            docs/social-media.md
+            docs/social-media-data.json
+            docs/technology-scanning.md
+            docs/technology-data.json
+            docs/third-party-tools.md
+            docs/third-party-tools-data.json
+            docs/accessibility-statements.md
+            docs/accessibility-data.json
+            docs/lighthouse-results.md
+            docs/lighthouse-data.json
+            docs/lighthouse-data.csv
+            scan-progress-output.txt
+            social-media-report-output.txt
+            domains-report-output.txt
+            technology-report-output.txt
+            third-party-js-report-output.txt
+            accessibility-report-output.txt
+            lighthouse-report-output.txt
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Display progress summary
+        if: always()
+        run: |
+          echo "## Scan Progress Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f docs/scan-progress.md ]; then
+            cat docs/scan-progress.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "_No progress data available yet._" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

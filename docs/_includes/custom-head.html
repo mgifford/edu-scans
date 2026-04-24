@@ -1,0 +1,48 @@
+<script>
+  (function () {
+    var storageKey = "eu-gov-scans-theme";
+    try {
+      var stored = localStorage.getItem(storageKey);
+      if (stored === "light" || stored === "dark") {
+        document.documentElement.setAttribute("data-theme", stored);
+      }
+    } catch (error) {
+      // Ignore storage failures and fall back to system preference.
+    }
+  })();
+</script>
+<script src="{{ '/assets/js/table-drilldown.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var codes = document.querySelectorAll('code.language-mermaid');
+    if (!codes.length) return;
+    import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs').then(function (m) {
+      m.default.initialize({ startOnLoad: false, theme: 'default' });
+      codes.forEach(function (code) {
+        var pre = code.parentNode;
+        var label = 'Architecture diagram';
+        // Walk backwards through preceding siblings and parent siblings to find nearest heading.
+        var node = pre;
+        outer: while (node) {
+          var sibling = node.previousElementSibling;
+          while (sibling) {
+            if (/^H[1-6]$/i.test(sibling.tagName)) {
+              label = sibling.textContent.trim() + ' diagram';
+              break outer;
+            }
+            sibling = sibling.previousElementSibling;
+          }
+          node = node.parentElement;
+        }
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.setAttribute('role', 'img');
+        div.setAttribute('aria-label', label);
+        div.textContent = code.textContent;
+        pre.parentNode.replaceChild(div, pre);
+      });
+      m.default.run();
+    });
+  });
+</script>

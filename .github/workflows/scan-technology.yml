@@ -1,0 +1,143 @@
+name: Scan Technology Stack
+
+on:
+  # Run every 4 hours — with --skip-recently-scanned-days 7 each run focuses
+  # only on URLs not yet scanned in the past week, so the full ~82k URL corpus
+  # is covered progressively without hammering government servers twice.
+  # 6 runs/day × 13,200 URLs/run (110 min @ 2 req/s) covers all 82k URLs in
+  # roughly 1 day; every URL is refreshed at least once per week.
+  schedule:
+    - cron: '0 */4 * * *'
+
+  # Allow manual trigger for a single country or all countries
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country code to scan (e.g., ICELAND, FRANCE) — leave empty for all'
+        required: false
+        type: string
+      rate_limit:
+        description: 'Maximum requests per second'
+        required: false
+        default: '2.0'
+        type: string
+      skip_recently_scanned_days:
+        description: 'Skip URLs scanned within this many days (0 = re-scan all, 7 = weekly refresh)'
+        required: false
+        default: '7'
+        type: string
+
+# Share concurrency group with the other metadata-producing scan workflows so
+# only one of them runs at a time, protecting the shared validation-metadata
+# artifact without letting low-priority URL validation block richer scans.
+concurrency:
+  group: metadata-scans
+  cancel-in-progress: false
+
+jobs:
+  scan-technology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Find latest metadata artifact run ID
+        id: find-metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100&name=validation-metadata" \
+            --jq '.artifacts[] | select(.expired == false) | "\(.created_at) \(.workflow_run.id)"' \
+            2>/dev/null | sort -rk1 | head -1 | awk '{print $2}' || echo "")
+          echo "run_id=${RUN_ID}" >> $GITHUB_OUTPUT
+          if [ -n "$RUN_ID" ]; then
+            echo "Found validation-metadata artifact from run $RUN_ID"
+          else
+            echo "No validation-metadata artifact found — will start with fresh database"
+          fi
+
+      - name: Download previous metadata DB (if exists)
+        if: steps.find-metadata.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+          run-id: ${{ steps.find-metadata.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run technology scan (specific country)
+        if: ${{ github.event.inputs.country != '' }}
+        run: |
+          set -o pipefail
+          SKIP_DAYS="${{ github.event.inputs.skip_recently_scanned_days || '7' }}"
+          python3 -m src.cli.scan_technology \
+            --country "${{ github.event.inputs.country }}" \
+            --rate-limit "${{ github.event.inputs.rate_limit }}" \
+            --skip-recently-scanned-days "$SKIP_DAYS" \
+            2>&1 | tee tech-scan-output.txt
+
+      - name: Run technology scan (all countries)
+        if: ${{ github.event.inputs.country == '' || github.event_name == 'schedule' }}
+        run: |
+          set -o pipefail
+          SKIP_DAYS="${{ github.event.inputs.skip_recently_scanned_days || '7' }}"
+          python3 -m src.cli.scan_technology \
+            --all \
+            --max-runtime 110 \
+            --rate-limit "${{ github.event.inputs.rate_limit || '2.0' }}" \
+            --skip-recently-scanned-days "$SKIP_DAYS" \
+            2>&1 | tee tech-scan-output.txt
+
+      - name: Upload scan results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tech-scan-${{ github.run_number }}
+          path: |
+            data/metadata.db
+            tech-scan-output.txt
+            data/toon-seeds/countries/**_tech.toon
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Update shared validation metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: warn
+
+      - name: Display scan summary
+        if: always()
+        run: |
+          echo "## Technology Scan Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f tech-scan-output.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -50 tech-scan-output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '2.0' }} req/sec" >> $GITHUB_STEP_SUMMARY
+          echo "- Skip Recently Scanned: ${{ github.event.inputs.skip_recently_scanned_days || '7' }} days" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

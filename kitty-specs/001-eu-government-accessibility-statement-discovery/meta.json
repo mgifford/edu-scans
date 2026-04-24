@@ -1,0 +1,10 @@
+{
+  "feature_number": "001",
+  "slug": "001-eu-government-accessibility-statement-discovery",
+  "friendly_name": "EU Government Accessibility Statement Discovery",
+  "mission": "software-dev",
+  "source_description": "I want to find accessibility statements in government websites where they are required. This is mostly Europe and now Canada. The focus will be Europe.",
+  "created_at": "2026-02-26T08:37:01Z",
+  "target_branch": "main",
+  "vcs": "git"
+}

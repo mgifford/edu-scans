@@ -1,0 +1,166 @@
+{
+  "countries": [
+    {
+      "country": "Austria",
+      "file": "data/toon-seeds/eu-only/countries/austria.toon",
+      "domain_count": 376,
+      "page_count": 821
+    },
+    {
+      "country": "Belgium",
+      "file": "data/toon-seeds/eu-only/countries/belgium.toon",
+      "domain_count": 614,
+      "page_count": 1309
+    },
+    {
+      "country": "Bulgaria",
+      "file": "data/toon-seeds/eu-only/countries/bulgaria.toon",
+      "domain_count": 125,
+      "page_count": 291
+    },
+    {
+      "country": "Croatia",
+      "file": "data/toon-seeds/eu-only/countries/croatia.toon",
+      "domain_count": 139,
+      "page_count": 233
+    },
+    {
+      "country": "Czechia",
+      "file": "data/toon-seeds/eu-only/countries/czechia.toon",
+      "domain_count": 371,
+      "page_count": 843
+    },
+    {
+      "country": "Denmark",
+      "file": "data/toon-seeds/eu-only/countries/denmark.toon",
+      "domain_count": 658,
+      "page_count": 1521
+    },
+    {
+      "country": "Estonia",
+      "file": "data/toon-seeds/eu-only/countries/estonia.toon",
+      "domain_count": 168,
+      "page_count": 396
+    },
+    {
+      "country": "Finland",
+      "file": "data/toon-seeds/eu-only/countries/finland.toon",
+      "domain_count": 87,
+      "page_count": 180
+    },
+    {
+      "country": "France",
+      "file": "data/toon-seeds/eu-only/countries/france.toon",
+      "domain_count": 4324,
+      "page_count": 10007
+    },
+    {
+      "country": "Germany",
+      "file": "data/toon-seeds/eu-only/countries/germany.toon",
+      "domain_count": 2947,
+      "page_count": 6555
+    },
+    {
+      "country": "Greece",
+      "file": "data/toon-seeds/eu-only/countries/greece.toon",
+      "domain_count": 822,
+      "page_count": 1748
+    },
+    {
+      "country": "Hungary",
+      "file": "data/toon-seeds/eu-only/countries/hungary.toon",
+      "domain_count": 177,
+      "page_count": 390
+    },
+    {
+      "country": "Ireland",
+      "file": "data/toon-seeds/eu-only/countries/ireland.toon",
+      "domain_count": 228,
+      "page_count": 522
+    },
+    {
+      "country": "Italy",
+      "file": "data/toon-seeds/eu-only/countries/italy.toon",
+      "domain_count": 2571,
+      "page_count": 5338
+    },
+    {
+      "country": "Latvia",
+      "file": "data/toon-seeds/eu-only/countries/latvia.toon",
+      "domain_count": 341,
+      "page_count": 802
+    },
+    {
+      "country": "Lithuania",
+      "file": "data/toon-seeds/eu-only/countries/lithuania.toon",
+      "domain_count": 64,
+      "page_count": 120
+    },
+    {
+      "country": "Luxembourg",
+      "file": "data/toon-seeds/eu-only/countries/luxembourg.toon",
+      "domain_count": 236,
+      "page_count": 571
+    },
+    {
+      "country": "Malta",
+      "file": "data/toon-seeds/eu-only/countries/malta.toon",
+      "domain_count": 265,
+      "page_count": 608
+    },
+    {
+      "country": "Netherlands",
+      "file": "data/toon-seeds/eu-only/countries/netherlands.toon",
+      "domain_count": 454,
+      "page_count": 937
+    },
+    {
+      "country": "Poland",
+      "file": "data/toon-seeds/eu-only/countries/poland.toon",
+      "domain_count": 6584,
+      "page_count": 14938
+    },
+    {
+      "country": "Portugal",
+      "file": "data/toon-seeds/eu-only/countries/portugal.toon",
+      "domain_count": 1545,
+      "page_count": 3503
+    },
+    {
+      "country": "Republic of Cyprus",
+      "file": "data/toon-seeds/eu-only/countries/republic-of-cyprus.toon",
+      "domain_count": 9,
+      "page_count": 24
+    },
+    {
+      "country": "Romania",
+      "file": "data/toon-seeds/eu-only/countries/romania.toon",
+      "domain_count": 349,
+      "page_count": 799
+    },
+    {
+      "country": "Slovakia",
+      "file": "data/toon-seeds/eu-only/countries/slovakia.toon",
+      "domain_count": 184,
+      "page_count": 434
+    },
+    {
+      "country": "Slovenia",
+      "file": "data/toon-seeds/eu-only/countries/slovenia.toon",
+      "domain_count": 100,
+      "page_count": 200
+    },
+    {
+      "country": "Spain",
+      "file": "data/toon-seeds/eu-only/countries/spain.toon",
+      "domain_count": 2868,
+      "page_count": 6069
+    },
+    {
+      "country": "Sweden",
+      "file": "data/toon-seeds/eu-only/countries/sweden.toon",
+      "domain_count": 765,
+      "page_count": 1558
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+name: Issue-Triggered Validation
+
+on:
+  # Check for trigger issues every hour
+  schedule:
+    - cron: '0 * * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      bypass_circuit_breaker:
+        description: 'Bypass circuit breaker and force a validation run (use to reset the breaker after fixing the underlying issue)'
+        required: false
+        default: 'false'
+        type: boolean
+
+# Use a dedicated concurrency group for issue-triggered runs so that
+# this hourly workflow does not compete with — or cancel — the longer-running
+# scan workflows (scan-social-media, scan-technology) that share
+# the validation-runs group.
+concurrency:
+  group: issue-check-runs
+  cancel-in-progress: false
+
+jobs:
+  check-and-process-issues:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      issues: write
+      actions: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Find latest metadata artifact run ID
+        id: find-metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100&name=validation-metadata" \
+            --jq '.artifacts[] | select(.expired == false) | "\(.created_at) \(.workflow_run.id)"' \
+            2>/dev/null | sort -rk1 | head -1 | awk '{print $2}' || echo "")
+          echo "run_id=${RUN_ID}" >> $GITHUB_OUTPUT
+          if [ -n "$RUN_ID" ]; then
+            echo "Found validation-metadata artifact from run $RUN_ID"
+          else
+            echo "No validation-metadata artifact found — will start with fresh database"
+          fi
+
+      - name: Download previous metadata DB (if exists)
+        id: download-metadata
+        if: steps.find-metadata.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+          run-id: ${{ steps.find-metadata.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for consecutive failures (circuit breaker)
+        id: circuit-breaker
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          THRESHOLD=3
+
+          # If the user has explicitly requested a bypass, skip the circuit breaker.
+          if [ "${{ github.event.inputs.bypass_circuit_breaker }}" = "true" ]; then
+            echo "triggered=false" >> "$GITHUB_OUTPUT"
+            echo "streak=0"        >> "$GITHUB_OUTPUT"
+            echo "threshold=$THRESHOLD" >> "$GITHUB_OUTPUT"
+            echo "Bypass requested — skipping circuit-breaker check."
+            exit 0
+          fi
+
+          # Fetch the last 10 completed run conclusions for this workflow,
+          # most recent first.  The current run is still in_progress and will
+          # not appear in this list.
+          CONCLUSIONS=$(gh run list \
+            --workflow issue-triggered-validation.yml \
+            --status completed \
+            --limit 10 \
+            --json conclusion \
+            --jq '.[].conclusion' 2>/dev/null || true)
+
+          # Count consecutive genuine-failure conclusions from the most recent
+          # run.  'cancelled' is excluded because runs are routinely cancelled
+          # by GitHub's concurrency-group queue (when the batch-validation
+          # workflow is already in flight) — that is expected behaviour, not an
+          # error.
+          STREAK=0
+          while IFS= read -r line; do
+            case "$line" in
+              failure|timed_out)
+                STREAK=$((STREAK + 1))
+                ;;
+              *)
+                break
+                ;;
+            esac
+          done <<< "$CONCLUSIONS"
+
+          echo "streak=$STREAK" >> "$GITHUB_OUTPUT"
+          echo "threshold=$THRESHOLD" >> "$GITHUB_OUTPUT"
+
+          if [ "$STREAK" -ge "$THRESHOLD" ]; then
+            echo "triggered=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Circuit breaker triggered: $STREAK consecutive failures detected."
+          else
+            echo "triggered=false" >> "$GITHUB_OUTPUT"
+            echo "Failure streak: $STREAK / $THRESHOLD — proceeding normally."
+          fi
+
+      - name: Check for trigger issues and process
+        if: steps.circuit-breaker.outputs.triggered != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -m src.cli.issue_triggered_validation
+
+      - name: Report circuit breaker status
+        if: steps.circuit-breaker.outputs.triggered == 'true'
+        run: |
+          echo "## ⚠️ Circuit Breaker Active" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Validation was **skipped** because the last ${{ steps.circuit-breaker.outputs.streak }} workflow" >> "$GITHUB_STEP_SUMMARY"
+          echo "runs all ended in failure (threshold: ${{ steps.circuit-breaker.outputs.threshold }})." >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**What to do:**" >> "$GITHUB_STEP_SUMMARY"
+          echo "1. Review recent failures in the [Actions tab](${{ github.server_url }}/${{ github.repository }}/actions/workflows/issue-triggered-validation.yml)" >> "$GITHUB_STEP_SUMMARY"
+          echo "2. Fix the underlying problem" >> "$GITHUB_STEP_SUMMARY"
+          echo "3. Re-trigger this workflow using **workflow_dispatch** and set **bypass_circuit_breaker** to \`true\` to reset the breaker" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "The circuit breaker resets automatically after one successful run." >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning::Circuit breaker active — ${{ steps.circuit-breaker.outputs.streak }} consecutive failures. Validation skipped. Use the bypass_circuit_breaker input on a manual dispatch to reset."
+
+      - name: Upload metadata
+        if: always() && steps.download-metadata.outcome != 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true

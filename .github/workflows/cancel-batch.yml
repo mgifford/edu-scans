@@ -1,0 +1,63 @@
+name: Cancel Batch Workflows
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Which workflows to cancel'
+        required: true
+        default: 'all-batch'
+        type: choice
+        options:
+          - all-batch
+          - validate-urls-batch
+          - issue-triggered-validation
+
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    
+    steps:
+      - name: Cancel running and queued workflow runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          REPO="${{ github.repository }}"
+          TARGET="${{ inputs.target }}"
+          CANCELLED=0
+
+          cancel_workflow() {
+            local WORKFLOW="$1"
+            echo "Checking for in-progress/queued runs of ${WORKFLOW}..."
+
+            for STATUS in in_progress queued; do
+              while IFS= read -r RUN_ID; do
+                [ -z "$RUN_ID" ] && continue
+                echo "  Cancelling ${STATUS} run ${RUN_ID}..."
+                if gh run cancel "$RUN_ID" --repo "$REPO" 2>&1; then
+                  CANCELLED=$((CANCELLED + 1))
+                else
+                  echo "  Warning: could not cancel run ${RUN_ID} (may have already finished)"
+                fi
+              done < <(gh run list \
+                --repo "$REPO" \
+                --workflow "$WORKFLOW" \
+                --status "$STATUS" \
+                --json databaseId \
+                --jq '.[].databaseId')
+            done
+          }
+
+          if [ "$TARGET" = "all-batch" ] || [ "$TARGET" = "validate-urls-batch" ]; then
+            cancel_workflow "validate-urls-batch.yml"
+          fi
+
+          if [ "$TARGET" = "all-batch" ] || [ "$TARGET" = "issue-triggered-validation" ]; then
+            cancel_workflow "issue-triggered-validation.yml"
+          fi
+
+          echo ""
+          echo "Done. Cancelled ${CANCELLED} run(s)."
+          echo "Cancelled: ${CANCELLED} run(s)" >> "$GITHUB_STEP_SUMMARY"

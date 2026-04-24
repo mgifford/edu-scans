@@ -1,0 +1,140 @@
+name: Scan Lighthouse
+
+on:
+  # Run once a day at 03:00 UTC to build up progressive coverage.
+  # With --concurrency 3 and --only-categories=performance,accessibility,
+  # best-practices,seo each URL takes ~20-30 s, giving ~750-1,000 URLs per
+  # 110-minute run.  With --skip-recently-scanned-days 30 each URL is
+  # refreshed at most once per month, so the focus stays on uncovered URLs.
+  schedule:
+    - cron: '0 3 * * *'
+
+  # Allow manual trigger for a single country or all countries
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country code to scan (e.g., ICELAND, FRANCE) — leave empty for all'
+        required: false
+        type: string
+      rate_limit:
+        description: 'Maximum Lighthouse runs per second (default: 0.5)'
+        required: false
+        default: '0.5'
+        type: string
+      concurrency:
+        description: 'Maximum parallel Lighthouse processes (default: 3)'
+        required: false
+        default: '3'
+        type: string
+      skip_recently_scanned_days:
+        description: 'Skip URLs scanned within this many days (0 = re-scan all, 30 = monthly refresh)'
+        required: false
+        default: '30'
+        type: string
+
+# Lighthouse has its own concurrency group so frequent metadata-scan workflows
+# (social media every 2 h, tech every 4 h) can never cancel a Lighthouse run.
+concurrency:
+  group: lighthouse-scan
+  cancel-in-progress: false
+
+jobs:
+  scan-lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install Lighthouse CLI
+        run: |
+          npm install -g lighthouse
+
+      - name: Download previous metadata DB (if exists)
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+
+      - name: Run Lighthouse scan (specific country)
+        if: ${{ github.event.inputs.country != '' }}
+        run: |
+          python3 -m src.cli.scan_lighthouse \
+            --country "${{ github.event.inputs.country }}" \
+            --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
+            --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
+            --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
+            --only-categories "performance,accessibility,best-practices,seo" \
+            --throttling-method "provided" \
+            2>&1 | tee lighthouse-scan-output.txt
+
+      - name: Run Lighthouse scan (all countries)
+        if: ${{ github.event.inputs.country == '' || github.event_name == 'schedule' }}
+        run: |
+          python3 -m src.cli.scan_lighthouse \
+            --all \
+            --max-runtime 110 \
+            --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
+            --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
+            --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
+            --only-categories "performance,accessibility,best-practices,seo" \
+            --throttling-method "provided" \
+            2>&1 | tee lighthouse-scan-output.txt
+
+      - name: Upload scan results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-scan-${{ github.run_number }}
+          path: |
+            data/metadata.db
+            lighthouse-scan-output.txt
+            data/toon-seeds/countries/**_lighthouse.toon
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Update shared validation metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: warn
+
+      - name: Display scan summary
+        if: always()
+        run: |
+          echo "## Lighthouse Scan Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f lighthouse-scan-output.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -50 lighthouse-scan-output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '0.5' }} runs/sec" >> $GITHUB_STEP_SUMMARY
+          echo "- Concurrency: ${{ github.event.inputs.concurrency || '3' }} parallel processes" >> $GITHUB_STEP_SUMMARY
+          echo "- Skip recently scanned: ${{ github.event.inputs.skip_recently_scanned_days || '30' }} days" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

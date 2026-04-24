@@ -1,0 +1,11 @@
+{
+  "merged_csv": "data/imports/google_sheets/all_sheets_merged.csv",
+  "total_rows": 82714,
+  "detected_expected_count": 29,
+  "expected_count": 29,
+  "missing_expected": [],
+  "extra_detected": [
+    "Iceland",
+    "Norway"
+  ]
+}

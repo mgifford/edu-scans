@@ -1,0 +1,16 @@
+{
+  "countries": [
+    {
+      "country": "Switzerland",
+      "file": "data/toon-seeds/uk-ch/countries/switzerland.toon",
+      "domain_count": 941,
+      "page_count": 2117
+    },
+    {
+      "country": "United Kingdom (UK)",
+      "file": "data/toon-seeds/uk-ch/countries/united-kingdom-uk.toon",
+      "domain_count": 8250,
+      "page_count": 19502
+    }
+  ]
+}

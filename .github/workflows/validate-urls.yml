@@ -1,0 +1,117 @@
+name: Validate Government URLs
+
+on:
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Specific country code to validate (e.g., ICELAND, FRANCE) or leave empty for all'
+        required: false
+        type: string
+      rate_limit:
+        description: 'Maximum requests per second'
+        required: false
+        default: '2.0'
+        type: string
+      skip_recently_validated_days:
+        description: 'Skip URLs already confirmed reachable by any scanner within this many days (0 = always re-validate)'
+        required: false
+        default: '30'
+        type: string
+
+# Validation is a low-priority background task. Keep validation workflows
+# serialized with each other so they do not race on the shared metadata
+# artifact, but do not let them block the richer scan workflows.
+concurrency:
+  group: validation-background
+  cancel-in-progress: false
+
+jobs:
+  validate-urls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Download previous metadata DB (if exists)
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+      
+      - name: Run URL validation (specific country)
+        if: ${{ github.event.inputs.country != '' }}
+        run: |
+          python3 -m src.cli.validate_urls \
+            --country "${{ github.event.inputs.country }}" \
+            --rate-limit "${{ github.event.inputs.rate_limit }}" \
+            --skip-recently-validated-days "${{ github.event.inputs.skip_recently_validated_days || '30' }}" \
+            2>&1 | tee validation-output.txt
+      
+      - name: Run URL validation (all countries)
+        if: ${{ github.event.inputs.country == '' }}
+        run: |
+          # --max-runtime 110 leaves a 10-minute safety buffer before the
+          # 120-minute GitHub Actions job timeout so results can be saved.
+          python3 -m src.cli.validate_urls \
+            --all \
+            --rate-limit "${{ github.event.inputs.rate_limit }}" \
+            --max-runtime 110 \
+            --skip-recently-validated-days "${{ github.event.inputs.skip_recently_validated_days || '30' }}" \
+            2>&1 | tee validation-output.txt
+      
+      - name: Generate validation report
+        if: always()
+        run: |
+          python3 -m src.cli.generate_validation_report \
+            --output validation-report.md
+      
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: |
+            validation-report.md
+            validation-output.txt
+            data/metadata.db
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Update shared validation metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: warn
+      
+      - name: Display report summary
+        if: always()
+        run: |
+          if [ -f validation-report.md ]; then
+            echo "## Validation Report Summary" >> $GITHUB_STEP_SUMMARY
+            cat validation-report.md >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Validation Info" >> $GITHUB_STEP_SUMMARY
+          echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '2.0' }} req/sec" >> $GITHUB_STEP_SUMMARY
+          echo "- Skip Recently Validated (days): ${{ github.event.inputs.skip_recently_validated_days || '30' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

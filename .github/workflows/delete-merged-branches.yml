@@ -1,0 +1,80 @@
+name: Delete Merged Branches
+
+on:
+  # Trigger whenever a pull request is closed.  The job below only proceeds
+  # when the PR was actually *merged* (not just closed without merging).
+  pull_request:
+    types: [closed]
+
+  # Allow manual trigger to clean up any branches that were merged earlier
+  # without automatic deletion.
+  workflow_dispatch:
+
+jobs:
+  delete-merged-branch:
+    # Only run when a PR is merged, not when it is simply closed.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write   # required to delete branches via the API
+
+    steps:
+      - name: Delete the merged branch
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+
+          # Never delete protected long-lived branches.
+          case "$BRANCH" in
+            main|master|develop|dev|staging|release|gh-pages)
+              echo "Skipping protected branch: $BRANCH"
+              exit 0
+              ;;
+          esac
+
+          echo "Deleting merged branch: $BRANCH"
+          gh api \
+            --method DELETE \
+            -H "Accept: application/vnd.github+json" \
+            "/repos/${{ github.repository }}/git/refs/heads/${BRANCH}" \
+            && echo "Branch '$BRANCH' deleted." \
+            || echo "Branch '$BRANCH' could not be deleted (may already be gone)."
+
+      - name: Delete all stale merged branches (manual run)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Fetching merged pull requests..."
+
+          PROTECTED="main master develop dev staging release gh-pages"
+
+          gh pr list \
+            --repo "${{ github.repository }}" \
+            --state merged \
+            --json headRefName \
+            --limit 100 \
+            --jq '.[].headRefName' \
+          | sort -u \
+          | while read -r BRANCH; do
+              # Skip protected branches
+              for P in $PROTECTED; do
+                if [ "$BRANCH" = "$P" ]; then
+                  echo "Skipping protected branch: $BRANCH"
+                  continue 2
+                fi
+              done
+
+              echo "Deleting merged branch: $BRANCH"
+              gh api \
+                --method DELETE \
+                -H "Accept: application/vnd.github+json" \
+                "/repos/${{ github.repository }}/git/refs/heads/${BRANCH}" \
+                && echo "  ✓ Deleted '$BRANCH'" \
+                || echo "  – '$BRANCH' already gone or could not be deleted"
+            done
+
+          echo "Done."

@@ -1,0 +1,109 @@
+name: Axe Site Accessibility
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.schedule.outputs.should_run }}
+      reason: ${{ steps.schedule.outputs.reason }}
+    steps:
+      - name: Decide whether this push should run axe
+        id: schedule
+        env:
+          RUN_NUMBER: ${{ github.run_number }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" != "push" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "reason=manual trigger" >> "$GITHUB_OUTPUT"
+          elif [ $((RUN_NUMBER % 4)) -eq 0 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "reason=every fourth push" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "reason=not the fourth push" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Summarize schedule decision
+        run: |
+          echo "Axe scan schedule: ${{ steps.schedule.outputs.reason }}"
+
+  axe:
+    needs: gate
+    if: needs.gate.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Start local web server
+        run: |
+          python3 -m http.server 4000 --directory _site >/tmp/axe-site-server.log 2>&1 &
+          echo $! > /tmp/axe-site-server.pid
+
+      - name: Wait for local web server
+        run: |
+          for _ in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent http://127.0.0.1:4000/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Local _site server did not become ready in time." >&2
+          cat /tmp/axe-site-server.log || true
+          exit 1
+
+      - name: Run axe checks against generated pages
+        env:
+          A11Y_SITE_DIR: _site
+          A11Y_BASE_URL: http://127.0.0.1:4000
+        run: npm run test:a11y
+
+      - name: Stop local web server
+        if: always()
+        run: |
+          if [ -f /tmp/axe-site-server.pid ]; then
+            kill "$(cat /tmp/axe-site-server.pid)" || true
+          fi
+
+  skipped:
+    needs: gate
+    if: needs.gate.outputs.should_run != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain skipped axe run
+        run: |
+          echo "Skipping axe scan because this was ${{ needs.gate.outputs.reason }}."

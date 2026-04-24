@@ -1,0 +1,26 @@
+title: EU Government Website Scans
+description: >-
+  Accessibility statement discovery and social media usage tracking
+  for European (and allied) government websites.
+baseurl: "/eu-plus-government-scans"
+url: "https://mgifford.github.io"
+
+# Theme - minima is the default GitHub Pages supported theme
+theme: minima
+
+# Navigation links shown in the site header
+header_pages:
+  - index.md
+  - scan-progress.md
+  - social-media.md
+  - accessibility-statements.md
+  - technology-scanning.md
+  - third-party-tools.md
+  - domains.md
+
+# Markdown processor
+markdown: kramdown
+
+# Show post dates
+minima:
+  date_format: "%Y-%m-%d"

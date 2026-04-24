@@ -1,0 +1,170 @@
+name: URL Validation - Batched
+
+on:
+  # Run every 12 hours — URL validation is the LOWEST-priority background task.
+  # Social media scans (every 2 hours) simultaneously confirm reachability AND
+  # collect social-link data, making a separate URL-only pass unnecessary for
+  # recently-scanned pages.  Scheduled at 01:00 and 13:00 UTC to sit between
+  # social media scan runs (0/2/4/…/22 hour marks), reducing queueing in the
+  # shared concurrency group.
+  schedule:
+    - cron: '0 1,13 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of countries per batch'
+        required: false
+        default: '4'
+        type: string
+      rate_limit:
+        description: 'Maximum requests per second'
+        required: false
+        default: '2.0'
+        type: string
+      create_issue:
+        description: 'Create GitHub issue to track progress'
+        required: false
+        default: 'true'
+        type: boolean
+      reset_failed:
+        description: 'Re-queue previously failed countries so they are retried in this run'
+        required: false
+        default: 'false'
+        type: boolean
+      skip_recently_validated_days:
+        description: 'Skip URLs already confirmed reachable by any scanner within this many days (0 = always re-validate)'
+        required: false
+        default: '30'
+        type: string
+
+# Validation is the lowest-priority background task. Keep validation workflows
+# serialized with each other, but do not let them block the richer scan
+# workflows that also refresh reachability data and power GitHub Pages reports.
+# A queued run will replace any pending one, keeping at most one waiting.
+concurrency:
+  group: validation-background
+  cancel-in-progress: false
+
+jobs:
+  validate-urls-batch:
+    runs-on: ubuntu-latest
+    # Timeout matches BatchConfig.max_runtime_minutes in src/services/batch_coordinator.py
+    # Set to 60 minutes to complete batches within ~1 hour
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      issues: write
+      actions: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Find latest metadata artifact run ID
+        id: find-metadata
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=$(gh api --paginate "/repos/${{ github.repository }}/actions/artifacts?per_page=100&name=validation-metadata" \
+            --jq '.artifacts[] | select(.expired == false) | "\(.created_at) \(.workflow_run.id)"' \
+            2>/dev/null | sort -rk1 | head -1 | awk '{print $2}' || echo "")
+          echo "run_id=${RUN_ID}" >> $GITHUB_OUTPUT
+          if [ -n "$RUN_ID" ]; then
+            echo "Found validation-metadata artifact from run $RUN_ID"
+          else
+            echo "No validation-metadata artifact found — will start with fresh database"
+          fi
+
+      - name: Download previous metadata DB (if exists)
+        if: steps.find-metadata.outputs.run_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/
+          run-id: ${{ steps.find-metadata.outputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Run batch validation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Set default values for scheduled runs
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '4' }}"
+          RATE_LIMIT="${{ github.event.inputs.rate_limit || '2.0' }}"
+          CREATE_ISSUE="${{ github.event.inputs.create_issue || 'true' }}"
+          RESET_FAILED="${{ github.event.inputs.reset_failed || 'false' }}"
+          SKIP_DAYS="${{ github.event.inputs.skip_recently_validated_days || '30' }}"
+          
+          # Build command
+          CMD="python3 -m src.cli.validate_urls_batch \
+            --batch-mode \
+            --batch-size $BATCH_SIZE \
+            --rate-limit $RATE_LIMIT \
+            --skip-recently-validated-days $SKIP_DAYS"
+          
+          # Add create-issue flag if enabled
+          if [ "$CREATE_ISSUE" = "true" ]; then
+            CMD="$CMD --create-issue"
+          fi
+          
+          # Reset failed countries back to pending so they are retried
+          if [ "$RESET_FAILED" = "true" ]; then
+            CMD="$CMD --reset-failed"
+          fi
+          
+          # Run validation
+          $CMD 2>&1 | tee batch-validation-output.txt
+      
+      - name: Generate validation report
+        if: always()
+        run: |
+          python3 -m src.cli.generate_validation_report \
+            --output validation-report.md
+      
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: |
+            data/metadata.db
+          retention-days: 90
+          overwrite: true
+      
+      - name: Upload batch report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-validation-report-${{ github.run_number }}
+          path: |
+            validation-report.md
+            batch-validation-output.txt
+          retention-days: 30
+          if-no-files-found: warn
+      
+      - name: Display report summary
+        if: always()
+        run: |
+          if [ -f validation-report.md ]; then
+            echo "## Validation Report Summary" >> $GITHUB_STEP_SUMMARY
+            cat validation-report.md >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Batch Processing Info" >> $GITHUB_STEP_SUMMARY
+          echo "- Batch Size: ${{ github.event.inputs.batch_size || '4' }} countries" >> $GITHUB_STEP_SUMMARY
+          echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '2.0' }} req/sec" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

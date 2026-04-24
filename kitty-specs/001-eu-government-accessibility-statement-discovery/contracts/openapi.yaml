@@ -1,0 +1,244 @@
+openapi: 3.1.0
+info:
+  title: EU Government Accessibility Statement Scan API
+  version: 0.1.0
+  description: API contract for triggering monthly country scans and retrieving cached TOON outputs.
+servers:
+  - url: https://example.gov-scan.local
+paths:
+  /v1/countries/{countryCode}/scans:
+    post:
+      summary: Trigger a monthly country scan
+      operationId: triggerCountryScan
+      parameters:
+        - in: path
+          name: countryCode
+          required: true
+          schema:
+            type: string
+            pattern: '^[A-Z]{2}$'
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                runMonth:
+                  type: string
+                  pattern: '^\\d{4}-\\d{2}$'
+                includeCanada:
+                  type: boolean
+                  default: false
+      responses:
+        '202':
+          description: Scan accepted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScanAccepted'
+        '409':
+          description: Active scan already exists for country
+  /v1/scans/{scanId}:
+    get:
+      summary: Get scan status and summary
+      operationId: getScanStatus
+      parameters:
+        - in: path
+          name: scanId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Scan status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CountryScan'
+        '404':
+          description: Scan not found
+  /v1/countries/{countryCode}/toon/latest:
+    get:
+      summary: Fetch latest country TOON artifact
+      operationId: getLatestCountryToon
+      parameters:
+        - in: path
+          name: countryCode
+          required: true
+          schema:
+            type: string
+            pattern: '^[A-Z]{2}$'
+      responses:
+        '200':
+          description: Latest country artifact
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CountryArtifact'
+        '404':
+          description: No artifact available
+  /v1/countries/{countryCode}/toon/{runMonth}:
+    get:
+      summary: Fetch monthly country TOON artifact
+      operationId: getMonthlyCountryToon
+      parameters:
+        - in: path
+          name: countryCode
+          required: true
+          schema:
+            type: string
+            pattern: '^[A-Z]{2}$'
+        - in: path
+          name: runMonth
+          required: true
+          schema:
+            type: string
+            pattern: '^\\d{4}-\\d{2}$'
+      responses:
+        '200':
+          description: Requested monthly artifact
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CountryArtifact'
+        '404':
+          description: Artifact not found
+  /v1/countries/{countryCode}/hosts/{hostname}:
+    get:
+      summary: Fetch host-level latest detection details
+      operationId: getHostDetails
+      parameters:
+        - in: path
+          name: countryCode
+          required: true
+          schema:
+            type: string
+            pattern: '^[A-Z]{2}$'
+        - in: path
+          name: hostname
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Host details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HostDetectionRecord'
+        '404':
+          description: Host not found
+components:
+  schemas:
+    ScanAccepted:
+      type: object
+      required: [scanId, countryCode, runMonth, status]
+      properties:
+        scanId:
+          type: string
+        countryCode:
+          type: string
+        runMonth:
+          type: string
+        status:
+          type: string
+          enum: [queued]
+    CountryScan:
+      type: object
+      required: [scanId, countryCode, runMonth, status, hostTotal, hostProcessed]
+      properties:
+        scanId:
+          type: string
+        countryCode:
+          type: string
+        runMonth:
+          type: string
+        status:
+          type: string
+          enum: [queued, running, completed, failed]
+        startedAt:
+          type: string
+          format: date-time
+        finishedAt:
+          type: string
+          format: date-time
+          nullable: true
+        hostTotal:
+          type: integer
+          minimum: 0
+        hostProcessed:
+          type: integer
+          minimum: 0
+        artifactPath:
+          type: string
+          nullable: true
+        errorSummary:
+          type: string
+          nullable: true
+    CountryArtifact:
+      type: object
+      required: [countryCode, runMonth, scanId, domains]
+      properties:
+        countryCode:
+          type: string
+        runMonth:
+          type: string
+        scanId:
+          type: string
+        generatedAt:
+          type: string
+          format: date-time
+        domains:
+          type: array
+          items:
+            $ref: '#/components/schemas/HostDetectionRecord'
+    HostDetectionRecord:
+      type: object
+      required:
+        - canonicalHostname
+        - detectionStatus
+        - confidence
+        - redirectChain
+        - sampledUrls
+        - sourceReferenceUrl
+        - stale
+      properties:
+        canonicalHostname:
+          type: string
+        statementUrl:
+          type: string
+          nullable: true
+        detectionStatus:
+          type: string
+          enum: [found, not_found, uncertain]
+        confidence:
+          type: string
+          enum: [high, medium, low]
+        detectedLanguage:
+          type: string
+          nullable: true
+        redirectChain:
+          type: array
+          items:
+            type: object
+            required: [fromUrl, toUrl, statusCode]
+            properties:
+              fromUrl:
+                type: string
+              toUrl:
+                type: string
+              statusCode:
+                type: integer
+        sampledUrls:
+          type: array
+          maxItems: 10
+          items:
+            type: string
+        sampleShortfallReason:
+          type: string
+          nullable: true
+        sourceReferenceUrl:
+          type: string
+        stale:
+          type: boolean
