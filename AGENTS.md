@@ -7,10 +7,10 @@ agents (GitHub Copilot, Claude, Gemini, ChatGPT, etc.) working in this repositor
 
 ## Project Overview
 
-**eu-plus-government-scans** discovers and catalogues accessibility-statement URLs published by
-European (and selected allied) government websites. It:
+**edu-scans** discovers and catalogues accessibility-statement URLs published by
+United States educational institutions that use `.edu` domains. It:
 
-- Maintains TOON seed files (per country) that list government domains and known page URLs
+- Maintains TOON seed files for educational institutions and their known page URLs
 - Validates those URLs asynchronously with rate-limiting and redirect tracking
 - Tracks validation state in a lightweight SQLite / PostgreSQL-compatible metadata database
 - Runs automated batch-validation cycles via GitHub Actions (cron + issue-triggered)
@@ -24,13 +24,13 @@ European (and selected allied) government websites. It:
 .github/workflows/      GitHub Actions CI/CD and cron workflows
 data/
   imports/              Raw CSV imports from Google Sheets
-  toon-seeds/           TOON seed files per country (*.toon JSON)
+  toon-seeds/           TOON seed files for educational institutions (*.toon JSON)
 docs/                   User-facing documentation (markdown)
 src/
   api/                  FastAPI application (if/when served)
   cli/                  Command-line entry points
   jobs/                 Background job logic (URL validation scanner)
-  lib/                  Shared utilities (settings, country helpers, …)
+  lib/                  Shared utilities (settings, filename/domain helpers, …)
   models/               Pydantic models
   services/             Core service logic (URL validator, batch coordinator, …)
   storage/              Schema bootstrap and database helpers
@@ -67,8 +67,8 @@ pip install -r requirements.txt
 # Run all tests
 python3 -m pytest tests/ -v
 
-# Validate a specific country
-python3 -m src.cli.validate_urls --country ICELAND --rate-limit 2
+# Validate all institution seeds
+python3 -m src.cli.validate_urls --all --rate-limit 2
 
 # Run a batch validation cycle
 python3 -m src.cli.validate_urls_batch --batch-mode --batch-size 2
@@ -81,11 +81,11 @@ python3 -m src.cli.generate_validation_report --output validation-report.md
 
 ## Conventions and Constraints
 
-### Country Codes and Filenames
+### Seed Identifiers and Filenames
 
-- Country codes use **UPPER_SNAKE_CASE** with country identifier suffix, e.g. `UNITED_KINGDOM_UK`
-- Filenames use **lowercase-hyphenated** form, e.g. `united-kingdom-uk.toon`
-- Use `src/lib/country_utils.py` helpers (`country_filename_to_code`, `country_code_to_filename`) for all conversions — never hardcode formats
+- Seed identifiers should reflect the institution or grouping they represent.
+- Filenames should use a stable lowercase-hyphenated form.
+- Use the existing filename-conversion helpers until a dedicated institution utility replaces them; do not hardcode formats.
 
 ### URL Validation
 
@@ -104,7 +104,7 @@ python3 -m src.cli.generate_validation_report --output validation-report.md
 
 - Batch validation workflow: `.github/workflows/validate-urls-batch.yml` (runs every 2 hours)
 - Workflow timeout: 110 minutes; CLI `max_runtime_seconds` = 50 × 60 (with a 10-minute buffer)
-- Default batch size: **2 countries per batch**
+- Default batch size: **2 seed files per batch**
 - Artifacts (SQLite DB, validated TOON files) are **stored as workflow artifacts**, not committed
 
 ### Independent Verification
@@ -112,9 +112,9 @@ python3 -m src.cli.generate_validation_report --output validation-report.md
 Every aggregate number published in a report must be backed by machine-readable
 source data so that any reader can independently verify the claim:
 
-- **JSON** (e.g. `docs/lighthouse-data.json`) — full dataset including per-country
+- **JSON** (e.g. `docs/lighthouse-data.json`) — full dataset including per-seed
   summaries and, crucially, a `by_url` array containing one entry per scanned URL.
-  The aggregate scores in the country table must be reproducible by grouping the
+  The aggregate scores in the summary table must be reproducible by grouping the
   `by_url` rows and recalculating averages.
 - **CSV** (e.g. `docs/lighthouse-data.csv`) — the same per-URL rows exported as a
   spreadsheet-friendly flat file, one row per URL.  Scores are on the 0–100 scale.
@@ -163,7 +163,7 @@ This standard is applied **incrementally** across the existing codebase:
 - Run `python3 -m pytest tests/ -v` to verify changes do not break existing tests
 - Keep commits focused and minimal; avoid reformatting unrelated code
 - Update or add documentation in `docs/` when changing user-facing behaviour
-- Use `src/lib/country_utils.py` for any country-code / filename conversions
+- Use the current filename-conversion layer until institution-specific helpers exist
 - Respect rate limits in `src/services/url_validator.py` — do not bypass them
 - When modifying the schema, update `src/storage/schema.py` and add a migration comment
 - **Disclose AI use:** whenever you use an AI tool to contribute to this repository — whether
@@ -185,7 +185,7 @@ This standard is applied **incrementally** across the existing codebase:
 
 ## Accessibility Commitment
 
-This project tracks government accessibility-statement compliance. We hold ourselves to the same
+This project tracks accessibility-statement compliance for USA educational institutions. We hold ourselves to the same
 standard: all documentation and data outputs must follow **WCAG 2.2 AA** guidelines. See
 [ACCESSIBILITY.md](./ACCESSIBILITY.md) for details.
 
@@ -193,6 +193,6 @@ standard: all documentation and data outputs must follow **WCAG 2.2 AA** guideli
 
 ## Getting Help
 
-- **Questions and discussions:** [GitHub Discussions](https://github.com/mgifford/eu-plus-government-scans/discussions)
-- **Bugs and feature requests:** [GitHub Issues](https://github.com/mgifford/eu-plus-government-scans/issues)
+- **Questions and discussions:** use this repository's GitHub Discussions page
+- **Bugs and feature requests:** use this repository's GitHub Issues page
 - **Full documentation:** [`docs/`](./docs/)
