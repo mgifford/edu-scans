@@ -184,7 +184,7 @@ Issues are labeled with:
 - `url-validation`
 - `automated`
 
-Find open issues: https://github.com/mgifford/eu-plus-government-scans/issues?q=is%3Aissue+is%3Aopen+label%3Aurl-validation
+Find open issues: https://github.com/mgifford/edu-scans/issues?q=is%3Aissue+is%3Aopen+label%3Aurl-validation
 
 ## Resumability
 

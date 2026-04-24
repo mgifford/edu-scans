@@ -49,7 +49,7 @@ _Stats as of 2026-04-24 21:51 UTC — last scan: 2026-04-24_
 
 <div style="clear:both;"></div>
 
-📥 Machine-readable results are available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
+📥 Machine-readable results are available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
 ---
 
@@ -72,7 +72,7 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 | Usa Edu Master | 38 | 3,763 | 27 | 25.9% | 7 | 14 | 15 | 2 | 19 | 11 | 0 | 6 | 0 | 6 | Apr 2026 |
 | **Total** | **38** | **3,763** | **27** | **25.9%** | **7** | **14** | **15** | **2** | **19** | **11** | **0** | **6** | **0** | **6** | — |
 
-> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
 <!-- SOCIAL_MEDIA_STATS_END -->
 
@@ -146,7 +146,7 @@ Each workflow run also uploads a scan artifact containing:
 
 To download artifacts:
 
-1. Go to [GitHub Actions → Scan Social Media Links](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/scan-social-media.yml)
+1. Go to [GitHub Actions → Scan Social Media Links](https://github.com/mgifford/edu-scans/actions/workflows/scan-social-media.yml)
 2. Click on the relevant workflow run
 3. Scroll to the **Artifacts** section at the bottom of the run summary page
 4. Download `social-scan-<run_number>` to inspect the database or TOON files
@@ -157,7 +157,7 @@ To download artifacts:
 
 ### Via GitHub Actions (recommended)
 
-1. Go to [Actions → Scan Social Media Links](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/scan-social-media.yml)
+1. Go to [Actions → Scan Social Media Links](https://github.com/mgifford/edu-scans/actions/workflows/scan-social-media.yml)
 2. Click **Run workflow**
 3. Optionally enter a country code (e.g. `ICELAND`) or leave blank to scan all
 4. Optionally adjust the rate limit (default: 1.0 req/sec)

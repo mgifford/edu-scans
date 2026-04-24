@@ -99,7 +99,7 @@ Each workflow run uploads a scan artifact containing:
 
 To download artifacts:
 
-1. Go to [GitHub Actions → Scan Accessibility Statements](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/scan-accessibility.yml)
+1. Go to [GitHub Actions → Scan Accessibility Statements](https://github.com/mgifford/edu-scans/actions/workflows/scan-accessibility.yml)
 2. Click on the relevant workflow run
 3. Scroll to the **Artifacts** section at the bottom of the run summary page
 4. Download `accessibility-scan-<run_number>` to inspect the database or TOON files
@@ -110,7 +110,7 @@ To download artifacts:
 
 ### Via GitHub Actions (recommended)
 
-1. Go to [Actions → Scan Accessibility Statements](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/scan-accessibility.yml)
+1. Go to [Actions → Scan Accessibility Statements](https://github.com/mgifford/edu-scans/actions/workflows/scan-accessibility.yml)
 2. Click **Run workflow**
 3. Optionally enter a country code (e.g. `ICELAND`) or leave blank to scan all
 4. Optionally adjust the rate limit (default: 1.0 req/sec)

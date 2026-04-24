@@ -52,7 +52,7 @@ the [per-URL Lighthouse data (CSV)](lighthouse-data.csv).
 
 ### Via GitHub Actions (recommended)
 
-1. Go to [Actions → Scan Lighthouse](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/scan-lighthouse.yml)
+1. Go to [Actions → Scan Lighthouse](https://github.com/mgifford/edu-scans/actions/workflows/scan-lighthouse.yml)
 2. Click **Run workflow**
 3. Optionally enter a country code (e.g. `ICELAND`) or leave blank to scan all
 4. Optionally adjust the rate limit, concurrency, and skip-recently-scanned-days parameters
