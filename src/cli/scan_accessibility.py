@@ -31,7 +31,7 @@ def main():
         "--toon-dir",
         help="Directory containing TOON files",
         type=Path,
-        default=Path("data/toon-seeds/countries"),
+        default=Path("data/toon-seeds"),
     )
     parser.add_argument(
         "--rate-limit",

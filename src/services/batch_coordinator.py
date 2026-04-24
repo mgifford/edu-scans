@@ -95,7 +95,7 @@ class BatchCoordinator:
         """Get list of countries from TOON files."""
         from src.lib.country_utils import country_filename_to_code
 
-        toon_dir = Path("data/toon-seeds/countries")
+        toon_dir = Path("data/toon-seeds")
         countries = []
 
         if toon_dir.exists():

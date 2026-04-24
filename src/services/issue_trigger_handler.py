@@ -62,7 +62,7 @@ class IssueTriggerHandler:
         self.scanner = scanner
         self.issue_manager = issue_manager
         self.db_path = db_path
-        self.toon_dir = Path("data/toon-seeds/countries")
+        self.toon_dir = Path("data/toon-seeds")
 
     # ------------------------------------------------------------------
     # Schedule / cooldown helpers
