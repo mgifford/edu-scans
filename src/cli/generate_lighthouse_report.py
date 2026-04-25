@@ -19,8 +19,10 @@ import io
 import json
 import sqlite3
 import sys
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from src.lib.country_utils import country_code_to_display_name, country_filename_to_code
 from src.lib.settings import load_settings
@@ -56,6 +58,81 @@ def _count_toon_seed_urls(toon_seeds_dir: Path) -> dict[str, int]:
         country_code = country_filename_to_code(toon_file.stem)
         counts[country_code] = int(data.get("page_count") or 0)
     return counts
+
+
+def _build_institution_lookup(toon_seeds_dir: Path) -> dict[str, str]:
+    """Return a mapping of canonical_domain → institution_name from toon seed files.
+
+    Reads every ``*.toon`` file in *toon_seeds_dir* and builds a lookup from
+    each domain's ``canonical_domain`` to its ``institution_name``.  Returns an
+    empty dict when the directory does not exist or contains no seed files.
+    """
+    lookup: dict[str, str] = {}
+    if not toon_seeds_dir.is_dir():
+        return lookup
+    for toon_file in toon_seeds_dir.glob("*.toon"):
+        try:
+            data = json.loads(toon_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for domain_entry in data.get("domains", []):
+            canonical = domain_entry.get("canonical_domain", "").strip()
+            name = domain_entry.get("institution_name", "").strip()
+            if canonical and name:
+                lookup[canonical] = name
+    return lookup
+
+
+def _group_by_institution(
+    rows_by_url: list[dict],
+    institution_lookup: dict[str, str] | None = None,
+) -> list[dict]:
+    """Group per-URL Lighthouse results by institution domain.
+
+    Extracts the network location (e.g. ``labi.edu``) from each URL, groups
+    rows by that domain, and computes per-institution aggregates.  Results are
+    sorted by domain name for stable output.
+
+    Args:
+        rows_by_url: Rows returned by :func:`_query_by_url`.
+        institution_lookup: Optional mapping from canonical domain to
+            institution display name (from :func:`_build_institution_lookup`).
+
+    Returns:
+        A list of dicts, one per institution, with keys:
+        ``domain``, ``institution_name``, ``total_scanned``, ``total_success``,
+        ``avg_performance``, ``avg_accessibility``, ``avg_best_practices``,
+        ``avg_seo``.
+    """
+    institution_lookup = institution_lookup or {}
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for row in rows_by_url:
+        domain = urlparse(row.get("url", "")).netloc
+        if domain:
+            groups[domain].append(row)
+
+    result: list[dict] = []
+    for domain in sorted(groups):
+        rows = groups[domain]
+        success_rows = [r for r in rows if r.get("error_message") is None]
+
+        def _avg(key: str) -> float | None:
+            vals = [r[key] for r in success_rows if r.get(key) is not None]
+            return sum(vals) / len(vals) if vals else None
+
+        result.append(
+            {
+                "domain": domain,
+                "institution_name": institution_lookup.get(domain, domain),
+                "total_scanned": len(rows),
+                "total_success": len(success_rows),
+                "avg_performance": _avg("performance_score"),
+                "avg_accessibility": _avg("accessibility_score"),
+                "avg_best_practices": _avg("best_practices_score"),
+                "avg_seo": _avg("seo_score"),
+            }
+        )
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -226,6 +303,7 @@ def _build_stats_block(
     generated_at: str,
     total_available: int = 0,
     seed_counts: dict[str, int] | None = None,
+    by_institution: list[dict] | None = None,
 ) -> str:
     """Return a Markdown stats block to inject between the markers.
 
@@ -236,6 +314,8 @@ def _build_stats_block(
         total_available: Total pages in toon seed files.  When > 0 the
             block includes a "X of Y available pages scanned" coverage line.
         seed_counts: Mapping of country_code → available page count.
+        by_institution: Per-institution rows from :func:`_group_by_institution`.
+            When provided, a "Lighthouse Scores by Institution" table is appended.
     """
     if not summary or not summary.get("total_scanned"):
         return (
@@ -324,6 +404,33 @@ def _build_stats_block(
             "",
         ]
 
+    # Per-institution breakdown table
+    if by_institution:
+        lines += [
+            "## Lighthouse Scores by Institution",
+            "",
+            "| Institution | Domain | Audited | Perf | A11y | Best Practices | SEO |",
+            "|-------------|--------|--------:|:----:|:----:|:--------------:|:---:|",
+        ]
+        for row in by_institution:
+            name = row.get("institution_name") or row.get("domain", "—")
+            domain = row.get("domain", "—")
+            lines.append(
+                f"| {name} | {domain} | {row['total_scanned']:,} | "
+                f"{_pct(row.get('avg_performance'))} | "
+                f"{_pct(row.get('avg_accessibility'))} | "
+                f"{_pct(row.get('avg_best_practices'))} | "
+                f"{_pct(row.get('avg_seo'))} |"
+            )
+        lines += [
+            "",
+            "> Scores are averages across all successfully audited pages for each institution, "
+            "displayed as 0–100.  Institutions with only failed audits show —.",
+            "",
+            "---",
+            "",
+        ]
+
     lines += [
         "📥 Machine-readable results: "
         "[Download machine-readable Lighthouse data (JSON)](lighthouse-data.json)"
@@ -380,6 +487,8 @@ def generate_lighthouse_report(
 
     seed_counts = _count_toon_seed_urls(toon_seeds_dir) if toon_seeds_dir else {}
     total_available = sum(seed_counts.values())
+    institution_lookup = _build_institution_lookup(toon_seeds_dir) if toon_seeds_dir else {}
+    by_institution = _group_by_institution(by_url, institution_lookup) if by_url else []
 
     # --- write the JSON data file -----------------------------------------
     data_path.parent.mkdir(parents=True, exist_ok=True)
@@ -427,7 +536,8 @@ def generate_lighthouse_report(
         return False
 
     new_block = _build_stats_block(
-        summary, by_country, generated_at, total_available, seed_counts=seed_counts
+        summary, by_country, generated_at, total_available,
+        seed_counts=seed_counts, by_institution=by_institution,
     )
     new_content = (
         content[:start_idx]
