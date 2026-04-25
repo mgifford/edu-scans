@@ -742,6 +742,39 @@ blockquote a:focus-visible {
   opacity: 0.55;
 }
 
+.lh-filter-bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+.lh-filter-bar input[type="search"] {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-input);
+  border-radius: 999px;
+  color: var(--color-text);
+  font: inherit;
+  height: 2.5rem;
+  max-width: 24rem;
+  min-width: 16rem;
+  padding: 0.35rem 0.9rem;
+  width: 100%;
+}
+
+.lh-filter-bar input[type="search"]:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+#lh-institution-count {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
 .table-drilldown {
   display: inline-block;
   position: relative;
