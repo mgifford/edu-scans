@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Download scan-progress artifact from triggering workflow run
         if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'

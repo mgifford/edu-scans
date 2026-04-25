@@ -110,7 +110,7 @@ Results are stored in the `url_tech_results` table:
 | Column | Type | Description |
 |---|---|---|
 | `url` | TEXT | Page URL |
-| `country_code` | TEXT | Country identifier |
+| `country_code` | TEXT | Legacy field name for seed identifier (e.g. `USA_EDU_MASTER`) |
 | `scan_id` | TEXT | Unique scan run ID |
 | `technologies` | TEXT | JSON object of detected technologies |
 | `error_message` | TEXT | Error message (if detection failed) |

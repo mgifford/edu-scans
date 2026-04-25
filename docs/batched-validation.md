@@ -47,7 +47,7 @@ The `validation_batch_state` table tracks cycle progress:
 ```sql
 CREATE TABLE validation_batch_state (
     cycle_id TEXT NOT NULL,           -- Format: YYYYMMDD-HHMMSS
-    country_code TEXT NOT NULL,       -- legacy field name; e.g., "USA_EDU_MASTER"
+    country_code TEXT NOT NULL,       -- Legacy field name for seed identifier (e.g., "USA_EDU_MASTER")
     status TEXT NOT NULL,             -- pending, processing, completed, failed
     started_at TEXT,                  -- ISO timestamp
     completed_at TEXT,                -- ISO timestamp
