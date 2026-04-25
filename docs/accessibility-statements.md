@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-04-25 05:52 UTC — last scan: 2026-04-25_
+_Stats as of 2026-04-25 18:51 UTC — last scan: 2026-04-25_
 
-**2** scan batches run
+**4** scan batches run
 
-**5,801** of **3,763** available pages scanned (**154.2%** coverage)
-**4,251** of **5,801** scanned pages were reachable (**73.3%**)
-**1,459** of **4,251** reachable pages have an accessibility statement (**34.3%**)
-**1,277** pages have the statement link in the footer (**87.5%** of pages with a statement)
+**11,719** of **3,763** available pages scanned (**311.4%** coverage)
+**8,584** of **11,719** scanned pages were reachable (**73.2%**)
+**2,899** of **8,584** reachable pages have an accessibility statement (**33.8%**)
+**2,509** pages have the statement link in the footer (**86.5%** of pages with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,8 +26,8 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Scanned | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 5,801 | 3,763 | 4,251 | 1,459 | 1,277 | 34.3% | Apr 2026 |
-| **Total** | **5,801** | **3,763** | **4,251** | **1,459** | **1,277** | **34.3%** | — |
+| Usa Edu Master | 11,719 | 3,763 | 8,584 | 2,899 | 2,509 | 33.8% | Apr 2026 |
+| **Total** | **11,719** | **3,763** | **8,584** | **2,899** | **2,509** | **33.8%** | — |
 
 > **Statement %** is the percentage of *reachable* pages that contain at least one link to an accessibility statement.
 

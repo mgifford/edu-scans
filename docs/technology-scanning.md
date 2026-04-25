@@ -5,13 +5,13 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_Stats as of 2026-04-25 05:52 UTC — last scan: 2026-04-25_
+_Stats as of 2026-04-25 18:51 UTC — last scan: 2026-04-25_
 
-**1** scan batches run
+**2** scan batches run
 
-**38** of **3,763** available pages scanned (**1.0%** coverage)
-**27** pages with technology detections (**71.1%** of scanned)
-**59** unique technologies identified
+**3,643** of **3,763** available pages scanned (**96.8%** coverage)
+**2,716** pages with technology detections (**74.6%** of scanned)
+**248** unique technologies identified
 
 ---
 
@@ -19,7 +19,7 @@ _Stats as of 2026-04-25 05:52 UTC — last scan: 2026-04-25_
 
 | Country | URLs Scanned | Pages with Detections | Available | Last Scan |
 |---------|-------------|----------------------|-----------|----------|
-| Usa Edu Master | 38 | 27 | 3,763 | 2026-04-25 |
+| Usa Edu Master | 3,643 | 2,716 | 3,763 | 2026-04-25 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable technology data (JSON)](technology-data.json).
 
@@ -29,46 +29,46 @@ _Stats as of 2026-04-25 05:52 UTC — last scan: 2026-04-25_
 
 | # | Technology | Pages | Categories |
 |--:|-----------|------:|-----------|
-| 1 | jQuery | **18** | JavaScript libraries |
-| 2 | Google Tag Manager | **15** | Tag managers |
-| 3 | PHP | **12** | Programming languages |
-| 4 | Bootstrap | **9** | UI frameworks |
-| 5 | Google Font API | **9** | Font scripts |
-| 6 | Font Awesome | **9** | Font scripts |
-| 7 | jQuery Migrate | **9** | JavaScript libraries |
-| 8 | MySQL | **9** | Databases |
-| 9 | WordPress | **9** | Blogs, CMS |
-| 10 | Nginx | **6** | Reverse proxies, Web servers |
-| 11 | Swiper Slider | **6** | Miscellaneous |
-| 12 | Windows Server | **5** | Operating systems |
-| 13 | IIS | **5** | Web servers |
-| 14 | Microsoft ASP.NET | **5** | Web frameworks |
-| 15 | Apache | **5** | Web servers |
-| 16 | Elementor | **5** | Page builders |
-| 17 | Yoast SEO | **5** | SEO |
-| 18 | Cloudflare | **5** | CDN |
-| 19 | jsDelivr | **4** | CDN |
-| 20 | MariaDB | **3** | Databases |
+| 1 | jQuery | **1,526** | JavaScript libraries |
+| 2 | Google Tag Manager | **1,335** | Tag managers |
+| 3 | PHP | **1,303** | Programming languages |
+| 4 | Font Awesome | **1,039** | Font scripts |
+| 5 | Google Font API | **946** | Font scripts |
+| 6 | Nginx | **732** | Reverse proxies, Web servers |
+| 7 | Cloudflare | **679** | CDN |
+| 8 | Bootstrap | **678** | UI frameworks |
+| 9 | Apache | **652** | Web servers |
+| 10 | MySQL | **639** | Databases |
+| 11 | WordPress | **636** | Blogs, CMS |
+| 12 | jQuery Migrate | **528** | JavaScript libraries |
+| 13 | Varnish | **405** | Caching |
+| 14 | jsDelivr | **371** | CDN |
+| 15 | Slick | **319** | JavaScript libraries |
+| 16 | MariaDB | **284** | Databases |
+| 17 | Pantheon | **284** | PaaS |
+| 18 | Windows Server | **270** | Operating systems |
+| 19 | IIS | **268** | Web servers |
+| 20 | Yoast SEO | **260** | SEO |
 
 ### Top Technology Categories
 
 | # | Category | Pages |
 |--:|---------|------:|
-| 1 | JavaScript libraries | **40** |
-| 2 | Font scripts | **18** |
-| 3 | Web servers | **17** |
-| 4 | Tag managers | **15** |
-| 5 | CMS | **14** |
-| 6 | Programming languages | **14** |
-| 7 | Databases | **12** |
-| 8 | Blogs | **11** |
-| 9 | CDN | **11** |
-| 10 | UI frameworks | **11** |
-| 11 | Reverse proxies | **7** |
-| 12 | Miscellaneous | **7** |
-| 13 | Operating systems | **6** |
-| 14 | Caching | **6** |
-| 15 | JavaScript frameworks | **5** |
+| 1 | JavaScript libraries | **3,378** |
+| 2 | Font scripts | **2,000** |
+| 3 | Web servers | **1,822** |
+| 4 | Programming languages | **1,383** |
+| 5 | Tag managers | **1,340** |
+| 6 | CDN | **1,229** |
+| 7 | Databases | **1,047** |
+| 8 | CMS | **993** |
+| 9 | UI frameworks | **971** |
+| 10 | Reverse proxies | **744** |
+| 11 | PaaS | **728** |
+| 12 | Blogs | **669** |
+| 13 | Caching | **575** |
+| 14 | Operating systems | **416** |
+| 15 | Miscellaneous | **301** |
 
 📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json)
 

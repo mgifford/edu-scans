@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-04-25 05:52 UTC_
+_Generated: 2026-04-25 18:51 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -13,11 +13,11 @@ Coverage is measured as pages scanned out of **3,763** pages available in the se
 
 | Scan Type | Pages Scanned | Available | Coverage |
 |-----------|--------------|-----------|----------|
-| **Combined Reachability** | **27 confirmed reachable** | 3,763 | **<span role="img" aria-label="0.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.7%</span></span>** |
-| Social Media | 38 scanned (27 reachable) | 3,763 | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
-| Technology | 38 scanned | 3,763 | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
+| **Combined Reachability** | **2,793 confirmed reachable** | 3,763 | **<span role="img" aria-label="74.2% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:89px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">74.2%</span></span>** |
+| Social Media | 3,749 scanned (2,793 reachable) | 3,763 | <span role="img" aria-label="99.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:120px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">99.6%</span></span> |
+| Technology | 3,643 scanned | 3,763 | <span role="img" aria-label="96.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:116px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">96.8%</span></span> |
 | Lighthouse | 453 scanned | 3,763 | <span role="img" aria-label="12.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:14px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">12.0%</span></span> |
-| Accessibility Statements | 5,801 scanned | 3,763 | <span role="img" aria-label="100.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:120px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">100.0%</span></span> |
+| Accessibility Statements | 11,719 scanned | 3,763 | <span role="img" aria-label="100.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:120px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">100.0%</span></span> |
 
 > **Combined Reachability** counts each URL once if it was confirmed reachable by any scan type.
 
@@ -27,43 +27,56 @@ Aggregated results across all institutions grouped by parent organization (syste
 
 | Parent Institution | URLs Scanned | Reachable | Coverage |
 |---|---|---|---|
-| Midwest University | 2 | 2 | 100% |
-| Abraham Baldwin Agricultural College | 1 | 1 | 100% |
-| Academy of Art University | 1 | 1 | 100% |
-| Academy College | 1 | 1 | 100% |
-| Acadiana Technical College | 1 | 0 | 0% |
-| Abilene Christian University, a Christian college in Abilene, Texas | 1 | 1 | 100% |
-| Abraham Lincoln University | 1 | 1 | 100% |
-| Aaniiih Nakoda College | 1 | 1 | 100% |
-| AKKINENI NAGESWARA RAO COLLEGE | 1 | 1 | 100% |
-| A Top Christian College in Southern California | 1 | 1 | 100% |
-| American University in Dubai | 1 | 1 | 100% |
-| Accredited Christian Bible College & Seminary | 1 | 0 | 0% |
-| Bluewater Bible College & Institute - Home | 1 | 0 | 0% |
-| A Christian Bible College in Kansas City | 1 | 1 | 100% |
-| Accredited College Degree Programs Online | 1 | 1 | 100% |
-| Welcome to Central Nursing College | 1 | 0 | 0% |
-| [CSI] College of Southern Idaho | 1 | 1 | 100% |
-| DIA UNIVERSITY | 1 | 0 | 0% |
-| .. Drake College of Business ..  - Home | 1 | 0 | 0% |
-| Other | 1 | 1 | 100% |
-| About Escondido Bible College | 1 | 0 | 0% |
-| A Liberal Arts College in Colorado, Fort Lewis College, Durango, CO | 1 | 1 | 100% |
-| THE FRANKLIN CAREER INSTITUTE | 1 | 0 | 0% |
-| - Heritage Institute of Technology -   - Home | 1 | 1 | 100% |
-| Welcome to IBAIS University | 1 | 0 | 0% |
-| Institute of Productivity & Management | 1 | 1 | 100% |
-| Thomas Jefferson University   Jefferson Medical College   Jefferson College of Graduate Studies   Jefferson | 1 | 1 | 100% |
-| - LATIN AMERICAN BIBLE INSTITUTE | 1 | 1 | 100% |
-| [LWC] Lindsey Wilson College | 1 | 1 | 100% |
-| Midwestern Career College | 1 | 1 | 100% |
-| ABA Approved Programs and Accredited Paralegal College | 1 | 1 | 100% |
-| Academic medical center at State University of New York at Stony Brook | 1 | 1 | 100% |
-| Southern Union State Community College | 1 | 1 | 100% |
-| A Top Christian University and Seminary | 1 | 1 | 100% |
-| - The University of Montana - Helena | 1 | 0 | 0% |
-| Accredited Christian Universities, Crichton Higher Education University Tennessee, Online Teacher Education Memphis Degree programs | 1 | 0 | 0% |
-| Welcome to Yeshwantrao Chavan College of Engineering | 1 | 1 | 100% |
+| Other | 25 | 19 | 76% |
+| California State University | 17 | 11 | 65% |
+| University of California | 13 | 12 | 92% |
+| State University of New York | 5 | 4 | 80% |
+| Concordia College | 5 | 4 | 80% |
+| Arkansas State University | 4 | 4 | 100% |
+| Le Cordon Bleu College of Culinary Arts-Chicago | 4 | 0 | 0% |
+| Concordia University | 4 | 3 | 75% |
+| California Community Colleges Chancellor\'s Office | 3 | 3 | 100% |
+| Christian Life College | 3 | 1 | 33% |
+| Huntingdon College, Montgomery, Alabama * Experience the Tradition, Know and Be Known. | 3 | 2 | 67% |
+| Janus University California | 3 | 2 | 67% |
+| Jesuit School of Theology of Santa Clara University in Berkeley | 3 | 2 | 67% |
+| Sarah Lawrence College. A Deeper Education. | 3 | 3 | 100% |
+| Online College Degrees William Howard Taft University | 3 | 3 | 100% |
+| University of Maryland | 3 | 3 | 100% |
+| University of Nebraska | 3 | 3 | 100% |
+| American InterContinental University | 2 | 2 | 100% |
+| Alaska Pacific University â Discover Active Learning | 2 | 2 | 100% |
+| Alliant International University; California Graduate Schools, Graduate Degrees; Undergraduate Bachelors Completion Degrees | 2 | 2 | 100% |
+| Argosy University | 2 | 0 | 0% |
+| Online University | 2 | 2 | 100% |
+| Bakersfield College | 2 | 2 | 100% |
+| Barry University | 2 | 2 | 100% |
+| Baylor College of Medicine | 2 | 2 | 100% |
+| Bellarmine University | 2 | 2 | 100% |
+| Benedictine University Benedictine University | 2 | 2 | 100% |
+| Welcome to Brookdale Community College | 2 | 1 | 50% |
+| California Polytechnic State University | 2 | 2 | 100% |
+| Carleton College | 2 | 2 | 100% |
+| Central Christian College of the Bible | 2 | 2 | 100% |
+| Centre for Commercial Law Studies (CCLS), Queen Mary, University of London | 2 | 0 | 0% |
+| Chafer Theological Seminary | 2 | 2 | 100% |
+| Chatham University | 2 | 2 | 100% |
+| Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester | 2 | 1 | 50% |
+| Colombo International Nautical & Engineering College (CINEC) | 2 | 1 | 50% |
+| Coastal Carolina University | 2 | 2 | 100% |
+| Colgate is a nationally recognized liberal arts college set on a beautiful | 2 | 2 | 100% |
+| College of Saint Benedict & Saint John\'s University | 2 | 2 | 100% |
+| Colorado State University | 2 | 1 | 50% |
+| CUNY Borough of Manhattan Community College | 2 | 2 | 100% |
+| Dallas Theological Seminary (DTS) | 2 | 1 | 50% |
+| Welcome to Daymar College! | 2 | 0 | 0% |
+| Delaware College of Art and Design | 2 | 2 | 100% |
+| North Central University | 2 | 0 | 0% |
+| Dallas Nursing Institute | 2 | 2 | 100% |
+| Drexel University | 2 | 1 | 50% |
+| Eastern Arizona College Homepage | 2 | 2 | 100% |
+| Eastern Maine Community College | 2 | 2 | 100% |
+| Everest University | 2 | 1 | 50% |
 
 > This grouping organizes individual institution domains under their parent systems or networks (e.g., "University of California" spans UC Berkeley, UCLA, UC San Diego, etc.). Useful for identifying coverage gaps at the system level.
 
@@ -71,7 +84,7 @@ Aggregated results across all institutions grouped by parent organization (syste
 
 | Country | Scanned | Available | Reachable | Twitter-only | Modern | Mixed | No Social | Twitter | X | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|-------------|--------|-------|-----------|---------|---|---------|----------|-------------|
-| Usa Edu Master | 38 | 3,763 | 27 | 14 | 0 | 6 | 7 | 15 | 2 | 0 | 6 | Apr 2026 |
+| Usa Edu Master | 3,749 | 3,763 | 2,793 | 1,231 | 6 | 643 | 913 | 1,042 | 295 | 50 | 633 | Apr 2026 |
 
 > **Tier columns** (Twitter-only / Modern / Mixed / No Social) classify each page by its overall social media presence. **Platform columns** (Twitter / X / Bluesky / Mastodon) count pages with at least one link to that platform — a page may appear in more than one platform column.
 
@@ -81,7 +94,7 @@ Aggregated results across all institutions grouped by parent organization (syste
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 38 | 2026-04-25 |
+| Usa Edu Master | 3,643 | 2026-04-25 |
 
 ## Lighthouse Scan by Country
 
@@ -97,7 +110,7 @@ Checks whether each government page links to an accessibility statement as requi
 
 | Country | Scanned | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 5,801 | 4,251 | 1,459 | 1,277 | 34% | Apr 2026 |
+| Usa Edu Master | 11,719 | 8,584 | 2,899 | 2,509 | 34% | Apr 2026 |
 
 > **Statement %** is the percentage of *reachable* pages that contain at least one link to an accessibility statement.
 
