@@ -1,5 +1,5 @@
 ---
-title: Government Domains
+title: Institution Domains
 layout: page
 ---
 
@@ -9,7 +9,7 @@ This page lists all government domains tracked in the dataset, grouped by countr
 
 **1 countries** · **3,763 domains** · **3,763 pages**
 
-## Countries
+## Seeds
 
 - [USA_EDU_MASTER](#usa_edu_master) (3,763 domains, 3,763 pages)
 
