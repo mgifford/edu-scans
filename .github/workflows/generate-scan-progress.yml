@@ -133,7 +133,8 @@ jobs:
                   docs/technology-scanning.md \
                   docs/third-party-tools.md docs/third-party-tools-data.json \
                   docs/accessibility-statements.md \
-                  docs/lighthouse-results.md
+                  docs/lighthouse-results.md \
+                  docs/lighthouse-data.csv
           if git diff --staged --quiet; then
             echo "No changes to commit — reports are up to date."
           else
