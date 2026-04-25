@@ -416,7 +416,6 @@ def _build_stats_block(
             (
                 '<input type="search" id="lh-institution-search"'
                 ' placeholder="Filter by institution name or domain\u2026"'
-                ' aria-label="Filter institutions by name or domain"'
                 ' aria-controls="lighthouse-institution-table">'
             ),
             (

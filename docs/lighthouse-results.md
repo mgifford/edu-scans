@@ -34,7 +34,7 @@ _Stats as of 2026-04-25 19:10 UTC — last scan: 2026-04-24_
 
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
-<input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-label="Filter institutions by name or domain" aria-controls="lighthouse-institution-table">
+<input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
 <span id="lh-institution-count" aria-live="polite">Showing 623 of 623 institutions</span>
 </div>
 

@@ -557,9 +557,8 @@
       var rows = Array.from(table.querySelectorAll("tbody tr"));
       var visible = 0;
       rows.forEach(function (row) {
-        var searchText = row.dataset.search || row.textContent.toLowerCase();
-        var match = !query || searchText.indexOf(query) !== -1;
-        row.hidden = !match;
+        var match = !query || (row.dataset.search || "").indexOf(query) !== -1;
+        row.classList.toggle("lh-row-hidden", !match);
         if (match) {
           visible++;
         }
