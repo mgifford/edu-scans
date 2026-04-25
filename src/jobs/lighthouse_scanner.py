@@ -41,13 +41,19 @@ class LighthouseScannerJob:
             return json.load(f)
 
     def _extract_urls_from_toon(self, toon_data: dict) -> List[str]:
-        """Extract all page URLs from TOON data structure."""
+        """Extract all unique page URLs from TOON data structure.
+        
+        Deduplicates URLs that appear in multiple domain entries or
+        multiple times in the same domain's pages array.
+        """
         urls = []
+        seen = set()
         for domain_entry in toon_data.get("domains", []):
             for page in domain_entry.get("pages", []):
                 url = page.get("url")
-                if url:
+                if url and url not in seen:
                     urls.append(url)
+                    seen.add(url)
         return urls
 
     def _get_last_scan_time_per_country(self) -> Dict[str, str]:
