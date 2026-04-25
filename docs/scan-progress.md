@@ -3,9 +3,9 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-04-24 21:51 UTC_
+_Generated: 2026-04-25 00:26 UTC_
 
-This report tracks how far along each scan type is across all seed files. It is regenerated automatically after every scan run.
+This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
 ## Overall Coverage
 
@@ -13,41 +13,30 @@ Coverage is measured as pages scanned out of **3,763** pages available in the se
 
 | Scan Type | Pages Scanned | Available | Coverage |
 |-----------|--------------|-----------|----------|
-| **Combined Reachability** | **27 confirmed reachable** | 3,763 | **<span role="img" aria-label="0.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.7%</span></span>** |
-| Social Media | 38 scanned (27 reachable) | 3,763 | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
-| Technology | 0 scanned | 3,763 | (manual scan) |
-| Lighthouse | 0 scanned | 3,763 | (manual scan) |
+| Social Media | 0 scanned (0 reachable) | 3,763 | <span role="img" aria-label="0.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:0px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.0%</span></span> |
+| Technology | 38 scanned | 3,763 | <span role="img" aria-label="1.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:1px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">1.0%</span></span> |
+| Lighthouse | 453 scanned | 3,763 | <span role="img" aria-label="12.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:14px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">12.0%</span></span> |
 | Accessibility Statements | 0 scanned | 3,763 | <span role="img" aria-label="0.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:0px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.0%</span></span> |
 
 > **Combined Reachability** counts each URL once if it was confirmed reachable by any scan type.
 
-## Social Media Scan by Country
+## Technology Scan by Country
 
-| Country | Scanned | Available | Reachable | Twitter-only | Modern | Mixed | No Social | Twitter | X | Bluesky | Mastodon | Scan Period |
-|---------|---------|-----------|-----------|-------------|--------|-------|-----------|---------|---|---------|----------|-------------|
-| Usa Edu Master | 38 | 3,763 | 27 | 14 | 0 | 6 | 7 | 15 | 2 | 0 | 6 | Apr 2026 |
+| Country | URLs Scanned | Last Scan |
+|---------|-------------|----------|
+| Usa Edu Master | 38 | 2026-04-25 |
 
-> **Tier columns** (Twitter-only / Modern / Mixed / No Social) classify each page by its overall social media presence. **Platform columns** (Twitter / X / Bluesky / Mastodon) count pages with at least one link to that platform — a page may appear in more than one platform column.
+## Lighthouse Scan by Country
 
-> Hover or focus any non-zero platform count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and platform from [social-media-data.json](social-media-data.json).
+| Country | URLs | Perf | A11y | Best Practices | SEO | Last Scan |
+|---------|------|------|------|----------------|-----|----------|
+| Usa Edu Master | 453 | 86 | 89 | 66 | 90 | 2026-04-24 |
 
-## Technology Scan
-
-_No technology scans have been run yet. Trigger the **Scan Technology Stack** workflow manually._
-
-## Lighthouse Scan
-
-_No Lighthouse scans have been run yet. Trigger the **Scan Lighthouse** workflow manually._
+> Scores are averages across all successfully audited URLs, displayed as 0–100 (multiply source values × 100).
 
 ## Accessibility Statement Scan
 
 _No accessibility statement scans have been run yet. Trigger the **Scan Accessibility Statements** workflow manually or wait for the next scheduled run._
-
-## Countries With Social Scan But No URL Validation
-
-These countries have social media scan data but no URL validation data (URL validation may have been skipped because the social scan already confirmed reachability):
-
-`USA_EDU_MASTER`
 
 ## Scan Priority Guide
 

@@ -5,7 +5,32 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_No Lighthouse scan data yet — stats update automatically after every scan run.  Trigger the **Scan Lighthouse** workflow manually or wait for the next scheduled run._
+_Stats as of 2026-04-25 00:26 UTC — last scan: 2026-04-24_
+
+**1** scan batches run
+
+**624** of **3,763** available pages audited (**16.6%** coverage)
+**453** successful audits (**72.6%** of audited)
+
+**Overall average Lighthouse scores** (0–100 scale):
+
+| Performance | Accessibility | Best Practices | SEO |
+|:-----------:|:-------------:|:--------------:|:---:|
+| 86 | 89 | 66 | 90 |
+
+---
+
+## Lighthouse Scores by Country
+
+| Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
+|---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
+| Usa Edu Master | 624 | 3,763 | 86 | 89 | 66 | 90 | 2026-04-24 |
+
+> Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
+
+---
+
+📥 Machine-readable results: [Download machine-readable Lighthouse data (JSON)](lighthouse-data.json) · [Download per-URL Lighthouse data (CSV)](lighthouse-data.csv)
 
 <!-- LIGHTHOUSE_STATS_END -->
 
