@@ -978,6 +978,46 @@ blockquote a:focus-visible {
   }
 }
 
+/* WCAG 2.5.5 Touch Target Size: Ensure all interactive elements are at least 24x24px */
+a {
+  /* Increase line-height and add vertical padding to meet 24px minimum */
+  display: inline-block;
+  min-height: 24px;
+  line-height: 1.5;
+  padding: 0.25rem 0.125rem;
+}
+
+/* Navigation links and pagination */
+.page-link {
+  display: inline-block;
+  min-height: 24px;
+  padding: 0.75rem 0.5rem;
+  line-height: 1;
+}
+
+/* Navigation summary elements */
+.nav-summary {
+  display: inline-block;
+  min-height: 24px;
+  padding: 0.75rem 0.5rem;
+  line-height: 1;
+}
+
+/* List items with links need proper spacing */
+li > a {
+  display: inline-block;
+  padding: 0.5rem;
+  min-height: 24px;
+}
+
+/* Pagination links */
+.pagination a {
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0.25rem 0.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
