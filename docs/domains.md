@@ -1,15 +1,15 @@
 ---
-title: Institution Domains
+title: Government Domains
 layout: page
 ---
 
-_Generated: 2026-04-25 00:26 UTC_
+_Generated: 2026-04-25 05:52 UTC_
 
 This page lists all government domains tracked in the dataset, grouped by country. Data is sourced from the [TOON seed files](https://github.com/mgifford/eu-plus-government-scans/tree/main/data/toon-seeds) in the repository.
 
 **1 countries** · **3,763 domains** · **3,763 pages**
 
-## Seeds
+## Countries
 
 - [USA_EDU_MASTER](#usa_edu_master) (3,763 domains, 3,763 pages)
 

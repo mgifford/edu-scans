@@ -1,19 +1,3990 @@
 {
-  "generated_at": "2026-04-25 00:26 UTC",
+  "generated_at": "2026-04-25 05:52 UTC",
   "summary": {
-    "total_batches": 0,
-    "total_scanned": 0,
-    "total_reachable": 0,
-    "urls_with_scripts": 0,
+    "total_batches": 1,
+    "total_scanned": 38,
+    "total_reachable": 27,
+    "urls_with_scripts": 20,
     "total_available": 3763,
-    "identified_service_loads": 0,
-    "unique_services": 0,
-    "unique_categories": 0,
-    "first_scan": null,
-    "last_scan": null
+    "identified_service_loads": 32,
+    "unique_services": 14,
+    "unique_categories": 12,
+    "first_scan": "2026-04-25T00:37:42.282049+00:00",
+    "last_scan": "2026-04-25T00:38:50.292644+00:00"
   },
-  "top_services": [],
-  "top_categories": [],
-  "by_country": [],
-  "country_drilldowns": {}
+  "top_services": [
+    {
+      "name": "Google Analytics (GA4)",
+      "loads": 5
+    },
+    {
+      "name": "Adobe Dynamic Tag Management / Launch",
+      "loads": 4
+    },
+    {
+      "name": "jsDelivr CDN",
+      "loads": 3
+    },
+    {
+      "name": "jQuery",
+      "loads": 3
+    },
+    {
+      "name": "Google Hosted Libraries",
+      "loads": 3
+    },
+    {
+      "name": "cdnjs (Cloudflare CDN)",
+      "loads": 3
+    },
+    {
+      "name": "Google reCAPTCHA",
+      "loads": 3
+    },
+    {
+      "name": "Sentry",
+      "loads": 2
+    },
+    {
+      "name": "Google Tag Manager",
+      "loads": 1
+    },
+    {
+      "name": "Bootstrap",
+      "loads": 1
+    },
+    {
+      "name": "Cookiebot",
+      "loads": 1
+    },
+    {
+      "name": "HubSpot",
+      "loads": 1
+    },
+    {
+      "name": "Font Awesome",
+      "loads": 1
+    },
+    {
+      "name": "unpkg CDN",
+      "loads": 1
+    }
+  ],
+  "top_categories": [
+    {
+      "name": "CDN",
+      "loads": 10
+    },
+    {
+      "name": "Analytics",
+      "loads": 9
+    },
+    {
+      "name": "JavaScript Library",
+      "loads": 6
+    },
+    {
+      "name": "Tag Manager",
+      "loads": 5
+    },
+    {
+      "name": "Security",
+      "loads": 3
+    },
+    {
+      "name": "CAPTCHA",
+      "loads": 3
+    },
+    {
+      "name": "Error Tracking",
+      "loads": 2
+    },
+    {
+      "name": "UI Framework",
+      "loads": 1
+    },
+    {
+      "name": "Cookie Consent",
+      "loads": 1
+    },
+    {
+      "name": "CRM",
+      "loads": 1
+    },
+    {
+      "name": "Marketing",
+      "loads": 1
+    },
+    {
+      "name": "Icon Library",
+      "loads": 1
+    }
+  ],
+  "by_country": [
+    {
+      "country_code": "USA_EDU_MASTER",
+      "total_scanned": 38,
+      "reachable": 27,
+      "urls_with_scripts": 20,
+      "first_scan": "2026-04-25T00:37:42.282049+00:00",
+      "last_scan": "2026-04-25T00:38:50.292644+00:00",
+      "identified_service_loads": 32
+    }
+  ],
+  "country_drilldowns": {
+    "USA_EDU_MASTER": {
+      "scanned": [
+        {
+          "page_url": "https://abac.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "3.7.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://code.jquery.com/ui/1.14.1/jquery-ui.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "1.14.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+              "host": "unpkg.com",
+              "service_name": "unpkg CDN",
+              "version": "2.3.1",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-9TV66PSGNJ",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-9TV66PSGNJ",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://abac.shell.451.io/",
+              "host": "abac.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries",
+            "jQuery",
+            "unpkg CDN",
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://academyart.edu/",
+          "scripts": [
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+              "host": "translate.google.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://artu.my.site.com/ESWMIAWADMChatESD1769830819978/assets/js/bootstrap.min.js",
+              "host": "artu.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/wp-smartcrop/js/jquery.wp-smartcrop.min.js?ver=2.0.10",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.10",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/what-input.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/lazysizes.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ally.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/imagesloaded.pkgd.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/DP.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/header.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/main-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/mobile-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/utility-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/js/notification-banner/notification-banner.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js?ver=1.0",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/maps/eventon_gen_maps.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_functions.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.easing.1.3.js?ver=1.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "1.3",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/handlebars.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://meet.jit.si/external_api.js?ver=5.0.9",
+              "host": "meet.jit.si",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mobile.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment_timezone_min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mousewheel.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_script.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/gsap.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ScrollTrigger.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-controls.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/hero-home.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/swiper-bundle.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-embed.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/image-gallery.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/info-cards.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/interactive-content-pane.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/sticky-cta.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:45.417281+00:00"
+        },
+        {
+          "page_url": "https://academycollege.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:43.804399+00:00"
+        },
+        {
+          "page_url": "https://acadiana.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:46.960434+00:00"
+        },
+        {
+          "page_url": "https://acu.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:37.417750+00:00"
+        },
+        {
+          "page_url": "https://alu.edu/",
+          "scripts": [
+            {
+              "src": "https://obseu.bmccfortress.com/i/79bbd4450f5d3db93843814b0601485d.js",
+              "host": "obseu.bmccfortress.com",
+              "service_name": "",
+              "version": "79",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:41.329692+00:00"
+        },
+        {
+          "page_url": "https://ancollege.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:33.625002+00:00"
+        },
+        {
+          "page_url": "https://anrcollege.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "2.1.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "http://bxslider.com/lib/jquery.bxslider.js",
+              "host": "bxslider.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:17.629540+00:00"
+        },
+        {
+          "page_url": "https://apu.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/4b997f4c2f21/633700ee48f2/launch-c30d059643b7.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "4",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://n004.apu.edu/script.js",
+              "host": "n004.apu.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:30.688724+00:00"
+        },
+        {
+          "page_url": "https://aud.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=AW-409897820",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Tag Manager",
+              "version": "409897820",
+              "categories": [
+                "Tag Manager"
+              ]
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Tag Manager",
+            "jsDelivr CDN"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:00.422307+00:00"
+        },
+        {
+          "page_url": "https://bbc.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:48.098495+00:00"
+        },
+        {
+          "page_url": "https://bluewater.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:18.925910+00:00"
+        },
+        {
+          "page_url": "https://calvary.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:25.838555+00:00"
+        },
+        {
+          "page_url": "https://capella.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/42b83751f02d/bcf853b13f15/launch-26be115e1ddc.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "42",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://www.google.com/recaptcha/enterprise.js?render=6LeSwwEqAAAAAI8THMBcVwxktaKWyXHPQT6imwVK",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://strategiced.my.site.com/ESWMIAWVC1763702079978/assets/js/bootstrap.min.js",
+              "host": "strategiced.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:50.292644+00:00"
+        },
+        {
+          "page_url": "https://cncusa.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:15.474676+00:00"
+        },
+        {
+          "page_url": "https://csi.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-3.7.1.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "3.7.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://px.premion.com/pixel.js?pxid=680b9086064820ee51866665",
+              "host": "px.premion.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "jQuery"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:22.926716+00:00"
+        },
+        {
+          "page_url": "https://dia.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:03.743618+00:00"
+        },
+        {
+          "page_url": "https://drakecollege.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:37:59.290495+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "scripts": [
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://script.crazyegg.com/pages/scripts/0120/6138.js",
+              "host": "script.crazyegg.com",
+              "service_name": "",
+              "version": "0120",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://consent.cookiebot.com/uc.js",
+              "host": "consent.cookiebot.com",
+              "service_name": "Cookiebot",
+              "version": "",
+              "categories": [
+                "Cookie Consent"
+              ]
+            },
+            {
+              "src": "https://js.hs-scripts.com/49398848.js?integration=WordPress&ver=11.2.0",
+              "host": "js.hs-scripts.com",
+              "service_name": "HubSpot",
+              "version": "49398848",
+              "categories": [
+                "CRM",
+                "Marketing"
+              ]
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/forms.js",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/general-form.js?ver=1.0",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "5.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Cookiebot",
+            "HubSpot",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://escondidobiblecollege.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:38.569734+00:00"
+        },
+        {
+          "page_url": "https://fortlewis.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.fortlewis.edu/ping",
+              "host": "connect.fortlewis.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://sky.blackbaudcdn.net/static/og-web-loader/1/main.js",
+              "host": "sky.blackbaudcdn.net",
+              "service_name": "",
+              "version": "1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/typeahead-0.11.1/typeahead.bundle.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.11.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/handlebars-4.7/handlebars.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "4.7",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3.5.7",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://s3.amazonaws.com/widgets.omnilert.net/fdc3b2cbd630578878e25131211e7efc-13252",
+              "host": "s3.amazonaws.com",
+              "service_name": "",
+              "version": "13252",
+              "categories": []
+            },
+            {
+              "src": "https://snapwidget.com/js/snapwidget.js",
+              "host": "snapwidget.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-cart-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-history-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/typeahead.fb-2.6.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "2.6",
+              "categories": []
+            },
+            {
+              "src": "https://kit.fontawesome.com/a12926fb04.js",
+              "host": "kit.fontawesome.com",
+              "service_name": "Font Awesome",
+              "version": "",
+              "categories": [
+                "Icon Library"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Font Awesome"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:29.153852+00:00"
+        },
+        {
+          "page_url": "https://franklincareer.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -5] No address associated with hostname",
+          "last_scanned": "2026-04-25T00:38:16.541991+00:00"
+        },
+        {
+          "page_url": "https://heritageit.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:37:56.147784+00:00"
+        },
+        {
+          "page_url": "https://ibais.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:10.547672+00:00"
+        },
+        {
+          "page_url": "https://ipm.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-0PWVD4QGJ0",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-0PWVD4QGJ0",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:20.000655+00:00"
+        },
+        {
+          "page_url": "https://jefferson.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/launch-EN7c99f29d08ee46ebab582fd069bfbc05.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.adobedtm.com/cd61d95df898c6ead7aa4bb4ff71835ab433854b/satelliteLib-73684eb20716398a65ce5f8e2577b12fc82b0842.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "73684",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:08.982648+00:00"
+        },
+        {
+          "page_url": "https://labi.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:37:42.282049+00:00"
+        },
+        {
+          "page_url": "https://lindsey.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:24.581600+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "scripts": [
+            {
+              "src": "https://mccollege.shell.451.io/",
+              "host": "mccollege.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            },
+            {
+              "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "host": "pagead2.googlesyndication.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-RSPYCZMWQ1&l=dataLayerPYS",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-RSPYCZMWQ1",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://maps.google.com/maps/api/js?loading=async&libraries=marker%2Cgeometry%2Cplaces%2Cdrawing&callback=wpgmpInitMap&language=en&ver=4.9.2",
+              "host": "maps.google.com",
+              "service_name": "",
+              "version": "9.2",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5&ver=3.0",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google reCAPTCHA",
+            "Google Analytics (GA4)",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-latest.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "1.11.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+              "host": "maxcdn.bootstrapcdn.com",
+              "service_name": "Bootstrap",
+              "version": "3.3.4",
+              "categories": [
+                "UI Framework"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.0/js/bootstrap-select.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "1.7.0",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "3.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jQuery",
+            "Google Hosted Libraries",
+            "Bootstrap",
+            "cdnjs (Cloudflare CDN)",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwestern.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:04.789866+00:00"
+        },
+        {
+          "page_url": "https://paralegal.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-Z7J20M26V4",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-Z7J20M26V4",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.virtualadviser.com/embed.js",
+              "host": "assets.virtualadviser.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://amplify.review-alerts.com/widget-init.js",
+              "host": "amplify.review-alerts.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:35.494596+00:00"
+        },
+        {
+          "page_url": "https://stonybrookmedicine.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:42.657953+00:00"
+        },
+        {
+          "page_url": "https://suscc.edu/",
+          "scripts": [
+            {
+              "src": "https://tag.brandcdn.com/autoscript/southernunioncommunitycollege_vfzsrk5vnvvwwgs9/SouthernUnionCommunityCollege.js",
+              "host": "tag.brandcdn.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-DJYG5XD6Q7",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-DJYG5XD6Q7",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:07.608880+00:00"
+        },
+        {
+          "page_url": "https://trincoll.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.trincoll.edu/ping",
+              "host": "connect.trincoll.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:32.132882+00:00"
+        },
+        {
+          "page_url": "https://umhs.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -3] Temporary failure in name resolution",
+          "last_scanned": "2026-04-25T00:37:45.112886+00:00"
+        },
+        {
+          "page_url": "https://victory.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "Connection error: [Errno -2] Name or service not known",
+          "last_scanned": "2026-04-25T00:38:49.165311+00:00"
+        },
+        {
+          "page_url": "https://ycce.edu/",
+          "scripts": [
+            {
+              "src": "https://in6cdn.npfs.co/js/widget/npfwpopup.js",
+              "host": "in6cdn.npfs.co",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:11.703870+00:00"
+        }
+      ],
+      "reachable": [
+        {
+          "page_url": "https://abac.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "3.7.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://code.jquery.com/ui/1.14.1/jquery-ui.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "1.14.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+              "host": "unpkg.com",
+              "service_name": "unpkg CDN",
+              "version": "2.3.1",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-9TV66PSGNJ",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-9TV66PSGNJ",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://abac.shell.451.io/",
+              "host": "abac.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries",
+            "jQuery",
+            "unpkg CDN",
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://academyart.edu/",
+          "scripts": [
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+              "host": "translate.google.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://artu.my.site.com/ESWMIAWADMChatESD1769830819978/assets/js/bootstrap.min.js",
+              "host": "artu.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/wp-smartcrop/js/jquery.wp-smartcrop.min.js?ver=2.0.10",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.10",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/what-input.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/lazysizes.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ally.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/imagesloaded.pkgd.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/DP.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/header.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/main-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/mobile-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/utility-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/js/notification-banner/notification-banner.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js?ver=1.0",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/maps/eventon_gen_maps.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_functions.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.easing.1.3.js?ver=1.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "1.3",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/handlebars.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://meet.jit.si/external_api.js?ver=5.0.9",
+              "host": "meet.jit.si",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mobile.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment_timezone_min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mousewheel.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_script.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/gsap.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ScrollTrigger.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-controls.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/hero-home.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/swiper-bundle.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-embed.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/image-gallery.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/info-cards.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/interactive-content-pane.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/sticky-cta.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:45.417281+00:00"
+        },
+        {
+          "page_url": "https://academycollege.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:43.804399+00:00"
+        },
+        {
+          "page_url": "https://acu.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:37.417750+00:00"
+        },
+        {
+          "page_url": "https://alu.edu/",
+          "scripts": [
+            {
+              "src": "https://obseu.bmccfortress.com/i/79bbd4450f5d3db93843814b0601485d.js",
+              "host": "obseu.bmccfortress.com",
+              "service_name": "",
+              "version": "79",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:41.329692+00:00"
+        },
+        {
+          "page_url": "https://ancollege.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:33.625002+00:00"
+        },
+        {
+          "page_url": "https://anrcollege.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "2.1.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "http://bxslider.com/lib/jquery.bxslider.js",
+              "host": "bxslider.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:17.629540+00:00"
+        },
+        {
+          "page_url": "https://apu.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/4b997f4c2f21/633700ee48f2/launch-c30d059643b7.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "4",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://n004.apu.edu/script.js",
+              "host": "n004.apu.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:30.688724+00:00"
+        },
+        {
+          "page_url": "https://aud.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=AW-409897820",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Tag Manager",
+              "version": "409897820",
+              "categories": [
+                "Tag Manager"
+              ]
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Tag Manager",
+            "jsDelivr CDN"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:00.422307+00:00"
+        },
+        {
+          "page_url": "https://calvary.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:25.838555+00:00"
+        },
+        {
+          "page_url": "https://capella.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/42b83751f02d/bcf853b13f15/launch-26be115e1ddc.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "42",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://www.google.com/recaptcha/enterprise.js?render=6LeSwwEqAAAAAI8THMBcVwxktaKWyXHPQT6imwVK",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://strategiced.my.site.com/ESWMIAWVC1763702079978/assets/js/bootstrap.min.js",
+              "host": "strategiced.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:50.292644+00:00"
+        },
+        {
+          "page_url": "https://csi.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-3.7.1.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "3.7.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://px.premion.com/pixel.js?pxid=680b9086064820ee51866665",
+              "host": "px.premion.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "jQuery"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:22.926716+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "scripts": [
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://script.crazyegg.com/pages/scripts/0120/6138.js",
+              "host": "script.crazyegg.com",
+              "service_name": "",
+              "version": "0120",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://consent.cookiebot.com/uc.js",
+              "host": "consent.cookiebot.com",
+              "service_name": "Cookiebot",
+              "version": "",
+              "categories": [
+                "Cookie Consent"
+              ]
+            },
+            {
+              "src": "https://js.hs-scripts.com/49398848.js?integration=WordPress&ver=11.2.0",
+              "host": "js.hs-scripts.com",
+              "service_name": "HubSpot",
+              "version": "49398848",
+              "categories": [
+                "CRM",
+                "Marketing"
+              ]
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/forms.js",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/general-form.js?ver=1.0",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "5.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Cookiebot",
+            "HubSpot",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://fortlewis.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.fortlewis.edu/ping",
+              "host": "connect.fortlewis.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://sky.blackbaudcdn.net/static/og-web-loader/1/main.js",
+              "host": "sky.blackbaudcdn.net",
+              "service_name": "",
+              "version": "1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/typeahead-0.11.1/typeahead.bundle.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.11.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/handlebars-4.7/handlebars.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "4.7",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3.5.7",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://s3.amazonaws.com/widgets.omnilert.net/fdc3b2cbd630578878e25131211e7efc-13252",
+              "host": "s3.amazonaws.com",
+              "service_name": "",
+              "version": "13252",
+              "categories": []
+            },
+            {
+              "src": "https://snapwidget.com/js/snapwidget.js",
+              "host": "snapwidget.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-cart-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-history-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/typeahead.fb-2.6.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "2.6",
+              "categories": []
+            },
+            {
+              "src": "https://kit.fontawesome.com/a12926fb04.js",
+              "host": "kit.fontawesome.com",
+              "service_name": "Font Awesome",
+              "version": "",
+              "categories": [
+                "Icon Library"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Font Awesome"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:29.153852+00:00"
+        },
+        {
+          "page_url": "https://heritageit.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:37:56.147784+00:00"
+        },
+        {
+          "page_url": "https://ipm.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-0PWVD4QGJ0",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-0PWVD4QGJ0",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:20.000655+00:00"
+        },
+        {
+          "page_url": "https://jefferson.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/launch-EN7c99f29d08ee46ebab582fd069bfbc05.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.adobedtm.com/cd61d95df898c6ead7aa4bb4ff71835ab433854b/satelliteLib-73684eb20716398a65ce5f8e2577b12fc82b0842.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "73684",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:08.982648+00:00"
+        },
+        {
+          "page_url": "https://labi.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:37:42.282049+00:00"
+        },
+        {
+          "page_url": "https://lindsey.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:24.581600+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "scripts": [
+            {
+              "src": "https://mccollege.shell.451.io/",
+              "host": "mccollege.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            },
+            {
+              "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "host": "pagead2.googlesyndication.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-RSPYCZMWQ1&l=dataLayerPYS",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-RSPYCZMWQ1",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://maps.google.com/maps/api/js?loading=async&libraries=marker%2Cgeometry%2Cplaces%2Cdrawing&callback=wpgmpInitMap&language=en&ver=4.9.2",
+              "host": "maps.google.com",
+              "service_name": "",
+              "version": "9.2",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5&ver=3.0",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google reCAPTCHA",
+            "Google Analytics (GA4)",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-latest.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "1.11.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+              "host": "maxcdn.bootstrapcdn.com",
+              "service_name": "Bootstrap",
+              "version": "3.3.4",
+              "categories": [
+                "UI Framework"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.0/js/bootstrap-select.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "1.7.0",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "3.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jQuery",
+            "Google Hosted Libraries",
+            "Bootstrap",
+            "cdnjs (Cloudflare CDN)",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwestern.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:04.789866+00:00"
+        },
+        {
+          "page_url": "https://paralegal.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-Z7J20M26V4",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-Z7J20M26V4",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.virtualadviser.com/embed.js",
+              "host": "assets.virtualadviser.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://amplify.review-alerts.com/widget-init.js",
+              "host": "amplify.review-alerts.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:35.494596+00:00"
+        },
+        {
+          "page_url": "https://stonybrookmedicine.edu/",
+          "scripts": [],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:42.657953+00:00"
+        },
+        {
+          "page_url": "https://suscc.edu/",
+          "scripts": [
+            {
+              "src": "https://tag.brandcdn.com/autoscript/southernunioncommunitycollege_vfzsrk5vnvvwwgs9/SouthernUnionCommunityCollege.js",
+              "host": "tag.brandcdn.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-DJYG5XD6Q7",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-DJYG5XD6Q7",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:07.608880+00:00"
+        },
+        {
+          "page_url": "https://trincoll.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.trincoll.edu/ping",
+              "host": "connect.trincoll.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:32.132882+00:00"
+        },
+        {
+          "page_url": "https://ycce.edu/",
+          "scripts": [
+            {
+              "src": "https://in6cdn.npfs.co/js/widget/npfwpopup.js",
+              "host": "in6cdn.npfs.co",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:11.703870+00:00"
+        }
+      ],
+      "urls_with_scripts": [
+        {
+          "page_url": "https://abac.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "3.7.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://code.jquery.com/ui/1.14.1/jquery-ui.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "1.14.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+              "host": "unpkg.com",
+              "service_name": "unpkg CDN",
+              "version": "2.3.1",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-9TV66PSGNJ",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-9TV66PSGNJ",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://abac.shell.451.io/",
+              "host": "abac.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries",
+            "jQuery",
+            "unpkg CDN",
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://academyart.edu/",
+          "scripts": [
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+              "host": "translate.google.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://artu.my.site.com/ESWMIAWADMChatESD1769830819978/assets/js/bootstrap.min.js",
+              "host": "artu.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/wp-smartcrop/js/jquery.wp-smartcrop.min.js?ver=2.0.10",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.10",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/what-input.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/lazysizes.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ally.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/imagesloaded.pkgd.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/DP.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/header.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/main-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/mobile-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/utility-menu.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/js/notification-banner/notification-banner.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js?ver=1.0",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/maps/eventon_gen_maps.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_functions.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.easing.1.3.js?ver=1.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "1.3",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/handlebars.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://meet.jit.si/external_api.js?ver=5.0.9",
+              "host": "meet.jit.si",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mobile.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/moment_timezone_min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/lib/jquery.mousewheel.min.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/plugins/eventON/assets/js/eventon_script.js?ver=5.0.9",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/gsap.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/ScrollTrigger.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-controls.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/hero-home.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/vendor/swiper-bundle.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/video-embed.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/image-gallery.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/info-cards.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/interactive-content-pane.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            },
+            {
+              "src": "https://bpiqpjsgebtv-u1573.pressidiumcdn.com/wp-content/themes/aau/pattern_lab/source/js/dist/components/sticky-cta.min.js?ver=1.0.0",
+              "host": "bpiqpjsgebtv-u1573.pressidiumcdn.com",
+              "service_name": "",
+              "version": "0.0",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:45.417281+00:00"
+        },
+        {
+          "page_url": "https://alu.edu/",
+          "scripts": [
+            {
+              "src": "https://obseu.bmccfortress.com/i/79bbd4450f5d3db93843814b0601485d.js",
+              "host": "obseu.bmccfortress.com",
+              "service_name": "",
+              "version": "79",
+              "categories": []
+            },
+            {
+              "src": "https://maps.googleapis.com/maps/api/js",
+              "host": "maps.googleapis.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:41.329692+00:00"
+        },
+        {
+          "page_url": "https://ancollege.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:33.625002+00:00"
+        },
+        {
+          "page_url": "https://anrcollege.edu/",
+          "scripts": [
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "2.1.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "http://bxslider.com/lib/jquery.bxslider.js",
+              "host": "bxslider.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Hosted Libraries"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:17.629540+00:00"
+        },
+        {
+          "page_url": "https://apu.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/4b997f4c2f21/633700ee48f2/launch-c30d059643b7.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "4",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://n004.apu.edu/script.js",
+              "host": "n004.apu.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:30.688724+00:00"
+        },
+        {
+          "page_url": "https://aud.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=AW-409897820",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Tag Manager",
+              "version": "409897820",
+              "categories": [
+                "Tag Manager"
+              ]
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Tag Manager",
+            "jsDelivr CDN"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:00.422307+00:00"
+        },
+        {
+          "page_url": "https://capella.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/42b83751f02d/bcf853b13f15/launch-26be115e1ddc.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "42",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://www.google.com/recaptcha/enterprise.js?render=6LeSwwEqAAAAAI8THMBcVwxktaKWyXHPQT6imwVK",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://strategiced.my.site.com/ESWMIAWVC1763702079978/assets/js/bootstrap.min.js",
+              "host": "strategiced.my.site.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:50.292644+00:00"
+        },
+        {
+          "page_url": "https://csi.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-3.7.1.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "3.7.1",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://px.premion.com/pixel.js?pxid=680b9086064820ee51866665",
+              "host": "px.premion.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "jQuery"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:22.926716+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "scripts": [
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "7.1",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "4.1",
+              "categories": []
+            },
+            {
+              "src": "https://script.crazyegg.com/pages/scripts/0120/6138.js",
+              "host": "script.crazyegg.com",
+              "service_name": "",
+              "version": "0120",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://consent.cookiebot.com/uc.js",
+              "host": "consent.cookiebot.com",
+              "service_name": "Cookiebot",
+              "version": "",
+              "categories": [
+                "Cookie Consent"
+              ]
+            },
+            {
+              "src": "https://js.hs-scripts.com/49398848.js?integration=WordPress&ver=11.2.0",
+              "host": "js.hs-scripts.com",
+              "service_name": "HubSpot",
+              "version": "49398848",
+              "categories": [
+                "CRM",
+                "Marketing"
+              ]
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/forms.js",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www-empire-edu.b-cdn.net/wp-content/themes/empire/js/general-form.js?ver=1.0",
+              "host": "www-empire-edu.b-cdn.net",
+              "service_name": "",
+              "version": "0",
+              "categories": []
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "5.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Cookiebot",
+            "HubSpot",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://fortlewis.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.fortlewis.edu/ping",
+              "host": "connect.fortlewis.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://sky.blackbaudcdn.net/static/og-web-loader/1/main.js",
+              "host": "sky.blackbaudcdn.net",
+              "service_name": "",
+              "version": "1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/typeahead-0.11.1/typeahead.bundle.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.11.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources-global/thirdparty/handlebars-4.7/handlebars.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "4.7",
+              "categories": []
+            },
+            {
+              "src": "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js",
+              "host": "cdn.jsdelivr.net",
+              "service_name": "jsDelivr CDN",
+              "version": "3.5.7",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://s3.amazonaws.com/widgets.omnilert.net/fdc3b2cbd630578878e25131211e7efc-13252",
+              "host": "s3.amazonaws.com",
+              "service_name": "",
+              "version": "13252",
+              "categories": []
+            },
+            {
+              "src": "https://snapwidget.com/js/snapwidget.js",
+              "host": "snapwidget.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-cart-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/funnelback.session-history-0.1.min.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "0.1",
+              "categories": []
+            },
+            {
+              "src": "https://fortlewis-search.funnelback.squiz.cloud/s/resources/fortlewis~sp-search/_default_preview/js/typeahead.fb-2.6.js",
+              "host": "fortlewis-search.funnelback.squiz.cloud",
+              "service_name": "",
+              "version": "2.6",
+              "categories": []
+            },
+            {
+              "src": "https://kit.fontawesome.com/a12926fb04.js",
+              "host": "kit.fontawesome.com",
+              "service_name": "Font Awesome",
+              "version": "",
+              "categories": [
+                "Icon Library"
+              ]
+            }
+          ],
+          "service_names": [
+            "jsDelivr CDN",
+            "Font Awesome"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:29.153852+00:00"
+        },
+        {
+          "page_url": "https://ipm.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-0PWVD4QGJ0",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-0PWVD4QGJ0",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:20.000655+00:00"
+        },
+        {
+          "page_url": "https://jefferson.edu/",
+          "scripts": [
+            {
+              "src": "https://assets.adobedtm.com/launch-EN7c99f29d08ee46ebab582fd069bfbc05.min.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.adobedtm.com/cd61d95df898c6ead7aa4bb4ff71835ab433854b/satelliteLib-73684eb20716398a65ce5f8e2577b12fc82b0842.js",
+              "host": "assets.adobedtm.com",
+              "service_name": "Adobe Dynamic Tag Management / Launch",
+              "version": "73684",
+              "categories": [
+                "Tag Manager",
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Adobe Dynamic Tag Management / Launch",
+            "Adobe Dynamic Tag Management / Launch"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:08.982648+00:00"
+        },
+        {
+          "page_url": "https://labi.edu/",
+          "scripts": [
+            {
+              "src": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "2.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "0.9",
+              "categories": []
+            },
+            {
+              "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+              "host": "browser.sentry-cdn.com",
+              "service_name": "Sentry",
+              "version": "7.120.3",
+              "categories": [
+                "Error Tracking"
+              ]
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "3.1",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "17.21",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.b6ac6398.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.a5b51f31.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "99",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+              "host": "static.parastorage.com",
+              "service_name": "",
+              "version": "1.1028.0",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Sentry"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:37:42.282049+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "scripts": [
+            {
+              "src": "https://mccollege.shell.451.io/",
+              "host": "mccollege.shell.451.io",
+              "service_name": "",
+              "version": "451",
+              "categories": []
+            },
+            {
+              "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "host": "pagead2.googlesyndication.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-RSPYCZMWQ1&l=dataLayerPYS",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-RSPYCZMWQ1",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://maps.google.com/maps/api/js?loading=async&libraries=marker%2Cgeometry%2Cplaces%2Cdrawing&callback=wpgmpInitMap&language=en&ver=4.9.2",
+              "host": "maps.google.com",
+              "service_name": "",
+              "version": "9.2",
+              "categories": []
+            },
+            {
+              "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5&ver=3.0",
+              "host": "www.google.com",
+              "service_name": "Google reCAPTCHA",
+              "version": "0",
+              "categories": [
+                "Security",
+                "CAPTCHA"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google reCAPTCHA",
+            "Google Analytics (GA4)",
+            "Google reCAPTCHA"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "scripts": [
+            {
+              "src": "https://code.jquery.com/jquery-latest.min.js",
+              "host": "code.jquery.com",
+              "service_name": "jQuery",
+              "version": "",
+              "categories": [
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+              "host": "ajax.googleapis.com",
+              "service_name": "Google Hosted Libraries",
+              "version": "1.11.1",
+              "categories": [
+                "CDN",
+                "JavaScript Library"
+              ]
+            },
+            {
+              "src": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+              "host": "maxcdn.bootstrapcdn.com",
+              "service_name": "Bootstrap",
+              "version": "3.3.4",
+              "categories": [
+                "UI Framework"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.0/js/bootstrap-select.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "1.7.0",
+              "categories": [
+                "CDN"
+              ]
+            },
+            {
+              "src": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js",
+              "host": "cdnjs.cloudflare.com",
+              "service_name": "cdnjs (Cloudflare CDN)",
+              "version": "3.0.8",
+              "categories": [
+                "CDN"
+              ]
+            }
+          ],
+          "service_names": [
+            "jQuery",
+            "Google Hosted Libraries",
+            "Bootstrap",
+            "cdnjs (Cloudflare CDN)",
+            "cdnjs (Cloudflare CDN)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://paralegal.edu/",
+          "scripts": [
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-Z7J20M26V4",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-Z7J20M26V4",
+              "categories": [
+                "Analytics"
+              ]
+            },
+            {
+              "src": "https://assets.virtualadviser.com/embed.js",
+              "host": "assets.virtualadviser.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://amplify.review-alerts.com/widget-init.js",
+              "host": "amplify.review-alerts.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:35.494596+00:00"
+        },
+        {
+          "page_url": "https://suscc.edu/",
+          "scripts": [
+            {
+              "src": "https://tag.brandcdn.com/autoscript/southernunioncommunitycollege_vfzsrk5vnvvwwgs9/SouthernUnionCommunityCollege.js",
+              "host": "tag.brandcdn.com",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            },
+            {
+              "src": "https://www.googletagmanager.com/gtag/js?id=G-DJYG5XD6Q7",
+              "host": "www.googletagmanager.com",
+              "service_name": "Google Analytics (GA4)",
+              "version": "G-DJYG5XD6Q7",
+              "categories": [
+                "Analytics"
+              ]
+            }
+          ],
+          "service_names": [
+            "Google Analytics (GA4)"
+          ],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:07.608880+00:00"
+        },
+        {
+          "page_url": "https://trincoll.edu/",
+          "scripts": [
+            {
+              "src": "https://connect.trincoll.edu/ping",
+              "host": "connect.trincoll.edu",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:32.132882+00:00"
+        },
+        {
+          "page_url": "https://ycce.edu/",
+          "scripts": [
+            {
+              "src": "https://in6cdn.npfs.co/js/widget/npfwpopup.js",
+              "host": "in6cdn.npfs.co",
+              "service_name": "",
+              "version": "",
+              "categories": []
+            }
+          ],
+          "service_names": [],
+          "error_message": "",
+          "last_scanned": "2026-04-25T00:38:11.703870+00:00"
+        }
+      ],
+      "service_loads": [
+        {
+          "page_url": "https://abac.edu/",
+          "service_name": "Google Hosted Libraries",
+          "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+          "host": "ajax.googleapis.com",
+          "version": "3.7.1",
+          "categories": [
+            "CDN",
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://abac.edu/",
+          "service_name": "jQuery",
+          "src": "https://code.jquery.com/ui/1.14.1/jquery-ui.min.js",
+          "host": "code.jquery.com",
+          "version": "1.14.1",
+          "categories": [
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://abac.edu/",
+          "service_name": "unpkg CDN",
+          "src": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+          "host": "unpkg.com",
+          "version": "2.3.1",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://abac.edu/",
+          "service_name": "Google Analytics (GA4)",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-9TV66PSGNJ",
+          "host": "www.googletagmanager.com",
+          "version": "G-9TV66PSGNJ",
+          "categories": [
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:39.717593+00:00"
+        },
+        {
+          "page_url": "https://ancollege.edu/",
+          "service_name": "Sentry",
+          "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+          "host": "browser.sentry-cdn.com",
+          "version": "7.120.3",
+          "categories": [
+            "Error Tracking"
+          ],
+          "last_scanned": "2026-04-25T00:38:33.625002+00:00"
+        },
+        {
+          "page_url": "https://anrcollege.edu/",
+          "service_name": "Google Hosted Libraries",
+          "src": "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+          "host": "ajax.googleapis.com",
+          "version": "2.1.1",
+          "categories": [
+            "CDN",
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:17.629540+00:00"
+        },
+        {
+          "page_url": "https://apu.edu/",
+          "service_name": "Adobe Dynamic Tag Management / Launch",
+          "src": "https://assets.adobedtm.com/4b997f4c2f21/633700ee48f2/launch-c30d059643b7.min.js",
+          "host": "assets.adobedtm.com",
+          "version": "4",
+          "categories": [
+            "Tag Manager",
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:30.688724+00:00"
+        },
+        {
+          "page_url": "https://aud.edu/",
+          "service_name": "Google Tag Manager",
+          "src": "https://www.googletagmanager.com/gtag/js?id=AW-409897820",
+          "host": "www.googletagmanager.com",
+          "version": "409897820",
+          "categories": [
+            "Tag Manager"
+          ],
+          "last_scanned": "2026-04-25T00:38:00.422307+00:00"
+        },
+        {
+          "page_url": "https://aud.edu/",
+          "service_name": "jsDelivr CDN",
+          "src": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js",
+          "host": "cdn.jsdelivr.net",
+          "version": "3",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:00.422307+00:00"
+        },
+        {
+          "page_url": "https://capella.edu/",
+          "service_name": "Adobe Dynamic Tag Management / Launch",
+          "src": "https://assets.adobedtm.com/42b83751f02d/bcf853b13f15/launch-26be115e1ddc.min.js",
+          "host": "assets.adobedtm.com",
+          "version": "42",
+          "categories": [
+            "Tag Manager",
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:50.292644+00:00"
+        },
+        {
+          "page_url": "https://capella.edu/",
+          "service_name": "Google reCAPTCHA",
+          "src": "https://www.google.com/recaptcha/enterprise.js?render=6LeSwwEqAAAAAI8THMBcVwxktaKWyXHPQT6imwVK",
+          "host": "www.google.com",
+          "version": "",
+          "categories": [
+            "Security",
+            "CAPTCHA"
+          ],
+          "last_scanned": "2026-04-25T00:38:50.292644+00:00"
+        },
+        {
+          "page_url": "https://csi.edu/",
+          "service_name": "jQuery",
+          "src": "https://code.jquery.com/jquery-3.7.1.min.js",
+          "host": "code.jquery.com",
+          "version": "3.7.1",
+          "categories": [
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:22.926716+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "service_name": "jsDelivr CDN",
+          "src": "https://cdn.jsdelivr.net/npm/inputmask/dist/inputmask.min.js",
+          "host": "cdn.jsdelivr.net",
+          "version": "",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "service_name": "Cookiebot",
+          "src": "https://consent.cookiebot.com/uc.js",
+          "host": "consent.cookiebot.com",
+          "version": "",
+          "categories": [
+            "Cookie Consent"
+          ],
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "service_name": "HubSpot",
+          "src": "https://js.hs-scripts.com/49398848.js?integration=WordPress&ver=11.2.0",
+          "host": "js.hs-scripts.com",
+          "version": "49398848",
+          "categories": [
+            "CRM",
+            "Marketing"
+          ],
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://empire.edu/brands/acutabove",
+          "service_name": "cdnjs (Cloudflare CDN)",
+          "src": "https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js",
+          "host": "cdnjs.cloudflare.com",
+          "version": "5.0.8",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:26.978394+00:00"
+        },
+        {
+          "page_url": "https://fortlewis.edu/",
+          "service_name": "jsDelivr CDN",
+          "src": "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js",
+          "host": "cdn.jsdelivr.net",
+          "version": "3.5.7",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:29.153852+00:00"
+        },
+        {
+          "page_url": "https://fortlewis.edu/",
+          "service_name": "Font Awesome",
+          "src": "https://kit.fontawesome.com/a12926fb04.js",
+          "host": "kit.fontawesome.com",
+          "version": "",
+          "categories": [
+            "Icon Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:29.153852+00:00"
+        },
+        {
+          "page_url": "https://ipm.edu/",
+          "service_name": "Google Analytics (GA4)",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-0PWVD4QGJ0",
+          "host": "www.googletagmanager.com",
+          "version": "G-0PWVD4QGJ0",
+          "categories": [
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:20.000655+00:00"
+        },
+        {
+          "page_url": "https://jefferson.edu/",
+          "service_name": "Adobe Dynamic Tag Management / Launch",
+          "src": "https://assets.adobedtm.com/launch-EN7c99f29d08ee46ebab582fd069bfbc05.min.js",
+          "host": "assets.adobedtm.com",
+          "version": "",
+          "categories": [
+            "Tag Manager",
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:08.982648+00:00"
+        },
+        {
+          "page_url": "https://jefferson.edu/",
+          "service_name": "Adobe Dynamic Tag Management / Launch",
+          "src": "https://assets.adobedtm.com/cd61d95df898c6ead7aa4bb4ff71835ab433854b/satelliteLib-73684eb20716398a65ce5f8e2577b12fc82b0842.js",
+          "host": "assets.adobedtm.com",
+          "version": "73684",
+          "categories": [
+            "Tag Manager",
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:08.982648+00:00"
+        },
+        {
+          "page_url": "https://labi.edu/",
+          "service_name": "Sentry",
+          "src": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+          "host": "browser.sentry-cdn.com",
+          "version": "7.120.3",
+          "categories": [
+            "Error Tracking"
+          ],
+          "last_scanned": "2026-04-25T00:37:42.282049+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "service_name": "Google reCAPTCHA",
+          "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5",
+          "host": "www.google.com",
+          "version": "0",
+          "categories": [
+            "Security",
+            "CAPTCHA"
+          ],
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "service_name": "Google Analytics (GA4)",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-RSPYCZMWQ1&l=dataLayerPYS",
+          "host": "www.googletagmanager.com",
+          "version": "G-RSPYCZMWQ1",
+          "categories": [
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://mccollege.edu/",
+          "service_name": "Google reCAPTCHA",
+          "src": "https://www.google.com/recaptcha/api.js?render=6Leb5rEaAAAAAIilaybQ2QN1xHjh_0-7vxTHJga5&ver=3.0",
+          "host": "www.google.com",
+          "version": "0",
+          "categories": [
+            "Security",
+            "CAPTCHA"
+          ],
+          "last_scanned": "2026-04-25T00:38:21.386959+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "service_name": "jQuery",
+          "src": "https://code.jquery.com/jquery-latest.min.js",
+          "host": "code.jquery.com",
+          "version": "",
+          "categories": [
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "service_name": "Google Hosted Libraries",
+          "src": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+          "host": "ajax.googleapis.com",
+          "version": "1.11.1",
+          "categories": [
+            "CDN",
+            "JavaScript Library"
+          ],
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "service_name": "Bootstrap",
+          "src": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js",
+          "host": "maxcdn.bootstrapcdn.com",
+          "version": "3.3.4",
+          "categories": [
+            "UI Framework"
+          ],
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "service_name": "cdnjs (Cloudflare CDN)",
+          "src": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.0/js/bootstrap-select.min.js",
+          "host": "cdnjs.cloudflare.com",
+          "version": "1.7.0",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://midwest.edu/",
+          "service_name": "cdnjs (Cloudflare CDN)",
+          "src": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js",
+          "host": "cdnjs.cloudflare.com",
+          "version": "3.0.8",
+          "categories": [
+            "CDN"
+          ],
+          "last_scanned": "2026-04-25T00:38:05.929093+00:00"
+        },
+        {
+          "page_url": "https://paralegal.edu/",
+          "service_name": "Google Analytics (GA4)",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-Z7J20M26V4",
+          "host": "www.googletagmanager.com",
+          "version": "G-Z7J20M26V4",
+          "categories": [
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:35.494596+00:00"
+        },
+        {
+          "page_url": "https://suscc.edu/",
+          "service_name": "Google Analytics (GA4)",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-DJYG5XD6Q7",
+          "host": "www.googletagmanager.com",
+          "version": "G-DJYG5XD6Q7",
+          "categories": [
+            "Analytics"
+          ],
+          "last_scanned": "2026-04-25T00:38:07.608880+00:00"
+        }
+      ]
+    }
+  }
 }

@@ -5,7 +5,65 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_No scan data yet — stats update automatically after every scan run._
+_Stats as of 2026-04-25 05:52 UTC — last scan: 2026-04-25_
+
+**1** scan batches run
+
+**38** of **3,763** available pages scanned (**1.0%** coverage)
+**27** of **38** scanned pages were reachable (**71.1%**)
+**20** reachable pages loaded at least one third-party script (**74.1%** of reachable)
+**32** known third-party service loads identified
+**14** unique known services across **12** categories
+
+---
+
+## Third-Party JavaScript by Country
+
+| Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
+|---------|---------|-----------|-----------|------------------------|--------------------|----------|
+| Usa Edu Master | 38 | 3,763 | 27 | 20 | 32 | 2026-04-25 |
+
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
+
+---
+
+### Top Third-Party Services
+
+| # | Service | Loads |
+|--:|---------|------:|
+| 1 | Google Analytics (GA4) | **5** |
+| 2 | Adobe Dynamic Tag Management / Launch | **4** |
+| 3 | jsDelivr CDN | **3** |
+| 4 | jQuery | **3** |
+| 5 | Google Hosted Libraries | **3** |
+| 6 | cdnjs (Cloudflare CDN) | **3** |
+| 7 | Google reCAPTCHA | **3** |
+| 8 | Sentry | **2** |
+| 9 | Google Tag Manager | **1** |
+| 10 | Bootstrap | **1** |
+| 11 | Cookiebot | **1** |
+| 12 | HubSpot | **1** |
+| 13 | Font Awesome | **1** |
+| 14 | unpkg CDN | **1** |
+
+### Top Service Categories
+
+| # | Category | Loads |
+|--:|----------|------:|
+| 1 | CDN | **10** |
+| 2 | Analytics | **9** |
+| 3 | JavaScript Library | **6** |
+| 4 | Tag Manager | **5** |
+| 5 | Security | **3** |
+| 6 | CAPTCHA | **3** |
+| 7 | Error Tracking | **2** |
+| 8 | UI Framework | **1** |
+| 9 | Cookie Consent | **1** |
+| 10 | CRM | **1** |
+| 11 | Marketing | **1** |
+| 12 | Icon Library | **1** |
+
+📥 Machine-readable results: [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json)
 
 <!-- THIRD_PARTY_JS_STATS_END -->
 
