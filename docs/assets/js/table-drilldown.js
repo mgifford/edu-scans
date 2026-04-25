@@ -495,6 +495,8 @@
     enhanceScrollableTables();
     window.addEventListener("resize", enhanceScrollableTables);
 
+    initLighthouseInstitutionTable();
+
     if (!tableEntries.length) {
       return;
     }
@@ -524,6 +526,55 @@
 
     document.addEventListener("click", handleDocumentClick);
     document.addEventListener("keydown", handleDocumentKeydown);
+  }
+
+  function initLighthouseInstitutionTable() {
+    var table = document.getElementById("lighthouse-institution-table");
+    if (!table) {
+      return;
+    }
+
+    makeSortable(table);
+
+    // Default sort: A11y descending (column index 4 — most accessible first)
+    var headers = Array.from(table.querySelectorAll("thead th"));
+    if (headers.length > 4) {
+      headers.forEach(function (h) {
+        h.setAttribute("aria-sort", "none");
+      });
+      headers[4].setAttribute("aria-sort", "descending");
+      sortTable(table, 4, false);
+    }
+
+    var input = document.getElementById("lh-institution-search");
+    var countEl = document.getElementById("lh-institution-count");
+    if (!input) {
+      return;
+    }
+
+    function filterTable() {
+      var query = input.value.toLowerCase().trim();
+      var rows = Array.from(table.querySelectorAll("tbody tr"));
+      var visible = 0;
+      rows.forEach(function (row) {
+        var match = !query || (row.dataset.search || "").indexOf(query) !== -1;
+        row.classList.toggle("lh-row-hidden", !match);
+        if (match) {
+          visible++;
+        }
+      });
+      if (countEl) {
+        countEl.textContent =
+          "Showing " +
+          visible.toLocaleString() +
+          " of " +
+          rows.length.toLocaleString() +
+          " institutions";
+      }
+    }
+
+    input.addEventListener("input", filterTable);
+    input.addEventListener("search", filterTable);
   }
 
   function enhanceScrollableTables() {

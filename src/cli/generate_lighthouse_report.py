@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import io
 import json
 import sqlite3
@@ -404,28 +405,67 @@ def _build_stats_block(
             "",
         ]
 
-    # Per-institution breakdown table
+    # Per-institution breakdown table (HTML for sorting + filtering support)
     if by_institution:
+        total_institutions = len(by_institution)
         lines += [
             "## Lighthouse Scores by Institution",
             "",
-            "| Institution | Domain | Audited | Perf | A11y | Best Practices | SEO |",
-            "|-------------|--------|--------:|:----:|:----:|:--------------:|:---:|",
+            '<div class="lh-filter-bar">',
+            '<label for="lh-institution-search" class="sr-only">Filter institutions</label>',
+            (
+                '<input type="search" id="lh-institution-search"'
+                ' placeholder="Filter by institution name or domain\u2026"'
+                ' aria-controls="lighthouse-institution-table">'
+            ),
+            (
+                f'<span id="lh-institution-count" aria-live="polite">'
+                f"Showing {total_institutions:,} of {total_institutions:,} institutions"
+                f"</span>"
+            ),
+            "</div>",
+            "",
+            '<table id="lighthouse-institution-table">',
+            "<thead>",
+            "<tr>",
+            "<th>Institution</th>",
+            "<th>Domain</th>",
+            "<th>Audited</th>",
+            "<th>Perf</th>",
+            "<th><strong>A11y</strong></th>",
+            "<th>Best Practices</th>",
+            "<th>SEO</th>",
+            "</tr>",
+            "</thead>",
+            "<tbody>",
         ]
         for row in by_institution:
             name = row.get("institution_name") or row.get("domain", "—")
             domain = row.get("domain", "—")
+            name_esc = html.escape(name)
+            domain_esc = html.escape(domain)
+            search_val = html.escape(f"{name} {domain}".lower())
+            perf = _pct(row.get("avg_performance"))
+            a11y = _pct(row.get("avg_accessibility"))
+            bp = _pct(row.get("avg_best_practices"))
+            seo = _pct(row.get("avg_seo"))
             lines.append(
-                f"| {name} | {domain} | {row['total_scanned']:,} | "
-                f"{_pct(row.get('avg_performance'))} | "
-                f"{_pct(row.get('avg_accessibility'))} | "
-                f"{_pct(row.get('avg_best_practices'))} | "
-                f"{_pct(row.get('avg_seo'))} |"
+                f'<tr data-search="{search_val}">'
+                f"<td>{name_esc}</td>"
+                f"<td>{domain_esc}</td>"
+                f"<td>{row['total_scanned']:,}</td>"
+                f"<td>{perf}</td>"
+                f"<td>{a11y}</td>"
+                f"<td>{bp}</td>"
+                f"<td>{seo}</td>"
+                f"</tr>"
             )
         lines += [
+            "</tbody>",
+            "</table>",
             "",
             "> Scores are averages across all successfully audited pages for each institution, "
-            "displayed as 0–100.  Institutions with only failed audits show —.",
+            "displayed as 0–100.  Institutions with only failed audits show \u2014.",
             "",
             "---",
             "",
