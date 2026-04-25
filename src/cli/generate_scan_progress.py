@@ -14,9 +14,11 @@ import sqlite3
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from src.lib.country_utils import country_code_to_display_name, country_filename_to_code
 from src.lib.settings import load_settings
+from src.services.organization_mapper import load_domain_to_parent_map, extract_domain_from_url
 
 
 # ---------------------------------------------------------------------------
@@ -181,7 +183,7 @@ def generate_progress_report(
     seed_counts = _count_toon_seed_urls(toon_seeds_dir) if toon_seeds_dir else {}
 
     try:
-        _write_report(conn, output_path, generated_at, seed_counts, data_path)
+        _write_report(conn, output_path, generated_at, seed_counts, data_path, toon_seeds_dir)
     finally:
         conn.close()
 
@@ -545,6 +547,48 @@ def _query_lighthouse(conn: sqlite3.Connection) -> dict[str, dict]:
     return result
 
 
+def _query_social_media_by_parent_institution(
+    conn: sqlite3.Connection,
+    domain_to_parent: dict[str, str],
+) -> dict[str, dict]:
+    """Return per-parent-institution social media scan stats from the database.
+
+    Maps URLs to parent institutions using the domain_to_parent mapping,
+    then aggregates counts by parent_institution.
+
+    Returns a dict mapping parent_institution → scan statistics.
+    """
+    result: dict[str, dict] = {}
+
+    # Query all distinct URLs with their scan stats
+    rows = conn.execute(
+        """
+        SELECT DISTINCT
+               url,
+               COUNT(*) FILTER (WHERE is_reachable = 1) as reachable_count,
+               COUNT(*) as total_scans
+        FROM url_social_media_results
+        GROUP BY url
+        """
+    ).fetchall()
+
+    for url, reachable_count, total_scans in rows:
+        domain = extract_domain_from_url(url)
+        parent_institution = domain_to_parent.get(domain, "Other") if domain else "Other"
+
+        if parent_institution not in result:
+            result[parent_institution] = {
+                "total_urls": 0,
+                "reachable_urls": 0,
+            }
+
+        result[parent_institution]["total_urls"] += 1
+        if reachable_count > 0:
+            result[parent_institution]["reachable_urls"] += 1
+
+    return result
+
+
 def _write_overall_coverage(
     f,
     url_val: dict[str, dict],
@@ -856,6 +900,53 @@ def _write_pending_sections(
         f.write(", ".join(f"`{cc}`" for cc in not_url_val) + "\n\n")
 
 
+def _write_top_parent_institutions(f, parent_institutions: dict[str, dict]) -> None:
+    """Write a breakdown of top parent institutions by survey coverage.
+
+    Shows aggregated scan coverage across all institutions, grouped by their
+    parent_institution affiliations (e.g., University of California System,
+    California State University System).
+
+    Helps identify which networks of institutions have been scanned vs. still
+    pending, and provides visibility into concentration of scan coverage.
+    """
+    if not parent_institutions:
+        return
+
+    # Sort by total URLs scanned (descending)
+    sorted_institutions = sorted(
+        parent_institutions.items(),
+        key=lambda x: x[1]["total_urls"],
+        reverse=True
+    )
+
+    f.write("## Top Parent Institutions by Scan Coverage\n\n")
+    f.write(
+        "Aggregated results across all institutions grouped by parent organization "
+        "(system affiliation, network, etc.):\n\n"
+    )
+    f.write(
+        "| Parent Institution | URLs Scanned | Reachable | Coverage |\n"
+    )
+    f.write("|---|---|---|---|\n")
+
+    for parent_inst, stats in sorted_institutions[:50]:  # Top 50
+        total = stats["total_urls"]
+        reachable = stats["reachable_urls"]
+        pct = f"{reachable / total * 100:.0f}%" if total > 0 else "—"
+        f.write(
+            f"| {parent_inst} | {total:,} | {reachable:,} | {pct} |\n"
+        )
+
+    f.write("\n")
+    f.write(
+        "> This grouping organizes individual institution domains under their parent "
+        "systems or networks (e.g., \"University of California\" spans UC Berkeley, "
+        "UCLA, UC San Diego, etc.). Useful for identifying coverage gaps at the "
+        "system level.\n\n"
+    )
+
+
 def _write_priority_guide(f) -> None:
     """Write the scan priority guide section."""
     f.write("## Scan Priority Guide\n\n")
@@ -922,6 +1013,7 @@ def _write_report(
     generated_at: str,
     seed_counts: dict[str, int] | None = None,
     data_path: Path | None = None,
+    toon_seeds_dir: Path | None = None,
 ) -> None:
     """Query the database and write the Markdown report."""
 
@@ -932,6 +1024,13 @@ def _write_report(
     lighthouse = _query_lighthouse(conn)
     accessibility = _query_accessibility(conn)
     combined_reachable = _query_combined_reachability(conn)
+
+    # Load parent institution mapping if toon_seeds_dir is available
+    domain_to_parent = {}
+    parent_institutions = {}
+    if toon_seeds_dir:
+        domain_to_parent = load_domain_to_parent_map(toon_seeds_dir)
+        parent_institutions = _query_social_media_by_parent_institution(conn, domain_to_parent)
 
     all_countries = sorted(set(url_val) | set(social) | set(tech) | set(lighthouse) | set(accessibility))
 
@@ -945,6 +1044,10 @@ def _write_report(
 
         totals = _write_overall_coverage(f, url_val, social, tech, lighthouse, seed_counts, combined_reachable, accessibility)
         uv_total, uv_valid, sm_total, sm_reachable, tech_total = totals
+
+        # Write parent institution breakdown if available
+        if parent_institutions:
+            _write_top_parent_institutions(f, parent_institutions)
 
         _write_url_validation_table(f, url_val, all_countries, seed_counts)
         _write_social_media_table(f, social, all_countries, seed_counts)
