@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
-      actions: read
+      actions: write
 
     steps:
       - name: Checkout repository
@@ -71,6 +71,8 @@ jobs:
           python3 -m src.cli.generate_scan_progress \
             --output docs/scan-progress.md \
             --data docs/scan-progress-data.json \
+            --history docs/scan-progress-history.json \
+            --recommend-workflow /tmp/lagging-workflow.txt \
             --update-index docs/index.md \
             --seeds-dir data/toon-seeds \
             2>&1 | tee scan-progress-output.txt
@@ -128,7 +130,8 @@ jobs:
           # docs/technology-data.json, and docs/lighthouse-data.json are excluded
           # from git because they can exceed GitHub's 100 MB file-size limit.
           # All four files are still uploaded as workflow artifacts above.
-          git add docs/scan-progress.md docs/domains.md docs/index.md \
+          git add docs/scan-progress.md docs/scan-progress-history.json \
+                  docs/domains.md docs/index.md \
                   docs/social-media.md \
                   docs/technology-scanning.md \
                   docs/third-party-tools.md docs/third-party-tools-data.json \
@@ -150,6 +153,7 @@ jobs:
           name: scan-progress-report-${{ github.run_number }}
           path: |
             docs/scan-progress.md
+            docs/scan-progress-history.json
             docs/scan-progress-data.json
             docs/domains.md
             docs/index.md
@@ -173,6 +177,26 @@ jobs:
             lighthouse-report-output.txt
           retention-days: 30
           if-no-files-found: warn
+
+      - name: Trigger extra run for most-lagging scan
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f /tmp/lagging-workflow.txt ]; then
+            WORKFLOW=$(cat /tmp/lagging-workflow.txt | tr -d '[:space:]')
+            if [ -n "$WORKFLOW" ] && [ "$WORKFLOW" != "none" ]; then
+              echo "Most-lagging scan: $WORKFLOW — triggering an extra run to help balance coverage."
+              gh workflow run "$WORKFLOW" \
+                --repo "${{ github.repository }}" \
+                --ref "${{ github.ref_name }}" \
+              && echo "Extra run dispatched for $WORKFLOW." \
+              || echo "Warning: could not dispatch $WORKFLOW (non-fatal)."
+            else
+              echo "No lagging scan identified — nothing to trigger."
+            fi
+          else
+            echo "No recommendation file found — skipping auto-trigger."
+          fi
 
       - name: Display progress summary
         if: always()
