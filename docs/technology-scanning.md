@@ -5,72 +5,7 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_Stats as of 2026-04-25 19:10 UTC — last scan: 2026-04-25_
-
-**2** scan batches run
-
-**3,643** of **3,763** available pages scanned (**96.8%** coverage)
-**2,716** pages with technology detections (**74.6%** of scanned)
-**248** unique technologies identified
-
----
-
-## Technology Scan by Country
-
-| Country | URLs Scanned | Pages with Detections | Available | Last Scan |
-|---------|-------------|----------------------|-----------|----------|
-| Usa Edu Master | 3,643 | 2,716 | 3,763 | 2026-04-25 |
-
-> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable technology data (JSON)](technology-data.json).
-
----
-
-### Top Technologies
-
-| # | Technology | Pages | Categories |
-|--:|-----------|------:|-----------|
-| 1 | jQuery | **1,526** | JavaScript libraries |
-| 2 | Google Tag Manager | **1,335** | Tag managers |
-| 3 | PHP | **1,303** | Programming languages |
-| 4 | Font Awesome | **1,039** | Font scripts |
-| 5 | Google Font API | **946** | Font scripts |
-| 6 | Nginx | **732** | Reverse proxies, Web servers |
-| 7 | Cloudflare | **679** | CDN |
-| 8 | Bootstrap | **678** | UI frameworks |
-| 9 | Apache | **652** | Web servers |
-| 10 | MySQL | **639** | Databases |
-| 11 | WordPress | **636** | Blogs, CMS |
-| 12 | jQuery Migrate | **528** | JavaScript libraries |
-| 13 | Varnish | **405** | Caching |
-| 14 | jsDelivr | **371** | CDN |
-| 15 | Slick | **319** | JavaScript libraries |
-| 16 | MariaDB | **284** | Databases |
-| 17 | Pantheon | **284** | PaaS |
-| 18 | Windows Server | **270** | Operating systems |
-| 19 | IIS | **268** | Web servers |
-| 20 | Yoast SEO | **260** | SEO |
-
-### Top Technology Categories
-
-| # | Category | Pages |
-|--:|---------|------:|
-| 1 | JavaScript libraries | **3,378** |
-| 2 | Font scripts | **2,000** |
-| 3 | Web servers | **1,822** |
-| 4 | Programming languages | **1,383** |
-| 5 | Tag managers | **1,340** |
-| 6 | CDN | **1,229** |
-| 7 | Databases | **1,047** |
-| 8 | CMS | **993** |
-| 9 | UI frameworks | **971** |
-| 10 | Reverse proxies | **744** |
-| 11 | PaaS | **728** |
-| 12 | Blogs | **669** |
-| 13 | Caching | **575** |
-| 14 | Operating systems | **416** |
-| 15 | Miscellaneous | **301** |
-
-📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json)
+_No scan data yet — stats update automatically after every scan run._
 
 <!-- TECH_STATS_END -->
 
