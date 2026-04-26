@@ -1,0 +1,173 @@
+# Common subdomain patterns for .edu domains
+#
+# This file lists the most frequently seen subdomain prefixes used by United
+# States higher-education institutions.  The subdomain scanner reads this file
+# and probes each apex domain (e.g. "mit.edu") with every prefix to discover
+# active sub-sites.  Entries that resolve successfully are added to the
+# corresponding TOON domain record (avoiding duplicates).
+#
+# Categories follow the taxonomy in GitHub issue #XX:
+#   - academic    : schools / colleges / departments within an institution
+#   - administrative : offices and services visible to the public
+#   - portals     : authenticated or internal applications
+#   - research    : research centres and labs
+#   - it          : information-technology infrastructure subdomains
+#
+# Add new prefixes to the most appropriate category.  Prefixes should be
+# lowercase, hyphen-separated, and must not include a leading dot.
+
+academic:
+  # Major academic divisions
+  - law
+  - medicine
+  - med
+  - business
+  - engineering
+  - education
+  - arts
+  - science
+  - nursing
+  - pharmacy
+  - dental
+  - dentistry
+  - architecture
+  - design
+  - music
+  - theology
+  - divinity
+  - graduate
+  - honors
+  # Departments (common abbreviations)
+  - cs
+  - math
+  - physics
+  - chemistry
+  - biology
+  - history
+  - english
+  - psychology
+  - sociology
+  - economics
+  - political-science
+  - communications
+  - journalism
+  - social-work
+  - public-health
+  - public-policy
+  - fine-arts
+  - continuing-education
+  - extension
+  - online
+
+administrative:
+  # Offices and campus services
+  - admissions
+  - registrar
+  - bursar
+  - financial-aid
+  - housing
+  - studenthousing
+  - dining
+  - athletics
+  - recreation
+  - career
+  - careers
+  - alumni
+  - giving
+  - advancement
+  - foundation
+  - hr
+  - humanresources
+  - facilities
+  - sustainability
+  - accessibility
+  - library
+  - libraries
+  - health
+  - wellness
+  - counseling
+  - police
+  - safety
+  - news
+  - events
+  - calendar
+  - communications
+  - marketing
+  - brand
+  - legal
+  - compliance
+  - diversity
+  - dei
+  - international
+  - global
+  - study-abroad
+  - veterans
+  - disability
+  - ombudsman
+  - privacy
+  - about
+  - president
+  - provost
+  - chancellor
+  - vpaa
+  - vpsa
+
+portals:
+  # Authenticated or internal applications
+  - portal
+  - my
+  - myportal
+  - canvas
+  - blackboard
+  - moodle
+  - lms
+  - sso
+  - login
+  - accounts
+  - webmail
+  - mail
+  - email
+  - outlook
+  - exchange
+  - student
+  - faculty
+  - staff
+  - intranet
+  - inside
+  - internal
+  - apps
+  - apply
+
+research:
+  # Research centres and special initiatives
+  - research
+  - labs
+  - lab
+  - center
+  - centre
+  - institute
+  - innovation
+  - tech-transfer
+  - ott
+  - grants
+  - sponsored
+
+it:
+  # Information-technology infrastructure
+  - it
+  - its
+  - technology
+  - tech
+  - help
+  - helpdesk
+  - support
+  - servicedesk
+  - status
+  - dev
+  - staging
+  - test
+  - cdn
+  - static
+  - api
+  - data
+  - opendata

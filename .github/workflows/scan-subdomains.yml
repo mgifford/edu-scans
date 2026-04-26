@@ -1,0 +1,120 @@
+name: Scan Common Subdomains
+
+# Discover active sub-sites under .edu apex domains by probing a curated list
+# of common subdomain prefixes (data/common-subdomains.yml).  Valid candidates
+# are added to the output TOON file; redirects are tracked; duplicates are
+# skipped automatically.
+#
+# Runs weekly (Sunday 03:00 UTC) so the subdomain inventory stays fresh
+# without hammering institution servers too frequently.
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # Every Sunday at 03:00 UTC
+
+  workflow_dispatch:
+    inputs:
+      toon_file:
+        description: 'TOON seed file to scan (relative to repo root)'
+        required: false
+        default: 'data/toon-seeds/usa-edu-master.toon'
+        type: string
+      max_domains:
+        description: 'Maximum number of apex domains to probe (blank = all)'
+        required: false
+        default: ''
+        type: string
+      rate_limit:
+        description: 'Maximum HTTP requests per second'
+        required: false
+        default: '2.0'
+        type: string
+      timeout:
+        description: 'HTTP request timeout in seconds'
+        required: false
+        default: '15'
+        type: string
+
+# Keep subdomain scans serialised with the URL-validation workflows so they do
+# not race on shared infrastructure (rate limits, IP reputation, etc.).
+concurrency:
+  group: validation-background
+  cancel-in-progress: false
+
+jobs:
+  scan-subdomains:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Resolve inputs
+        id: inputs
+        run: |
+          TOON="${{ github.event.inputs.toon_file || 'data/toon-seeds/usa-edu-master.toon' }}"
+          RATE="${{ github.event.inputs.rate_limit || '2.0' }}"
+          TIMEOUT="${{ github.event.inputs.timeout || '15' }}"
+          MAX="${{ github.event.inputs.max_domains }}"
+
+          echo "toon=${TOON}" >> "$GITHUB_OUTPUT"
+          echo "rate=${RATE}" >> "$GITHUB_OUTPUT"
+          echo "timeout=${TIMEOUT}" >> "$GITHUB_OUTPUT"
+          echo "max_domains=${MAX}" >> "$GITHUB_OUTPUT"
+
+      - name: Run subdomain scan
+        run: |
+          CMD="python3 -m src.cli.scan_subdomains \
+            --toon '${{ steps.inputs.outputs.toon }}' \
+            --rate-limit '${{ steps.inputs.outputs.rate }}' \
+            --timeout '${{ steps.inputs.outputs.timeout }}'"
+
+          if [ -n "${{ steps.inputs.outputs.max_domains }}" ]; then
+            CMD="$CMD --max-domains '${{ steps.inputs.outputs.max_domains }}'"
+          fi
+
+          eval "$CMD" 2>&1 | tee subdomain-scan-output.txt
+
+      - name: Upload scan results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: subdomain-scan-${{ github.run_number }}
+          path: |
+            subdomain-scan-output.txt
+            data/toon-seeds/*_subdomains.toon
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Display summary
+        if: always()
+        run: |
+          echo "## Subdomain Scan Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- TOON file: \`${{ steps.inputs.outputs.toon }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Rate limit: ${{ steps.inputs.outputs.rate }} req/sec" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Timeout: ${{ steps.inputs.outputs.timeout }}s" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "${{ steps.inputs.outputs.max_domains }}" ]; then
+            echo "- Max domains: ${{ steps.inputs.outputs.max_domains }}" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Workflow run: [#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f subdomain-scan-output.txt ]; then
+            echo "### Scan output" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            tail -40 subdomain-scan-output.txt >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
