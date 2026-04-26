@@ -176,8 +176,16 @@ def test_make_candidate_url_builds_https_root() -> None:
 # ---------------------------------------------------------------------------
 
 
-def _mock_validator_results(results_map: dict[str, ValidationResult]):
-    """Return an AsyncMock for validate_urls_batch that yields *results_map*."""
+def _mock_validator_results(results_map: dict[str, ValidationResult]) -> AsyncMock:
+    """Return an AsyncMock for validate_urls_batch that yields *results_map*.
+
+    Args:
+        results_map: Mapping from URL to ``ValidationResult``.  The mock
+            returns this dict regardless of what URLs are passed to it.
+
+    Returns:
+        ``AsyncMock`` suitable for patching ``UrlValidator.validate_urls_batch``.
+    """
     mock = AsyncMock(return_value=results_map)
     return mock
 

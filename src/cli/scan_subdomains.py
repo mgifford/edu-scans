@@ -103,7 +103,15 @@ def _build_parser() -> argparse.ArgumentParser:
 
 
 def _default_output_path(toon_path: Path) -> Path:
-    """Return ``<stem>_subdomains.toon`` alongside the input file."""
+    """Return ``<stem>_subdomains.toon`` alongside the input file.
+
+    Args:
+        toon_path: Path to the input ``.toon`` seed file.
+
+    Returns:
+        Output path with ``_subdomains`` inserted before the ``.toon``
+        extension, in the same directory as the input file.
+    """
     return toon_path.parent / f"{toon_path.stem}_subdomains.toon"
 
 

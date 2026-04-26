@@ -342,6 +342,7 @@ def load_toon(toon_path: Path) -> dict[str, Any]:
 
     Raises:
         FileNotFoundError: When the file does not exist.
+        json.JSONDecodeError: When the file exists but contains invalid JSON.
     """
     if not toon_path.exists():
         raise FileNotFoundError(f"TOON file not found: {toon_path}")
