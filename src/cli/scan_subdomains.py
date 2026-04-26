@@ -168,11 +168,12 @@ async def _run(args: argparse.Namespace) -> int:
     print("\n" + "=" * 70)
     print("SUBDOMAIN SCAN COMPLETE")
     print("=" * 70)
-    print(f"Apex domains scanned : {stats.domains_scanned}")
-    print(f"Candidates probed    : {stats.candidates_probed}")
-    print(f"Valid subdomains found: {stats.valid_found}")
-    print(f"  of which redirected: {stats.redirected}")
-    print(f"Output written to    : {output_path}")
+    w = 22
+    print(f"{'Apex domains scanned':<{w}}: {stats.domains_scanned}")
+    print(f"{'Candidates probed':<{w}}: {stats.candidates_probed}")
+    print(f"{'Valid subdomains found':<{w}}: {stats.valid_found}")
+    print(f"{'  of which redirected':<{w}}: {stats.redirected}")
+    print(f"{'Output written to':<{w}}: {output_path}")
 
     if stats.valid_found:
         print("\nDiscovered subdomains:")

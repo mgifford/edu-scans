@@ -188,7 +188,7 @@ class SubdomainScanner:
         prefixes: list[str],
         existing_urls: set[str],
         rate_limit_per_second: float = 2.0,
-    ) -> list[SubdomainResult]:
+    ) -> tuple[list[SubdomainResult], int]:
         """Probe all prefix candidates for a single apex domain.
 
         Args:
@@ -200,8 +200,10 @@ class SubdomainScanner:
             rate_limit_per_second: Maximum HTTP requests per second.
 
         Returns:
-            List of ``SubdomainResult`` objects for valid (non-duplicate)
-            candidates only.
+            A 2-tuple of ``(valid_results, candidates_probed)`` where
+            *valid_results* is a list of ``SubdomainResult`` objects for valid
+            (non-duplicate) candidates, and *candidates_probed* is the number
+            of candidate URLs actually sent to the validator.
         """
         valid_results: list[SubdomainResult] = []
         # Normalise existing URLs to bare strings for fast membership tests.
@@ -216,7 +218,7 @@ class SubdomainScanner:
             candidates.append((prefix, subdomain, url))
 
         if not candidates:
-            return valid_results
+            return valid_results, 0
 
         # Validate candidates with rate limiting.
         urls_to_validate = [c[2] for c in candidates]
@@ -248,7 +250,7 @@ class SubdomainScanner:
                 )
             )
 
-        return valid_results
+        return valid_results, len(candidates)
 
     async def scan_toon(
         self,
@@ -295,21 +297,15 @@ class SubdomainScanner:
                 continue
 
             existing_urls = _existing_urls_for_domain(entry)
-            stats.candidates_probed += len(prefixes) - len(
-                [
-                    p
-                    for p in prefixes
-                    if _make_candidate_url(p, apex_domain)[1].rstrip("/").lower()
-                    in {u.rstrip("/").lower() for u in existing_urls}
-                ]
-            )
 
-            found = await self.scan_domain(
+            found, probed_count = await self.scan_domain(
                 apex_domain,
                 prefixes,
                 existing_urls,
                 rate_limit_per_second=rate_limit_per_second,
             )
+
+            stats.candidates_probed += probed_count
 
             for result in found:
                 # Use the redirect target as the recorded URL when the

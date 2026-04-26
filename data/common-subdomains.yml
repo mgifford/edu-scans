@@ -6,7 +6,7 @@
 # active sub-sites.  Entries that resolve successfully are added to the
 # corresponding TOON domain record (avoiding duplicates).
 #
-# Categories follow the taxonomy in GitHub issue #XX:
+# Categories follow the taxonomy described in the project issue:
 #   - academic    : schools / colleges / departments within an institution
 #   - administrative : offices and services visible to the public
 #   - portals     : authenticated or internal applications

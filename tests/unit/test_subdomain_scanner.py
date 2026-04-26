@@ -206,12 +206,13 @@ async def test_scan_domain_returns_valid_results() -> None:
             }
         ),
     ):
-        results = await scanner.scan_domain(
+        results, probed = await scanner.scan_domain(
             apex_domain="mit.edu",
             prefixes=["library", "law"],
             existing_urls=set(),
         )
 
+    assert probed == 2
     assert len(results) == 1
     assert results[0].subdomain == "library.mit.edu"
     assert results[0].is_valid is True
@@ -224,7 +225,7 @@ async def test_scan_domain_skips_existing_urls() -> None:
 
     mock_batch = AsyncMock(return_value={})
     with patch.object(scanner._validator, "validate_urls_batch", new=mock_batch):
-        results = await scanner.scan_domain(
+        results, probed = await scanner.scan_domain(
             apex_domain="mit.edu",
             prefixes=["library"],
             existing_urls={"https://library.mit.edu/"},
@@ -233,6 +234,7 @@ async def test_scan_domain_skips_existing_urls() -> None:
     # No network request should be made because the URL already exists.
     mock_batch.assert_not_called()
     assert results == []
+    assert probed == 0
 
 
 @pytest.mark.asyncio
@@ -252,12 +254,13 @@ async def test_scan_domain_records_redirect_target() -> None:
         "validate_urls_batch",
         new=_mock_validator_results({"https://admissions.mit.edu/": redirect_result}),
     ):
-        results = await scanner.scan_domain(
+        results, probed = await scanner.scan_domain(
             apex_domain="mit.edu",
             prefixes=["admissions"],
             existing_urls=set(),
         )
 
+    assert probed == 1
     assert len(results) == 1
     assert results[0].redirected_to == "https://mit.edu/admissions/"
 
@@ -279,13 +282,14 @@ async def test_scan_domain_skips_duplicate_redirect_target() -> None:
         "validate_urls_batch",
         new=_mock_validator_results({"https://admissions.mit.edu/": redirect_result}),
     ):
-        results = await scanner.scan_domain(
+        results, probed = await scanner.scan_domain(
             apex_domain="mit.edu",
             prefixes=["admissions"],
             # The redirect target is already recorded — should be skipped.
             existing_urls={"https://mit.edu/admissions/"},
         )
 
+    assert probed == 1
     assert results == []
 
 
@@ -347,8 +351,8 @@ async def test_scan_toon_respects_max_domains() -> None:
     assert stats.domains_scanned == 1
     # Only mit.edu (first apex domain) should have been scanned.
     all_urls = [url for batch in call_args_log for url in batch]
-    assert all("mit.edu" in u for u in all_urls)
-    assert not any("harvard.edu" in u for u in all_urls)
+    assert all(url.startswith("https://") and ".mit.edu" in url.split("/")[2] for url in all_urls)
+    assert not any(".harvard.edu" in url.split("/")[2] for url in all_urls)
 
 
 @pytest.mark.asyncio
