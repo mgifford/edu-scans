@@ -64,22 +64,37 @@ def _count_toon_seed_urls(toon_seeds_dir: Path) -> dict[str, int]:
 def _query_summary(conn: sqlite3.Connection) -> dict:
     """Return aggregate accessibility scan totals from the database.
 
-    Each URL may appear in multiple scan batches (one row per (url, scan_id)).
-    All per-URL counts use COUNT(DISTINCT CASE WHEN … THEN url END) so that a
-    URL is counted at most once regardless of how many scan batches it appears
-    in.
+    Counts distinct domains (hostnames) rather than individual URLs so that
+    multiple probe paths scanned per domain are collapsed to a single entry.
+    A domain is counted as reachable / has_statement / found_in_footer if
+    *any* of its scanned URLs produced that result.
     """
     row = conn.execute(
         """
+        WITH domain_rows AS (
+            SELECT
+                CASE WHEN INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') > 0
+                     THEN SUBSTR(url, INSTR(url, '://') + 3,
+                                 INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') - 1)
+                     ELSE SUBSTR(url, INSTR(url, '://') + 3)
+                END                  AS domain,
+                MAX(is_reachable)    AS is_reachable,
+                MAX(has_statement)   AS has_statement,
+                MAX(found_in_footer) AS found_in_footer,
+                MIN(scanned_at)      AS first_scan,
+                MAX(scanned_at)      AS last_scan
+            FROM url_accessibility_results
+            GROUP BY domain
+        )
         SELECT
-            COUNT(DISTINCT scan_id)                                                         AS total_batches,
-            COUNT(DISTINCT url)                                                             AS total_scanned,
-            COUNT(DISTINCT CASE WHEN is_reachable = 1    THEN url ELSE NULL END)           AS total_reachable,
-            COUNT(DISTINCT CASE WHEN has_statement = 1   THEN url ELSE NULL END)           AS total_has_statement,
-            COUNT(DISTINCT CASE WHEN found_in_footer = 1 THEN url ELSE NULL END)           AS total_in_footer,
-            MIN(scanned_at)                                                                 AS first_scan,
-            MAX(scanned_at)                                                                 AS last_scan
-        FROM url_accessibility_results
+            (SELECT COUNT(DISTINCT scan_id) FROM url_accessibility_results) AS total_batches,
+            COUNT(*)              AS total_scanned,
+            SUM(is_reachable)     AS total_reachable,
+            SUM(has_statement)    AS total_has_statement,
+            SUM(found_in_footer)  AS total_in_footer,
+            MIN(first_scan)       AS first_scan,
+            MAX(last_scan)        AS last_scan
+        FROM domain_rows
         """
     ).fetchone()
     if row is None:
@@ -90,20 +105,38 @@ def _query_summary(conn: sqlite3.Connection) -> dict:
 def _query_by_country(conn: sqlite3.Connection) -> list[dict]:
     """Return per-country accessibility scan totals.
 
-    Uses COUNT(DISTINCT CASE WHEN … THEN url END) so that each URL is counted
-    at most once per country, even when a URL appears in multiple scan batches.
+    Counts distinct domains (hostnames) per country rather than individual
+    URLs so that multiple probe paths scanned per domain are collapsed to a
+    single domain entry.  A domain is counted as reachable / has_statement /
+    found_in_footer if *any* of its scanned URLs produced that result.
     """
     rows = conn.execute(
         """
+        WITH domain_rows AS (
+            SELECT
+                country_code,
+                CASE WHEN INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') > 0
+                     THEN SUBSTR(url, INSTR(url, '://') + 3,
+                                 INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') - 1)
+                     ELSE SUBSTR(url, INSTR(url, '://') + 3)
+                END                  AS domain,
+                MAX(is_reachable)    AS is_reachable,
+                MAX(has_statement)   AS has_statement,
+                MAX(found_in_footer) AS found_in_footer,
+                MIN(scanned_at)      AS first_scan,
+                MAX(scanned_at)      AS last_scan
+            FROM url_accessibility_results
+            GROUP BY country_code, domain
+        )
         SELECT
             country_code,
-            COUNT(DISTINCT url)                                                             AS total_scanned,
-            COUNT(DISTINCT CASE WHEN is_reachable = 1    THEN url ELSE NULL END)           AS reachable,
-            COUNT(DISTINCT CASE WHEN has_statement = 1   THEN url ELSE NULL END)           AS has_statement,
-            COUNT(DISTINCT CASE WHEN found_in_footer = 1 THEN url ELSE NULL END)           AS found_in_footer,
-            MIN(scanned_at)                                                                 AS first_scan,
-            MAX(scanned_at)                                                                 AS last_scan
-        FROM url_accessibility_results
+            COUNT(*)              AS total_scanned,
+            SUM(is_reachable)     AS reachable,
+            SUM(has_statement)    AS has_statement,
+            SUM(found_in_footer)  AS found_in_footer,
+            MIN(first_scan)       AS first_scan,
+            MAX(last_scan)        AS last_scan
+        FROM domain_rows
         GROUP BY country_code
         ORDER BY country_code
         """
@@ -347,19 +380,19 @@ def _build_stats_block(
     if total_available > 0:
         scan_pct = _pct(scanned, total_available)
         lines.append(
-            f"**{scanned:,}** of **{total_available:,}** available pages scanned "
+            f"**{scanned:,}** of **{total_available:,}** available domains scanned "
             f"(**{scan_pct}** coverage)"
         )
     else:
-        lines.append(f"**{scanned:,}** pages scanned")
+        lines.append(f"**{scanned:,}** domains scanned")
 
     lines += [
-        f"**{reachable:,}** of **{scanned:,}** scanned pages were reachable "
+        f"**{reachable:,}** of **{scanned:,}** scanned domains were reachable "
         f"(**{_pct(reachable, scanned)}**)",
-        f"**{has_statement:,}** of **{reachable:,}** reachable pages have an "
+        f"**{has_statement:,}** of **{reachable:,}** reachable domains have an "
         f"accessibility statement (**{_pct(has_statement, reachable)}**)",
-        f"**{in_footer:,}** pages have the statement link in the footer "
-        f"(**{_pct(in_footer, has_statement)}** of pages with a statement)",
+        f"**{in_footer:,}** domains have the statement link in the footer "
+        f"(**{_pct(in_footer, has_statement)}** of domains with a statement)",
         "",
         "📥 Machine-readable results are available as the "
         "[accessibility-data.json artifact (machine-readable JSON)]"
@@ -386,7 +419,7 @@ def _build_stats_block(
             "",
             "## Accessibility Statement Scan by Country",
             "",
-            "| Country | Scanned | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |",
+            "| Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |",
             "|---------|---------|-----------|-----------|--------------|-----------|------------|-------------|",
         ]
         for row in by_country:
@@ -416,7 +449,7 @@ def _build_stats_block(
         )
         lines += [
             "",
-            "> **Statement %** is the percentage of *reachable* pages that contain "
+            "> **Statement %** is the percentage of *reachable* domains that contain "
             "at least one link to an accessibility statement.",
         ]
 
@@ -526,10 +559,10 @@ def generate_accessibility_report(
     has_statement = summary.get("total_has_statement", 0)
     in_footer = summary.get("total_in_footer", 0)
     if total_available:
-        print(f"Pages scanned     : {scanned:,} / {total_available:,} available "
+        print(f"Domains scanned   : {scanned:,} / {total_available:,} available "
               f"({scanned / total_available * 100:.1f}% coverage)")
     else:
-        print(f"Pages scanned     : {scanned:,}")
+        print(f"Domains scanned   : {scanned:,}")
     print(f"Reachable         : {reachable:,} / {scanned:,}")
     print(f"Has statement     : {has_statement:,} / {reachable:,}")
     print(f"Found in footer   : {in_footer:,}")

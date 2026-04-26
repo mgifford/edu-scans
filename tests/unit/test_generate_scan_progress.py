@@ -683,3 +683,81 @@ def test_generate_progress_report_platform_breakdown_has_reachable_column(
     # Platform data is now part of the single "Social Media Scan by Country" table
     assert "## Social Media Scan by Country" in content
     assert "Reachable" in content
+
+
+# ---------------------------------------------------------------------------
+# Accessibility statement domain-level counting
+# ---------------------------------------------------------------------------
+
+def _make_accessibility_db(tmp_path: Path) -> Path:
+    """Return a DB with multiple probe URLs per domain to test domain counting."""
+    db_path = tmp_path / "a11y.db"
+    initialize_schema(f"sqlite:///{db_path}")
+    conn = sqlite3.connect(db_path)
+    try:
+        # Three probe URLs for the same domain (example.is) — only 1 domain should be counted.
+        # Two distinct domains for FRANCE (example.fr and other.fr).
+        rows = [
+            # ICELAND — domain: example.is, three probe URLs
+            ("https://example.is/", "ICELAND", "s1", 1, 0, 0, "2024-06-01T10:00:00"),
+            ("https://example.is/accessibility", "ICELAND", "s1", 1, 1, 1, "2024-06-01T10:01:00"),
+            ("https://example.is/web-accessibility", "ICELAND", "s1", 0, 0, 0, "2024-06-01T10:02:00"),
+            # FRANCE — domain: example.fr (reachable, no statement)
+            ("https://example.fr/", "FRANCE", "s2", 1, 0, 0, "2024-06-02T08:00:00"),
+            ("https://example.fr/accessibility", "FRANCE", "s2", 1, 1, 0, "2024-06-02T08:01:00"),
+            # FRANCE — domain: other.fr (unreachable)
+            ("https://other.fr/", "FRANCE", "s2", 0, 0, 0, "2024-06-02T08:02:00"),
+        ]
+        for url, cc, scan_id, is_reachable, has_statement, found_in_footer, ts in rows:
+            conn.execute(
+                """
+                INSERT INTO url_accessibility_results
+                (url, country_code, scan_id, is_reachable, has_statement,
+                 found_in_footer, statement_links, matched_terms,
+                 error_message, scanned_at)
+                VALUES (?, ?, ?, ?, ?, ?, '[]', '[]', NULL, ?)
+                """,
+                (url, cc, scan_id, is_reachable, has_statement, found_in_footer, ts),
+            )
+        conn.commit()
+    finally:
+        conn.close()
+    return db_path
+
+
+def test_query_accessibility_counts_domains(tmp_path: Path):
+    """_query_accessibility should count distinct domains, not individual URLs."""
+    from src.cli.generate_scan_progress import _query_accessibility  # noqa: PLC0415
+
+    db_path = _make_accessibility_db(tmp_path)
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_accessibility(conn)
+    finally:
+        conn.close()
+
+    # ICELAND: 3 probe URLs all for example.is → 1 domain
+    assert result["ICELAND"]["total"] == 1
+    # MAX(is_reachable) = 1; MAX(has_statement) = 1; MAX(found_in_footer) = 1
+    assert result["ICELAND"]["reachable"] == 1
+    assert result["ICELAND"]["has_statement"] == 1
+    assert result["ICELAND"]["found_in_footer"] == 1
+
+    # FRANCE: example.fr (reachable, has_statement) + other.fr (unreachable) → 2 domains
+    assert result["FRANCE"]["total"] == 2
+    assert result["FRANCE"]["reachable"] == 1   # only example.fr is reachable
+    assert result["FRANCE"]["has_statement"] == 1  # only example.fr has a statement
+
+
+def test_generate_progress_report_accessibility_shows_domain_label(
+    tmp_path: Path,
+):
+    """Overall coverage table should label the accessibility row as 'domains'."""
+    db_path = _make_accessibility_db(tmp_path)
+    output_path = tmp_path / "report.md"
+    generate_progress_report(db_path, output_path)
+    content = output_path.read_text()
+
+    assert "Accessibility Statement" in content
+    assert "domains" in content

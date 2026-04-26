@@ -241,3 +241,61 @@ def test_generate_accessibility_report_writes_country_detail(
     content = page_path.read_text(encoding="utf-8")
     assert "page-level evidence" in content
     assert "Hover or focus any non-zero count" in content
+
+
+def test_query_summary_counts_domains_not_urls(populated_db: Path) -> None:
+    """_query_summary should count distinct domains, not individual URLs."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_summary(conn)
+    finally:
+        conn.close()
+
+    # populated_db has 3 URLs under example.se and 2 distinct URLs under
+    # gov.example.fi → 2 distinct domains total (not 5 URLs)
+    assert result["total_scanned"] == 2
+    # example.se has has_statement=True; gov.example.fi also has has_statement=True
+    assert result["total_has_statement"] == 2
+    # both domains have at least one reachable URL
+    assert result["total_reachable"] == 2
+
+
+def test_query_by_country_counts_domains_not_urls(populated_db: Path) -> None:
+    """_query_by_country should report domain counts, not URL counts."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        rows = _query_by_country(conn)
+    finally:
+        conn.close()
+
+    by_cc = {r["country_code"]: r for r in rows}
+
+    # Sweden: 3 URLs all under example.se → 1 domain
+    assert by_cc["SWEDEN"]["total_scanned"] == 1
+    # MAX(is_reachable) across example.se URLs: max(1, 1, 0) = 1
+    assert by_cc["SWEDEN"]["reachable"] == 1
+    # MAX(has_statement) across example.se URLs: max(1, 0, 0) = 1
+    assert by_cc["SWEDEN"]["has_statement"] == 1
+
+    # Finland: gov.example.fi/start and gov.example.fi/contact → 1 domain
+    assert by_cc["FINLAND"]["total_scanned"] == 1
+    assert by_cc["FINLAND"]["reachable"] == 1
+    assert by_cc["FINLAND"]["has_statement"] == 1
+
+
+def test_build_stats_block_uses_domain_language(populated_db: Path) -> None:
+    """Stats block should use 'domains' rather than 'pages' for scan counts."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        summary = _query_summary(conn)
+        by_country = _query_by_country(conn)
+    finally:
+        conn.close()
+
+    block = _build_stats_block(summary, "2026-04-07 12:00 UTC", by_country=by_country)
+
+    assert "domains scanned" in block
+    assert "reachable domains" in block.lower() or "domains were reachable" in block

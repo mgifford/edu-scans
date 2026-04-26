@@ -1,5 +1,6 @@
 # Core dependencies
 setuptools>=68.0,<81.0  # python-Wappalyzer still imports pkg_resources
+PyYAML>=6.0.1
 fastapi==0.115.6
 httpx==0.28.1
 pydantic==2.10.5

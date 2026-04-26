@@ -112,8 +112,28 @@ jobs:
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "Workflow run: [#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
+
           if [ -f subdomain-scan-output.txt ]; then
-            echo "### Scan output" >> "$GITHUB_STEP_SUMMARY"
+            # Extract and highlight newly discovered subdomains.
+            # The CLI prints them after the "Discovered subdomains:" header, one
+            # per line prefixed with two spaces.
+            DISCOVERED=$(awk '/^Discovered subdomains:/{found=1; next} found && /^  /{print $0} found && !/^  /{found=0}' subdomain-scan-output.txt)
+
+            if [ -n "$DISCOVERED" ]; then
+              COUNT=$(echo "$DISCOVERED" | wc -l | tr -d ' ')
+              echo "### ✅ $COUNT New Subdomains Discovered This Run" >> "$GITHUB_STEP_SUMMARY"
+              echo "" >> "$GITHUB_STEP_SUMMARY"
+              echo "| Subdomain URL |" >> "$GITHUB_STEP_SUMMARY"
+              echo "|---------------|" >> "$GITHUB_STEP_SUMMARY"
+              echo "$DISCOVERED" | sed 's/^  //' | while IFS= read -r line; do
+                echo "| \`$line\` |" >> "$GITHUB_STEP_SUMMARY"
+              done
+            else
+              echo "### ℹ️ No New Subdomains Discovered This Run" >> "$GITHUB_STEP_SUMMARY"
+            fi
+
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "### Full Scan Output" >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
             tail -40 subdomain-scan-output.txt >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
