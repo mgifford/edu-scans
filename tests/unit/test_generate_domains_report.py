@@ -203,3 +203,72 @@ def test_generate_domains_report_many_pages_truncated(
 
     # Should mention "+7 more" (10 pages - 3 shown = 7)
     assert "+7 more" in content
+
+
+def test_generate_domains_report_subdomain_distinction(tmp_path: Path):
+    """Report should distinguish apex domains from subdomains in counts and type column."""
+    countries_dir = tmp_path / "countries"
+    countries_dir.mkdir()
+    toon = {
+        "version": "0.1-seed",
+        "country": "Eduland",
+        "domain_count": 2,
+        "page_count": 2,
+        "domains": [
+            {
+                "canonical_domain": "state.edu",
+                "is_subdomain": False,
+                "pages": [{"url": "https://state.edu/", "is_root_page": True}],
+            },
+            {
+                "canonical_domain": "library.state.edu",
+                "is_subdomain": True,
+                "pages": [{"url": "https://library.state.edu/", "is_root_page": True}],
+            },
+        ],
+    }
+    (countries_dir / "eduland.toon").write_text(json.dumps(toon), encoding="utf-8")
+
+    output_path = tmp_path / "domains.md"
+    generate_domains_report(countries_dir, output_path)
+    content = output_path.read_text()
+
+    # Domain entries should appear
+    assert "state.edu" in content
+    assert "library.state.edu" in content
+    # Type column values should be present
+    assert "apex" in content
+    assert "subdomain" in content
+    # Summary should break out apex vs subdomain counts
+    assert "1 apex domain" in content
+    assert "1 subdomain" in content
+
+
+def test_generate_domains_report_subdomain_fallback_without_field(tmp_path: Path):
+    """Report should infer subdomain status from domain label count when is_subdomain is absent."""
+    countries_dir = tmp_path / "countries"
+    countries_dir.mkdir()
+    toon = {
+        "version": "0.1-seed",
+        "country": "Legacyland",
+        "domain_count": 2,
+        "page_count": 2,
+        "domains": [
+            {
+                "canonical_domain": "apex.edu",
+                "pages": [{"url": "https://apex.edu/", "is_root_page": True}],
+            },
+            {
+                "canonical_domain": "sub.apex.edu",
+                "pages": [{"url": "https://sub.apex.edu/", "is_root_page": True}],
+            },
+        ],
+    }
+    (countries_dir / "legacyland.toon").write_text(json.dumps(toon), encoding="utf-8")
+
+    output_path = tmp_path / "domains.md"
+    generate_domains_report(countries_dir, output_path)
+    content = output_path.read_text()
+
+    assert "apex" in content
+    assert "subdomain" in content

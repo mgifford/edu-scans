@@ -7,6 +7,7 @@ from src.services.usa_edu_builder import (
     build_parent_groups,
     infer_parent_institution,
     is_likely_higher_ed_name,
+    is_subdomain,
     merge_source_records,
     normalize_domain,
     normalize_name,
@@ -15,9 +16,23 @@ from src.services.usa_edu_builder import (
 )
 
 
-def test_normalize_domain_reduces_to_root_edu() -> None:
-    assert normalize_domain("https://www.law.harvard.edu/about") == "harvard.edu"
+def test_normalize_domain_preserves_apex_edu() -> None:
+    assert normalize_domain("mit.edu") == "mit.edu"
+    assert normalize_domain("https://www.mit.edu/about") == "mit.edu"
     assert normalize_domain("student.eit.edu.au") is None
+
+
+def test_normalize_domain_preserves_subdomain() -> None:
+    assert normalize_domain("library.harvard.edu") == "library.harvard.edu"
+    assert normalize_domain("https://www.law.harvard.edu/about") == "law.harvard.edu"
+    assert normalize_domain("a.b.mit.edu") == "a.b.mit.edu"
+
+
+def test_is_subdomain_identifies_subdomains() -> None:
+    assert is_subdomain("library.mit.edu") is True
+    assert is_subdomain("a.b.harvard.edu") is True
+    assert is_subdomain("mit.edu") is False
+    assert is_subdomain("harvard.edu") is False
 
 
 def test_normalize_web_page_uses_https_root_domain() -> None:
