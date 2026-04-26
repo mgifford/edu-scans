@@ -35,7 +35,7 @@ on:
         default: '15'
         type: string
 
-# Keep subdomain scans serialised with the URL-validation workflows so they do
+# Keep subdomain scans serialized with the URL-validation workflows so they do
 # not race on shared infrastructure (rate limits, IP reputation, etc.).
 concurrency:
   group: validation-background

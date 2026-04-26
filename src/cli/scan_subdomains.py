@@ -159,7 +159,9 @@ async def _run(args: argparse.Namespace) -> int:
     # ------------------------------------------------------------------ #
     # Save output                                                           #
     # ------------------------------------------------------------------ #
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if not output_path.parent.exists():
+        print(f"Creating output directory: {output_path.parent}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
     save_toon(toon_data, output_path)
 
     # ------------------------------------------------------------------ #

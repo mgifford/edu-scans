@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from unittest.mock import AsyncMock, patch
+from urllib.parse import urlparse
 
 import pytest
 import yaml
@@ -113,9 +114,9 @@ def test_extract_apex_domains_returns_only_apex() -> None:
 
     apex = _extract_apex_domains_from_toon(toon)
 
-    assert "mit.edu" in apex
-    assert "harvard.edu" in apex
-    assert "library.mit.edu" not in apex
+    apex_set = set(apex)
+    assert apex_set == {"mit.edu", "harvard.edu"}
+    assert "library.mit.edu" not in apex_set
 
 
 def test_extract_apex_domains_deduplicates() -> None:
@@ -351,8 +352,8 @@ async def test_scan_toon_respects_max_domains() -> None:
     assert stats.domains_scanned == 1
     # Only mit.edu (first apex domain) should have been scanned.
     all_urls = [url for batch in call_args_log for url in batch]
-    assert all(url.startswith("https://") and ".mit.edu" in url.split("/")[2] for url in all_urls)
-    assert not any(".harvard.edu" in url.split("/")[2] for url in all_urls)
+    assert all(urlparse(url).hostname == "library.mit.edu" for url in all_urls)
+    assert not any(urlparse(url).hostname == "library.harvard.edu" for url in all_urls)
 
 
 @pytest.mark.asyncio
