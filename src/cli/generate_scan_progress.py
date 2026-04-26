@@ -284,7 +284,7 @@ def update_index_progress(
             )
         if a11y_total:
             buf.write(
-                f"| Accessibility Statements | {a11y_total:,} scanned | "
+                f"| Accessibility Statements | {a11y_total:,} domains | "
                 f"{_progress_bar(a11y_total, denom)} |\n"
             )
         buf.write("\n")
@@ -482,20 +482,38 @@ def _query_combined_reachability(conn: sqlite3.Connection) -> dict[str, dict]:
 def _query_accessibility(conn: sqlite3.Connection) -> dict[str, dict]:
     """Return per-country accessibility statement scan stats from the database.
 
-    Uses COUNT(DISTINCT CASE WHEN … THEN url END) so that each URL is counted
-    at most once per country even when it appears in multiple scan batches.
+    Counts distinct domains (hostnames) rather than individual URLs so that
+    the multiple probe paths scanned per domain (e.g. /accessibility,
+    /accessibility-statement) are collapsed to a single domain entry.  A
+    domain is counted as reachable / has_statement / found_in_footer if *any*
+    of its scanned URLs produced that result.
     """
     result: dict[str, dict] = {}
     for row in conn.execute(
         """
+        WITH domain_rows AS (
+            SELECT country_code,
+                   CASE WHEN INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') > 0
+                        THEN SUBSTR(url, INSTR(url, '://') + 3,
+                                    INSTR(SUBSTR(url, INSTR(url, '://') + 3), '/') - 1)
+                        ELSE SUBSTR(url, INSTR(url, '://') + 3)
+                   END                  AS domain,
+                   MAX(is_reachable)    AS is_reachable,
+                   MAX(has_statement)   AS has_statement,
+                   MAX(found_in_footer) AS found_in_footer,
+                   MIN(scanned_at)      AS first_scan,
+                   MAX(scanned_at)      AS last_scan
+            FROM url_accessibility_results
+            GROUP BY country_code, domain
+        )
         SELECT country_code,
-               COUNT(DISTINCT url)                                                            AS total,
-               COUNT(DISTINCT CASE WHEN is_reachable = 1    THEN url ELSE NULL END)          AS reachable,
-               COUNT(DISTINCT CASE WHEN has_statement = 1   THEN url ELSE NULL END)          AS has_statement,
-               COUNT(DISTINCT CASE WHEN found_in_footer = 1 THEN url ELSE NULL END)          AS found_in_footer,
-               MIN(scanned_at)                                                                AS first_scan,
-               MAX(scanned_at)                                                                AS last_scan
-        FROM url_accessibility_results
+               COUNT(*)              AS total,
+               SUM(is_reachable)     AS reachable,
+               SUM(has_statement)    AS has_statement,
+               SUM(found_in_footer)  AS found_in_footer,
+               MIN(first_scan)       AS first_scan,
+               MAX(last_scan)        AS last_scan
+        FROM domain_rows
         GROUP BY country_code
         ORDER BY country_code
         """
@@ -654,7 +672,7 @@ def _write_overall_coverage(
         f"{'(manual scan)' if lh_total == 0 else _progress_bar(lh_total, denom)} |\n"
     )
     f.write(
-        f"| Accessibility Statements | {a11y_total:,} scanned | "
+        f"| Accessibility Statements | {a11y_total:,} domains | "
         f"{avail_str} | "
         f"{_progress_bar(a11y_total, denom)} |\n"
     )
@@ -828,9 +846,9 @@ def _write_accessibility_table(
 ) -> None:
     """Write the per-country accessibility statement scan table (or a placeholder).
 
-    Shows the number of scanned pages, reachable pages, pages with an
-    accessibility statement link, and pages where the link was found in the
-    footer alongside the last-scan date.
+    Shows the number of distinct domains scanned, domains where at least one
+    URL was reachable, domains that have an accessibility statement link, and
+    domains where the link was found in the footer, alongside the last-scan date.
     """
     if not accessibility:
         f.write(
@@ -846,11 +864,11 @@ def _write_accessibility_table(
 
     f.write("## Accessibility Statement Scan by Country\n\n")
     f.write(
-        "Checks whether each government page links to an accessibility statement "
-        "as required by the EU Web Accessibility Directive (Directive 2016/2102).\n\n"
+        "Checks whether each institution's website links to an accessibility statement. "
+        "Each row counts distinct domains (one per institution), not individual URLs.\n\n"
     )
     f.write(
-        "| Country | Scanned | Reachable | Has Statement | In Footer | Statement % | Scan Period |\n"
+        "| Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |\n"
     )
     f.write(
         "|---------|---------|-----------|--------------|-----------|------------|-------------|\n"
@@ -868,7 +886,7 @@ def _write_accessibility_table(
         )
     f.write("\n")
     f.write(
-        "> **Statement %** is the percentage of *reachable* pages that contain "
+        "> **Statement %** is the percentage of *reachable* domains that contain "
         "at least one link to an accessibility statement.\n\n"
     )
 
@@ -1086,7 +1104,7 @@ def _write_report(
         print(f"Social Media   : {sm_reachable:,} / {sm_total:,} URLs reachable")
     print(f"Technology     : {tech_total:,} URLs scanned")
     print(f"Lighthouse     : {lh_total:,} URLs scanned")
-    print(f"Accessibility  : {a11y_total:,} URLs scanned")
+    print(f"Accessibility  : {a11y_total:,} domains scanned")
     print(f"Countries      : {len(all_countries)} with data")
     print("=" * 70)
 
