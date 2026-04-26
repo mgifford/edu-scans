@@ -1,7 +1,9 @@
 """CLI tool to generate a government domains listing page from TOON seed files.
 
 Reads all country TOON files and produces a Markdown page that lists every
-government domain tracked in the dataset, grouped by country.
+government domain tracked in the dataset, grouped by country.  Apex domains
+(e.g. ``mit.edu``) and subdomains (e.g. ``library.mit.edu``) are counted and
+labelled separately.
 """
 
 from __future__ import annotations
@@ -56,6 +58,40 @@ def _page_link_label(url: str) -> str:
     return f"Visit {parsed.hostname}{path}"
 
 
+def _is_subdomain(domain: str) -> bool:
+    """Return ``True`` when *domain* is a subdomain of an apex ``.edu`` domain.
+
+    Mirrors the logic in ``usa_edu_builder.is_subdomain`` so that the report
+    generator does not depend on the builder module at runtime.
+
+    Args:
+        domain: A ``.edu`` hostname string.
+
+    Returns:
+        ``True`` for subdomains (three or more labels), ``False`` for apex
+        domains (exactly two labels).
+    """
+    parts = domain.split(".")
+    return len(parts) > 2 and parts[-1] == "edu"
+
+
+def _domain_is_subdomain(domain_entry: dict) -> bool:
+    """Return whether a TOON domain entry represents a subdomain.
+
+    Uses the ``is_subdomain`` field when present (set by the builder), and
+    falls back to label-counting for legacy entries that predate the field.
+
+    Args:
+        domain_entry: A single ``domains[]`` item from a TOON file.
+
+    Returns:
+        ``True`` when the entry's ``canonical_domain`` is a subdomain.
+    """
+    if "is_subdomain" in domain_entry:
+        return bool(domain_entry["is_subdomain"])
+    return _is_subdomain(domain_entry.get("canonical_domain", ""))
+
+
 # ---------------------------------------------------------------------------
 # report generation
 # ---------------------------------------------------------------------------
@@ -84,7 +120,10 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
     entries.sort(key=_country_sort_key)
 
     total_countries = len(entries)
-    total_domains = sum(len(d.get("domains", [])) for _, d in entries)
+    all_domains = [d for _, data in entries for d in data.get("domains", [])]
+    total_apex = sum(1 for d in all_domains if not _domain_is_subdomain(d))
+    total_subdomains = sum(1 for d in all_domains if _domain_is_subdomain(d))
+    total_domains = len(all_domains)
     total_pages = sum(d.get("page_count", 0) for _, d in entries)
 
     with output_path.open("w", encoding="utf-8") as f:
@@ -98,7 +137,9 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
         )
         f.write(
             f"**{total_countries} countries** · "
-            f"**{total_domains:,} domains** · "
+            f"**{total_domains:,} domains** "
+            f"({total_apex:,} {'apex domain' if total_apex == 1 else 'apex domains'}, "
+            f"{total_subdomains:,} {'subdomain' if total_subdomains == 1 else 'subdomains'}) · "
             f"**{total_pages:,} pages**\n\n"
         )
 
@@ -107,11 +148,16 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
         for _stem, data in entries:
             country = data.get("country", "Unknown")
             anchor = country.lower().replace(" ", "-").replace("(", "").replace(")", "")
-            domain_count = len(data.get("domains", []))
+            domains = data.get("domains", [])
+            apex_count = sum(1 for d in domains if not _domain_is_subdomain(d))
+            sub_count = sum(1 for d in domains if _domain_is_subdomain(d))
             page_count = data.get("page_count", 0)
+            counts_str = f"{apex_count:,} {'apex domain' if apex_count == 1 else 'apex domains'}"
+            if sub_count:
+                counts_str += f", {sub_count:,} {'subdomain' if sub_count == 1 else 'subdomains'}"
             f.write(
                 f"- [{country}](#{anchor}) "
-                f"({domain_count:,} domains, {page_count:,} pages)\n"
+                f"({counts_str}, {page_count:,} pages)\n"
             )
         f.write("\n---\n\n")
 
@@ -120,19 +166,23 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
             country = data.get("country", "Unknown")
             domains = data.get("domains", [])
             page_count = data.get("page_count", 0)
+            apex_count = sum(1 for d in domains if not _domain_is_subdomain(d))
+            sub_count = sum(1 for d in domains if _domain_is_subdomain(d))
 
             f.write(f"## {country}\n\n")
-            f.write(
-                f"**{len(domains):,} domains** · **{page_count:,} pages**\n\n"
-            )
+            counts_str = f"{apex_count:,} {'apex domain' if apex_count == 1 else 'apex domains'}"
+            if sub_count:
+                counts_str += f", {sub_count:,} {'subdomain' if sub_count == 1 else 'subdomains'}"
+            f.write(f"**{counts_str}** · **{page_count:,} pages**\n\n")
 
             if domains:
-                f.write("| Domain | Pages |\n")
-                f.write("|--------|-------|\n")
+                f.write("| Domain | Type | Pages |\n")
+                f.write("|--------|------|-------|\n")
                 for domain_entry in sorted(
                     domains, key=lambda d: d.get("canonical_domain", "")
                 ):
                     canonical = domain_entry.get("canonical_domain", "")
+                    domain_type = "subdomain" if _domain_is_subdomain(domain_entry) else "apex"
                     pages = domain_entry.get("pages", [])
                     page_links = ", ".join(
                         f"[{_page_link_label(p['url'])}]({p['url']})"
@@ -140,7 +190,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
                     )
                     if len(pages) > 3:
                         page_links += f" _(+{len(pages) - 3} more)_"
-                    f.write(f"| `{canonical}` | {page_links} |\n")
+                    f.write(f"| `{canonical}` | {domain_type} | {page_links} |\n")
             else:
                 f.write("_No domains listed._\n")
 
@@ -148,7 +198,8 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
 
     print(
         f"Domains report generated: {output_path} "
-        f"({total_countries} countries, {total_domains:,} domains)"
+        f"({total_countries} countries, {total_apex:,} apex domains, "
+        f"{total_subdomains:,} subdomains)"
     )
 
 

@@ -181,7 +181,19 @@ def infer_parent_institution(name: str | None) -> str | None:
 
 
 def normalize_domain(value: str) -> str | None:
-    """Normalize a host/domain string to a likely root `.edu` domain."""
+    """Normalize a host/domain string to a valid `.edu` hostname.
+
+    Subdomains are preserved as-is (e.g. ``library.harvard.edu`` stays
+    ``library.harvard.edu``).  Only the ``www.`` prefix is stripped, since
+    it is a technical alias rather than a distinct service domain.
+
+    Args:
+        value: A raw domain name, URL, or hostname string.
+
+    Returns:
+        The normalized hostname (possibly a subdomain), or ``None`` when the
+        input does not resolve to a ``.edu`` domain.
+    """
     candidate = unescape(value).strip().lower()
     if not candidate:
         return None
@@ -194,8 +206,25 @@ def normalize_domain(value: str) -> str | None:
         return None
     parts = candidate.split(".")
     if len(parts) >= 2 and parts[-1] == "edu":
-        return ".".join(parts[-2:])
+        return candidate
     return None
+
+
+def is_subdomain(domain: str) -> bool:
+    """Return ``True`` when *domain* is a subdomain of an apex ``.edu`` domain.
+
+    An apex ``.edu`` domain has exactly two labels (e.g. ``mit.edu``).
+    Anything with three or more labels is a subdomain
+    (e.g. ``library.mit.edu``).
+
+    Args:
+        domain: A normalized ``.edu`` hostname.
+
+    Returns:
+        ``True`` for subdomains, ``False`` for apex domains.
+    """
+    parts = domain.split(".")
+    return len(parts) > 2 and parts[-1] == "edu"
 
 
 def normalize_web_page(value: str, domain: str | None = None) -> str | None:
@@ -621,6 +650,7 @@ def write_master_outputs(result: BuildResult, imports_dir: Path, toon_dir: Path)
         toon_payload["domains"].append(
             {
                 "canonical_domain": institution["primary_domain"],
+                "is_subdomain": is_subdomain(institution["primary_domain"]),
                 "institution_name": institution["name"],
                 "parent_institution": institution.get("parent_institution"),
                 "affiliated_domains": institution["domains"],
