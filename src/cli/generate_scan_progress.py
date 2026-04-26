@@ -16,6 +16,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+# Maximum number of history snapshots to retain (one per day → ~3 months).
+_HISTORY_MAX_ENTRIES: int = 90
+
+# Workflow file name for each scan type, used for auto-prioritisation output.
+_SCAN_WORKFLOW_FILES: dict[str, str] = {
+    "accessibility": "scan-accessibility.yml",
+    "social": "scan-social-media.yml",
+    "technology": "scan-technology.yml",
+    "third_party_js": "scan-third-party-js.yml",
+    "lighthouse": "scan-lighthouse.yml",
+}
+
 from src.lib.country_utils import country_code_to_display_name, country_filename_to_code
 from src.lib.settings import load_settings
 from src.services.organization_mapper import load_domain_to_parent_map, extract_domain_from_url
@@ -146,7 +158,8 @@ def generate_progress_report(
     output_path: Path,
     toon_seeds_dir: Path | None = None,
     data_path: Path | None = None,
-) -> None:
+    history_path: Path | None = None,
+) -> list[dict]:
     """Generate a comprehensive scan-progress report from the database.
 
     Args:
@@ -155,6 +168,14 @@ def generate_progress_report(
         toon_seeds_dir: Directory containing ``*.toon`` seed files.  When
             provided the report will include "X of Y available pages scanned"
             coverage figures in the overall-coverage section.
+        data_path: Optional path for the scan-progress drilldown JSON.
+        history_path: Optional path to the daily-snapshot history JSON file.
+            When provided a new snapshot is appended and the trend table is
+            included in the report.
+
+    Returns:
+        The updated history list (oldest first), or an empty list when
+        *history_path* is ``None``.
     """
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -175,7 +196,7 @@ def generate_progress_report(
                 encoding="utf-8",
             )
         print(f"Report generated (empty): {output_path}")
-        return
+        return []
 
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
@@ -183,11 +204,15 @@ def generate_progress_report(
     seed_counts = _count_toon_seed_urls(toon_seeds_dir) if toon_seeds_dir else {}
 
     try:
-        _write_report(conn, output_path, generated_at, seed_counts, data_path, toon_seeds_dir)
+        history = _write_report(
+            conn, output_path, generated_at, seed_counts, data_path, toon_seeds_dir,
+            history_path=history_path,
+        )
     finally:
         conn.close()
 
     print(f"Report generated: {output_path}")
+    return history
 
 
 def update_index_progress(
@@ -565,6 +590,24 @@ def _query_lighthouse(conn: sqlite3.Connection) -> dict[str, dict]:
     return result
 
 
+def _query_third_party_js(conn: sqlite3.Connection) -> dict[str, dict]:
+    """Return per-country third-party JavaScript scan stats from the database."""
+    result: dict[str, dict] = {}
+    for row in conn.execute(
+        """
+        SELECT country_code,
+               COUNT(DISTINCT url)                                                AS total,
+               COUNT(DISTINCT CASE WHEN is_reachable = 1 THEN url ELSE NULL END) AS reachable,
+               MAX(scanned_at)                                                    AS last_scan
+        FROM url_third_party_js_results
+        GROUP BY country_code
+        ORDER BY country_code
+        """
+    ):
+        result[row["country_code"]] = dict(row)
+    return result
+
+
 def _query_social_media_by_parent_institution(
     conn: sqlite3.Connection,
     domain_to_parent: dict[str, str],
@@ -616,6 +659,7 @@ def _write_overall_coverage(
     seed_counts: dict[str, int] | None = None,
     combined_reachable: dict[str, dict] | None = None,
     accessibility: dict[str, dict] | None = None,
+    third_party_js: dict[str, dict] | None = None,
 ) -> tuple:
     """Write the overall coverage section.
 
@@ -634,6 +678,7 @@ def _write_overall_coverage(
     tech_total = sum(d["total"] for d in tech.values())
     lh_total = sum(d["total"] for d in (lighthouse or {}).values())
     a11y_total = sum(d["total"] for d in (accessibility or {}).values())
+    tpjs_total = sum(d["total"] for d in (third_party_js or {}).values())
     combined_total = sum(d["confirmed"] for d in (combined_reachable or {}).values())
 
     total_available = sum((seed_counts or {}).values())
@@ -664,17 +709,22 @@ def _write_overall_coverage(
     f.write(
         f"| Technology | {tech_total:,} scanned | "
         f"{avail_str} | "
-        f"{'(manual scan)' if tech_total == 0 else _progress_bar(tech_total, denom)} |\n"
+        f"{_progress_bar(tech_total, denom)} |\n"
     )
     f.write(
         f"| Lighthouse | {lh_total:,} scanned | "
         f"{avail_str} | "
-        f"{'(manual scan)' if lh_total == 0 else _progress_bar(lh_total, denom)} |\n"
+        f"{_progress_bar(lh_total, denom)} |\n"
     )
     f.write(
         f"| Accessibility Statements | {a11y_total:,} domains | "
         f"{avail_str} | "
         f"{_progress_bar(a11y_total, denom)} |\n"
+    )
+    f.write(
+        f"| Third-Party JS | {tpjs_total:,} scanned | "
+        f"{avail_str} | "
+        f"{_progress_bar(tpjs_total, denom)} |\n"
     )
     f.write("\n")
     f.write(
@@ -682,7 +732,7 @@ def _write_overall_coverage(
         "reachable by any scan type.\n\n"
     )
 
-    return uv_total, uv_valid, sm_total, sm_reachable, tech_total
+    return uv_total, uv_valid, sm_total, sm_reachable, tech_total, tpjs_total
 
 
 def _write_url_validation_table(
@@ -965,6 +1015,165 @@ def _write_top_parent_institutions(f, parent_institutions: dict[str, dict]) -> N
     )
 
 
+def _write_third_party_js_table(
+    f, third_party_js: dict[str, dict], all_countries: list[str]
+) -> None:
+    """Write the per-country third-party JavaScript scan table (or a placeholder)."""
+    if not third_party_js:
+        f.write(
+            "## Third-Party JavaScript Scan\n\n"
+            "_No third-party JavaScript scans have been run yet. "
+            "Trigger the **Scan Third-Party JavaScript** workflow or wait "
+            "for the next scheduled run._\n\n"
+        )
+        return
+    f.write("## Third-Party JavaScript Scan by Country\n\n")
+    f.write("| Country | URLs Scanned | Last Scan |\n")
+    f.write("|---------|-------------|----------|\n")
+    for cc in all_countries:
+        if cc not in third_party_js:
+            continue
+        d = third_party_js[cc]
+        last = (d["last_scan"] or "—")[:10]
+        f.write(f"| {country_code_to_display_name(cc)} | {d['total']:,} | {last} |\n")
+    f.write("\n")
+
+
+def _write_coverage_trend_table(f, history: list[dict]) -> None:
+    """Write a table showing coverage % for each scan type over recent days.
+
+    Args:
+        f: File-like object to write to.
+        history: List of daily snapshot dicts, oldest first.  Each dict must
+            contain at least ``date`` and the per-scan ``*_pct`` keys.
+    """
+    if not history:
+        return
+
+    # Show at most the 14 most recent entries (newest last → display newest first).
+    recent = history[-14:]
+    recent_reversed = list(reversed(recent))
+
+    f.write("## Coverage Trend (Last 14 Days)\n\n")
+    f.write(
+        "Coverage percentage for each scan type, updated daily. "
+        "When a scan type is far behind the others it will be automatically "
+        "prioritised for an extra run.\n\n"
+    )
+    f.write(
+        "| Date | Accessibility | Social Media | Technology"
+        " | Third-Party JS | Lighthouse |\n"
+    )
+    f.write(
+        "|------|--------------|--------------|------------|"
+        "----------------|------------|\n"
+    )
+    for entry in recent_reversed:
+        date = entry.get("date", "—")
+        a11y = entry.get("accessibility_pct")
+        social = entry.get("social_pct")
+        tech = entry.get("technology_pct")
+        tpjs = entry.get("third_party_js_pct")
+        lh = entry.get("lighthouse_pct")
+
+        def _format_pct(v: float | None) -> str:
+            return f"{v:.1f}%" if v is not None else "—"
+
+        f.write(
+            f"| {date} | {_format_pct(a11y)} | {_format_pct(social)} | {_format_pct(tech)}"
+            f" | {_format_pct(tpjs)} | {_format_pct(lh)} |\n"
+        )
+    f.write("\n")
+    f.write(
+        "> Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. "
+        "Lighthouse scans take longer per URL and may lag other scan types; "
+        "the auto-prioritisation step compensates by triggering extra runs for the "
+        "most-lagging scan each day.\n\n"
+    )
+
+
+def _update_progress_history(
+    history_path: Path,
+    snapshot: dict,
+    max_entries: int = _HISTORY_MAX_ENTRIES,
+) -> list[dict]:
+    """Append *snapshot* to the history file and return the updated list.
+
+    Reads the existing history JSON (an array of snapshot dicts), appends the
+    new snapshot for today (replacing any existing entry for the same date),
+    trims to at most *max_entries* entries (oldest first), and writes the
+    result back to *history_path*.
+
+    Args:
+        history_path: Path to the JSON history file.
+        snapshot: Dict with at minimum a ``date`` key (``YYYY-MM-DD``).
+        max_entries: Maximum number of daily snapshots to retain.
+
+    Returns:
+        The updated history list (oldest first).
+    """
+    history: list[dict] = []
+    if history_path.exists():
+        try:
+            history = json.loads(history_path.read_text(encoding="utf-8"))
+            if not isinstance(history, list):
+                history = []
+        except (json.JSONDecodeError, OSError):
+            history = []
+
+    today = snapshot.get("date", "")
+    # Replace any existing entry for the same date.
+    history = [e for e in history if e.get("date") != today]
+    history.append(snapshot)
+    # Keep oldest-first; trim to max_entries.
+    history = sorted(history, key=lambda e: e.get("date", ""))[-max_entries:]
+
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(
+        json.dumps(history, ensure_ascii=True, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return history
+
+
+def _recommend_lagging_workflow(history: list[dict]) -> str | None:
+    """Return the workflow filename for the most-lagging scan, or ``None``.
+
+    Inspects the most recent history snapshot and compares coverage percentages
+    across the five scheduled scan types.  If the gap between the highest and
+    lowest coverage is greater than 10 percentage points, the workflow file
+    name for the lowest-coverage scan is returned so the caller can trigger an
+    extra run to help close the gap.
+
+    Returns ``None`` when there is no meaningful gap or the history is empty.
+
+    Args:
+        history: List of daily snapshot dicts, oldest first.
+
+    Returns:
+        A workflow file name such as ``"scan-social-media.yml"``, or ``None``.
+    """
+    if not history:
+        return None
+
+    latest = history[-1]
+    pcts = {
+        key: latest.get(f"{key}_pct", 0.0) or 0.0
+        for key in _SCAN_WORKFLOW_FILES
+    }
+
+    max_pct = max(pcts.values())
+    if max_pct <= 0:
+        return None
+
+    min_key = min(pcts, key=lambda k: pcts[k])
+    min_pct = pcts[min_key]
+
+    if (max_pct - min_pct) > 10.0:
+        return _SCAN_WORKFLOW_FILES[min_key]
+    return None
+
+
 def _write_priority_guide(f) -> None:
     """Write the scan priority guide section."""
     f.write("## Scan Priority Guide\n\n")
@@ -972,7 +1181,7 @@ def _write_priority_guide(f) -> None:
         "Scans are ordered from **highest** to **lowest** priority:\n\n"
     )
     f.write(
-        "1. **Social Media Scan** — runs every 3 hours; downloads and "
+        "1. **Social Media Scan** — runs every 2 hours; downloads and "
         "parses full pages, confirming reachability *and* detecting social "
         "links in one pass.\n"
     )
@@ -982,24 +1191,29 @@ def _write_priority_guide(f) -> None:
         "by the EU Web Accessibility Directive (Directive 2016/2102).\n"
     )
     f.write(
-        "3. **Technology Scan** — run on demand; detects CMS, framework, "
+        "3. **Technology Scan** — runs every 4 hours; detects CMS, framework, "
         "and analytics platforms.\n"
     )
     f.write(
-        "4. **Lighthouse Scan** — run on demand; measures performance, "
-        "accessibility (WCAG), best practices, and SEO for each URL.\n"
+        "4. **Third-Party JavaScript Scan** — runs every 6 hours; identifies "
+        "externally hosted scripts, CDNs, and third-party services.\n"
     )
     f.write(
-        "5. **URL Validation** — runs every 6 hours in the background; "
+        "5. **Lighthouse Scan** — runs once per day; measures performance, "
+        "accessibility (WCAG), best practices, and SEO for each URL. "
+        "Each URL takes ~20–30 s so coverage builds gradually.\n"
+    )
+    f.write(
+        "6. **URL Validation** — runs every 2 hours in the background; "
         "a lightweight redirect/404 check that is **automatically skipped** "
         "for URLs already confirmed reachable by a higher-priority scan "
         "within the last 30 days.\n"
     )
     f.write("\n")
     f.write(
-        "> **Tip:** Run a social media scan first for a new country — "
-        "this simultaneously validates all URLs *and* collects social "
-        "media data, avoiding a separate URL-only pass.\n\n"
+        "> **Auto-prioritisation:** when any scan type is more than 10 percentage "
+        "points behind the leader, the daily report-generation step automatically "
+        "dispatches an extra run of that workflow to help close the gap.\n\n"
     )
     f.write("### Why are Social Media and URL Validation counts different?\n\n")
     f.write(
@@ -1032,8 +1246,13 @@ def _write_report(
     seed_counts: dict[str, int] | None = None,
     data_path: Path | None = None,
     toon_seeds_dir: Path | None = None,
-) -> None:
-    """Query the database and write the Markdown report."""
+    history_path: Path | None = None,
+) -> list[dict]:
+    """Query the database and write the Markdown report.
+
+    Returns the updated history list (oldest first); empty when no
+    *history_path* is provided.
+    """
 
     url_val = _query_url_validation(conn)
     url_val_detail = _query_url_validation_detail(conn)
@@ -1041,6 +1260,7 @@ def _write_report(
     tech = _query_technology(conn)
     lighthouse = _query_lighthouse(conn)
     accessibility = _query_accessibility(conn)
+    third_party_js = _query_third_party_js(conn)
     combined_reachable = _query_combined_reachability(conn)
 
     # Load parent institution mapping if toon_seeds_dir is available
@@ -1050,7 +1270,42 @@ def _write_report(
         domain_to_parent = load_domain_to_parent_map(toon_seeds_dir)
         parent_institutions = _query_social_media_by_parent_institution(conn, domain_to_parent)
 
-    all_countries = sorted(set(url_val) | set(social) | set(tech) | set(lighthouse) | set(accessibility))
+    all_countries = sorted(
+        set(url_val) | set(social) | set(tech)
+        | set(lighthouse) | set(accessibility) | set(third_party_js)
+    )
+
+    total_available = sum((seed_counts or {}).values())
+    denom = total_available or 1
+
+    lh_total = sum(d["total"] for d in lighthouse.values())
+    a11y_total = sum(d["total"] for d in accessibility.values())
+    tpjs_total = sum(d["total"] for d in third_party_js.values())
+    combined_total = sum(d["confirmed"] for d in combined_reachable.values())
+
+    # Build today's history snapshot.
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    sm_total = sum(d["total"] for d in social.values())
+    tech_total = sum(d["total"] for d in tech.values())
+    snapshot: dict = {
+        "date": today,
+        "total_available": total_available,
+        "accessibility_count": a11y_total,
+        "accessibility_pct": round(a11y_total / denom * 100, 1),
+        "social_count": sm_total,
+        "social_pct": round(sm_total / denom * 100, 1),
+        "technology_count": tech_total,
+        "technology_pct": round(tech_total / denom * 100, 1),
+        "third_party_js_count": tpjs_total,
+        "third_party_js_pct": round(tpjs_total / denom * 100, 1),
+        "lighthouse_count": lh_total,
+        "lighthouse_pct": round(lh_total / denom * 100, 1),
+    }
+
+    # Update history file and get the full list for the trend table.
+    history: list[dict] = []
+    if history_path is not None:
+        history = _update_progress_history(history_path, snapshot)
 
     with output_path.open("w", encoding="utf-8") as f:
         f.write("---\ntitle: Scan Progress Report\nlayout: page\n---\n\n")
@@ -1060,8 +1315,15 @@ def _write_report(
             "countries. It is regenerated automatically after every scan run.\n\n"
         )
 
-        totals = _write_overall_coverage(f, url_val, social, tech, lighthouse, seed_counts, combined_reachable, accessibility)
-        uv_total, uv_valid, sm_total, sm_reachable, tech_total = totals
+        totals = _write_overall_coverage(
+            f, url_val, social, tech, lighthouse, seed_counts,
+            combined_reachable, accessibility, third_party_js,
+        )
+        uv_total, uv_valid, sm_total, sm_reachable, tech_total, tpjs_total = totals
+
+        # Write trend table when history data is available.
+        if history:
+            _write_coverage_trend_table(f, history)
 
         # Write parent institution breakdown if available
         if parent_institutions:
@@ -1072,6 +1334,7 @@ def _write_report(
         _write_technology_table(f, tech, all_countries)
         _write_lighthouse_table(f, lighthouse, all_countries)
         _write_accessibility_table(f, accessibility, all_countries)
+        _write_third_party_js_table(f, third_party_js, all_countries)
         _write_pending_sections(f, url_val, social)
         _write_priority_guide(f)
 
@@ -1086,11 +1349,7 @@ def _write_report(
             encoding="utf-8",
         )
 
-    lh_total = sum(d["total"] for d in lighthouse.values())
-    a11y_total = sum(d["total"] for d in accessibility.values())
-    combined_total = sum(d["confirmed"] for d in combined_reachable.values())
     # Print console summary
-    total_available = sum((seed_counts or {}).values())
     print("\n" + "=" * 70)
     print("SCAN PROGRESS SUMMARY")
     print("=" * 70)
@@ -1104,9 +1363,12 @@ def _write_report(
         print(f"Social Media   : {sm_reachable:,} / {sm_total:,} URLs reachable")
     print(f"Technology     : {tech_total:,} URLs scanned")
     print(f"Lighthouse     : {lh_total:,} URLs scanned")
+    print(f"Third-Party JS : {tpjs_total:,} URLs scanned")
     print(f"Accessibility  : {a11y_total:,} domains scanned")
     print(f"Countries      : {len(all_countries)} with data")
     print("=" * 70)
+
+    return history
 
 
 # ---------------------------------------------------------------------------
@@ -1161,6 +1423,28 @@ def main() -> None:
         type=Path,
         default=Path("docs/scan-progress-data.json"),
     )
+    parser.add_argument(
+        "--history",
+        help=(
+            "Path to the daily-snapshot history JSON file "
+            "(default: docs/scan-progress-history.json). "
+            "When provided a snapshot is appended and the trend table is "
+            "included in the report."
+        ),
+        type=Path,
+        default=Path("docs/scan-progress-history.json"),
+        metavar="HISTORY_PATH",
+    )
+    parser.add_argument(
+        "--recommend-workflow",
+        help=(
+            "If a scan type is more than 10%% behind the leader, write its "
+            "workflow filename to this file so the caller can trigger an extra run."
+        ),
+        type=Path,
+        default=None,
+        metavar="RECOMMEND_PATH",
+    )
 
     args = parser.parse_args()
 
@@ -1172,9 +1456,19 @@ def main() -> None:
 
     try:
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        generate_progress_report(db_path, args.output, args.seeds_dir, args.data)
+        history = generate_progress_report(
+            db_path, args.output, args.seeds_dir, args.data, args.history,
+        )
         if args.update_index is not None:
             update_index_progress(args.update_index, db_path, args.seeds_dir)
+        if args.recommend_workflow is not None:
+            workflow = _recommend_lagging_workflow(history)
+            if workflow:
+                args.recommend_workflow.parent.mkdir(parents=True, exist_ok=True)
+                args.recommend_workflow.write_text(workflow + "\n", encoding="utf-8")
+                print(f"Lagging scan identified: {workflow}")
+            else:
+                print("All scans are within 10 pp of each other — no extra run needed.")
     except Exception as exc:
         print(f"Error generating report: {exc}")
         import traceback

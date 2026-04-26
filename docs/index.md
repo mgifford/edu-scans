@@ -80,10 +80,12 @@ Scans run automatically on a schedule via **GitHub Actions**:
 | Scan | Schedule | Priority |
 |------|----------|----------|
 | Social Media | Every 2 hours | **Highest** — confirms reachability and collects social-link data in one pass |
+| Accessibility Statements | Every 4 hours | High — checks for EU WAD-required accessibility statements |
 | Technology Detection | Every 4 hours | Medium |
-| URL Validation | Every 12 hours | Lowest — lightweight redirect/404 checks; skipped for recently validated URLs |
-| Lighthouse Audits | Daily | Medium — slower per URL, so scanned progressively |
-| Scan Progress Report | After every scan | — |
+| Third-Party JavaScript | Every 6 hours | Medium |
+| URL Validation | Every 2 hours | Low — lightweight redirect/404 checks; skipped for recently validated URLs |
+| Lighthouse Audits | Daily | Medium — slower per URL (~25 s), so scanned progressively |
+| Scan Progress Report | Daily | — automatically triggers an extra run for the most-lagging scan |
 
 After each scan run, this site is automatically updated with the latest results.
 
