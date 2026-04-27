@@ -64,7 +64,7 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 ---
 
-## Social Media Scan by Country
+## Social Media Scan by Institution Group
 
 **Available**: all government pages tracked in our domain list. **Reachable**: of those scanned, pages that returned a valid HTTP response (not an error or timeout). **Sov. Score**: Digital Sovereignty Score — % of reachable pages with no social media or modern-only social presence. Tier columns classify each page by its overall social media presence; platform columns count pages with at least one link to that platform — a page may appear in more than one platform column.
 
@@ -154,20 +154,69 @@ To download artifacts:
 
 ---
 
+## Seed Groups
+
+The scanner uses TOON seed files to organise which institutions to scan.
+Multiple seed files are supported — each appears as a separate row in the
+**Social Media Scan by Institution Group** table and the **Digital Sovereignty
+Rankings** leaderboard.
+
+| Seed file | Country code | Contents |
+|-----------|-------------|----------|
+| `usa-edu-master.toon` | `USA_EDU_MASTER` | All 3,700+ US `.edu` institutions |
+| `usa-edu-top100.toon` | `USA_EDU_TOP100` | Top 100 universities by national ranking |
+
+### Top 100 Universities Seed
+
+`data/toon-seeds/usa-edu-top100.toon` is generated from
+`data/rankings/us-news-top100.csv` using:
+
+```bash
+python3 scripts/build_top100_toon.py
+```
+
+Each domain entry in the Top 100 TOON carries a `ranking` field.  When scan
+results exist for these URLs, the report adds a per-institution table showing
+each university's social media tier ranked in order.
+
+### Per-State Seeds (optional)
+
+The `scripts/split_toon_by_state.py` script can split the master TOON into
+one file per US state for state-level comparison:
+
+```bash
+# Preview what would be generated (no files written)
+python3 scripts/split_toon_by_state.py --dry-run
+
+# Generate all per-state TOON files
+python3 scripts/split_toon_by_state.py
+```
+
+> **Note:** State assignment currently uses institution-name pattern matching,
+> which resolves approximately 36% of institutions.  For full coverage, provide
+> an IPEDS `HD202x.csv` file from the
+> [NCES data portal](https://nces.ed.gov/ipeds/use-the-data/download-access-database)
+> and match against `WEBADDR` / `STABBR` fields.
+
+---
+
 ## Running a Scan Manually
 
 ### Via GitHub Actions (recommended)
 
 1. Go to [Actions → Scan Social Media Links](https://github.com/mgifford/edu-scans/actions/workflows/scan-social-media.yml)
 2. Click **Run workflow**
-3. Optionally enter a seed code (e.g. `USA_EDU_MASTER`) or leave blank to scan all seed files
+3. Optionally enter a seed code (e.g. `USA_EDU_MASTER` or `USA_EDU_TOP100`) or leave blank to scan all seed files
 4. Optionally adjust the rate limit (default: 1.0 req/sec)
 
 ### Via the command line
 
 ```bash
-# Scan a single seed
+# Scan the full master seed
 python3 -m src.cli.scan_social_media --country USA_EDU_MASTER --rate-limit 1.0
+
+# Scan only the Top 100 universities
+python3 -m src.cli.scan_social_media --country USA_EDU_TOP100 --rate-limit 1.0
 
 # Scan all seed files (with a 110-minute runtime cap)
 python3 -m src.cli.scan_social_media --all --max-runtime 110 --rate-limit 1.0
