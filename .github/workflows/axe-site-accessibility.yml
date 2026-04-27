@@ -75,10 +75,14 @@ jobs:
           # Serve it at the matching subpath so that CSS and asset links resolve correctly.
           BASEURL=$(python3 -c "
 import yaml, sys
-with open('docs/_config.yml') as f:
-    d = yaml.safe_load(f)
-print(d.get('baseurl', '').strip('/'))
-" 2>/dev/null || echo "")
+try:
+    with open('docs/_config.yml') as f:
+        d = yaml.safe_load(f)
+    print(d.get('baseurl', '').strip('/'))
+except Exception as e:
+    print(f'Warning: could not read baseurl from docs/_config.yml: {e}', file=sys.stderr)
+    print('')
+" || echo "")
           if [ -n "$BASEURL" ]; then
             mkdir -p /tmp/axe-served/"$BASEURL"
             cp -r _site/. /tmp/axe-served/"$BASEURL"/

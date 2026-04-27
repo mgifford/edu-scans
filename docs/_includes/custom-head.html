@@ -16,8 +16,11 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     // Make scrollable <pre> blocks keyboard-accessible (WCAG 2.1.1 / axe scrollable-region-focusable).
+    // Only add tabindex to blocks that are actually overflowing so non-scrollable blocks
+    // are not added as unnecessary focus stops in keyboard navigation.
     document.querySelectorAll('pre').forEach(function (pre) {
-      if (!pre.hasAttribute('tabindex')) {
+      if (!pre.hasAttribute('tabindex') &&
+          (pre.scrollWidth > pre.clientWidth || pre.scrollHeight > pre.clientHeight)) {
         pre.setAttribute('tabindex', '0');
       }
     });
