@@ -41,6 +41,9 @@ concurrency:
   group: validation-background
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   scan-subdomains:
     runs-on: ubuntu-latest

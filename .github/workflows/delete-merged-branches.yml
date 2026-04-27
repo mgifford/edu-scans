@@ -10,6 +10,9 @@ on:
   # without automatic deletion.
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   delete-merged-branch:
     # Only run when a PR is merged, not when it is simply closed.
