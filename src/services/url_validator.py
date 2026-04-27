@@ -141,6 +141,7 @@ class UrlValidator:
         max_runtime_seconds: Optional[float] = None,
         start_time: Optional[float] = None,
         on_result: Optional[Callable[["ValidationResult"], None]] = None,
+        verbose: bool = True,
     ) -> Dict[str, ValidationResult]:
         """
         Validate multiple URLs with rate limiting.
@@ -158,6 +159,10 @@ class UrlValidator:
                 validated (before the inter-request delay).  Useful for
                 incremental persistence so that partial results survive a
                 timeout.
+            verbose: When ``True`` (default) print a progress line and result
+                for every URL.  Set to ``False`` to suppress per-URL output
+                entirely; only the time-budget warning is still printed so
+                that callers can tell when a run was cut short.
 
         Returns:
             Dictionary mapping URL to ValidationResult.  When stopped early
@@ -186,21 +191,23 @@ class UrlValidator:
                     )
                     break
 
-            print(f"  [{idx}/{total}] Validating: {url}")
+            if verbose:
+                print(f"  [{idx}/{total}] Validating: {url}")
             result = await self.validate_url(url)
             results[url] = result
 
             if on_result is not None:
                 on_result(result)
 
-            # Print result status
-            if result.is_valid:
-                status_msg = f"✓ {result.status_code}" if result.status_code else "✓"
-                if result.redirected_to:
-                    status_msg += f" → {result.redirected_to}"
-            else:
-                status_msg = f"✗ {result.error_message or 'Failed'}"
-            print(f"      {status_msg}")
+            if verbose:
+                # Print result status
+                if result.is_valid:
+                    status_msg = f"✓ {result.status_code}" if result.status_code else "✓"
+                    if result.redirected_to:
+                        status_msg += f" → {result.redirected_to}"
+                else:
+                    status_msg = f"✗ {result.error_message or 'Failed'}"
+                print(f"      {status_msg}")
 
             # Rate limiting delay
             if delay > 0:
