@@ -38,6 +38,9 @@ concurrency:
   group: lighthouse-scan
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   scan-lighthouse:
     runs-on: ubuntu-latest

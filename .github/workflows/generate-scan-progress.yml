@@ -13,6 +13,9 @@ concurrency:
   group: scan-progress-report
   cancel-in-progress: true
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate-progress-report:
     runs-on: ubuntu-latest
