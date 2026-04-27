@@ -31,6 +31,11 @@ on:
         required: false
         default: '30'
         type: string
+      max_urls:
+        description: 'Maximum URLs to scan per seed file per run (default: 250). Lower values ensure the job completes within the 120-minute limit.'
+        required: false
+        default: '250'
+        type: string
 
 # Lighthouse has its own concurrency group so frequent metadata-scan workflows
 # (social media every 2 h, tech every 4 h) can never cancel a Lighthouse run.
@@ -86,6 +91,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
             --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
             --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
+            --max-urls "${{ github.event.inputs.max_urls || '250' }}" \
             --only-categories "performance,accessibility,best-practices,seo" \
             --throttling-method "provided" \
             2>&1 | tee lighthouse-scan-output.txt
@@ -99,6 +105,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
             --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
             --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
+            --max-urls "${{ github.event.inputs.max_urls || '250' }}" \
             --only-categories "performance,accessibility,best-practices,seo" \
             --throttling-method "provided" \
             2>&1 | tee lighthouse-scan-output.txt
@@ -140,4 +147,5 @@ jobs:
           echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '0.5' }} runs/sec" >> $GITHUB_STEP_SUMMARY
           echo "- Concurrency: ${{ github.event.inputs.concurrency || '3' }} parallel processes" >> $GITHUB_STEP_SUMMARY
           echo "- Skip recently scanned: ${{ github.event.inputs.skip_recently_scanned_days || '30' }} days" >> $GITHUB_STEP_SUMMARY
+          echo "- Max URLs per seed: ${{ github.event.inputs.max_urls || '250' }}" >> $GITHUB_STEP_SUMMARY
           echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

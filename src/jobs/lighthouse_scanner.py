@@ -255,6 +255,7 @@ class LighthouseScannerJob:
         start_time: Optional[float] = None,
         skip_recently_scanned_days: int = 0,
         concurrency: int = 1,
+        max_urls: Optional[int] = None,
     ) -> Dict[str, Any]:
         """
         Run Lighthouse audits for all URLs in a country's TOON file.
@@ -277,6 +278,10 @@ class LighthouseScannerJob:
                 re-scan all URLs.
             concurrency: Maximum number of parallel Lighthouse processes.
                 Defaults to 1 (sequential).
+            max_urls: Maximum number of URLs to scan in a single run.  When
+                provided the URL list is capped at this value (after
+                skip_recently_scanned_days filtering) so each run completes
+                in a predictable time.  ``None`` = no limit.
 
         Returns:
             Scan statistics dictionary.
@@ -307,6 +312,13 @@ class LighthouseScannerJob:
                 )
 
         urls = [u for u in all_urls if u not in recently_scanned]
+        if max_urls is not None and max_urls > 0 and len(urls) > max_urls:
+            print(
+                f"Limiting scan to {max_urls}/{len(urls)} URLs "
+                f"(--max-urls cap applied)"
+            )
+            urls = urls[:max_urls]
+
         if not urls:
             print(f"All {len(all_urls)} URLs were recently scanned — nothing to do")
             output_path = (
@@ -374,6 +386,7 @@ class LighthouseScannerJob:
         max_runtime_seconds: Optional[float] = None,
         skip_recently_scanned_days: int = 0,
         concurrency: int = 1,
+        max_urls: Optional[int] = None,
     ) -> List[Dict[str, Any]]:
         """
         Run Lighthouse audits for all TOON files in a directory.
@@ -393,6 +406,8 @@ class LighthouseScannerJob:
                 scanned recently are prioritised when this is set.
             concurrency: Maximum number of parallel Lighthouse processes per
                 country.  Defaults to 1 (sequential).
+            max_urls: Maximum number of URLs to scan per country per run.
+                ``None`` = no limit.  See :meth:`scan_country`.
 
         Returns:
             List of scan statistics for each country processed.
@@ -442,6 +457,7 @@ class LighthouseScannerJob:
                     start_time=start_time,
                     skip_recently_scanned_days=skip_recently_scanned_days,
                     concurrency=concurrency,
+                    max_urls=max_urls,
                 )
                 all_stats.append(stats)
             except Exception as exc:

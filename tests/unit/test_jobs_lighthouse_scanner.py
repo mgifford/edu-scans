@@ -57,6 +57,27 @@ def sample_toon(tmp_path) -> Path:
 
 
 @pytest.fixture
+def large_toon(tmp_path) -> Path:
+    """A TOON file with five URLs for testing max_urls capping."""
+    data = {
+        "version": "0.1-seed",
+        "country": "BIGLAND",
+        "domains": [
+            {
+                "canonical_domain": "big.example",
+                "pages": [
+                    {"url": f"https://big.example/page{i}", "is_root_page": i == 1}
+                    for i in range(1, 6)
+                ],
+            }
+        ],
+    }
+    toon_file = tmp_path / "bigland.toon"
+    toon_file.write_text(json.dumps(data), encoding="utf-8")
+    return toon_file
+
+
+@pytest.fixture
 def empty_toon(tmp_path) -> Path:
     """A TOON file with no pages."""
     data = {"version": "0.1-seed", "country": "EMPTY", "domains": []}
@@ -307,9 +328,67 @@ async def test_scan_country_passes_max_runtime(temp_settings, sample_toon):
     assert kwargs["start_time"] == t0
 
 
-# ---------------------------------------------------------------------------
-# scan_all_countries
-# ---------------------------------------------------------------------------
+@pytest.mark.asyncio
+async def test_scan_country_respects_max_urls(temp_settings, large_toon):
+    """When max_urls is set, only that many URLs are passed to the scanner."""
+    job = _make_job(temp_settings)
+
+    captured_urls: list[list[str]] = []
+
+    async def _capture_batch(urls, **kwargs):
+        captured_urls.append(list(urls))
+        return {url: _make_result(url) for url in urls}
+
+    job.scanner.scan_urls_batch = _capture_batch
+
+    stats = await job.scan_country("BIGLAND", large_toon, max_urls=3)
+
+    assert len(captured_urls) == 1
+    assert len(captured_urls[0]) == 3
+    assert stats["total_urls"] == 5
+    assert stats["urls_scanned"] == 3
+
+
+@pytest.mark.asyncio
+async def test_scan_country_max_urls_none_scans_all(temp_settings, large_toon):
+    """When max_urls is None all URLs are passed to the scanner."""
+    job = _make_job(temp_settings)
+
+    captured_urls: list[list[str]] = []
+
+    async def _capture_batch(urls, **kwargs):
+        captured_urls.append(list(urls))
+        return {url: _make_result(url) for url in urls}
+
+    job.scanner.scan_urls_batch = _capture_batch
+
+    stats = await job.scan_country("BIGLAND", large_toon, max_urls=None)
+
+    assert len(captured_urls[0]) == 5
+    assert stats["total_urls"] == 5
+    assert stats["urls_scanned"] == 5
+
+
+@pytest.mark.asyncio
+async def test_scan_all_countries_forwards_max_urls(temp_settings, toon_seeds_dir):
+    """max_urls is forwarded from scan_all_countries to scan_country."""
+    job = _make_job(temp_settings)
+
+    received_max_urls: list = []
+
+    async def _mock_scan(country_code, toon_path, *args, **kwargs):
+        received_max_urls.append(kwargs.get("max_urls"))
+        return {"country_code": country_code, "total_urls": 1, "urls_scanned": 1}
+
+    job.scanner.scan_urls_batch = AsyncMock(return_value={})
+    with patch.object(job, "scan_country", side_effect=_mock_scan):
+        await job.scan_all_countries(toon_seeds_dir, max_urls=100)
+
+    assert all(v == 100 for v in received_max_urls)
+    assert len(received_max_urls) == 2
+
+
+
 
 
 @pytest.fixture
