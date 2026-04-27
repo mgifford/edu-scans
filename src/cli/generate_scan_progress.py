@@ -317,13 +317,12 @@ def update_index_progress(
         _country_label = f"**{_n}** {'country' if _n == 1 else 'countries'}"
         if total_available:
             buf.write(
-                f"{_country_label} with scan data · "
-                f"**{combined_total:,}** of **{total_available:,}** available pages confirmed reachable. "
+                f"Scan data **{combined_total:,}** of **{total_available:,}** available pages confirmed reachable. "
                 "See the [Scan Progress Report](scan-progress.md) for full details.\n\n"
             )
         else:
             buf.write(
-                f"{_country_label} with scan data. "
+
                 "See the [Scan Progress Report](scan-progress.md) for full details.\n\n"
             )
     else:
