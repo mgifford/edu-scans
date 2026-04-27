@@ -71,13 +71,34 @@ jobs:
 
       - name: Start local web server
         run: |
-          python3 -m http.server 4000 --directory _site >/tmp/axe-site-server.log 2>&1 &
+          # The site is built with the baseurl from docs/_config.yml (e.g. "/edu-scans").
+          # Serve it at the matching subpath so that CSS and asset links resolve correctly.
+          BASEURL=$(python3 -c "
+import yaml, sys
+try:
+    with open('docs/_config.yml') as f:
+        d = yaml.safe_load(f)
+    print(d.get('baseurl', '').strip('/'))
+except Exception as e:
+    print(f'Warning: could not read baseurl from docs/_config.yml: {e}', file=sys.stderr)
+    print('')
+" || echo "")
+          if [ -n "$BASEURL" ]; then
+            mkdir -p /tmp/axe-served/"$BASEURL"
+            cp -r _site/. /tmp/axe-served/"$BASEURL"/
+            python3 -m http.server 4000 --directory /tmp/axe-served >/tmp/axe-site-server.log 2>&1 &
+          else
+            python3 -m http.server 4000 --directory _site >/tmp/axe-site-server.log 2>&1 &
+          fi
+          echo "$BASEURL" > /tmp/axe-baseurl
           echo $! > /tmp/axe-site-server.pid
 
       - name: Wait for local web server
         run: |
+          BASEURL=$(cat /tmp/axe-baseurl 2>/dev/null || echo "")
+          CHECK_URL="http://127.0.0.1:4000${BASEURL:+/$BASEURL}/"
           for _ in 1 2 3 4 5 6 7 8 9 10; do
-            if curl --fail --silent http://127.0.0.1:4000/ >/dev/null; then
+            if curl --fail --silent "$CHECK_URL" >/dev/null; then
               exit 0
             fi
             sleep 1
@@ -89,8 +110,14 @@ jobs:
       - name: Run axe checks against generated pages
         env:
           A11Y_SITE_DIR: _site
-          A11Y_BASE_URL: http://127.0.0.1:4000
-        run: npm run test:a11y
+        run: |
+          BASEURL=$(cat /tmp/axe-baseurl 2>/dev/null || echo "")
+          if [ -n "$BASEURL" ]; then
+            export A11Y_BASE_URL="http://127.0.0.1:4000/$BASEURL"
+          else
+            export A11Y_BASE_URL="http://127.0.0.1:4000"
+          fi
+          npm run test:a11y
 
       - name: Stop local web server
         if: always()
