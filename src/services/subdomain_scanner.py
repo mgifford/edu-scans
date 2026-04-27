@@ -225,6 +225,7 @@ class SubdomainScanner:
         results: dict[str, ValidationResult] = await self._validator.validate_urls_batch(
             urls_to_validate,
             rate_limit_per_second=rate_limit_per_second,
+            verbose=False,
         )
 
         for prefix, subdomain, url in candidates:
