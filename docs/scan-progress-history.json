@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "date": "2026-04-27",
+    "total_available": 3763,
+    "accessibility_count": 3773,
+    "accessibility_pct": 100.3,
+    "social_count": 3749,
+    "social_pct": 99.6,
+    "technology_count": 3749,
+    "technology_pct": 99.6,
+    "third_party_js_count": 3034,
+    "third_party_js_pct": 80.6,
+    "lighthouse_count": 412,
+    "lighthouse_pct": 10.9
+  }
+]
