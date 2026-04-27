@@ -161,8 +161,8 @@ class UrlValidator:
                 timeout.
             verbose: When ``True`` (default) print a progress line and result
                 for every URL.  Set to ``False`` to suppress per-URL output
-                entirely; only the time-budget warning is still printed so
-                that callers can tell when a run was cut short.
+                while still printing time-budget warnings so callers can tell
+                when a run was cut short.
 
         Returns:
             Dictionary mapping URL to ValidationResult.  When stopped early
