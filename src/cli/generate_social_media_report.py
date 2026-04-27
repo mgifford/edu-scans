@@ -719,7 +719,7 @@ def _build_top100_section(
         "",
         "---",
         "",
-        "## Top 100 Universities — Social Media Presence",
+        "## Top 100 Universities - Social Media Presence",
         "",
         (
             "Social media presence for the top 100 US universities by national "
