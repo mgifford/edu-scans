@@ -322,6 +322,7 @@ class LighthouseScanner:
                     print(f"      ✓ perf={perf} a11y={a11y}")
 
         tasks: List[asyncio.Task] = []
+        stopped_early = False
         for idx, url in enumerate(urls, 1):
             if max_runtime_seconds is not None:
                 elapsed = time.monotonic() - _start
@@ -333,6 +334,7 @@ class LighthouseScanner:
                         f"{remaining / 60:.1f}m remaining) "
                         f"— stopping after submitting {len(tasks)}/{total} URLs"
                     )
+                    stopped_early = True
                     break
 
             tasks.append(asyncio.create_task(_scan_one_url(idx, url)))
@@ -341,9 +343,29 @@ class LighthouseScanner:
                 await asyncio.sleep(delay)
 
         if tasks:
-            task_results = await asyncio.gather(*tasks, return_exceptions=True)
-            for task_result in task_results:
-                if isinstance(task_result, BaseException):
-                    print(f"      ✗ Unexpected task error: {task_result}")
+            if stopped_early and max_runtime_seconds is not None:
+                # Give in-flight tasks the remainder of the budget, then cancel
+                # any that are still waiting for the semaphore (not yet scanning).
+                elapsed = time.monotonic() - _start
+                wait_budget = max(0.0, max_runtime_seconds - elapsed - _safety_buffer)
+                done, pending = await asyncio.wait(tasks, timeout=wait_budget)
+                for task in pending:
+                    task.cancel()
+                    try:
+                        await task
+                    except asyncio.CancelledError:
+                        pass
+                    except Exception as exc:  # noqa: BLE001
+                        print(f"      ✗ Unexpected error in cancelled task: {exc}")
+                # Surface any unexpected exceptions from completed tasks.
+                for task in done:
+                    exc = task.exception()
+                    if exc is not None:
+                        print(f"      ✗ Unexpected task error: {exc}")
+            else:
+                task_results = await asyncio.gather(*tasks, return_exceptions=True)
+                for task_result in task_results:
+                    if isinstance(task_result, BaseException):
+                        print(f"      ✗ Unexpected task error: {task_result}")
 
         return results

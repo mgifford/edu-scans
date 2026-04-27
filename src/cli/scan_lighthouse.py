@@ -94,6 +94,17 @@ def main():
         dest="only_categories",
     )
     parser.add_argument(
+        "--max-urls",
+        help=(
+            "Maximum number of URLs to scan per seed file per run "
+            "(default: no limit).  Set to 250 for reliable completion "
+            "within a 120-minute GitHub Actions job."
+        ),
+        type=int,
+        default=None,
+        dest="max_urls",
+    )
+    parser.add_argument(
         "--throttling-method",
         help=(
             "Lighthouse throttling method.  Use 'provided' to skip simulated "
@@ -148,6 +159,7 @@ def main():
                     max_runtime_seconds=max_runtime_seconds,
                     skip_recently_scanned_days=args.skip_recently_scanned_days,
                     concurrency=args.concurrency,
+                    max_urls=args.max_urls,
                 )
             )
 
@@ -191,6 +203,7 @@ def main():
                     max_runtime_seconds=max_runtime_seconds,
                     skip_recently_scanned_days=args.skip_recently_scanned_days,
                     concurrency=args.concurrency,
+                    max_urls=args.max_urls,
                 )
             )
 

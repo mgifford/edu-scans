@@ -246,6 +246,31 @@ async def test_scan_urls_batch_no_max_runtime_scans_all():
     assert len(results) == 3
 
 
+@pytest.mark.asyncio
+async def test_scan_urls_batch_cancels_pending_tasks_on_timeout():
+    """Tasks submitted before a time-budget break are cancelled, not left running."""
+    import time as time_mod
+
+    scanner = LighthouseScanner()
+    urls = [f"https://gov{i}.example/" for i in range(10)]
+    raw = _make_lighthouse_json()
+
+    # Budget almost exhausted before we even start (only ~30 s left, safety = 60 s).
+    past_start_time = time_mod.monotonic() - 9970
+
+    with patch.object(scanner, "_run_lighthouse", return_value=raw):
+        results = await scanner.scan_urls_batch(
+            urls,
+            rate_limit_per_second=0,
+            max_runtime_seconds=10000,
+            start_time=past_start_time,
+            concurrency=2,
+        )
+
+    # No tasks should have run (budget already expired before submission loop starts).
+    assert len(results) == 0
+
+
 # ---------------------------------------------------------------------------
 # LighthouseScanner._build_command
 # ---------------------------------------------------------------------------
