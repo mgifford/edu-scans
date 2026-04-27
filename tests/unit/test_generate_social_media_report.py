@@ -11,15 +11,19 @@ import pytest
 from src.cli.generate_social_media_report import (
     _build_interactive_block,
     _build_stats_block,
+    _build_top100_section,
     _build_sovereignty_section,
     _enrich_sovereignty_metrics,
     _legacy_exposure,
+    _load_top100_institution_metadata,
     _query_by_country,
     _query_metric_drilldowns_by_country,
     _query_platform_drilldowns_by_country,
     _query_summary,
+    _query_top100_results,
     _sovereignty_score,
     _sovereignty_tier,
+    _TOP100_COUNTRY_CODE,
     generate_social_media_report,
 )
 from src.storage.schema import initialize_schema
@@ -959,3 +963,382 @@ def test_build_interactive_block_uses_descriptive_site_link_labels():
     assert 'var linkLabel = _escHtml(_formatSiteLinkLabel(u));' in block
     assert '" homepage"' in block
     assert "_escHtml(u)" in block
+
+
+# ---------------------------------------------------------------------------
+# Tests for Top 100 functionality
+# ---------------------------------------------------------------------------
+
+def _make_top100_toon(path: Path, n: int = 5) -> None:
+    """Write a minimal top-100 TOON fixture with *n* institutions."""
+    domains = []
+    for i in range(1, n + 1):
+        domains.append({
+            "canonical_domain": f"rank{i}.edu",
+            "institution_name": f"Rank {i} Master Name",
+            "ranking": i,
+            "ranking_institution_name": f"Rank {i} University",
+            "pages": [{"url": f"https://rank{i}.edu/", "is_root_page": True}],
+        })
+    data = {
+        "version": "0.1-seed",
+        "country": _TOP100_COUNTRY_CODE,
+        "page_count": n,
+        "domains": domains,
+    }
+    path.write_text(json.dumps(data), encoding="utf-8")
+
+
+@pytest.fixture
+def top100_seeds_dir(tmp_path: Path) -> Path:
+    """Seeds directory containing a minimal top-100 TOON fixture."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    _make_top100_toon(seeds_dir / "usa-edu-top100.toon", n=5)
+    return seeds_dir
+
+
+@pytest.fixture
+def top100_db(tmp_path: Path) -> Path:
+    """DB with scan results for the top-100 country code."""
+    db_path = tmp_path / "test.db"
+    initialize_schema(f"sqlite:///{db_path}")
+    conn = sqlite3.connect(db_path)
+    try:
+        rows = [
+            (
+                "https://rank1.edu/", _TOP100_COUNTRY_CODE, "scan-001", 1,
+                '["https://twitter.com/rank1"]', '[]', '[]', '[]', '[]', '[]',
+                "twitter_only", "2024-06-01T10:00:00+00:00",
+            ),
+            (
+                "https://rank2.edu/", _TOP100_COUNTRY_CODE, "scan-001", 1,
+                '[]', '[]', '["https://bsky.app/profile/rank2"]', '[]', '[]', '[]',
+                "modern_only", "2024-06-01T10:01:00+00:00",
+            ),
+            (
+                "https://rank3.edu/", _TOP100_COUNTRY_CODE, "scan-001", 0,
+                '[]', '[]', '[]', '[]', '[]', '[]',
+                "unreachable", "2024-06-01T10:02:00+00:00",
+            ),
+        ]
+        for row in rows:
+            conn.execute(
+                """
+                INSERT INTO url_social_media_results
+                (url, country_code, scan_id, is_reachable,
+                 twitter_links, x_links, bluesky_links, mastodon_links,
+                 facebook_links, linkedin_links, social_tier, scanned_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                row,
+            )
+        conn.commit()
+    finally:
+        conn.close()
+    return db_path
+
+
+# --- _load_top100_institution_metadata ---
+
+def test_load_top100_metadata_missing_dir(tmp_path: Path):
+    """Should return empty list when seeds dir does not exist."""
+    result = _load_top100_institution_metadata(tmp_path / "nonexistent")
+    assert result == []
+
+
+def test_load_top100_metadata_missing_file(tmp_path: Path):
+    """Should return empty list when usa-edu-top100.toon is absent."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    result = _load_top100_institution_metadata(seeds_dir)
+    assert result == []
+
+
+def test_load_top100_metadata_sorted_by_rank(top100_seeds_dir: Path):
+    """Returned list must be sorted ascending by rank."""
+    result = _load_top100_institution_metadata(top100_seeds_dir)
+    assert len(result) == 5
+    ranks = [r["rank"] for r in result]
+    assert ranks == sorted(ranks)
+
+
+def test_load_top100_metadata_fields(top100_seeds_dir: Path):
+    """Each entry must contain rank, institution_name, canonical_domain, url."""
+    result = _load_top100_institution_metadata(top100_seeds_dir)
+    first = result[0]
+    assert first["rank"] == 1
+    assert first["institution_name"] == "Rank 1 University"   # ranking_institution_name
+    assert first["canonical_domain"] == "rank1.edu"
+    assert first["url"] == "https://rank1.edu/"
+
+
+def test_load_top100_metadata_falls_back_to_master_name(tmp_path: Path):
+    """When ranking_institution_name is absent, falls back to institution_name."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    data = {
+        "country": _TOP100_COUNTRY_CODE,
+        "page_count": 1,
+        "domains": [{
+            "canonical_domain": "test.edu",
+            "institution_name": "Test University",
+            "ranking": 1,
+            # no ranking_institution_name
+            "pages": [{"url": "https://test.edu/", "is_root_page": True}],
+        }],
+    }
+    (seeds_dir / "usa-edu-top100.toon").write_text(json.dumps(data))
+    result = _load_top100_institution_metadata(seeds_dir)
+    assert len(result) == 1
+    assert result[0]["institution_name"] == "Test University"
+
+
+# --- _query_top100_results ---
+
+def test_query_top100_results_empty_db(empty_db: Path):
+    """Should return empty dict when no top-100 rows exist."""
+    conn = sqlite3.connect(empty_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_top100_results(conn)
+    finally:
+        conn.close()
+    assert result == {}
+
+
+def test_query_top100_results_populated(top100_db: Path):
+    """Should return a dict keyed by URL for top-100 scan results."""
+    conn = sqlite3.connect(top100_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_top100_results(conn)
+    finally:
+        conn.close()
+
+    assert len(result) == 3
+    assert "https://rank1.edu/" in result
+    assert result["https://rank1.edu/"]["social_tier"] == "twitter_only"
+    assert result["https://rank2.edu/"]["social_tier"] == "modern_only"
+    assert result["https://rank3.edu/"]["is_reachable"] == 0
+
+
+def test_query_top100_results_only_includes_top100_country(populated_db: Path):
+    """Results from other country codes must not appear in the top-100 query."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_top100_results(conn)
+    finally:
+        conn.close()
+    # populated_db has ICELAND and FRANCE rows, not USA_EDU_TOP100
+    assert result == {}
+
+
+def test_query_top100_results_deduplicates_by_url(tmp_path: Path):
+    """When a URL appears in multiple scan batches, only the most recent row is kept."""
+    db_path = tmp_path / "test.db"
+    initialize_schema(f"sqlite:///{db_path}")
+    conn = sqlite3.connect(db_path)
+    try:
+        for scan_id, tier, ts in [
+            ("scan-001", "twitter_only", "2024-06-01T10:00:00"),
+            ("scan-002", "no_social",   "2024-06-02T10:00:00"),
+        ]:
+            conn.execute(
+                """
+                INSERT INTO url_social_media_results
+                (url, country_code, scan_id, is_reachable,
+                 twitter_links, x_links, bluesky_links, mastodon_links,
+                 facebook_links, linkedin_links, social_tier, scanned_at)
+                VALUES (?, ?, ?, 1, '[]', '[]', '[]', '[]', '[]', '[]', ?, ?)
+                """,
+                ("https://rank1.edu/", _TOP100_COUNTRY_CODE, scan_id, tier, ts),
+            )
+        conn.commit()
+        conn.row_factory = sqlite3.Row
+        result = _query_top100_results(conn)
+    finally:
+        conn.close()
+
+    assert len(result) == 1
+    assert result["https://rank1.edu/"]["social_tier"] == "no_social"
+
+
+# --- _build_top100_section ---
+
+def test_build_top100_section_empty_meta():
+    """Should return empty list when institution_meta is empty."""
+    assert _build_top100_section([], {}) == []
+
+
+def test_build_top100_section_renders_all_institutions():
+    """Should render one row per institution regardless of scan status."""
+    meta = [
+        {"rank": 1, "institution_name": "Alpha U", "url": "https://alpha.edu/"},
+        {"rank": 2, "institution_name": "Beta U", "url": "https://beta.edu/"},
+    ]
+    url_results = {
+        "https://alpha.edu/": {
+            "social_tier": "twitter_only",
+            "is_reachable": 1,
+            "twitter_links": '["https://twitter.com/alpha"]',
+            "x_links": "[]",
+            "facebook_links": "[]",
+            "linkedin_links": "[]",
+            "bluesky_links": "[]",
+            "mastodon_links": "[]",
+        },
+    }
+    lines = _build_top100_section(meta, url_results)
+    text = "\n".join(lines)
+
+    assert "Alpha U" in text
+    assert "Beta U" in text
+    assert "⚠️ Legacy-only" in text          # alpha.edu tier
+    assert "*Not yet scanned*" in text       # beta.edu not in url_results
+
+
+def test_build_top100_section_includes_heading():
+    """Should emit a '## Top 100 Universities' section heading."""
+    meta = [{"rank": 1, "institution_name": "Test U", "url": "https://test.edu/"}]
+    lines = _build_top100_section(meta, {})
+    text = "\n".join(lines)
+    assert "## Top 100 Universities" in text
+
+
+def test_build_top100_section_unreachable_tier():
+    """Unreachable pages should show the unreachable tier label."""
+    meta = [{"rank": 1, "institution_name": "Down U", "url": "https://down.edu/"}]
+    url_results = {
+        "https://down.edu/": {
+            "social_tier": "no_social",
+            "is_reachable": 0,
+            "twitter_links": "[]", "x_links": "[]",
+            "facebook_links": "[]", "linkedin_links": "[]",
+            "bluesky_links": "[]", "mastodon_links": "[]",
+        },
+    }
+    lines = _build_top100_section(meta, url_results)
+    text = "\n".join(lines)
+    assert "❌ Unreachable" in text
+
+
+def test_build_top100_section_scanned_count_summary():
+    """Footer line should report the number of scanned vs total institutions."""
+    meta = [
+        {"rank": 1, "institution_name": "A U", "url": "https://a.edu/"},
+        {"rank": 2, "institution_name": "B U", "url": "https://b.edu/"},
+        {"rank": 3, "institution_name": "C U", "url": "https://c.edu/"},
+    ]
+    url_results = {
+        "https://a.edu/": {
+            "social_tier": "no_social", "is_reachable": 1,
+            "twitter_links": "[]", "x_links": "[]",
+            "facebook_links": "[]", "linkedin_links": "[]",
+            "bluesky_links": "[]", "mastodon_links": "[]",
+        },
+    }
+    lines = _build_top100_section(meta, url_results)
+    text = "\n".join(lines)
+    # 1 of 3 scanned
+    assert "1 of 3" in text
+
+
+# --- _build_stats_block includes top100 section ---
+
+def test_build_stats_block_with_top100_meta():
+    """Stats block should include the Top 100 table when top100_meta is provided."""
+    summary = {
+        "total_batches": 1,
+        "total_scanned": 100,
+        "total_reachable": 90,
+        "twitter_pages": 10,
+        "x_pages": 5,
+        "bluesky_pages": 3,
+        "mastodon_pages": 2,
+        "facebook_pages": 8,
+        "linkedin_pages": 7,
+        "last_scan": "2024-06-01T12:00:00",
+    }
+    meta = [{"rank": 1, "institution_name": "Harvard University", "url": "https://harvard.edu/"}]
+    block = _build_stats_block(
+        summary,
+        "2024-06-01 12:00 UTC",
+        top100_meta=meta,
+        top100_results={},
+    )
+    assert "## Top 100 Universities" in block
+    assert "Harvard University" in block
+    assert "*Not yet scanned*" in block
+
+
+def test_build_stats_block_without_top100_meta():
+    """Stats block should not include the Top 100 section when top100_meta is absent."""
+    summary = {
+        "total_batches": 1,
+        "total_scanned": 100,
+        "total_reachable": 90,
+        "twitter_pages": 10, "x_pages": 5, "bluesky_pages": 3,
+        "mastodon_pages": 2, "facebook_pages": 8, "linkedin_pages": 7,
+        "last_scan": "2024-06-01T12:00:00",
+    }
+    block = _build_stats_block(summary, "2024-06-01 12:00 UTC")
+    assert "## Top 100 Universities" not in block
+
+
+# --- Institution Group table heading ---
+
+def test_stats_block_uses_institution_group_heading(populated_db: Path):
+    """The per-seed table should be titled 'Social Media Scan by Institution Group'."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        summary = _query_summary(conn)
+        by_country = _query_by_country(conn)
+    finally:
+        conn.close()
+
+    block = _build_stats_block(summary, "2024-06-01 12:00 UTC", by_country=by_country)
+    assert "## Social Media Scan by Institution Group" in block
+    assert "## Social Media Scan by Country" not in block
+
+
+# --- Full report integration with top100 ---
+
+def test_generate_social_media_report_with_top100(
+    top100_db: Path, top100_seeds_dir: Path, tmp_path: Path
+):
+    """Full report generation should include Top 100 section when seed file exists."""
+    page_path = tmp_path / "social-media.md"
+    page_path.write_text(_SOCIAL_MEDIA_PAGE_TEMPLATE)
+    data_path = tmp_path / "social-media-data.json"
+
+    result = generate_social_media_report(top100_db, page_path, data_path, top100_seeds_dir)
+
+    assert result is True
+    content = page_path.read_text()
+    assert "## Top 100 Universities" in content
+    assert "Rank 1 University" in content
+
+    data = json.loads(data_path.read_text())
+    assert "top100_institutions" in data
+    assert len(data["top100_institutions"]) == 5
+
+
+def test_generate_social_media_report_top100_json_fields(
+    top100_db: Path, top100_seeds_dir: Path, tmp_path: Path
+):
+    """JSON data file top100_institutions should contain expected fields."""
+    page_path = tmp_path / "social-media.md"
+    page_path.write_text(_SOCIAL_MEDIA_PAGE_TEMPLATE)
+    data_path = tmp_path / "social-media-data.json"
+
+    generate_social_media_report(top100_db, page_path, data_path, top100_seeds_dir)
+
+    data = json.loads(data_path.read_text())
+    inst = data["top100_institutions"][0]
+    assert inst["rank"] == 1
+    assert "institution_name" in inst
+    assert "canonical_domain" in inst
+    assert "url" in inst

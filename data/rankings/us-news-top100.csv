@@ -1,0 +1,101 @@
+rank,institution_name,primary_domain
+1,Massachusetts Institute of Technology,mit.edu
+2,Stanford University,stanford.edu
+3,Harvard University,harvard.edu
+4,Princeton University,princeton.edu
+5,California Institute of Technology,caltech.edu
+6,Yale University,yale.edu
+7,Columbia University,columbia.edu
+8,The University of Chicago,uchicago.edu
+9,University of Pennsylvania,upenn.edu
+10,Johns Hopkins University,jh.edu
+11,Northwestern University,northwestern.edu
+12,Duke University,duke.edu
+13,Dartmouth College,dartmouth.edu
+14,Brown University,brown.edu
+15,Vanderbilt University,vanderbilt.edu
+16,Rice University,rice.edu
+17,University of Notre Dame,notredame.edu
+18,University of California Los Angeles,ucla.edu
+19,Georgetown University,georgetown.edu
+20,Emory University,emory.edu
+21,University of California Berkeley,berkeley.edu
+22,Carnegie Mellon University,carnegiemellon.edu
+23,University of California San Diego,ucsd.edu
+24,Tufts University,tufts.edu
+25,University of Florida,uf.edu
+26,University of North Carolina at Chapel Hill,unc.edu
+27,University of Rochester,rochester.edu
+28,Boston College,bc.edu
+29,Case Western Reserve University,case.edu
+30,Georgia Institute of Technology,gatech.edu
+31,Wake Forest University,wakeforest.edu
+32,New York University,nyu.edu
+33,Tulane University,tulane.edu
+34,University of Southern California,isi.edu
+35,Boston University,bu.edu
+36,Ohio State University,ohio-state.edu
+37,Lehigh University,lehigh.edu
+38,Pennsylvania State University,psu.edu
+39,Purdue University,purdue.edu
+40,University of Virginia,virginia.edu
+41,University of Michigan,umich.edu
+42,Florida State University,fsu.edu
+43,University of Georgia,uga.edu
+44,University of Texas at Austin,utexas.edu
+45,University of Wisconsin Madison,wisc.edu
+46,University of Illinois Urbana-Champaign,uillinois.edu
+47,University of California Irvine,uci.edu
+48,Indiana University Bloomington,indiana.edu
+49,Brandeis University,brandeis.edu
+50,University of California Davis,ucdavis.edu
+51,Rutgers The State University of New Jersey,rutgers.edu
+52,College of William and Mary,wm.edu
+53,University of Maryland College Park,umd.edu
+54,University of Pittsburgh,pitt.edu
+55,University of Minnesota Twin Cities,umn.edu
+56,Michigan State University,msu.edu
+57,Arizona State University,asu.edu
+58,University of Colorado Boulder,colorado.edu
+59,University of Utah,utah.edu
+60,University of Connecticut,uconn.edu
+61,George Washington University,gwu.edu
+62,American University,american.edu
+63,Northeastern University,northeastern.edu
+64,George Mason University,gmu.edu
+65,Fordham University,fordham.edu
+66,Texas A&M University,tamu.edu
+67,University of Kansas,ku.edu
+68,Oregon State University,oregonstate.edu
+69,Colorado State University,colostate.edu
+70,Virginia Tech,vt.edu
+71,University of Iowa,uiowa.edu
+72,Iowa State University,iastate.edu
+73,University of Nebraska Lincoln,unl.edu
+74,University of Arkansas,uark.edu
+75,Stony Brook University,stonybrook.edu
+76,University of Arizona,arizona.edu
+77,University of Alabama,ua.edu
+78,Louisiana State University,lsu.edu
+79,University of Kentucky,uky.edu
+80,University of Tennessee,utk.edu
+81,University of Missouri,missouri.edu
+82,Kansas State University,ksu.edu
+83,University of Mississippi,olemiss.edu
+84,University of Oregon,uoregon.edu
+85,University of Nevada Las Vegas,unlv.edu
+86,Baylor University,baylor.edu
+87,Southern Methodist University,smu.edu
+88,University of Miami,miami.edu
+89,Villanova University,villanova.edu
+90,St. John's University,stjohns.edu
+91,Marquette University,marquette.edu
+92,Santa Clara University,scu.edu
+93,University of Denver,du.edu
+94,Texas Christian University,tcu.edu
+95,Drexel University,drexel.edu
+96,Howard University,howard.edu
+97,Clark Atlanta University,cau.edu
+98,Xavier University of Louisiana,xula.edu
+99,Spelman College,spelman.edu
+100,Morehouse College,morehouse.edu

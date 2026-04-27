@@ -31,6 +31,9 @@ _STATS_MARKER_START = "<!-- SOCIAL_MEDIA_STATS_START -->"
 _STATS_MARKER_END = "<!-- SOCIAL_MEDIA_STATS_END -->"
 
 
+# Country code for the Top 100 TOON seed file.
+_TOP100_COUNTRY_CODE = "USA_EDU_TOP100"
+
 # ---------------------------------------------------------------------------
 # Toon seed helpers
 # ---------------------------------------------------------------------------
@@ -53,6 +56,61 @@ def _count_toon_seed_urls(toon_seeds_dir: Path) -> dict[str, int]:
         country_code = country_filename_to_code(toon_file.stem)
         counts[country_code] = int(data.get("page_count") or 0)
     return counts
+
+
+def _load_top100_institution_metadata(toon_seeds_dir: Path) -> list[dict]:
+    """Return per-institution metadata from the Top 100 TOON seed file.
+
+    Reads ``usa-edu-top100.toon`` from *toon_seeds_dir* (if it exists) and
+    returns a list of dicts — one per domain entry — sorted ascending by
+    ``ranking``.  Each dict contains at minimum:
+
+    - ``rank`` (int): numeric position in the ranking list.
+    - ``institution_name`` (str): display name for the institution.
+    - ``canonical_domain`` (str): primary domain.
+    - ``url`` (str): first page URL extracted from ``pages``, or an empty
+      string when the pages list is absent.
+
+    Returns an empty list when the TOON file does not exist or cannot be
+    parsed.
+
+    Args:
+        toon_seeds_dir: Directory containing ``*.toon`` seed files.
+
+    Returns:
+        List of institution metadata dicts sorted by rank ascending.
+    """
+    if not toon_seeds_dir or not toon_seeds_dir.is_dir():
+        return []
+
+    toon_path = toon_seeds_dir / "usa-edu-top100.toon"
+    if not toon_path.exists():
+        return []
+
+    try:
+        data = json.loads(toon_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+
+    institutions: list[dict] = []
+    for entry in data.get("domains", []):
+        ranking = entry.get("ranking")
+        if ranking is None:
+            continue
+        pages = entry.get("pages", [])
+        url = pages[0].get("url", "") if pages else ""
+        # Use the rankings CSV name when available; fall back to the
+        # master-TOON institution_name.
+        name = entry.get("ranking_institution_name") or entry.get("institution_name", "")
+        institutions.append({
+            "rank": int(ranking),
+            "institution_name": name,
+            "canonical_domain": entry.get("canonical_domain", ""),
+            "url": url,
+        })
+
+    institutions.sort(key=lambda r: r["rank"])
+    return institutions
 
 
 # ---------------------------------------------------------------------------
@@ -335,6 +393,50 @@ def _query_by_country(conn: sqlite3.Connection) -> list[dict]:
     return [dict(r) for r in rows]
 
 
+def _query_top100_results(conn: sqlite3.Connection) -> dict[str, dict]:
+    """Return the most recent social media scan result per URL for the Top 100.
+
+    Queries ``url_social_media_results`` where ``country_code`` equals
+    :data:`_TOP100_COUNTRY_CODE` and returns the most-recent row per URL.
+    Columns returned match the platform link columns tracked by the scanner.
+
+    Args:
+        conn: Open SQLite connection with ``row_factory = sqlite3.Row``.
+
+    Returns:
+        Mapping of URL → dict with keys ``social_tier``, ``twitter_links``,
+        ``x_links``, ``bluesky_links``, ``mastodon_links``, ``facebook_links``,
+        ``linkedin_links``, ``is_reachable``, and ``scanned_at``.
+        Returns an empty dict when no rows exist for the Top 100 country code.
+    """
+    rows = conn.execute(
+        """
+        SELECT
+            url,
+            is_reachable,
+            twitter_links,
+            x_links,
+            bluesky_links,
+            mastodon_links,
+            facebook_links,
+            linkedin_links,
+            social_tier,
+            scanned_at
+        FROM url_social_media_results
+        WHERE country_code = ?
+        ORDER BY url, scanned_at DESC
+        """,
+        (_TOP100_COUNTRY_CODE,),
+    ).fetchall()
+
+    result: dict[str, dict] = {}
+    for row in rows:
+        url = row["url"]
+        if url not in result:
+            result[url] = dict(row)
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Digital Sovereignty helpers
 # ---------------------------------------------------------------------------
@@ -546,6 +648,121 @@ def _build_pie_svg(
 
 
 # ---------------------------------------------------------------------------
+# Top 100 section builder
+# ---------------------------------------------------------------------------
+
+# Tier display labels: maps internal tier keys to short Markdown strings.
+_TIER_DISPLAY: dict[str, str] = {
+    "twitter_only": "⚠️ Legacy-only",
+    "modern_only": "🌟 Modern-only",
+    "mixed": "🔀 Mixed",
+    "no_social": "✅ No Social",
+    "unreachable": "❌ Unreachable",
+}
+
+
+def _build_top100_section(
+    institution_meta: list[dict],
+    url_results: dict[str, dict],
+) -> list[str]:
+    """Return Markdown lines for the Top 100 Universities social media table.
+
+    Renders an ordered table (rank ascending) with one row per ranked
+    institution showing the institution name, social media tier, and a
+    compact platform presence summary.  Institutions not yet scanned are
+    shown with a "—" tier so the table is always complete.
+
+    Args:
+        institution_meta: List of dicts from
+            :func:`_load_top100_institution_metadata`, sorted ascending by
+            ``rank``.
+        url_results: Mapping of URL → scan result dict from
+            :func:`_query_top100_results`.
+
+    Returns:
+        List of Markdown line strings (empty list when *institution_meta* is
+        empty).
+    """
+    if not institution_meta:
+        return []
+
+    def _has(result: dict | None, column: str) -> bool:
+        """Return True when a platform link column is non-empty."""
+        if result is None:
+            return False
+        raw = result.get(column) or "[]"
+        try:
+            return bool(json.loads(raw))
+        except json.JSONDecodeError:
+            return False
+
+    def _platform_icons(result: dict | None) -> str:
+        """Return compact emoji icons for present platforms."""
+        if result is None:
+            return "—"
+        icons: list[str] = []
+        if _has(result, "twitter_links"):
+            icons.append("🐦 Twitter")
+        if _has(result, "x_links"):
+            icons.append("✖ X")
+        if _has(result, "facebook_links"):
+            icons.append("👍 Facebook")
+        if _has(result, "linkedin_links"):
+            icons.append("💼 LinkedIn")
+        if _has(result, "bluesky_links"):
+            icons.append("🦋 Bluesky")
+        if _has(result, "mastodon_links"):
+            icons.append("🐘 Mastodon")
+        return ", ".join(icons) if icons else "*(none)*"
+
+    lines: list[str] = [
+        "",
+        "---",
+        "",
+        "## Top 100 Universities - Social Media Presence",
+        "",
+        (
+            "Social media presence for the top 100 US universities by national "
+            "ranking. **Tier** shows the overall classification for each "
+            "institution's homepage. **Platforms** lists which social media "
+            "networks were detected. Rows with *Not yet scanned* have not been "
+            "included in a scan run yet."
+        ),
+        "",
+        "| Rank | Institution | Tier | Platforms |",
+        "|-----:|-------------|------|-----------|",
+    ]
+
+    for inst in institution_meta:
+        rank = inst["rank"]
+        name = inst["institution_name"]
+        url = inst["url"]
+        result = url_results.get(url)
+
+        if result is None:
+            tier_str = "*Not yet scanned*"
+            platform_str = "—"
+        else:
+            tier_key = result.get("social_tier") or "no_social"
+            tier_str = _TIER_DISPLAY.get(tier_key, tier_key)
+            if not result.get("is_reachable"):
+                tier_str = _TIER_DISPLAY["unreachable"]
+            platform_str = _platform_icons(result)
+
+        lines.append(f"| {rank} | {name} | {tier_str} | {platform_str} |")
+
+    # Summary counts
+    scanned = sum(1 for i in institution_meta if url_results.get(i["url"]) is not None)
+    total = len(institution_meta)
+    lines += [
+        "",
+        f"*{scanned} of {total} ranked institutions scanned so far.*",
+    ]
+
+    return lines
+
+
+# ---------------------------------------------------------------------------
 # Stats block builder
 # ---------------------------------------------------------------------------
 
@@ -556,6 +773,8 @@ def _build_stats_block(
     by_country: list[dict] | None = None,
     seed_counts: dict[str, int] | None = None,
     twitter_x_urls: dict[str, list[str]] | None = None,
+    top100_meta: list[dict] | None = None,
+    top100_results: dict[str, dict] | None = None,
 ) -> str:
     """Return a Markdown stats block to inject between the markers.
 
@@ -573,6 +792,12 @@ def _build_stats_block(
         twitter_x_urls: Deprecated. Retained for backwards compatibility with
             older tests while the drilldown UI now reads from
             ``social-media-data.json`` directly.
+        top100_meta: Per-institution metadata list from
+            :func:`_load_top100_institution_metadata`.  When provided (and
+            non-empty), a "Top 100 Universities" ranked table is appended.
+        top100_results: Per-URL scan results for the Top 100 from
+            :func:`_query_top100_results`.  Required alongside *top100_meta*
+            to populate the ranked table.
     """
     if not summary or not summary.get("total_scanned"):
         return (
@@ -737,9 +962,9 @@ def _build_stats_block(
             "",
             "---",
             "",
-            "## Social Media Scan by Country",
+            "## Social Media Scan by Institution Group",
             "",
-            "**Available**: all government pages tracked in our domain list. "
+            "**Available**: all pages tracked in our domain list. "
             "**Reachable**: of those scanned, pages that returned a valid HTTP response "
             "(not an error or timeout). "
             "**Sov. Score**: Digital Sovereignty Score — % of reachable pages with "
@@ -793,6 +1018,12 @@ def _build_stats_block(
             "(https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).",
         ]
 
+    # Top 100 Universities ranked table
+    if top100_meta:
+        lines += _build_top100_section(
+            top100_meta,
+            top100_results or {},
+        )
 
     lines += [
         "",
@@ -1234,6 +1465,7 @@ def generate_social_media_report(
         by_country: list[dict] = []
         platform_drilldowns: dict[str, dict[str, list[dict[str, object]]]] = {}
         metric_drilldowns: dict[str, dict[str, list[dict[str, object]]]] = {}
+        top100_results: dict[str, dict] = {}
     else:
         conn = sqlite3.connect(db_path)
         conn.row_factory = sqlite3.Row
@@ -1242,11 +1474,15 @@ def generate_social_media_report(
             by_country = _query_by_country(conn)
             platform_drilldowns = _query_platform_drilldowns_by_country(conn)
             metric_drilldowns = _query_metric_drilldowns_by_country(conn)
+            top100_results = _query_top100_results(conn)
         finally:
             conn.close()
 
     seed_counts = _count_toon_seed_urls(toon_seeds_dir) if toon_seeds_dir else {}
     total_available = sum(seed_counts.values())
+
+    # Load Top 100 institution metadata from the seed file (if present).
+    top100_meta = _load_top100_institution_metadata(toon_seeds_dir) if toon_seeds_dir else []
 
     # --- write the JSON data file -----------------------------------------
     data_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1271,6 +1507,7 @@ def generate_social_media_report(
         "by_country": enriched_by_country,
         "platform_drilldowns": platform_drilldowns,
         "metric_drilldowns": metric_drilldowns,
+        "top100_institutions": top100_meta,
     }
     data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Data file written: {data_path}")
@@ -1298,6 +1535,8 @@ def generate_social_media_report(
         total_available,
         by_country,
         seed_counts,
+        top100_meta=top100_meta,
+        top100_results=top100_results,
     )
     new_content = (
         content[:start_idx]
@@ -1324,6 +1563,8 @@ def generate_social_media_report(
     print(f"X pages      : {summary.get('x_pages', 0):,}")
     print(f"Bluesky pages: {summary.get('bluesky_pages', 0):,}")
     print(f"Mastodon pages:{summary.get('mastodon_pages', 0):,}")
+    if top100_meta:
+        print(f"Top 100 scanned: {len(top100_results)}/{len(top100_meta)}")
     print("=" * 60)
 
     return True

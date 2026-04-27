@@ -1,0 +1,2851 @@
+{
+  "version": "0.1-seed",
+  "country": "USA_EDU_TOP100",
+  "dataset_scope": "Top 100 US higher-education institutions by national university ranking",
+  "ranking_source": "us-news-top100.csv",
+  "institution_count": 100,
+  "parent_group_count": 0,
+  "page_count": 100,
+  "domains": [
+    {
+      "canonical_domain": "mit.edu",
+      "institution_name": "Massachusetts Institute of Technology",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "mit.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://mit.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 1,
+      "ranking_institution_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "canonical_domain": "stanford.edu",
+      "institution_name": "Stanford University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "stanford.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://stanford.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 2,
+      "ranking_institution_name": "Stanford University"
+    },
+    {
+      "canonical_domain": "harvard.edu",
+      "institution_name": "Harvard University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "harvard.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://harvard.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 3,
+      "ranking_institution_name": "Harvard University"
+    },
+    {
+      "canonical_domain": "princeton.edu",
+      "institution_name": "Princeton University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "princeton.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://princeton.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 4,
+      "ranking_institution_name": "Princeton University"
+    },
+    {
+      "canonical_domain": "caltech.edu",
+      "institution_name": "California Institute of Technology",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "caltech.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://caltech.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 5,
+      "ranking_institution_name": "California Institute of Technology"
+    },
+    {
+      "canonical_domain": "yale.edu",
+      "institution_name": "Yale University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "yale.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://yale.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 6,
+      "ranking_institution_name": "Yale University"
+    },
+    {
+      "canonical_domain": "columbia.edu",
+      "institution_name": "Columbia University in the City of New York",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "columbia.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://columbia.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 7,
+      "ranking_institution_name": "Columbia University"
+    },
+    {
+      "canonical_domain": "uchicago.edu",
+      "institution_name": "The University of Chicago",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uchicago.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uchicago.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 8,
+      "ranking_institution_name": "The University of Chicago"
+    },
+    {
+      "canonical_domain": "upenn.edu",
+      "institution_name": "University of Pennsylvania",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "upenn.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://upenn.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 9,
+      "ranking_institution_name": "University of Pennsylvania"
+    },
+    {
+      "canonical_domain": "jh.edu",
+      "institution_name": "Johns Hopkins University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "jh.edu",
+        "jhu.edu",
+        "johnshopkins.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://jh.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 10,
+      "ranking_institution_name": "Johns Hopkins University"
+    },
+    {
+      "canonical_domain": "northwestern.edu",
+      "institution_name": "Northwestern University In Qatar",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "northwestern.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://northwestern.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 11,
+      "ranking_institution_name": "Northwestern University"
+    },
+    {
+      "canonical_domain": "duke.edu",
+      "institution_name": "Duke University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "duke.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://duke.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 12,
+      "ranking_institution_name": "Duke University"
+    },
+    {
+      "canonical_domain": "dartmouth.edu",
+      "institution_name": "Dartmouth College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "dartmouth.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://dartmouth.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 13,
+      "ranking_institution_name": "Dartmouth College"
+    },
+    {
+      "canonical_domain": "brown.edu",
+      "institution_name": "Brown University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "brown.edu",
+        "brownaveda.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://brown.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 14,
+      "ranking_institution_name": "Brown University"
+    },
+    {
+      "canonical_domain": "vanderbilt.edu",
+      "institution_name": "Vanderbilt University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "vanderbilt.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://vanderbilt.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 15,
+      "ranking_institution_name": "Vanderbilt University"
+    },
+    {
+      "canonical_domain": "rice.edu",
+      "institution_name": "Rice University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "rice.edu",
+        "richardjdaleycollege.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://rice.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 16,
+      "ranking_institution_name": "Rice University"
+    },
+    {
+      "canonical_domain": "notredame.edu",
+      "institution_name": "Notre Dame College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "notredame.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory"
+      ],
+      "pages": [
+        {
+          "url": "https://notredame.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 17,
+      "ranking_institution_name": "University of Notre Dame"
+    },
+    {
+      "canonical_domain": "ucla.edu",
+      "institution_name": "University of California, Los Angeles",
+      "parent_institution": "University of California",
+      "affiliated_domains": [
+        "ucla.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://ucla.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 18,
+      "ranking_institution_name": "University of California Los Angeles"
+    },
+    {
+      "canonical_domain": "georgetown.edu",
+      "institution_name": "Georgetown University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "georgetown.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://georgetown.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 19,
+      "ranking_institution_name": "Georgetown University"
+    },
+    {
+      "canonical_domain": "emory.edu",
+      "institution_name": "Emory University Home Page",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "emory.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://emory.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 20,
+      "ranking_institution_name": "Emory University"
+    },
+    {
+      "canonical_domain": "berkeley.edu",
+      "institution_name": "University of California, Berkeley",
+      "parent_institution": "University of California",
+      "affiliated_domains": [
+        "berkeley.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://berkeley.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 21,
+      "ranking_institution_name": "University of California Berkeley"
+    },
+    {
+      "canonical_domain": "carnegiemellon.edu",
+      "institution_name": "Carnegie Mellon University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "carnegiemellon.edu",
+        "cmu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://cmu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 22,
+      "ranking_institution_name": "Carnegie Mellon University"
+    },
+    {
+      "canonical_domain": "ucsd.edu",
+      "institution_name": "University of California San Diego",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "ucsd.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://ucsd.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 23
+    },
+    {
+      "canonical_domain": "tufts.edu",
+      "institution_name": "Tufts University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "tufts.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://tufts.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 24,
+      "ranking_institution_name": "Tufts University"
+    },
+    {
+      "canonical_domain": "uf.edu",
+      "institution_name": "University of Florida",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uf.edu",
+        "ufl.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uf.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 25,
+      "ranking_institution_name": "University of Florida"
+    },
+    {
+      "canonical_domain": "unc.edu",
+      "institution_name": "University of North Carolina at Chapel Hill",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "unc.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://unc.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 26,
+      "ranking_institution_name": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "canonical_domain": "rochester.edu",
+      "institution_name": "University of Rochester",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "rochester.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://rochester.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 27,
+      "ranking_institution_name": "University of Rochester"
+    },
+    {
+      "canonical_domain": "bc.edu",
+      "institution_name": "Boston College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "bc.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://bc.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 28,
+      "ranking_institution_name": "Boston College"
+    },
+    {
+      "canonical_domain": "case.edu",
+      "institution_name": "Case Western Reserve University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "case.edu",
+        "cwru.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://case.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 29,
+      "ranking_institution_name": "Case Western Reserve University"
+    },
+    {
+      "canonical_domain": "gatech.edu",
+      "institution_name": "Georgia Institute of Technology",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "gatech.edu",
+        "gateway.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://gatech.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 30,
+      "ranking_institution_name": "Georgia Institute of Technology"
+    },
+    {
+      "canonical_domain": "wakeforest.edu",
+      "institution_name": "Wake Forest University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "wakeforest.edu",
+        "wfu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://wakeforest.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 31,
+      "ranking_institution_name": "Wake Forest University"
+    },
+    {
+      "canonical_domain": "nyu.edu",
+      "institution_name": "New York University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "nyu.edu",
+        "nyuivf.edu",
+        "o.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://nyu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 32,
+      "ranking_institution_name": "New York University"
+    },
+    {
+      "canonical_domain": "tulane.edu",
+      "institution_name": "The Tulane University of New Orleans",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "tulane.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://tulane.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 33,
+      "ranking_institution_name": "Tulane University"
+    },
+    {
+      "canonical_domain": "isi.edu",
+      "institution_name": "University of Southern California",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "isi.edu",
+        "usc.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://isi.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 34,
+      "ranking_institution_name": "University of Southern California"
+    },
+    {
+      "canonical_domain": "bu.edu",
+      "institution_name": "Boston University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "bu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://bu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 35,
+      "ranking_institution_name": "Boston University"
+    },
+    {
+      "canonical_domain": "ohio-state.edu",
+      "institution_name": "Ohio State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "ohio-state.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://ohio-state.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 36,
+      "ranking_institution_name": "Ohio State University"
+    },
+    {
+      "canonical_domain": "lehigh.edu",
+      "institution_name": "Lehigh University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "lehigh.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://lehigh.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 37,
+      "ranking_institution_name": "Lehigh University"
+    },
+    {
+      "canonical_domain": "psu.edu",
+      "institution_name": "Pennsylvania State University - Schuylkill Campus",
+      "parent_institution": "Pennsylvania State University",
+      "affiliated_domains": [
+        "psu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://psu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 38,
+      "ranking_institution_name": "Pennsylvania State University"
+    },
+    {
+      "canonical_domain": "purdue.edu",
+      "institution_name": "Purdue University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "purdue.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://purdue.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 39,
+      "ranking_institution_name": "Purdue University"
+    },
+    {
+      "canonical_domain": "virginia.edu",
+      "institution_name": "University of Virginia, Charlottesville",
+      "parent_institution": "University of Virginia",
+      "affiliated_domains": [
+        "virginia.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://virginia.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 40,
+      "ranking_institution_name": "University of Virginia"
+    },
+    {
+      "canonical_domain": "umich.edu",
+      "institution_name": "University of Michigan - Ann Arbor",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "umich.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://umich.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 41,
+      "ranking_institution_name": "University of Michigan"
+    },
+    {
+      "canonical_domain": "fsu.edu",
+      "institution_name": "The Florida State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "fsu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://fsu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 42,
+      "ranking_institution_name": "Florida State University"
+    },
+    {
+      "canonical_domain": "uga.edu",
+      "institution_name": "University of Georgia",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uga.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uga.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 43,
+      "ranking_institution_name": "University of Georgia"
+    },
+    {
+      "canonical_domain": "utexas.edu",
+      "institution_name": "The University of Texas at Austin",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "utexas.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://utexas.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 44,
+      "ranking_institution_name": "University of Texas at Austin"
+    },
+    {
+      "canonical_domain": "wisc.edu",
+      "institution_name": "University of Wisconsin - Madison",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "wisc.edu",
+        "wisconsin.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://wisc.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 45,
+      "ranking_institution_name": "University of Wisconsin Madison"
+    },
+    {
+      "canonical_domain": "uillinois.edu",
+      "institution_name": "University of Illinois",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uillinois.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uillinois.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 46,
+      "ranking_institution_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "canonical_domain": "uci.edu",
+      "institution_name": "University of California, Irvine",
+      "parent_institution": "University of California",
+      "affiliated_domains": [
+        "uci.edu",
+        "ucirvine.edu",
+        "ucjc.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uci.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 47,
+      "ranking_institution_name": "University of California Irvine"
+    },
+    {
+      "canonical_domain": "indiana.edu",
+      "institution_name": "International University of Business Agriculture and Technology",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "indiana.edu",
+        "iu.edu",
+        "iub.edu",
+        "iubat.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://indiana.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 48,
+      "ranking_institution_name": "Indiana University Bloomington"
+    },
+    {
+      "canonical_domain": "brandeis.edu",
+      "institution_name": "Brandeis University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "brandeis.edu",
+        "branden.edu",
+        "brandies.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://brandeis.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 49,
+      "ranking_institution_name": "Brandeis University"
+    },
+    {
+      "canonical_domain": "ucdavis.edu",
+      "institution_name": "University of California, Davis",
+      "parent_institution": "University of California",
+      "affiliated_domains": [
+        "ucdavis.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://ucdavis.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 50,
+      "ranking_institution_name": "University of California Davis"
+    },
+    {
+      "canonical_domain": "rutgers.edu",
+      "institution_name": "Rutgers, The State University of New Jersey",
+      "parent_institution": "Rutgers University",
+      "affiliated_domains": [
+        "rutgers.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://rutgers.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 51,
+      "ranking_institution_name": "Rutgers The State University of New Jersey"
+    },
+    {
+      "canonical_domain": "wm.edu",
+      "institution_name": "College of William and Mary",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "wm.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://wm.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 52,
+      "ranking_institution_name": "College of William and Mary"
+    },
+    {
+      "canonical_domain": "umd.edu",
+      "institution_name": "University of Maryland, College Park",
+      "parent_institution": "University of Maryland",
+      "affiliated_domains": [
+        "umd.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://umd.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 53,
+      "ranking_institution_name": "University of Maryland College Park"
+    },
+    {
+      "canonical_domain": "pitt.edu",
+      "institution_name": "Pennsylvania Institute of Technology, Media, PA",
+      "parent_institution": "Pennsylvania Institute of Technology",
+      "affiliated_domains": [
+        "pitt.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://pitt.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 54,
+      "ranking_institution_name": "University of Pittsburgh"
+    },
+    {
+      "canonical_domain": "umn.edu",
+      "institution_name": "University of Minnesota Twin Cities",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "umn.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://umn.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 55
+    },
+    {
+      "canonical_domain": "msu.edu",
+      "institution_name": "Michigan State University. Est. 1855. East Lansing, Michigan USA.",
+      "parent_institution": "Michigan State University. Est. 1855. East Lansing",
+      "affiliated_domains": [
+        "msu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://msu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 56,
+      "ranking_institution_name": "Michigan State University"
+    },
+    {
+      "canonical_domain": "asu.edu",
+      "institution_name": "Arizona State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "asu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://asu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 57,
+      "ranking_institution_name": "Arizona State University"
+    },
+    {
+      "canonical_domain": "colorado.edu",
+      "institution_name": "University of Colorado Health Sciences Center",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "colorado.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://colorado.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 58,
+      "ranking_institution_name": "University of Colorado Boulder"
+    },
+    {
+      "canonical_domain": "utah.edu",
+      "institution_name": "The University of Utah",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "utah.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://utah.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 59,
+      "ranking_institution_name": "University of Utah"
+    },
+    {
+      "canonical_domain": "uconn.edu",
+      "institution_name": "University of Connecticut",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uconn.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uconn.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 60,
+      "ranking_institution_name": "University of Connecticut"
+    },
+    {
+      "canonical_domain": "gwu.edu",
+      "institution_name": "George Washington University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "gwu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://gwu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 61,
+      "ranking_institution_name": "George Washington University"
+    },
+    {
+      "canonical_domain": "american.edu",
+      "institution_name": "American University Washington D.C.",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "american.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://american.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 62,
+      "ranking_institution_name": "American University"
+    },
+    {
+      "canonical_domain": "northeastern.edu",
+      "institution_name": "Northeastern University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "northeastern.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://northeastern.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 63
+    },
+    {
+      "canonical_domain": "gmu.edu",
+      "institution_name": "Welcome to George Mason University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "gmu.edu",
+        "gnbvt.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://gmu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 64,
+      "ranking_institution_name": "George Mason University"
+    },
+    {
+      "canonical_domain": "fordham.edu",
+      "institution_name": "Foothill College Home",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "fordham.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://fordham.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 65,
+      "ranking_institution_name": "Fordham University"
+    },
+    {
+      "canonical_domain": "tamu.edu",
+      "institution_name": "Texas A&M University - College Station",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "tamu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://tamu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 66,
+      "ranking_institution_name": "Texas A&M University"
+    },
+    {
+      "canonical_domain": "ku.edu",
+      "institution_name": "The University of Kansas",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "ku.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://ku.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 67,
+      "ranking_institution_name": "University of Kansas"
+    },
+    {
+      "canonical_domain": "oregonstate.edu",
+      "institution_name": "Oregon State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "oregonstate.edu",
+        "orst.edu",
+        "ort.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://oregonstate.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 68,
+      "ranking_institution_name": "Oregon State University"
+    },
+    {
+      "canonical_domain": "colostate.edu",
+      "institution_name": "Colorado State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "colostate.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://colostate.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 69,
+      "ranking_institution_name": "Colorado State University"
+    },
+    {
+      "canonical_domain": "vt.edu",
+      "institution_name": "Virginia Polytechnic Institute and State University (Virginia Tech)",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "vt.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://vt.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 70,
+      "ranking_institution_name": "Virginia Tech"
+    },
+    {
+      "canonical_domain": "uiowa.edu",
+      "institution_name": "The University of Iowa",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uiowa.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uiowa.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 71,
+      "ranking_institution_name": "University of Iowa"
+    },
+    {
+      "canonical_domain": "iastate.edu",
+      "institution_name": "Iowa State University of Science and Technology",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "iastate.edu",
+        "iau.edu",
+        "iaw.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://iastate.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 72,
+      "ranking_institution_name": "Iowa State University"
+    },
+    {
+      "canonical_domain": "unl.edu",
+      "institution_name": "Nebraska College of Technical Agriculture",
+      "parent_institution": "University of Nebraska",
+      "affiliated_domains": [
+        "unl.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://unl.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 73,
+      "ranking_institution_name": "University of Nebraska Lincoln"
+    },
+    {
+      "canonical_domain": "uark.edu",
+      "institution_name": "University of Arkansas at Fayetteville",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uark.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uark.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 74,
+      "ranking_institution_name": "University of Arkansas"
+    },
+    {
+      "canonical_domain": "stonybrook.edu",
+      "institution_name": "Stony Brook University, Stony Brook, New York",
+      "parent_institution": "Stony Brook University",
+      "affiliated_domains": [
+        "stonybrook.edu",
+        "sunysb.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://stonybrook.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 75,
+      "ranking_institution_name": "Stony Brook University"
+    },
+    {
+      "canonical_domain": "arizona.edu",
+      "institution_name": "The University of Arizona, Tucson, Arizona",
+      "parent_institution": "The University of Arizona",
+      "affiliated_domains": [
+        "arizona.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://arizona.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 76,
+      "ranking_institution_name": "University of Arizona"
+    },
+    {
+      "canonical_domain": "ua.edu",
+      "institution_name": "University of Alabama at Tuscaloosa",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "ua.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://ua.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 77,
+      "ranking_institution_name": "University of Alabama"
+    },
+    {
+      "canonical_domain": "lsu.edu",
+      "institution_name": "Louisiana State University and Agricultural and Mechanical College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "lsu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://lsu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 78,
+      "ranking_institution_name": "Louisiana State University"
+    },
+    {
+      "canonical_domain": "uky.edu",
+      "institution_name": "University of Kentucky",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uky.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://uky.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 79
+    },
+    {
+      "canonical_domain": "utk.edu",
+      "institution_name": "University of Tennessee - Knoxville",
+      "parent_institution": "University of Tennessee",
+      "affiliated_domains": [
+        "utk.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://utk.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 80,
+      "ranking_institution_name": "University of Tennessee"
+    },
+    {
+      "canonical_domain": "missouri.edu",
+      "institution_name": "University of Missouri - Columbia",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "missouri.edu",
+        "umsonline.edu",
+        "umss.edu",
+        "umsystem.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://missouri.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 81,
+      "ranking_institution_name": "University of Missouri"
+    },
+    {
+      "canonical_domain": "ksu.edu",
+      "institution_name": "Kansas State University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "ksu.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://ksu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 82
+    },
+    {
+      "canonical_domain": "olemiss.edu",
+      "institution_name": "The University of Mississippi",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "olemiss.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://olemiss.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 83,
+      "ranking_institution_name": "University of Mississippi"
+    },
+    {
+      "canonical_domain": "uoregon.edu",
+      "institution_name": "University of Oregon",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "uoregon.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://uoregon.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 84,
+      "ranking_institution_name": "University of Oregon"
+    },
+    {
+      "canonical_domain": "unlv.edu",
+      "institution_name": "University of Nevada - Las Vegas",
+      "parent_institution": "University of Nevada",
+      "affiliated_domains": [
+        "unlv.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://unlv.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 85,
+      "ranking_institution_name": "University of Nevada Las Vegas"
+    },
+    {
+      "canonical_domain": "baylor.edu",
+      "institution_name": "Baylor University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "baylor.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://baylor.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 86,
+      "ranking_institution_name": "Baylor University"
+    },
+    {
+      "canonical_domain": "smu.edu",
+      "institution_name": "Southern Methodist University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "smu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://smu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 87,
+      "ranking_institution_name": "Southern Methodist University"
+    },
+    {
+      "canonical_domain": "miami.edu",
+      "institution_name": "University of Miami",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "miami.edu",
+        "umiami.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://miami.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 88,
+      "ranking_institution_name": "University of Miami"
+    },
+    {
+      "canonical_domain": "villanova.edu",
+      "institution_name": "Villa Maria College, Buffalo, NY",
+      "parent_institution": "Villa Maria College",
+      "affiliated_domains": [
+        "villanova.edu",
+        "villanueva.edu",
+        "vims.edu",
+        "vinu.edu",
+        "vips.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://villanova.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 89,
+      "ranking_institution_name": "Villanova University"
+    },
+    {
+      "canonical_domain": "stjohns.edu",
+      "institution_name": "Saint John's University (NY)",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "stjohns.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://stjohns.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 90,
+      "ranking_institution_name": "St. John's University"
+    },
+    {
+      "canonical_domain": "marquette.edu",
+      "institution_name": "Marquette University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "marquette.edu",
+        "mu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://marquette.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 91,
+      "ranking_institution_name": "Marquette University"
+    },
+    {
+      "canonical_domain": "scu.edu",
+      "institution_name": "Santa Clara University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "scu.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://scu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 92,
+      "ranking_institution_name": "Santa Clara University"
+    },
+    {
+      "canonical_domain": "du.edu",
+      "institution_name": "University of Denver",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "du.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://du.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 93,
+      "ranking_institution_name": "University of Denver"
+    },
+    {
+      "canonical_domain": "tcu.edu",
+      "institution_name": "Texas Christian University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "tcu.edu",
+        "tcuglobal.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://tcu.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 94,
+      "ranking_institution_name": "Texas Christian University"
+    },
+    {
+      "canonical_domain": "drexel.edu",
+      "institution_name": "Drexel University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "drexel.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://drexel.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 95,
+      "ranking_institution_name": "Drexel University"
+    },
+    {
+      "canonical_domain": "howard.edu",
+      "institution_name": "Howard University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "howard.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains"
+      ],
+      "pages": [
+        {
+          "url": "https://howard.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 96,
+      "ranking_institution_name": "Howard University"
+    },
+    {
+      "canonical_domain": "cau.edu",
+      "institution_name": "Clark Atlanta University",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "cau.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "hipo",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://cau.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 97,
+      "ranking_institution_name": "Clark Atlanta University"
+    },
+    {
+      "canonical_domain": "xula.edu",
+      "institution_name": "Xavier University of Louisiana",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "xula.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "hipo",
+        "node_university_domains",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://xula.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 98,
+      "ranking_institution_name": "Xavier University of Louisiana"
+    },
+    {
+      "canonical_domain": "spelman.edu",
+      "institution_name": "Spelman College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "spelman.edu"
+      ],
+      "source_types": [
+        "rankings"
+      ],
+      "pages": [
+        {
+          "url": "https://spelman.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [],
+      "ranking": 99
+    },
+    {
+      "canonical_domain": "morehouse.edu",
+      "institution_name": "Morehouse College",
+      "parent_institution": null,
+      "affiliated_domains": [
+        "morehouse.edu"
+      ],
+      "source_types": [
+        "academic_domains",
+        "edu_inventory",
+        "swot"
+      ],
+      "pages": [
+        {
+          "url": "https://morehouse.edu/",
+          "is_root_page": true
+        }
+      ],
+      "candidate_paths": [
+        "/accessibility",
+        "/accessibility-statement",
+        "/web-accessibility",
+        "/about/accessibility"
+      ],
+      "ranking": 100,
+      "ranking_institution_name": "Morehouse College"
+    }
+  ]
+}
