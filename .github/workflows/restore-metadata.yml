@@ -1,0 +1,82 @@
+name: Restore Metadata (one-off recovery)
+
+# This workflow recovers the shared validation-metadata artifact from a
+# specific past workflow run.  Run it whenever the artifact has been
+# accidentally overwritten with an empty database (e.g. after a scan
+# workflow starts with no prior download).
+#
+# How to use:
+#   1. Find the run ID of the last good scan in GitHub Actions (the number
+#      at the end of the URL: /actions/runs/<RUN_ID>).
+#   2. Note the artifact name on that run's Summary page (e.g. social-scan-47).
+#   3. Trigger this workflow via Actions → "Restore Metadata" → Run workflow,
+#      filling in source_run_id and source_artifact_name.
+#   4. Once it completes the shared validation-metadata artifact is restored
+#      and all subsequent scan runs will pick it up automatically.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: 'Run ID of the last good scan (e.g. 24994171153)'
+        required: true
+        type: string
+      source_artifact_name:
+        description: 'Artifact name on that run (e.g. social-scan-47 or lighthouse-scan-11)'
+        required: true
+        type: string
+
+# Serialise with the other metadata-producing workflows so this restore
+# cannot race with an active scan that is about to overwrite the artifact.
+concurrency:
+  group: metadata-scans
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  restore-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: write
+
+    steps:
+      - name: Download metadata DB from source run
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ github.event.inputs.source_artifact_name }}
+          run-id: ${{ github.event.inputs.source_run_id }}
+          path: data/
+          github-token: ${{ secrets.GH_TOKEN }}
+
+      - name: Verify database was downloaded
+        run: |
+          if [ ! -f data/metadata.db ]; then
+            echo "ERROR: metadata.db was not found in the downloaded artifact."
+            echo "Check that source_run_id (${{ github.event.inputs.source_run_id }}) and"
+            echo "source_artifact_name (${{ github.event.inputs.source_artifact_name }}) are correct."
+            exit 1
+          fi
+          echo "metadata.db found ($(du -h data/metadata.db | cut -f1))."
+
+      - name: Re-publish as shared validation-metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-metadata
+          path: data/metadata.db
+          retention-days: 90
+          overwrite: true
+
+      - name: Summary
+        run: |
+          echo "## Metadata Restored" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- Source run: [\#${{ github.event.inputs.source_run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.event.inputs.source_run_id }})" >> $GITHUB_STEP_SUMMARY
+          echo "- Source artifact: \`${{ github.event.inputs.source_artifact_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- DB size: $(du -h data/metadata.db | cut -f1)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The \`validation-metadata\` artifact has been overwritten with the restored database." >> $GITHUB_STEP_SUMMARY
+          echo "All subsequent scan workflows will download this database automatically." >> $GITHUB_STEP_SUMMARY
