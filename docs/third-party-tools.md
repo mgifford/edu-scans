@@ -5,74 +5,7 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-04-27 06:12 UTC — last scan: 2026-04-27_
-
-**4** scan batches run
-
-**3,034** of **3,763** available pages scanned (**80.6%** coverage)
-**2,259** of **3,034** scanned pages were reachable (**74.5%**)
-**1,489** reachable pages loaded at least one third-party script (**65.9%** of reachable)
-**2,823** known third-party service loads identified
-**24** unique known services across **17** categories
-
----
-
-## Third-Party JavaScript by Country
-
-| Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
-|---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,034 | 3,763 | 2,259 | 1,489 | 2,823 | 2026-04-27 |
-
-> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
-
----
-
-### Top Third-Party Services
-
-| # | Service | Loads |
-|--:|---------|------:|
-| 1 | cdnjs (Cloudflare CDN) | **508** |
-| 2 | Google Analytics (GA4) | **501** |
-| 3 | Google Tag Manager | **381** |
-| 4 | jsDelivr CDN | **360** |
-| 5 | jQuery | **251** |
-| 6 | Font Awesome | **192** |
-| 7 | Google Hosted Libraries | **164** |
-| 8 | Google reCAPTCHA | **135** |
-| 9 | unpkg CDN | **106** |
-| 10 | Bootstrap | **62** |
-| 11 | HubSpot | **36** |
-| 12 | Sentry | **29** |
-| 13 | Adobe Dynamic Tag Management / Launch | **24** |
-| 14 | OneTrust | **20** |
-| 15 | Facebook Pixel | **17** |
-| 16 | Cookiebot | **11** |
-| 17 | Cloudflare Turnstile / Challenge | **8** |
-| 18 | Stripe | **6** |
-| 19 | Zendesk | **5** |
-| 20 | Usercentrics | **3** |
-
-### Top Service Categories
-
-| # | Category | Loads |
-|--:|----------|------:|
-| 1 | CDN | **1,138** |
-| 2 | Analytics | **546** |
-| 3 | JavaScript Library | **415** |
-| 4 | Tag Manager | **405** |
-| 5 | Icon Library | **192** |
-| 6 | Security | **143** |
-| 7 | CAPTCHA | **135** |
-| 8 | UI Framework | **62** |
-| 9 | CRM | **36** |
-| 10 | Marketing | **36** |
-| 11 | Cookie Consent | **34** |
-| 12 | Error Tracking | **29** |
-| 13 | Advertising | **18** |
-| 14 | Payments | **6** |
-| 15 | Customer Support | **5** |
-
-📥 Machine-readable results: [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json)
+_No scan data yet — stats update automatically after every scan run._
 
 <!-- THIRD_PARTY_JS_STATS_END -->
 
