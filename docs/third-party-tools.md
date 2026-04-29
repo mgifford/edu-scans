@@ -5,7 +5,74 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_No scan data yet — stats update automatically after every scan run._
+_Stats as of 2026-04-29 06:11 UTC — last scan: 2026-04-29_
+
+**3** scan batches run
+
+**3,140** of **3,863** available pages scanned (**81.3%** coverage)
+**2,343** of **3,140** scanned pages were reachable (**74.6%**)
+**1,532** reachable pages loaded at least one third-party script (**65.4%** of reachable)
+**2,942** known third-party service loads identified
+**24** unique known services across **17** categories
+
+---
+
+## Third-Party JavaScript by Country
+
+| Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
+|---------|---------|-----------|-----------|------------------------|--------------------|----------|
+| Usa Edu Master | 3,140 | 3,763 | 2,343 | 1,532 | 2,942 | 2026-04-29 |
+
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
+
+---
+
+### Top Third-Party Services
+
+| # | Service | Loads |
+|--:|---------|------:|
+| 1 | cdnjs (Cloudflare CDN) | **531** |
+| 2 | Google Analytics (GA4) | **519** |
+| 3 | jsDelivr CDN | **392** |
+| 4 | Google Tag Manager | **389** |
+| 5 | jQuery | **269** |
+| 6 | Font Awesome | **203** |
+| 7 | Google Hosted Libraries | **168** |
+| 8 | Google reCAPTCHA | **134** |
+| 9 | unpkg CDN | **105** |
+| 10 | Bootstrap | **65** |
+| 11 | HubSpot | **35** |
+| 12 | Sentry | **30** |
+| 13 | Adobe Dynamic Tag Management / Launch | **24** |
+| 14 | OneTrust | **22** |
+| 15 | Facebook Pixel | **17** |
+| 16 | Cookiebot | **12** |
+| 17 | Cloudflare Turnstile / Challenge | **8** |
+| 18 | Stripe | **6** |
+| 19 | Zendesk | **5** |
+| 20 | Usercentrics | **3** |
+
+### Top Service Categories
+
+| # | Category | Loads |
+|--:|----------|------:|
+| 1 | CDN | **1,196** |
+| 2 | Analytics | **565** |
+| 3 | JavaScript Library | **437** |
+| 4 | Tag Manager | **413** |
+| 5 | Icon Library | **203** |
+| 6 | Security | **142** |
+| 7 | CAPTCHA | **134** |
+| 8 | UI Framework | **65** |
+| 9 | Cookie Consent | **37** |
+| 10 | CRM | **35** |
+| 11 | Marketing | **35** |
+| 12 | Error Tracking | **30** |
+| 13 | Advertising | **18** |
+| 14 | Payments | **6** |
+| 15 | Customer Support | **5** |
+
+📥 Machine-readable results: [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json)
 
 <!-- THIRD_PARTY_JS_STATS_END -->
 

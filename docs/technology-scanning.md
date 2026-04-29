@@ -5,7 +5,73 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_No scan data yet — stats update automatically after every scan run._
+_Stats as of 2026-04-29 06:11 UTC — last scan: 2026-04-28_
+
+**3** scan batches run
+
+**3,755** of **3,863** available pages scanned (**97.2%** coverage)
+**2,805** pages with technology detections (**74.7%** of scanned)
+**251** unique technologies identified
+
+---
+
+## Technology Scan by Country
+
+| Country | URLs Scanned | Pages with Detections | Available | Last Scan |
+|---------|-------------|----------------------|-----------|----------|
+| Usa Edu Master | 3,749 | 2,799 | 3,763 | 2026-04-28 |
+| Usa Edu Top100 | 100 | 88 | 100 | 2026-04-28 |
+
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable technology data (JSON)](technology-data.json).
+
+---
+
+### Top Technologies
+
+| # | Technology | Pages | Categories |
+|--:|-----------|------:|-----------|
+| 1 | jQuery | **1,584** | JavaScript libraries |
+| 2 | Google Tag Manager | **1,388** | Tag managers |
+| 3 | PHP | **1,356** | Programming languages |
+| 4 | Font Awesome | **1,087** | Font scripts |
+| 5 | Google Font API | **979** | Font scripts |
+| 6 | Nginx | **753** | Reverse proxies, Web servers |
+| 7 | Bootstrap | **707** | UI frameworks |
+| 8 | Cloudflare | **695** | CDN |
+| 9 | Apache | **687** | Web servers |
+| 10 | MySQL | **667** | Databases |
+| 11 | WordPress | **664** | Blogs, CMS |
+| 12 | jQuery Migrate | **548** | JavaScript libraries |
+| 13 | Varnish | **416** | Caching |
+| 14 | jsDelivr | **387** | CDN |
+| 15 | Slick | **334** | JavaScript libraries |
+| 16 | Pantheon | **292** | PaaS |
+| 17 | MariaDB | **292** | Databases |
+| 18 | Windows Server | **282** | Operating systems |
+| 19 | IIS | **280** | Web servers |
+| 20 | Yoast SEO | **276** | SEO |
+
+### Top Technology Categories
+
+| # | Category | Pages |
+|--:|---------|------:|
+| 1 | JavaScript libraries | **3,515** |
+| 2 | Font scripts | **2,082** |
+| 3 | Web servers | **1,898** |
+| 4 | Programming languages | **1,441** |
+| 5 | Tag managers | **1,393** |
+| 6 | CDN | **1,267** |
+| 7 | Databases | **1,086** |
+| 8 | CMS | **1,034** |
+| 9 | UI frameworks | **1,013** |
+| 10 | Reverse proxies | **767** |
+| 11 | PaaS | **752** |
+| 12 | Blogs | **697** |
+| 13 | Caching | **595** |
+| 14 | Operating systems | **431** |
+| 15 | Miscellaneous | **314** |
+
+📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json)
 
 <!-- TECH_STATS_END -->
 
