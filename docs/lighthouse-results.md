@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
+_Stats as of 2026-05-01 06:21 UTC — last scan: 2026-05-01_
 
-**6** scan batches run
+**10** scan batches run
 
-**647** of **3,863** available pages audited (**16.7%** coverage)
-**484** successful audits (**74.8%** of audited)
+**814** of **3,863** available pages audited (**21.1%** coverage)
+**613** successful audits (**75.3%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master | 557 | 3,763 | 87 | 89 | 66 | 90 | 2026-04-30 |
-| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-04-30 |
+| Usa Edu Master | 726 | 3,763 | 87 | 90 | 65 | 89 | 2026-05-01 |
+| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-01 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 646 of 646 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 813 of 813 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -113,6 +113,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="alaska pacific university â discover active learning alasu.edu"><td>Alaska Pacific University â Discover Active Learning</td><td>alasu.edu</td><td>1</td><td>95</td><td>92</td><td>54</td><td>100</td></tr>
 <tr data-search="albright college alb.edu"><td>Albright College</td><td>alb.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="albany technical college albanytech.edu"><td>Albany Technical College</td><td>albanytech.edu</td><td>1</td><td>100</td><td>97</td><td>46</td><td>85</td></tr>
+<tr data-search="college of the albemarle albemarle.edu"><td>College of the Albemarle</td><td>albemarle.edu</td><td>1</td><td>72</td><td>90</td><td>65</td><td>83</td></tr>
 <tr data-search="carlos albizu university albion.edu"><td>Carlos Albizu University</td><td>albion.edu</td><td>1</td><td>88</td><td>92</td><td>58</td><td>85</td></tr>
 <tr data-search="alice lloyd college alc.edu"><td>Alice Lloyd College</td><td>alc.edu</td><td>1</td><td>98</td><td>80</td><td>50</td><td>77</td></tr>
 <tr data-search="alcorn state university alcorn.edu"><td>Alcorn State University</td><td>alcorn.edu</td><td>1</td><td>91</td><td>85</td><td>35</td><td>92</td></tr>
@@ -269,6 +270,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="bastyr university bastyr.edu"><td>Bastyr University</td><td>bastyr.edu</td><td>1</td><td>90</td><td>99</td><td>58</td><td>85</td></tr>
 <tr data-search="bates college bates.edu"><td>Bates College</td><td>bates.edu</td><td>1</td><td>92</td><td>98</td><td>54</td><td>100</td></tr>
 <tr data-search="bay atlantic university bau.edu"><td>Bay Atlantic University</td><td>bau.edu</td><td>1</td><td>84</td><td>67</td><td>35</td><td>100</td></tr>
+<tr data-search="colleges in georgia bauder.edu"><td>Colleges in Georgia</td><td>bauder.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bay de noc community college baycollege.edu"><td>Bay de Noc Community College</td><td>baycollege.edu</td><td>1</td><td>79</td><td>98</td><td>73</td><td>85</td></tr>
 <tr data-search="baylor university baylor.edu"><td>Baylor University</td><td>baylor.edu</td><td>1</td><td>86</td><td>94</td><td>58</td><td>100</td></tr>
 <tr data-search="bay path university baypath.edu"><td>Bay Path University</td><td>baypath.edu</td><td>1</td><td>72</td><td>79</td><td>54</td><td>92</td></tr>
@@ -394,6 +396,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="brunswick community college brunswickcc.edu"><td>Brunswick Community College</td><td>brunswickcc.edu</td><td>1</td><td>94</td><td>87</td><td>54</td><td>85</td></tr>
 <tr data-search="bryan college bryan.edu"><td>Bryan College</td><td>bryan.edu</td><td>1</td><td>82</td><td>95</td><td>100</td><td>100</td></tr>
 <tr data-search="bryan college sacramento california campus bryancollege.edu"><td>Bryan College Sacramento California Campus</td><td>bryancollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="colleges in missouri bryancolleges.edu"><td>Colleges in Missouri</td><td>bryancolleges.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bryanlgh college of health sciences bryanlghcollege.edu"><td>BryanLGH College of Health Sciences</td><td>bryanlghcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bryant university bryant.edu"><td>Bryant University</td><td>bryant.edu</td><td>1</td><td>85</td><td>99</td><td>54</td><td>92</td></tr>
 <tr data-search="bryant and stratton college bryantstratton.edu"><td>Bryant and Stratton College</td><td>bryantstratton.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -447,12 +450,14 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="campbell university campbell.edu"><td>Campbell University</td><td>campbell.edu</td><td>1</td><td>95</td><td>91</td><td>54</td><td>100</td></tr>
 <tr data-search="canisius college canisius.edu"><td>Canisius College</td><td>canisius.edu</td><td>1</td><td>89</td><td>94</td><td>54</td><td>92</td></tr>
 <tr data-search="canyon college canyoncollege.edu"><td>Canyon College</td><td>canyoncollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of the canyons canyons.edu"><td>College of the Canyons</td><td>canyons.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cape cod community college capecod.edu"><td>Cape Cod Community College</td><td>capecod.edu</td><td>1</td><td>93</td><td>90</td><td>73</td><td>77</td></tr>
 <tr data-search="accredited college degree programs online capella.edu"><td>Accredited College Degree Programs Online</td><td>capella.edu</td><td>1</td><td>98</td><td>76</td><td>54</td><td>85</td></tr>
 <tr data-search="capitol college capitol-college.edu"><td>Capitol College</td><td>capitol-college.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="capri beauty college capri.edu"><td>Capri Beauty College</td><td>capri.edu</td><td>1</td><td>88</td><td>78</td><td>77</td><td>92</td></tr>
 <tr data-search="capstone college capstone.edu"><td>Capstone College</td><td>capstone.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="capitol technology university captechu.edu"><td>Capitol Technology University</td><td>captechu.edu</td><td>1</td><td>79</td><td>96</td><td>35</td><td>85</td></tr>
+<tr data-search="college degrees careercenters.edu"><td>College Degrees</td><td>careercenters.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="career institute careerinstitute.edu"><td>Career Institute</td><td>careerinstitute.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="career point college careerpointcollege.edu"><td>Career Point College</td><td>careerpointcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="career technical college careertc.edu"><td>Career Technical College</td><td>careertc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -463,12 +468,12 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="carolina christian college winston carolina.edu"><td>Carolina Christian College Winston</td><td>carolina.edu</td><td>1</td><td>69</td><td>64</td><td>96</td><td>85</td></tr>
 <tr data-search="carolinas college of health sciences carolinascollege.edu"><td>Carolinas College of Health Sciences</td><td>carolinascollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="carrington college california-sacramento carrington.edu"><td>Carrington College California-Sacramento</td><td>carrington.edu</td><td>1</td><td>95</td><td>97</td><td>58</td><td>92</td></tr>
-<tr data-search="carroll college helena carroll.edu"><td>Carroll College Helena</td><td>carroll.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="carroll college helena carroll.edu"><td>Carroll College Helena</td><td>carroll.edu</td><td>1</td><td>100</td><td>94</td><td>58</td><td>100</td></tr>
 <tr data-search="carroll community college carrollcc.edu"><td>Carroll Community College</td><td>carrollcc.edu</td><td>1</td><td>63</td><td>91</td><td>58</td><td>100</td></tr>
 <tr data-search="carroll university carrollu.edu"><td>Carroll University</td><td>carrollu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="carteret community college carteret.edu"><td>Carteret Community College</td><td>carteret.edu</td><td>1</td><td>—</td><td>84</td><td>54</td><td>69</td></tr>
 <tr data-search="carthage college carthage.edu"><td>Carthage College</td><td>carthage.edu</td><td>1</td><td>85</td><td>96</td><td>54</td><td>100</td></tr>
-<tr data-search="carver college carver.edu"><td>Carver College</td><td>carver.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="carver college carver.edu"><td>Carver College</td><td>carver.edu</td><td>1</td><td>80</td><td>73</td><td>50</td><td>69</td></tr>
 <tr data-search="cascadia community college cascadia.edu"><td>Cascadia Community College</td><td>cascadia.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="case western reserve university case.edu"><td>Case Western Reserve University</td><td>case.edu</td><td>1</td><td>75</td><td>100</td><td>35</td><td>100</td></tr>
 <tr data-search="casper college caspercollege.edu"><td>Casper College</td><td>caspercollege.edu</td><td>1</td><td>66</td><td>89</td><td>73</td><td>92</td></tr>
@@ -480,30 +485,46 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="central bible college cbcag.edu"><td>Central Bible College</td><td>cbcag.edu</td><td>1</td><td>94</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="cbd college cbd.edu"><td>CBD College</td><td>cbd.edu</td><td>1</td><td>49</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="calvary baptist seminary cbs.edu"><td>Calvary Baptist Seminary</td><td>cbs.edu</td><td>1</td><td>100</td><td>94</td><td>73</td><td>100</td></tr>
+<tr data-search="college of biblical studies cbshouston.edu"><td>College of Biblical Studies</td><td>cbshouston.edu</td><td>1</td><td>100</td><td>94</td><td>73</td><td>100</td></tr>
 <tr data-search="career college in miami dade with computer, business, medical, and art classes cbt.edu"><td>Career College in Miami Dade with Computer, Business, Medical, and Art Classes</td><td>cbt.edu</td><td>1</td><td>91</td><td>79</td><td>54</td><td>77</td></tr>
 <tr data-search="central baptist theological seminary cbts.edu"><td>Central Baptist Theological Seminary</td><td>cbts.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christian brothers university cbu.edu"><td>Christian Brothers University</td><td>cbu.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>92</td></tr>
 <tr data-search="california college san diego cc-sd.edu"><td>California College San Diego</td><td>cc-sd.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="carroll college waukesha cc.edu"><td>Carroll College Waukesha</td><td>cc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california college of the arts cca.edu"><td>California College of the Arts</td><td>cca.edu</td><td>1</td><td>88</td><td>82</td><td>54</td><td>92</td></tr>
+<tr data-search="clear creek baptist bible college ccbbc.edu"><td>Clear Creek Baptist Bible College</td><td>ccbbc.edu</td><td>1</td><td>100</td><td>68</td><td>73</td><td>85</td></tr>
+<tr data-search="coastland christian bible college and university ccbcu.edu"><td>Coastland Christian Bible College and University</td><td>ccbcu.edu</td><td>1</td><td>94</td><td>70</td><td>85</td><td>100</td></tr>
+<tr data-search="city colleges of chicago ccc.edu"><td>City Colleges of Chicago</td><td>ccc.edu</td><td>1</td><td>77</td><td>84</td><td>73</td><td>92</td></tr>
 <tr data-search="central christian college of the bible cccb.edu"><td>Central Christian College of the Bible</td><td>cccb.edu</td><td>1</td><td>89</td><td>90</td><td>96</td><td>85</td></tr>
 <tr data-search="central christian college of the bible cccc.edu"><td>Central Christian College of the Bible</td><td>cccc.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>100</td></tr>
 <tr data-search="california community colleges chancellor\&#x27;s office cccco.edu"><td>California Community Colleges Chancellor\&#x27;s Office</td><td>cccco.edu</td><td>1</td><td>97</td><td>100</td><td>54</td><td>83</td></tr>
 <tr data-search="california community colleges chancellor\&#x27;s office cccd.edu"><td>California Community Colleges Chancellor\&#x27;s Office</td><td>cccd.edu</td><td>1</td><td>82</td><td>86</td><td>88</td><td>82</td></tr>
 <tr data-search="california community colleges chancellor\&#x27;s office cccneb.edu"><td>California Community Colleges Chancellor\&#x27;s Office</td><td>cccneb.edu</td><td>1</td><td>90</td><td>92</td><td>50</td><td>85</td></tr>
+<tr data-search="colorado community college system cccs.edu"><td>Colorado Community College System</td><td>cccs.edu</td><td>1</td><td>98</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="caldwell community college and technical institute cccti.edu"><td>Caldwell Community College and Technical Institute</td><td>cccti.edu</td><td>1</td><td>—</td><td>80</td><td>92</td><td>50</td></tr>
 <tr data-search="cci colleges.edu ccicolleges.edu"><td>CCI Colleges.edu</td><td>ccicolleges.edu</td><td>1</td><td>90</td><td>93</td><td>50</td><td>85</td></tr>
+<tr data-search="centre for commercial law studies (ccls), queen mary, university of london ccls.edu"><td>Centre for Commercial Law Studies (CCLS), Queen Mary, University of London</td><td>ccls.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="centre for commercial law studies (ccls), queen mary, university of london ccm.edu"><td>Centre for Commercial Law Studies (CCLS), Queen Mary, University of London</td><td>ccm.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="cincinnati college of mortuary science ccms.edu"><td>Cincinnati College of Mortuary Science</td><td>ccms.edu</td><td>1</td><td>96</td><td>96</td><td>54</td><td>77</td></tr>
+<tr data-search="clayton college of natural health ccnh.edu"><td>Clayton College of Natural Health</td><td>ccnh.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="career college of northern nevada ccnn.edu"><td>Career College of Northern Nevada</td><td>ccnn.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california college of podiatric medicine ccpm.edu"><td>California College of Podiatric Medicine</td><td>ccpm.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="city college of san francisco ccsf.edu"><td>City College of San Francisco</td><td>ccsf.edu</td><td>1</td><td>75</td><td>99</td><td>35</td><td>85</td></tr>
 <tr data-search="calumet college of st. joseph ccsj.edu"><td>Calumet College of St. Joseph</td><td>ccsj.edu</td><td>1</td><td>66</td><td>66</td><td>38</td><td>85</td></tr>
 <tr data-search="central connecticut state university ccsu.edu"><td>Central Connecticut State University</td><td>ccsu.edu</td><td>1</td><td>70</td><td>95</td><td>73</td><td>85</td></tr>
 <tr data-search="central carolina technical college cctech.edu"><td>Central Carolina Technical College</td><td>cctech.edu</td><td>1</td><td>93</td><td>96</td><td>54</td><td>77</td></tr>
+<tr data-search="colorado christian university ccu.edu"><td>Colorado Christian University</td><td>ccu.edu</td><td>1</td><td>89</td><td>91</td><td>54</td><td>85</td></tr>
+<tr data-search="cincinnati christian university ccuniversity.edu"><td>Cincinnati Christian University</td><td>ccuniversity.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cde career institute cde.edu"><td>CDE Career Institute</td><td>cde.edu</td><td>1</td><td>90</td><td>87</td><td>73</td><td>85</td></tr>
+<tr data-search="chief dull knife college cdkc.edu"><td>Chief Dull Knife College</td><td>cdkc.edu</td><td>1</td><td>100</td><td>79</td><td>77</td><td>83</td></tr>
+<tr data-search="charles r. drew university of medicine and science cdrewu.edu"><td>Charles R. Drew University of Medicine and Science</td><td>cdrewu.edu</td><td>1</td><td>71</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="catholic distance university cdu.edu"><td>Catholic Distance University</td><td>cdu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cebu doctors\&#x27; university . welcome cebudoctorsuniversity.edu"><td>Cebu Doctors\&#x27; University . Welcome</td><td>cebudoctorsuniversity.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cecil college cecil.edu"><td>Cecil College</td><td>cecil.edu</td><td>1</td><td>88</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="cedar crest college cedarcrest.edu"><td>Cedar Crest College</td><td>cedarcrest.edu</td><td>1</td><td>95</td><td>96</td><td>58</td><td>92</td></tr>
 <tr data-search="cedar valley college cedarvalleycollege.edu"><td>Cedar Valley College</td><td>cedarvalleycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cedarville university cedarville.edu"><td>Cedarville University</td><td>cedarville.edu</td><td>1</td><td>94</td><td>78</td><td>58</td><td>92</td></tr>
+<tr data-search="college of early learning cel.edu"><td>College of Early Learning</td><td>cel.edu</td><td>1</td><td>100</td><td>69</td><td>65</td><td>91</td></tr>
 <tr data-search="centenary college of louisiana centenary.edu"><td>Centenary College of Louisiana</td><td>centenary.edu</td><td>1</td><td>92</td><td>87</td><td>54</td><td>92</td></tr>
 <tr data-search="centenary college centenarycollege.edu"><td>Centenary College</td><td>centenarycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="central arizona college centralaz.edu"><td>Central Arizona College</td><td>centralaz.edu</td><td>1</td><td>47</td><td>78</td><td>69</td><td>92</td></tr>
@@ -513,31 +534,150 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="central penn college centralpenn.edu"><td>Central Penn College</td><td>centralpenn.edu</td><td>1</td><td>85</td><td>88</td><td>58</td><td>92</td></tr>
 <tr data-search="central seminary centralseminary.edu"><td>Central Seminary</td><td>centralseminary.edu</td><td>1</td><td>95</td><td>58</td><td>73</td><td>92</td></tr>
 <tr data-search="central state university centralstate.edu"><td>Central State University</td><td>centralstate.edu</td><td>1</td><td>100</td><td>91</td><td>77</td><td>92</td></tr>
+<tr data-search="centre college centre.edu"><td>Centre College</td><td>centre.edu</td><td>1</td><td>94</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="centura college career school centuracollege.edu"><td>Centura College Career School</td><td>centuracollege.edu</td><td>1</td><td>85</td><td>89</td><td>54</td><td>92</td></tr>
+<tr data-search="centura college centuracollegeonline.edu"><td>Centura College</td><td>centuracollegeonline.edu</td><td>1</td><td>78</td><td>92</td><td>50</td><td>92</td></tr>
+<tr data-search="centura institute career school centurainstitute.edu"><td>Centura Institute Career School</td><td>centurainstitute.edu</td><td>1</td><td>87</td><td>88</td><td>54</td><td>92</td></tr>
+<tr data-search="century college century.edu"><td>Century College</td><td>century.edu</td><td>1</td><td>69</td><td>93</td><td>54</td><td>83</td></tr>
+<tr data-search="cerritos college home page cerritos.edu"><td>Cerritos College Home Page</td><td>cerritos.edu</td><td>1</td><td>72</td><td>97</td><td>46</td><td>92</td></tr>
+<tr data-search="cerro coso community college home cerrocoso.edu"><td>Cerro Coso Community College Home</td><td>cerrocoso.edu</td><td>1</td><td>94</td><td>100</td><td>58</td><td>85</td></tr>
+<tr data-search="ces college cescollege.edu"><td>CES College</td><td>cescollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of eastern utah ceu.edu"><td>College of Eastern Utah</td><td>ceu.edu</td><td>1</td><td>91</td><td>95</td><td>88</td><td>92</td></tr>
+<tr data-search="college of central florida cf.edu"><td>College of Central Florida</td><td>cf.edu</td><td>1</td><td>49</td><td>97</td><td>54</td><td>100</td></tr>
+<tr data-search="claremont graduate university cgu.edu"><td>Claremont Graduate University</td><td>cgu.edu</td><td>1</td><td>100</td><td>82</td><td>54</td><td>85</td></tr>
+<tr data-search="chabot college chabotcollege.edu"><td>Chabot College</td><td>chabotcollege.edu</td><td>1</td><td>95</td><td>92</td><td>69</td><td>85</td></tr>
+<tr data-search="chafer theological seminary chafer.edu"><td>Chafer Theological Seminary</td><td>chafer.edu</td><td>1</td><td>84</td><td>88</td><td>54</td><td>100</td></tr>
+<tr data-search="chafer theological seminary chaffey.edu"><td>Chafer Theological Seminary</td><td>chaffey.edu</td><td>1</td><td>79</td><td>100</td><td>54</td><td>85</td></tr>
+<tr data-search="chamberlain college of nursing chamberlain.edu"><td>Chamberlain College of Nursing</td><td>chamberlain.edu</td><td>1</td><td>75</td><td>88</td><td>54</td><td>85</td></tr>
+<tr data-search="chaminade university of honolulu chaminade.edu"><td>Chaminade University of Honolulu</td><td>chaminade.edu</td><td>1</td><td>80</td><td>93</td><td>54</td><td>85</td></tr>
+<tr data-search="champlain college champlain.edu"><td>Champlain College</td><td>champlain.edu</td><td>1</td><td>91</td><td>97</td><td>54</td><td>92</td></tr>
+<tr data-search="chancellor university chancelloru.edu"><td>Chancellor University</td><td>chancelloru.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chapman university chapman.edu"><td>Chapman University</td><td>chapman.edu</td><td>1</td><td>71</td><td>93</td><td>54</td><td>77</td></tr>
+<tr data-search="charter oak state college charteroak.edu"><td>Charter Oak State College</td><td>charteroak.edu</td><td>1</td><td>71</td><td>95</td><td>54</td><td>92</td></tr>
+<tr data-search="chatfield college chatfield.edu"><td>Chatfield College</td><td>chatfield.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chatham university, pittsburgh, pa chatham.edu"><td>Chatham University, Pittsburgh, PA</td><td>chatham.edu</td><td>1</td><td>94</td><td>97</td><td>50</td><td>92</td></tr>
+<tr data-search="chatham university, pittsburgh, pa chattahoocheetech.edu"><td>Chatham University, Pittsburgh, PA</td><td>chattahoocheetech.edu</td><td>1</td><td>100</td><td>97</td><td>58</td><td>92</td></tr>
+<tr data-search="chattanooga college medical, dental, &amp; technical careers, chattanooga state of tennessee, chattanooga college is the source for that career you have always dreamed of. chattanoogacollege.edu"><td>Chattanooga College Medical, Dental, &amp; Technical Careers, Chattanooga State of Tennessee, Chattanooga College is the source for that career you have always dreamed of.</td><td>chattanoogacollege.edu</td><td>1</td><td>59</td><td>82</td><td>54</td><td>100</td></tr>
+<tr data-search="chattanooga state community college chattanoogastate.edu"><td>Chattanooga State Community College</td><td>chattanoogastate.edu</td><td>1</td><td>83</td><td>98</td><td>50</td><td>92</td></tr>
+<tr data-search="chestnut hill college chc.edu"><td>Chestnut Hill College</td><td>chc.edu</td><td>1</td><td>97</td><td>97</td><td>58</td><td>92</td></tr>
+<tr data-search="college of hair design chd.edu"><td>COLLEGE OF HAIR DESIGN</td><td>chd.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chemeketa community college chemeketa.edu"><td>Chemeketa Community College</td><td>chemeketa.edu</td><td>1</td><td>90</td><td>76</td><td>73</td><td>92</td></tr>
+<tr data-search="chesapeake college chesapeake.edu"><td>Chesapeake College</td><td>chesapeake.edu</td><td>1</td><td>99</td><td>96</td><td>58</td><td>100</td></tr>
+<tr data-search="chester college of new england â· fine arts â· graphic design â· photography â· creative writing â· professional writing â· interdisciplinary arts â· chester, new hampshire chestercollege.edu"><td>Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire</td><td>chestercollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chester college of new england â· fine arts â· graphic design â· photography â· creative writing â· professional writing â· interdisciplinary arts â· chester, new hampshire cheyney.edu"><td>Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire</td><td>cheyney.edu</td><td>1</td><td>91</td><td>80</td><td>77</td><td>77</td></tr>
+<tr data-search="chiangmai.edu chiangmai.edu"><td>chiangmai.edu</td><td>chiangmai.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chiinstitute.edu chiinstitute.edu"><td>chiinstitute.edu</td><td>chiinstitute.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chong shin university in usa chongshinusa.edu"><td>Chong Shin University in USA</td><td>chongshinusa.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chowan college chowan.edu"><td>Chowan College</td><td>chowan.edu</td><td>1</td><td>61</td><td>86</td><td>58</td><td>92</td></tr>
+<tr data-search="christ university, bangalore, karnataka christcollege.edu"><td>Christ University, Bangalore, Karnataka</td><td>christcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christendom college christendom.edu"><td>Christendom College</td><td>christendom.edu</td><td>1</td><td>65</td><td>85</td><td>54</td><td>85</td></tr>
+<tr data-search="christian life college / welcome christianlifecollege.edu"><td>Christian Life College / Welcome</td><td>christianlifecollege.edu</td><td>1</td><td>94</td><td>86</td><td>100</td><td>54</td></tr>
+<tr data-search="colorado heights university chu.edu"><td>Colorado Heights University</td><td>chu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="cleveland institute of art cia.edu"><td>Cleveland Institute of Art</td><td>cia.edu</td><td>1</td><td>37</td><td>77</td><td>58</td><td>92</td></tr>
 <tr data-search="california institute for human science cihs.edu"><td>California Institute for Human Science</td><td>cihs.edu</td><td>1</td><td>98</td><td>90</td><td>58</td><td>85</td></tr>
+<tr data-search="cleveland institute of music cim.edu"><td>Cleveland Institute of Music</td><td>cim.edu</td><td>1</td><td>99</td><td>87</td><td>54</td><td>92</td></tr>
+<tr data-search="cincinnati state technical and community college cincinnatistate.edu"><td>Cincinnati State Technical and Community College</td><td>cincinnatistate.edu</td><td>1</td><td>95</td><td>90</td><td>58</td><td>100</td></tr>
+<tr data-search="colombo international nautical &amp; engineering college (cinec) cinec.edu"><td>Colombo International Nautical &amp; Engineering College (CINEC)</td><td>cinec.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="colombo international nautical &amp; engineering college (cinec) cisco.edu"><td>Colombo International Nautical &amp; Engineering College (CINEC)</td><td>cisco.edu</td><td>1</td><td>52</td><td>100</td><td>54</td><td>100</td></tr>
 <tr data-search="cebu institute of technology – university cit.edu"><td>Cebu Institute of Technology – University</td><td>cit.edu</td><td>1</td><td>73</td><td>86</td><td>96</td><td>100</td></tr>
+<tr data-search="city college citycollege.edu"><td>City College</td><td>citycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="city university of seattle cityu.edu"><td>City University of Seattle</td><td>cityu.edu</td><td>1</td><td>93</td><td>95</td><td>54</td><td>85</td></tr>
+<tr data-search="clackamas community college clackamas.edu"><td>Clackamas Community College</td><td>clackamas.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="claflin university claflin.edu"><td>Claflin University</td><td>claflin.edu</td><td>1</td><td>47</td><td>87</td><td>35</td><td>77</td></tr>
+<tr data-search="claremont mckenna college claremontmckenna.edu"><td>Claremont McKenna College</td><td>claremontmckenna.edu</td><td>1</td><td>91</td><td>99</td><td>92</td><td>85</td></tr>
+<tr data-search="clarendon college clarendoncollege.edu"><td>Clarendon College</td><td>clarendoncollege.edu</td><td>1</td><td>75</td><td>96</td><td>73</td><td>75</td></tr>
+<tr data-search="clarion university of pennsylvania clarion.edu"><td>Clarion University of Pennsylvania</td><td>clarion.edu</td><td>1</td><td>93</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="clarke university clarke.edu"><td>Clarke University</td><td>clarke.edu</td><td>1</td><td>98</td><td>78</td><td>58</td><td>100</td></tr>
+<tr data-search="clarkson university clarkson.edu"><td>Clarkson University</td><td>clarkson.edu</td><td>1</td><td>93</td><td>95</td><td>54</td><td>100</td></tr>
+<tr data-search="clark state community college clarkstate.edu"><td>Clark State Community College</td><td>clarkstate.edu</td><td>1</td><td>100</td><td>96</td><td>96</td><td>100</td></tr>
+<tr data-search="clark university clarku.edu"><td>Clark University</td><td>clarku.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="clatsop community college clatsopcc.edu"><td>Clatsop Community College</td><td>clatsopcc.edu</td><td>1</td><td>92</td><td>89</td><td>100</td><td>85</td></tr>
+<tr data-search="clayton college &amp; state university clayton.edu"><td>Clayton College &amp; State University</td><td>clayton.edu</td><td>1</td><td>99</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="christian life college, stockton, california clc.edu"><td>Christian Life College, Stockton, California</td><td>clc.edu</td><td>1</td><td>100</td><td>82</td><td>58</td><td>100</td></tr>
+<tr data-search="christian life college, stockton, california clcillinois.edu"><td>Christian Life College, Stockton, California</td><td>clcillinois.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christian life college, stockton, california clcmn.edu"><td>Christian Life College, Stockton, California</td><td>clcmn.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="clearwater christian college cle.edu"><td>Clearwater Christian College</td><td>cle.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="cleary college cleary.edu"><td>Cleary College</td><td>cleary.edu</td><td>1</td><td>86</td><td>87</td><td>54</td><td>85</td></tr>
+<tr data-search="clemson university clemson.edu"><td>Clemson University</td><td>clemson.edu</td><td>1</td><td>84</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="cleveland chiropractic college cleveland.edu"><td>Cleveland Chiropractic College</td><td>cleveland.edu</td><td>1</td><td>98</td><td>89</td><td>54</td><td>85</td></tr>
+<tr data-search="cleveland community college clevelandcc.edu"><td>Cleveland Community College</td><td>clevelandcc.edu</td><td>1</td><td>100</td><td>87</td><td>54</td><td>100</td></tr>
+<tr data-search="cleveland state community college clevelandstatecc.edu"><td>Cleveland State Community College</td><td>clevelandstatecc.edu</td><td>1</td><td>90</td><td>89</td><td>77</td><td>77</td></tr>
+<tr data-search="clinch valley college clinch.edu"><td>Clinch Valley College</td><td>clinch.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="clinton community college clinton.edu"><td>Clinton Community College</td><td>clinton.edu</td><td>1</td><td>99</td><td>97</td><td>54</td><td>82</td></tr>
+<tr data-search="clinton college clintoncollege.edu"><td>Clinton College</td><td>clintoncollege.edu</td><td>1</td><td>75</td><td>98</td><td>77</td><td>92</td></tr>
+<tr data-search="cloud county community college cloud.edu"><td>Cloud County Community College</td><td>cloud.edu</td><td>1</td><td>44</td><td>88</td><td>100</td><td>77</td></tr>
+<tr data-search="clovis community college clovis.edu"><td>Clovis Community College</td><td>clovis.edu</td><td>1</td><td>64</td><td>63</td><td>73</td><td>75</td></tr>
+<tr data-search="chabot-las positas community college district clpccd.edu"><td>Chabot-Las Positas Community College District</td><td>clpccd.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="central louisiana technical college cltc.edu"><td>Central Louisiana Technical College</td><td>cltc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christian leadership university online bible college, online christian colleges, and christian theology seminaries cluniv.edu"><td>Christian Leadership University Online Bible College, Online Christian Colleges, and Christian Theology Seminaries</td><td>cluniv.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="central methodist college cmc.edu"><td>Central Methodist College</td><td>cmc.edu</td><td>1</td><td>92</td><td>99</td><td>92</td><td>85</td></tr>
 <tr data-search="central maine community college cmcc.edu"><td>Central Maine Community College</td><td>cmcc.edu</td><td>1</td><td>61</td><td>81</td><td>50</td><td>75</td></tr>
+<tr data-search="college of the marshall islands cmi.edu"><td>College of the Marshall Islands</td><td>cmi.edu</td><td>1</td><td>99</td><td>91</td><td>92</td><td>50</td></tr>
 <tr data-search="central michigan university cmich.edu"><td>Central Michigan University</td><td>cmich.edu</td><td>1</td><td>89</td><td>85</td><td>58</td><td>92</td></tr>
 <tr data-search="central maine medical center college of nursing and health professions cmmccollege.edu"><td>Central Maine Medical Center College of Nursing and Health Professions</td><td>cmmccollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of mount saint vincent cmsv.edu"><td>College of Mount Saint Vincent</td><td>cmsv.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cmu.edu cmu.edu"><td>cmu.edu</td><td>cmu.edu</td><td>1</td><td>93</td><td>96</td><td>58</td><td>92</td></tr>
 <tr data-search="carson-newman college cn.edu"><td>Carson-Newman College</td><td>cn.edu</td><td>1</td><td>93</td><td>89</td><td>54</td><td>92</td></tr>
 <tr data-search="caribbean nazarene college cnc.edu"><td>Caribbean Nazarene College</td><td>cnc.edu</td><td>1</td><td>99</td><td>93</td><td>77</td><td>54</td></tr>
 <tr data-search="::: welcome to central nursing college ::: cncusa.edu"><td>::: Welcome to Central Nursing College :::</td><td>cncusa.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california nurses educational institute cnei.edu"><td>California Nurses Educational Institute</td><td>cnei.edu</td><td>1</td><td>93</td><td>100</td><td>50</td><td>100</td></tr>
+<tr data-search="college of new rochelle cnr.edu"><td>College of New Rochelle</td><td>cnr.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christopher newport university cnu.edu"><td>Christopher Newport University</td><td>cnu.edu</td><td>1</td><td>95</td><td>92</td><td>58</td><td>100</td></tr>
 <tr data-search="california national university cnuas.edu"><td>California National University</td><td>cnuas.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of the atlantic coa.edu"><td>College of the Atlantic</td><td>coa.edu</td><td>1</td><td>83</td><td>87</td><td>81</td><td>85</td></tr>
+<tr data-search="coahoma community college coahomacc.edu"><td>Coahoma Community College</td><td>coahomacc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="coastal carolina university coastal.edu"><td>Coastal Carolina University</td><td>coastal.edu</td><td>1</td><td>67</td><td>89</td><td>69</td><td>92</td></tr>
+<tr data-search="coastal alabama community college coastalalabama.edu"><td>Coastal Alabama Community College</td><td>coastalalabama.edu</td><td>1</td><td>92</td><td>91</td><td>54</td><td>83</td></tr>
+<tr data-search="coastal carolina university coastalbend.edu"><td>Coastal Carolina University</td><td>coastalbend.edu</td><td>1</td><td>93</td><td>100</td><td>92</td><td>92</td></tr>
+<tr data-search="coastal carolina community college coastalcarolina.edu"><td>Coastal Carolina Community College</td><td>coastalcarolina.edu</td><td>1</td><td>100</td><td>96</td><td>58</td><td>85</td></tr>
+<tr data-search="coastal pines technical college coastalpines.edu"><td>Coastal Pines Technical College</td><td>coastalpines.edu</td><td>1</td><td>88</td><td>93</td><td>77</td><td>77</td></tr>
+<tr data-search="coastline community college coastline.edu"><td>Coastline Community College</td><td>coastline.edu</td><td>1</td><td>99</td><td>70</td><td>54</td><td>75</td></tr>
+<tr data-search="cobb beauty college cobbbeautycollege.edu"><td>Cobb Beauty College</td><td>cobbbeautycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="central oregon community college cocc.edu"><td>Central Oregon Community College</td><td>cocc.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>75</td></tr>
+<tr data-search="cochise college home page cochise.edu"><td>Cochise College Home Page</td><td>cochise.edu</td><td>1</td><td>95</td><td>100</td><td>46</td><td>85</td></tr>
+<tr data-search="coconino community college coconino.edu"><td>Coconino Community College</td><td>coconino.edu</td><td>1</td><td>93</td><td>95</td><td>73</td><td>92</td></tr>
+<tr data-search="college of dupage cod.edu"><td>College of DuPage</td><td>cod.edu</td><td>1</td><td>94</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="coe college coe.edu"><td>Coe College</td><td>coe.edu</td><td>1</td><td>83</td><td>76</td><td>73</td><td>92</td></tr>
+<tr data-search="college of charleston cofc.edu"><td>College of Charleston</td><td>cofc.edu</td><td>1</td><td>78</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="coffeyville community college coffeyville.edu"><td>Coffeyville Community College</td><td>coffeyville.edu</td><td>1</td><td>75</td><td>95</td><td>58</td><td>100</td></tr>
+<tr data-search="college of the ozarks cofo.edu"><td>College of the Ozarks</td><td>cofo.edu</td><td>1</td><td>99</td><td>95</td><td>50</td><td>92</td></tr>
+<tr data-search="cogswell polytechnical college cogswell.edu"><td>Cogswell Polytechnical College</td><td>cogswell.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="coker college coker.edu"><td>Coker College</td><td>coker.edu</td><td>1</td><td>93</td><td>81</td><td>58</td><td>77</td></tr>
+<tr data-search="colby-sawyer college colby-sawyer.edu"><td>Colby-Sawyer College</td><td>colby-sawyer.edu</td><td>1</td><td>40</td><td>95</td><td>—</td><td>85</td></tr>
+<tr data-search="colby college colby.edu"><td>Colby College</td><td>colby.edu</td><td>1</td><td>98</td><td>90</td><td>96</td><td>40</td></tr>
+<tr data-search="colby community college colbycc.edu"><td>Colby Community College</td><td>colbycc.edu</td><td>1</td><td>87</td><td>99</td><td>77</td><td>92</td></tr>
+<tr data-search="coleman university coleman.edu"><td>Coleman University</td><td>coleman.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="colgate is a nationally recognized liberal arts college set on a beautiful campus in central new york. colgate.edu"><td>Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.</td><td>colgate.edu</td><td>1</td><td>95</td><td>87</td><td>73</td><td>85</td></tr>
+<tr data-search="colgate is a nationally recognized liberal arts college set on a beautiful campus in central new york. colin.edu"><td>Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.</td><td>colin.edu</td><td>1</td><td>76</td><td>89</td><td>96</td><td>92</td></tr>
+<tr data-search="college for creative studies collegeforcreativestudies.edu"><td>College for Creative Studies</td><td>collegeforcreativestudies.edu</td><td>1</td><td>75</td><td>93</td><td>54</td><td>85</td></tr>
+<tr data-search="college of idaho collegeofidaho.edu"><td>College of Idaho</td><td>collegeofidaho.edu</td><td>1</td><td>95</td><td>91</td><td>54</td><td>92</td></tr>
+<tr data-search="college of saint benedict &amp; saint john\&#x27;s university collegeofsaintbenedict.edu"><td>College of Saint Benedict &amp; Saint John\&#x27;s University</td><td>collegeofsaintbenedict.edu</td><td>1</td><td>87</td><td>97</td><td>54</td><td>92</td></tr>
+<tr data-search="college of san mateo collegeofsanmateo.edu"><td>College of San Mateo</td><td>collegeofsanmateo.edu</td><td>1</td><td>95</td><td>92</td><td>58</td><td>83</td></tr>
+<tr data-search="college of the desert collegeofthedesert.edu"><td>College of the Desert</td><td>collegeofthedesert.edu</td><td>1</td><td>93</td><td>92</td><td>46</td><td>100</td></tr>
+<tr data-search="collin county community college district collin.edu"><td>Collin County Community College District</td><td>collin.edu</td><td>1</td><td>93</td><td>95</td><td>77</td><td>92</td></tr>
 <tr data-search="university of colorado health sciences center colorado.edu"><td>University of Colorado Health Sciences Center</td><td>colorado.edu</td><td>1</td><td>74</td><td>85</td><td>54</td><td>92</td></tr>
+<tr data-search="colorado college coloradocollege.edu"><td>Colorado College</td><td>coloradocollege.edu</td><td>1</td><td>90</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="colorado state university colostate.edu"><td>Colorado State University</td><td>colostate.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="an online university with unlimited possibilities colsouth.edu"><td>An Online University with Unlimited Possibilities</td><td>colsouth.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="columbia university in the city of new york columbia.edu"><td>Columbia University in the City of New York</td><td>columbia.edu</td><td>1</td><td>80</td><td>100</td><td>35</td><td>83</td></tr>
+<tr data-search="college of the mainland com.edu"><td>College of the Mainland</td><td>com.edu</td><td>1</td><td>38</td><td>92</td><td>77</td><td>85</td></tr>
+<tr data-search="college front page conception.edu"><td>College Front Page</td><td>conception.edu</td><td>1</td><td>73</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="bethune-cookman university cookman.edu"><td>Bethune-Cookman University</td><td>cookman.edu</td><td>1</td><td>92</td><td>91</td><td>54</td><td>83</td></tr>
+<tr data-search="college of the sequoias cos.edu"><td>College of the Sequoias</td><td>cos.edu</td><td>1</td><td>22</td><td>79</td><td>58</td><td>83</td></tr>
 <tr data-search="central ohio technical college cotc.edu"><td>Central Ohio Technical College</td><td>cotc.edu</td><td>1</td><td>89</td><td>100</td><td>58</td><td>92</td></tr>
-<tr data-search="california polytechnic state university, pomona cpp.edu"><td>California Polytechnic State University, Pomona</td><td>cpp.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of the ouachitas coto.edu"><td>College of the Ouachitas</td><td>coto.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="california polytechnic state university, pomona cpp.edu"><td>California Polytechnic State University, Pomona</td><td>cpp.edu</td><td>1</td><td>99</td><td>100</td><td>38</td><td>92</td></tr>
+<tr data-search="clover park technical college cptc.edu"><td>Clover Park Technical College</td><td>cptc.edu</td><td>1</td><td>97</td><td>98</td><td>92</td><td>100</td></tr>
 <tr data-search="california pacific university cpu.edu"><td>California Pacific University</td><td>cpu.edu</td><td>1</td><td>92</td><td>77</td><td>65</td><td>83</td></tr>
 <tr data-search="business college johnstown, indiana, pennsylvania, cambria county, crbc.edu"><td>Business College Johnstown, Indiana, Pennsylvania, Cambria County,</td><td>crbc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of saint benedict &amp; saint john\&#x27;s university csbsju.edu"><td>College of Saint Benedict &amp; Saint John\&#x27;s University</td><td>csbsju.edu</td><td>1</td><td>84</td><td>97</td><td>58</td><td>92</td></tr>
+<tr data-search="chadron state college csc.edu"><td>Chadron State College</td><td>csc.edu</td><td>1</td><td>96</td><td>97</td><td>69</td><td>77</td></tr>
 <tr data-search="california state christian university cscu.edu"><td>California State Christian University</td><td>cscu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="[csi] college of southern idaho csi.edu"><td>[CSI] College of Southern Idaho</td><td>csi.edu</td><td>1</td><td>100</td><td>93</td><td>73</td><td>77</td></tr>
+<tr data-search="college of st. joseph csj.edu"><td>College of St. Joseph</td><td>csj.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of saint mary csm.edu"><td>College of Saint Mary</td><td>csm.edu</td><td>1</td><td>99</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="college of southern maryland csmd.edu"><td>College of Southern Maryland</td><td>csmd.edu</td><td>1</td><td>95</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="college of southern nevada csn.edu"><td>College of Southern Nevada</td><td>csn.edu</td><td>1</td><td>76</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="california state university, bakersfield csub.edu"><td>California State University, Bakersfield</td><td>csub.edu</td><td>1</td><td>95</td><td>96</td><td>96</td><td>91</td></tr>
 <tr data-search="california state university channel islands (csuci) csuci.edu"><td>California State University Channel Islands (CSUCI)</td><td>csuci.edu</td><td>1</td><td>99</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="california state university, dominguez hills csudh.edu"><td>California State University, Dominguez Hills</td><td>csudh.edu</td><td>1</td><td>63</td><td>82</td><td>50</td><td>85</td></tr>
@@ -547,16 +687,24 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="california state university, long beach csulb.edu"><td>California State University, Long Beach</td><td>csulb.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="california state university, monterey bay csumb.edu"><td>California State University, Monterey Bay</td><td>csumb.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="california state university, northridge csun.edu"><td>California State University, Northridge</td><td>csun.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>92</td></tr>
+<tr data-search="charleston southern university csuniv.edu"><td>Charleston Southern University</td><td>csuniv.edu</td><td>1</td><td>66</td><td>79</td><td>73</td><td>92</td></tr>
+<tr data-search="cleveland state university csuohio.edu"><td>Cleveland State University</td><td>csuohio.edu</td><td>1</td><td>95</td><td>92</td><td>54</td><td>92</td></tr>
 <tr data-search="california state polytechnic university - pomona csupomona.edu"><td>California State Polytechnic University - Pomona</td><td>csupomona.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california state university, sacramento csus.edu"><td>California State University, Sacramento</td><td>csus.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="california state university, san bernardino csusb.edu"><td>California State University, San Bernardino</td><td>csusb.edu</td><td>1</td><td>100</td><td>97</td><td>69</td><td>92</td></tr>
 <tr data-search="california state university, san marcos csusm.edu"><td>California State University, San Marcos</td><td>csusm.edu</td><td>1</td><td>95</td><td>87</td><td>65</td><td>100</td></tr>
 <tr data-search="california state university, stanislaus csustan.edu"><td>California State University, Stanislaus</td><td>csustan.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cambridge technical institute cti.edu"><td>Cambridge Technical Institute</td><td>cti.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="christian theological seminary cts.edu"><td>Christian Theological Seminary</td><td>cts.edu</td><td>1</td><td>100</td><td>50</td><td>88</td><td>80</td></tr>
 <tr data-search="california university of business and techology (cubt) home page cubt.edu"><td>California University of Business and Techology (CUBT) Home Page</td><td>cubt.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="catholic university of eastern africa cuchicago.edu"><td>Catholic University of Eastern Africa</td><td>cuchicago.edu</td><td>1</td><td>93</td><td>98</td><td>77</td><td>91</td></tr>
+<tr data-search="cuny borough of manhattan community college cuny.edu"><td>CUNY Borough of Manhattan Community College</td><td>cuny.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california university of science and medicine cusm.edu"><td>California University of Science and Medicine</td><td>cusm.edu</td><td>1</td><td>95</td><td>97</td><td>96</td><td>83</td></tr>
+<tr data-search="chattahoochee valley community college cv.edu"><td>Chattahoochee Valley Community College</td><td>cv.edu</td><td>1</td><td>96</td><td>86</td><td>54</td><td>92</td></tr>
 <tr data-search="catawba valley community college cvcc.edu"><td>Catawba Valley Community College</td><td>cvcc.edu</td><td>1</td><td>95</td><td>98</td><td>96</td><td>85</td></tr>
+<tr data-search="chippewa valley technical college cvtc.edu"><td>Chippewa Valley Technical College</td><td>cvtc.edu</td><td>1</td><td>94</td><td>92</td><td>54</td><td>100</td></tr>
+<tr data-search="central wyoming college cwc.edu"><td>Central Wyoming College</td><td>cwc.edu</td><td>1</td><td>75</td><td>86</td><td>54</td><td>92</td></tr>
+<tr data-search="central washington university cwu.edu"><td>Central Washington University</td><td>cwu.edu</td><td>1</td><td>90</td><td>87</td><td>50</td><td>83</td></tr>
 <tr data-search="dartmouth college dartmouth.edu"><td>Dartmouth College</td><td>dartmouth.edu</td><td>1</td><td>80</td><td>98</td><td>35</td><td>85</td></tr>
 <tr data-search=":: dia university :: dia.edu"><td>:: DIA UNIVERSITY ::</td><td>dia.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search=":.. drake college of business ..: - home drakecollege.edu"><td>:.. Drake College of Business ..: - Home</td><td>drakecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -572,6 +720,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="accredited, independent college, offering bachelor and associate degrees fisher.edu"><td>Accredited, independent college, offering Bachelor and Associate degrees</td><td>fisher.edu</td><td>1</td><td>71</td><td>88</td><td>54</td><td>92</td></tr>
 <tr data-search="foothill college home fordham.edu"><td>Foothill College Home</td><td>fordham.edu</td><td>1</td><td>80</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="a liberal arts college in colorado, fort lewis college, durango, co fortlewis.edu"><td>A Liberal Arts College in Colorado, Fort Lewis College, Durango, CO</td><td>fortlewis.edu</td><td>1</td><td>88</td><td>91</td><td>50</td><td>85</td></tr>
+<tr data-search="college degree online franklin.edu"><td>College Degree Online</td><td>franklin.edu</td><td>1</td><td>94</td><td>80</td><td>—</td><td>77</td></tr>
 <tr data-search=":::the franklin career institute::: franklincareer.edu"><td>:::THE FRANKLIN CAREER INSTITUTE:::</td><td>franklincareer.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="the florida state university fsu.edu"><td>The Florida State University</td><td>fsu.edu</td><td>1</td><td>93</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="california state university, fullerton fullerton.edu"><td>California State University, Fullerton</td><td>fullerton.edu</td><td>1</td><td>96</td><td>95</td><td>50</td><td>92</td></tr>
@@ -585,6 +734,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="allan hancock college hancockcollege.edu"><td>Allan Hancock College</td><td>hancockcollege.edu</td><td>1</td><td>86</td><td>96</td><td>69</td><td>100</td></tr>
 <tr data-search="harvard university harvard.edu"><td>Harvard University</td><td>harvard.edu</td><td>1</td><td>100</td><td>96</td><td>81</td><td>100</td></tr>
 <tr data-search=": - heritage institute of technology - : - home heritageit.edu"><td>: - Heritage Institute of Technology - : - Home</td><td>heritageit.edu</td><td>1</td><td>61</td><td>59</td><td>62</td><td>83</td></tr>
+<tr data-search="college of the holy cross holycross.edu"><td>College of the Holy Cross</td><td>holycross.edu</td><td>1</td><td>96</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="howard university howard.edu"><td>Howard University</td><td>howard.edu</td><td>1</td><td>95</td><td>93</td><td>58</td><td>92</td></tr>
 <tr data-search="iowa state university of science and technology iastate.edu"><td>Iowa State University of Science and Technology</td><td>iastate.edu</td><td>1</td><td>99</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search=":: welcome to ibais university :: ibais.edu"><td>:: Welcome to IBAIS University ::</td><td>ibais.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -601,7 +751,11 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="accredited online college lincolnonline.edu"><td>Accredited Online College</td><td>lincolnonline.edu</td><td>1</td><td>—</td><td>90</td><td>54</td><td>92</td></tr>
 <tr data-search="[lwc] lindsey wilson college lindsey.edu"><td>[LWC] Lindsey Wilson College</td><td>lindsey.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cankdeska cikana community college littlehoop.edu"><td>Cankdeska Cikana Community College</td><td>littlehoop.edu</td><td>1</td><td>99</td><td>87</td><td>73</td><td>92</td></tr>
+<tr data-search="colleges in arizona longtechnicalcollege.edu"><td>Colleges in Arizona</td><td>longtechnicalcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="louisiana state university and agricultural and mechanical college lsu.edu"><td>Louisiana State University and Agricultural and Mechanical College</td><td>lsu.edu</td><td>1</td><td>94</td><td>93</td><td>77</td><td>92</td></tr>
+<tr data-search="christian university macu.edu"><td>Christian University</td><td>macu.edu</td><td>1</td><td>70</td><td>92</td><td>58</td><td>77</td></tr>
+<tr data-search="college of saint mary magdalen magdalen.edu"><td>College of Saint Mary Magdalen</td><td>magdalen.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of marin marin.edu"><td>College of Marin</td><td>marin.edu</td><td>1</td><td>92</td><td>90</td><td>92</td><td>92</td></tr>
 <tr data-search="marquette university marquette.edu"><td>Marquette University</td><td>marquette.edu</td><td>1</td><td>81</td><td>97</td><td>54</td><td>92</td></tr>
 <tr data-search="::midwestern career college:: mccollege.edu"><td>::Midwestern Career College::</td><td>mccollege.edu</td><td>1</td><td>87</td><td>91</td><td>50</td><td>85</td></tr>
 <tr data-search="university of miami miami.edu"><td>University of Miami</td><td>miami.edu</td><td>1</td><td>57</td><td>71</td><td>35</td><td>92</td></tr>
@@ -611,38 +765,48 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="massachusetts institute of technology mit.edu"><td>Massachusetts Institute of Technology</td><td>mit.edu</td><td>1</td><td>95</td><td>95</td><td>100</td><td>92</td></tr>
 <tr data-search="art school, art colleges massachusetts, ma montserrat.edu"><td>Art School, Art Colleges Massachusetts, MA</td><td>montserrat.edu</td><td>1</td><td>97</td><td>87</td><td>77</td><td>85</td></tr>
 <tr data-search="morehouse college morehouse.edu"><td>Morehouse College</td><td>morehouse.edu</td><td>1</td><td>83</td><td>95</td><td>58</td><td>92</td></tr>
+<tr data-search="college of mount st. joseph msj.edu"><td>College of Mount St. Joseph</td><td>msj.edu</td><td>1</td><td>93</td><td>79</td><td>58</td><td>92</td></tr>
 <tr data-search="michigan state university. est. 1855. east lansing, michigan usa. msu.edu"><td>Michigan State University. Est. 1855. East Lansing, Michigan USA.</td><td>msu.edu</td><td>1</td><td>95</td><td>91</td><td>58</td><td>85</td></tr>
 <tr data-search="baton rouge community college mybrcc.edu"><td>Baton Rouge Community College</td><td>mybrcc.edu</td><td>1</td><td>95</td><td>97</td><td>96</td><td>92</td></tr>
 <tr data-search="an-najah national university najah.edu"><td>An-Najah National University</td><td>najah.edu</td><td>1</td><td>88</td><td>68</td><td>96</td><td>36</td></tr>
 <tr data-search="best engineering college panipat,engineering college haryana,engineering college haryana india,engineering college panipat india ncce.edu"><td>Best Engineering College Panipat,Engineering College Haryana,Engineering College Haryana India,Engineering College Panipat India</td><td>ncce.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of nursing ncpcollegeofnursing.edu"><td>College of Nursing</td><td>ncpcollegeofnursing.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arkansas colleges and universities northark.edu"><td>Arkansas Colleges and Universities</td><td>northark.edu</td><td>1</td><td>76</td><td>80</td><td>77</td><td>92</td></tr>
+<tr data-search="college degrees, nebraska community college, online classes northeast.edu"><td>College Degrees, Nebraska Community College, Online Classes</td><td>northeast.edu</td><td>1</td><td>91</td><td>97</td><td>54</td><td>91</td></tr>
 <tr data-search="northeastern university northeastern.edu"><td>Northeastern University</td><td>northeastern.edu</td><td>1</td><td>46</td><td>88</td><td>73</td><td>77</td></tr>
 <tr data-search="northwestern university in qatar northwestern.edu"><td>Northwestern University In Qatar</td><td>northwestern.edu</td><td>1</td><td>97</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="notre dame college notredame.edu"><td>Notre Dame College</td><td>notredame.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bible based christian college nwc.edu"><td>Bible Based Christian College</td><td>nwc.edu</td><td>1</td><td>92</td><td>96</td><td>54</td><td>100</td></tr>
 <tr data-search="new york university nyu.edu"><td>New York University</td><td>nyu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of arts and sciences &amp; conservatory of music oberlin.edu"><td>College of Arts and Sciences &amp; Conservatory of Music</td><td>oberlin.edu</td><td>1</td><td>90</td><td>94</td><td>58</td><td>92</td></tr>
 <tr data-search="ohio state university ohio-state.edu"><td>Ohio State University</td><td>ohio-state.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="the university of mississippi olemiss.edu"><td>The University of Mississippi</td><td>olemiss.edu</td><td>1</td><td>85</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="oregon state university oregonstate.edu"><td>Oregon State University</td><td>oregonstate.edu</td><td>1</td><td>93</td><td>92</td><td>58</td><td>92</td></tr>
 <tr data-search="aba approved programs and accredited paralegal college paralegal.edu"><td>ABA Approved Programs and Accredited Paralegal College</td><td>paralegal.edu</td><td>1</td><td>88</td><td>80</td><td>69</td><td>85</td></tr>
+<tr data-search="college of alameda peralta.edu"><td>College of Alameda</td><td>peralta.edu</td><td>1</td><td>86</td><td>99</td><td>50</td><td>100</td></tr>
 <tr data-search="pennsylvania institute of technology, media, pa pitt.edu"><td>Pennsylvania Institute of Technology, Media, PA</td><td>pitt.edu</td><td>1</td><td>88</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="princeton university princeton.edu"><td>Princeton University</td><td>princeton.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="pennsylvania state university - schuylkill campus psu.edu"><td>Pennsylvania State University - Schuylkill Campus</td><td>psu.edu</td><td>1</td><td>96</td><td>96</td><td>54</td><td>100</td></tr>
 <tr data-search="purdue university purdue.edu"><td>Purdue University</td><td>purdue.edu</td><td>1</td><td>97</td><td>96</td><td>35</td><td>75</td></tr>
+<tr data-search="college of the redwoods redwoods.edu"><td>College of the Redwoods</td><td>redwoods.edu</td><td>1</td><td>99</td><td>98</td><td>54</td><td>85</td></tr>
 <tr data-search="rice university rice.edu"><td>Rice University</td><td>rice.edu</td><td>1</td><td>90</td><td>92</td><td>77</td><td>100</td></tr>
 <tr data-search="university of rochester rochester.edu"><td>University of Rochester</td><td>rochester.edu</td><td>1</td><td>98</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="rutgers, the state university of new jersey rutgers.edu"><td>Rutgers, The State University of New Jersey</td><td>rutgers.edu</td><td>1</td><td>95</td><td>93</td><td>58</td><td>100</td></tr>
 <tr data-search="carl sandburg college sandburg.edu"><td>Carl Sandburg College</td><td>sandburg.edu</td><td>1</td><td>51</td><td>98</td><td>54</td><td>100</td></tr>
 <tr data-search="benedictine university, springfield college in illinois sci.edu"><td>Benedictine University, Springfield College in Illinois</td><td>sci.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="colleges in texas tech training schools scitexas.edu"><td>Colleges in Texas Tech Training Schools</td><td>scitexas.edu</td><td>1</td><td>70</td><td>85</td><td>54</td><td>92</td></tr>
 <tr data-search="santa clara university scu.edu"><td>Santa Clara University</td><td>scu.edu</td><td>1</td><td>92</td><td>95</td><td>58</td><td>100</td></tr>
+<tr data-search="college of the siskiyous siskiyous.edu"><td>College of the Siskiyous</td><td>siskiyous.edu</td><td>1</td><td>93</td><td>77</td><td>46</td><td>75</td></tr>
 <tr data-search="california state university, san jose sjsu.edu"><td>California State University, San Jose</td><td>sjsu.edu</td><td>1</td><td>64</td><td>92</td><td>58</td><td>75</td></tr>
 <tr data-search="southern methodist university smu.edu"><td>Southern Methodist University</td><td>smu.edu</td><td>1</td><td>75</td><td>100</td><td>50</td><td>92</td></tr>
 <tr data-search="spelman college spelman.edu"><td>Spelman College</td><td>spelman.edu</td><td>1</td><td>82</td><td>96</td><td>35</td><td>91</td></tr>
 <tr data-search="stanford university stanford.edu"><td>Stanford University</td><td>stanford.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>92</td></tr>
 <tr data-search="saint john&#x27;s university (ny) stjohns.edu"><td>Saint John&#x27;s University (NY)</td><td>stjohns.edu</td><td>1</td><td>61</td><td>89</td><td>35</td><td>92</td></tr>
+<tr data-search="college of saint catherine stkate.edu"><td>College of Saint Catherine</td><td>stkate.edu</td><td>1</td><td>76</td><td>94</td><td>54</td><td>100</td></tr>
 <tr data-search="stony brook university, stony brook, new york stonybrook.edu"><td>Stony Brook University, Stony Brook, New York</td><td>stonybrook.edu</td><td>1</td><td>73</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="academic medical center at state university of new york at stony brook stonybrookmedicine.edu"><td>Academic medical center at State University of New York at Stony Brook</td><td>stonybrookmedicine.edu</td><td>1</td><td>83</td><td>100</td><td>92</td><td>92</td></tr>
 <tr data-search="cardinal stritch university stritch.edu"><td>Cardinal Stritch University</td><td>stritch.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>85</td></tr>
+<tr data-search="college of saint rose strose.edu"><td>College of Saint Rose</td><td>strose.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="adirondack community college sunyacc.edu"><td>Adirondack Community College</td><td>sunyacc.edu</td><td>1</td><td>93</td><td>89</td><td>54</td><td>92</td></tr>
 <tr data-search=":: southern union state community college :: suscc.edu"><td>:: Southern Union State Community College ::</td><td>suscc.edu</td><td>1</td><td>91</td><td>94</td><td>54</td><td>92</td></tr>
 <tr data-search="catholic seminary schools svdp.edu"><td>Catholic Seminary Schools</td><td>svdp.edu</td><td>1</td><td>92</td><td>87</td><td>100</td><td>92</td></tr>
@@ -650,6 +814,7 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="texas a&amp;m university - college station tamu.edu"><td>Texas A&amp;M University - College Station</td><td>tamu.edu</td><td>1</td><td>88</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="texas christian university tcu.edu"><td>Texas Christian University</td><td>tcu.edu</td><td>1</td><td>95</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="buddha institute of technology technologyindia.edu"><td>Buddha Institute of Technology</td><td>technologyindia.edu</td><td>1</td><td>92</td><td>69</td><td>65</td><td>83</td></tr>
+<tr data-search="college education for adults at thomas edison state college tesc.edu"><td>College Education for Adults at Thomas Edison State College</td><td>tesc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="baylor college of medicine tlu.edu"><td>Baylor College of Medicine</td><td>tlu.edu</td><td>1</td><td>88</td><td>89</td><td>73</td><td>92</td></tr>
 <tr data-search="accredited online university degrees, military university, online colleges, bachelor, masters, phd trident.edu"><td>Accredited Online University Degrees, Military University, Online Colleges, Bachelor, Masters, PhD</td><td>trident.edu</td><td>1</td><td>80</td><td>99</td><td>54</td><td>85</td></tr>
 <tr data-search="a top christian university and seminary trincoll.edu"><td>A Top Christian University and Seminary</td><td>trincoll.edu</td><td>1</td><td>70</td><td>87</td><td>58</td><td>85</td></tr>
@@ -687,13 +852,15 @@ _Stats as of 2026-04-30 06:13 UTC — last scan: 2026-04-30_
 <tr data-search="aviation college and engineering degree program vaughn.edu"><td>Aviation College and Engineering Degree Program</td><td>vaughn.edu</td><td>1</td><td>75</td><td>91</td><td>54</td><td>92</td></tr>
 <tr data-search="associate degree, college degrees vc.edu"><td>Associate Degree, College Degrees</td><td>vc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="associate degree, college degrees vcc.edu"><td>Associate Degree, College Degrees</td><td>vcc.edu</td><td>1</td><td>100</td><td>81</td><td>100</td><td>85</td></tr>
+<tr data-search="central virginia community college vccs.edu"><td>Central Virginia Community College</td><td>vccs.edu</td><td>1</td><td>75</td><td>87</td><td>46</td><td>92</td></tr>
 <tr data-search="accredited christian universities, crichton higher education university tennessee, online teacher education memphis degree programs victory.edu"><td>Accredited Christian Universities, Crichton Higher Education University Tennessee, Online Teacher Education Memphis Degree programs</td><td>victory.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="villa maria college, buffalo, ny villanova.edu"><td>Villa Maria College, Buffalo, NY</td><td>villanova.edu</td><td>1</td><td>96</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="university of virginia, charlottesville virginia.edu"><td>University of Virginia, Charlottesville</td><td>virginia.edu</td><td>1</td><td>93</td><td>88</td><td>69</td><td>100</td></tr>
 <tr data-search="virginia polytechnic institute and state university (virginia tech) vt.edu"><td>Virginia Polytechnic Institute and State University (Virginia Tech)</td><td>vt.edu</td><td>1</td><td>87</td><td>96</td><td>58</td><td>82</td></tr>
 <tr data-search="wake forest university wakeforest.edu"><td>Wake Forest University</td><td>wakeforest.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="college of osteopathic medicine of the pacific (western university of health sciences) westernu.edu"><td>College of Osteopathic Medicine of the Pacific (Western University of Health Sciences)</td><td>westernu.edu</td><td>1</td><td>98</td><td>92</td><td>58</td><td>92</td></tr>
 <tr data-search="university of wisconsin - madison wisc.edu"><td>University of Wisconsin - Madison</td><td>wisc.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>100</td></tr>
-<tr data-search="college of william and mary wm.edu"><td>College of William and Mary</td><td>wm.edu</td><td>1</td><td>71</td><td>97</td><td>50</td><td>100</td></tr>
+<tr data-search="college of william and mary wm.edu"><td>College of William and Mary</td><td>wm.edu</td><td>1</td><td>74</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="career college wrightcc.edu"><td>Career College</td><td>wrightcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="xavier university of louisiana xula.edu"><td>Xavier University of Louisiana</td><td>xula.edu</td><td>1</td><td>91</td><td>86</td><td>50</td><td>82</td></tr>
 <tr data-search="yale university yale.edu"><td>Yale University</td><td>yale.edu</td><td>1</td><td>100</td><td>88</td><td>92</td><td>100</td></tr>
