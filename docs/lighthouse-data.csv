@@ -2,41 +2,41 @@
 USA_EDU_MASTER,https://4cd.edu/,100.0,93.0,96.0,82.0,,2026-05-02T04:44:05.838926+00:00
 USA_EDU_MASTER,https://aacc.edu/,95.0,91.0,77.0,83.0,,2026-04-28T04:50:27.701713+00:00
 USA_EDU_MASTER,https://aai.edu/,97.0,91.0,54.0,100.0,,2026-04-28T04:54:11.329292+00:00
-USA_EDU_MASTER,https://aamu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:12:58.703966+00:00
-USA_EDU_MASTER,https://aauj.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:16:53.329104+00:00
-USA_EDU_MASTER,https://ab.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:13:39.857891+00:00
+USA_EDU_MASTER,https://aamu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:00:55.122340+00:00
+USA_EDU_MASTER,https://aauj.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:04:52.539686+00:00
+USA_EDU_MASTER,https://ab.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65013),2026-05-02T06:01:36.189920+00:00
 USA_EDU_MASTER,https://abac.edu/,97.0,82.0,58.0,91.0,,2026-04-28T04:26:24.984769+00:00
 USA_EDU_MASTER,https://abc.edu/,81.0,60.0,77.0,92.0,,2026-04-29T04:46:15.819387+00:00
 USA_EDU_MASTER,https://abcnash.edu/,88.0,88.0,77.0,92.0,,2026-04-28T04:40:51.506624+00:00
-USA_EDU_MASTER,https://abcs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:14:27.556271+00:00
-USA_EDU_MASTER,https://absw.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:14:25.118081+00:00
+USA_EDU_MASTER,https://abcs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:02:27.589967+00:00
+USA_EDU_MASTER,https://absw.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:02:23.989958+00:00
 USA_EDU_MASTER,https://abtech.edu/,97.0,100.0,58.0,85.0,,2026-04-28T04:59:15.935587+00:00
-USA_EDU_MASTER,https://aca.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:21:18.000769+00:00
+USA_EDU_MASTER,https://aca.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:09:14.836283+00:00
 USA_EDU_MASTER,https://academyart.edu/,87.0,89.0,58.0,85.0,,2026-04-28T04:27:05.267804+00:00
 USA_EDU_MASTER,https://academycollege.edu/,88.0,97.0,100.0,85.0,,2026-04-28T04:27:00.103511+00:00
-USA_EDU_MASTER,https://acadiana.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:12:10.558073+00:00
+USA_EDU_MASTER,https://acadiana.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:00:09.295879+00:00
 USA_EDU_MASTER,https://acaom.edu/,75.0,79.0,54.0,85.0,,2026-04-28T04:41:42.765960+00:00
-USA_EDU_MASTER,https://acc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:20:57.122131+00:00
+USA_EDU_MASTER,https://acc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:08:53.860872+00:00
 USA_EDU_MASTER,https://achs.edu/,94.0,88.0,54.0,92.0,,2026-04-28T04:41:53.694628+00:00
 USA_EDU_MASTER,https://acm.edu/,93.0,82.0,100.0,77.0,,2026-04-28T04:28:54.263547+00:00
-USA_EDU_MASTER,https://acofi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T04:13:19.337879+00:00
+USA_EDU_MASTER,https://acofi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:01:15.540403+00:00
 USA_EDU_MASTER,https://acp.edu/,97.0,85.0,54.0,85.0,,2026-04-28T04:52:18.424315+00:00
 USA_EDU_MASTER,https://acphs.edu/,94.0,100.0,38.0,85.0,,2026-04-28T04:34:39.290668+00:00
 USA_EDU_MASTER,https://act.edu/,57.0,88.0,35.0,92.0,,2026-04-28T04:41:56.229634+00:00
-USA_EDU_MASTER,https://actcm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65068),2026-05-02T04:15:02.785868+00:00
-USA_EDU_MASTER,https://actx.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:14:06.899307+00:00
+USA_EDU_MASTER,https://actcm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65066),2026-05-02T06:03:03.129302+00:00
+USA_EDU_MASTER,https://actx.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:02:06.860622+00:00
 USA_EDU_MASTER,https://acu.edu/,100.0,98.0,96.0,92.0,,2026-04-28T04:26:01.365931+00:00
 USA_EDU_MASTER,https://adams.edu/,93.0,80.0,58.0,100.0,,2026-04-28T04:29:32.486911+00:00
 USA_EDU_MASTER,https://adelphi.edu/,75.0,87.0,54.0,100.0,,2026-04-28T04:29:39.174147+00:00
 USA_EDU_MASTER,https://adrian.edu/,74.0,96.0,92.0,100.0,,2026-04-28T04:30:12.040180+00:00
 USA_EDU_MASTER,https://adrians.edu/,76.0,75.0,77.0,92.0,,2026-04-28T04:30:35.749109+00:00
-USA_EDU_MASTER,https://advancedcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:32:41.302414+00:00
+USA_EDU_MASTER,https://advancedcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:20:50.409112+00:00
 USA_EDU_MASTER,https://afi.edu/,86.0,84.0,88.0,77.0,,2026-04-28T04:31:03.873470+00:00
-USA_EDU_MASTER,https://afit.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64818),2026-05-02T04:12:51.381504+00:00
+USA_EDU_MASTER,https://afit.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64818),2026-05-02T06:00:50.353791+00:00
 USA_EDU_MASTER,https://africau.edu/,75.0,68.0,73.0,77.0,,2026-04-28T04:31:07.883706+00:00
 USA_EDU_MASTER,https://agnesscott.edu/,84.0,87.0,54.0,83.0,,2026-04-28T04:31:34.705469+00:00
 USA_EDU_MASTER,https://ahgaff.edu/,92.0,66.0,42.0,100.0,,2026-04-28T04:33:09.264551+00:00
-USA_EDU_MASTER,https://ahi.edu/index.asp,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:15:06.338937+00:00
+USA_EDU_MASTER,https://ahi.edu/index.asp,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:03:05.518466+00:00
 USA_EDU_MASTER,https://ai.edu/,90.0,98.0,81.0,92.0,,2026-04-28T04:52:43.355221+00:00
 USA_EDU_MASTER,https://aiam.edu/,98.0,79.0,54.0,92.0,,2026-04-28T04:43:03.297373+00:00
 USA_EDU_MASTER,https://aic.edu/,55.0,77.0,46.0,69.0,,2026-04-28T04:43:43.106403+00:00
@@ -45,21 +45,21 @@ USA_EDU_MASTER,https://aicusa.edu/,98.0,63.0,96.0,85.0,,2026-04-28T04:44:01.3230
 USA_EDU_MASTER,https://aiht.edu/,99.0,77.0,54.0,77.0,,2026-04-28T04:43:07.937819+00:00
 USA_EDU_MASTER,https://aiims.edu/,,60.0,50.0,73.0,,2026-04-28T04:36:43.864317+00:00
 USA_EDU_MASTER,https://aims.edu/,93.0,100.0,54.0,85.0,,2026-04-28T04:32:02.781512+00:00
-USA_EDU_MASTER,https://aimt.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:12:44.443160+00:00
+USA_EDU_MASTER,https://aimt.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:00:44.151100+00:00
 USA_EDU_MASTER,https://aiu.edu/,80.0,76.0,54.0,92.0,,2026-04-28T05:04:27.892438+00:00
 USA_EDU_MASTER,https://aiub.edu/,57.0,94.0,96.0,100.0,,2026-04-28T04:43:51.024440+00:00
-USA_EDU_MASTER,https://aiufl.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T04:15:26.824517+00:00
+USA_EDU_MASTER,https://aiufl.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:03:26.131425+00:00
 USA_EDU_MASTER,https://aiuniv.edu/,94.0,82.0,54.0,85.0,,2026-04-28T04:43:09.823814+00:00
 USA_EDU_MASTER,https://ajcunet.edu/,94.0,91.0,100.0,92.0,,2026-04-28T05:01:14.184732+00:00
 USA_EDU_MASTER,https://akbible.edu/,99.0,93.0,77.0,100.0,,2026-04-28T04:33:36.402950+00:00
 USA_EDU_MASTER,https://aku.edu/,65.0,78.0,73.0,85.0,,2026-04-28T04:31:19.688118+00:00
 USA_EDU_MASTER,https://alamancecc.edu/,94.0,98.0,58.0,77.0,,2026-04-28T04:33:14.351926+00:00
-USA_EDU_MASTER,https://alamedabeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65049),2026-05-02T04:13:05.036329+00:00
+USA_EDU_MASTER,https://alamedabeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65051),2026-05-02T06:01:04.639074+00:00
 USA_EDU_MASTER,https://alamo.edu/,87.0,79.0,54.0,77.0,,2026-04-28T04:33:33.883041+00:00
 USA_EDU_MASTER,https://alaskacareercollege.edu/,75.0,90.0,96.0,100.0,,2026-04-28T04:33:39.073607+00:00
 USA_EDU_MASTER,https://alaskapacific.edu/,91.0,84.0,58.0,92.0,,2026-04-28T04:34:21.266402+00:00
 USA_EDU_MASTER,https://alasu.edu/,95.0,92.0,54.0,100.0,,2026-04-28T04:34:05.887823+00:00
-USA_EDU_MASTER,https://alb.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:13:25.490347+00:00
+USA_EDU_MASTER,https://alb.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:01:25.274855+00:00
 USA_EDU_MASTER,https://albanytech.edu/,100.0,97.0,46.0,85.0,,2026-04-28T04:34:50.137366+00:00
 USA_EDU_MASTER,https://albemarle.edu/,72.0,90.0,65.0,83.0,,2026-05-01T05:08:34.442209+00:00
 USA_EDU_MASTER,https://albion.edu/,88.0,92.0,58.0,85.0,,2026-04-30T04:53:12.886251+00:00
@@ -68,17 +68,17 @@ USA_EDU_MASTER,https://alcorn.edu/,91.0,85.0,35.0,92.0,,2026-04-28T04:35:26.4243
 USA_EDU_MASTER,https://alextech.edu/,91.0,87.0,73.0,100.0,,2026-04-28T04:35:29.871545+00:00
 USA_EDU_MASTER,https://alfred.edu/,70.0,100.0,58.0,100.0,,2026-04-28T04:36:06.903694+00:00
 USA_EDU_MASTER,https://alfredstate.edu/,73.0,100.0,58.0,100.0,,2026-04-28T04:35:54.561387+00:00
-USA_EDU_MASTER,https://alleg.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:13:46.140102+00:00
+USA_EDU_MASTER,https://alleg.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:01:46.098864+00:00
 USA_EDU_MASTER,https://allegany.edu/,90.0,88.0,58.0,83.0,,2026-04-28T04:37:19.775473+00:00
 USA_EDU_MASTER,https://allencc.edu/,93.0,93.0,54.0,92.0,,2026-04-28T04:37:54.182367+00:00
-USA_EDU_MASTER,https://allencol.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:14:00.576337+00:00
+USA_EDU_MASTER,https://allencol.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:01:56.841092+00:00
 USA_EDU_MASTER,https://allencollege.edu/,100.0,94.0,100.0,92.0,,2026-04-28T04:37:52.775434+00:00
 USA_EDU_MASTER,https://allenuniversity.edu/,95.0,96.0,92.0,85.0,,2026-04-28T04:38:03.622534+00:00
 USA_EDU_MASTER,https://alliant.edu/,100.0,99.0,58.0,100.0,,2026-04-28T04:38:29.460897+00:00
 USA_EDU_MASTER,https://alma.edu/,90.0,93.0,58.0,92.0,,2026-04-28T04:39:00.801159+00:00
 USA_EDU_MASTER,https://alpenacc.edu/,91.0,87.0,100.0,91.0,,2026-04-28T04:39:12.401831+00:00
 USA_EDU_MASTER,https://alquds.edu/,31.0,78.0,62.0,92.0,,2026-04-28T04:32:28.275403+00:00
-USA_EDU_MASTER,https://altamahatech.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:14:04.387517+00:00
+USA_EDU_MASTER,https://altamahatech.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:02:03.312158+00:00
 USA_EDU_MASTER,https://alu.edu/,94.0,95.0,54.0,92.0,,2026-04-28T04:26:35.353751+00:00
 USA_EDU_MASTER,https://alvernia.edu/,88.0,82.0,54.0,85.0,,2026-04-28T04:39:38.971492+00:00
 USA_EDU_MASTER,https://alverno.edu/,99.0,86.0,54.0,85.0,,2026-04-28T04:39:50.847626+00:00
@@ -86,19 +86,19 @@ USA_EDU_MASTER,https://alvincollege.edu/,100.0,92.0,69.0,92.0,,2026-04-28T04:40:
 USA_EDU_MASTER,https://ambassador.edu/,100.0,95.0,96.0,61.0,,2026-04-28T04:40:36.860445+00:00
 USA_EDU_MASTER,https://ambassadors.edu/,98.0,92.0,100.0,92.0,,2026-04-28T04:40:22.927887+00:00
 USA_EDU_MASTER,https://amberton.edu/,91.0,92.0,58.0,85.0,,2026-04-28T04:40:45.299721+00:00
-USA_EDU_MASTER,https://amcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:16:28.470074+00:00
-USA_EDU_MASTER,https://amcd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64988),2026-05-02T04:14:48.170991+00:00
-USA_EDU_MASTER,https://amercoastuniv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T04:14:45.627777+00:00
+USA_EDU_MASTER,https://amcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:04:28.447415+00:00
+USA_EDU_MASTER,https://amcd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64990),2026-05-02T06:02:48.525224+00:00
+USA_EDU_MASTER,https://amercoastuniv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:02:44.627104+00:00
 USA_EDU_MASTER,https://americancareercollege.edu/,75.0,96.0,54.0,92.0,,2026-04-28T04:41:19.351652+00:00
 USA_EDU_MASTER,https://americaninstitute.edu/,94.0,94.0,35.0,100.0,,2026-04-28T04:42:35.986611+00:00
-USA_EDU_MASTER,https://americanparalegal.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T04:15:16.970854+00:00
+USA_EDU_MASTER,https://americanparalegal.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T06:03:17.519154+00:00
 USA_EDU_MASTER,https://amherst.edu/,97.0,86.0,77.0,85.0,,2026-04-28T04:46:42.566718+00:00
-USA_EDU_MASTER,https://amridgeuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65092),2026-05-02T04:32:59.532308+00:00
+USA_EDU_MASTER,https://amridgeuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65092),2026-05-02T06:21:02.450441+00:00
 USA_EDU_MASTER,https://amrita.edu/,68.0,85.0,77.0,100.0,,2026-04-28T04:46:59.992579+00:00
 USA_EDU_MASTER,https://anaheim.edu/,87.0,87.0,73.0,92.0,,2026-04-28T04:48:02.239714+00:00
-USA_EDU_MASTER,https://anamarc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:16:07.857181+00:00
+USA_EDU_MASTER,https://anamarc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:04:07.904798+00:00
 USA_EDU_MASTER,https://anc.edu/,99.0,90.0,77.0,92.0,,2026-04-28T04:56:32.980626+00:00
-USA_EDU_MASTER,https://ancilla.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:16:18.601409+00:00
+USA_EDU_MASTER,https://ancilla.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:04:17.592982+00:00
 USA_EDU_MASTER,https://ancollege.edu/,100.0,95.0,96.0,85.0,,2026-04-28T04:25:51.127987+00:00
 USA_EDU_MASTER,https://anderson.edu/,71.0,84.0,54.0,85.0,,2026-04-28T04:48:52.281469+00:00
 USA_EDU_MASTER,https://andrewcollege.edu/,70.0,96.0,54.0,100.0,,2026-04-28T04:48:55.567483+00:00
@@ -114,8 +114,8 @@ USA_EDU_MASTER,https://antiochla.edu/,83.0,88.0,58.0,77.0,,2026-04-28T04:51:08.2
 USA_EDU_MASTER,https://antiochne.edu/,83.0,88.0,58.0,77.0,,2026-04-28T04:51:35.076145+00:00
 USA_EDU_MASTER,https://antiochsb.edu/,85.0,88.0,58.0,77.0,,2026-04-28T04:51:45.778476+00:00
 USA_EDU_MASTER,https://antiochsea.edu/,76.0,88.0,58.0,77.0,,2026-04-28T04:51:30.440415+00:00
-USA_EDU_MASTER,https://antonelli.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:16:48.854837+00:00
-USA_EDU_MASTER,https://api.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:15:37.656202+00:00
+USA_EDU_MASTER,https://antonelli.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:04:49.068333+00:00
+USA_EDU_MASTER,https://api.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:03:38.212332+00:00
 USA_EDU_MASTER,https://appstate.edu/,77.0,98.0,35.0,92.0,,2026-04-29T04:25:23.201274+00:00
 USA_EDU_MASTER,https://apsu.edu/,94.0,95.0,54.0,100.0,,2026-04-28T05:08:32.535370+00:00
 USA_EDU_MASTER,https://apts.edu/,73.0,83.0,100.0,85.0,,2026-04-28T05:00:04.961703+00:00
@@ -125,24 +125,24 @@ USA_EDU_MASTER,https://aquinas.edu/,90.0,91.0,58.0,85.0,,2026-04-28T04:52:33.641
 USA_EDU_MASTER,https://arapahoe.edu/,90.0,99.0,54.0,92.0,,2026-04-28T04:53:09.456474+00:00
 USA_EDU_MASTER,https://arcadia.edu/,95.0,93.0,58.0,100.0,,2026-04-28T04:53:18.125825+00:00
 USA_EDU_MASTER,https://arellanolaw.edu/,59.0,80.0,96.0,75.0,,2026-04-28T04:53:20.375444+00:00
-USA_EDU_MASTER,https://argosy.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:17:09.495204+00:00
-USA_EDU_MASTER,https://argosy.edu/sarasota-florida/default.aspx,,,,,Lighthouse timed out after 120s,2026-05-02T04:17:13.755627+00:00
+USA_EDU_MASTER,https://argosy.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:05:10.069190+00:00
+USA_EDU_MASTER,https://argosy.edu/sarasota-florida/default.aspx,,,,,Lighthouse timed out after 120s,2026-05-02T06:05:13.256428+00:00
 USA_EDU_MASTER,https://arizonachristian.edu/,68.0,89.0,54.0,92.0,,2026-04-28T04:54:44.733756+00:00
 USA_EDU_MASTER,https://arkansasbaptist.edu/,99.0,95.0,100.0,100.0,,2026-04-28T04:56:06.349631+00:00
-USA_EDU_MASTER,https://arlingtonbaptistcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65055),2026-05-02T04:18:00.737301+00:00
-USA_EDU_MASTER,https://armstrong.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:18:21.376197+00:00
-USA_EDU_MASTER,https://army.edu/Login.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:19:09.602288+00:00
+USA_EDU_MASTER,https://arlingtonbaptistcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65057),2026-05-02T06:05:59.306052+00:00
+USA_EDU_MASTER,https://armstrong.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:06:19.964746+00:00
+USA_EDU_MASTER,https://army.edu/Login.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:07:10.184690+00:00
 USA_EDU_MASTER,https://artcenter.edu/,97.0,68.0,58.0,83.0,,2026-04-28T04:58:02.834715+00:00
-USA_EDU_MASTER,https://asa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:19:13.817830+00:00
+USA_EDU_MASTER,https://asa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:07:13.302955+00:00
 USA_EDU_MASTER,https://asbury.edu/,97.0,91.0,54.0,92.0,,2026-04-28T04:58:56.342323+00:00
 USA_EDU_MASTER,https://asburyseminary.edu/,100.0,94.0,54.0,92.0,,2026-04-28T04:58:53.280115+00:00
 USA_EDU_MASTER,https://ascc.edu/,75.0,77.0,96.0,58.0,,2026-04-28T04:32:51.869867+00:00
-USA_EDU_MASTER,https://ashford.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:19:34.256080+00:00
+USA_EDU_MASTER,https://ashford.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:07:31.251003+00:00
 USA_EDU_MASTER,https://ashland.edu/,93.0,94.0,58.0,100.0,,2026-04-28T04:59:42.501755+00:00
-USA_EDU_MASTER,https://ashmead.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:19:36.026603+00:00
-USA_EDU_MASTER,https://asianinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:19:54.583455+00:00
+USA_EDU_MASTER,https://ashmead.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:07:34.108599+00:00
+USA_EDU_MASTER,https://asianinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:07:51.566406+00:00
 USA_EDU_MASTER,https://asiapacific.edu/,69.0,77.0,50.0,83.0,,2026-04-28T04:59:45.516882+00:00
-USA_EDU_MASTER,https://asnuntuck.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:19:56.928426+00:00
+USA_EDU_MASTER,https://asnuntuck.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:07:55.023889+00:00
 USA_EDU_MASTER,https://assumption.edu/,98.0,98.0,54.0,92.0,,2026-04-28T05:01:15.161598+00:00
 USA_EDU_MASTER,https://astate.edu/,97.0,93.0,69.0,100.0,,2026-04-28T04:56:38.250596+00:00
 USA_EDU_MASTER,https://asub.edu/,82.0,76.0,77.0,92.0,,2026-04-28T04:56:47.097958+00:00
@@ -150,11 +150,11 @@ USA_EDU_MASTER,https://asumh.edu/,58.0,80.0,58.0,92.0,,2026-04-28T04:57:06.92628
 USA_EDU_MASTER,https://asun.edu/,83.0,100.0,73.0,92.0,,2026-04-28T04:57:07.371573+00:00
 USA_EDU_MASTER,https://asurams.edu/,98.0,91.0,69.0,92.0,,2026-04-28T04:34:40.212493+00:00
 USA_EDU_MASTER,https://ata.edu/,98.0,83.0,54.0,92.0,,2026-04-28T05:01:42.724592+00:00
-USA_EDU_MASTER,https://atc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:12:44.387007+00:00
+USA_EDU_MASTER,https://atc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:00:40.876091+00:00
 USA_EDU_MASTER,https://atcla.edu/,100.0,100.0,100.0,92.0,,2026-04-28T05:00:58.630230+00:00
 USA_EDU_MASTER,https://ateneo.edu/,98.0,80.0,96.0,92.0,,2026-05-01T06:31:22.282222+00:00
-USA_EDU_MASTER,https://athabasca.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:20:21.480891+00:00
-USA_EDU_MASTER,https://athenacollege.edu/html/index.cfm,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65065),2026-05-02T04:20:36.402459+00:00
+USA_EDU_MASTER,https://athabasca.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:08:20.076551+00:00
+USA_EDU_MASTER,https://athenacollege.edu/html/index.cfm,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65063),2026-05-02T06:08:33.075250+00:00
 USA_EDU_MASTER,https://athens.edu/,87.0,95.0,50.0,100.0,,2026-04-28T05:02:29.047393+00:00
 USA_EDU_MASTER,https://athenstech.edu/,92.0,100.0,58.0,92.0,,2026-04-28T05:03:01.331523+00:00
 USA_EDU_MASTER,https://ati.edu/,93.0,97.0,77.0,92.0,,2026-04-28T05:03:21.712825+00:00
@@ -165,10 +165,10 @@ USA_EDU_MASTER,https://atlanticuniv.edu/,100.0,83.0,100.0,92.0,,2026-04-28T05:05
 USA_EDU_MASTER,https://atria.edu/,79.0,79.0,96.0,91.0,,2026-04-28T05:05:39.143478+00:00
 USA_EDU_MASTER,https://atsinstitute.edu/,58.0,52.0,65.0,91.0,,2026-04-28T05:06:07.148375+00:00
 USA_EDU_MASTER,https://atu.edu/,99.0,85.0,54.0,92.0,,2026-04-28T04:57:15.406859+00:00
-USA_EDU_MASTER,https://au.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:20:17.897830+00:00
+USA_EDU_MASTER,https://au.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:08:15.733044+00:00
 USA_EDU_MASTER,https://aub.edu/,96.0,92.0,58.0,85.0,,2026-04-28T04:46:11.944489+00:00
 USA_EDU_MASTER,https://aubg.edu/,94.0,89.0,58.0,92.0,,2026-04-28T04:45:36.915567+00:00
-USA_EDU_MASTER,https://aubs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:15:58.156895+00:00
+USA_EDU_MASTER,https://aubs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:03:56.892171+00:00
 USA_EDU_MASTER,https://auburn.edu/,94.0,100.0,96.0,92.0,,2026-04-28T05:06:08.755464+00:00
 USA_EDU_MASTER,https://aucegypt.edu/,71.0,91.0,77.0,92.0,,2026-04-28T04:45:57.743962+00:00
 USA_EDU_MASTER,https://aucenter.edu/,97.0,93.0,100.0,85.0,,2026-05-02T04:21:44.932735+00:00
@@ -178,33 +178,33 @@ USA_EDU_MASTER,https://augsburg.edu/,100.0,97.0,77.0,100.0,,2026-04-28T05:06:32.
 USA_EDU_MASTER,https://augusta.edu/,66.0,100.0,54.0,100.0,,2026-04-28T05:06:57.295781+00:00
 USA_EDU_MASTER,https://augustana.edu/,94.0,93.0,54.0,92.0,,2026-04-28T05:07:35.709283+00:00
 USA_EDU_MASTER,https://augustatech.edu/,64.0,82.0,54.0,83.0,,2026-04-28T05:06:56.483584+00:00
-USA_EDU_MASTER,https://auh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:15:47.294411+00:00
+USA_EDU_MASTER,https://auh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:03:47.242983+00:00
 USA_EDU_MASTER,https://aum.edu/,62.0,88.0,58.0,69.0,,2026-04-28T05:06:14.701202+00:00
 USA_EDU_MASTER,https://aurora.edu/,94.0,100.0,54.0,92.0,,2026-04-28T05:07:47.656427+00:00
 USA_EDU_MASTER,https://aus.edu/,70.0,62.0,54.0,85.0,,2026-04-28T04:31:38.216035+00:00
 USA_EDU_MASTER,https://austincc.edu/,89.0,89.0,54.0,92.0,,2026-04-28T05:08:09.789356+00:00
 USA_EDU_MASTER,https://austincollege.edu/,,93.0,54.0,92.0,,2026-04-28T05:08:01.353810+00:00
-USA_EDU_MASTER,https://austinseminary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T04:22:10.771493+00:00
+USA_EDU_MASTER,https://austinseminary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:09:46.893839+00:00
 USA_EDU_MASTER,https://aut.edu/,66.0,90.0,92.0,92.0,,2026-04-28T04:45:07.270073+00:00
 USA_EDU_MASTER,https://auto.edu/,91.0,99.0,77.0,100.0,,2026-04-28T04:30:52.413220+00:00
-USA_EDU_MASTER,https://avancebeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T04:22:18.014213+00:00
-USA_EDU_MASTER,https://avc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:16:39.015525+00:00
+USA_EDU_MASTER,https://avancebeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65049),2026-05-02T06:10:07.078381+00:00
+USA_EDU_MASTER,https://avc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T06:04:38.289597+00:00
 USA_EDU_MASTER,https://avemaria.edu/,100.0,79.0,96.0,83.0,,2026-04-28T05:09:10.889700+00:00
 USA_EDU_MASTER,https://averett.edu/,85.0,75.0,35.0,85.0,,2026-04-28T05:09:24.187180+00:00
 USA_EDU_MASTER,https://avila.edu/,77.0,96.0,54.0,92.0,,2026-04-28T05:09:43.434809+00:00
-USA_EDU_MASTER,https://avinashilingam.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:22:21.593438+00:00
-USA_EDU_MASTER,https://azure.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T04:22:31.086096+00:00
+USA_EDU_MASTER,https://avinashilingam.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:10:15.779838+00:00
+USA_EDU_MASTER,https://azure.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:10:20.202827+00:00
 USA_EDU_MASTER,https://azwestern.edu/,100.0,100.0,100.0,77.0,,2026-04-28T04:55:45.988528+00:00
 USA_EDU_MASTER,https://b-sc.edu/,62.0,92.0,96.0,85.0,,2026-04-29T04:33:31.213323+00:00
-USA_EDU_MASTER,https://babeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:27:53.235139+00:00
+USA_EDU_MASTER,https://babeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T06:16:02.098004+00:00
 USA_EDU_MASTER,https://babson.edu/,67.0,100.0,54.0,92.0,,2026-04-28T05:10:24.362065+00:00
 USA_EDU_MASTER,https://bac.edu/,71.0,75.0,54.0,92.0,,2026-04-29T04:39:11.938846+00:00
-USA_EDU_MASTER,https://bacone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:22:38.840579+00:00
-USA_EDU_MASTER,https://bainbridge.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:22:51.966811+00:00
+USA_EDU_MASTER,https://bacone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:10:27.886541+00:00
+USA_EDU_MASTER,https://bainbridge.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:10:41.122102+00:00
 USA_EDU_MASTER,https://bakersfieldcollege.edu/,94.0,100.0,77.0,92.0,,2026-04-28T05:11:23.139422+00:00
 USA_EDU_MASTER,https://bakeru.edu/,57.0,100.0,50.0,100.0,,2026-04-28T05:11:04.327120+00:00
-USA_EDU_MASTER,https://baldwinw.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:22:59.593345+00:00
-USA_EDU_MASTER,https://baptist.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:23:54.025707+00:00
+USA_EDU_MASTER,https://baldwinw.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:10:48.686812+00:00
+USA_EDU_MASTER,https://baptist.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:11:43.746197+00:00
 USA_EDU_MASTER,https://bapujidental.edu/,75.0,92.0,69.0,100.0,,2026-04-29T04:33:27.271787+00:00
 USA_EDU_MASTER,https://barclaycollege.edu/,75.0,72.0,73.0,77.0,,2026-04-29T04:33:44.361912+00:00
 USA_EDU_MASTER,https://bard.edu/,87.0,100.0,73.0,100.0,,2026-04-29T04:34:10.290391+00:00
@@ -216,12 +216,12 @@ USA_EDU_MASTER,https://baruch.edu/,93.0,80.0,50.0,85.0,,2026-04-29T04:35:09.6091
 USA_EDU_MASTER,https://bastyr.edu/,90.0,99.0,58.0,85.0,,2026-04-29T04:35:17.296133+00:00
 USA_EDU_MASTER,https://bates.edu/,92.0,98.0,54.0,100.0,,2026-04-29T04:35:51.404648+00:00
 USA_EDU_MASTER,https://bau.edu/,84.0,67.0,35.0,100.0,,2026-04-29T04:36:14.441145+00:00
-USA_EDU_MASTER,https://bauder.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:40:32.509507+00:00
+USA_EDU_MASTER,https://bauder.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:29:17.765039+00:00
 USA_EDU_MASTER,https://baycollege.edu/,79.0,98.0,73.0,85.0,,2026-04-29T04:36:18.859311+00:00
 USA_EDU_MASTER,https://baylor.edu/,86.0,94.0,58.0,100.0,,2026-04-29T04:37:25.306654+00:00
 USA_EDU_MASTER,https://baypath.edu/,72.0,79.0,54.0,92.0,,2026-04-29T04:36:48.907965+00:00
-USA_EDU_MASTER,https://baystate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65244),2026-05-02T04:24:14.793918+00:00
-USA_EDU_MASTER,https://bbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:12:23.493018+00:00
+USA_EDU_MASTER,https://baystate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65244),2026-05-02T06:12:04.909132+00:00
+USA_EDU_MASTER,https://bbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:00:20.387352+00:00
 USA_EDU_MASTER,https://bc.edu/,95.0,90.0,58.0,92.0,,2026-04-29T04:54:20.146062+00:00
 USA_EDU_MASTER,https://bc3.edu/,91.0,100.0,96.0,92.0,,2026-04-29T05:02:53.817985+00:00
 USA_EDU_MASTER,https://bca.edu/,92.0,82.0,77.0,85.0,,2026-04-29T04:32:58.916086+00:00
@@ -230,12 +230,12 @@ USA_EDU_MASTER,https://bce.edu/,100.0,63.0,88.0,91.0,,2026-04-29T04:52:51.924698
 USA_EDU_MASTER,https://bcm.edu/,100.0,100.0,54.0,92.0,,2026-04-29T04:37:09.977134+00:00
 USA_EDU_MASTER,https://beaconcollege.edu/,98.0,88.0,73.0,85.0,,2026-04-29T04:37:33.381762+00:00
 USA_EDU_MASTER,https://beaufortccc.edu/,,92.0,96.0,85.0,,2026-04-29T04:37:39.920118+00:00
-USA_EDU_MASTER,https://becker.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:24:30.058448+00:00
+USA_EDU_MASTER,https://becker.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:12:23.279933+00:00
 USA_EDU_MASTER,https://belhaven.edu/,93.0,100.0,54.0,83.0,,2026-04-29T04:38:19.278026+00:00
 USA_EDU_MASTER,https://bellarmine.edu/,83.0,100.0,54.0,85.0,,2026-04-29T04:38:30.735025+00:00
 USA_EDU_MASTER,https://bellevue.edu/,88.0,92.0,54.0,92.0,,2026-04-29T04:38:30.346990+00:00
 USA_EDU_MASTER,https://bellevuecollege.edu/,100.0,96.0,54.0,100.0,,2026-04-29T04:38:46.711981+00:00
-USA_EDU_MASTER,https://bellmar.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:24:37.394516+00:00
+USA_EDU_MASTER,https://bellmar.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:12:28.788466+00:00
 USA_EDU_MASTER,https://belmont.edu/,87.0,88.0,54.0,100.0,,2026-04-29T04:39:35.266655+00:00
 USA_EDU_MASTER,https://belmontcollege.edu/,88.0,76.0,73.0,77.0,,2026-04-29T04:39:20.846202+00:00
 USA_EDU_MASTER,https://bemidjistate.edu/,95.0,90.0,54.0,92.0,,2026-04-29T04:39:57.442840+00:00
@@ -256,31 +256,31 @@ USA_EDU_MASTER,https://bethanybc.edu/,98.0,93.0,100.0,92.0,,2026-04-29T04:43:30.
 USA_EDU_MASTER,https://bethanyseminary.edu/,96.0,68.0,58.0,85.0,,2026-04-29T04:43:51.727590+00:00
 USA_EDU_MASTER,https://bethanywv.edu/,,80.0,92.0,50.0,,2026-04-29T04:43:04.105475+00:00
 USA_EDU_MASTER,https://bethel.edu/,59.0,88.0,58.0,100.0,,2026-04-29T04:44:11.934047+00:00
-USA_EDU_MASTER,https://bethelcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 653 column 21 (char 130267),2026-05-02T04:24:58.058565+00:00
+USA_EDU_MASTER,https://bethelcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65262),2026-05-02T06:12:49.537365+00:00
 USA_EDU_MASTER,https://bethelks.edu/,82.0,90.0,96.0,85.0,,2026-04-29T04:44:03.553530+00:00
 USA_EDU_MASTER,https://bethlehem.edu/,58.0,94.0,54.0,77.0,,2026-04-29T04:44:34.021680+00:00
-USA_EDU_MASTER,https://bethlehembiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65051),2026-05-02T04:25:10.806386+00:00
+USA_EDU_MASTER,https://bethlehembiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65051),2026-05-02T06:13:00.678012+00:00
 USA_EDU_MASTER,https://bfcc.edu/,92.0,85.0,77.0,75.0,,2026-04-29T04:49:54.324636+00:00
 USA_EDU_MASTER,https://bfit.edu/,100.0,80.0,54.0,100.0,,2026-04-29T04:40:46.856182+00:00
-USA_EDU_MASTER,https://bgi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:22:42.322948+00:00
+USA_EDU_MASTER,https://bgi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:10:36.449229+00:00
 USA_EDU_MASTER,https://bgsu.edu/,89.0,95.0,54.0,100.0,,2026-04-29T04:55:04.863612+00:00
-USA_EDU_MASTER,https://bhavuni.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:25:12.490211+00:00
+USA_EDU_MASTER,https://bhavuni.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:13:05.132149+00:00
 USA_EDU_MASTER,https://bhc.edu/,87.0,100.0,58.0,100.0,,2026-04-29T04:48:53.757223+00:00
-USA_EDU_MASTER,https://bhcarroll.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:25:11.593011+00:00
+USA_EDU_MASTER,https://bhcarroll.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:13:04.156071+00:00
 USA_EDU_MASTER,https://bhsu.edu/,91.0,100.0,54.0,92.0,,2026-04-29T04:49:03.710930+00:00
-USA_EDU_MASTER,https://bhu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:23:02.745111+00:00
-USA_EDU_MASTER,https://biblical.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:25:32.189078+00:00
-USA_EDU_MASTER,https://bic.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:23:12.691485+00:00
+USA_EDU_MASTER,https://bhu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-05-02T06:10:57.130202+00:00
+USA_EDU_MASTER,https://biblical.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:13:21.506428+00:00
+USA_EDU_MASTER,https://bic.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:11:01.688209+00:00
 USA_EDU_MASTER,https://bigbend.edu/,91.0,93.0,92.0,77.0,,2026-04-29T04:46:57.021807+00:00
 USA_EDU_MASTER,https://bilkent.edu/,44.0,75.0,77.0,92.0,,2026-04-29T04:46:59.961769+00:00
-USA_EDU_MASTER,https://biohealthcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T04:25:33.981212+00:00
+USA_EDU_MASTER,https://biohealthcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T06:13:26.138787+00:00
 USA_EDU_MASTER,https://biola.edu/,87.0,97.0,54.0,100.0,,2026-04-29T04:47:23.599708+00:00
 USA_EDU_MASTER,https://bircham.edu/,90.0,93.0,96.0,100.0,,2026-04-29T04:47:31.307051+00:00
-USA_EDU_MASTER,https://birthingway.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:25:55.005751+00:00
-USA_EDU_MASTER,https://birzeit.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:26:07.364529+00:00
+USA_EDU_MASTER,https://birthingway.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:13:46.891760+00:00
+USA_EDU_MASTER,https://birzeit.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:13:56.587272+00:00
 USA_EDU_MASTER,https://bishop.edu/,97.0,87.0,58.0,100.0,,2026-04-29T04:48:14.260793+00:00
 USA_EDU_MASTER,https://bismarckstate.edu/,86.0,84.0,54.0,100.0,,2026-04-29T04:48:29.014331+00:00
-USA_EDU_MASTER,https://bjsbeautyandbarbercollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65061),2026-05-02T04:26:15.623767+00:00
+USA_EDU_MASTER,https://bjsbeautyandbarbercollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65059),2026-05-02T06:14:07.575689+00:00
 USA_EDU_MASTER,https://bju.edu/,91.0,85.0,58.0,85.0,,2026-04-29T04:53:13.691939+00:00
 USA_EDU_MASTER,https://blackburn.edu/,95.0,96.0,54.0,92.0,,2026-04-29T04:49:28.407204+00:00
 USA_EDU_MASTER,https://blackhawk.edu/,45.0,95.0,81.0,92.0,,2026-04-29T04:49:56.476173+00:00
@@ -289,7 +289,7 @@ USA_EDU_MASTER,https://blackstone.edu/,94.0,80.0,77.0,92.0,,2026-04-30T04:52:01.
 USA_EDU_MASTER,https://bladencc.edu/,83.0,81.0,54.0,77.0,,2026-04-29T04:49:56.854444+00:00
 USA_EDU_MASTER,https://blakeaustincollege.edu/,95.0,73.0,50.0,92.0,,2026-04-29T04:50:29.438957+00:00
 USA_EDU_MASTER,https://blc.edu/,94.0,90.0,50.0,92.0,,2026-04-29T04:43:35.559643+00:00
-USA_EDU_MASTER,https://blessedjohnxxiii.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T04:26:36.110273+00:00
+USA_EDU_MASTER,https://blessedjohnxxiii.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T06:14:28.340558+00:00
 USA_EDU_MASTER,https://bloomfield.edu/,97.0,96.0,96.0,92.0,,2026-04-29T04:51:02.737670+00:00
 USA_EDU_MASTER,https://bloomu.edu/,88.0,100.0,54.0,100.0,,2026-04-29T04:51:04.507100+00:00
 USA_EDU_MASTER,https://blts.edu/,92.0,81.0,73.0,85.0,,2026-04-29T04:43:39.237179+00:00
@@ -298,15 +298,15 @@ USA_EDU_MASTER,https://bluecc.edu/,92.0,82.0,58.0,92.0,,2026-04-29T04:51:39.6311
 USA_EDU_MASTER,https://bluefield.edu/,55.0,95.0,50.0,92.0,,2026-04-29T04:52:18.491927+00:00
 USA_EDU_MASTER,https://bluefieldstate.edu/,89.0,96.0,77.0,92.0,,2026-04-29T04:52:24.274104+00:00
 USA_EDU_MASTER,https://blueridge.edu/,88.0,86.0,58.0,85.0,,2026-04-29T04:52:14.303997+00:00
-USA_EDU_MASTER,https://blueridgectc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65082),2026-05-02T04:26:56.786867+00:00
-USA_EDU_MASTER,https://bluewater.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T04:11:42.066053+00:00
+USA_EDU_MASTER,https://blueridgectc.edu/,54.0,83.0,65.0,92.0,,2026-05-02T06:14:49.539295+00:00
+USA_EDU_MASTER,https://bluewater.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T05:59:42.084335+00:00
 USA_EDU_MASTER,https://bluffton.edu/,98.0,82.0,50.0,85.0,,2026-04-29T04:53:07.477001+00:00
 USA_EDU_MASTER,https://bmc.edu/,89.0,87.0,58.0,77.0,,2026-04-29T04:51:26.207724+00:00
 USA_EDU_MASTER,https://bmcc.edu/,88.0,89.0,100.0,77.0,,2026-04-29T04:36:38.974844+00:00
-USA_EDU_MASTER,https://bnkst.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64821),2026-05-02T04:23:20.335876+00:00
+USA_EDU_MASTER,https://bnkst.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64821),2026-05-02T06:11:11.711178+00:00
 USA_EDU_MASTER,https://boisebible.edu/,92.0,82.0,54.0,85.0,,2026-04-29T04:53:31.524613+00:00
 USA_EDU_MASTER,https://boisestate.edu/,95.0,100.0,58.0,100.0,,2026-04-29T04:53:36.698002+00:00
-USA_EDU_MASTER,https://boricuacollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65086),2026-05-02T04:27:11.242899+00:00
+USA_EDU_MASTER,https://boricuacollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65086),2026-05-02T06:15:04.267782+00:00
 USA_EDU_MASTER,https://boston.edu/,95.0,94.0,100.0,92.0,,2026-04-29T04:54:17.671242+00:00
 USA_EDU_MASTER,https://bowdoin.edu/,84.0,97.0,100.0,100.0,,2026-04-29T04:54:42.334852+00:00
 USA_EDU_MASTER,https://bowiestate.edu/,90.0,97.0,54.0,91.0,,2026-04-29T04:54:52.225005+00:00
@@ -316,48 +316,48 @@ USA_EDU_MASTER,https://bpi.edu/,93.0,92.0,88.0,75.0,,2026-04-28T05:12:31.509821+
 USA_EDU_MASTER,https://bpkihs.edu/,100.0,93.0,100.0,83.0,,2026-04-28T05:10:19.769858+00:00
 USA_EDU_MASTER,https://bradley.edu/,97.0,100.0,54.0,100.0,,2026-04-29T04:55:08.581271+00:00
 USA_EDU_MASTER,https://brandeis.edu/,100.0,93.0,54.0,92.0,,2026-04-29T04:55:38.733484+00:00
-USA_EDU_MASTER,https://brandman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:12:31.041956+00:00
+USA_EDU_MASTER,https://brandman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:00:29.936106+00:00
 USA_EDU_MASTER,https://brazosport.edu/,93.0,93.0,58.0,85.0,,2026-04-29T04:55:44.524388+00:00
-USA_EDU_MASTER,https://brc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:24:09.435161+00:00
+USA_EDU_MASTER,https://brc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:12:02.532112+00:00
 USA_EDU_MASTER,https://brcn.edu/,99.0,88.0,50.0,85.0,,2026-04-29T04:50:47.113705+00:00
 USA_EDU_MASTER,https://brenau.edu/,100.0,100.0,96.0,92.0,,2026-04-29T04:55:57.985577+00:00
 USA_EDU_MASTER,https://brescia.edu/,80.0,93.0,58.0,100.0,,2026-04-29T04:56:08.039627+00:00
 USA_EDU_MASTER,https://brevard.edu/,95.0,79.0,81.0,100.0,,2026-04-29T04:56:16.662767+00:00
-USA_EDU_MASTER,https://briar-cliff.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:27:11.671424+00:00
-USA_EDU_MASTER,https://bridgemont.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:27:25.709459+00:00
+USA_EDU_MASTER,https://briar-cliff.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:15:19.191230+00:00
+USA_EDU_MASTER,https://bridgemont.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:15:41.245375+00:00
 USA_EDU_MASTER,https://bridgew.edu/,93.0,93.0,35.0,100.0,,2026-04-29T04:56:50.583343+00:00
 USA_EDU_MASTER,https://bridgewater.edu/,66.0,89.0,54.0,92.0,,2026-04-29T04:43:03.210568+00:00
 USA_EDU_MASTER,https://bristol.edu/,71.0,96.0,77.0,100.0,,2026-04-29T04:58:09.643839+00:00
 USA_EDU_MASTER,https://bristolcc.edu/,93.0,93.0,73.0,92.0,,2026-04-29T04:57:53.087847+00:00
-USA_EDU_MASTER,https://bristoluniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T04:27:32.558168+00:00
-USA_EDU_MASTER,https://broadviewuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65049),2026-05-02T04:27:46.364085+00:00
+USA_EDU_MASTER,https://bristoluniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T06:15:42.796297+00:00
+USA_EDU_MASTER,https://broadviewuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65049),2026-05-02T06:15:56.703843+00:00
 USA_EDU_MASTER,https://brooklinecollege.edu/,100.0,100.0,96.0,92.0,,2026-04-29T04:58:37.502193+00:00
-USA_EDU_MASTER,https://brooks.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:28:07.486365+00:00
-USA_EDU_MASTER,https://brookscollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T04:28:06.897807+00:00
-USA_EDU_MASTER,https://brookstone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T04:28:14.069198+00:00
+USA_EDU_MASTER,https://brooks.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:16:17.507665+00:00
+USA_EDU_MASTER,https://brookscollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T06:16:04.069038+00:00
+USA_EDU_MASTER,https://brookstone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:16:23.024768+00:00
 USA_EDU_MASTER,https://broward.edu/,92.0,80.0,54.0,42.0,,2026-04-29T04:59:05.930205+00:00
 USA_EDU_MASTER,https://brown.edu/,98.0,96.0,73.0,100.0,,2026-04-29T04:59:21.093432+00:00
-USA_EDU_MASTER,https://brownmackie.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:28:27.765275+00:00
+USA_EDU_MASTER,https://brownmackie.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:16:25.329806+00:00
 USA_EDU_MASTER,https://brunswickcc.edu/,94.0,87.0,54.0,85.0,,2026-04-29T04:59:38.645723+00:00
 USA_EDU_MASTER,https://bryan.edu/,82.0,95.0,100.0,100.0,,2026-04-29T04:59:47.550644+00:00
-USA_EDU_MASTER,https://bryancollege.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:28:28.595509+00:00
-USA_EDU_MASTER,https://bryancolleges.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T04:40:39.587922+00:00
-USA_EDU_MASTER,https://bryanlghcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T04:28:35.067016+00:00
+USA_EDU_MASTER,https://bryancollege.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:16:38.255753+00:00
+USA_EDU_MASTER,https://bryancolleges.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:29:22.863641+00:00
+USA_EDU_MASTER,https://bryanlghcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:16:43.969563+00:00
 USA_EDU_MASTER,https://bryant.edu/,85.0,99.0,54.0,92.0,,2026-04-29T05:00:36.225096+00:00
-USA_EDU_MASTER,https://bryantstratton.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:28:48.835913+00:00
-USA_EDU_MASTER,https://bryman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:28:55.872165+00:00
+USA_EDU_MASTER,https://bryantstratton.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:16:46.254996+00:00
+USA_EDU_MASTER,https://bryman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:17:04.821784+00:00
 USA_EDU_MASTER,https://brynathyn.edu/,94.0,95.0,58.0,85.0,,2026-04-29T05:01:02.213976+00:00
 USA_EDU_MASTER,https://brynmawr.edu/,97.0,96.0,77.0,92.0,,2026-04-29T05:01:26.792395+00:00
-USA_EDU_MASTER,https://bsc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:25:52.955262+00:00
+USA_EDU_MASTER,https://bsc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-05-02T06:13:42.137599+00:00
 USA_EDU_MASTER,https://bscc.edu/,89.0,95.0,54.0,92.0,,2026-04-29T04:44:52.968782+00:00
 USA_EDU_MASTER,https://bsmcon.edu/,80.0,82.0,54.0,75.0,,2026-04-29T04:53:45.719399+00:00
 USA_EDU_MASTER,https://bsu.edu/,95.0,100.0,58.0,100.0,,2026-04-28T05:12:06.126310+00:00
-USA_EDU_MASTER,https://bts.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:23:17.155470+00:00
-USA_EDU_MASTER,https://btsr.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:23:48.870557+00:00
+USA_EDU_MASTER,https://bts.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:11:09.379871+00:00
+USA_EDU_MASTER,https://btsr.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:11:41.521451+00:00
 USA_EDU_MASTER,https://bu.edu/,98.0,83.0,77.0,85.0,,2026-04-29T04:54:37.714382+00:00
 USA_EDU_MASTER,https://bucknell.edu/,92.0,100.0,73.0,100.0,,2026-04-29T05:01:41.119941+00:00
 USA_EDU_MASTER,https://bucks.edu/,87.0,93.0,50.0,92.0,,2026-04-29T05:01:51.814710+00:00
-USA_EDU_MASTER,https://bumc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64820),2026-05-02T04:29:09.806884+00:00
+USA_EDU_MASTER,https://bumc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64820),2026-05-02T06:17:08.279955+00:00
 USA_EDU_MASTER,https://butler.edu/,90.0,96.0,54.0,100.0,,2026-04-29T05:03:09.695712+00:00
 USA_EDU_MASTER,https://butte.edu/,73.0,87.0,58.0,92.0,,2026-04-29T05:03:18.077254+00:00
 USA_EDU_MASTER,https://bvinst.edu/,99.0,90.0,96.0,100.0,,2026-04-29T04:45:28.648136+00:00
@@ -367,12 +367,12 @@ USA_EDU_MASTER,https://byu.edu/,93.0,89.0,54.0,92.0,,2026-04-29T04:56:56.036558+
 USA_EDU_MASTER,https://byuh.edu/,100.0,85.0,92.0,92.0,,2026-04-29T04:57:18.195964+00:00
 USA_EDU_MASTER,https://byui.edu/,88.0,92.0,54.0,100.0,,2026-04-29T04:57:04.151411+00:00
 USA_EDU_MASTER,https://cabrillo.edu/,99.0,90.0,92.0,92.0,,2026-04-29T05:03:25.278414+00:00
-USA_EDU_MASTER,https://cabrini.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:30:00.561894+00:00
+USA_EDU_MASTER,https://cabrini.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:18:01.293752+00:00
 USA_EDU_MASTER,https://cacc.edu/,92.0,97.0,77.0,92.0,,2026-04-30T05:01:02.246556+00:00
-USA_EDU_MASTER,https://caculinary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T04:29:37.117815+00:00
+USA_EDU_MASTER,https://caculinary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:17:46.909322+00:00
 USA_EDU_MASTER,https://calarts.edu/,94.0,100.0,58.0,92.0,,2026-04-30T04:41:31.263214+00:00
 USA_EDU_MASTER,https://calbaptist.edu/,95.0,90.0,54.0,100.0,,2026-04-29T05:04:32.941743+00:00
-USA_EDU_MASTER,https://calcoast.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:30:06.288389+00:00
+USA_EDU_MASTER,https://calcoast.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:18:14.944754+00:00
 USA_EDU_MASTER,https://caldwell.edu/,98.0,93.0,92.0,92.0,,2026-04-29T05:03:57.077891+00:00
 USA_EDU_MASTER,https://calhoun.edu/,81.0,99.0,54.0,100.0,,2026-04-29T05:04:15.133822+00:00
 USA_EDU_MASTER,https://californiacolleges.edu/,91.0,99.0,81.0,92.0,,2026-04-30T04:46:25.750879+00:00
@@ -380,42 +380,42 @@ USA_EDU_MASTER,https://callutheran.edu/,96.0,99.0,58.0,100.0,,2026-04-30T04:41:3
 USA_EDU_MASTER,https://calpoly.edu/,96.0,93.0,54.0,100.0,,2026-04-30T04:42:22.601851+00:00
 USA_EDU_MASTER,https://calsouthern.edu/,94.0,97.0,50.0,92.0,,2026-04-30T04:42:47.408244+00:00
 USA_EDU_MASTER,https://calstate.edu/,57.0,97.0,58.0,83.0,,2026-04-30T04:43:36.834934+00:00
-USA_EDU_MASTER,https://calstatela.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-05-02T04:31:10.111317+00:00
+USA_EDU_MASTER,https://calstatela.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-05-02T06:19:20.265386+00:00
 USA_EDU_MASTER,https://caltech.edu/,100.0,86.0,92.0,92.0,,2026-04-30T04:41:04.189237+00:00
 USA_EDU_MASTER,https://calu.edu/,79.0,100.0,54.0,100.0,,2026-04-30T04:46:08.888904+00:00
 USA_EDU_MASTER,https://calvary.edu/,80.0,83.0,35.0,92.0,,2026-04-28T04:24:59.229497+00:00
-USA_EDU_MASTER,https://calvarymidwest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T04:31:37.453343+00:00
+USA_EDU_MASTER,https://calvarymidwest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:19:39.479659+00:00
 USA_EDU_MASTER,https://calvin.edu/,89.0,90.0,58.0,100.0,,2026-04-30T04:47:12.860407+00:00
 USA_EDU_MASTER,https://calvinseminary.edu/,92.0,91.0,54.0,100.0,,2026-04-30T04:47:14.232801+00:00
-USA_EDU_MASTER,https://cambridge.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:31:45.273979+00:00
+USA_EDU_MASTER,https://cambridge.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:19:55.457878+00:00
 USA_EDU_MASTER,https://cambridgecollege.edu/,94.0,100.0,58.0,100.0,,2026-04-30T04:47:21.369894+00:00
 USA_EDU_MASTER,https://camdencc.edu/,96.0,90.0,54.0,92.0,,2026-04-30T04:47:55.058932+00:00
 USA_EDU_MASTER,https://cameron.edu/,92.0,100.0,73.0,83.0,,2026-04-30T04:48:09.293184+00:00
-USA_EDU_MASTER,https://cameroncollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:32:05.991879+00:00
+USA_EDU_MASTER,https://cameroncollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130361),2026-05-02T06:20:16.304972+00:00
 USA_EDU_MASTER,https://campbell.edu/,95.0,91.0,54.0,100.0,,2026-04-30T04:48:26.177285+00:00
 USA_EDU_MASTER,https://canisius.edu/,89.0,94.0,54.0,92.0,,2026-04-30T04:48:29.042426+00:00
-USA_EDU_MASTER,https://canyoncollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T04:32:18.285587+00:00
-USA_EDU_MASTER,https://canyons.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65070),2026-05-02T04:40:17.760639+00:00
+USA_EDU_MASTER,https://canyoncollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:20:20.968835+00:00
+USA_EDU_MASTER,https://canyons.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65072),2026-05-02T06:28:59.555508+00:00
 USA_EDU_MASTER,https://capecod.edu/,93.0,90.0,73.0,77.0,,2026-04-30T04:49:29.154799+00:00
 USA_EDU_MASTER,https://capella.edu/,98.0,76.0,54.0,85.0,,2026-04-28T04:27:46.895537+00:00
-USA_EDU_MASTER,https://capitol-college.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65088),2026-05-02T04:32:26.716488+00:00
+USA_EDU_MASTER,https://capitol-college.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65088),2026-05-02T06:20:35.559377+00:00
 USA_EDU_MASTER,https://capri.edu/,88.0,78.0,77.0,92.0,,2026-04-30T04:49:48.226704+00:00
-USA_EDU_MASTER,https://capstone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:32:26.979422+00:00
+USA_EDU_MASTER,https://capstone.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:20:37.212946+00:00
 USA_EDU_MASTER,https://captechu.edu/,79.0,96.0,35.0,85.0,,2026-04-30T04:49:33.140236+00:00
-USA_EDU_MASTER,https://careercenters.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65084),2026-05-02T04:38:32.298676+00:00
-USA_EDU_MASTER,https://careerinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:33:08.731023+00:00
-USA_EDU_MASTER,https://careerpointcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T04:33:13.899179+00:00
-USA_EDU_MASTER,https://careertc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:33:22.721033+00:00
+USA_EDU_MASTER,https://careercenters.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:26:40.450921+00:00
+USA_EDU_MASTER,https://careerinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T06:21:16.859781+00:00
+USA_EDU_MASTER,https://careerpointcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T06:21:19.195815+00:00
+USA_EDU_MASTER,https://careertc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:21:32.040799+00:00
 USA_EDU_MASTER,https://caribbean.edu/,79.0,91.0,69.0,92.0,,2026-04-30T04:52:18.062341+00:00
 USA_EDU_MASTER,https://carlalbert.edu/,84.0,92.0,100.0,100.0,,2026-04-30T04:52:31.595674+00:00
 USA_EDU_MASTER,https://carleton.edu/,95.0,95.0,73.0,100.0,,2026-04-30T04:53:01.660775+00:00
 USA_EDU_MASTER,https://carlow.edu/,55.0,87.0,50.0,77.0,,2026-04-30T04:53:08.655578+00:00
 USA_EDU_MASTER,https://carolina.edu/,69.0,64.0,96.0,85.0,,2026-04-30T04:53:42.804962+00:00
-USA_EDU_MASTER,https://carolinascollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65090),2026-05-02T04:33:29.225494+00:00
+USA_EDU_MASTER,https://carolinascollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65088),2026-05-02T06:21:37.701029+00:00
 USA_EDU_MASTER,https://carrington.edu/,95.0,97.0,58.0,92.0,,2026-04-30T04:54:11.656659+00:00
 USA_EDU_MASTER,https://carroll.edu/,100.0,94.0,58.0,100.0,,2026-05-01T04:52:26.472169+00:00
 USA_EDU_MASTER,https://carrollcc.edu/,63.0,91.0,58.0,100.0,,2026-04-30T04:54:28.687400+00:00
-USA_EDU_MASTER,https://carrollu.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:33:43.562474+00:00
+USA_EDU_MASTER,https://carrollu.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:21:52.114174+00:00
 USA_EDU_MASTER,https://carteret.edu/,,84.0,54.0,69.0,,2026-04-30T04:56:02.463623+00:00
 USA_EDU_MASTER,https://carthage.edu/,85.0,96.0,54.0,100.0,,2026-04-30T04:56:17.378682+00:00
 USA_EDU_MASTER,https://carver.edu/,80.0,73.0,50.0,69.0,,2026-05-01T04:52:54.298814+00:00
@@ -431,12 +431,12 @@ USA_EDU_MASTER,https://cbd.edu/,49.0,96.0,77.0,100.0,,2026-04-30T04:59:10.378792
 USA_EDU_MASTER,https://cbs.edu/,100.0,94.0,73.0,100.0,,2026-04-30T04:46:40.785909+00:00
 USA_EDU_MASTER,https://cbshouston.edu/,100.0,94.0,73.0,100.0,,2026-05-01T05:04:14.146966+00:00
 USA_EDU_MASTER,https://cbt.edu/,91.0,79.0,54.0,77.0,,2026-04-30T04:50:52.457551+00:00
-USA_EDU_MASTER,https://cbts.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:35:00.541939+00:00
+USA_EDU_MASTER,https://cbts.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65066),2026-05-02T06:23:10.006857+00:00
 USA_EDU_MASTER,https://cbu.edu/,100.0,96.0,100.0,92.0,,2026-04-30T06:48:33.930733+00:00
-USA_EDU_MASTER,https://cc-sd.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:30:26.592847+00:00
-USA_EDU_MASTER,https://cc.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:33:34.305051+00:00
+USA_EDU_MASTER,https://cc-sd.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:18:35.452133+00:00
+USA_EDU_MASTER,https://cc.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:21:40.159962+00:00
 USA_EDU_MASTER,https://cca.edu/,88.0,82.0,54.0,92.0,,2026-04-29T05:04:57.122759+00:00
-USA_EDU_MASTER,https://ccaa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:42:27.415129+00:00
+USA_EDU_MASTER,https://ccaa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:31:35.345923+00:00
 USA_EDU_MASTER,https://ccac.edu/,96.0,97.0,58.0,92.0,,2026-05-01T06:59:00.637733+00:00
 USA_EDU_MASTER,https://ccad.edu/,89.0,88.0,54.0,85.0,,2026-05-01T06:57:23.562784+00:00
 USA_EDU_MASTER,https://ccaurora.edu/,71.0,95.0,54.0,100.0,,2026-05-01T06:59:13.322975+00:00
@@ -456,40 +456,40 @@ USA_EDU_MASTER,https://cccti.edu/,,80.0,92.0,50.0,,2026-04-29T05:04:08.985881+00
 USA_EDU_MASTER,https://cccua.edu/,79.0,95.0,92.0,83.0,,2026-05-02T04:45:58.503584+00:00
 USA_EDU_MASTER,https://ccd.edu/,91.0,92.0,54.0,92.0,,2026-05-01T06:59:37.575173+00:00
 USA_EDU_MASTER,https://ccdc.edu/,50.0,80.0,58.0,92.0,,2026-05-01T06:55:56.591731+00:00
-USA_EDU_MASTER,https://cci.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:45:02.313787+00:00
+USA_EDU_MASTER,https://cci.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:32:59.262907+00:00
 USA_EDU_MASTER,https://ccicolleges.edu/,90.0,93.0,50.0,85.0,,2026-04-30T04:59:10.490530+00:00
 USA_EDU_MASTER,https://ccis.edu/,93.0,93.0,58.0,85.0,,2026-05-01T06:55:33.797626+00:00
 USA_EDU_MASTER,https://ccitraining.edu/,94.0,84.0,96.0,92.0,,2026-05-01T06:54:56.524018+00:00
-USA_EDU_MASTER,https://ccls.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:35:43.676644+00:00
-USA_EDU_MASTER,https://ccm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:35:35.652048+00:00
+USA_EDU_MASTER,https://ccls.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:23:52.231032+00:00
+USA_EDU_MASTER,https://ccm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 681 column 21 (char 130550),2026-05-02T06:23:45.269520+00:00
 USA_EDU_MASTER,https://ccms.edu/,96.0,96.0,54.0,77.0,,2026-04-30T06:50:15.382717+00:00
-USA_EDU_MASTER,https://ccnh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:37:31.453885+00:00
-USA_EDU_MASTER,https://ccnn.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:32:48.094407+00:00
-USA_EDU_MASTER,https://ccon.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:41:28.021185+00:00
+USA_EDU_MASTER,https://ccnh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:25:41.208553+00:00
+USA_EDU_MASTER,https://ccnn.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:20:58.226359+00:00
+USA_EDU_MASTER,https://ccon.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:30:14.064561+00:00
 USA_EDU_MASTER,https://ccp.edu/,78.0,93.0,58.0,92.0,,2026-05-01T06:59:48.864118+00:00
-USA_EDU_MASTER,https://ccpm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:30:21.262356+00:00
+USA_EDU_MASTER,https://ccpm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:18:22.337820+00:00
 USA_EDU_MASTER,https://ccri.edu/,90.0,91.0,54.0,92.0,,2026-05-01T07:00:16.134698+00:00
 USA_EDU_MASTER,https://ccsf.edu/,75.0,99.0,35.0,85.0,,2026-04-30T06:51:04.903514+00:00
 USA_EDU_MASTER,https://ccsj.edu/,66.0,66.0,38.0,85.0,,2026-04-30T04:46:38.838265+00:00
-USA_EDU_MASTER,https://ccsn.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:42:44.375900+00:00
+USA_EDU_MASTER,https://ccsn.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:31:44.186163+00:00
 USA_EDU_MASTER,https://ccsnh.edu/,89.0,91.0,58.0,85.0,,2026-05-01T07:00:32.000107+00:00
 USA_EDU_MASTER,https://ccsu.edu/,70.0,95.0,73.0,85.0,,2026-04-30T05:02:36.233593+00:00
 USA_EDU_MASTER,https://cctech.edu/,93.0,96.0,54.0,77.0,,2026-04-30T05:01:47.431973+00:00
 USA_EDU_MASTER,https://ccu.edu/,89.0,91.0,54.0,85.0,,2026-05-01T05:11:52.441135+00:00
-USA_EDU_MASTER,https://ccuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T04:37:00.634081+00:00
+USA_EDU_MASTER,https://ccuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:25:07.181845+00:00
 USA_EDU_MASTER,https://ccv.edu/,91.0,82.0,54.0,100.0,,2026-05-01T07:00:27.232785+00:00
 USA_EDU_MASTER,https://cde.edu/,90.0,87.0,73.0,85.0,,2026-04-30T04:59:12.195522+00:00
 USA_EDU_MASTER,https://cdkc.edu/,100.0,79.0,77.0,83.0,,2026-04-30T06:47:49.835652+00:00
 USA_EDU_MASTER,https://cdrewu.edu/,71.0,95.0,54.0,100.0,,2026-04-30T06:44:53.418804+00:00
-USA_EDU_MASTER,https://cdu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:33:43.639438+00:00
-USA_EDU_MASTER,https://cebudoctorsuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64834),2026-05-02T04:34:04.223546+00:00
+USA_EDU_MASTER,https://cdu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130339),2026-05-02T06:21:52.602813+00:00
+USA_EDU_MASTER,https://cebudoctorsuniversity.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64832),2026-05-02T06:22:13.435374+00:00
 USA_EDU_MASTER,https://cecil.edu/,88.0,100.0,100.0,100.0,,2026-04-30T04:59:59.139969+00:00
 USA_EDU_MASTER,https://cedarcrest.edu/,95.0,96.0,58.0,92.0,,2026-04-30T05:00:08.689468+00:00
-USA_EDU_MASTER,https://cedarvalleycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T04:34:18.987440+00:00
+USA_EDU_MASTER,https://cedarvalleycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T06:22:28.313019+00:00
 USA_EDU_MASTER,https://cedarville.edu/,94.0,78.0,58.0,92.0,,2026-04-30T05:00:26.954659+00:00
 USA_EDU_MASTER,https://cel.edu/,100.0,69.0,65.0,91.0,,2026-05-01T05:05:16.572054+00:00
 USA_EDU_MASTER,https://centenary.edu/,92.0,87.0,54.0,92.0,,2026-04-30T05:00:46.722207+00:00
-USA_EDU_MASTER,https://centenarycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65041),2026-05-02T04:34:39.744414+00:00
+USA_EDU_MASTER,https://centenarycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T06:22:49.339406+00:00
 USA_EDU_MASTER,https://centralaz.edu/,47.0,78.0,69.0,92.0,,2026-04-30T05:01:14.474275+00:00
 USA_EDU_MASTER,https://centralchristian.edu/,100.0,95.0,100.0,100.0,,2026-04-30T05:01:52.251438+00:00
 USA_EDU_MASTER,https://centralgatech.edu/,93.0,67.0,50.0,85.0,,2026-04-30T05:02:43.565707+00:00
@@ -504,7 +504,7 @@ USA_EDU_MASTER,https://centurainstitute.edu/,87.0,88.0,54.0,92.0,,2026-04-30T06:
 USA_EDU_MASTER,https://century.edu/,69.0,93.0,54.0,83.0,,2026-04-30T06:41:55.781278+00:00
 USA_EDU_MASTER,https://cerritos.edu/,72.0,97.0,46.0,92.0,,2026-04-30T06:42:25.970909+00:00
 USA_EDU_MASTER,https://cerrocoso.edu/,94.0,100.0,58.0,85.0,,2026-04-30T06:42:45.145775+00:00
-USA_EDU_MASTER,https://cescollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:35:50.352927+00:00
+USA_EDU_MASTER,https://cescollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:23:59.604873+00:00
 USA_EDU_MASTER,https://ceu.edu/,91.0,95.0,88.0,92.0,,2026-05-01T05:05:26.092537+00:00
 USA_EDU_MASTER,https://cf.edu/,49.0,97.0,54.0,100.0,,2026-05-01T05:04:14.523634+00:00
 USA_EDU_MASTER,https://cgu.edu/,100.0,82.0,54.0,85.0,,2026-04-30T06:51:48.965865+00:00
@@ -514,42 +514,42 @@ USA_EDU_MASTER,https://chaffey.edu/,79.0,100.0,54.0,85.0,,2026-04-30T06:43:23.94
 USA_EDU_MASTER,https://chamberlain.edu/,75.0,88.0,54.0,85.0,,2026-04-30T06:44:00.221053+00:00
 USA_EDU_MASTER,https://chaminade.edu/,80.0,93.0,54.0,85.0,,2026-04-30T06:44:06.690809+00:00
 USA_EDU_MASTER,https://champlain.edu/,91.0,97.0,54.0,92.0,,2026-04-30T06:44:14.601662+00:00
-USA_EDU_MASTER,https://chancelloru.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:36:04.349558+00:00
+USA_EDU_MASTER,https://chancelloru.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:24:13.250543+00:00
 USA_EDU_MASTER,https://chapman.edu/,71.0,93.0,54.0,77.0,,2026-04-30T06:44:52.406517+00:00
 USA_EDU_MASTER,https://charteroak.edu/,71.0,95.0,54.0,92.0,,2026-04-30T06:45:28.675973+00:00
-USA_EDU_MASTER,https://chatfield.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65074),2026-05-02T04:36:09.808827+00:00
+USA_EDU_MASTER,https://chatfield.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65074),2026-05-02T06:24:15.906308+00:00
 USA_EDU_MASTER,https://chatham.edu/,94.0,97.0,50.0,92.0,,2026-04-30T06:45:34.871360+00:00
 USA_EDU_MASTER,https://chattahoocheetech.edu/,100.0,97.0,58.0,92.0,,2026-04-30T06:45:48.172441+00:00
 USA_EDU_MASTER,https://chattanoogacollege.edu/,59.0,82.0,54.0,100.0,,2026-04-30T06:46:10.576904+00:00
 USA_EDU_MASTER,https://chattanoogastate.edu/,83.0,98.0,50.0,92.0,,2026-04-30T06:46:23.080835+00:00
 USA_EDU_MASTER,https://chc.edu/,97.0,97.0,58.0,92.0,,2026-04-30T06:47:25.369615+00:00
-USA_EDU_MASTER,https://chd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T04:39:00.795872+00:00
+USA_EDU_MASTER,https://chd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-05-02T06:27:45.250230+00:00
 USA_EDU_MASTER,https://chemeketa.edu/,90.0,76.0,73.0,92.0,,2026-04-30T06:46:41.377518+00:00
 USA_EDU_MASTER,https://chesapeake.edu/,99.0,96.0,58.0,100.0,,2026-04-30T06:46:42.838509+00:00
-USA_EDU_MASTER,https://chestercollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:36:11.248530+00:00
+USA_EDU_MASTER,https://chestercollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:24:20.688533+00:00
 USA_EDU_MASTER,https://cheyney.edu/,91.0,80.0,77.0,77.0,,2026-04-30T06:47:12.634981+00:00
-USA_EDU_MASTER,https://chiangmai.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:36:25.260444+00:00
-USA_EDU_MASTER,https://chiinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:36:24.359829+00:00
-USA_EDU_MASTER,https://chongshinusa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T04:36:32.432617+00:00
+USA_EDU_MASTER,https://chiangmai.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:24:34.073224+00:00
+USA_EDU_MASTER,https://chiinstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:24:30.549400+00:00
+USA_EDU_MASTER,https://chongshinusa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:24:41.742796+00:00
 USA_EDU_MASTER,https://chowan.edu/,61.0,86.0,58.0,92.0,,2026-04-30T06:48:10.792899+00:00
 USA_EDU_MASTER,https://christ.edu/,97.0,90.0,58.0,92.0,,2026-05-01T07:03:17.541353+00:00
-USA_EDU_MASTER,https://christcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65084),2026-05-02T04:36:45.283218+00:00
+USA_EDU_MASTER,https://christcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65084),2026-05-02T06:24:51.618361+00:00
 USA_EDU_MASTER,https://christendom.edu/,65.0,85.0,54.0,85.0,,2026-04-30T06:48:20.739500+00:00
 USA_EDU_MASTER,https://christianlifecollege.edu/,94.0,86.0,100.0,54.0,,2026-04-30T06:48:58.595348+00:00
-USA_EDU_MASTER,https://chu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:40:53.271267+00:00
+USA_EDU_MASTER,https://chu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:29:38.566793+00:00
 USA_EDU_MASTER,https://cia.edu/,37.0,77.0,58.0,92.0,,2026-04-30T06:55:28.248803+00:00
-USA_EDU_MASTER,https://cids.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:44:16.555601+00:00
+USA_EDU_MASTER,https://cids.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130339),2026-05-02T06:32:26.189369+00:00
 USA_EDU_MASTER,https://cihs.edu/,98.0,90.0,58.0,85.0,,2026-04-30T04:41:00.494424+00:00
 USA_EDU_MASTER,https://cim.edu/,99.0,87.0,54.0,92.0,,2026-04-30T06:55:50.139217+00:00
 USA_EDU_MASTER,https://cimt.edu/,80.0,90.0,54.0,100.0,,2026-05-01T06:53:11.354472+00:00
 USA_EDU_MASTER,https://cincinnatistate.edu/,95.0,90.0,58.0,100.0,,2026-04-30T06:50:32.111386+00:00
-USA_EDU_MASTER,https://cinec.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:40:48.842101+00:00
+USA_EDU_MASTER,https://cinec.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:29:35.248755+00:00
 USA_EDU_MASTER,https://cisco.edu/,52.0,100.0,54.0,100.0,,2026-05-01T05:11:22.325295+00:00
 USA_EDU_MASTER,https://cit.edu/,73.0,86.0,96.0,100.0,,2026-04-30T04:59:56.727871+00:00
-USA_EDU_MASTER,https://citycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:37:01.104648+00:00
+USA_EDU_MASTER,https://citycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130353),2026-05-02T06:25:09.471815+00:00
 USA_EDU_MASTER,https://cityu.edu/,93.0,95.0,54.0,85.0,,2026-04-30T06:51:24.596684+00:00
 USA_EDU_MASTER,https://ciu.edu/,93.0,84.0,81.0,92.0,,2026-05-01T06:56:31.697460+00:00
-USA_EDU_MASTER,https://clackamas.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65074),2026-05-02T04:37:21.723978+00:00
+USA_EDU_MASTER,https://clackamas.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-05-02T06:25:28.357312+00:00
 USA_EDU_MASTER,https://claflin.edu/,47.0,87.0,35.0,77.0,,2026-04-30T06:51:39.538452+00:00
 USA_EDU_MASTER,https://claremontmckenna.edu/,91.0,99.0,92.0,85.0,,2026-04-30T06:51:57.398075+00:00
 USA_EDU_MASTER,https://clarendoncollege.edu/,75.0,96.0,73.0,75.0,,2026-04-30T06:52:09.706784+00:00
@@ -561,48 +561,48 @@ USA_EDU_MASTER,https://clarku.edu/,100.0,100.0,58.0,100.0,,2026-04-30T06:52:52.6
 USA_EDU_MASTER,https://clatsopcc.edu/,92.0,89.0,100.0,85.0,,2026-04-30T06:53:41.152952+00:00
 USA_EDU_MASTER,https://clayton.edu/,99.0,100.0,58.0,100.0,,2026-04-30T06:54:06.104065+00:00
 USA_EDU_MASTER,https://clc.edu/,100.0,82.0,58.0,100.0,,2026-04-30T06:49:23.256815+00:00
-USA_EDU_MASTER,https://clcillinois.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:36:53.151020+00:00
+USA_EDU_MASTER,https://clcillinois.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:25:02.696829+00:00
 USA_EDU_MASTER,https://clcmn.edu/,49.0,90.0,31.0,77.0,,2026-05-01T06:48:51.197199+00:00
-USA_EDU_MASTER,https://cle.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:37:36.407629+00:00
+USA_EDU_MASTER,https://cle.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:25:43.170336+00:00
 USA_EDU_MASTER,https://cleary.edu/,86.0,87.0,54.0,85.0,,2026-04-30T06:54:36.548914+00:00
 USA_EDU_MASTER,https://clemson.edu/,84.0,100.0,58.0,100.0,,2026-04-30T06:54:49.766345+00:00
 USA_EDU_MASTER,https://cleveland.edu/,98.0,89.0,54.0,85.0,,2026-04-30T06:55:05.930698+00:00
 USA_EDU_MASTER,https://clevelandcc.edu/,100.0,87.0,54.0,100.0,,2026-04-30T06:55:26.364411+00:00
 USA_EDU_MASTER,https://clevelandstatecc.edu/,90.0,89.0,77.0,77.0,,2026-04-30T06:55:50.750674+00:00
-USA_EDU_MASTER,https://clinch.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T04:37:52.584865+00:00
+USA_EDU_MASTER,https://clinch.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130343),2026-05-02T06:26:02.350940+00:00
 USA_EDU_MASTER,https://clinton.edu/,99.0,97.0,54.0,82.0,,2026-04-30T06:56:34.817688+00:00
 USA_EDU_MASTER,https://clintoncollege.edu/,75.0,98.0,77.0,92.0,,2026-04-30T06:56:20.126493+00:00
 USA_EDU_MASTER,https://cloud.edu/,44.0,88.0,100.0,77.0,,2026-04-30T06:56:38.930597+00:00
 USA_EDU_MASTER,https://clovis.edu/,64.0,63.0,73.0,75.0,,2026-04-30T06:56:59.336715+00:00
-USA_EDU_MASTER,https://clpccd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65070),2026-05-02T04:35:55.243177+00:00
-USA_EDU_MASTER,https://cltc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:35:14.855002+00:00
-USA_EDU_MASTER,https://cluniv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65070),2026-05-02T04:36:46.517456+00:00
+USA_EDU_MASTER,https://clpccd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65068),2026-05-02T06:24:01.009161+00:00
+USA_EDU_MASTER,https://cltc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:23:24.485018+00:00
+USA_EDU_MASTER,https://cluniv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65068),2026-05-02T06:24:54.821660+00:00
 USA_EDU_MASTER,https://cmc.edu/,92.0,99.0,92.0,85.0,,2026-04-30T05:03:16.895626+00:00
 USA_EDU_MASTER,https://cmcc.edu/,61.0,81.0,50.0,75.0,,2026-04-30T05:03:09.201601+00:00
 USA_EDU_MASTER,https://cmccd.edu/,100.0,88.0,96.0,100.0,,2026-05-02T04:44:37.740406+00:00
-USA_EDU_MASTER,https://cmcnyls.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:44:33.099464+00:00
+USA_EDU_MASTER,https://cmcnyls.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:32:38.407918+00:00
 USA_EDU_MASTER,https://cmi.edu/,99.0,91.0,92.0,50.0,,2026-05-01T05:09:30.638221+00:00
 USA_EDU_MASTER,https://cmich.edu/,89.0,85.0,58.0,92.0,,2026-04-30T05:03:37.439948+00:00
-USA_EDU_MASTER,https://cmmccollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:35:34.417194+00:00
-USA_EDU_MASTER,https://cmsv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:39:15.211272+00:00
+USA_EDU_MASTER,https://cmmccollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:23:40.276625+00:00
+USA_EDU_MASTER,https://cmsv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:27:59.733355+00:00
 USA_EDU_MASTER,https://cmu.edu/,93.0,96.0,58.0,92.0,,2026-04-30T04:53:26.113442+00:00
 USA_EDU_MASTER,https://cn.edu/,93.0,89.0,54.0,92.0,,2026-04-30T04:55:22.576807+00:00
 USA_EDU_MASTER,https://cnc.edu/,99.0,93.0,77.0,54.0,,2026-04-30T04:52:06.054377+00:00
 USA_EDU_MASTER,https://cncc.edu/,99.0,100.0,54.0,77.0,,2026-05-01T06:54:00.936255+00:00
-USA_EDU_MASTER,https://cncusa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:11:21.155235+00:00
+USA_EDU_MASTER,https://cncusa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T05:59:21.168972+00:00
 USA_EDU_MASTER,https://cnei.edu/,93.0,100.0,50.0,100.0,,2026-04-30T04:42:03.533041+00:00
-USA_EDU_MASTER,https://cnr.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64796),2026-05-02T04:39:22.186538+00:00
+USA_EDU_MASTER,https://cnr.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 64798),2026-05-02T06:28:20.796143+00:00
 USA_EDU_MASTER,https://cnu.edu/,95.0,92.0,58.0,100.0,,2026-04-30T06:49:48.453236+00:00
-USA_EDU_MASTER,https://cnuas.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:30:28.713277+00:00
+USA_EDU_MASTER,https://cnuas.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:18:38.374123+00:00
 USA_EDU_MASTER,https://coa.edu/,83.0,87.0,81.0,85.0,,2026-05-01T05:08:35.017600+00:00
-USA_EDU_MASTER,https://coahomacc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65248),2026-05-02T04:37:57.118182+00:00
+USA_EDU_MASTER,https://coahomacc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65246),2026-05-02T06:26:04.485855+00:00
 USA_EDU_MASTER,https://coastal.edu/,67.0,89.0,69.0,92.0,,2026-04-30T06:57:46.040119+00:00
 USA_EDU_MASTER,https://coastalalabama.edu/,92.0,91.0,54.0,83.0,,2026-04-30T06:57:12.047915+00:00
 USA_EDU_MASTER,https://coastalbend.edu/,93.0,100.0,92.0,92.0,,2026-05-01T04:58:32.244144+00:00
 USA_EDU_MASTER,https://coastalcarolina.edu/,100.0,96.0,58.0,85.0,,2026-04-30T06:57:21.878607+00:00
 USA_EDU_MASTER,https://coastalpines.edu/,88.0,93.0,77.0,77.0,,2026-05-01T04:58:39.599018+00:00
 USA_EDU_MASTER,https://coastline.edu/,99.0,70.0,54.0,75.0,,2026-05-01T04:59:13.340767+00:00
-USA_EDU_MASTER,https://cobbbeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T04:38:11.471025+00:00
+USA_EDU_MASTER,https://cobbbeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T06:26:19.352716+00:00
 USA_EDU_MASTER,https://cocc.edu/,95.0,100.0,58.0,75.0,,2026-04-30T05:04:01.715905+00:00
 USA_EDU_MASTER,https://cochise.edu/,95.0,100.0,46.0,85.0,,2026-05-01T04:59:20.958816+00:00
 USA_EDU_MASTER,https://coconino.edu/,93.0,95.0,73.0,92.0,,2026-05-01T04:59:34.869389+00:00
@@ -611,12 +611,12 @@ USA_EDU_MASTER,https://coe.edu/,83.0,76.0,73.0,92.0,,2026-05-01T04:59:41.293619+
 USA_EDU_MASTER,https://cofc.edu/,78.0,100.0,54.0,100.0,,2026-05-01T05:04:39.956952+00:00
 USA_EDU_MASTER,https://coffeyville.edu/,75.0,95.0,58.0,100.0,,2026-05-01T04:59:48.932263+00:00
 USA_EDU_MASTER,https://cofo.edu/,99.0,95.0,50.0,92.0,,2026-05-01T05:09:49.707813+00:00
-USA_EDU_MASTER,https://cogswell.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65072),2026-05-02T04:38:13.406573+00:00
+USA_EDU_MASTER,https://cogswell.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65074),2026-05-02T06:26:23.731268+00:00
 USA_EDU_MASTER,https://coker.edu/,93.0,81.0,58.0,77.0,,2026-05-01T05:00:12.111398+00:00
 USA_EDU_MASTER,https://colby-sawyer.edu/,40.0,95.0,,85.0,,2026-05-01T05:00:41.268743+00:00
 USA_EDU_MASTER,https://colby.edu/,98.0,90.0,96.0,40.0,,2026-05-01T05:00:18.648497+00:00
 USA_EDU_MASTER,https://colbycc.edu/,87.0,99.0,77.0,92.0,,2026-05-01T05:00:19.822794+00:00
-USA_EDU_MASTER,https://coleman.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:38:28.046687+00:00
+USA_EDU_MASTER,https://coleman.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:26:38.307360+00:00
 USA_EDU_MASTER,https://colgate.edu/,95.0,87.0,73.0,85.0,,2026-05-01T05:01:28.297575+00:00
 USA_EDU_MASTER,https://colin.edu/,76.0,89.0,96.0,92.0,,2026-05-01T05:01:44.026516+00:00
 USA_EDU_MASTER,https://collegeforcreativestudies.edu/,75.0,93.0,54.0,85.0,,2026-05-01T05:03:13.149562+00:00
@@ -628,27 +628,27 @@ USA_EDU_MASTER,https://collin.edu/,93.0,95.0,77.0,92.0,,2026-05-01T05:11:15.7981
 USA_EDU_MASTER,https://coloradocollege.edu/,90.0,100.0,77.0,92.0,,2026-05-01T05:11:57.868824+00:00
 USA_EDU_MASTER,https://coloradomesa.edu/,91.0,100.0,54.0,100.0,,2026-05-01T06:53:24.083182+00:00
 USA_EDU_MASTER,https://coloradomtn.edu/,91.0,100.0,69.0,100.0,,2026-05-01T06:53:46.283568+00:00
-USA_EDU_MASTER,https://colsouth.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:16:00.623593+00:00
+USA_EDU_MASTER,https://colsouth.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:03:59.199853+00:00
 USA_EDU_MASTER,https://colum.edu/,90.0,95.0,77.0,92.0,,2026-05-01T06:55:22.623740+00:00
 USA_EDU_MASTER,https://columbia.edu/,74.0,100.0,35.0,83.0,,2026-05-01T06:57:01.879911+00:00
 USA_EDU_MASTER,https://columbiabasin.edu/,65.0,93.0,54.0,85.0,,2026-05-01T06:54:56.411286+00:00
 USA_EDU_MASTER,https://columbiacollege.edu/,94.0,100.0,73.0,100.0,,2026-05-01T06:55:29.590039+00:00
-USA_EDU_MASTER,https://columbiacollegesc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T04:41:21.007779+00:00
-USA_EDU_MASTER,https://columbiaseminary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T04:41:41.968423+00:00
+USA_EDU_MASTER,https://columbiacollegesc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-05-02T06:30:04.249038+00:00
+USA_EDU_MASTER,https://columbiaseminary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65043),2026-05-02T06:30:25.011498+00:00
 USA_EDU_MASTER,https://columbiastate.edu/,80.0,87.0,54.0,91.0,,2026-05-01T06:56:36.060477+00:00
 USA_EDU_MASTER,https://columbus.edu/,96.0,81.0,73.0,69.0,,2026-05-01T06:58:15.287749+00:00
 USA_EDU_MASTER,https://columbusstate.edu/,90.0,100.0,96.0,92.0,,2026-05-01T06:57:43.776046+00:00
 USA_EDU_MASTER,https://columbustech.edu/,84.0,89.0,77.0,85.0,,2026-05-01T06:58:11.915247+00:00
 USA_EDU_MASTER,https://com.edu/,38.0,92.0,77.0,85.0,,2026-05-01T05:09:14.168074+00:00
 USA_EDU_MASTER,https://commonwealth.edu/,86.0,74.0,73.0,77.0,,2026-05-01T06:58:21.810828+00:00
-USA_EDU_MASTER,https://communitybusinesscollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65059),2026-05-02T04:42:05.154885+00:00
+USA_EDU_MASTER,https://communitybusinesscollege.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:31:06.748291+00:00
 USA_EDU_MASTER,https://computek.edu/,,81.0,54.0,92.0,,2026-05-01T07:00:48.470419+00:00
 USA_EDU_MASTER,https://conception.edu/,73.0,100.0,73.0,92.0,,2026-05-01T05:03:14.470786+00:00
 USA_EDU_MASTER,https://concorde.edu/,96.0,96.0,58.0,92.0,,2026-05-01T07:01:07.442406+00:00
-USA_EDU_MASTER,https://concordia-ny.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:42:47.915183+00:00
+USA_EDU_MASTER,https://concordia-ny.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T06:31:56.253246+00:00
 USA_EDU_MASTER,https://concordia.edu/,93.0,86.0,54.0,92.0,,2026-05-01T07:02:44.001380+00:00
 USA_EDU_MASTER,https://concordiacollege.edu/,89.0,96.0,58.0,100.0,,2026-05-01T07:02:12.386745+00:00
-USA_EDU_MASTER,https://conncoll.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:43:05.323680+00:00
+USA_EDU_MASTER,https://conncoll.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:32:16.985472+00:00
 USA_EDU_MASTER,https://connorsstate.edu/,94.0,82.0,73.0,83.0,,2026-05-02T04:43:08.927088+00:00
 USA_EDU_MASTER,https://conservative.edu/,51.0,89.0,81.0,92.0,,2026-05-02T04:43:09.880912+00:00
 USA_EDU_MASTER,https://contracosta.edu/,87.0,96.0,58.0,92.0,,2026-05-02T04:43:42.316136+00:00
@@ -656,13 +656,13 @@ USA_EDU_MASTER,https://converse.edu/,88.0,100.0,54.0,92.0,,2026-05-02T04:44:14.7
 USA_EDU_MASTER,https://cookman.edu/,92.0,91.0,54.0,83.0,,2026-04-29T04:44:48.897437+00:00
 USA_EDU_MASTER,https://coppin.edu/,88.0,99.0,50.0,77.0,,2026-05-02T04:44:47.510071+00:00
 USA_EDU_MASTER,https://cord.edu/,96.0,96.0,58.0,100.0,,2026-05-01T07:01:44.267004+00:00
-USA_EDU_MASTER,https://cornell-iowa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64844),2026-05-02T04:45:15.335934+00:00
+USA_EDU_MASTER,https://cornell-iowa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64842),2026-05-02T06:33:06.867155+00:00
 USA_EDU_MASTER,https://cornell.edu/,100.0,96.0,73.0,92.0,,2026-05-02T04:45:15.366525+00:00
 USA_EDU_MASTER,https://corning-cc.edu/,85.0,88.0,54.0,85.0,,2026-05-02T04:45:23.376858+00:00
 USA_EDU_MASTER,https://cornish.edu/,89.0,83.0,54.0,92.0,,2026-05-02T04:45:37.804895+00:00
 USA_EDU_MASTER,https://cos.edu/,22.0,79.0,58.0,83.0,,2026-05-01T05:10:08.289896+00:00
 USA_EDU_MASTER,https://cotc.edu/,89.0,100.0,58.0,92.0,,2026-04-30T05:03:51.681187+00:00
-USA_EDU_MASTER,https://coto.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:40:18.685328+00:00
+USA_EDU_MASTER,https://coto.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:29:01.799092+00:00
 USA_EDU_MASTER,https://covenant.edu/,100.0,95.0,54.0,92.0,,2026-05-02T04:46:12.137380+00:00
 USA_EDU_MASTER,https://cowley.edu/,97.0,92.0,50.0,100.0,,2026-05-02T04:46:22.765312+00:00
 USA_EDU_MASTER,https://cpp.edu/,99.0,100.0,38.0,92.0,,2026-04-30T06:34:55.545826+00:00
@@ -670,11 +670,11 @@ USA_EDU_MASTER,https://cptc.edu/,97.0,98.0,92.0,100.0,,2026-04-30T06:56:50.10995
 USA_EDU_MASTER,https://cpu.edu/,92.0,77.0,65.0,83.0,,2026-04-30T04:42:09.424104+00:00
 USA_EDU_MASTER,https://craftonhills.edu/,96.0,100.0,54.0,92.0,,2026-05-02T04:46:32.959213+00:00
 USA_EDU_MASTER,https://cravencc.edu/,93.0,100.0,54.0,77.0,,2026-05-02T04:46:44.189352+00:00
-USA_EDU_MASTER,https://crbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:29:16.416485+00:00
+USA_EDU_MASTER,https://crbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:17:25.929780+00:00
 USA_EDU_MASTER,https://crc.edu/,94.0,91.0,73.0,85.0,,2026-05-02T04:48:00.145406+00:00
 USA_EDU_MASTER,https://creighton.edu/,98.0,97.0,58.0,100.0,,2026-05-02T04:46:57.941718+00:00
-USA_EDU_MASTER,https://cri.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:46:11.831234+00:00
-USA_EDU_MASTER,https://crimsontech.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65002),2026-05-02T04:47:18.516441+00:00
+USA_EDU_MASTER,https://cri.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:33:08.273667+00:00
+USA_EDU_MASTER,https://crimsontech.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65002),2026-05-02T06:33:19.996473+00:00
 USA_EDU_MASTER,https://criswell.edu/,93.0,72.0,58.0,85.0,,2026-05-02T04:47:28.167774+00:00
 USA_EDU_MASTER,https://crossroads.edu/,100.0,96.0,77.0,92.0,,2026-05-02T04:47:33.822742+00:00
 USA_EDU_MASTER,https://crossroadscollege.edu/,93.0,96.0,100.0,85.0,,2026-05-02T04:47:37.469696+00:00
@@ -682,9 +682,9 @@ USA_EDU_MASTER,https://crowder.edu/,100.0,100.0,58.0,92.0,,2026-05-02T04:47:59.1
 USA_EDU_MASTER,https://csbsju.edu/,84.0,97.0,58.0,92.0,,2026-05-01T05:06:35.566392+00:00
 USA_EDU_MASTER,https://csc.edu/,96.0,97.0,69.0,77.0,,2026-04-30T06:43:23.857508+00:00
 USA_EDU_MASTER,https://cscc.edu/,94.0,96.0,46.0,92.0,,2026-05-01T06:57:34.514137+00:00
-USA_EDU_MASTER,https://cscu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:30:41.841342+00:00
+USA_EDU_MASTER,https://cscu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:18:43.346504+00:00
 USA_EDU_MASTER,https://csi.edu/,100.0,93.0,73.0,77.0,,2026-04-28T04:24:34.695641+00:00
-USA_EDU_MASTER,https://csj.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:39:57.314285+00:00
+USA_EDU_MASTER,https://csj.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:28:56.880329+00:00
 USA_EDU_MASTER,https://csl.edu/,81.0,84.0,100.0,100.0,,2026-05-01T07:02:34.709160+00:00
 USA_EDU_MASTER,https://csm.edu/,99.0,100.0,58.0,100.0,,2026-05-01T05:07:15.811281+00:00
 USA_EDU_MASTER,https://csmd.edu/,95.0,96.0,73.0,100.0,,2026-05-01T05:07:53.834486+00:00
@@ -696,31 +696,31 @@ USA_EDU_MASTER,https://csudh.edu/,63.0,82.0,50.0,85.0,,2026-04-30T04:43:58.13139
 USA_EDU_MASTER,https://csueastbay.edu/,95.0,93.0,35.0,85.0,,2026-04-30T04:43:19.251624+00:00
 USA_EDU_MASTER,https://csufresno.edu/,93.0,95.0,77.0,100.0,,2026-04-30T04:44:18.307769+00:00
 USA_EDU_MASTER,https://csuglobal.edu/,89.0,97.0,54.0,92.0,,2026-05-01T06:54:29.538837+00:00
-USA_EDU_MASTER,https://csuhayward.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:31:02.456732+00:00
+USA_EDU_MASTER,https://csuhayward.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:19:04.165248+00:00
 USA_EDU_MASTER,https://csulb.edu/,95.0,100.0,77.0,92.0,,2026-04-30T04:44:43.520619+00:00
 USA_EDU_MASTER,https://csumb.edu/,95.0,100.0,77.0,100.0,,2026-04-30T04:44:55.284345+00:00
 USA_EDU_MASTER,https://csun.edu/,95.0,100.0,54.0,92.0,,2026-04-30T04:45:02.623955+00:00
 USA_EDU_MASTER,https://csuniv.edu/,66.0,79.0,73.0,92.0,,2026-04-30T06:44:55.927488+00:00
 USA_EDU_MASTER,https://csuohio.edu/,95.0,92.0,54.0,92.0,,2026-04-30T06:56:04.670500+00:00
-USA_EDU_MASTER,https://csupomona.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T04:30:49.588241+00:00
-USA_EDU_MASTER,https://csupueblo.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-05-02T04:41:13.849463+00:00
+USA_EDU_MASTER,https://csupomona.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T06:18:59.352202+00:00
+USA_EDU_MASTER,https://csupueblo.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-05-02T06:29:59.586119+00:00
 USA_EDU_MASTER,https://csus.edu/,95.0,100.0,77.0,100.0,,2026-04-30T04:45:20.797949+00:00
 USA_EDU_MASTER,https://csusb.edu/,100.0,97.0,69.0,92.0,,2026-04-30T04:45:26.614949+00:00
 USA_EDU_MASTER,https://csusm.edu/,95.0,87.0,65.0,100.0,,2026-04-30T04:45:45.304053+00:00
-USA_EDU_MASTER,https://csustan.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65072),2026-05-02T04:31:22.998360+00:00
+USA_EDU_MASTER,https://csustan.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65072),2026-05-02T06:19:25.099779+00:00
 USA_EDU_MASTER,https://ct.edu/,94.0,98.0,58.0,91.0,,2026-05-01T07:03:54.038984+00:00
-USA_EDU_MASTER,https://cti.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:31:58.100585+00:00
+USA_EDU_MASTER,https://cti.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:20:00.284361+00:00
 USA_EDU_MASTER,https://cts.edu/,100.0,50.0,88.0,80.0,,2026-04-30T06:49:26.468906+00:00
 USA_EDU_MASTER,https://ctsem.edu/,85.0,90.0,96.0,92.0,,2026-05-02T04:43:41.624520+00:00
-USA_EDU_MASTER,https://ctsnet.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65234),2026-05-02T04:41:48.592498+00:00
-USA_EDU_MASTER,https://cu-portland.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:42:48.960821+00:00
-USA_EDU_MASTER,https://cubt.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:31:24.770967+00:00
-USA_EDU_MASTER,https://cuc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:42:02.804815+00:00
+USA_EDU_MASTER,https://ctsnet.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65328),2026-05-02T06:30:34.795235+00:00
+USA_EDU_MASTER,https://cu-portland.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:32:05.136759+00:00
+USA_EDU_MASTER,https://cubt.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:19:34.704350+00:00
+USA_EDU_MASTER,https://cuc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:30:45.702493+00:00
 USA_EDU_MASTER,https://cuchicago.edu/,93.0,98.0,77.0,91.0,,2026-04-30T04:58:38.660912+00:00
 USA_EDU_MASTER,https://cuesta.edu/,79.0,100.0,54.0,92.0,,2026-05-02T04:48:06.346594+00:00
 USA_EDU_MASTER,https://cune.edu/,98.0,100.0,58.0,100.0,,2026-05-01T07:02:39.726973+00:00
 USA_EDU_MASTER,https://cuny.edu/,89.0,96.0,54.0,92.0,,2026-05-02T04:48:32.426293+00:00
-USA_EDU_MASTER,https://cuny.edu/Pages/default.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65515),2026-05-02T04:37:13.958717+00:00
+USA_EDU_MASTER,https://cuny.edu/Pages/default.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65515),2026-05-02T06:25:23.549008+00:00
 USA_EDU_MASTER,https://curry.edu/,97.0,94.0,54.0,92.0,,2026-05-02T04:48:38.430945+00:00
 USA_EDU_MASTER,https://curtin.edu/,54.0,90.0,54.0,100.0,,2026-05-02T04:49:07.166196+00:00
 USA_EDU_MASTER,https://cusm.edu/,95.0,97.0,96.0,83.0,,2026-04-30T04:46:11.631997+00:00
@@ -732,45 +732,81 @@ USA_EDU_MASTER,https://cvtc.edu/,94.0,92.0,54.0,100.0,,2026-04-30T06:47:56.64948
 USA_EDU_MASTER,https://cwc.edu/,75.0,86.0,54.0,92.0,,2026-04-30T06:40:22.104321+00:00
 USA_EDU_MASTER,https://cwu.edu/,90.0,87.0,50.0,83.0,,2026-04-30T06:40:20.873352+00:00
 USA_EDU_MASTER,https://cypresscollege.edu/,51.0,86.0,54.0,77.0,,2026-05-02T04:49:11.983280+00:00
-USA_EDU_MASTER,https://dademedical.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T04:50:15.498772+00:00
+USA_EDU_MASTER,https://dacc.edu/,95.0,95.0,69.0,92.0,,2026-05-02T06:36:05.646139+00:00
+USA_EDU_MASTER,https://dademedical.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:33:52.131496+00:00
 USA_EDU_MASTER,https://daemen.edu/,93.0,95.0,54.0,92.0,,2026-05-02T04:50:29.214916+00:00
 USA_EDU_MASTER,https://dakotacollege.edu/,88.0,93.0,50.0,54.0,,2026-05-02T04:50:36.264090+00:00
+USA_EDU_MASTER,https://dallas.edu/,93.0,83.0,73.0,85.0,,2026-05-02T06:34:13.115073+00:00
+USA_EDU_MASTER,https://dallascollege.edu/,95.0,100.0,58.0,100.0,,2026-05-02T06:34:26.702458+00:00
+USA_EDU_MASTER,https://dallasinstitute.edu/,87.0,88.0,73.0,92.0,,2026-05-02T06:34:44.132500+00:00
+USA_EDU_MASTER,https://dallasseminary.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T06:35:44.075439+00:00
+USA_EDU_MASTER,https://daltonstate.edu/,86.0,100.0,50.0,85.0,,2026-05-02T06:35:24.194459+00:00
+USA_EDU_MASTER,https://dana.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:35:54.854090+00:00
+USA_EDU_MASTER,https://dartmouth.edu/,88.0,93.0,35.0,85.0,,2026-05-02T06:36:15.992935+00:00
+USA_EDU_MASTER,https://darton.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:36:19.386491+00:00
+USA_EDU_MASTER,https://datc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:37:11.381409+00:00
+USA_EDU_MASTER,https://davenport.edu/,91.0,91.0,54.0,85.0,,2026-05-02T06:36:40.531415+00:00
+USA_EDU_MASTER,https://davidson.edu/,86.0,89.0,58.0,92.0,,2026-05-02T06:36:41.525278+00:00
+USA_EDU_MASTER,https://davidsonccc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:36:48.765226+00:00
+USA_EDU_MASTER,https://davidsondavie.edu/,54.0,82.0,54.0,85.0,,2026-05-02T06:37:09.728526+00:00
+USA_EDU_MASTER,https://daviscollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T06:37:26.561669+00:00
+USA_EDU_MASTER,https://davisny.edu/,95.0,87.0,54.0,92.0,,2026-05-02T06:37:32.503341+00:00
+USA_EDU_MASTER,https://dawncareerinstitute.edu/,89.0,92.0,77.0,85.0,,2026-05-02T06:37:47.419910+00:00
+USA_EDU_MASTER,https://dawson.edu/,68.0,90.0,54.0,83.0,,2026-05-02T06:37:59.752382+00:00
+USA_EDU_MASTER,https://dayspringbiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65100),2026-05-02T06:38:00.517138+00:00
+USA_EDU_MASTER,https://daytonastate.edu/,90.0,100.0,58.0,100.0,,2026-05-02T06:38:15.169262+00:00
+USA_EDU_MASTER,https://dbu.edu/,100.0,86.0,54.0,100.0,,2026-05-02T06:34:08.511947+00:00
+USA_EDU_MASTER,https://dcad.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65322),2026-05-02T06:39:15.644544+00:00
+USA_EDU_MASTER,https://dcc.edu/,77.0,97.0,58.0,100.0,,2026-05-02T06:39:16.986813+00:00
+USA_EDU_MASTER,https://dccc.edu/,100.0,88.0,54.0,100.0,,2026-05-02T06:39:33.631959+00:00
+USA_EDU_MASTER,https://dcccd.edu/,95.0,100.0,58.0,100.0,,2026-05-02T06:34:43.063303+00:00
+USA_EDU_MASTER,https://dci.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:38:16.459154+00:00
 USA_EDU_MASTER,https://dctc.edu/,80.0,94.0,50.0,100.0,,2026-05-02T04:50:57.955340+00:00
-USA_EDU_MASTER,https://dia.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:10:56.418435+00:00
-USA_EDU_MASTER,https://dmac.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:42:23.873181+00:00
-USA_EDU_MASTER,https://drakecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-05-02T04:10:54.415797+00:00
-USA_EDU_MASTER,https://dslcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:50:08.531697+00:00
+USA_EDU_MASTER,https://deakin.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65070),2026-05-02T06:38:31.674450+00:00
+USA_EDU_MASTER,https://dean.edu/,98.0,87.0,54.0,92.0,,2026-05-02T06:38:37.436198+00:00
+USA_EDU_MASTER,https://deepsprings.edu/,100.0,89.0,77.0,77.0,,2026-05-02T06:38:47.016678+00:00
+USA_EDU_MASTER,https://delmar.edu/,83.0,88.0,50.0,83.0,,2026-05-02T06:39:04.380917+00:00
+USA_EDU_MASTER,https://desu.edu/,74.0,96.0,81.0,85.0,,2026-05-02T06:40:04.355534+00:00
+USA_EDU_MASTER,https://dia.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T05:58:59.307162+00:00
+USA_EDU_MASTER,https://dliflc.edu/,79.0,76.0,96.0,92.0,,2026-05-02T06:38:48.496271+00:00
+USA_EDU_MASTER,https://dmac.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:31:23.388000+00:00
+USA_EDU_MASTER,https://dni.edu/,97.0,84.0,54.0,85.0,,2026-05-02T06:35:19.129805+00:00
+USA_EDU_MASTER,https://doane.edu/,76.0,100.0,58.0,92.0,,2026-05-02T06:35:05.364743+00:00
+USA_EDU_MASTER,https://drakecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-05-02T05:58:57.304545+00:00
+USA_EDU_MASTER,https://dslcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:33:34.525018+00:00
 USA_EDU_MASTER,https://dsu.edu/,90.0,100.0,50.0,100.0,,2026-05-02T04:51:04.743040+00:00
-USA_EDU_MASTER,https://duep.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:13:43.822841+00:00
+USA_EDU_MASTER,https://duep.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:01:42.766210+00:00
+USA_EDU_MASTER,https://dwc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T06:35:58.510466+00:00
+USA_EDU_MASTER,https://dwu.edu/,88.0,89.0,54.0,83.0,,2026-05-02T06:33:55.520299+00:00
 USA_EDU_MASTER,https://dyc.edu/,95.0,100.0,50.0,92.0,,2026-05-02T04:49:53.090749+00:00
 USA_EDU_MASTER,https://eicollege.edu/,95.0,83.0,58.0,77.0,,2026-04-28T04:38:40.565529+00:00
-USA_EDU_MASTER,https://empire.edu/brands/acutabove,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65513),2026-05-02T04:12:02.916462+00:00
-USA_EDU_MASTER,https://escondidobiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65053),2026-05-02T04:12:02.943035+00:00
+USA_EDU_MASTER,https://empire.edu/brands/acutabove,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65513),2026-05-02T06:00:02.835938+00:00
+USA_EDU_MASTER,https://escondidobiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65051),2026-05-02T06:00:02.930415+00:00
 USA_EDU_MASTER,https://evergreenbeauty.edu/,87.0,86.0,54.0,85.0,,2026-04-29T04:37:51.630959+00:00
 USA_EDU_MASTER,https://fisher.edu/,71.0,88.0,54.0,92.0,,2026-04-28T04:28:44.314228+00:00
 USA_EDU_MASTER,https://fortlewis.edu/,88.0,91.0,50.0,85.0,,2026-04-28T04:25:20.208308+00:00
 USA_EDU_MASTER,https://franklin.edu/,94.0,80.0,,77.0,,2026-05-01T05:02:00.539560+00:00
-USA_EDU_MASTER,https://franklincareer.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-05-02T04:11:41.892361+00:00
+USA_EDU_MASTER,https://franklincareer.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-05-02T05:59:41.617808+00:00
 USA_EDU_MASTER,https://fullerton.edu/,96.0,95.0,50.0,92.0,,2026-04-30T04:44:21.126986+00:00
-USA_EDU_MASTER,https://gibbsri.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:33:01.867008+00:00
-USA_EDU_MASTER,https://gobbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:23:33.276476+00:00
+USA_EDU_MASTER,https://gibbsri.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:21:11.205395+00:00
+USA_EDU_MASTER,https://gobbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:11:22.745039+00:00
 USA_EDU_MASTER,https://gocolumbia.edu/,94.0,95.0,54.0,77.0,,2026-05-01T06:56:13.961694+00:00
-USA_EDU_MASTER,https://hairdesigninstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T04:24:29.154415+00:00
+USA_EDU_MASTER,https://hairdesigninstitute.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T06:12:19.551896+00:00
 USA_EDU_MASTER,https://hancockcollege.edu/,86.0,96.0,69.0,100.0,,2026-04-28T04:37:06.209511+00:00
 USA_EDU_MASTER,https://heritageit.edu/,61.0,59.0,62.0,83.0,,2026-04-28T04:21:24.284356+00:00
 USA_EDU_MASTER,https://holycross.edu/,96.0,100.0,54.0,92.0,,2026-05-01T05:09:12.067554+00:00
-USA_EDU_MASTER,https://ibais.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:11:21.153374+00:00
+USA_EDU_MASTER,https://ibais.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T05:59:21.026796+00:00
 USA_EDU_MASTER,https://idc.edu/,80.0,80.0,73.0,92.0,,2026-05-02T04:43:26.214010+00:00
 USA_EDU_MASTER,https://ipm.edu/,76.0,86.0,81.0,85.0,,2026-04-28T04:24:17.751320+00:00
 USA_EDU_MASTER,https://jefferson.edu/,99.0,88.0,35.0,92.0,,2026-04-28T04:23:02.329286+00:00
 USA_EDU_MASTER,https://labi.edu/,77.0,86.0,96.0,85.0,,2026-04-28T04:21:20.279452+00:00
 USA_EDU_MASTER,https://lbc.edu/,93.0,82.0,54.0,92.0,,2026-04-29T04:45:51.666221+00:00
 USA_EDU_MASTER,https://lincolnonline.edu/,,90.0,54.0,92.0,,2026-04-29T04:20:24.266445+00:00
-USA_EDU_MASTER,https://lindsey.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65238),2026-05-02T04:11:56.340901+00:00
+USA_EDU_MASTER,https://lindsey.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65240),2026-05-02T05:59:55.042981+00:00
 USA_EDU_MASTER,https://littlehoop.edu/,99.0,87.0,73.0,92.0,,2026-04-30T04:48:59.814144+00:00
-USA_EDU_MASTER,https://longtechnicalcollege.edu/Pages/homepage.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65089),2026-05-02T04:40:28.156479+00:00
+USA_EDU_MASTER,https://longtechnicalcollege.edu/Pages/homepage.aspx,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65089),2026-05-02T06:29:14.403502+00:00
 USA_EDU_MASTER,https://macu.edu/,70.0,92.0,58.0,77.0,,2026-04-30T06:49:46.125421+00:00
-USA_EDU_MASTER,https://magdalen.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:39:36.430713+00:00
+USA_EDU_MASTER,https://magdalen.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:28:38.424706+00:00
 USA_EDU_MASTER,https://marin.edu/,92.0,90.0,92.0,92.0,,2026-05-01T05:05:48.233309+00:00
 USA_EDU_MASTER,https://mccollege.edu/,87.0,91.0,50.0,85.0,,2026-04-28T04:24:18.950615+00:00
 USA_EDU_MASTER,https://midwest.edu/,55.0,59.0,50.0,83.0,,2026-04-28T04:22:40.900741+00:00
@@ -779,8 +815,8 @@ USA_EDU_MASTER,https://montserrat.edu/,97.0,87.0,77.0,85.0,,2026-04-28T04:58:21.
 USA_EDU_MASTER,https://msj.edu/,93.0,79.0,58.0,92.0,,2026-05-01T05:06:07.014926+00:00
 USA_EDU_MASTER,https://mybrcc.edu/,95.0,97.0,96.0,92.0,,2026-04-29T04:36:12.559787+00:00
 USA_EDU_MASTER,https://najah.edu/,88.0,68.0,96.0,36.0,,2026-04-28T04:47:45.092554+00:00
-USA_EDU_MASTER,https://ncce.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:24:50.696125+00:00
-USA_EDU_MASTER,https://ncpcollegeofnursing.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T04:39:35.803163+00:00
+USA_EDU_MASTER,https://ncce.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:12:44.134152+00:00
+USA_EDU_MASTER,https://ncpcollegeofnursing.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65047),2026-05-02T06:28:35.891664+00:00
 USA_EDU_MASTER,https://northark.edu/,76.0,80.0,77.0,92.0,,2026-04-28T04:56:14.467429+00:00
 USA_EDU_MASTER,https://northeast.edu/,91.0,97.0,54.0,91.0,,2026-05-01T05:02:29.147468+00:00
 USA_EDU_MASTER,https://nwc.edu/,92.0,96.0,54.0,100.0,,2026-04-29T04:45:49.928481+00:00
@@ -788,49 +824,48 @@ USA_EDU_MASTER,https://oberlin.edu/,90.0,94.0,58.0,92.0,,2026-05-01T05:04:00.062
 USA_EDU_MASTER,https://paralegal.edu/,88.0,80.0,69.0,85.0,,2026-04-28T04:25:55.591769+00:00
 USA_EDU_MASTER,https://peralta.edu/,86.0,99.0,50.0,100.0,,2026-05-01T05:03:45.381214+00:00
 USA_EDU_MASTER,https://redwoods.edu/,99.0,98.0,54.0,85.0,,2026-05-01T05:09:54.794448+00:00
-USA_EDU_MASTER,https://ritz.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:49:51.204260+00:00
+USA_EDU_MASTER,https://ritz.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T06:33:29.365633+00:00
 USA_EDU_MASTER,https://sandburg.edu/,51.0,98.0,54.0,100.0,,2026-04-30T04:52:38.730711+00:00
-USA_EDU_MASTER,https://sci.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T04:24:49.954291+00:00
+USA_EDU_MASTER,https://sci.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:12:40.133852+00:00
 USA_EDU_MASTER,https://scitexas.edu/,70.0,85.0,54.0,92.0,,2026-05-01T05:11:11.557970+00:00
 USA_EDU_MASTER,https://siskiyous.edu/,93.0,77.0,46.0,75.0,,2026-05-01T05:10:22.307010+00:00
-USA_EDU_MASTER,https://siss.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-05-02T04:44:54.158055+00:00
+USA_EDU_MASTER,https://siss.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:32:47.183471+00:00
 USA_EDU_MASTER,https://sjsu.edu/,64.0,92.0,58.0,75.0,,2026-04-30T04:45:38.378952+00:00
 USA_EDU_MASTER,https://stkate.edu/,76.0,94.0,54.0,100.0,,2026-05-01T05:06:59.386428+00:00
 USA_EDU_MASTER,https://stonybrookmedicine.edu/,83.0,100.0,92.0,92.0,,2026-04-28T04:26:42.886796+00:00
 USA_EDU_MASTER,https://stritch.edu/,100.0,96.0,100.0,85.0,,2026-04-30T04:50:40.732066+00:00
-USA_EDU_MASTER,https://strose.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:39:56.893540+00:00
+USA_EDU_MASTER,https://strose.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T06:28:40.555715+00:00
 USA_EDU_MASTER,https://sunyacc.edu/,93.0,89.0,54.0,92.0,,2026-04-28T04:29:59.019818+00:00
 USA_EDU_MASTER,https://sunycgcc.edu/,88.0,95.0,58.0,92.0,,2026-05-01T06:57:16.877448+00:00
 USA_EDU_MASTER,https://suscc.edu/,91.0,94.0,54.0,92.0,,2026-04-28T04:22:54.995484+00:00
 USA_EDU_MASTER,https://svdp.edu/,92.0,87.0,100.0,92.0,,2026-04-30T04:58:36.398114+00:00
-USA_EDU_MASTER,https://tambcd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T04:24:16.929504+00:00
+USA_EDU_MASTER,https://tambcd.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-05-02T06:12:08.269430+00:00
 USA_EDU_MASTER,https://technologyindia.edu/,92.0,69.0,65.0,83.0,,2026-04-29T05:02:09.829995+00:00
-USA_EDU_MASTER,https://tesc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65066),2026-05-02T04:38:46.597295+00:00
+USA_EDU_MASTER,https://tesc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65064),2026-05-02T06:27:30.743688+00:00
 USA_EDU_MASTER,https://tlu.edu/,88.0,89.0,73.0,92.0,,2026-04-29T04:37:15.172070+00:00
 USA_EDU_MASTER,https://tri-c.edu/,63.0,88.0,54.0,83.0,,2026-05-02T04:49:11.972583+00:00
 USA_EDU_MASTER,https://trident.edu/,80.0,99.0,54.0,85.0,,2026-04-28T04:28:05.695463+00:00
 USA_EDU_MASTER,https://trincoll.edu/,70.0,87.0,58.0,85.0,,2026-04-28T04:25:29.720721+00:00
 USA_EDU_MASTER,https://uapb.edu/,87.0,97.0,100.0,85.0,,2026-04-28T04:56:01.502421+00:00
 USA_EDU_MASTER,https://ultrasound.edu/,100.0,61.0,96.0,83.0,,2026-04-30T04:50:30.202689+00:00
-USA_EDU_MASTER,https://umhs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64820),2026-05-02T04:10:52.412726+00:00
+USA_EDU_MASTER,https://umhs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64818),2026-05-02T05:58:55.301905+00:00
 USA_EDU_MASTER,https://university.edu/,100.0,73.0,96.0,90.0,,2026-04-30T04:50:25.153819+00:00
 USA_EDU_MASTER,https://vaughn.edu/,75.0,91.0,54.0,92.0,,2026-04-28T05:09:37.444401+00:00
-USA_EDU_MASTER,https://vc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:20:15.413692+00:00
+USA_EDU_MASTER,https://vc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65013),2026-05-02T06:08:12.213653+00:00
 USA_EDU_MASTER,https://vcc.edu/,100.0,81.0,100.0,85.0,,2026-04-28T05:00:45.538172+00:00
 USA_EDU_MASTER,https://vccs.edu/,75.0,87.0,46.0,92.0,,2026-04-30T06:40:08.187580+00:00
-USA_EDU_MASTER,https://victory.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65023),2026-05-02T04:12:23.610519+00:00
+USA_EDU_MASTER,https://victory.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:00:23.648695+00:00
 USA_EDU_MASTER,https://westernu.edu/,98.0,92.0,58.0,92.0,,2026-05-01T05:06:28.719681+00:00
 USA_EDU_MASTER,https://wm.edu/,74.0,97.0,54.0,100.0,,2026-05-01T05:10:27.827227+00:00
-USA_EDU_MASTER,https://wrightcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T04:32:39.131328+00:00
+USA_EDU_MASTER,https://wrightcc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-05-02T06:20:41.879452+00:00
 USA_EDU_MASTER,https://ycce.edu/,48.0,91.0,92.0,77.0,,2026-04-28T04:23:24.599242+00:00
 USA_EDU_TOP100,https://american.edu/,72.0,100.0,46.0,83.0,,2026-04-28T05:23:17.338698+00:00
 USA_EDU_TOP100,https://arizona.edu/,94.0,98.0,54.0,100.0,,2026-04-28T05:26:34.789936+00:00
 USA_EDU_TOP100,https://asu.edu/,95.0,96.0,50.0,85.0,,2026-04-28T05:22:21.869146+00:00
 USA_EDU_TOP100,https://berkeley.edu/,73.0,100.0,100.0,92.0,,2026-04-28T05:15:54.189965+00:00
-USA_EDU_TOP100,https://cau.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T04:52:22.178229+00:00
+USA_EDU_TOP100,https://cau.edu/,,,,,Lighthouse timed out after 120s,2026-05-02T06:41:14.788381+00:00
 USA_EDU_TOP100,https://colorado.edu/,74.0,85.0,54.0,92.0,,2026-04-28T05:22:23.651059+00:00
-USA_EDU_TOP100,https://colostate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T04:52:16.188415+00:00
-USA_EDU_TOP100,https://dartmouth.edu/,80.0,98.0,35.0,85.0,,2026-04-28T05:14:41.915506+00:00
+USA_EDU_TOP100,https://colostate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:41:10.270127+00:00
 USA_EDU_TOP100,https://drexel.edu/,90.0,87.0,54.0,92.0,,2026-04-28T05:30:05.386187+00:00
 USA_EDU_TOP100,https://du.edu/,95.0,88.0,54.0,92.0,,2026-04-28T05:29:37.056348+00:00
 USA_EDU_TOP100,https://duke.edu/,88.0,99.0,77.0,100.0,,2026-04-28T05:14:23.990992+00:00
@@ -840,13 +875,13 @@ USA_EDU_TOP100,https://fsu.edu/,93.0,97.0,54.0,100.0,,2026-04-28T05:19:28.070618
 USA_EDU_TOP100,https://gatech.edu/,89.0,77.0,73.0,100.0,,2026-04-28T05:17:16.887256+00:00
 USA_EDU_TOP100,https://georgetown.edu/,93.0,92.0,96.0,92.0,,2026-04-28T05:15:39.666714+00:00
 USA_EDU_TOP100,https://gmu.edu/,65.0,98.0,35.0,85.0,,2026-04-28T05:23:29.952796+00:00
-USA_EDU_TOP100,https://gwu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:52:10.973445+00:00
+USA_EDU_TOP100,https://gwu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-05-02T06:41:04.306513+00:00
 USA_EDU_TOP100,https://harvard.edu/,100.0,96.0,81.0,100.0,,2026-04-28T05:13:04.374194+00:00
 USA_EDU_TOP100,https://howard.edu/,95.0,93.0,58.0,92.0,,2026-04-28T05:30:17.068089+00:00
 USA_EDU_TOP100,https://iastate.edu/,99.0,100.0,58.0,92.0,,2026-04-28T05:25:35.633313+00:00
 USA_EDU_TOP100,https://indiana.edu/,94.0,100.0,54.0,100.0,,2026-04-28T05:20:47.639178+00:00
 USA_EDU_TOP100,https://isi.edu/,90.0,100.0,96.0,92.0,,2026-04-28T05:17:45.985418+00:00
-USA_EDU_TOP100,https://jh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-05-02T04:51:38.372037+00:00
+USA_EDU_TOP100,https://jh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65013),2026-05-02T06:40:31.460558+00:00
 USA_EDU_TOP100,https://ksu.edu/,100.0,100.0,73.0,100.0,,2026-04-28T05:27:28.208158+00:00
 USA_EDU_TOP100,https://ku.edu/,87.0,100.0,100.0,100.0,,2026-04-28T05:24:49.704334+00:00
 USA_EDU_TOP100,https://lehigh.edu/,94.0,100.0,54.0,100.0,,2026-04-28T05:18:13.359503+00:00
@@ -859,9 +894,9 @@ USA_EDU_TOP100,https://morehouse.edu/,83.0,95.0,58.0,92.0,,2026-04-28T05:31:09.0
 USA_EDU_TOP100,https://msu.edu/,95.0,91.0,58.0,85.0,,2026-04-28T05:22:16.156689+00:00
 USA_EDU_TOP100,https://northeastern.edu/,46.0,88.0,73.0,77.0,,2026-04-28T05:23:27.379643+00:00
 USA_EDU_TOP100,https://northwestern.edu/,97.0,100.0,100.0,100.0,,2026-04-28T05:14:21.212778+00:00
-USA_EDU_TOP100,https://notredame.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 663 column 21 (char 130351),2026-05-02T04:51:40.373833+00:00
-USA_EDU_TOP100,https://nyu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65399),2026-05-02T04:51:59.328249+00:00
-USA_EDU_TOP100,https://ohio-state.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-05-02T04:52:01.304972+00:00
+USA_EDU_TOP100,https://notredame.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-05-02T06:40:33.462747+00:00
+USA_EDU_TOP100,https://nyu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 16 (char 65532),2026-05-02T06:40:52.816943+00:00
+USA_EDU_TOP100,https://ohio-state.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-05-02T06:40:54.187838+00:00
 USA_EDU_TOP100,https://olemiss.edu/,85.0,100.0,58.0,100.0,,2026-04-28T05:27:33.531314+00:00
 USA_EDU_TOP100,https://oregonstate.edu/,93.0,92.0,58.0,92.0,,2026-04-28T05:24:56.465789+00:00
 USA_EDU_TOP100,https://pitt.edu/,88.0,100.0,96.0,92.0,,2026-04-28T05:21:45.158158+00:00
@@ -889,7 +924,7 @@ USA_EDU_TOP100,https://uci.edu/,100.0,100.0,100.0,91.0,,2026-04-28T05:20:25.9257
 USA_EDU_TOP100,https://ucla.edu/,93.0,87.0,96.0,100.0,,2026-04-28T05:15:24.346461+00:00
 USA_EDU_TOP100,https://uconn.edu/,100.0,100.0,77.0,100.0,,2026-04-28T05:22:59.688240+00:00
 USA_EDU_TOP100,https://ucsd.edu/,79.0,91.0,58.0,100.0,,2026-04-28T05:16:15.813056+00:00
-USA_EDU_TOP100,https://uf.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-05-02T04:51:42.375135+00:00
+USA_EDU_TOP100,https://uf.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65060),2026-05-02T06:40:35.465006+00:00
 USA_EDU_TOP100,https://uga.edu/,87.0,95.0,58.0,85.0,,2026-04-28T05:19:28.447188+00:00
 USA_EDU_TOP100,https://uillinois.edu/,82.0,92.0,54.0,85.0,,2026-04-28T05:20:22.258954+00:00
 USA_EDU_TOP100,https://uiowa.edu/,98.0,100.0,54.0,100.0,,2026-04-28T05:25:26.075846+00:00
@@ -909,7 +944,7 @@ USA_EDU_TOP100,https://vanderbilt.edu/,95.0,94.0,73.0,83.0,,2026-04-28T05:14:53.
 USA_EDU_TOP100,https://villanova.edu/,96.0,96.0,54.0,92.0,,2026-04-28T05:28:34.807636+00:00
 USA_EDU_TOP100,https://virginia.edu/,93.0,88.0,69.0,100.0,,2026-04-29T05:06:07.653492+00:00
 USA_EDU_TOP100,https://vt.edu/,87.0,96.0,58.0,82.0,,2026-04-28T05:25:15.073373+00:00
-USA_EDU_TOP100,https://wakeforest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65078),2026-05-02T04:51:56.674034+00:00
+USA_EDU_TOP100,https://wakeforest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65078),2026-05-02T06:40:49.878122+00:00
 USA_EDU_TOP100,https://wisc.edu/,100.0,100.0,77.0,100.0,,2026-04-28T05:19:58.406151+00:00
 USA_EDU_TOP100,https://xula.edu/,91.0,86.0,50.0,82.0,,2026-04-28T05:30:41.401269+00:00
 USA_EDU_TOP100,https://yale.edu/,100.0,88.0,92.0,100.0,,2026-04-28T05:13:32.674189+00:00

@@ -82,5 +82,19 @@
     "third_party_js_pct": 81.9,
     "lighthouse_count": 705,
     "lighthouse_pct": 18.3
+  },
+  {
+    "date": "2026-05-03",
+    "total_available": 3863,
+    "accessibility_count": 3881,
+    "accessibility_pct": 100.5,
+    "social_count": 3849,
+    "social_pct": 99.6,
+    "technology_count": 3849,
+    "technology_pct": 99.6,
+    "third_party_js_count": 3163,
+    "third_party_js_pct": 81.9,
+    "lighthouse_count": 731,
+    "lighthouse_pct": 18.9
   }
 ]

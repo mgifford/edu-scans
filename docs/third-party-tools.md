@@ -5,14 +5,14 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
+_Stats as of 2026-05-03 06:13 UTC — last scan: 2026-05-03_
 
-**15** scan batches run
+**19** scan batches run
 
 **3,163** of **3,863** available pages scanned (**81.9%** coverage)
 **2,363** of **3,163** scanned pages were reachable (**74.7%**)
 **1,742** reachable pages loaded at least one third-party script (**73.7%** of reachable)
-**2,963** known third-party service loads identified
+**2,956** known third-party service loads identified
 **24** unique known services across **17** categories
 
 ---
@@ -21,7 +21,7 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,163 | 3,763 | 2,363 | 1,742 | 2,963 | 2026-05-02 |
+| Usa Edu Master | 3,163 | 3,763 | 2,363 | 1,742 | 2,956 | 2026-05-03 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -33,12 +33,12 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 |--:|---------|------:|
 | 1 | cdnjs (Cloudflare CDN) | **534** |
 | 2 | Google Analytics (GA4) | **525** |
-| 3 | jsDelivr CDN | **393** |
-| 4 | Google Tag Manager | **390** |
-| 5 | jQuery | **269** |
+| 3 | jsDelivr CDN | **394** |
+| 4 | Google Tag Manager | **387** |
+| 5 | jQuery | **268** |
 | 6 | Font Awesome | **207** |
-| 7 | Google Hosted Libraries | **169** |
-| 8 | Google reCAPTCHA | **138** |
+| 7 | Google Hosted Libraries | **168** |
+| 8 | Google reCAPTCHA | **135** |
 | 9 | unpkg CDN | **105** |
 | 10 | Bootstrap | **65** |
 | 11 | HubSpot | **36** |
@@ -58,11 +58,11 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 |--:|----------|------:|
 | 1 | CDN | **1,201** |
 | 2 | Analytics | **571** |
-| 3 | JavaScript Library | **438** |
-| 4 | Tag Manager | **414** |
+| 3 | JavaScript Library | **436** |
+| 4 | Tag Manager | **411** |
 | 5 | Icon Library | **207** |
-| 6 | Security | **146** |
-| 7 | CAPTCHA | **138** |
+| 6 | Security | **143** |
+| 7 | CAPTCHA | **135** |
 | 8 | UI Framework | **65** |
 | 9 | Cookie Consent | **37** |
 | 10 | CRM | **36** |

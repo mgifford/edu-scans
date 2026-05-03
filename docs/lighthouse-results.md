@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
+_Stats as of 2026-05-03 06:13 UTC — last scan: 2026-05-02_
 
-**14** scan batches run
+**16** scan batches run
 
-**914** of **3,863** available pages audited (**23.7%** coverage)
-**693** successful audits (**75.8%** of audited)
+**949** of **3,863** available pages audited (**24.6%** coverage)
+**718** successful audits (**75.7%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,7 +24,7 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master | 828 | 3,763 | 87 | 90 | 65 | 90 | 2026-05-02 |
+| Usa Edu Master | 864 | 3,763 | 87 | 90 | 65 | 90 | 2026-05-02 |
 | Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-02 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
@@ -36,7 +36,7 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 912 of 912 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 947 of 947 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -354,7 +354,7 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 <tr data-search="bluefield college bluefield.edu"><td>Bluefield College</td><td>bluefield.edu</td><td>1</td><td>55</td><td>95</td><td>50</td><td>92</td></tr>
 <tr data-search="bluefield state college bluefieldstate.edu"><td>Bluefield State College</td><td>bluefieldstate.edu</td><td>1</td><td>89</td><td>96</td><td>77</td><td>92</td></tr>
 <tr data-search="blue ridge community college blueridge.edu"><td>Blue Ridge Community College</td><td>blueridge.edu</td><td>1</td><td>88</td><td>86</td><td>58</td><td>85</td></tr>
-<tr data-search="blue ridge community and technical college blueridgectc.edu"><td>Blue Ridge Community and Technical College</td><td>blueridgectc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="blue ridge community and technical college blueridgectc.edu"><td>Blue Ridge Community and Technical College</td><td>blueridgectc.edu</td><td>1</td><td>54</td><td>83</td><td>65</td><td>92</td></tr>
 <tr data-search="::bluewater bible college &amp; institute - home:: bluewater.edu"><td>::Bluewater Bible College &amp; Institute - Home::</td><td>bluewater.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bluffton college bluffton.edu"><td>Bluffton College</td><td>bluffton.edu</td><td>1</td><td>98</td><td>82</td><td>50</td><td>85</td></tr>
 <tr data-search="blue mountain college bmc.edu"><td>Blue Mountain College</td><td>bmc.edu</td><td>1</td><td>89</td><td>87</td><td>58</td><td>77</td></tr>
@@ -790,13 +790,46 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 <tr data-search="central wyoming college cwc.edu"><td>Central Wyoming College</td><td>cwc.edu</td><td>1</td><td>75</td><td>86</td><td>54</td><td>92</td></tr>
 <tr data-search="central washington university cwu.edu"><td>Central Washington University</td><td>cwu.edu</td><td>1</td><td>90</td><td>87</td><td>50</td><td>83</td></tr>
 <tr data-search="cypress college cypresscollege.edu"><td>Cypress College</td><td>cypresscollege.edu</td><td>1</td><td>51</td><td>86</td><td>54</td><td>77</td></tr>
+<tr data-search="danville area community college dacc.edu"><td>Danville Area Community College</td><td>dacc.edu</td><td>1</td><td>95</td><td>95</td><td>69</td><td>92</td></tr>
 <tr data-search="dade medical college dademedical.edu"><td>Dade Medical College</td><td>dademedical.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="daemen college daemen.edu"><td>Daemen College</td><td>daemen.edu</td><td>1</td><td>93</td><td>95</td><td>54</td><td>92</td></tr>
 <tr data-search="dakota college at bottineau dakotacollege.edu"><td>Dakota College at Bottineau</td><td>dakotacollege.edu</td><td>1</td><td>88</td><td>93</td><td>50</td><td>54</td></tr>
-<tr data-search="dartmouth college dartmouth.edu"><td>Dartmouth College</td><td>dartmouth.edu</td><td>1</td><td>80</td><td>98</td><td>35</td><td>85</td></tr>
+<tr data-search="dallas christian college dallas.edu"><td>Dallas Christian College</td><td>dallas.edu</td><td>1</td><td>93</td><td>83</td><td>73</td><td>85</td></tr>
+<tr data-search="dallas college dallascollege.edu"><td>Dallas College</td><td>dallascollege.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="dallas institute of funeral service education mortuary profession school dallas texas dallasinstitute.edu"><td>Dallas Institute of Funeral Service Education Mortuary Profession School Dallas Texas</td><td>dallasinstitute.edu</td><td>1</td><td>87</td><td>88</td><td>73</td><td>92</td></tr>
+<tr data-search="dallas theological seminary (dts) dallasseminary.edu"><td>Dallas Theological Seminary (DTS)</td><td>dallasseminary.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="dallas theological seminary (dts) daltonstate.edu"><td>Dallas Theological Seminary (DTS)</td><td>daltonstate.edu</td><td>1</td><td>86</td><td>100</td><td>50</td><td>85</td></tr>
+<tr data-search="dana college dana.edu"><td>Dana College</td><td>dana.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="dartmouth college dartmouth.edu"><td>Dartmouth College</td><td>dartmouth.edu</td><td>1</td><td>88</td><td>93</td><td>35</td><td>85</td></tr>
+<tr data-search="darton state college darton.edu"><td>Darton State College</td><td>darton.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="davis applied technology college datc.edu"><td>Davis Applied Technology College</td><td>datc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="davenport college of business davenport.edu"><td>Davenport College of Business</td><td>davenport.edu</td><td>1</td><td>91</td><td>91</td><td>54</td><td>85</td></tr>
+<tr data-search="davidson college home davidson.edu"><td>Davidson College Home</td><td>davidson.edu</td><td>1</td><td>86</td><td>89</td><td>58</td><td>92</td></tr>
+<tr data-search="davidson county community college davidsonccc.edu"><td>Davidson County Community College</td><td>davidsonccc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="davidson-davie community college davidsondavie.edu"><td>Davidson-Davie Community College</td><td>davidsondavie.edu</td><td>1</td><td>54</td><td>82</td><td>54</td><td>85</td></tr>
+<tr data-search="davis college daviscollege.edu"><td>Davis College</td><td>daviscollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="davis college &gt; home davisny.edu"><td>Davis College &gt; Home</td><td>davisny.edu</td><td>1</td><td>95</td><td>87</td><td>54</td><td>92</td></tr>
+<tr data-search="dawn career institute dawncareerinstitute.edu"><td>Dawn Career Institute</td><td>dawncareerinstitute.edu</td><td>1</td><td>89</td><td>92</td><td>77</td><td>85</td></tr>
+<tr data-search="dawson community college dawson.edu"><td>Dawson Community College</td><td>dawson.edu</td><td>1</td><td>68</td><td>90</td><td>54</td><td>83</td></tr>
+<tr data-search="dayspring bible college &amp; seminary dayspringbiblecollege.edu"><td>Dayspring Bible College &amp; Seminary</td><td>dayspringbiblecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="daytona state college daytonastate.edu"><td>Daytona State College</td><td>daytonastate.edu</td><td>1</td><td>90</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="dallas baptist university dbu.edu"><td>Dallas Baptist University</td><td>dbu.edu</td><td>1</td><td>100</td><td>86</td><td>54</td><td>100</td></tr>
+<tr data-search="delaware college of art and design dcad.edu"><td>Delaware College of Art and Design</td><td>dcad.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="delaware college of art and design dcc.edu"><td>Delaware College of Art and Design</td><td>dcc.edu</td><td>1</td><td>77</td><td>97</td><td>58</td><td>100</td></tr>
+<tr data-search="delaware county community college dccc.edu"><td>Delaware County Community College</td><td>dccc.edu</td><td>1</td><td>100</td><td>88</td><td>54</td><td>100</td></tr>
+<tr data-search="dallas county community college dcccd.edu"><td>Dallas County Community College</td><td>dcccd.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="dci career institute dci.edu"><td>DCI Career Institute</td><td>dci.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="dakota county technical college dctc.edu"><td>Dakota County Technical College</td><td>dctc.edu</td><td>1</td><td>80</td><td>94</td><td>50</td><td>100</td></tr>
+<tr data-search="deakin university deakin.edu"><td>Deakin University</td><td>deakin.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="dean college dean.edu"><td>Dean College</td><td>dean.edu</td><td>1</td><td>98</td><td>87</td><td>54</td><td>92</td></tr>
+<tr data-search="deep springs college deepsprings.edu"><td>Deep Springs College</td><td>deepsprings.edu</td><td>1</td><td>100</td><td>89</td><td>77</td><td>77</td></tr>
+<tr data-search="del mar college delmar.edu"><td>Del Mar College</td><td>delmar.edu</td><td>1</td><td>83</td><td>88</td><td>50</td><td>83</td></tr>
+<tr data-search="delaware state university desu.edu"><td>Delaware State University</td><td>desu.edu</td><td>1</td><td>74</td><td>96</td><td>81</td><td>85</td></tr>
 <tr data-search=":: dia university :: dia.edu"><td>:: DIA UNIVERSITY ::</td><td>dia.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="defense language institute foreign language center dliflc.edu"><td>Defense Language Institute Foreign Language Center</td><td>dliflc.edu</td><td>1</td><td>79</td><td>76</td><td>96</td><td>92</td></tr>
 <tr data-search="computer animation college dmac.edu"><td>Computer Animation College</td><td>dmac.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="dallas nursing institute dni.edu"><td>Dallas Nursing Institute</td><td>dni.edu</td><td>1</td><td>97</td><td>84</td><td>54</td><td>85</td></tr>
+<tr data-search="dallas nursing institute doane.edu"><td>Dallas Nursing Institute</td><td>doane.edu</td><td>1</td><td>76</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search=":.. drake college of business ..: - home drakecollege.edu"><td>:.. Drake College of Business ..: - Home</td><td>drakecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="drexel university drexel.edu"><td>Drexel University</td><td>drexel.edu</td><td>1</td><td>90</td><td>87</td><td>54</td><td>92</td></tr>
 <tr data-search="dabney s lancaster community college dslcc.edu"><td>Dabney S Lancaster Community College</td><td>dslcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -804,6 +837,8 @@ _Stats as of 2026-05-02 05:58 UTC — last scan: 2026-05-02_
 <tr data-search="university of denver du.edu"><td>University of Denver</td><td>du.edu</td><td>1</td><td>95</td><td>88</td><td>54</td><td>92</td></tr>
 <tr data-search="alfred nobel university of economics and law duep.edu"><td>Alfred Nobel University of Economics and Law</td><td>duep.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="duke university duke.edu"><td>Duke University</td><td>duke.edu</td><td>1</td><td>88</td><td>99</td><td>77</td><td>100</td></tr>
+<tr data-search="daniel webster college dwc.edu"><td>Daniel Webster College</td><td>dwc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="dakota wesleyan university dwu.edu"><td>Dakota Wesleyan University</td><td>dwu.edu</td><td>1</td><td>88</td><td>89</td><td>54</td><td>83</td></tr>
 <tr data-search="d&#x27;youville college dyc.edu"><td>D&#x27;Youville College</td><td>dyc.edu</td><td>1</td><td>95</td><td>100</td><td>50</td><td>92</td></tr>
 <tr data-search="allied health college &amp; school eicollege.edu"><td>Allied Health College &amp; School</td><td>eicollege.edu</td><td>1</td><td>95</td><td>83</td><td>58</td><td>77</td></tr>
 <tr data-search="emory university home page emory.edu"><td>Emory University Home Page</td><td>emory.edu</td><td>1</td><td>96</td><td>100</td><td>54</td><td>83</td></tr>
