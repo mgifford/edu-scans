@@ -1,13 +1,15 @@
 name: Scan Lighthouse
 
 on:
-  # Run once a day at 03:00 UTC to build up progressive coverage.
+  # Run every 4 hours to keep pace with other scan workflows.
   # With --concurrency 3 and --only-categories=performance,accessibility,
   # best-practices,seo each URL takes ~20-30 s, giving ~750-1,000 URLs per
-  # 110-minute run.  With --skip-recently-scanned-days 30 each URL is
-  # refreshed at most once per month, so the focus stays on uncovered URLs.
+  # 110-minute run.  The master seed has ~3,763 URLs; at 1,000/run the full
+  # corpus is covered in ~4 runs (≈16 hours on first pass).
+  # With --skip-recently-scanned-days 30 each URL is refreshed at most once
+  # per month, so subsequent runs in the same day skip already-scanned URLs.
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 */4 * * *'
 
   # Allow manual trigger for a single seed code or all seed files.
   workflow_dispatch:
@@ -32,9 +34,9 @@ on:
         default: '30'
         type: string
       max_urls:
-        description: 'Maximum URLs to scan per seed file per run (default: 250). Lower values ensure the job completes within the 120-minute limit.'
+        description: 'Maximum URLs to scan per seed file per run (default: 1000). Lower values ensure the job completes within the 120-minute limit.'
         required: false
-        default: '250'
+        default: '1000'
         type: string
 
 # Lighthouse has its own concurrency group so frequent metadata-scan workflows
@@ -110,7 +112,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
             --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
             --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
-            --max-urls "${{ github.event.inputs.max_urls || '250' }}" \
+            --max-urls "${{ github.event.inputs.max_urls || '1000' }}" \
             --only-categories "performance,accessibility,best-practices,seo" \
             --throttling-method "provided" \
             2>&1 | tee lighthouse-scan-output.txt
@@ -124,7 +126,7 @@ jobs:
             --rate-limit "${{ github.event.inputs.rate_limit || '0.5' }}" \
             --concurrency "${{ github.event.inputs.concurrency || '3' }}" \
             --skip-recently-scanned-days "${{ github.event.inputs.skip_recently_scanned_days || '30' }}" \
-            --max-urls "${{ github.event.inputs.max_urls || '250' }}" \
+            --max-urls "${{ github.event.inputs.max_urls || '1000' }}" \
             --only-categories "performance,accessibility,best-practices,seo" \
             --throttling-method "provided" \
             2>&1 | tee lighthouse-scan-output.txt
@@ -166,5 +168,5 @@ jobs:
           echo "- Rate Limit: ${{ github.event.inputs.rate_limit || '0.5' }} runs/sec" >> $GITHUB_STEP_SUMMARY
           echo "- Concurrency: ${{ github.event.inputs.concurrency || '3' }} parallel processes" >> $GITHUB_STEP_SUMMARY
           echo "- Skip recently scanned: ${{ github.event.inputs.skip_recently_scanned_days || '30' }} days" >> $GITHUB_STEP_SUMMARY
-          echo "- Max URLs per seed: ${{ github.event.inputs.max_urls || '250' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Max URLs per seed: ${{ github.event.inputs.max_urls || '1000' }}" >> $GITHUB_STEP_SUMMARY
           echo "- Workflow Run: [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
