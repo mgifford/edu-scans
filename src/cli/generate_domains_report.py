@@ -113,7 +113,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
     }
     toon_files = [
         f for f in all_toon_files
-        if not (not f.stem.endswith("_subdomains") and f.stem in stems_with_subdomains)
+        if f.stem.endswith("_subdomains") or f.stem not in stems_with_subdomains
     ]
 
     if not toon_files:
