@@ -309,7 +309,7 @@ async def test_scan_domain_skips_duplicate_redirect_target() -> None:
 
 @pytest.mark.asyncio
 async def test_scan_toon_updates_domain_entry_in_place() -> None:
-    """scan_toon appends new page entries to the TOON domain dict."""
+    """scan_toon appends new page entries to the apex TOON domain dict."""
     toon = _make_toon([_make_domain_entry("mit.edu", pages=[{"url": "https://mit.edu/", "is_root_page": True}])])
 
     scanner = SubdomainScanner()
@@ -328,13 +328,80 @@ async def test_scan_toon_updates_domain_entry_in_place() -> None:
         stats = await scanner.scan_toon(toon, prefixes=["library"])
 
     assert stats.valid_found == 1
-    # The domain entry in-place should now have two pages.
-    pages = toon["domains"][0]["pages"]
-    assert len(pages) == 2
-    new_page = pages[1]
+    # The apex domain entry should now have two pages.
+    apex_pages = toon["domains"][0]["pages"]
+    assert len(apex_pages) == 2
+    new_page = apex_pages[1]
     assert new_page["url"] == "https://library.mit.edu/"
     assert new_page["discovered_via"] == "subdomain-scan"
     assert new_page["is_root_page"] is False
+
+
+@pytest.mark.asyncio
+async def test_scan_toon_adds_subdomain_domain_entry() -> None:
+    """scan_toon creates a new domain entry for each discovered subdomain."""
+    toon = _make_toon([_make_domain_entry("mit.edu", pages=[{"url": "https://mit.edu/", "is_root_page": True}])])
+
+    scanner = SubdomainScanner()
+    valid_result = ValidationResult(
+        url="https://library.mit.edu/",
+        is_valid=True,
+        status_code=200,
+        validated_at="2024-01-01T00:00:00+00:00",
+    )
+
+    with patch.object(
+        scanner._validator,
+        "validate_urls_batch",
+        new=_mock_validator_results({"https://library.mit.edu/": valid_result}),
+    ):
+        stats = await scanner.scan_toon(toon, prefixes=["library"])
+
+    assert stats.valid_found == 1
+    # A new domain entry for the subdomain should have been appended.
+    all_canonical = [d["canonical_domain"] for d in toon["domains"]]
+    assert "library.mit.edu" in all_canonical
+
+    subdomain_entry = next(d for d in toon["domains"] if d["canonical_domain"] == "library.mit.edu")
+    assert subdomain_entry["is_subdomain"] is True
+    assert subdomain_entry["parent_domain"] == "mit.edu"
+    assert subdomain_entry["subdomain_prefix"] == "library"
+    assert len(subdomain_entry["pages"]) == 1
+    assert subdomain_entry["pages"][0]["url"] == "https://library.mit.edu/"
+
+
+@pytest.mark.asyncio
+async def test_scan_toon_no_duplicate_domain_entry_on_rerun() -> None:
+    """scan_toon skips adding a domain entry that already exists as a canonical_domain."""
+    # Pre-populate the TOON with a subdomain domain entry (simulates a previous scan).
+    toon = _make_toon([
+        _make_domain_entry("mit.edu", pages=[
+            {"url": "https://mit.edu/", "is_root_page": True},
+            # The subdomain URL is also recorded as a page under the apex.
+            {
+                "url": "https://library.mit.edu/",
+                "is_root_page": False,
+                "discovered_via": "subdomain-scan",
+            },
+        ]),
+        {
+            "canonical_domain": "library.mit.edu",
+            "is_subdomain": True,
+            "parent_domain": "mit.edu",
+            "pages": [{"url": "https://library.mit.edu/", "is_root_page": True}],
+        },
+    ])
+
+    scanner = SubdomainScanner()
+    mock_batch = AsyncMock(return_value={})
+    with patch.object(scanner._validator, "validate_urls_batch", new=mock_batch):
+        stats = await scanner.scan_toon(toon, prefixes=["library"])
+
+    # The URL is already in the apex domain's pages list, so no request is made.
+    mock_batch.assert_not_called()
+    assert stats.valid_found == 0
+    # Domain list is unchanged — no duplicate entry appended.
+    assert len(toon["domains"]) == 2
 
 
 @pytest.mark.asyncio

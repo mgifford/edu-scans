@@ -263,11 +263,22 @@ class SubdomainScanner:
         """Scan all apex domains in a TOON file for active subdomains.
 
         For each apex domain entry the method probes every prefix, collects
-        valid results, and updates the ``toon_data`` dict **in-place** by
-        appending new page entries to the relevant domain record.
+        valid results, and updates the ``toon_data`` dict **in-place** in two
+        ways:
+
+        1. A new **domain entry** is appended to ``toon_data["domains"]`` for
+           each discovered subdomain (with ``is_subdomain: True`` and
+           ``parent_domain`` set to the apex domain).  This makes subdomains
+           visible in the domains report.
+        2. A **page entry** is also appended to the apex domain's ``pages``
+           list so that URL-validation workflows continue to see the subdomain
+           URL in context.
+
+        Duplicate detection prevents the same subdomain from being added twice
+        across repeated scan runs.
 
         Args:
-            toon_data: Parsed TOON JSON object (mutated in-place with new pages).
+            toon_data: Parsed TOON JSON object (mutated in-place).
             prefixes: Flat list of subdomain prefixes to probe.
             rate_limit_per_second: Maximum HTTP requests per second.
             max_domains: When set, only the first *max_domains* apex domains
@@ -278,8 +289,8 @@ class SubdomainScanner:
         """
         stats = SubdomainScanStats()
 
-        # Build a quick lookup from apex domain → domain entry dict so we can
-        # update pages in-place after scanning.
+        # Build a quick lookup from canonical_domain → entry dict so we can
+        # update pages in-place and detect duplicates efficiently.
         domain_entries: dict[str, dict[str, Any]] = {
             entry["canonical_domain"]: entry
             for entry in toon_data.get("domains", [])
@@ -312,18 +323,46 @@ class SubdomainScanner:
                 # Use the redirect target as the recorded URL when the
                 # subdomain root redirected to a different URL.
                 recorded_url = result.redirected_to if result.redirected_to else result.url
-                entry.setdefault("pages", []).append(
-                    {
-                        "url": recorded_url,
-                        "is_root_page": False,
-                        "subdomain": result.subdomain,
+
+                page_record: dict[str, Any] = {
+                    "url": recorded_url,
+                    "is_root_page": False,
+                    "subdomain": result.subdomain,
+                    "subdomain_prefix": result.prefix,
+                    "discovered_via": "subdomain-scan",
+                    "validation_status": "valid",
+                    "status_code": result.status_code,
+                    "validated_at": result.validated_at,
+                }
+
+                # 1. Append a page reference to the apex domain entry so that
+                #    URL-validation workflows can find and re-validate the URL.
+                entry.setdefault("pages", []).append(page_record)
+
+                # 2. Add a first-class domain entry for the subdomain so it
+                #    appears as its own row in the domains report.
+                if result.subdomain not in domain_entries:
+                    subdomain_entry: dict[str, Any] = {
+                        "canonical_domain": result.subdomain,
+                        "is_subdomain": True,
+                        "parent_domain": apex_domain,
+                        "institution_name": entry.get("institution_name"),
                         "subdomain_prefix": result.prefix,
-                        "discovered_via": "subdomain-scan",
-                        "validation_status": "valid",
-                        "status_code": result.status_code,
-                        "validated_at": result.validated_at,
+                        "pages": [
+                            {
+                                "url": recorded_url,
+                                "is_root_page": True,
+                                "discovered_via": "subdomain-scan",
+                                "validation_status": "valid",
+                                "status_code": result.status_code,
+                                "validated_at": result.validated_at,
+                            }
+                        ],
                     }
-                )
+                    toon_data.setdefault("domains", []).append(subdomain_entry)
+                    domain_entries[result.subdomain] = subdomain_entry
+                else:
+                    stats.duplicates_skipped += 1
 
             stats.valid_found += len(found)
             stats.redirected += sum(1 for r in found if r.redirected_to)

@@ -272,3 +272,70 @@ def test_generate_domains_report_subdomain_fallback_without_field(tmp_path: Path
 
     assert "apex" in content
     assert "subdomain" in content
+
+
+def test_generate_domains_report_prefers_subdomains_toon(tmp_path: Path):
+    """When ``<stem>_subdomains.toon`` exists alongside ``<stem>.toon``, the
+    richer subdomain file should be used and the original should be skipped to
+    avoid double-counting apex domains."""
+    countries_dir = tmp_path / "countries"
+    countries_dir.mkdir()
+
+    # Original seed — apex only.
+    original = {
+        "version": "0.1-seed",
+        "country": "Testland",
+        "page_count": 1,
+        "domains": [
+            {
+                "canonical_domain": "uni.edu",
+                "pages": [{"url": "https://uni.edu/", "is_root_page": True}],
+            },
+        ],
+    }
+    (countries_dir / "testland.toon").write_text(json.dumps(original), encoding="utf-8")
+
+    # Subdomains file — apex + discovered subdomain.
+    with_subdomains = {
+        "version": "0.1-seed",
+        "country": "Testland",
+        "page_count": 1,
+        "domains": [
+            {
+                "canonical_domain": "uni.edu",
+                "pages": [
+                    {"url": "https://uni.edu/", "is_root_page": True},
+                    {
+                        "url": "https://library.uni.edu/",
+                        "is_root_page": False,
+                        "discovered_via": "subdomain-scan",
+                    },
+                ],
+            },
+            {
+                "canonical_domain": "library.uni.edu",
+                "is_subdomain": True,
+                "parent_domain": "uni.edu",
+                "pages": [{"url": "https://library.uni.edu/", "is_root_page": True}],
+            },
+        ],
+    }
+    (countries_dir / "testland_subdomains.toon").write_text(
+        json.dumps(with_subdomains), encoding="utf-8"
+    )
+
+    output_path = tmp_path / "domains.md"
+    generate_domains_report(countries_dir, output_path)
+    content = output_path.read_text()
+
+    # The subdomain should appear.
+    assert "library.uni.edu" in content
+    assert "subdomain" in content
+
+    # "Testland" should only appear once as a country section header
+    # (no double-counting from reading both files).
+    assert content.count("## Testland") == 1
+
+    # Apex domain count for Testland should be 1 (not 2).
+    assert "1 apex domain" in content
+    assert "1 subdomain" in content
