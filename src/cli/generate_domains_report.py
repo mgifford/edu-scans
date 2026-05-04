@@ -101,7 +101,21 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    toon_files = sorted(toon_dir.glob("*.toon"))
+    all_toon_files = sorted(toon_dir.glob("*.toon"))
+
+    # When a ``<stem>_subdomains.toon`` file exists alongside ``<stem>.toon``,
+    # prefer the richer subdomain file (it contains all apex domains plus
+    # discovered subdomains) and skip the plain seed to avoid double-counting.
+    stems_with_subdomains: set[str] = {
+        f.stem[: -len("_subdomains")]
+        for f in all_toon_files
+        if f.stem.endswith("_subdomains")
+    }
+    toon_files = [
+        f for f in all_toon_files
+        if not (not f.stem.endswith("_subdomains") and f.stem in stems_with_subdomains)
+    ]
+
     if not toon_files:
         with output_path.open("w", encoding="utf-8") as f:
             f.write("---\ntitle: Government Domains\nlayout: page\n---\n\n")
