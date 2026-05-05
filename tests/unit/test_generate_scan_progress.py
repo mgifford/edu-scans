@@ -761,3 +761,96 @@ def test_generate_progress_report_accessibility_shows_domain_label(
 
     assert "Accessibility Statement" in content
     assert "domains" in content
+
+
+# ---------------------------------------------------------------------------
+# Tests for parent institutions CSV output
+# ---------------------------------------------------------------------------
+
+def test_generate_progress_report_writes_parent_institutions_csv(
+    populated_db: Path, tmp_path: Path
+):
+    """Should write a parent institutions CSV when csv_path is provided and seeds exist."""
+    # Create a minimal toon seeds dir so the organization mapper has something to work with
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    # Minimal toon seed — maps example.is to "Nordic Network" parent institution.
+    # The populated_db has social media results for https://example.is/* URLs.
+    seed_data = {
+        "version": "0.1-seed",
+        "page_count": 3,
+        "domains": [
+            {
+                "canonical_domain": "example.is",
+                "institution_name": "Example Iceland",
+                "parent_institution": "Nordic Network",
+                "pages": [],
+            }
+        ],
+    }
+    (seeds_dir / "iceland.toon").write_text(json.dumps(seed_data), encoding="utf-8")
+
+    output_path = tmp_path / "report.md"
+    csv_path = tmp_path / "parent-institutions.csv"
+
+    generate_progress_report(
+        populated_db,
+        output_path,
+        toon_seeds_dir=seeds_dir,
+        parent_institutions_csv_path=csv_path,
+    )
+
+    assert csv_path.exists(), "Parent institutions CSV should be written when institutions are found"
+
+    content_bytes = csv_path.read_bytes()
+    assert content_bytes[:3] == b"\xef\xbb\xbf"   # UTF-8 BOM
+
+    text = content_bytes.decode("utf-8-sig")
+    lines = text.strip().splitlines()
+    assert lines[0] == "rank,parent_institution,urls_scanned,reachable,coverage_pct"
+    # At least one data row: "Nordic Network" should appear
+    assert len(lines) > 1
+    institutions = {line.split(",")[1] for line in lines[1:]}
+    assert "Nordic Network" in institutions
+
+
+def test_generate_progress_report_no_csv_without_path(
+    populated_db: Path, tmp_path: Path
+):
+    """Should not write a parent institutions CSV when no csv_path is given."""
+    output_path = tmp_path / "report.md"
+
+    generate_progress_report(populated_db, output_path)
+
+    # No parent institutions CSV should be created
+    csv_files = list(tmp_path.glob("*parent*.csv"))
+    assert len(csv_files) == 0
+
+
+def test_generate_progress_report_json_includes_parent_institutions(
+    populated_db: Path, tmp_path: Path
+):
+    """scan-progress-data.json should include a parent_institutions key."""
+    output_path = tmp_path / "report.md"
+    data_path = tmp_path / "scan-progress-data.json"
+
+    generate_progress_report(populated_db, output_path, data_path=data_path)
+
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    assert "parent_institutions" in payload
+    assert isinstance(payload["parent_institutions"], list)
+
+
+def test_generate_progress_report_missing_db_json_has_parent_institutions_key(
+    tmp_path: Path,
+):
+    """Missing DB run should still write parent_institutions: [] to JSON."""
+    db_path = tmp_path / "missing.db"
+    output_path = tmp_path / "report.md"
+    data_path = tmp_path / "scan-progress-data.json"
+
+    generate_progress_report(db_path, output_path, data_path=data_path)
+
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
+    assert "parent_institutions" in payload
+    assert payload["parent_institutions"] == []

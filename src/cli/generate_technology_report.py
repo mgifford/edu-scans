@@ -5,12 +5,15 @@ and updates ``docs/technology-scanning.md`` with a live stats block between
 ``<!-- TECH_STATS_START -->`` and ``<!-- TECH_STATS_END -->``
 markers.  A summary JSON data file (``docs/technology-data.json``) is also
 written so that external tools and the page itself can link directly to the
-machine-readable results.
+machine-readable results.  An optional CSV file (``docs/technology-data.csv``)
+exports one row per technology for independent verification and download.
 """
 
 from __future__ import annotations
 
 import argparse
+import csv
+import io
 import json
 import sqlite3
 import sys
@@ -20,6 +23,19 @@ from pathlib import Path
 
 from src.lib.country_utils import country_code_to_display_name, country_filename_to_code
 from src.lib.settings import load_settings
+
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+# Default number of top technologies to include in the stats block table.
+# 30 is chosen to ensure widely-used CMSes like Drupal (typically ranked
+# 21–25 in .edu scans) appear without overwhelming the table.
+_DEFAULT_TOP_N_TECHS: int = 30
+
+# Default number of top technology categories to include in the stats block.
+_DEFAULT_TOP_N_CATS: int = 15
 
 
 # ---------------------------------------------------------------------------
@@ -266,8 +282,8 @@ def _build_stats_block(
     tech_categories: dict[str, list[str]],
     generated_at: str,
     total_available: int = 0,
-    top_n_techs: int = 20,
-    top_n_cats: int = 15,
+    top_n_techs: int = _DEFAULT_TOP_N_TECHS,
+    top_n_cats: int = _DEFAULT_TOP_N_CATS,
     by_country: list[dict] | None = None,
     seed_counts: dict[str, int] | None = None,
 ) -> str:
@@ -388,11 +404,42 @@ def _build_stats_block(
 
     lines += [
         "📥 Machine-readable results: "
-        "[Download machine-readable technology data (JSON)](technology-data.json)",
+        "[Download machine-readable technology data (JSON)](technology-data.json)"
+        " · [Download as CSV](technology-data.csv)",
         "",
         _STATS_MARKER_END,
     ]
     return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# CSV writer
+# ---------------------------------------------------------------------------
+
+_TECH_CSV_FIELDNAMES = ["rank", "technology", "pages", "categories"]
+
+
+def _write_tech_csv(tech_counts: Counter, tech_categories: dict[str, list[str]], csv_path: Path) -> None:
+    """Write all detected technologies to a CSV file.
+
+    Args:
+        tech_counts: Technology name → page count from :func:`_aggregate_tech_counts`.
+        tech_categories: Technology name → category list from :func:`_aggregate_tech_counts`.
+        csv_path: Destination path for the CSV file.
+
+    The CSV uses UTF-8 encoding with a BOM so it opens correctly in
+    spreadsheet applications without an import wizard.  All technologies
+    are included (not just the top N shown in the Markdown table).
+    """
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    buf = io.StringIO()
+    writer = csv.DictWriter(buf, fieldnames=_TECH_CSV_FIELDNAMES, lineterminator="\r\n")
+    writer.writeheader()
+    for rank, (tech, count) in enumerate(tech_counts.most_common(), start=1):
+        cats = "; ".join(tech_categories.get(tech, []))
+        writer.writerow({"rank": rank, "technology": tech, "pages": count, "categories": cats})
+    # Write UTF-8 BOM so Excel opens the file correctly without import wizard.
+    csv_path.write_bytes(b"\xef\xbb\xbf" + buf.getvalue().encode("utf-8"))
 
 
 # ---------------------------------------------------------------------------
@@ -404,8 +451,9 @@ def generate_technology_report(
     page_path: Path,
     data_path: Path,
     toon_seeds_dir: Path | None = None,
+    csv_path: Path | None = None,
 ) -> bool:
-    """Update *page_path* stats block and write *data_path* JSON.
+    """Update *page_path* stats block, write *data_path* JSON, and optionally write *csv_path* CSV.
 
     Args:
         db_path: Path to the SQLite metadata database.
@@ -415,6 +463,9 @@ def generate_technology_report(
             provided the stats block will include a "X of Y available pages
             scanned" coverage line and ``total_available`` is written to the
             JSON file.
+        csv_path: Optional output path for a CSV file containing one row per
+            detected technology.  When provided, the CSV enables independent
+            verification and easy download of the full technology list.
 
     Returns ``True`` on success, ``False`` when the markers are missing from
     *page_path* (the page is left unchanged in that case).
@@ -509,6 +560,11 @@ def generate_technology_report(
     page_path.write_text(new_content, encoding="utf-8")
     print(f"Technology page updated: {page_path}")
 
+    # --- write the CSV data file (optional) ----------------------------------
+    if csv_path is not None:
+        _write_tech_csv(tech_counts, tech_categories, csv_path)
+        print(f"CSV file written: {csv_path} ({len(tech_counts)} technologies)")
+
     # --- console summary --------------------------------------------------
     print("\n" + "=" * 60)
     print("TECHNOLOGY STATS SUMMARY")
@@ -571,6 +627,15 @@ def main() -> None:
         type=Path,
         default=Path("data/toon-seeds"),
     )
+    parser.add_argument(
+        "--csv",
+        help=(
+            "Output path for the per-technology CSV data file "
+            "(default: docs/technology-data.csv)"
+        ),
+        type=Path,
+        default=Path("docs/technology-data.csv"),
+    )
 
     args = parser.parse_args()
 
@@ -581,7 +646,7 @@ def main() -> None:
         db_path = Path(settings.metadata_db_url.replace("sqlite:///", ""))
 
     try:
-        ok = generate_technology_report(db_path, args.page, args.data, args.seeds_dir)
+        ok = generate_technology_report(db_path, args.page, args.data, args.seeds_dir, args.csv)
         if not ok:
             sys.exit(1)
     except Exception as exc:
