@@ -991,7 +991,9 @@ def _write_parent_institutions_csv(
 
     The CSV uses UTF-8 encoding with a BOM so it opens correctly in
     spreadsheet applications.  All institutions are included (not just
-    the top 50 shown in the Markdown table).
+    the top 50 shown in the Markdown table).  The ``coverage_pct`` column
+    contains the percentage as a decimal string (e.g. ``"87.5"``), or an
+    empty string when ``urls_scanned`` is zero (standard CSV null sentinel).
     """
     sorted_institutions = sorted(
         parent_institutions.items(),
@@ -1009,6 +1011,7 @@ def _write_parent_institutions_csv(
     for rank, (parent_inst, stats) in enumerate(sorted_institutions, start=1):
         total = stats["total_urls"]
         reachable = stats["reachable_urls"]
+        # Empty string is the standard CSV representation for a missing/inapplicable value.
         coverage = f"{reachable / total * 100:.1f}" if total > 0 else ""
         writer.writerow(
             {

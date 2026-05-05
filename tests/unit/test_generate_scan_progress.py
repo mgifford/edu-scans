@@ -774,7 +774,8 @@ def test_generate_progress_report_writes_parent_institutions_csv(
     # Create a minimal toon seeds dir so the organization mapper has something to work with
     seeds_dir = tmp_path / "seeds"
     seeds_dir.mkdir()
-    # Minimal toon seed — no parent_institution mappings, but enough to trigger the code path
+    # Minimal toon seed — maps example.is to "Nordic Network" parent institution.
+    # The populated_db has social media results for https://example.is/* URLs.
     seed_data = {
         "version": "0.1-seed",
         "page_count": 3,
@@ -799,14 +800,18 @@ def test_generate_progress_report_writes_parent_institutions_csv(
         parent_institutions_csv_path=csv_path,
     )
 
-    # CSV should be written when there are any institutions
-    # (may be empty if domain mapping finds no matches, but file should exist)
-    if csv_path.exists():
-        content_bytes = csv_path.read_bytes()
-        assert content_bytes[:3] == b"\xef\xbb\xbf"   # UTF-8 BOM
-        text = content_bytes.decode("utf-8-sig")
-        lines = text.strip().splitlines()
-        assert lines[0] == "rank,parent_institution,urls_scanned,reachable,coverage_pct"
+    assert csv_path.exists(), "Parent institutions CSV should be written when institutions are found"
+
+    content_bytes = csv_path.read_bytes()
+    assert content_bytes[:3] == b"\xef\xbb\xbf"   # UTF-8 BOM
+
+    text = content_bytes.decode("utf-8-sig")
+    lines = text.strip().splitlines()
+    assert lines[0] == "rank,parent_institution,urls_scanned,reachable,coverage_pct"
+    # At least one data row: "Nordic Network" should appear
+    assert len(lines) > 1
+    institutions = {line.split(",")[1] for line in lines[1:]}
+    assert "Nordic Network" in institutions
 
 
 def test_generate_progress_report_no_csv_without_path(

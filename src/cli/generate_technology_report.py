@@ -26,6 +26,19 @@ from src.lib.settings import load_settings
 
 
 # ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+# Default number of top technologies to include in the stats block table.
+# 30 is chosen to ensure widely-used CMSes like Drupal (typically ranked
+# 21–25 in .edu scans) appear without overwhelming the table.
+_DEFAULT_TOP_N_TECHS: int = 30
+
+# Default number of top technology categories to include in the stats block.
+_DEFAULT_TOP_N_CATS: int = 15
+
+
+# ---------------------------------------------------------------------------
 # HTML comment markers
 # ---------------------------------------------------------------------------
 
@@ -269,8 +282,8 @@ def _build_stats_block(
     tech_categories: dict[str, list[str]],
     generated_at: str,
     total_available: int = 0,
-    top_n_techs: int = 30,
-    top_n_cats: int = 15,
+    top_n_techs: int = _DEFAULT_TOP_N_TECHS,
+    top_n_cats: int = _DEFAULT_TOP_N_CATS,
     by_country: list[dict] | None = None,
     seed_counts: dict[str, int] | None = None,
 ) -> str:
