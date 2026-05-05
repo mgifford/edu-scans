@@ -8,6 +8,7 @@ so stakeholders can see overall coverage at a glance.
 from __future__ import annotations
 
 import argparse
+import csv
 import io
 import json
 import sqlite3
@@ -159,6 +160,7 @@ def generate_progress_report(
     toon_seeds_dir: Path | None = None,
     data_path: Path | None = None,
     history_path: Path | None = None,
+    parent_institutions_csv_path: Path | None = None,
 ) -> list[dict]:
     """Generate a comprehensive scan-progress report from the database.
 
@@ -172,6 +174,8 @@ def generate_progress_report(
         history_path: Optional path to the daily-snapshot history JSON file.
             When provided a new snapshot is appended and the trend table is
             included in the report.
+        parent_institutions_csv_path: Optional path for a CSV file listing all
+            parent institutions ranked by scan coverage.
 
     Returns:
         The updated history list (oldest first), or an empty list when
@@ -189,7 +193,11 @@ def generate_progress_report(
             data_path.parent.mkdir(parents=True, exist_ok=True)
             data_path.write_text(
                 json.dumps(
-                    {"generated_at": generated_at, "url_validation_drilldowns": {}},
+                    {
+                        "generated_at": generated_at,
+                        "url_validation_drilldowns": {},
+                        "parent_institutions": [],
+                    },
                     ensure_ascii=True,
                     indent=2,
                 ) + "\n",
@@ -207,6 +215,7 @@ def generate_progress_report(
         history = _write_report(
             conn, output_path, generated_at, seed_counts, data_path, toon_seeds_dir,
             history_path=history_path,
+            parent_institutions_csv_path=parent_institutions_csv_path,
         )
     finally:
         conn.close()
@@ -969,7 +978,54 @@ def _write_pending_sections(
         f.write(", ".join(f"`{cc}`" for cc in not_url_val) + "\n\n")
 
 
-def _write_top_parent_institutions(f, parent_institutions: dict[str, dict]) -> None:
+def _write_parent_institutions_csv(
+    parent_institutions: dict[str, dict], csv_path: Path
+) -> None:
+    """Write top parent institutions to a CSV file.
+
+    Args:
+        parent_institutions: Mapping from parent institution name to stats dict
+            (``total_urls``, ``reachable_urls``) as returned by
+            :func:`_query_social_media_by_parent_institution`.
+        csv_path: Destination path for the CSV file.
+
+    The CSV uses UTF-8 encoding with a BOM so it opens correctly in
+    spreadsheet applications.  All institutions are included (not just
+    the top 50 shown in the Markdown table).
+    """
+    sorted_institutions = sorted(
+        parent_institutions.items(),
+        key=lambda x: x[1]["total_urls"],
+        reverse=True,
+    )
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    buf = io.StringIO()
+    writer = csv.DictWriter(
+        buf,
+        fieldnames=["rank", "parent_institution", "urls_scanned", "reachable", "coverage_pct"],
+        lineterminator="\r\n",
+    )
+    writer.writeheader()
+    for rank, (parent_inst, stats) in enumerate(sorted_institutions, start=1):
+        total = stats["total_urls"]
+        reachable = stats["reachable_urls"]
+        coverage = f"{reachable / total * 100:.1f}" if total > 0 else ""
+        writer.writerow(
+            {
+                "rank": rank,
+                "parent_institution": parent_inst,
+                "urls_scanned": total,
+                "reachable": reachable,
+                "coverage_pct": coverage,
+            }
+        )
+    # Write UTF-8 BOM so Excel opens the file correctly without import wizard.
+    csv_path.write_bytes(b"\xef\xbb\xbf" + buf.getvalue().encode("utf-8"))
+
+
+def _write_top_parent_institutions(
+    f, parent_institutions: dict[str, dict], csv_filename: str = "scan-progress-parent-institutions.csv"
+) -> None:
     """Write a breakdown of top parent institutions by survey coverage.
 
     Shows aggregated scan coverage across all institutions, grouped by their
@@ -1013,6 +1069,9 @@ def _write_top_parent_institutions(f, parent_institutions: dict[str, dict]) -> N
         "systems or networks (e.g., \"University of California\" spans UC Berkeley, "
         "UCLA, UC San Diego, etc.). Useful for identifying coverage gaps at the "
         "system level.\n\n"
+    )
+    f.write(
+        f"📥 [Download full parent institutions list (CSV)]({csv_filename})\n\n"
     )
 
 
@@ -1248,6 +1307,7 @@ def _write_report(
     data_path: Path | None = None,
     toon_seeds_dir: Path | None = None,
     history_path: Path | None = None,
+    parent_institutions_csv_path: Path | None = None,
 ) -> list[dict]:
     """Query the database and write the Markdown report.
 
@@ -1328,7 +1388,12 @@ def _write_report(
 
         # Write parent institution breakdown if available
         if parent_institutions:
-            _write_top_parent_institutions(f, parent_institutions)
+            csv_filename = (
+                parent_institutions_csv_path.name
+                if parent_institutions_csv_path is not None
+                else "scan-progress-parent-institutions.csv"
+            )
+            _write_top_parent_institutions(f, parent_institutions, csv_filename)
 
         _write_url_validation_table(f, url_val, all_countries, seed_counts)
         _write_social_media_table(f, social, all_countries, seed_counts)
@@ -1340,14 +1405,44 @@ def _write_report(
         _write_priority_guide(f)
 
     if data_path is not None:
+        # Build a serializable list for parent_institutions
+        parent_institutions_list = [
+            {
+                "rank": rank,
+                "parent_institution": name,
+                "urls_scanned": stats["total_urls"],
+                "reachable": stats["reachable_urls"],
+                "coverage_pct": (
+                    round(stats["reachable_urls"] / stats["total_urls"] * 100, 1)
+                    if stats["total_urls"] > 0
+                    else None
+                ),
+            }
+            for rank, (name, stats) in enumerate(
+                sorted(
+                    parent_institutions.items(),
+                    key=lambda x: x[1]["total_urls"],
+                    reverse=True,
+                ),
+                start=1,
+            )
+        ]
         payload = {
             "generated_at": generated_at,
             "url_validation_drilldowns": url_val_detail,
+            "parent_institutions": parent_institutions_list,
         }
         data_path.parent.mkdir(parents=True, exist_ok=True)
         data_path.write_text(
             json.dumps(payload, ensure_ascii=True, indent=2) + "\n",
             encoding="utf-8",
+        )
+
+    if parent_institutions_csv_path is not None and parent_institutions:
+        _write_parent_institutions_csv(parent_institutions, parent_institutions_csv_path)
+        print(
+            f"Parent institutions CSV written: {parent_institutions_csv_path} "
+            f"({len(parent_institutions)} institutions)"
         )
 
     # Print console summary
@@ -1446,6 +1541,16 @@ def main() -> None:
         default=None,
         metavar="RECOMMEND_PATH",
     )
+    parser.add_argument(
+        "--parent-institutions-csv",
+        help=(
+            "Output path for the parent institutions CSV file "
+            "(default: docs/scan-progress-parent-institutions.csv)"
+        ),
+        type=Path,
+        default=Path("docs/scan-progress-parent-institutions.csv"),
+        metavar="PARENT_INST_CSV_PATH",
+    )
 
     args = parser.parse_args()
 
@@ -1458,7 +1563,12 @@ def main() -> None:
     try:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         history = generate_progress_report(
-            db_path, args.output, args.seeds_dir, args.data, args.history,
+            db_path,
+            args.output,
+            args.seeds_dir,
+            args.data,
+            args.history,
+            parent_institutions_csv_path=args.parent_institutions_csv,
         )
         if args.update_index is not None:
             update_index_progress(args.update_index, db_path, args.seeds_dir)

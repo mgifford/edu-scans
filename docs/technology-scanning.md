@@ -71,7 +71,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-04-28_
 | 14 | Operating systems | **431** |
 | 15 | Miscellaneous | **314** |
 
-📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json)
+📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json) · [Download as CSV](technology-data.csv)
 
 <!-- TECH_STATS_END -->
 

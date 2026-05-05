@@ -78,6 +78,7 @@ jobs:
             --recommend-workflow /tmp/lagging-workflow.txt \
             --update-index docs/index.md \
             --seeds-dir data/toon-seeds \
+            --parent-institutions-csv docs/scan-progress-parent-institutions.csv \
             2>&1 | tee scan-progress-output.txt
 
       - name: Generate social media stats page
@@ -99,6 +100,7 @@ jobs:
           python3 -m src.cli.generate_technology_report \
             --page docs/technology-scanning.md \
             --data docs/technology-data.json \
+            --csv docs/technology-data.csv \
             --seeds-dir data/toon-seeds \
             2>&1 | tee technology-report-output.txt
 
@@ -134,9 +136,10 @@ jobs:
           # from git because they can exceed GitHub's 100 MB file-size limit.
           # All four files are still uploaded as workflow artifacts above.
           git add docs/scan-progress.md docs/scan-progress-history.json \
+                  docs/scan-progress-parent-institutions.csv \
                   docs/domains.md docs/index.md \
                   docs/social-media.md \
-                  docs/technology-scanning.md \
+                  docs/technology-scanning.md docs/technology-data.csv \
                   docs/third-party-tools.md docs/third-party-tools-data.json \
                   docs/accessibility-statements.md \
                   docs/lighthouse-results.md \
@@ -158,12 +161,14 @@ jobs:
             docs/scan-progress.md
             docs/scan-progress-history.json
             docs/scan-progress-data.json
+            docs/scan-progress-parent-institutions.csv
             docs/domains.md
             docs/index.md
             docs/social-media.md
             docs/social-media-data.json
             docs/technology-scanning.md
             docs/technology-data.json
+            docs/technology-data.csv
             docs/third-party-tools.md
             docs/third-party-tools-data.json
             docs/accessibility-statements.md

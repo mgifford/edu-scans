@@ -653,3 +653,63 @@ def test_count_toon_seed_urls_reads_page_count(tmp_path: Path):
         (seeds_dir / f"{name}.toon").write_text(json.dumps(data), encoding="utf-8")
     result = _count_toon_seed_urls(seeds_dir)
     assert result == {"ICELAND": 139, "NORWAY": 239}
+
+
+# ---------------------------------------------------------------------------
+# CSV output tests
+# ---------------------------------------------------------------------------
+
+def test_generate_technology_report_writes_csv(populated_db: Path, tmp_path: Path):
+    """Should write a CSV file when csv_path is provided."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+    csv_path = tmp_path / "technology-data.csv"
+
+    result = generate_technology_report(populated_db, page_path, data_path, csv_path=csv_path)
+
+    assert result is True
+    assert csv_path.exists()
+
+    content = csv_path.read_bytes()
+    # Should have UTF-8 BOM
+    assert content[:3] == b"\xef\xbb\xbf"
+
+    text = content.decode("utf-8-sig")
+    lines = text.strip().splitlines()
+    # Header row
+    assert lines[0] == "rank,technology,pages,categories"
+    # At least one data row (Nginx appears on 2 Iceland pages)
+    assert len(lines) > 1
+    # Check that Nginx is present and has rank 1 or similar
+    techs = {line.split(",")[1] for line in lines[1:]}
+    assert "Nginx" in techs
+    assert "WordPress" in techs
+    assert "Drupal" in techs
+
+
+def test_generate_technology_report_no_csv_without_path(populated_db: Path, tmp_path: Path):
+    """Should not write a CSV file when csv_path is None."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+
+    generate_technology_report(populated_db, page_path, data_path)
+
+    # No CSV should be created in the directory
+    csv_files = list(tmp_path.glob("*.csv"))
+    assert len(csv_files) == 0
+
+
+def test_build_stats_block_includes_csv_link():
+    """Stats block should contain a link to the CSV download."""
+    from collections import Counter
+    summary = {
+        "total_batches": 5,
+        "total_scanned": 100,
+        "total_detected": 80,
+        "last_scan": "2024-06-01T12:00:00",
+    }
+    block = _build_stats_block(summary, Counter({"Nginx": 50}), Counter(), {}, "2024-06-01 12:00 UTC")
+    assert "technology-data.csv" in block
+    assert "technology-data.json" in block
