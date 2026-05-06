@@ -196,6 +196,61 @@ def _query_country_drilldowns(
     return grouped
 
 
+def _query_tech_drilldowns(
+    conn: sqlite3.Connection,
+) -> dict[str, list[dict[str, object]]]:
+    """Return per-technology page lists for the Top Technologies drilldown.
+
+    For each detected technology, returns the list of pages that use it.
+    Only the latest successful scan result per URL is considered so that
+    a URL scanned in multiple batches is counted at most once per technology.
+
+    Args:
+        conn: Open SQLite connection with ``row_factory = sqlite3.Row``.
+
+    Returns:
+        A dict mapping each technology name to a list of page records, where
+        each record contains ``page_url``, ``country_code``, and
+        ``last_scanned``.  The list for each technology is sorted by
+        ``page_url`` for deterministic output.
+    """
+    rows = conn.execute(
+        """
+        SELECT url, country_code, technologies, scanned_at
+        FROM url_tech_results AS t
+        WHERE error_message IS NULL
+          AND technologies != '{}'
+          AND scanned_at = (
+              SELECT MAX(scanned_at)
+              FROM url_tech_results AS t2
+              WHERE t2.url = t.url
+                AND t2.error_message IS NULL
+          )
+        ORDER BY url
+        """
+    ).fetchall()
+
+    result: dict[str, list[dict[str, object]]] = {}
+    for row in rows:
+        try:
+            techs: dict = json.loads(row["technologies"] or "{}")
+        except (json.JSONDecodeError, TypeError):
+            continue
+        record: dict[str, object] = {
+            "page_url": row["url"],
+            "country_code": row["country_code"] or "",
+            "last_scanned": row["scanned_at"] or "",
+        }
+        for tech_name in techs:
+            result.setdefault(tech_name, []).append(record)
+
+    # Sort each technology's page list by URL for deterministic output
+    for pages in result.values():
+        pages.sort(key=lambda r: r["page_url"])  # type: ignore[arg-type]
+
+    return result
+
+
 def _query_by_country(conn: sqlite3.Connection) -> list[dict]:
     """Return per-country technology scan totals."""
     rows = conn.execute(
@@ -477,6 +532,7 @@ def generate_technology_report(
         tech_rows: list[dict] = []
         by_country: list[dict] = []
         country_drilldowns: dict[str, dict[str, list[dict[str, object]]]] = {}
+        tech_drilldowns: dict[str, list[dict[str, object]]] = {}
     else:
         conn = sqlite3.connect(db_path)
         conn.row_factory = sqlite3.Row
@@ -485,6 +541,7 @@ def generate_technology_report(
             tech_rows = _query_tech_rows(conn)
             by_country = _query_by_country(conn)
             country_drilldowns = _query_country_drilldowns(conn)
+            tech_drilldowns = _query_tech_drilldowns(conn)
         finally:
             conn.close()
 
@@ -527,6 +584,7 @@ def generate_technology_report(
         "top_categories": top_categories,
         "by_country": by_country,
         "country_drilldowns": country_drilldowns,
+        "tech_drilldowns": tech_drilldowns,
     }
     data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Data file written: {data_path}")

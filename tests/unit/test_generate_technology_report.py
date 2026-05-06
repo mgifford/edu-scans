@@ -14,6 +14,7 @@ from src.cli.generate_technology_report import (
     _query_by_country,
     _query_country_drilldowns,
     _query_summary,
+    _query_tech_drilldowns,
     _query_tech_rows,
     generate_technology_report,
 )
@@ -494,6 +495,7 @@ def test_generate_technology_report_json_structure(populated_db: Path, tmp_path:
     assert "top_categories" in data
     assert "by_country" in data
     assert "country_drilldowns" in data
+    assert "tech_drilldowns" in data
 
     summary = data["summary"]
     for key in ("total_batches", "total_scanned", "total_detected",
@@ -713,3 +715,87 @@ def test_build_stats_block_includes_csv_link():
     block = _build_stats_block(summary, Counter({"Nginx": 50}), Counter(), {}, "2024-06-01 12:00 UTC")
     assert "technology-data.csv" in block
     assert "technology-data.json" in block
+
+
+# ---------------------------------------------------------------------------
+# _query_tech_drilldowns tests
+# ---------------------------------------------------------------------------
+
+def test_query_tech_drilldowns_empty_db(empty_db: Path):
+    """Should return an empty dict from an empty database."""
+    conn = sqlite3.connect(empty_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_tech_drilldowns(conn)
+    finally:
+        conn.close()
+
+    assert result == {}
+
+
+def test_query_tech_drilldowns_populated_db(populated_db: Path):
+    """Should group pages by technology with correct structure."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_tech_drilldowns(conn)
+    finally:
+        conn.close()
+
+    # WordPress only on example.is/page1
+    assert "WordPress" in result
+    wordpress_pages = result["WordPress"]
+    assert len(wordpress_pages) == 1
+    assert wordpress_pages[0]["page_url"] == "https://example.is/page1"
+    assert wordpress_pages[0]["country_code"] == "ICELAND"
+    assert "last_scanned" in wordpress_pages[0]
+
+    # Nginx appears on page1 and page2 of Iceland
+    assert "Nginx" in result
+    nginx_urls = [r["page_url"] for r in result["Nginx"]]
+    assert "https://example.is/page1" in nginx_urls
+    assert "https://example.is/page2" in nginx_urls
+
+    # Apache appears on both French pages
+    assert "Apache" in result
+    apache_urls = [r["page_url"] for r in result["Apache"]]
+    assert "https://example.fr/page1" in apache_urls
+    assert "https://example.fr/page2" in apache_urls
+
+    # page3 (empty '{}') and page4 (error) must not appear in any tech
+    all_urls = {r["page_url"] for pages in result.values() for r in pages}
+    assert "https://example.is/page3" not in all_urls
+    assert "https://example.is/page4" not in all_urls
+
+
+def test_query_tech_drilldowns_no_double_counting(duplicate_scan_db: Path):
+    """URL scanned in multiple batches should appear only once per technology."""
+    conn = sqlite3.connect(duplicate_scan_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _query_tech_drilldowns(conn)
+    finally:
+        conn.close()
+
+    nginx_urls = [r["page_url"] for r in result.get("Nginx", [])]
+    assert nginx_urls.count("https://example.is/page1") == 1
+
+
+def test_generate_technology_report_json_includes_tech_drilldowns(
+    populated_db: Path, tmp_path: Path
+):
+    """JSON data file should include the tech_drilldowns key."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+
+    generate_technology_report(populated_db, page_path, data_path)
+
+    data = json.loads(data_path.read_text())
+    assert "tech_drilldowns" in data
+    assert "WordPress" in data["tech_drilldowns"]
+    assert isinstance(data["tech_drilldowns"]["WordPress"], list)
+    first = data["tech_drilldowns"]["WordPress"][0]
+    assert "page_url" in first
+    assert "country_code" in first
+    assert "last_scanned" in first

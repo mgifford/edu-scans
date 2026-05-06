@@ -224,6 +224,65 @@
       },
     },
     {
+      id: "technology-top",
+      dataFile: "technology-data.json",
+      keyColumnLabel: "Technology",
+      matchesTable: function (headers) {
+        return (
+          headers.indexOf("Technology") !== -1 &&
+          headers.indexOf("Pages") !== -1 &&
+          headers.indexOf("Categories") !== -1
+        );
+      },
+      getDataset: function (data) {
+        return data && data.tech_drilldowns;
+      },
+      getColumns: function (headers) {
+        var pagesIdx = headers.indexOf("Pages");
+        return pagesIdx === -1 ? [] : [{ index: pagesIdx, label: "Pages" }];
+      },
+      getRecords: function (dataset, techName, _column) {
+        return (dataset && dataset[techName]) || [];
+      },
+      buildContext: function (techName, column, count, records) {
+        return {
+          availableCount: records.length,
+          label: column.label,
+          panelLabel: "Pages using " + techName,
+          title: techName + ": " + count.toLocaleString() + " pages",
+          description:
+            records.length.toLocaleString() +
+            " page" + (records.length === 1 ? "" : "s") +
+            " detected using " + techName + " are listed here.",
+          items: records.map(function (record) {
+            var meta = [];
+            if (record.country_code) {
+              meta.push("Dataset: " + record.country_code);
+            }
+            if (record.last_scanned) {
+              meta.push("Scanned: " + record.last_scanned.slice(0, 10));
+            }
+            return {
+              href: record.page_url,
+              label: record.page_url,
+              meta: meta.join(" | "),
+            };
+          }),
+          csvHeaders: ["technology", "page_url", "country_code", "last_scanned"],
+          csvRows: records.map(function (record) {
+            return [
+              techName,
+              record.page_url,
+              record.country_code || "",
+              record.last_scanned || "",
+            ];
+          }),
+          slug: techName.replace(/[^a-z0-9]+/gi, "-").toLowerCase() + "-pages",
+          titleAttribute: "Preview pages using " + techName,
+        };
+      },
+    },
+    {
       id: "third-party-js",
       dataFile: "third-party-tools-data.json",
       matchesTable: function (headers) {
@@ -750,7 +809,8 @@
     table.dataset.drilldownReadyConfig = config.id;
 
     var headers = getHeaderLabels(table);
-    var countryColumn = headers.indexOf("Country");
+    var keyColumnLabel = config.keyColumnLabel || "Country";
+    var countryColumn = headers.indexOf(keyColumnLabel);
     var columns = config.getColumns(headers);
 
     table.querySelectorAll("tbody tr").forEach(function (row) {
