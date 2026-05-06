@@ -246,7 +246,7 @@ def _query_tech_drilldowns(
 
     # Sort each technology's page list by URL for deterministic output
     for pages in result.values():
-        pages.sort(key=lambda r: r["page_url"])  # type: ignore[arg-type]
+        pages.sort(key=lambda r: str(r.get("page_url", "")))
 
     return result
 
