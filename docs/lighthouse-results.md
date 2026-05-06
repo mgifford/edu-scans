@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
+_Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 
-**35** scan batches run
+**41** scan batches run
 
-**2,722** of **3,863** available pages audited (**70.5%** coverage)
-**2,052** successful audits (**75.4%** of audited)
+**2,823** of **3,863** available pages audited (**73.1%** coverage)
+**2,125** successful audits (**75.3%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master | 2,669 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-04 |
-| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-04 |
+| Usa Edu Master | 2,771 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-05 |
+| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-05 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 2,704 of 2,704 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 2,804 of 2,804 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -81,6 +81,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="american college of traditional chinese medicine actcm.edu"><td>American College of Traditional Chinese Medicine</td><td>actcm.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="amarillo college actx.edu"><td>Amarillo College</td><td>actx.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="abilene christian university, a christian college in abilene, texas acu.edu"><td>Abilene Christian University, a Christian college in Abilene, Texas</td><td>acu.edu</td><td>1</td><td>100</td><td>98</td><td>96</td><td>92</td></tr>
+<tr data-search="southwest acupuncture college acupuncturecollege.edu"><td>Southwest Acupuncture College</td><td>acupuncturecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="adams state college adams.edu"><td>Adams State College</td><td>adams.edu</td><td>1</td><td>93</td><td>80</td><td>58</td><td>100</td></tr>
 <tr data-search="adelphi university adelphi.edu"><td>Adelphi University</td><td>adelphi.edu</td><td>1</td><td>75</td><td>87</td><td>54</td><td>100</td></tr>
 <tr data-search="adrian college adrian.edu"><td>Adrian College</td><td>adrian.edu</td><td>1</td><td>74</td><td>96</td><td>92</td><td>100</td></tr>
@@ -239,6 +240,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="american university in bulgaria aubg.edu"><td>American University in Bulgaria</td><td>aubg.edu</td><td>1</td><td>94</td><td>89</td><td>58</td><td>92</td></tr>
 <tr data-search="american university of biblical studies aubs.edu"><td>American University of Biblical Studies</td><td>aubs.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="auburn university auburn.edu"><td>Auburn University</td><td>auburn.edu</td><td>1</td><td>94</td><td>100</td><td>96</td><td>92</td></tr>
+<tr data-search="spelman college auc.edu"><td>Spelman College</td><td>auc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="american university in cairo aucegypt.edu"><td>American University in Cairo</td><td>aucegypt.edu</td><td>1</td><td>71</td><td>91</td><td>77</td><td>92</td></tr>
 <tr data-search="atlanta university center consortium, inc. aucenter.edu"><td>Atlanta University Center Consortium, Inc.</td><td>aucenter.edu</td><td>1</td><td>97</td><td>93</td><td>100</td><td>85</td></tr>
 <tr data-search=":: american university in dubai :: aud.edu"><td>:: American University in Dubai ::</td><td>aud.edu</td><td>1</td><td>60</td><td>92</td><td>50</td><td>75</td></tr>
@@ -301,6 +303,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="blueridge college of evangelism, christian bible colleges in wytheville va bce.edu"><td>blueridge college of evangelism, christian bible colleges in wytheville va</td><td>bce.edu</td><td>1</td><td>100</td><td>63</td><td>88</td><td>91</td></tr>
 <tr data-search="long island colleges bcl.edu"><td>Long Island Colleges</td><td>bcl.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="baylor college of medicine bcm.edu"><td>Baylor College of Medicine</td><td>bcm.edu</td><td>1</td><td>100</td><td>100</td><td>54</td><td>92</td></tr>
+<tr data-search="ss cyril and methodius byzantine catholic seminary bcs.edu"><td>SS Cyril and Methodius Byzantine Catholic Seminary</td><td>bcs.edu</td><td>1</td><td>96</td><td>91</td><td>100</td><td>77</td></tr>
 <tr data-search="beacon college for adhd students, ld students and gifted ld beaconcollege.edu"><td>Beacon College for ADHD Students, LD Students and gifted LD</td><td>beaconcollege.edu</td><td>1</td><td>98</td><td>88</td><td>73</td><td>85</td></tr>
 <tr data-search="beaufort county community college beaufortccc.edu"><td>Beaufort County Community College</td><td>beaufortccc.edu</td><td>1</td><td>—</td><td>92</td><td>96</td><td>85</td></tr>
 <tr data-search="becker college becker.edu"><td>Becker College</td><td>becker.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -922,6 +925,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="alfred nobel university of economics and law duep.edu"><td>Alfred Nobel University of Economics and Law</td><td>duep.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="duff\&#x27;s business institute is now everest institute duffs.edu"><td>Duff\&#x27;s Business Institute is now Everest Institute</td><td>duffs.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="duke university duke.edu"><td>Duke University</td><td>duke.edu</td><td>1</td><td>97</td><td>99</td><td>77</td><td>100</td></tr>
+<tr data-search="st. joseph\&#x27;s seminary dunwoodie.edu"><td>St. Joseph\&#x27;s Seminary</td><td>dunwoodie.edu</td><td>1</td><td>86</td><td>75</td><td>58</td><td>100</td></tr>
 <tr data-search="dunwoody college of technology dunwoody.edu"><td>Dunwoody College of Technology</td><td>dunwoody.edu</td><td>1</td><td>83</td><td>89</td><td>50</td><td>85</td></tr>
 <tr data-search="duquesne university duq.edu"><td>Duquesne University</td><td>duq.edu</td><td>1</td><td>93</td><td>100</td><td>54</td><td>100</td></tr>
 <tr data-search="durham technical community college durhamtech.edu"><td>Durham Technical Community College</td><td>durhamtech.edu</td><td>1</td><td>51</td><td>90</td><td>54</td><td>92</td></tr>
@@ -2341,7 +2345,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="presbyterian theological seminary in america ptsa.edu"><td>Presbyterian Theological Seminary in America</td><td>ptsa.edu</td><td>1</td><td>43</td><td>78</td><td>65</td><td>83</td></tr>
 <tr data-search="phillips theological seminary ptstulsa.edu"><td>Phillips Theological Seminary</td><td>ptstulsa.edu</td><td>1</td><td>75</td><td>76</td><td>77</td><td>100</td></tr>
 <tr data-search="pacific union college puc.edu"><td>Pacific Union College</td><td>puc.edu</td><td>1</td><td>98</td><td>94</td><td>54</td><td>92</td></tr>
-<tr data-search="pueblo community college pueblocc.edu"><td>Pueblo Community College</td><td>pueblocc.edu</td><td>1</td><td>93</td><td>91</td><td>50</td><td>85</td></tr>
+<tr data-search="pueblo community college pueblocc.edu"><td>Pueblo Community College</td><td>pueblocc.edu</td><td>2</td><td>93</td><td>91</td><td>50</td><td>85</td></tr>
 <tr data-search="pulaski technical college pulaskitech.edu"><td>Pulaski Technical College</td><td>pulaskitech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="polytechnic university of puerto rico pupr.edu"><td>Polytechnic University of Puerto Rico</td><td>pupr.edu</td><td>1</td><td>41</td><td>68</td><td>58</td><td>75</td></tr>
 <tr data-search="purdue university purdue.edu"><td>Purdue University</td><td>purdue.edu</td><td>1</td><td>79</td><td>96</td><td>35</td><td>75</td></tr>
@@ -2457,14 +2461,17 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="roger williams university rwu.edu"><td>Roger Williams University</td><td>rwu.edu</td><td>1</td><td>38</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="saba university school of medicine saba.edu"><td>Saba University School of Medicine</td><td>saba.edu</td><td>1</td><td>77</td><td>99</td><td>54</td><td>85</td></tr>
 <tr data-search="santa ana college sac.edu"><td>Santa Ana College</td><td>sac.edu</td><td>1</td><td>86</td><td>100</td><td>50</td><td>85</td></tr>
+<tr data-search="st. anthony college of nursing sacn.edu"><td>St. Anthony College of Nursing</td><td>sacn.edu</td><td>1</td><td>95</td><td>97</td><td>73</td><td>100</td></tr>
 <tr data-search="sacred heart university sacredheart.edu"><td>Sacred Heart University</td><td>sacredheart.edu</td><td>1</td><td>69</td><td>94</td><td>50</td><td>77</td></tr>
 <tr data-search="saddleback college saddleback.edu"><td>Saddleback College</td><td>saddleback.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="saginaw chippewa tribal college main page sagchip.edu"><td>Saginaw Chippewa Tribal College main page</td><td>sagchip.edu</td><td>1</td><td>100</td><td>93</td><td>100</td><td>100</td></tr>
+<tr data-search="southwestern assemblies of god university sagu.edu"><td>Southwestern Assemblies of God University</td><td>sagu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="school of the art institute of chicago saic.edu"><td>School of the Art Institute of Chicago</td><td>saic.edu</td><td>1</td><td>73</td><td>80</td><td>58</td><td>85</td></tr>
 <tr data-search="saint joseph\&#x27;s college of indiana saintjoe.edu"><td>Saint Joseph\&#x27;s College of Indiana</td><td>saintjoe.edu</td><td>1</td><td>93</td><td>93</td><td>58</td><td>92</td></tr>
 <tr data-search="saint leo university saintleo.edu"><td>Saint Leo University</td><td>saintleo.edu</td><td>1</td><td>100</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="saint luke\&#x27;s college of health sciences saintlukescollege.edu"><td>Saint Luke\&#x27;s College of Health Sciences</td><td>saintlukescollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="home » saint mary\&#x27;s college, notre dame, in saintmarys.edu"><td>Home » Saint Mary\&#x27;s College, Notre Dame, IN</td><td>saintmarys.edu</td><td>1</td><td>76</td><td>97</td><td>54</td><td>92</td></tr>
+<tr data-search="st. meinrad college saintmeinrad.edu"><td>St. Meinrad College</td><td>saintmeinrad.edu</td><td>1</td><td>93</td><td>72</td><td>73</td><td>85</td></tr>
 <tr data-search="saint paul college saintpaul.edu"><td>Saint Paul College</td><td>saintpaul.edu</td><td>1</td><td>94</td><td>99</td><td>54</td><td>100</td></tr>
 <tr data-search="saint vincent seminary saintvincentseminary.edu"><td>Saint Vincent Seminary</td><td>saintvincentseminary.edu</td><td>1</td><td>91</td><td>93</td><td>73</td><td>85</td></tr>
 <tr data-search="home â salem college salem.edu"><td>Home â Salem College</td><td>salem.edu</td><td>1</td><td>45</td><td>91</td><td>54</td><td>83</td></tr>
@@ -2486,20 +2493,26 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="sans technology institute sans.edu"><td>SANS Technology Institute</td><td>sans.edu</td><td>1</td><td>94</td><td>95</td><td>54</td><td>92</td></tr>
 <tr data-search="santa fe university of art and design santafeuniversity.edu"><td>Santa Fe University of Art and Design</td><td>santafeuniversity.edu</td><td>1</td><td>96</td><td>75</td><td>100</td><td>100</td></tr>
 <tr data-search="santa rosa junior college santarosa.edu"><td>Santa Rosa Junior College</td><td>santarosa.edu</td><td>1</td><td>93</td><td>91</td><td>54</td><td>100</td></tr>
+<tr data-search="st. andrews presbyterian college sapc.edu"><td>St. Andrews Presbyterian College</td><td>sapc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="sarah lawrence college. a deeper education. sarahlawrence.edu"><td>Sarah Lawrence College. A Deeper Education.</td><td>sarahlawrence.edu</td><td>1</td><td>93</td><td>97</td><td>38</td><td>92</td></tr>
 <tr data-search="sasin graduate institute of business administration of chulalongkorn university, mba, emba, hrm,ph.d. in thailand sasin.edu"><td>Sasin Graduate Institute of Business Administration of Chulalongkorn University, MBA, EMBA, HRM,Ph.D. in Thailand</td><td>sasin.edu</td><td>1</td><td>97</td><td>73</td><td>54</td><td>100</td></tr>
 <tr data-search="sastra university sastra.edu"><td>SASTRA University</td><td>sastra.edu</td><td>1</td><td>58</td><td>100</td><td>100</td><td>100</td></tr>
+<tr data-search="st. ambrose university sau.edu"><td>St. Ambrose University</td><td>sau.edu</td><td>1</td><td>90</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="southern arkansas university â magnolia, ark. saumag.edu"><td>Southern Arkansas University â Magnolia, Ark.</td><td>saumag.edu</td><td>1</td><td>87</td><td>81</td><td>100</td><td>85</td></tr>
 <tr data-search="saurashtra university saurashtrauniversity.edu"><td>Saurashtra University</td><td>saurashtrauniversity.edu</td><td>1</td><td>—</td><td>81</td><td>96</td><td>83</td></tr>
 <tr data-search="southern arkansas university tech sautech.edu"><td>Southern Arkansas University Tech</td><td>sautech.edu</td><td>1</td><td>71</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="savannah technical college savannahtech.edu"><td>Savannah Technical College</td><td>savannahtech.edu</td><td>1</td><td>80</td><td>73</td><td>54</td><td>85</td></tr>
 <tr data-search="santa barbara city college sbcc.edu"><td>Santa Barbara City College</td><td>sbcc.edu</td><td>1</td><td>94</td><td>93</td><td>50</td><td>100</td></tr>
 <tr data-search="san bernardino community college district sbccd.edu"><td>San Bernardino Community College District</td><td>sbccd.edu</td><td>1</td><td>92</td><td>93</td><td>96</td><td>92</td></tr>
+<tr data-search="st. bonaventure university sbu.edu"><td>St. Bonaventure University</td><td>sbu.edu</td><td>1</td><td>93</td><td>94</td><td>54</td><td>85</td></tr>
+<tr data-search="southwest baptist university sbuniv.edu"><td>Southwest Baptist University</td><td>sbuniv.edu</td><td>1</td><td>94</td><td>99</td><td>27</td><td>100</td></tr>
+<tr data-search="st. clair county community college sc4.edu"><td>St. Clair County Community College</td><td>sc4.edu</td><td>1</td><td>98</td><td>89</td><td>73</td><td>92</td></tr>
 <tr data-search="scad &gt; the university for creative careers scad.edu"><td>SCAD &gt; The University for Creative Careers</td><td>scad.edu</td><td>1</td><td>76</td><td>92</td><td>50</td><td>100</td></tr>
 <tr data-search="seward county community college and area technical school sccc.edu"><td>Seward County Community College and Area Technical School</td><td>sccc.edu</td><td>1</td><td>93</td><td>89</td><td>77</td><td>100</td></tr>
 <tr data-search="southeastern iowa community college scciowa.edu"><td>Southeastern Iowa Community College</td><td>scciowa.edu</td><td>1</td><td>87</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="southern california college of optometry scco.edu"><td>Southern California College of Optometry</td><td>scco.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="santiago canyon college sccollege.edu"><td>Santiago Canyon College</td><td>sccollege.edu</td><td>1</td><td>85</td><td>98</td><td>96</td><td>77</td></tr>
+<tr data-search="spartanburg community college sccsc.edu"><td>Spartanburg Community College</td><td>sccsc.edu</td><td>1</td><td>94</td><td>96</td><td>58</td><td>85</td></tr>
 <tr data-search="schechter institutes schechter.edu"><td>Schechter Institutes</td><td>schechter.edu</td><td>1</td><td>94</td><td>62</td><td>54</td><td>92</td></tr>
 <tr data-search="schiller international university, madrid schiller.edu"><td>Schiller International University, Madrid</td><td>schiller.edu</td><td>1</td><td>86</td><td>92</td><td>58</td><td>85</td></tr>
 <tr data-search="schoolcraft college schoolcraft.edu"><td>Schoolcraft College</td><td>schoolcraft.edu</td><td>1</td><td>91</td><td>97</td><td>54</td><td>100</td></tr>
@@ -2507,6 +2520,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="benedictine university, springfield college in illinois sci.edu"><td>Benedictine University, Springfield College in Illinois</td><td>sci.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="southern california institute of architecture sciarc.edu"><td>Southern California Institute of Architecture</td><td>sciarc.edu</td><td>1</td><td>99</td><td>92</td><td>38</td><td>83</td></tr>
 <tr data-search="colleges in texas tech training schools scitexas.edu"><td>Colleges in Texas Tech Training Schools</td><td>scitexas.edu</td><td>1</td><td>70</td><td>85</td><td>54</td><td>92</td></tr>
+<tr data-search="southwestern college in winfield, ks sckans.edu"><td>Southwestern College in Winfield, KS</td><td>sckans.edu</td><td>1</td><td>95</td><td>71</td><td>92</td><td>91</td></tr>
 <tr data-search="south central louisiana technical college scl.edu"><td>South Central Louisiana Technical College</td><td>scl.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="southern college of optometry sco.edu"><td>Southern College of Optometry</td><td>sco.edu</td><td>1</td><td>75</td><td>83</td><td>58</td><td>67</td></tr>
 <tr data-search="scott college of cosmetology scottcollegeofcosmetology.edu"><td>Scott College of Cosmetology</td><td>scottcollegeofcosmetology.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -2515,6 +2529,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="saint charles borromeo seminary, overbrook scs.edu"><td>Saint Charles Borromeo Seminary, Overbrook</td><td>scs.edu</td><td>1</td><td>95</td><td>88</td><td>92</td><td>77</td></tr>
 <tr data-search="south carolina state university scsu.edu"><td>South Carolina State University</td><td>scsu.edu</td><td>1</td><td>92</td><td>94</td><td>77</td><td>85</td></tr>
 <tr data-search="south carolina state university sct.edu"><td>South Carolina State University</td><td>sct.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st cloud technical and community college sctcc.edu"><td>St Cloud Technical and Community College</td><td>sctcc.edu</td><td>1</td><td>86</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="sarasota county technical institute (scti) scti.edu"><td>Sarasota County Technical Institute (SCTI)</td><td>scti.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="santa clara university scu.edu"><td>Santa Clara University</td><td>scu.edu</td><td>1</td><td>81</td><td>95</td><td>58</td><td>100</td></tr>
 <tr data-search="southern california university soma scusoma.edu"><td>Southern California University SOMA</td><td>scusoma.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -2549,20 +2564,24 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="sewanee, university of the south sewanee.edu"><td>Sewanee, University of the South</td><td>sewanee.edu</td><td>1</td><td>93</td><td>92</td><td>58</td><td>92</td></tr>
 <tr data-search="san francisco art institute sfai.edu"><td>San Francisco Art Institute</td><td>sfai.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="south florida bible college &amp; theological seminary sfbc.edu"><td>South Florida Bible College &amp; Theological Seminary</td><td>sfbc.edu</td><td>1</td><td>70</td><td>83</td><td>73</td><td>100</td></tr>
+<tr data-search="st. francis college, fort wayne sfc.edu"><td>St. Francis College, Fort Wayne</td><td>sfc.edu</td><td>1</td><td>91</td><td>80</td><td>54</td><td>92</td></tr>
 <tr data-search="santa fe community college sfcc.edu"><td>Santa Fe Community College</td><td>sfcc.edu</td><td>1</td><td>66</td><td>97</td><td>50</td><td>92</td></tr>
 <tr data-search="san francisco conservatory of music sfcm.edu"><td>San Francisco Conservatory of Music</td><td>sfcm.edu</td><td>1</td><td>83</td><td>95</td><td>54</td><td>92</td></tr>
 <tr data-search="santa fe college sfcollege.edu"><td>Santa Fe College</td><td>sfcollege.edu</td><td>1</td><td>98</td><td>100</td><td>77</td><td>85</td></tr>
+<tr data-search="st. francis college, loretto sfcpa.edu"><td>St. Francis College, Loretto</td><td>sfcpa.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="san francisco institute of esthetics and cosmetology sfiec.edu"><td>San Francisco Institute of Esthetics and Cosmetology</td><td>sfiec.edu</td><td>1</td><td>100</td><td>89</td><td>77</td><td>100</td></tr>
 <tr data-search="saint francis de sales seminary sfs.edu"><td>Saint Francis de Sales Seminary</td><td>sfs.edu</td><td>1</td><td>100</td><td>91</td><td>100</td><td>100</td></tr>
 <tr data-search="sioux falls seminary sfseminary.edu"><td>Sioux Falls Seminary</td><td>sfseminary.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="san francisco state university sfsu.edu"><td>San Francisco State University</td><td>sfsu.edu</td><td>1</td><td>94</td><td>96</td><td>58</td><td>100</td></tr>
 <tr data-search="san francisco theological seminary sfts.edu"><td>San Francisco Theological Seminary</td><td>sfts.edu</td><td>1</td><td>85</td><td>93</td><td>58</td><td>92</td></tr>
+<tr data-search="st. george\&#x27;s university sgu.edu"><td>St. George\&#x27;s University</td><td>sgu.edu</td><td>1</td><td>88</td><td>90</td><td>77</td><td>92</td></tr>
 <tr data-search="shafston international college shafston.edu"><td>Shafston International College</td><td>shafston.edu</td><td>1</td><td>71</td><td>82</td><td>81</td><td>85</td></tr>
 <tr data-search="shasta bible college &amp; graduate school shasta.edu"><td>Shasta Bible College &amp; Graduate School</td><td>shasta.edu</td><td>1</td><td>93</td><td>80</td><td>54</td><td>75</td></tr>
 <tr data-search="shasta college, redding ca, community college shastacollege.edu"><td>Shasta College, Redding CA, Community College</td><td>shastacollege.edu</td><td>1</td><td>75</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="shasta college, redding ca, community college shawnee.edu"><td>Shasta College, Redding CA, Community College</td><td>shawnee.edu</td><td>1</td><td>87</td><td>93</td><td>58</td><td>92</td></tr>
 <tr data-search="shawnee community college homepage shawneecc.edu"><td>Shawnee Community College Homepage</td><td>shawneecc.edu</td><td>1</td><td>93</td><td>99</td><td>73</td><td>92</td></tr>
 <tr data-search="shawnee community college homepage shawu.edu"><td>Shawnee Community College Homepage</td><td>shawu.edu</td><td>1</td><td>99</td><td>82</td><td>100</td><td>85</td></tr>
+<tr data-search="spring hill college shc.edu"><td>Spring Hill College</td><td>shc.edu</td><td>1</td><td>84</td><td>92</td><td>54</td><td>85</td></tr>
 <tr data-search="sacred heart college (autonomous), tirupattur, vellore dt, tamil nadu shctpt.edu"><td>Sacred Heart College (Autonomous), Tirupattur, Vellore Dt, Tamil Nadu</td><td>shctpt.edu</td><td>1</td><td>—</td><td>60</td><td>92</td><td>82</td></tr>
 <tr data-search="shelton state community college sheltonstate.edu"><td>Shelton State Community College</td><td>sheltonstate.edu</td><td>1</td><td>88</td><td>78</td><td>54</td><td>67</td></tr>
 <tr data-search="shenandoah university shenandoah.edu"><td>Shenandoah University</td><td>shenandoah.edu</td><td>1</td><td>64</td><td>95</td><td>54</td><td>92</td></tr>
@@ -2581,7 +2600,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="siena heights university &gt; home sienaheights.edu"><td>Siena Heights University &gt; Home</td><td>sienaheights.edu</td><td>1</td><td>53</td><td>77</td><td>54</td><td>77</td></tr>
 <tr data-search="sierra college sierracollege.edu"><td>Sierra College</td><td>sierracollege.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="sierra nevada college sierranevada.edu"><td>Sierra Nevada College</td><td>sierranevada.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="shrimati indira gandhi college sigc.edu"><td>Shrimati Indira Gandhi College</td><td>sigc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="shrimati indira gandhi college sigc.edu"><td>Shrimati Indira Gandhi College</td><td>sigc.edu</td><td>1</td><td>—</td><td>64</td><td>50</td><td>73</td></tr>
 <tr data-search="simmons college simmons.edu"><td>Simmons College</td><td>simmons.edu</td><td>1</td><td>88</td><td>93</td><td>50</td><td>92</td></tr>
 <tr data-search="simmons college of kentucky simmonscollegeky.edu"><td>Simmons College of Kentucky</td><td>simmonscollegeky.edu</td><td>1</td><td>54</td><td>87</td><td>73</td><td>85</td></tr>
 <tr data-search="simon&#x27;s rock college simons-rock.edu"><td>Simon&#x27;s Rock College</td><td>simons-rock.edu</td><td>1</td><td>25</td><td>100</td><td>54</td><td>100</td></tr>
@@ -2589,16 +2608,25 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="simpson university simpsonu.edu"><td>Simpson University</td><td>simpsonu.edu</td><td>1</td><td>93</td><td>86</td><td>54</td><td>100</td></tr>
 <tr data-search="sinclair community college sinclair.edu"><td>Sinclair Community College</td><td>sinclair.edu</td><td>1</td><td>82</td><td>97</td><td>50</td><td>92</td></tr>
 <tr data-search="seattle institute of oriental medicine siom.edu"><td>Seattle Institute of Oriental Medicine</td><td>siom.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwestern indian polytechnic institute sipi.edu"><td>Southwestern Indian Polytechnic Institute</td><td>sipi.edu</td><td>1</td><td>84</td><td>91</td><td>69</td><td>100</td></tr>
 <tr data-search="college of the siskiyous siskiyous.edu"><td>College of the Siskiyous</td><td>siskiyous.edu</td><td>1</td><td>93</td><td>77</td><td>46</td><td>75</td></tr>
 <tr data-search="cordoba university siss.edu"><td>Cordoba University</td><td>siss.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="sitting bull college sittingbull.edu"><td>Sitting Bull College</td><td>sittingbull.edu</td><td>1</td><td>67</td><td>75</td><td>81</td><td>85</td></tr>
+<tr data-search="southern illinois university at carbondale siu.edu"><td>Southern Illinois University at Carbondale</td><td>siu.edu</td><td>1</td><td>86</td><td>82</td><td>54</td><td>92</td></tr>
+<tr data-search="southern illinois university at edwardsville siue.edu"><td>Southern Illinois University at Edwardsville</td><td>siue.edu</td><td>1</td><td>75</td><td>91</td><td>88</td><td>92</td></tr>
+<tr data-search="st. joseph college (ct) sjc.edu"><td>St. Joseph College (CT)</td><td>sjc.edu</td><td>1</td><td>100</td><td>95</td><td>54</td><td>100</td></tr>
+<tr data-search="st. john&#x27;s college - annapolis sjca.edu"><td>St. John&#x27;s College - Annapolis</td><td>sjca.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="san jose city college homepage sjcc.edu"><td>San Jose City College Homepage</td><td>sjcc.edu</td><td>1</td><td>95</td><td>96</td><td>92</td><td>92</td></tr>
 <tr data-search="san joaquin college of law sjcl.edu"><td>San Joaquin College of Law</td><td>sjcl.edu</td><td>1</td><td>100</td><td>82</td><td>77</td><td>69</td></tr>
 <tr data-search="saint joseph\&#x27;s college of maine sjcme.edu"><td>Saint Joseph\&#x27;s College of Maine</td><td>sjcme.edu</td><td>1</td><td>83</td><td>88</td><td>54</td><td>92</td></tr>
+<tr data-search="st. john&#x27;s college - santa fe sjcsf.edu"><td>St. John&#x27;s College - Santa Fe</td><td>sjcsf.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st. john fisher college sjfc.edu"><td>St. John Fisher College</td><td>sjfc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st. johns river state college sjrstate.edu"><td>St. Johns River State College</td><td>sjrstate.edu</td><td>1</td><td>93</td><td>99</td><td>54</td><td>100</td></tr>
 <tr data-search="saint john\&#x27;s seminary sjs.edu"><td>Saint John\&#x27;s Seminary</td><td>sjs.edu</td><td>1</td><td>64</td><td>80</td><td>58</td><td>77</td></tr>
 <tr data-search="california state university, san jose sjsu.edu"><td>California State University, San Jose</td><td>sjsu.edu</td><td>1</td><td>64</td><td>92</td><td>58</td><td>75</td></tr>
 <tr data-search="saint joseph\&#x27;s university sju.edu"><td>Saint Joseph\&#x27;s University</td><td>sju.edu</td><td>1</td><td>92</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="san joaquin valley college-visalia sjvc.edu"><td>San Joaquin Valley College-Visalia</td><td>sjvc.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="st. john vianney theological seminary sjvdenver.edu"><td>St. John Vianney Theological Seminary</td><td>sjvdenver.edu</td><td>1</td><td>98</td><td>88</td><td>96</td><td>100</td></tr>
 <tr data-search="skagit valley college skagit.edu"><td>Skagit Valley College</td><td>skagit.edu</td><td>1</td><td>89</td><td>98</td><td>54</td><td>77</td></tr>
 <tr data-search="salish kootenai college 2011 skc.edu"><td>Salish Kootenai College 2011</td><td>skc.edu</td><td>1</td><td>100</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="skidmore college skidmore.edu"><td>Skidmore College</td><td>skidmore.edu</td><td>1</td><td>79</td><td>96</td><td>54</td><td>85</td></tr>
@@ -2609,16 +2637,26 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="saint louis christian college slcconline.edu"><td>Saint Louis Christian College</td><td>slcconline.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="salt lake theological seminary slts.edu"><td>Salt Lake Theological Seminary</td><td>slts.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint louis university university slu.edu"><td>Saint Louis University University</td><td>slu.edu</td><td>1</td><td>89</td><td>96</td><td>54</td><td>100</td></tr>
+<tr data-search="st. mary\&#x27;s academy &amp; college smac.edu"><td>St. Mary\&#x27;s Academy &amp; College</td><td>smac.edu</td><td>1</td><td>78</td><td>81</td><td>81</td><td>83</td></tr>
 <tr data-search="santa monica college smc.edu"><td>Santa Monica College</td><td>smc.edu</td><td>1</td><td>87</td><td>100</td><td>50</td><td>100</td></tr>
+<tr data-search="southwest mississippi community college smcc.edu"><td>Southwest Mississippi Community College</td><td>smcc.edu</td><td>1</td><td>63</td><td>80</td><td>58</td><td>92</td></tr>
 <tr data-search="san mateo county community college district smccd.edu"><td>San Mateo County Community College District</td><td>smccd.edu</td><td>1</td><td>100</td><td>96</td><td>54</td><td>100</td></tr>
+<tr data-search="southern maine community college smccme.edu"><td>Southern Maine Community College</td><td>smccme.edu</td><td>1</td><td>89</td><td>86</td><td>50</td><td>85</td></tr>
 <tr data-search="saint mary college smcks.edu"><td>Saint Mary College</td><td>smcks.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st. mary\&#x27;s college of maryland smcm.edu"><td>St. Mary\&#x27;s College of Maryland</td><td>smcm.edu</td><td>1</td><td>82</td><td>96</td><td>54</td><td>92</td></tr>
+<tr data-search="spartanburg methodist college smcsc.edu"><td>Spartanburg Methodist College</td><td>smcsc.edu</td><td>1</td><td>100</td><td>90</td><td>96</td><td>40</td></tr>
 <tr data-search="saint michael\&#x27;s college smcvt.edu"><td>Saint Michael\&#x27;s College</td><td>smcvt.edu</td><td>1</td><td>94</td><td>90</td><td>54</td><td>85</td></tr>
 <tr data-search="smith college smith.edu"><td>Smith College</td><td>smith.edu</td><td>1</td><td>91</td><td>100</td><td>100</td><td>92</td></tr>
-<tr data-search="southern methodist university smu.edu"><td>Southern Methodist University</td><td>smu.edu</td><td>1</td><td>75</td><td>100</td><td>50</td><td>92</td></tr>
+<tr data-search="southwest minnesota state university smsu.edu"><td>Southwest Minnesota State University</td><td>smsu.edu</td><td>1</td><td>91</td><td>97</td><td>54</td><td>100</td></tr>
+<tr data-search="southern methodist university smu.edu"><td>Southern Methodist University</td><td>smu.edu</td><td>1</td><td>65</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="saint mary\&#x27;s university of minnesota smumn.edu"><td>Saint Mary\&#x27;s University of Minnesota</td><td>smumn.edu</td><td>1</td><td>80</td><td>90</td><td>31</td><td>92</td></tr>
+<tr data-search="st. mary-of-the-woods college smwc.edu"><td>St. Mary-of-the-Woods College</td><td>smwc.edu</td><td>1</td><td>95</td><td>81</td><td>54</td><td>92</td></tr>
 <tr data-search="snead state community college snead.edu"><td>Snead State Community College</td><td>snead.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="southern new hampshire university (snhu) snhu.edu"><td>Southern New Hampshire University (SNHU)</td><td>snhu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="snow college snow.edu"><td>Snow College</td><td>snow.edu</td><td>1</td><td>77</td><td>91</td><td>58</td><td>100</td></tr>
+<tr data-search="southern nazarene university snu.edu"><td>Southern Nazarene University</td><td>snu.edu</td><td>1</td><td>64</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="southern california seminary socalsem.edu"><td>Southern California Seminary</td><td>socalsem.edu</td><td>1</td><td>64</td><td>86</td><td>54</td><td>85</td></tr>
+<tr data-search="southwestern oregon community college (swocc) socc.edu"><td>Southwestern Oregon Community College (SWOCC)</td><td>socc.edu</td><td>1</td><td>17</td><td>89</td><td>58</td><td>92</td></tr>
 <tr data-search="southern california health institute sochi.edu"><td>Southern California Health Institute</td><td>sochi.edu</td><td>1</td><td>100</td><td>85</td><td>73</td><td>85</td></tr>
 <tr data-search="sofia university sofia.edu"><td>Sofia University</td><td>sofia.edu</td><td>1</td><td>74</td><td>85</td><td>54</td><td>92</td></tr>
 <tr data-search="soka university of america soka.edu"><td>Soka University of America</td><td>soka.edu</td><td>1</td><td>91</td><td>96</td><td>54</td><td>85</td></tr>
@@ -2627,6 +2665,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="soma institute soma.edu"><td>Soma Institute</td><td>soma.edu</td><td>1</td><td>75</td><td>98</td><td>73</td><td>85</td></tr>
 <tr data-search="somerset christian college somerset.edu"><td>Somerset Christian College</td><td>somerset.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="sonoma state university sonoma.edu"><td>Sonoma State University</td><td>sonoma.edu</td><td>1</td><td>93</td><td>100</td><td>54</td><td>77</td></tr>
+<tr data-search="southern oregon state college sou.edu"><td>Southern Oregon State College</td><td>sou.edu</td><td>1</td><td>92</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="south central college southcentral.edu"><td>South Central College</td><td>southcentral.edu</td><td>1</td><td>94</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="southeast community college area southeast.edu"><td>Southeast Community College Area</td><td>southeast.edu</td><td>1</td><td>95</td><td>91</td><td>58</td><td>85</td></tr>
 <tr data-search="southeast culinary &amp; hospitality college southeastculinary.edu"><td>Southeast Culinary &amp; Hospitality College</td><td>southeastculinary.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -2637,33 +2676,68 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="southeast technical institute southeasttech.edu"><td>Southeast Technical Institute</td><td>southeasttech.edu</td><td>1</td><td>92</td><td>100</td><td>54</td><td>85</td></tr>
 <tr data-search="southern adventist university southern.edu"><td>Southern Adventist University</td><td>southern.edu</td><td>1</td><td>73</td><td>84</td><td>58</td><td>91</td></tr>
 <tr data-search="southern connecticut state university home southernct.edu"><td>Southern Connecticut State University Home</td><td>southernct.edu</td><td>1</td><td>93</td><td>93</td><td>58</td><td>92</td></tr>
+<tr data-search="southern illinois university southernillinois.edu"><td>Southern Illinois University</td><td>southernillinois.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southern west virginia community and technical college southernwv.edu"><td>Southern West Virginia Community and Technical College</td><td>southernwv.edu</td><td>1</td><td>68</td><td>100</td><td>77</td><td>85</td></tr>
 <tr data-search="south florida community college southflorida.edu"><td>South Florida Community College</td><td>southflorida.edu</td><td>1</td><td>83</td><td>81</td><td>50</td><td>83</td></tr>
 <tr data-search="south georgia technical college southgatech.edu"><td>South Georgia Technical College</td><td>southgatech.edu</td><td>1</td><td>79</td><td>100</td><td>100</td><td>85</td></tr>
 <tr data-search="south mountain community college southmountaincc.edu"><td>South Mountain Community College</td><td>southmountaincc.edu</td><td>1</td><td>69</td><td>100</td><td>58</td><td>92</td></tr>
-<tr data-search="south plains college southplainscollege.edu"><td>South Plains College</td><td>southplainscollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="south plains college southplainscollege.edu"><td>South Plains College</td><td>southplainscollege.edu</td><td>1</td><td>99</td><td>87</td><td>50</td><td>92</td></tr>
+<tr data-search="southside virginia community college southside.edu"><td>Southside Virginia Community College</td><td>southside.edu</td><td>1</td><td>96</td><td>100</td><td>58</td><td>85</td></tr>
 <tr data-search="south suburban college southsuburbancollege.edu"><td>South Suburban College</td><td>southsuburbancollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwest career college southwestcareercollege.edu"><td>Southwest Career College</td><td>southwestcareercollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwestern community college southwesterncc.edu"><td>Southwestern Community College</td><td>southwesterncc.edu</td><td>1</td><td>91</td><td>80</td><td>69</td><td>85</td></tr>
+<tr data-search="southwest georgia technical college southwestgatech.edu"><td>Southwest Georgia Technical College</td><td>southwestgatech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="sowela technical community college sowela.edu"><td>SOWELA Technical Community College</td><td>sowela.edu</td><td>1</td><td>94</td><td>99</td><td>54</td><td>100</td></tr>
+<tr data-search="spalding universityhome » spalding university spalding.edu"><td>Spalding UniversityHome » Spalding University</td><td>spalding.edu</td><td>1</td><td>95</td><td>84</td><td>77</td><td>85</td></tr>
+<tr data-search="spartan college of aeronautics and technology spartan.edu"><td>Spartan College of Aeronautics and Technology</td><td>spartan.edu</td><td>1</td><td>100</td><td>92</td><td>81</td><td>100</td></tr>
 <tr data-search="saint peter\&#x27;s college home spc.edu"><td>Saint Peter\&#x27;s College Home</td><td>spc.edu</td><td>1</td><td>98</td><td>92</td><td>54</td><td>92</td></tr>
 <tr data-search="south piedmont community college spcc.edu"><td>South Piedmont Community College</td><td>spcc.edu</td><td>1</td><td>85</td><td>100</td><td>100</td><td>85</td></tr>
 <tr data-search="spelman college spelman.edu"><td>Spelman College</td><td>spelman.edu</td><td>1</td><td>82</td><td>96</td><td>35</td><td>91</td></tr>
+<tr data-search="spencerian college spencerian.edu"><td>Spencerian College</td><td>spencerian.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="spertus institute of jewish studies spertus.edu"><td>Spertus Institute of Jewish Studies</td><td>spertus.edu</td><td>1</td><td>73</td><td>80</td><td>100</td><td>92</td></tr>
+<tr data-search="spokane community college spokane.edu"><td>Spokane Community College</td><td>spokane.edu</td><td>1</td><td>79</td><td>84</td><td>50</td><td>83</td></tr>
+<tr data-search="spokane falls community college spokanefalls.edu"><td>Spokane Falls Community College</td><td>spokanefalls.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="springfield college is now everest college springfield.edu"><td>Springfield College is now Everest College</td><td>springfield.edu</td><td>1</td><td>98</td><td>93</td><td>50</td><td>100</td></tr>
+<tr data-search="southern polytechnic state university marietta, georgia spsu.edu"><td>Southern Polytechnic State University Marietta, Georgia</td><td>spsu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="seattle pacific university spu.edu"><td>Seattle Pacific University</td><td>spu.edu</td><td>1</td><td>83</td><td>89</td><td>54</td><td>92</td></tr>
+<tr data-search="spoon river college src.edu"><td>Spoon River College</td><td>src.edu</td><td>1</td><td>73</td><td>97</td><td>54</td><td>85</td></tr>
 <tr data-search="shaheed rajaei teacher training university srmc.edu"><td>Shaheed Rajaei Teacher Training University</td><td>srmc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="slippery rock university of pennsylvania sru.edu"><td>Slippery Rock University of Pennsylvania</td><td>sru.edu</td><td>1</td><td>88</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="slippery rock university homepage ssbc.edu"><td>Slippery Rock University Homepage</td><td>ssbc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southern state community college sscc.edu"><td>Southern State Community College</td><td>sscc.edu</td><td>1</td><td>98</td><td>97</td><td>73</td><td>100</td></tr>
+<tr data-search="ss. cyril and methodius seminary sscms.edu"><td>SS. Cyril and Methodius Seminary</td><td>sscms.edu</td><td>1</td><td>73</td><td>89</td><td>73</td><td>92</td></tr>
 <tr data-search="seminole state college sscok.edu"><td>Seminole State College</td><td>sscok.edu</td><td>1</td><td>95</td><td>94</td><td>73</td><td>82</td></tr>
+<tr data-search="southern states university ssu.edu"><td>Southern States University</td><td>ssu.edu</td><td>1</td><td>54</td><td>84</td><td>46</td><td>85</td></tr>
+<tr data-search="st. augustine&#x27;s college north carolina st-aug.edu"><td>St. Augustine&#x27;s College North Carolina</td><td>st-aug.edu</td><td>1</td><td>67</td><td>91</td><td>54</td><td>85</td></tr>
 <tr data-search="home » stamford international university (thailand) stamford.edu"><td>Home » Stamford International University (Thailand)</td><td>stamford.edu</td><td>1</td><td>42</td><td>89</td><td>35</td><td>92</td></tr>
 <tr data-search="stanford university stanford.edu"><td>Stanford University</td><td>stanford.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>92</td></tr>
+<tr data-search="st. augustine college staugustine.edu"><td>St. Augustine College</td><td>staugustine.edu</td><td>1</td><td>97</td><td>95</td><td>54</td><td>92</td></tr>
+<tr data-search="springfield technical community college stcc.edu"><td>Springfield Technical Community College</td><td>stcc.edu</td><td>1</td><td>86</td><td>94</td><td>77</td><td>100</td></tr>
+<tr data-search="st. charles community college stchas.edu"><td>St. Charles Community College</td><td>stchas.edu</td><td>1</td><td>90</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="st. christopher iba mar diop college of medicine stchris.edu"><td>St. Christopher Iba Mar diop College of Medicine</td><td>stchris.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint cloud state university stcloudstate.edu"><td>Saint Cloud State University</td><td>stcloudstate.edu</td><td>1</td><td>100</td><td>91</td><td>50</td><td>83</td></tr>
+<tr data-search="st. cloud state university stealth.edu"><td>St. Cloud State University</td><td>stealth.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="one of the best catholic colleges stedwards.edu"><td>One of the Best Catholic Colleges</td><td>stedwards.edu</td><td>1</td><td>84</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="st. francis career college stfranciscareercollege.edu"><td>St. Francis Career College</td><td>stfranciscareercollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint john&#x27;s university (ny) stjohns.edu"><td>Saint John&#x27;s University (NY)</td><td>stjohns.edu</td><td>1</td><td>68</td><td>89</td><td>35</td><td>92</td></tr>
+<tr data-search="st. john&#x27;s seminary stjohnscollege.edu"><td>St. John&#x27;s Seminary</td><td>stjohnscollege.edu</td><td>1</td><td>100</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="college of saint catherine stkate.edu"><td>College of Saint Catherine</td><td>stkate.edu</td><td>1</td><td>76</td><td>94</td><td>54</td><td>100</td></tr>
+<tr data-search="st. lawrence university stlawu.edu"><td>St. Lawrence University</td><td>stlawu.edu</td><td>1</td><td>77</td><td>95</td><td>58</td><td>92</td></tr>
+<tr data-search="st. louis community college stlcc.edu"><td>St. Louis Community College</td><td>stlcc.edu</td><td>1</td><td>79</td><td>93</td><td>54</td><td>100</td></tr>
+<tr data-search="st. louis college of pharmacy » home stlcop.edu"><td>St. Louis College of Pharmacy » Home</td><td>stlcop.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st. luke\&#x27;s college, sioux city, iowa stlukescollege.edu"><td>St. Luke\&#x27;s College, Sioux City, Iowa</td><td>stlukescollege.edu</td><td>1</td><td>96</td><td>85</td><td>58</td><td>69</td></tr>
 <tr data-search="saint martin\&#x27;s university stmartin.edu"><td>Saint Martin\&#x27;s University</td><td>stmartin.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint mary&#x27;s college of california stmarys-ca.edu"><td>Saint Mary&#x27;s College of California</td><td>stmarys-ca.edu</td><td>1</td><td>99</td><td>95</td><td>58</td><td>92</td></tr>
+<tr data-search="st. mary&#x27;s university of san antonio stmarytx.edu"><td>St. Mary&#x27;s University of San Antonio</td><td>stmarytx.edu</td><td>1</td><td>85</td><td>79</td><td>54</td><td>92</td></tr>
+<tr data-search="st. matthew\&#x27;s university stmatthews.edu"><td>St. Matthew\&#x27;s University</td><td>stmatthews.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>100</td></tr>
 <tr data-search="stony brook university, stony brook, new york stonybrook.edu"><td>Stony Brook University, Stony Brook, New York</td><td>stonybrook.edu</td><td>1</td><td>73</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="academic medical center at state university of new york at stony brook stonybrookmedicine.edu"><td>Academic medical center at State University of New York at Stony Brook</td><td>stonybrookmedicine.edu</td><td>1</td><td>83</td><td>100</td><td>92</td><td>92</td></tr>
 <tr data-search="online college degree program strayer.edu"><td>Online College Degree Program</td><td>strayer.edu</td><td>1</td><td>99</td><td>92</td><td>46</td><td>85</td></tr>
 <tr data-search="cardinal stritch university stritch.edu"><td>Cardinal Stritch University</td><td>stritch.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>85</td></tr>
 <tr data-search="college of saint rose strose.edu"><td>College of Saint Rose</td><td>strose.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint vincent college stvincent.edu"><td>Saint Vincent College</td><td>stvincent.edu</td><td>1</td><td>88</td><td>95</td><td>54</td><td>92</td></tr>
+<tr data-search="southern university and a&amp;m college subr.edu"><td>Southern University and A&amp;M College</td><td>subr.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southern university at new orleans suno.edu"><td>Southern University at New Orleans</td><td>suno.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="niagara county community college suny.edu"><td>Niagara County Community College</td><td>suny.edu</td><td>1</td><td>82</td><td>92</td><td>54</td><td>100</td></tr>
 <tr data-search="adirondack community college sunyacc.edu"><td>Adirondack Community College</td><td>sunyacc.edu</td><td>1</td><td>93</td><td>89</td><td>54</td><td>92</td></tr>
 <tr data-search="columbia-greene community college sunycgcc.edu"><td>Columbia-Greene Community College</td><td>sunycgcc.edu</td><td>1</td><td>88</td><td>95</td><td>58</td><td>92</td></tr>
@@ -2675,10 +2749,34 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="schenectady county community college sunysccc.edu"><td>Schenectady County Community College</td><td>sunysccc.edu</td><td>1</td><td>90</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="schenectady county community college sunysuffolk.edu"><td>Schenectady County Community College</td><td>sunysuffolk.edu</td><td>1</td><td>65</td><td>85</td><td>54</td><td>92</td></tr>
 <tr data-search=":: southern union state community college :: suscc.edu"><td>:: Southern Union State Community College ::</td><td>suscc.edu</td><td>1</td><td>91</td><td>94</td><td>54</td><td>92</td></tr>
+<tr data-search="southern university at shreveport susla.edu"><td>Southern University at Shreveport</td><td>susla.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="shahjalal university of science and technology (sust) sust.edu"><td>Shahjalal University of Science and Technology (SUST)</td><td>sust.edu</td><td>1</td><td>100</td><td>90</td><td>96</td><td>40</td></tr>
+<tr data-search="southern utah university suu.edu"><td>Southern Utah University</td><td>suu.edu</td><td>1</td><td>99</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="southern vermont college 18 majors including nursing, criminal justice, business and communications svc.edu"><td>Southern Vermont College 18 Majors including Nursing, Criminal Justice, Business and Communications</td><td>svc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="sauk valley community college svcc.edu"><td>Sauk Valley Community College</td><td>svcc.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>85</td></tr>
 <tr data-search="catholic seminary schools svdp.edu"><td>Catholic Seminary Schools</td><td>svdp.edu</td><td>1</td><td>92</td><td>87</td><td>100</td><td>92</td></tr>
+<tr data-search="st vladimir&#x27;s orthodox theological seminary svots.edu"><td>St Vladimir&#x27;s Orthodox Theological Seminary</td><td>svots.edu</td><td>1</td><td>92</td><td>90</td><td>81</td><td>77</td></tr>
 <tr data-search="saginaw valley state university svsu.edu"><td>Saginaw Valley State University</td><td>svsu.edu</td><td>1</td><td>91</td><td>97</td><td>58</td><td>100</td></tr>
+<tr data-search="southern virginia university svu.edu"><td>Southern Virginia University</td><td>svu.edu</td><td>1</td><td>95</td><td>91</td><td>54</td><td>100</td></tr>
+<tr data-search="southwest virginia community college sw.edu"><td>Southwest Virginia Community College</td><td>sw.edu</td><td>1</td><td>82</td><td>94</td><td>54</td><td>77</td></tr>
+<tr data-search="southwestern adventist college swac.edu"><td>Southwestern Adventist College</td><td>swac.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwestern adventist university swau.edu"><td>Southwestern Adventist University</td><td>swau.edu</td><td>1</td><td>98</td><td>89</td><td>77</td><td>92</td></tr>
+<tr data-search="southwestern baptist theological seminary swbts.edu"><td>Southwestern Baptist Theological Seminary</td><td>swbts.edu</td><td>1</td><td>95</td><td>92</td><td>54</td><td>92</td></tr>
+<tr data-search="southwestern college santa fe swc.edu"><td>Southwestern College Santa Fe</td><td>swc.edu</td><td>1</td><td>75</td><td>80</td><td>77</td><td>92</td></tr>
+<tr data-search="southwestern christian college swcc.edu"><td>Southwestern Christian College</td><td>swcc.edu</td><td>1</td><td>99</td><td>97</td><td>96</td><td>85</td></tr>
+<tr data-search="southwestern college (ca) swccd.edu"><td>Southwestern College (CA)</td><td>swccd.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwestern christian university swcu.edu"><td>Southwestern Christian University</td><td>swcu.edu</td><td>1</td><td>99</td><td>89</td><td>96</td><td>85</td></tr>
+<tr data-search="southwestern illinois college swic.edu"><td>Southwestern Illinois College</td><td>swic.edu</td><td>1</td><td>80</td><td>93</td><td>58</td><td>92</td></tr>
+<tr data-search="southwest institute of healing arts swiha.edu"><td>Southwest Institute of Healing Arts</td><td>swiha.edu</td><td>1</td><td>71</td><td>87</td><td>50</td><td>92</td></tr>
+<tr data-search="southwestern university school of law swlaw.edu"><td>Southwestern University School of Law</td><td>swlaw.edu</td><td>1</td><td>66</td><td>96</td><td>38</td><td>100</td></tr>
+<tr data-search="southwestern michigan college swmich.edu"><td>Southwestern Michigan College</td><td>swmich.edu</td><td>1</td><td>75</td><td>94</td><td>54</td><td>92</td></tr>
+<tr data-search="southwestern oklahoma state university swosu.edu"><td>Southwestern Oklahoma State University</td><td>swosu.edu</td><td>1</td><td>85</td><td>93</td><td>50</td><td>85</td></tr>
+<tr data-search="southwest research institute (swri) swri.edu"><td>Southwest Research Institute (SwRI)</td><td>swri.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwest school of bible studies christian college study swsbs.edu"><td>Southwest School of Bible Studies Christian college study</td><td>swsbs.edu</td><td>1</td><td>99</td><td>100</td><td>100</td><td>92</td></tr>
+<tr data-search="southwest texas state university swt.edu"><td>Southwest Texas State University</td><td>swt.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southwest wisconsin technical college swtc.edu"><td>Southwest Wisconsin Technical College</td><td>swtc.edu</td><td>1</td><td>93</td><td>92</td><td>58</td><td>92</td></tr>
+<tr data-search="southwest texas junior college swtjc.edu"><td>Southwest Texas Junior College</td><td>swtjc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="southern wesleyan university swu.edu"><td>Southern Wesleyan University</td><td>swu.edu</td><td>1</td><td>74</td><td>98</td><td>58</td><td>100</td></tr>
 <tr data-search="saint xavier university sxu.edu"><td>Saint Xavier University</td><td>sxu.edu</td><td>1</td><td>89</td><td>93</td><td>35</td><td>92</td></tr>
 <tr data-search="online college degrees william howard taft university taft.edu"><td>Online College Degrees William Howard Taft University</td><td>taft.edu</td><td>1</td><td>94</td><td>93</td><td>100</td><td>85</td></tr>
 <tr data-search="online college degrees william howard taft university taftcollege.edu"><td>Online College Degrees William Howard Taft University</td><td>taftcollege.edu</td><td>1</td><td>80</td><td>92</td><td>81</td><td>100</td></tr>
@@ -2693,6 +2791,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="nebraska indian community college thenicc.edu"><td>Nebraska Indian Community College</td><td>thenicc.edu</td><td>1</td><td>99</td><td>99</td><td>92</td><td>75</td></tr>
 <tr data-search="kaplan career institute thompson.edu"><td>Kaplan Career Institute</td><td>thompson.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="baylor college of medicine tlu.edu"><td>Baylor College of Medicine</td><td>tlu.edu</td><td>1</td><td>88</td><td>89</td><td>73</td><td>92</td></tr>
+<tr data-search="southwest tennessee community college tn.edu"><td>Southwest Tennessee Community College</td><td>tn.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="h councill trenholm state technical college trenholmstate.edu"><td>H Councill Trenholm State Technical College</td><td>trenholmstate.edu</td><td>1</td><td>52</td><td>91</td><td>96</td><td>85</td></tr>
 <tr data-search="cuyahoga community college district tri-c.edu"><td>Cuyahoga Community College District</td><td>tri-c.edu</td><td>1</td><td>63</td><td>88</td><td>54</td><td>83</td></tr>
 <tr data-search="accredited online university degrees, military university, online colleges, bachelor, masters, phd trident.edu"><td>Accredited Online University Degrees, Military University, Online Colleges, Bachelor, Masters, PhD</td><td>trident.edu</td><td>1</td><td>80</td><td>99</td><td>54</td><td>85</td></tr>
@@ -2731,6 +2830,7 @@ _Stats as of 2026-05-05 06:03 UTC — last scan: 2026-05-04_
 <tr data-search="the university of utah utah.edu"><td>The University of Utah</td><td>utah.edu</td><td>1</td><td>30</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="the university of texas at austin utexas.edu"><td>The University of Texas at Austin</td><td>utexas.edu</td><td>1</td><td>98</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="university of tennessee - knoxville utk.edu"><td>University of Tennessee - Knoxville</td><td>utk.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="southern california\&#x27;s road to education is university of the west uwest.edu"><td>Southern California\&#x27;s Road to Education is University of the West</td><td>uwest.edu</td><td>1</td><td>99</td><td>65</td><td>77</td><td>77</td></tr>
 <tr data-search="san bernardino valley college valleycollege.edu"><td>San Bernardino Valley College</td><td>valleycollege.edu</td><td>1</td><td>84</td><td>93</td><td>58</td><td>83</td></tr>
 <tr data-search="vanderbilt university vanderbilt.edu"><td>Vanderbilt University</td><td>vanderbilt.edu</td><td>1</td><td>95</td><td>94</td><td>73</td><td>83</td></tr>
 <tr data-search="aviation college and engineering degree program vaughn.edu"><td>Aviation College and Engineering Degree Program</td><td>vaughn.edu</td><td>1</td><td>75</td><td>91</td><td>54</td><td>92</td></tr>
