@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
+_Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 
-**41** scan batches run
+**47** scan batches run
 
-**2,823** of **3,863** available pages audited (**73.1%** coverage)
-**2,125** successful audits (**75.3%** of audited)
+**2,868** of **3,863** available pages audited (**74.2%** coverage)
+**2,162** successful audits (**75.4%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master | 2,771 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-05 |
-| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-05 |
+| Usa Edu Master | 2,817 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-06 |
+| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-06 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 2,804 of 2,804 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 2,849 of 2,849 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -117,6 +117,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="alaska pacific university â discover active learning alaskapacific.edu"><td>Alaska Pacific University â Discover Active Learning</td><td>alaskapacific.edu</td><td>1</td><td>91</td><td>84</td><td>58</td><td>92</td></tr>
 <tr data-search="alaska pacific university â discover active learning alasu.edu"><td>Alaska Pacific University â Discover Active Learning</td><td>alasu.edu</td><td>1</td><td>95</td><td>92</td><td>54</td><td>100</td></tr>
 <tr data-search="albright college alb.edu"><td>Albright College</td><td>alb.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york at albany albany.edu"><td>State University of New York at Albany</td><td>albany.edu</td><td>1</td><td>72</td><td>100</td><td>50</td><td>92</td></tr>
 <tr data-search="albany technical college albanytech.edu"><td>Albany Technical College</td><td>albanytech.edu</td><td>1</td><td>100</td><td>97</td><td>46</td><td>85</td></tr>
 <tr data-search="college of the albemarle albemarle.edu"><td>College of the Albemarle</td><td>albemarle.edu</td><td>1</td><td>72</td><td>90</td><td>65</td><td>83</td></tr>
 <tr data-search="carlos albizu university albion.edu"><td>Carlos Albizu University</td><td>albion.edu</td><td>1</td><td>88</td><td>92</td><td>58</td><td>85</td></tr>
@@ -125,6 +126,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="alexandria technical &amp; community college alextech.edu"><td>Alexandria Technical &amp; Community College</td><td>alextech.edu</td><td>1</td><td>91</td><td>87</td><td>73</td><td>100</td></tr>
 <tr data-search="alfred university alfred.edu"><td>Alfred University</td><td>alfred.edu</td><td>1</td><td>70</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="alfred state college alfredstate.edu"><td>Alfred State College</td><td>alfredstate.edu</td><td>1</td><td>73</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="state university of new york college of technology at alfred alfredtech.edu"><td>State University of New York College of Technology at Alfred</td><td>alfredtech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="allegheny college alleg.edu"><td>Allegheny College</td><td>alleg.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="allegany college of maryland allegany.edu"><td>Allegany College of Maryland</td><td>allegany.edu</td><td>1</td><td>90</td><td>88</td><td>58</td><td>83</td></tr>
 <tr data-search="allen county community college allencc.edu"><td>Allen County Community College</td><td>allencc.edu</td><td>1</td><td>93</td><td>93</td><td>54</td><td>92</td></tr>
@@ -351,6 +353,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="baltimore international college foundation bic.edu"><td>Baltimore International College Foundation</td><td>bic.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="big bend community college bigbend.edu"><td>Big Bend Community College</td><td>bigbend.edu</td><td>1</td><td>91</td><td>93</td><td>92</td><td>77</td></tr>
 <tr data-search="bilkent university bilkent.edu"><td>Bilkent University</td><td>bilkent.edu</td><td>1</td><td>44</td><td>75</td><td>77</td><td>92</td></tr>
+<tr data-search="state university of new york at binghamton binghamton.edu"><td>State University of New York at Binghamton</td><td>binghamton.edu</td><td>1</td><td>94</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="biohealth college biohealthcollege.edu"><td>BioHealth College</td><td>biohealthcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="biola university biola.edu"><td>Biola University</td><td>biola.edu</td><td>1</td><td>87</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="bircham international university bircham.edu"><td>Bircham International University</td><td>bircham.edu</td><td>1</td><td>90</td><td>93</td><td>96</td><td>100</td></tr>
@@ -410,6 +413,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="bristol community college bristolcc.edu"><td>Bristol Community College</td><td>bristolcc.edu</td><td>1</td><td>93</td><td>93</td><td>73</td><td>92</td></tr>
 <tr data-search="bristol university â quality and practical education bristoluniversity.edu"><td>Bristol University â Quality and Practical Education</td><td>bristoluniversity.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="broadview university broadviewuniversity.edu"><td>Broadview University</td><td>broadviewuniversity.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york college at brockport brockport.edu"><td>State University of New York College at Brockport</td><td>brockport.edu</td><td>1</td><td>99</td><td>99</td><td>54</td><td>92</td></tr>
 <tr data-search="brookline college brooklinecollege.edu"><td>Brookline College</td><td>brooklinecollege.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="brooks institute of photography brooks.edu"><td>Brooks Institute of Photography</td><td>brooks.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="brooks college in long beach brookscollege.edu"><td>Brooks College in Long Beach</td><td>brookscollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -437,6 +441,8 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="boston university bu.edu"><td>Boston University</td><td>bu.edu</td><td>1</td><td>98</td><td>83</td><td>77</td><td>85</td></tr>
 <tr data-search="bucknell university bucknell.edu"><td>Bucknell University</td><td>bucknell.edu</td><td>1</td><td>92</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="bucks county community college bucks.edu"><td>Bucks County Community College</td><td>bucks.edu</td><td>1</td><td>87</td><td>93</td><td>50</td><td>92</td></tr>
+<tr data-search="state university of new york at buffalo buffalo.edu"><td>State University of New York at Buffalo</td><td>buffalo.edu</td><td>1</td><td>81</td><td>84</td><td>54</td><td>85</td></tr>
+<tr data-search="state university of new york college at buffalo buffalostate.edu"><td>State University of New York College at Buffalo</td><td>buffalostate.edu</td><td>1</td><td>92</td><td>100</td><td>38</td><td>100</td></tr>
 <tr data-search="buffalo state college bumc.edu"><td>Buffalo State College</td><td>bumc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="butler university butler.edu"><td>Butler University</td><td>butler.edu</td><td>1</td><td>90</td><td>96</td><td>54</td><td>100</td></tr>
 <tr data-search="butte college butte.edu"><td>Butte College</td><td>butte.edu</td><td>1</td><td>73</td><td>87</td><td>58</td><td>92</td></tr>
@@ -691,6 +697,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="coastal pines technical college coastalpines.edu"><td>Coastal Pines Technical College</td><td>coastalpines.edu</td><td>1</td><td>88</td><td>93</td><td>77</td><td>77</td></tr>
 <tr data-search="coastline community college coastline.edu"><td>Coastline Community College</td><td>coastline.edu</td><td>1</td><td>99</td><td>70</td><td>54</td><td>75</td></tr>
 <tr data-search="cobb beauty college cobbbeautycollege.edu"><td>Cobb Beauty College</td><td>cobbbeautycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york college of agriculture and technology at cobleskill cobleskill.edu"><td>State University of New York College of Agriculture and Technology at Cobleskill</td><td>cobleskill.edu</td><td>1</td><td>93</td><td>94</td><td>73</td><td>100</td></tr>
 <tr data-search="central oregon community college cocc.edu"><td>Central Oregon Community College</td><td>cocc.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>75</td></tr>
 <tr data-search="cochise college home page cochise.edu"><td>Cochise College Home Page</td><td>cochise.edu</td><td>1</td><td>95</td><td>100</td><td>46</td><td>85</td></tr>
 <tr data-search="coconino community college coconino.edu"><td>Coconino Community College</td><td>coconino.edu</td><td>1</td><td>93</td><td>95</td><td>73</td><td>92</td></tr>
@@ -755,6 +762,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="cornell university cornell.edu"><td>Cornell University</td><td>cornell.edu</td><td>1</td><td>100</td><td>96</td><td>73</td><td>92</td></tr>
 <tr data-search="corning community college corning-cc.edu"><td>Corning Community College</td><td>corning-cc.edu</td><td>1</td><td>85</td><td>88</td><td>54</td><td>85</td></tr>
 <tr data-search="cornish college of the arts cornish.edu"><td>Cornish College of the Arts</td><td>cornish.edu</td><td>1</td><td>89</td><td>83</td><td>54</td><td>92</td></tr>
+<tr data-search="state university of new york college at cortland cortland.edu"><td>State University of New York College at Cortland</td><td>cortland.edu</td><td>1</td><td>100</td><td>95</td><td>58</td><td>92</td></tr>
 <tr data-search="college of the sequoias cos.edu"><td>College of the Sequoias</td><td>cos.edu</td><td>1</td><td>22</td><td>79</td><td>58</td><td>83</td></tr>
 <tr data-search="central ohio technical college cotc.edu"><td>Central Ohio Technical College</td><td>cotc.edu</td><td>1</td><td>89</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="college of the ouachitas coto.edu"><td>College of the Ouachitas</td><td>coto.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -1006,8 +1014,10 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="erie institute of technology erieit.edu"><td>Erie Institute of Technology</td><td>erieit.edu</td><td>1</td><td>79</td><td>94</td><td>50</td><td>100</td></tr>
 <tr data-search="erikson institute erikson.edu"><td>Erikson Institute</td><td>erikson.edu</td><td>1</td><td>94</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="erskine college erskine.edu"><td>Erskine College</td><td>erskine.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york empire state college esc.edu"><td>State University of New York Empire State College</td><td>esc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="enterprise state community college escc.edu"><td>Enterprise State Community College</td><td>escc.edu</td><td>1</td><td>87</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="about escondido bible college escondidobiblecollege.edu"><td>About Escondido Bible College</td><td>escondidobiblecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york college of environmental science and forestry esf.edu"><td>State University of New York College of Environmental Science and Forestry</td><td>esf.edu</td><td>1</td><td>90</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="essex county college essex.edu"><td>Essex County College</td><td>essex.edu</td><td>1</td><td>71</td><td>81</td><td>69</td><td>75</td></tr>
 <tr data-search="estrella mountain community college estrellamountain.edu"><td>Estrella Mountain Community College</td><td>estrellamountain.edu</td><td>1</td><td>82</td><td>100</td><td>58</td><td>85</td></tr>
 <tr data-search="east stroudsburg state university of pennsylvania esu.edu"><td>East Stroudsburg State University of Pennsylvania</td><td>esu.edu</td><td>1</td><td>92</td><td>96</td><td>54</td><td>100</td></tr>
@@ -1040,6 +1050,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="family of faith college â a light to the nations familyoffaithcollege.edu"><td>Family of Faith College â A Light to the Nations</td><td>familyoffaithcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="family of faith college â a light to the nations famu.edu"><td>Family of Faith College â A Light to the Nations</td><td>famu.edu</td><td>1</td><td>94</td><td>89</td><td>58</td><td>92</td></tr>
 <tr data-search="franklin and marshall college fandm.edu"><td>Franklin and Marshall College</td><td>fandm.edu</td><td>1</td><td>97</td><td>95</td><td>77</td><td>100</td></tr>
+<tr data-search="state university of new york college of technology at farmingdale farmingdale.edu"><td>State University of New York College of Technology at Farmingdale</td><td>farmingdale.edu</td><td>1</td><td>89</td><td>91</td><td>58</td><td>92</td></tr>
 <tr data-search="fashion careers college fashioncollege.edu"><td>Fashion Careers College</td><td>fashioncollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="welcome to florida atlantic university fau.edu"><td>Welcome to Florida Atlantic University</td><td>fau.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="faulkner university faulkner.edu"><td>Faulkner University</td><td>faulkner.edu</td><td>1</td><td>87</td><td>94</td><td>54</td><td>92</td></tr>
@@ -1077,6 +1088,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="five colleges, incorporated fivecolleges.edu"><td>Five Colleges, Incorporated</td><td>fivecolleges.edu</td><td>1</td><td>89</td><td>99</td><td>96</td><td>85</td></tr>
 <tr data-search="florida keys community college fkcc.edu"><td>Florida Keys Community College</td><td>fkcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="flagler college flagler.edu"><td>Flagler College</td><td>flagler.edu</td><td>1</td><td>94</td><td>100</td><td>58</td><td>92</td></tr>
+<tr data-search="state university system of florida flbog.edu"><td>State University System of Florida</td><td>flbog.edu</td><td>1</td><td>77</td><td>85</td><td>96</td><td>77</td></tr>
 <tr data-search="l e fletcher technical community college fletcher.edu"><td>L E Fletcher Technical Community College</td><td>fletcher.edu</td><td>1</td><td>87</td><td>98</td><td>58</td><td>100</td></tr>
 <tr data-search="fletcher technical community college flintrivertech.edu"><td>Fletcher Technical Community College</td><td>flintrivertech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="florida college floridacollege.edu"><td>Florida College</td><td>floridacollege.edu</td><td>1</td><td>95</td><td>87</td><td>58</td><td>85</td></tr>
@@ -1111,6 +1123,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="franklin pierce university franklinpierce.edu"><td>Franklin Pierce University</td><td>franklinpierce.edu</td><td>1</td><td>95</td><td>91</td><td>50</td><td>77</td></tr>
 <tr data-search="feather river community college district frc.edu"><td>Feather River Community College District</td><td>frc.edu</td><td>1</td><td>72</td><td>96</td><td>96</td><td>100</td></tr>
 <tr data-search="frederick community college frederick.edu"><td>Frederick Community College</td><td>frederick.edu</td><td>1</td><td>88</td><td>86</td><td>50</td><td>92</td></tr>
+<tr data-search="state university of new york college at fredonia fredonia.edu"><td>State University of New York College at Fredonia</td><td>fredonia.edu</td><td>1</td><td>99</td><td>95</td><td>58</td><td>100</td></tr>
 <tr data-search="fresno.edu fresno.edu"><td>fresno.edu</td><td>fresno.edu</td><td>1</td><td>92</td><td>93</td><td>54</td><td>100</td></tr>
 <tr data-search="fresno city college fresnocitycollege.edu"><td>Fresno City College</td><td>fresnocitycollege.edu</td><td>1</td><td>73</td><td>97</td><td>77</td><td>100</td></tr>
 <tr data-search="friends university friends.edu"><td>Friends University</td><td>friends.edu</td><td>1</td><td>99</td><td>89</td><td>50</td><td>92</td></tr>
@@ -1161,6 +1174,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="georgia college &amp; state university gcsu.edu"><td>Georgia College &amp; State University</td><td>gcsu.edu</td><td>1</td><td>87</td><td>88</td><td>77</td><td>92</td></tr>
 <tr data-search="grand canyon university is a private christian university in phoenix, az gcu.edu"><td>Grand Canyon University is a private Christian University in Phoenix, AZ</td><td>gcu.edu</td><td>1</td><td>100</td><td>76</td><td>58</td><td>85</td></tr>
 <tr data-search="genesee community college genesee.edu"><td>Genesee Community College</td><td>genesee.edu</td><td>1</td><td>90</td><td>94</td><td>54</td><td>92</td></tr>
+<tr data-search="state university of new york college at geneseo geneseo.edu"><td>State University of New York College at Geneseo</td><td>geneseo.edu</td><td>1</td><td>90</td><td>90</td><td>54</td><td>92</td></tr>
 <tr data-search="genesis career college genesiscareer.edu"><td>Genesis Career College</td><td>genesiscareer.edu</td><td>1</td><td>82</td><td>87</td><td>54</td><td>92</td></tr>
 <tr data-search="geneva college geneva.edu"><td>Geneva College</td><td>geneva.edu</td><td>1</td><td>85</td><td>79</td><td>35</td><td>75</td></tr>
 <tr data-search="george fox university georgefox.edu"><td>George Fox University</td><td>georgefox.edu</td><td>1</td><td>100</td><td>85</td><td>58</td><td>77</td></tr>
@@ -1349,6 +1363,8 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="hr college of commerce &amp; economics hrcollege.edu"><td>HR College of Commerce &amp; Economics</td><td>hrcollege.edu</td><td>1</td><td>51</td><td>76</td><td>54</td><td>77</td></tr>
 <tr data-search="hobe sound bible college hsbc.edu"><td>Hobe Sound Bible College</td><td>hsbc.edu</td><td>1</td><td>76</td><td>97</td><td>92</td><td>100</td></tr>
 <tr data-search="hampden-sydney college hsc.edu"><td>Hampden-Sydney College</td><td>hsc.edu</td><td>1</td><td>95</td><td>97</td><td>77</td><td>92</td></tr>
+<tr data-search="state university of new york downstate medical center hscbklyn.edu"><td>State University of New York Downstate Medical Center</td><td>hscbklyn.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york health sience centre syracuse hscsyr.edu"><td>State University of New York Health Sience Centre Syracuse</td><td>hscsyr.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="harris-stowe state university hssu.edu"><td>Harris-Stowe State University</td><td>hssu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="hardin-simmons university hsutx.edu"><td>Hardin-Simmons University</td><td>hsutx.edu</td><td>1</td><td>94</td><td>93</td><td>54</td><td>100</td></tr>
 <tr data-search="hebrew theological college htc.edu"><td>Hebrew Theological College</td><td>htc.edu</td><td>1</td><td>94</td><td>90</td><td>77</td><td>100</td></tr>
@@ -1368,7 +1384,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="hypnosis training college hypnosis.edu"><td>Hypnosis Training College</td><td>hypnosis.edu</td><td>1</td><td>95</td><td>96</td><td>58</td><td>92</td></tr>
 <tr data-search="institute for advanced study ias.edu"><td>Institute for Advanced Study</td><td>ias.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>100</td></tr>
 <tr data-search="iowa state university of science and technology iastate.edu"><td>Iowa State University of Science and Technology</td><td>iastate.edu</td><td>1</td><td>93</td><td>100</td><td>58</td><td>92</td></tr>
-<tr data-search="marshalltown community college iavalley.edu"><td>Marshalltown Community College</td><td>iavalley.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="marshalltown community college iavalley.edu"><td>Marshalltown Community College</td><td>iavalley.edu</td><td>1</td><td>56</td><td>88</td><td>77</td><td>85</td></tr>
 <tr data-search=":: welcome to ibais university :: ibais.edu"><td>:: Welcome to IBAIS University ::</td><td>ibais.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="illinois benedictine college ibc.edu"><td>Illinois Benedictine College</td><td>ibc.edu</td><td>1</td><td>95</td><td>92</td><td>100</td><td>92</td></tr>
 <tr data-search="international business college ibcfortwayne.edu"><td>International Business College</td><td>ibcfortwayne.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -2148,7 +2164,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="new york college of health professions nycollege.edu"><td>New York College of Health Professions</td><td>nycollege.edu</td><td>1</td><td>78</td><td>90</td><td>58</td><td>92</td></tr>
 <tr data-search="new york institute of technology (nyit) nyit.edu"><td>New York Institute of Technology (NYIT)</td><td>nyit.edu</td><td>1</td><td>93</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="new york medical college nymc.edu"><td>New York Medical College</td><td>nymc.edu</td><td>1</td><td>69</td><td>83</td><td>77</td><td>100</td></tr>
-<tr data-search="new york university nyu.edu"><td>New York University</td><td>nyu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="new york university nyu.edu"><td>New York University</td><td>nyu.edu</td><td>1</td><td>90</td><td>91</td><td>73</td><td>77</td></tr>
 <tr data-search="oakland city university (ocu)  oakland city, indiana oak.edu"><td>Oakland City University (OCU)  Oakland City, Indiana</td><td>oak.edu</td><td>1</td><td>46</td><td>79</td><td>58</td><td>85</td></tr>
 <tr data-search="oak hills christian college oakhills.edu"><td>Oak Hills Christian College</td><td>oakhills.edu</td><td>1</td><td>100</td><td>90</td><td>73</td><td>100</td></tr>
 <tr data-search="oakland university oakland.edu"><td>Oakland University</td><td>oakland.edu</td><td>1</td><td>82</td><td>94</td><td>46</td><td>92</td></tr>
@@ -2186,6 +2202,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="okefenokee technical college okefenokeetech.edu"><td>Okefenokee Technical College</td><td>okefenokeetech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="oklahoma state university okstate.edu"><td>Oklahoma State University</td><td>okstate.edu</td><td>1</td><td>72</td><td>97</td><td>54</td><td>92</td></tr>
 <tr data-search="oglala lakota college olc.edu"><td>Oglala Lakota College</td><td>olc.edu</td><td>1</td><td>100</td><td>88</td><td>77</td><td>100</td></tr>
+<tr data-search="state university of new york college at old westbury oldwestbury.edu"><td>State University of New York College at Old Westbury</td><td>oldwestbury.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="the university of mississippi olemiss.edu"><td>The University of Mississippi</td><td>olemiss.edu</td><td>1</td><td>85</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="our lady of holy cross college olhcc.edu"><td>Our Lady of Holy Cross College</td><td>olhcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="olin college of engineering olin.edu"><td>Olin College of Engineering</td><td>olin.edu</td><td>1</td><td>92</td><td>87</td><td>58</td><td>92</td></tr>
@@ -2200,12 +2217,14 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="omnitech institute provides quality education to students who wish to pursue careers in technical and medical fields omnitech.edu"><td>Omnitech Institute provides quality education to students who wish to pursue careers in technical and medical fields</td><td>omnitech.edu</td><td>1</td><td>100</td><td>85</td><td>100</td><td>100</td></tr>
 <tr data-search="o\&#x27;more college of design omorecollege.edu"><td>O\&#x27;More College of Design</td><td>omorecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="omsk state pedagogical university omsk.edu"><td>Omsk State Pedagogical University</td><td>omsk.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="state university of new york college at oneonta oneonta.edu"><td>State University of New York College at Oneonta</td><td>oneonta.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="ohio northern university onu.edu"><td>Ohio Northern University</td><td>onu.edu</td><td>1</td><td>96</td><td>97</td><td>58</td><td>85</td></tr>
 <tr data-search="oklahoma panhandle state university opsu.edu"><td>Oklahoma Panhandle State University</td><td>opsu.edu</td><td>1</td><td>92</td><td>100</td><td>73</td><td>85</td></tr>
 <tr data-search="orange coast college orangecoastcollege.edu"><td>Orange Coast College</td><td>orangecoastcollege.edu</td><td>1</td><td>100</td><td>96</td><td>58</td><td>82</td></tr>
 <tr data-search="oregon state university oregonstate.edu"><td>Oregon State University</td><td>oregonstate.edu</td><td>1</td><td>100</td><td>92</td><td>58</td><td>100</td></tr>
 <tr data-search="oral roberts university oru.edu"><td>Oral Roberts University</td><td>oru.edu</td><td>1</td><td>81</td><td>85</td><td>46</td><td>85</td></tr>
-<tr data-search="ohio state university agricultural technical institute osu.edu"><td>Ohio State University Agricultural Technical Institute</td><td>osu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="ohio state university agricultural technical institute osu.edu"><td>Ohio State University Agricultural Technical Institute</td><td>osu.edu</td><td>1</td><td>93</td><td>86</td><td>77</td><td>83</td></tr>
+<tr data-search="state university of new york at oswego oswego.edu"><td>State University of New York at Oswego</td><td>oswego.edu</td><td>1</td><td>100</td><td>92</td><td>54</td><td>92</td></tr>
 <tr data-search="ozarks technical community college otc.edu"><td>Ozarks Technical Community College</td><td>otc.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="ottawa university ottawa.edu"><td>Ottawa University</td><td>ottawa.edu</td><td>1</td><td>85</td><td>100</td><td>54</td><td>83</td></tr>
 <tr data-search="otterbein university otterbein.edu"><td>Otterbein University</td><td>otterbein.edu</td><td>1</td><td>72</td><td>93</td><td>77</td><td>92</td></tr>
@@ -2301,6 +2320,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="pacific islands university piu.edu"><td>Pacific Islands University</td><td>piu.edu</td><td>1</td><td>89</td><td>90</td><td>96</td><td>85</td></tr>
 <tr data-search="planwel university planwel.edu"><td>Planwel University</td><td>planwel.edu</td><td>1</td><td>100</td><td>73</td><td>85</td><td>91</td></tr>
 <tr data-search="platt college platt.edu"><td>Platt College</td><td>platt.edu</td><td>1</td><td>77</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="state university of new york college at plattsburgh plattsburgh.edu"><td>State University of New York College at Plattsburgh</td><td>plattsburgh.edu</td><td>1</td><td>97</td><td>96</td><td>58</td><td>92</td></tr>
 <tr data-search="pacific lutheran theological seminary plts.edu"><td>Pacific Lutheran Theological Seminary</td><td>plts.edu</td><td>1</td><td>100</td><td>64</td><td>58</td><td>77</td></tr>
 <tr data-search="pacific lutheran university plu.edu"><td>Pacific Lutheran University</td><td>plu.edu</td><td>1</td><td>88</td><td>95</td><td>58</td><td>92</td></tr>
 <tr data-search="plymouth state university plymouth.edu"><td>Plymouth State University</td><td>plymouth.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -2315,6 +2335,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="porterville college portervillecollege.edu"><td>Porterville College</td><td>portervillecollege.edu</td><td>1</td><td>95</td><td>100</td><td>54</td><td>100</td></tr>
 <tr data-search="post university of waterbury post.edu"><td>Post University of Waterbury</td><td>post.edu</td><td>1</td><td>86</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="potomac state college potomacstatecollege.edu"><td>Potomac State College</td><td>potomacstatecollege.edu</td><td>1</td><td>73</td><td>93</td><td>58</td><td>83</td></tr>
+<tr data-search="state university of new york college at potsdam potsdam.edu"><td>State University of New York College at Potsdam</td><td>potsdam.edu</td><td>1</td><td>90</td><td>98</td><td>38</td><td>83</td></tr>
 <tr data-search="pikes peak community college ppcc.edu"><td>Pikes Peak Community College</td><td>ppcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="palestine polytechnic university ppu.edu"><td>Palestine Polytechnic University</td><td>ppu.edu</td><td>1</td><td>73</td><td>77</td><td>96</td><td>75</td></tr>
 <tr data-search="prairie bible institute prairie.edu"><td>Prairie Bible Institute</td><td>prairie.edu</td><td>1</td><td>79</td><td>82</td><td>77</td><td>92</td></tr>
@@ -2348,6 +2369,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="pueblo community college pueblocc.edu"><td>Pueblo Community College</td><td>pueblocc.edu</td><td>2</td><td>93</td><td>91</td><td>50</td><td>85</td></tr>
 <tr data-search="pulaski technical college pulaskitech.edu"><td>Pulaski Technical College</td><td>pulaskitech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="polytechnic university of puerto rico pupr.edu"><td>Polytechnic University of Puerto Rico</td><td>pupr.edu</td><td>1</td><td>41</td><td>68</td><td>58</td><td>75</td></tr>
+<tr data-search="state university of new york college at purchase purchase.edu"><td>State University of New York College at Purchase</td><td>purchase.edu</td><td>1</td><td>94</td><td>99</td><td>58</td><td>92</td></tr>
 <tr data-search="purdue university purdue.edu"><td>Purdue University</td><td>purdue.edu</td><td>1</td><td>79</td><td>96</td><td>35</td><td>75</td></tr>
 <tr data-search="purdue university calumet purduecal.edu"><td>Purdue University Calumet</td><td>purduecal.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="purdue global university (student email) purdueglobal.edu"><td>Purdue Global University (Student email)</td><td>purdueglobal.edu</td><td>1</td><td>57</td><td>94</td><td>54</td><td>92</td></tr>
@@ -2473,6 +2495,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="home » saint mary\&#x27;s college, notre dame, in saintmarys.edu"><td>Home » Saint Mary\&#x27;s College, Notre Dame, IN</td><td>saintmarys.edu</td><td>1</td><td>76</td><td>97</td><td>54</td><td>92</td></tr>
 <tr data-search="st. meinrad college saintmeinrad.edu"><td>St. Meinrad College</td><td>saintmeinrad.edu</td><td>1</td><td>93</td><td>72</td><td>73</td><td>85</td></tr>
 <tr data-search="saint paul college saintpaul.edu"><td>Saint Paul College</td><td>saintpaul.edu</td><td>1</td><td>94</td><td>99</td><td>54</td><td>100</td></tr>
+<tr data-search="st. paul&#x27;s college saintpauls.edu"><td>St. Paul&#x27;s College</td><td>saintpauls.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint vincent seminary saintvincentseminary.edu"><td>Saint Vincent Seminary</td><td>saintvincentseminary.edu</td><td>1</td><td>91</td><td>93</td><td>73</td><td>85</td></tr>
 <tr data-search="home â salem college salem.edu"><td>Home â Salem College</td><td>salem.edu</td><td>1</td><td>45</td><td>91</td><td>54</td><td>83</td></tr>
 <tr data-search="salem community college salemcc.edu"><td>Salem Community College</td><td>salemcc.edu</td><td>1</td><td>94</td><td>85</td><td>92</td><td>92</td></tr>
@@ -2509,10 +2532,12 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="st. clair county community college sc4.edu"><td>St. Clair County Community College</td><td>sc4.edu</td><td>1</td><td>98</td><td>89</td><td>73</td><td>92</td></tr>
 <tr data-search="scad &gt; the university for creative careers scad.edu"><td>SCAD &gt; The University for Creative Careers</td><td>scad.edu</td><td>1</td><td>76</td><td>92</td><td>50</td><td>100</td></tr>
 <tr data-search="seward county community college and area technical school sccc.edu"><td>Seward County Community College and Area Technical School</td><td>sccc.edu</td><td>1</td><td>93</td><td>89</td><td>77</td><td>100</td></tr>
+<tr data-search="state center community college district scccd.edu"><td>State Center Community College District</td><td>scccd.edu</td><td>1</td><td>89</td><td>90</td><td>92</td><td>91</td></tr>
 <tr data-search="southeastern iowa community college scciowa.edu"><td>Southeastern Iowa Community College</td><td>scciowa.edu</td><td>1</td><td>87</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="southern california college of optometry scco.edu"><td>Southern California College of Optometry</td><td>scco.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="santiago canyon college sccollege.edu"><td>Santiago Canyon College</td><td>sccollege.edu</td><td>1</td><td>85</td><td>98</td><td>96</td><td>77</td></tr>
 <tr data-search="spartanburg community college sccsc.edu"><td>Spartanburg Community College</td><td>sccsc.edu</td><td>1</td><td>94</td><td>96</td><td>58</td><td>85</td></tr>
+<tr data-search="state college of florida, manatee scf.edu"><td>State College of Florida, Manatee</td><td>scf.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="schechter institutes schechter.edu"><td>Schechter Institutes</td><td>schechter.edu</td><td>1</td><td>94</td><td>62</td><td>54</td><td>92</td></tr>
 <tr data-search="schiller international university, madrid schiller.edu"><td>Schiller International University, Madrid</td><td>schiller.edu</td><td>1</td><td>86</td><td>92</td><td>58</td><td>85</td></tr>
 <tr data-search="schoolcraft college schoolcraft.edu"><td>Schoolcraft College</td><td>schoolcraft.edu</td><td>1</td><td>91</td><td>97</td><td>54</td><td>100</td></tr>
@@ -2620,7 +2645,8 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="san joaquin college of law sjcl.edu"><td>San Joaquin College of Law</td><td>sjcl.edu</td><td>1</td><td>100</td><td>82</td><td>77</td><td>69</td></tr>
 <tr data-search="saint joseph\&#x27;s college of maine sjcme.edu"><td>Saint Joseph\&#x27;s College of Maine</td><td>sjcme.edu</td><td>1</td><td>83</td><td>88</td><td>54</td><td>92</td></tr>
 <tr data-search="st. john&#x27;s college - santa fe sjcsf.edu"><td>St. John&#x27;s College - Santa Fe</td><td>sjcsf.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="st. john fisher college sjfc.edu"><td>St. John Fisher College</td><td>sjfc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st.joseph\&#x27;s college (autonomous), trichy, tamilnadu. sjctni.edu"><td>St.Joseph\&#x27;s College (Autonomous), Trichy, Tamilnadu.</td><td>sjctni.edu</td><td>1</td><td>39</td><td>80</td><td>46</td><td>67</td></tr>
+<tr data-search="st. john fisher college sjfc.edu"><td>St. John Fisher College</td><td>sjfc.edu</td><td>1</td><td>63</td><td>96</td><td>58</td><td>83</td></tr>
 <tr data-search="st. johns river state college sjrstate.edu"><td>St. Johns River State College</td><td>sjrstate.edu</td><td>1</td><td>93</td><td>99</td><td>54</td><td>100</td></tr>
 <tr data-search="saint john\&#x27;s seminary sjs.edu"><td>Saint John\&#x27;s Seminary</td><td>sjs.edu</td><td>1</td><td>64</td><td>80</td><td>58</td><td>77</td></tr>
 <tr data-search="california state university, san jose sjsu.edu"><td>California State University, San Jose</td><td>sjsu.edu</td><td>1</td><td>64</td><td>92</td><td>58</td><td>75</td></tr>
@@ -2651,6 +2677,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="southern methodist university smu.edu"><td>Southern Methodist University</td><td>smu.edu</td><td>1</td><td>65</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="saint mary\&#x27;s university of minnesota smumn.edu"><td>Saint Mary\&#x27;s University of Minnesota</td><td>smumn.edu</td><td>1</td><td>80</td><td>90</td><td>31</td><td>92</td></tr>
 <tr data-search="st. mary-of-the-woods college smwc.edu"><td>St. Mary-of-the-Woods College</td><td>smwc.edu</td><td>1</td><td>95</td><td>81</td><td>54</td><td>92</td></tr>
+<tr data-search="st. norbert college snc.edu"><td>St. Norbert College</td><td>snc.edu</td><td>1</td><td>94</td><td>94</td><td>58</td><td>100</td></tr>
 <tr data-search="snead state community college snead.edu"><td>Snead State Community College</td><td>snead.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="southern new hampshire university (snhu) snhu.edu"><td>Southern New Hampshire University (SNHU)</td><td>snhu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="snow college snow.edu"><td>Snow College</td><td>snow.edu</td><td>1</td><td>77</td><td>91</td><td>58</td><td>100</td></tr>
@@ -2692,6 +2719,8 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="spartan college of aeronautics and technology spartan.edu"><td>Spartan College of Aeronautics and Technology</td><td>spartan.edu</td><td>1</td><td>100</td><td>92</td><td>81</td><td>100</td></tr>
 <tr data-search="saint peter\&#x27;s college home spc.edu"><td>Saint Peter\&#x27;s College Home</td><td>spc.edu</td><td>1</td><td>98</td><td>92</td><td>54</td><td>92</td></tr>
 <tr data-search="south piedmont community college spcc.edu"><td>South Piedmont Community College</td><td>spcc.edu</td><td>1</td><td>85</td><td>100</td><td>100</td><td>85</td></tr>
+<tr data-search="st. petersburg college spcollege.edu"><td>St. Petersburg College</td><td>spcollege.edu</td><td>1</td><td>93</td><td>92</td><td>54</td><td>92</td></tr>
+<tr data-search="st. paul christian university spcu.edu"><td>St. Paul Christian University</td><td>spcu.edu</td><td>1</td><td>98</td><td>69</td><td>96</td><td>92</td></tr>
 <tr data-search="spelman college spelman.edu"><td>Spelman College</td><td>spelman.edu</td><td>1</td><td>82</td><td>96</td><td>35</td><td>91</td></tr>
 <tr data-search="spencerian college spencerian.edu"><td>Spencerian College</td><td>spencerian.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="spertus institute of jewish studies spertus.edu"><td>Spertus Institute of Jewish Studies</td><td>spertus.edu</td><td>1</td><td>73</td><td>80</td><td>100</td><td>92</td></tr>
@@ -2709,8 +2738,12 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="seminole state college sscok.edu"><td>Seminole State College</td><td>sscok.edu</td><td>1</td><td>95</td><td>94</td><td>73</td><td>82</td></tr>
 <tr data-search="southern states university ssu.edu"><td>Southern States University</td><td>ssu.edu</td><td>1</td><td>54</td><td>84</td><td>46</td><td>85</td></tr>
 <tr data-search="st. augustine&#x27;s college north carolina st-aug.edu"><td>St. Augustine&#x27;s College North Carolina</td><td>st-aug.edu</td><td>1</td><td>67</td><td>91</td><td>54</td><td>85</td></tr>
+<tr data-search="st. thomas aquinas college stac.edu"><td>St. Thomas Aquinas College</td><td>stac.edu</td><td>1</td><td>91</td><td>89</td><td>50</td><td>85</td></tr>
 <tr data-search="home » stamford international university (thailand) stamford.edu"><td>Home » Stamford International University (Thailand)</td><td>stamford.edu</td><td>1</td><td>42</td><td>89</td><td>35</td><td>92</td></tr>
-<tr data-search="stanford university stanford.edu"><td>Stanford University</td><td>stanford.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>92</td></tr>
+<tr data-search="stanbridge college stanbridge.edu"><td>Stanbridge College</td><td>stanbridge.edu</td><td>1</td><td>75</td><td>91</td><td>54</td><td>100</td></tr>
+<tr data-search="stanford university stanford.edu"><td>Stanford University</td><td>stanford.edu</td><td>1</td><td>95</td><td>100</td><td>81</td><td>92</td></tr>
+<tr data-search="stanly community college stanly.edu"><td>Stanly Community College</td><td>stanly.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stark state college starkstate.edu"><td>Stark State College</td><td>starkstate.edu</td><td>1</td><td>75</td><td>91</td><td>54</td><td>85</td></tr>
 <tr data-search="st. augustine college staugustine.edu"><td>St. Augustine College</td><td>staugustine.edu</td><td>1</td><td>97</td><td>95</td><td>54</td><td>92</td></tr>
 <tr data-search="springfield technical community college stcc.edu"><td>Springfield Technical Community College</td><td>stcc.edu</td><td>1</td><td>86</td><td>94</td><td>77</td><td>100</td></tr>
 <tr data-search="st. charles community college stchas.edu"><td>St. Charles Community College</td><td>stchas.edu</td><td>1</td><td>90</td><td>100</td><td>54</td><td>100</td></tr>
@@ -2718,6 +2751,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="saint cloud state university stcloudstate.edu"><td>Saint Cloud State University</td><td>stcloudstate.edu</td><td>1</td><td>100</td><td>91</td><td>50</td><td>83</td></tr>
 <tr data-search="st. cloud state university stealth.edu"><td>St. Cloud State University</td><td>stealth.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="one of the best catholic colleges stedwards.edu"><td>One of the Best Catholic Colleges</td><td>stedwards.edu</td><td>1</td><td>84</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="stefan university stefan-university.edu"><td>Stefan University</td><td>stefan-university.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="st. francis career college stfranciscareercollege.edu"><td>St. Francis Career College</td><td>stfranciscareercollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint john&#x27;s university (ny) stjohns.edu"><td>Saint John&#x27;s University (NY)</td><td>stjohns.edu</td><td>1</td><td>68</td><td>89</td><td>35</td><td>92</td></tr>
 <tr data-search="st. john&#x27;s seminary stjohnscollege.edu"><td>St. John&#x27;s Seminary</td><td>stjohnscollege.edu</td><td>1</td><td>100</td><td>95</td><td>54</td><td>100</td></tr>
@@ -2730,21 +2764,29 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="saint mary&#x27;s college of california stmarys-ca.edu"><td>Saint Mary&#x27;s College of California</td><td>stmarys-ca.edu</td><td>1</td><td>99</td><td>95</td><td>58</td><td>92</td></tr>
 <tr data-search="st. mary&#x27;s university of san antonio stmarytx.edu"><td>St. Mary&#x27;s University of San Antonio</td><td>stmarytx.edu</td><td>1</td><td>85</td><td>79</td><td>54</td><td>92</td></tr>
 <tr data-search="st. matthew\&#x27;s university stmatthews.edu"><td>St. Matthew\&#x27;s University</td><td>stmatthews.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>100</td></tr>
+<tr data-search="st. nersess armenian seminary stnersess.edu"><td>St. Nersess Armenian Seminary</td><td>stnersess.edu</td><td>1</td><td>79</td><td>85</td><td>73</td><td>77</td></tr>
+<tr data-search="st. olaf college—a private liberal arts college of the lutheran church in minnesota stolaf.edu"><td>St. Olaf College—A private liberal arts college of the Lutheran church in Minnesota</td><td>stolaf.edu</td><td>1</td><td>98</td><td>95</td><td>73</td><td>85</td></tr>
 <tr data-search="stony brook university, stony brook, new york stonybrook.edu"><td>Stony Brook University, Stony Brook, New York</td><td>stonybrook.edu</td><td>1</td><td>73</td><td>97</td><td>58</td><td>100</td></tr>
 <tr data-search="academic medical center at state university of new york at stony brook stonybrookmedicine.edu"><td>Academic medical center at State University of New York at Stony Brook</td><td>stonybrookmedicine.edu</td><td>1</td><td>83</td><td>100</td><td>92</td><td>92</td></tr>
+<tr data-search="st. tikhon\&#x27;s orthodox theological seminary stots.edu"><td>St. Tikhon\&#x27;s Orthodox Theological Seminary</td><td>stots.edu</td><td>1</td><td>86</td><td>58</td><td>69</td><td>100</td></tr>
 <tr data-search="online college degree program strayer.edu"><td>Online College Degree Program</td><td>strayer.edu</td><td>1</td><td>99</td><td>92</td><td>46</td><td>85</td></tr>
 <tr data-search="cardinal stritch university stritch.edu"><td>Cardinal Stritch University</td><td>stritch.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>85</td></tr>
 <tr data-search="college of saint rose strose.edu"><td>College of Saint Rose</td><td>strose.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="st. thomas university (fl) stu.edu"><td>St. Thomas University (FL)</td><td>stu.edu</td><td>1</td><td>86</td><td>97</td><td>73</td><td>92</td></tr>
 <tr data-search="saint vincent college stvincent.edu"><td>Saint Vincent College</td><td>stvincent.edu</td><td>1</td><td>88</td><td>95</td><td>54</td><td>92</td></tr>
 <tr data-search="southern university and a&amp;m college subr.edu"><td>Southern University and A&amp;M College</td><td>subr.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="southern university at new orleans suno.edu"><td>Southern University at New Orleans</td><td>suno.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="niagara county community college suny.edu"><td>Niagara County Community College</td><td>suny.edu</td><td>1</td><td>82</td><td>92</td><td>54</td><td>100</td></tr>
 <tr data-search="adirondack community college sunyacc.edu"><td>Adirondack Community College</td><td>sunyacc.edu</td><td>1</td><td>93</td><td>89</td><td>54</td><td>92</td></tr>
+<tr data-search="state university of new york system sunycentral.edu"><td>State University of New York System</td><td>sunycentral.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="columbia-greene community college sunycgcc.edu"><td>Columbia-Greene Community College</td><td>sunycgcc.edu</td><td>1</td><td>88</td><td>95</td><td>58</td><td>92</td></tr>
 <tr data-search="dutchess community college sunydutchess.edu"><td>Dutchess Community College</td><td>sunydutchess.edu</td><td>1</td><td>88</td><td>94</td><td>54</td><td>100</td></tr>
+<tr data-search="state university of new york institute of technology at utica/rome sunyit.edu"><td>State University of New York Institute of Technology at Utica/Rome</td><td>sunyit.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="jamestown community college sunyjcc.edu"><td>Jamestown Community College</td><td>sunyjcc.edu</td><td>1</td><td>95</td><td>100</td><td>50</td><td>92</td></tr>
 <tr data-search="jefferson community college sunyjefferson.edu"><td>Jefferson Community College</td><td>sunyjefferson.edu</td><td>1</td><td>89</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="state university of new york maritime college sunymaritime.edu"><td>State University of New York Maritime College</td><td>sunymaritime.edu</td><td>1</td><td>94</td><td>96</td><td>73</td><td>92</td></tr>
 <tr data-search="onondaga community college sunyocc.edu"><td>Onondaga Community College</td><td>sunyocc.edu</td><td>1</td><td>97</td><td>95</td><td>54</td><td>100</td></tr>
+<tr data-search="state university of new york college of optometry sunyopt.edu"><td>State University of New York College of Optometry</td><td>sunyopt.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>85</td></tr>
 <tr data-search="orange county community college sunyorange.edu"><td>Orange County Community College</td><td>sunyorange.edu</td><td>1</td><td>93</td><td>96</td><td>50</td><td>100</td></tr>
 <tr data-search="schenectady county community college sunysccc.edu"><td>Schenectady County Community College</td><td>sunysccc.edu</td><td>1</td><td>90</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="schenectady county community college sunysuffolk.edu"><td>Schenectady County Community College</td><td>sunysuffolk.edu</td><td>1</td><td>65</td><td>85</td><td>54</td><td>92</td></tr>
@@ -2825,6 +2867,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="university of nevada - las vegas unlv.edu"><td>University of Nevada - Las Vegas</td><td>unlv.edu</td><td>1</td><td>78</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="university of oregon uoregon.edu"><td>University of Oregon</td><td>uoregon.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="university of pennsylvania upenn.edu"><td>University of Pennsylvania</td><td>upenn.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>92</td></tr>
+<tr data-search="state university of new york upstate medical university upstate.edu"><td>State University of New York Upstate Medical University</td><td>upstate.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="seoul national university useoul.edu"><td>Seoul National University</td><td>useoul.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="saint joseph college usj.edu"><td>Saint Joseph College</td><td>usj.edu</td><td>1</td><td>92</td><td>89</td><td>54</td><td>100</td></tr>
 <tr data-search="the university of utah utah.edu"><td>The University of Utah</td><td>utah.edu</td><td>1</td><td>30</td><td>100</td><td>58</td><td>92</td></tr>
@@ -2838,7 +2881,7 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="associate degree, college degrees vcc.edu"><td>Associate Degree, College Degrees</td><td>vcc.edu</td><td>1</td><td>100</td><td>81</td><td>100</td><td>85</td></tr>
 <tr data-search="central virginia community college vccs.edu"><td>Central Virginia Community College</td><td>vccs.edu</td><td>1</td><td>75</td><td>87</td><td>46</td><td>92</td></tr>
 <tr data-search="accredited christian universities, crichton higher education university tennessee, online teacher education memphis degree programs victory.edu"><td>Accredited Christian Universities, Crichton Higher Education University Tennessee, Online Teacher Education Memphis Degree programs</td><td>victory.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="villa maria college, buffalo, ny villanova.edu"><td>Villa Maria College, Buffalo, NY</td><td>villanova.edu</td><td>1</td><td>96</td><td>96</td><td>54</td><td>92</td></tr>
+<tr data-search="villa maria college, buffalo, ny villanova.edu"><td>Villa Maria College, Buffalo, NY</td><td>villanova.edu</td><td>1</td><td>86</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="university of virginia, charlottesville virginia.edu"><td>University of Virginia, Charlottesville</td><td>virginia.edu</td><td>1</td><td>93</td><td>88</td><td>69</td><td>100</td></tr>
 <tr data-search="virginia polytechnic institute and state university (virginia tech) vt.edu"><td>Virginia Polytechnic Institute and State University (Virginia Tech)</td><td>vt.edu</td><td>1</td><td>87</td><td>96</td><td>58</td><td>82</td></tr>
 <tr data-search="free university (virginia theological university) vtu.edu"><td>Free University (Virginia Theological University)</td><td>vtu.edu</td><td>1</td><td>100</td><td>63</td><td>85</td><td>91</td></tr>
@@ -2849,10 +2892,12 @@ _Stats as of 2026-05-06 06:14 UTC — last scan: 2026-05-05_
 <tr data-search="everest college in portland wbcollege.edu"><td>Everest College in Portland</td><td>wbcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="george c wallace state community college-selma wccs.edu"><td>George C Wallace State Community College-Selma</td><td>wccs.edu</td><td>1</td><td>87</td><td>88</td><td>54</td><td>92</td></tr>
 <tr data-search="college of osteopathic medicine of the pacific (western university of health sciences) westernu.edu"><td>College of Osteopathic Medicine of the Pacific (Western University of Health Sciences)</td><td>westernu.edu</td><td>1</td><td>98</td><td>92</td><td>58</td><td>92</td></tr>
+<tr data-search="state university of west georgia westga.edu"><td>State University of West Georgia</td><td>westga.edu</td><td>1</td><td>94</td><td>97</td><td>54</td><td>92</td></tr>
 <tr data-search="university of wisconsin - madison wisc.edu"><td>University of Wisconsin - Madison</td><td>wisc.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="college of william and mary wm.edu"><td>College of William and Mary</td><td>wm.edu</td><td>1</td><td>74</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="career college wrightcc.edu"><td>Career College</td><td>wrightcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="john wycliffe theological college wycliffe.edu"><td>John Wycliffe Theological College</td><td>wycliffe.edu</td><td>1</td><td>100</td><td>91</td><td>100</td><td>92</td></tr>
+<tr data-search="st. xavier\&#x27;s college xaviers.edu"><td>St. Xavier\&#x27;s College</td><td>xaviers.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>77</td></tr>
 <tr data-search="xavier university of louisiana xula.edu"><td>Xavier University of Louisiana</td><td>xula.edu</td><td>1</td><td>91</td><td>86</td><td>50</td><td>82</td></tr>
 <tr data-search="yale university yale.edu"><td>Yale University</td><td>yale.edu</td><td>1</td><td>100</td><td>88</td><td>92</td><td>100</td></tr>
 <tr data-search=":: welcome to yeshwantrao chavan college of engineering :: ycce.edu"><td>:: Welcome to Yeshwantrao Chavan College of Engineering ::</td><td>ycce.edu</td><td>1</td><td>48</td><td>91</td><td>92</td><td>77</td></tr>
