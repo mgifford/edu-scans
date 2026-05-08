@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
+_Stats as of 2026-05-08 05:54 UTC — last scan: 2026-05-07_
 
-**47** scan batches run
+**57** scan batches run
 
-**2,868** of **3,863** available pages audited (**74.2%** coverage)
-**2,162** successful audits (**75.4%** of audited)
+**2,883** of **3,863** available pages audited (**74.6%** coverage)
+**2,173** successful audits (**75.4%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master | 2,817 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-06 |
-| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-06 |
+| Usa Edu Master | 2,833 | 3,763 | 86 | 90 | 65 | 90 | 2026-05-07 |
+| Usa Edu Top100 | 100 | 100 | 88 | 95 | 66 | 93 | 2026-05-07 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 2,849 of 2,849 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 2,864 of 2,864 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -648,6 +648,7 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="claremont mckenna college claremontmckenna.edu"><td>Claremont McKenna College</td><td>claremontmckenna.edu</td><td>1</td><td>91</td><td>99</td><td>92</td><td>85</td></tr>
 <tr data-search="clarendon college clarendoncollege.edu"><td>Clarendon College</td><td>clarendoncollege.edu</td><td>1</td><td>75</td><td>96</td><td>73</td><td>75</td></tr>
 <tr data-search="clarion university of pennsylvania clarion.edu"><td>Clarion University of Pennsylvania</td><td>clarion.edu</td><td>1</td><td>93</td><td>100</td><td>54</td><td>100</td></tr>
+<tr data-search="sterling and francine clark art institute clarkart.edu"><td>Sterling and Francine Clark Art Institute</td><td>clarkart.edu</td><td>1</td><td>72</td><td>90</td><td>54</td><td>82</td></tr>
 <tr data-search="clarke university clarke.edu"><td>Clarke University</td><td>clarke.edu</td><td>1</td><td>98</td><td>78</td><td>58</td><td>100</td></tr>
 <tr data-search="clarkson university clarkson.edu"><td>Clarkson University</td><td>clarkson.edu</td><td>1</td><td>93</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="clark state community college clarkstate.edu"><td>Clark State Community College</td><td>clarkstate.edu</td><td>1</td><td>100</td><td>96</td><td>96</td><td>100</td></tr>
@@ -2556,6 +2557,7 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="south carolina state university sct.edu"><td>South Carolina State University</td><td>sct.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="st cloud technical and community college sctcc.edu"><td>St Cloud Technical and Community College</td><td>sctcc.edu</td><td>1</td><td>86</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="sarasota county technical institute (scti) scti.edu"><td>Sarasota County Technical Institute (SCTI)</td><td>scti.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stautzenberger college sctoday.edu"><td>Stautzenberger College</td><td>sctoday.edu</td><td>1</td><td>88</td><td>86</td><td>54</td><td>92</td></tr>
 <tr data-search="santa clara university scu.edu"><td>Santa Clara University</td><td>scu.edu</td><td>1</td><td>81</td><td>95</td><td>58</td><td>100</td></tr>
 <tr data-search="southern california university soma scusoma.edu"><td>Southern California University SOMA</td><td>scusoma.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="sojourner-douglass college sdc.edu"><td>Sojourner-Douglass College</td><td>sdc.edu</td><td>1</td><td>100</td><td>81</td><td>96</td><td>91</td></tr>
@@ -2588,6 +2590,7 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="southeastern university seu.edu"><td>Southeastern University</td><td>seu.edu</td><td>1</td><td>—</td><td>90</td><td>96</td><td>45</td></tr>
 <tr data-search="sewanee, university of the south sewanee.edu"><td>Sewanee, University of the South</td><td>sewanee.edu</td><td>1</td><td>93</td><td>92</td><td>58</td><td>92</td></tr>
 <tr data-search="san francisco art institute sfai.edu"><td>San Francisco Art Institute</td><td>sfai.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stephen f. austin state university sfasu.edu"><td>Stephen F. Austin State University</td><td>sfasu.edu</td><td>1</td><td>94</td><td>90</td><td>54</td><td>85</td></tr>
 <tr data-search="south florida bible college &amp; theological seminary sfbc.edu"><td>South Florida Bible College &amp; Theological Seminary</td><td>sfbc.edu</td><td>1</td><td>70</td><td>83</td><td>73</td><td>100</td></tr>
 <tr data-search="st. francis college, fort wayne sfc.edu"><td>St. Francis College, Fort Wayne</td><td>sfc.edu</td><td>1</td><td>91</td><td>80</td><td>54</td><td>92</td></tr>
 <tr data-search="santa fe community college sfcc.edu"><td>Santa Fe Community College</td><td>sfcc.edu</td><td>1</td><td>66</td><td>97</td><td>50</td><td>92</td></tr>
@@ -2639,6 +2642,7 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="sitting bull college sittingbull.edu"><td>Sitting Bull College</td><td>sittingbull.edu</td><td>1</td><td>67</td><td>75</td><td>81</td><td>85</td></tr>
 <tr data-search="southern illinois university at carbondale siu.edu"><td>Southern Illinois University at Carbondale</td><td>siu.edu</td><td>1</td><td>86</td><td>82</td><td>54</td><td>92</td></tr>
 <tr data-search="southern illinois university at edwardsville siue.edu"><td>Southern Illinois University at Edwardsville</td><td>siue.edu</td><td>1</td><td>75</td><td>91</td><td>88</td><td>92</td></tr>
+<tr data-search="staten island university hospital siuh.edu"><td>Staten Island University Hospital</td><td>siuh.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="st. joseph college (ct) sjc.edu"><td>St. Joseph College (CT)</td><td>sjc.edu</td><td>1</td><td>100</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="st. john&#x27;s college - annapolis sjca.edu"><td>St. John&#x27;s College - Annapolis</td><td>sjca.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="san jose city college homepage sjcc.edu"><td>San Jose City College Homepage</td><td>sjcc.edu</td><td>1</td><td>95</td><td>96</td><td>92</td><td>92</td></tr>
@@ -2752,7 +2756,14 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="st. cloud state university stealth.edu"><td>St. Cloud State University</td><td>stealth.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="one of the best catholic colleges stedwards.edu"><td>One of the Best Catholic Colleges</td><td>stedwards.edu</td><td>1</td><td>84</td><td>100</td><td>54</td><td>100</td></tr>
 <tr data-search="stefan university stefan-university.edu"><td>Stefan University</td><td>stefan-university.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stenotype institute stenotype.edu"><td>Stenotype Institute</td><td>stenotype.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stephens college stephens.edu"><td>Stephens College</td><td>stephens.edu</td><td>1</td><td>95</td><td>89</td><td>73</td><td>92</td></tr>
+<tr data-search="sterling college sterling.edu"><td>Sterling College</td><td>sterling.edu</td><td>1</td><td>69</td><td>89</td><td>69</td><td>92</td></tr>
+<tr data-search="stetson university stetson.edu"><td>Stetson University</td><td>stetson.edu</td><td>1</td><td>88</td><td>97</td><td>58</td><td>100</td></tr>
+<tr data-search="stevens institute of technology stevens-tech.edu"><td>Stevens Institute of Technology</td><td>stevens-tech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stevenson university stevenson.edu"><td>Stevenson University</td><td>stevenson.edu</td><td>1</td><td>74</td><td>85</td><td>50</td><td>100</td></tr>
 <tr data-search="st. francis career college stfranciscareercollege.edu"><td>St. Francis Career College</td><td>stfranciscareercollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="stillman college stillman.edu"><td>Stillman College</td><td>stillman.edu</td><td>1</td><td>90</td><td>89</td><td>96</td><td>85</td></tr>
 <tr data-search="saint john&#x27;s university (ny) stjohns.edu"><td>Saint John&#x27;s University (NY)</td><td>stjohns.edu</td><td>1</td><td>68</td><td>89</td><td>35</td><td>92</td></tr>
 <tr data-search="st. john&#x27;s seminary stjohnscollege.edu"><td>St. John&#x27;s Seminary</td><td>stjohnscollege.edu</td><td>1</td><td>100</td><td>95</td><td>54</td><td>100</td></tr>
 <tr data-search="college of saint catherine stkate.edu"><td>College of Saint Catherine</td><td>stkate.edu</td><td>1</td><td>76</td><td>94</td><td>54</td><td>100</td></tr>
@@ -2766,9 +2777,13 @@ _Stats as of 2026-05-07 06:18 UTC — last scan: 2026-05-06_
 <tr data-search="st. matthew\&#x27;s university stmatthews.edu"><td>St. Matthew\&#x27;s University</td><td>stmatthews.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>100</td></tr>
 <tr data-search="st. nersess armenian seminary stnersess.edu"><td>St. Nersess Armenian Seminary</td><td>stnersess.edu</td><td>1</td><td>79</td><td>85</td><td>73</td><td>77</td></tr>
 <tr data-search="st. olaf college—a private liberal arts college of the lutheran church in minnesota stolaf.edu"><td>St. Olaf College—A private liberal arts college of the Lutheran church in Minnesota</td><td>stolaf.edu</td><td>1</td><td>98</td><td>95</td><td>73</td><td>85</td></tr>
-<tr data-search="stony brook university, stony brook, new york stonybrook.edu"><td>Stony Brook University, Stony Brook, New York</td><td>stonybrook.edu</td><td>1</td><td>73</td><td>97</td><td>58</td><td>100</td></tr>
+<tr data-search="stone child college stonechild.edu"><td>Stone Child College</td><td>stonechild.edu</td><td>1</td><td>100</td><td>82</td><td>100</td><td>85</td></tr>
+<tr data-search="stonehill college stonehill.edu"><td>Stonehill College</td><td>stonehill.edu</td><td>1</td><td>93</td><td>100</td><td>58</td><td>92</td></tr>
+<tr data-search="stony brook university, stony brook, new york stonybrook.edu"><td>Stony Brook University, Stony Brook, New York</td><td>stonybrook.edu</td><td>1</td><td>92</td><td>97</td><td>54</td><td>100</td></tr>
 <tr data-search="academic medical center at state university of new york at stony brook stonybrookmedicine.edu"><td>Academic medical center at State University of New York at Stony Brook</td><td>stonybrookmedicine.edu</td><td>1</td><td>83</td><td>100</td><td>92</td><td>92</td></tr>
 <tr data-search="st. tikhon\&#x27;s orthodox theological seminary stots.edu"><td>St. Tikhon\&#x27;s Orthodox Theological Seminary</td><td>stots.edu</td><td>1</td><td>86</td><td>58</td><td>69</td><td>100</td></tr>
+<tr data-search="stratford university stratford.edu"><td>Stratford University</td><td>stratford.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="strathmore university strathmore.edu"><td>Strathmore University</td><td>strathmore.edu</td><td>1</td><td>77</td><td>89</td><td>73</td><td>100</td></tr>
 <tr data-search="online college degree program strayer.edu"><td>Online College Degree Program</td><td>strayer.edu</td><td>1</td><td>99</td><td>92</td><td>46</td><td>85</td></tr>
 <tr data-search="cardinal stritch university stritch.edu"><td>Cardinal Stritch University</td><td>stritch.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>85</td></tr>
 <tr data-search="college of saint rose strose.edu"><td>College of Saint Rose</td><td>strose.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
