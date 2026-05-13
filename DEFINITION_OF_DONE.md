@@ -84,8 +84,8 @@ repository-specific acceptance criteria.
 ### 1. Data integrity
 
 - The denominator is correct for the unit being reported:
-  - page-based scans use total available pages
-  - domain-based scans say that they are domain-based
+    - page-based scans use total available pages
+    - domain-based scans say that they are domain-based
 - Coverage percentages do not exceed 100% unless the report explicitly explains
   why a different denominator is being used
 - Reachable counts are not presented as if they were total coverage counts
