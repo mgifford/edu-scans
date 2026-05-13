@@ -517,9 +517,10 @@ async def test_scan_toon_concurrency_limit_processes_all_domains() -> None:
     async def mock_batch(urls, **kwargs):
         results = {}
         for url in urls:
-            if "mit.edu" in url:
+            hostname = urlparse(url).hostname or ""
+            if hostname.endswith(".mit.edu"):
                 results[url] = valid_result_mit
-            elif "harvard.edu" in url:
+            elif hostname.endswith(".harvard.edu"):
                 results[url] = valid_result_harvard
         return results
 

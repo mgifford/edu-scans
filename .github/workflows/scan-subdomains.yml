@@ -140,7 +140,7 @@ jobs:
           echo "- Rate limit: ${{ steps.inputs.outputs.rate }} req/sec (per domain)" >> "$GITHUB_STEP_SUMMARY"
           echo "- Concurrency: ${{ steps.inputs.outputs.concurrency }} domains in parallel" >> "$GITHUB_STEP_SUMMARY"
           echo "- Timeout: ${{ steps.inputs.outputs.timeout }}s" >> "$GITHUB_STEP_SUMMARY"
-          if [ -n "${{ steps.inputs.outputs.offset }}" ] && [ "${{ steps.inputs.outputs.offset }}" != "0" ]; then
+          if [ "${{ steps.inputs.outputs.offset }}" != "0" ]; then
             echo "- Domain offset: ${{ steps.inputs.outputs.offset }}" >> "$GITHUB_STEP_SUMMARY"
           fi
           if [ -n "${{ steps.inputs.outputs.max_domains }}" ]; then
