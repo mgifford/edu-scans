@@ -8,7 +8,9 @@ domain records — without introducing duplicates.
 
 from __future__ import annotations
 
+import asyncio
 import json
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -259,6 +261,9 @@ class SubdomainScanner:
         prefixes: list[str],
         rate_limit_per_second: float = 2.0,
         max_domains: int | None = None,
+        start_offset: int = 0,
+        concurrency_limit: int = 1,
+        on_progress: Callable[[int, int], None] | None = None,
     ) -> SubdomainScanStats:
         """Scan all apex domains in a TOON file for active subdomains.
 
@@ -280,9 +285,25 @@ class SubdomainScanner:
         Args:
             toon_data: Parsed TOON JSON object (mutated in-place).
             prefixes: Flat list of subdomain prefixes to probe.
-            rate_limit_per_second: Maximum HTTP requests per second.
-            max_domains: When set, only the first *max_domains* apex domains
-                are probed (useful for testing or incremental runs).
+            rate_limit_per_second: Maximum HTTP requests per second *per
+                concurrent domain*.  With ``concurrency_limit > 1`` the
+                overall outgoing rate is approximately
+                ``rate_limit_per_second × concurrency_limit``.
+            max_domains: When set, only *max_domains* apex domains are probed
+                after applying *start_offset*.  Useful for incremental runs.
+            start_offset: Skip the first *start_offset* apex domains before
+                selecting *max_domains*.  Combine with *max_domains* to process
+                the domain list in batches across multiple runs.
+            concurrency_limit: Maximum number of apex domains scanned
+                concurrently.  Values above 1 multiply effective throughput at
+                the cost of higher total outgoing request rate.  Each
+                concurrently-running domain still honours its own
+                *rate_limit_per_second*; the combined rate seen by the network
+                is roughly ``rate_limit_per_second × concurrency_limit``.
+            on_progress: Optional callback invoked after each domain completes.
+                Receives ``(domains_completed, total_domains)`` as positional
+                integers.  Use this to save incremental progress so partial
+                results survive a timeout.
 
         Returns:
             ``SubdomainScanStats`` with counts and the full result list.
@@ -298,75 +319,100 @@ class SubdomainScanner:
         }
 
         apex_domains = _extract_apex_domains_from_toon(toon_data)
+        if start_offset:
+            apex_domains = apex_domains[start_offset:]
         if max_domains is not None:
             apex_domains = apex_domains[:max_domains]
 
         stats.domains_scanned = len(apex_domains)
+        total_domains = len(apex_domains)
 
-        for apex_domain in apex_domains:
+        semaphore = asyncio.Semaphore(concurrency_limit)
+
+        async def _scan_one(
+            apex_domain: str,
+        ) -> tuple[str, list[SubdomainResult], int]:
+            """Probe one apex domain under the shared concurrency semaphore."""
             entry = domain_entries.get(apex_domain)
             if entry is None:
-                continue
-
+                return apex_domain, [], 0
             existing_urls = _existing_urls_for_domain(entry)
+            async with semaphore:
+                found, probed = await self.scan_domain(
+                    apex_domain,
+                    prefixes,
+                    existing_urls,
+                    rate_limit_per_second=rate_limit_per_second,
+                )
+            return apex_domain, found, probed
 
-            found, probed_count = await self.scan_domain(
-                apex_domain,
-                prefixes,
-                existing_urls,
-                rate_limit_per_second=rate_limit_per_second,
-            )
+        # Create tasks for all apex domains and await them as they complete so
+        # on_progress can be called (and the TOON mutated) promptly after each
+        # domain finishes — even when running concurrently.
+        tasks = [asyncio.create_task(_scan_one(d)) for d in apex_domains]
+        completed = 0
+
+        for coro in asyncio.as_completed(tasks):
+            apex_domain, found, probed_count = await coro
+            completed += 1
 
             stats.candidates_probed += probed_count
 
-            for result in found:
-                # Use the redirect target as the recorded URL when the
-                # subdomain root redirected to a different URL.
-                recorded_url = result.redirected_to if result.redirected_to else result.url
+            entry = domain_entries.get(apex_domain)
+            if entry is not None:
+                for result in found:
+                    # Use the redirect target as the recorded URL when the
+                    # subdomain root redirected to a different URL.
+                    recorded_url = (
+                        result.redirected_to if result.redirected_to else result.url
+                    )
 
-                page_record: dict[str, Any] = {
-                    "url": recorded_url,
-                    "is_root_page": False,
-                    "subdomain": result.subdomain,
-                    "subdomain_prefix": result.prefix,
-                    "discovered_via": "subdomain-scan",
-                    "validation_status": "valid",
-                    "status_code": result.status_code,
-                    "validated_at": result.validated_at,
-                }
-
-                # 1. Append a page reference to the apex domain entry so that
-                #    URL-validation workflows can find and re-validate the URL.
-                entry.setdefault("pages", []).append(page_record)
-
-                # 2. Add a first-class domain entry for the subdomain so it
-                #    appears as its own row in the domains report.
-                if result.subdomain not in domain_entries:
-                    subdomain_entry: dict[str, Any] = {
-                        "canonical_domain": result.subdomain,
-                        "is_subdomain": True,
-                        "parent_domain": apex_domain,
-                        "institution_name": entry.get("institution_name"),
+                    page_record: dict[str, Any] = {
+                        "url": recorded_url,
+                        "is_root_page": False,
+                        "subdomain": result.subdomain,
                         "subdomain_prefix": result.prefix,
-                        "pages": [
-                            {
-                                "url": recorded_url,
-                                "is_root_page": True,
-                                "discovered_via": "subdomain-scan",
-                                "validation_status": "valid",
-                                "status_code": result.status_code,
-                                "validated_at": result.validated_at,
-                            }
-                        ],
+                        "discovered_via": "subdomain-scan",
+                        "validation_status": "valid",
+                        "status_code": result.status_code,
+                        "validated_at": result.validated_at,
                     }
-                    toon_data.setdefault("domains", []).append(subdomain_entry)
-                    domain_entries[result.subdomain] = subdomain_entry
-                else:
-                    stats.duplicates_skipped += 1
 
-            stats.valid_found += len(found)
-            stats.redirected += sum(1 for r in found if r.redirected_to)
-            stats.results.extend(found)
+                    # 1. Append a page reference to the apex domain entry so
+                    #    that URL-validation workflows can re-validate the URL.
+                    entry.setdefault("pages", []).append(page_record)
+
+                    # 2. Add a first-class domain entry for the subdomain so
+                    #    it appears as its own row in the domains report.
+                    if result.subdomain not in domain_entries:
+                        subdomain_entry: dict[str, Any] = {
+                            "canonical_domain": result.subdomain,
+                            "is_subdomain": True,
+                            "parent_domain": apex_domain,
+                            "institution_name": entry.get("institution_name"),
+                            "subdomain_prefix": result.prefix,
+                            "pages": [
+                                {
+                                    "url": recorded_url,
+                                    "is_root_page": True,
+                                    "discovered_via": "subdomain-scan",
+                                    "validation_status": "valid",
+                                    "status_code": result.status_code,
+                                    "validated_at": result.validated_at,
+                                }
+                            ],
+                        }
+                        toon_data.setdefault("domains", []).append(subdomain_entry)
+                        domain_entries[result.subdomain] = subdomain_entry
+                    else:
+                        stats.duplicates_skipped += 1
+
+                stats.valid_found += len(found)
+                stats.redirected += sum(1 for r in found if r.redirected_to)
+                stats.results.extend(found)
+
+            if on_progress is not None:
+                on_progress(completed, total_domains)
 
         return stats
 

@@ -88,8 +88,47 @@ def _build_parser() -> argparse.ArgumentParser:
         metavar="N",
         dest="max_domains",
         help=(
-            "Only probe the first N apex domains.  Omit to process all domains.  "
-            "Useful for incremental runs and smoke-tests."
+            "Only probe *N* apex domains starting from --offset.  Omit to "
+            "process all domains after the offset.  Useful for incremental "
+            "runs and smoke-tests."
+        ),
+    )
+    parser.add_argument(
+        "--offset",
+        type=int,
+        default=0,
+        metavar="N",
+        dest="offset",
+        help=(
+            "Skip the first N apex domains before scanning.  Combine with "
+            "--max-domains to process the domain list in batches across "
+            "multiple runs (e.g. --offset 0 --max-domains 500, then "
+            "--offset 500 --max-domains 500, …)."
+        ),
+    )
+    parser.add_argument(
+        "--concurrency",
+        type=int,
+        default=1,
+        metavar="N",
+        dest="concurrency",
+        help=(
+            "Number of apex domains to scan concurrently (default: 1).  "
+            "Higher values multiply effective throughput at the cost of a "
+            "proportionally higher combined outgoing request rate.  A value "
+            "of 20 combined with --rate-limit 5.0 yields ~100 req/sec."
+        ),
+    )
+    parser.add_argument(
+        "--save-interval",
+        type=int,
+        default=50,
+        metavar="N",
+        dest="save_interval",
+        help=(
+            "Write the output TOON file every N domains (default: 50).  "
+            "Frequent saves mean partial results are preserved if the job is "
+            "cancelled or times out."
         ),
     )
     parser.add_argument(
@@ -146,30 +185,54 @@ async def _run(args: argparse.Namespace) -> int:
     print(f"Loaded {len(prefixes)} subdomain prefixes from {patterns_path}")
     print(f"Input TOON:  {toon_path}")
     print(f"Output TOON: {output_path}")
+    if args.offset:
+        print(f"Starting from domain offset: {args.offset}")
+    if args.concurrency > 1:
+        print(f"Concurrency: {args.concurrency} domains in parallel")
+    print(f"Saving progress every {args.save_interval} domains")
+
+    # ------------------------------------------------------------------ #
+    # Ensure output directory exists before the first periodic save        #
+    # ------------------------------------------------------------------ #
+    if not output_path.parent.exists():
+        print(f"Creating output directory: {output_path.parent}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # ------------------------------------------------------------------ #
+    # Build an on_progress callback that saves the TOON periodically       #
+    # ------------------------------------------------------------------ #
+    def _on_progress(completed: int, total: int) -> None:
+        if completed % args.save_interval == 0 or completed == total:
+            save_toon(toon_data, output_path)
+            print(
+                f"  💾 Progress saved: {completed}/{total} domains processed "
+                f"({output_path})"
+            )
 
     # ------------------------------------------------------------------ #
     # Run the scan                                                          #
     # ------------------------------------------------------------------ #
     scanner = SubdomainScanner(timeout_seconds=args.timeout)
-    print(
-        "\nScanning subdomains"
-        + (f" (first {args.max_domains} domains)" if args.max_domains else "")
-        + " …\n"
-    )
+    range_note = ""
+    if args.offset:
+        range_note += f" from offset {args.offset}"
+    if args.max_domains:
+        range_note += f" (first {args.max_domains} domains)"
+    print(f"\nScanning subdomains{range_note} …\n")
 
     stats = await scanner.scan_toon(
         toon_data,
         prefixes,
         rate_limit_per_second=args.rate_limit,
         max_domains=args.max_domains,
+        start_offset=args.offset,
+        concurrency_limit=args.concurrency,
+        on_progress=_on_progress,
     )
 
     # ------------------------------------------------------------------ #
-    # Save output                                                           #
+    # Final save (in case domain count was not divisible by save_interval) #
     # ------------------------------------------------------------------ #
-    if not output_path.parent.exists():
-        print(f"Creating output directory: {output_path.parent}")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
     save_toon(toon_data, output_path)
 
     # ------------------------------------------------------------------ #

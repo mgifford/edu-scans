@@ -432,6 +432,140 @@ async def test_scan_toon_respects_max_domains() -> None:
 
 
 @pytest.mark.asyncio
+async def test_scan_toon_respects_start_offset() -> None:
+    """start_offset skips the first N apex domains."""
+    toon = _make_toon(
+        [
+            _make_domain_entry("mit.edu"),
+            _make_domain_entry("harvard.edu"),
+            _make_domain_entry("stanford.edu"),
+        ]
+    )
+
+    scanner = SubdomainScanner()
+    call_args_log: list[list[str]] = []
+
+    async def capture_batch(urls, **kwargs):
+        call_args_log.append(list(urls))
+        return {}
+
+    with patch.object(scanner._validator, "validate_urls_batch", side_effect=capture_batch):
+        # Skip the first domain (mit.edu), scan the remaining two.
+        stats = await scanner.scan_toon(toon, prefixes=["library"], start_offset=1)
+
+    assert stats.domains_scanned == 2
+    all_urls = [url for batch in call_args_log for url in batch]
+    assert not any(urlparse(url).hostname == "library.mit.edu" for url in all_urls)
+    assert any(urlparse(url).hostname == "library.harvard.edu" for url in all_urls)
+    assert any(urlparse(url).hostname == "library.stanford.edu" for url in all_urls)
+
+
+@pytest.mark.asyncio
+async def test_scan_toon_offset_plus_max_domains() -> None:
+    """start_offset and max_domains together select a slice of domains."""
+    toon = _make_toon(
+        [
+            _make_domain_entry("mit.edu"),
+            _make_domain_entry("harvard.edu"),
+            _make_domain_entry("stanford.edu"),
+            _make_domain_entry("yale.edu"),
+        ]
+    )
+
+    scanner = SubdomainScanner()
+    scanned_hostnames: set[str] = set()
+
+    async def capture_batch(urls, **kwargs):
+        for url in urls:
+            scanned_hostnames.add(urlparse(url).hostname)
+        return {}
+
+    with patch.object(scanner._validator, "validate_urls_batch", side_effect=capture_batch):
+        # Offset 1, max 2 → should scan harvard.edu and stanford.edu only.
+        stats = await scanner.scan_toon(
+            toon, prefixes=["library"], start_offset=1, max_domains=2
+        )
+
+    assert stats.domains_scanned == 2
+    assert scanned_hostnames == {"library.harvard.edu", "library.stanford.edu"}
+
+
+@pytest.mark.asyncio
+async def test_scan_toon_concurrency_limit_processes_all_domains() -> None:
+    """concurrency_limit > 1 scans all domains and produces the same results."""
+    toon = _make_toon(
+        [
+            _make_domain_entry("mit.edu"),
+            _make_domain_entry("harvard.edu"),
+        ]
+    )
+
+    scanner = SubdomainScanner()
+    valid_result_mit = ValidationResult(
+        url="https://library.mit.edu/",
+        is_valid=True,
+        status_code=200,
+        validated_at="2024-01-01T00:00:00+00:00",
+    )
+    valid_result_harvard = ValidationResult(
+        url="https://library.harvard.edu/",
+        is_valid=True,
+        status_code=200,
+        validated_at="2024-01-01T00:00:00+00:00",
+    )
+
+    async def mock_batch(urls, **kwargs):
+        results = {}
+        for url in urls:
+            hostname = urlparse(url).hostname or ""
+            if hostname.endswith(".mit.edu"):
+                results[url] = valid_result_mit
+            elif hostname.endswith(".harvard.edu"):
+                results[url] = valid_result_harvard
+        return results
+
+    with patch.object(scanner._validator, "validate_urls_batch", side_effect=mock_batch):
+        stats = await scanner.scan_toon(
+            toon, prefixes=["library"], concurrency_limit=2
+        )
+
+    assert stats.domains_scanned == 2
+    assert stats.valid_found == 2
+    all_canonical = [d["canonical_domain"] for d in toon["domains"]]
+    assert "library.mit.edu" in all_canonical
+    assert "library.harvard.edu" in all_canonical
+
+
+@pytest.mark.asyncio
+async def test_scan_toon_on_progress_callback_called() -> None:
+    """on_progress is called once per domain with correct counters."""
+    toon = _make_toon(
+        [
+            _make_domain_entry("mit.edu"),
+            _make_domain_entry("harvard.edu"),
+        ]
+    )
+
+    scanner = SubdomainScanner()
+    progress_calls: list[tuple[int, int]] = []
+
+    def record_progress(completed: int, total: int) -> None:
+        progress_calls.append((completed, total))
+
+    mock_batch = AsyncMock(return_value={})
+    with patch.object(scanner._validator, "validate_urls_batch", new=mock_batch):
+        await scanner.scan_toon(
+            toon, prefixes=["library"], on_progress=record_progress
+        )
+
+    assert len(progress_calls) == 2
+    totals = {t for _, t in progress_calls}
+    assert totals == {2}
+    completed_values = sorted(c for c, _ in progress_calls)
+    assert completed_values == [1, 2]
+
+
+@pytest.mark.asyncio
 async def test_scan_toon_stats_counts_redirects() -> None:
     toon = _make_toon([_make_domain_entry("mit.edu")])
 
