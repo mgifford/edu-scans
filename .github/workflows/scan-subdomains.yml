@@ -24,10 +24,20 @@ on:
         required: false
         default: ''
         type: string
-      rate_limit:
-        description: 'Maximum HTTP requests per second'
+      offset:
+        description: 'Skip the first N apex domains before scanning (for batched runs)'
         required: false
-        default: '2.0'
+        default: '0'
+        type: string
+      concurrency:
+        description: 'Number of apex domains to scan concurrently'
+        required: false
+        default: '20'
+        type: string
+      rate_limit:
+        description: 'Maximum HTTP requests per second (per concurrent domain)'
+        required: false
+        default: '5.0'
         type: string
       timeout:
         description: 'HTTP request timeout in seconds'
@@ -68,21 +78,27 @@ jobs:
         id: inputs
         run: |
           TOON="${{ github.event.inputs.toon_file || 'data/toon-seeds/usa-edu-master.toon' }}"
-          RATE="${{ github.event.inputs.rate_limit || '2.0' }}"
+          RATE="${{ github.event.inputs.rate_limit || '5.0' }}"
           TIMEOUT="${{ github.event.inputs.timeout || '15' }}"
           MAX="${{ github.event.inputs.max_domains }}"
+          OFFSET="${{ github.event.inputs.offset || '0' }}"
+          CONCURRENCY="${{ github.event.inputs.concurrency || '20' }}"
 
           echo "toon=${TOON}" >> "$GITHUB_OUTPUT"
           echo "rate=${RATE}" >> "$GITHUB_OUTPUT"
           echo "timeout=${TIMEOUT}" >> "$GITHUB_OUTPUT"
           echo "max_domains=${MAX}" >> "$GITHUB_OUTPUT"
+          echo "offset=${OFFSET}" >> "$GITHUB_OUTPUT"
+          echo "concurrency=${CONCURRENCY}" >> "$GITHUB_OUTPUT"
 
       - name: Run subdomain scan
         run: |
           CMD="python3 -m src.cli.scan_subdomains \
             --toon '${{ steps.inputs.outputs.toon }}' \
             --rate-limit '${{ steps.inputs.outputs.rate }}' \
-            --timeout '${{ steps.inputs.outputs.timeout }}'"
+            --timeout '${{ steps.inputs.outputs.timeout }}' \
+            --concurrency '${{ steps.inputs.outputs.concurrency }}' \
+            --offset '${{ steps.inputs.outputs.offset }}'"
 
           if [ -n "${{ steps.inputs.outputs.max_domains }}" ]; then
             CMD="$CMD --max-domains '${{ steps.inputs.outputs.max_domains }}'"
@@ -102,6 +118,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Commit subdomain TOON files
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -120,8 +137,12 @@ jobs:
           echo "## Subdomain Scan Summary" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "- TOON file: \`${{ steps.inputs.outputs.toon }}\`" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Rate limit: ${{ steps.inputs.outputs.rate }} req/sec" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Rate limit: ${{ steps.inputs.outputs.rate }} req/sec (per domain)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Concurrency: ${{ steps.inputs.outputs.concurrency }} domains in parallel" >> "$GITHUB_STEP_SUMMARY"
           echo "- Timeout: ${{ steps.inputs.outputs.timeout }}s" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "${{ steps.inputs.outputs.offset }}" ] && [ "${{ steps.inputs.outputs.offset }}" != "0" ]; then
+            echo "- Domain offset: ${{ steps.inputs.outputs.offset }}" >> "$GITHUB_STEP_SUMMARY"
+          fi
           if [ -n "${{ steps.inputs.outputs.max_domains }}" ]; then
             echo "- Max domains: ${{ steps.inputs.outputs.max_domains }}" >> "$GITHUB_STEP_SUMMARY"
           fi
