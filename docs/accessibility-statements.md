@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-05-14 06:24 UTC — last scan: 2026-05-14_
+_Stats as of 2026-05-15 06:26 UTC — last scan: 2026-05-15_
 
-**22** scan batches run
+**26** scan batches run
 
-**6,095** of **7,626** available domains scanned (**79.9%** coverage)
-**5,128** of **6,095** scanned domains were reachable (**84.1%**)
-**1,927** of **5,128** reachable domains have an accessibility statement (**37.6%**)
-**1,552** domains have the statement link in the footer (**80.5%** of domains with a statement)
+**8,235** of **7,626** available domains scanned (**108.0%** coverage)
+**7,264** of **8,235** scanned domains were reachable (**88.2%**)
+**2,676** of **7,264** reachable domains have an accessibility statement (**36.8%**)
+**2,055** domains have the statement link in the footer (**76.8%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,821 | 1,278 | 1,055 | 45.3% | Apr 2026 – May 2026 |
-| Usa Edu Master Subdomains | 3,231 | 3,763 | 2,978 | 913 | 724 | 30.7% | May 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,822 | 1,280 | 1,057 | 45.4% | Apr 2026 – May 2026 |
+| Usa Edu Master Subdomains | 8,182 | 3,763 | 7,219 | 2,539 | 2,008 | 35.2% | May 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 59 | 57 | 65.6% | Apr 2026 – May 2026 |
-| **Total** | **7,112** | **7,626** | **5,889** | **2,250** | **1,836** | **38.2%** | — |
+| **Total** | **12,063** | **7,626** | **10,131** | **3,878** | **3,122** | **38.3%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
