@@ -35,6 +35,7 @@ from src.lib.settings import load_settings
 
 _STATS_MARKER_START = "<!-- LIGHTHOUSE_STATS_START -->"
 _STATS_MARKER_END = "<!-- LIGHTHOUSE_STATS_END -->"
+_SUBDOMAINS_SUFFIX = "_subdomains"
 
 
 # ---------------------------------------------------------------------------
@@ -51,7 +52,7 @@ def _count_toon_seed_urls(toon_seeds_dir: Path) -> dict[str, int]:
     counts: dict[str, int] = {}
     if not toon_seeds_dir.is_dir():
         return counts
-    for toon_file in _iter_effective_toon_seed_files(toon_seeds_dir):
+    for toon_file in _list_effective_toon_seed_files(toon_seeds_dir):
         try:
             data = json.loads(toon_file.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -71,7 +72,7 @@ def _build_institution_lookup(toon_seeds_dir: Path) -> dict[str, str]:
     lookup: dict[str, str] = {}
     if not toon_seeds_dir.is_dir():
         return lookup
-    for toon_file in _iter_effective_toon_seed_files(toon_seeds_dir):
+    for toon_file in _list_effective_toon_seed_files(toon_seeds_dir):
         try:
             data = json.loads(toon_file.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -84,17 +85,17 @@ def _build_institution_lookup(toon_seeds_dir: Path) -> dict[str, str]:
     return lookup
 
 
-def _iter_effective_toon_seed_files(toon_seeds_dir: Path) -> list[Path]:
+def _list_effective_toon_seed_files(toon_seeds_dir: Path) -> list[Path]:
     """Return TOON seed files preferring ``*_subdomains.toon`` over base seeds."""
     all_toon_files = sorted(toon_seeds_dir.glob("*.toon"))
     stems_with_subdomains: set[str] = {
-        f.stem[: -len("_subdomains")]
+        f.stem[: -len(_SUBDOMAINS_SUFFIX)]
         for f in all_toon_files
-        if f.stem.endswith("_subdomains")
+        if f.stem.endswith(_SUBDOMAINS_SUFFIX)
     }
     return [
         f for f in all_toon_files
-        if f.stem.endswith("_subdomains") or f.stem not in stems_with_subdomains
+        if f.stem.endswith(_SUBDOMAINS_SUFFIX) or f.stem not in stems_with_subdomains
     ]
 
 

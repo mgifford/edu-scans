@@ -15,6 +15,8 @@ from src.lib.settings import Settings
 from src.services.lighthouse_scanner import LighthouseScanResult, LighthouseScanner
 from src.storage.schema import initialize_schema
 
+_SUBDOMAINS_SUFFIX = "_subdomains"
+
 
 class LighthouseScannerJob:
     """Scanner job that runs Google Lighthouse audits from TOON file URLs."""
@@ -56,17 +58,17 @@ class LighthouseScannerJob:
                     seen.add(url)
         return urls
 
-    def _list_effective_toon_files(self, toon_seeds_dir: Path) -> list[Path]:
+    def _list_effective_toon_seed_files(self, toon_seeds_dir: Path) -> list[Path]:
         """Return TOON files preferring ``*_subdomains.toon`` over base seeds."""
         all_toon_files = sorted(toon_seeds_dir.glob("*.toon"))
         stems_with_subdomains: set[str] = {
-            f.stem[: -len("_subdomains")]
+            f.stem[: -len(_SUBDOMAINS_SUFFIX)]
             for f in all_toon_files
-            if f.stem.endswith("_subdomains")
+            if f.stem.endswith(_SUBDOMAINS_SUFFIX)
         }
         return [
             f for f in all_toon_files
-            if f.stem.endswith("_subdomains") or f.stem not in stems_with_subdomains
+            if f.stem.endswith(_SUBDOMAINS_SUFFIX) or f.stem not in stems_with_subdomains
         ]
 
     def _get_last_scan_time_per_country(self) -> Dict[str, str]:
@@ -429,7 +431,7 @@ class LighthouseScannerJob:
 
         # When skipping recently-scanned URLs, sort countries so those not
         # scanned recently (or never scanned) come first.
-        toon_files = self._list_effective_toon_files(toon_seeds_dir)
+        toon_files = self._list_effective_toon_seed_files(toon_seeds_dir)
         if skip_recently_scanned_days > 0:
             last_scan_times = self._get_last_scan_time_per_country()
             toon_files = sorted(
