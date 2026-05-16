@@ -42,7 +42,7 @@ class LighthouseScannerJob:
 
     def _extract_urls_from_toon(self, toon_data: dict) -> List[str]:
         """Extract all unique page URLs from TOON data structure.
-        
+
         Deduplicates URLs that appear in multiple domain entries or
         multiple times in the same domain's pages array.
         """
@@ -55,6 +55,19 @@ class LighthouseScannerJob:
                     urls.append(url)
                     seen.add(url)
         return urls
+
+    def _list_effective_toon_files(self, toon_seeds_dir: Path) -> list[Path]:
+        """Return TOON files preferring ``*_subdomains.toon`` over base seeds."""
+        all_toon_files = sorted(toon_seeds_dir.glob("*.toon"))
+        stems_with_subdomains: set[str] = {
+            f.stem[: -len("_subdomains")]
+            for f in all_toon_files
+            if f.stem.endswith("_subdomains")
+        }
+        return [
+            f for f in all_toon_files
+            if f.stem.endswith("_subdomains") or f.stem not in stems_with_subdomains
+        ]
 
     def _get_last_scan_time_per_country(self) -> Dict[str, str]:
         """Return the latest ``scanned_at`` timestamp per country code.
@@ -416,17 +429,16 @@ class LighthouseScannerJob:
 
         # When skipping recently-scanned URLs, sort countries so those not
         # scanned recently (or never scanned) come first.
+        toon_files = self._list_effective_toon_files(toon_seeds_dir)
         if skip_recently_scanned_days > 0:
             last_scan_times = self._get_last_scan_time_per_country()
             toon_files = sorted(
-                toon_seeds_dir.glob("*.toon"),
+                toon_files,
                 key=lambda p: (
                     last_scan_times.get(country_filename_to_code(p.stem), ""),
                     p.stem,
                 ),
             )
-        else:
-            toon_files = sorted(toon_seeds_dir.glob("*.toon"))
 
         print(f"Found {len(toon_files)} TOON files to process")
 

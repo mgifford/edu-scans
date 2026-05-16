@@ -2,10 +2,8 @@
 
 from __future__ import annotations
 
-import asyncio
 import json
 import sqlite3
-import tempfile
 from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
 
@@ -14,7 +12,6 @@ import pytest
 from src.jobs.lighthouse_scanner import LighthouseScannerJob
 from src.lib.settings import Settings
 from src.services.lighthouse_scanner import LighthouseScanResult
-from src.storage.schema import initialize_schema
 
 
 # ---------------------------------------------------------------------------
@@ -405,6 +402,32 @@ def toon_seeds_dir(tmp_path):
     return tmp_path
 
 
+@pytest.fixture
+def toon_seeds_with_subdomains_dir(tmp_path):
+    """Directory with base+subdomain paired seed plus an unrelated seed."""
+    base = {
+        "version": "0.1-seed",
+        "country": "USA",
+        "domains": [{"canonical_domain": "usa.example", "pages": [{"url": "https://usa.example/"}]}],
+    }
+    richer = {
+        "version": "0.1-seed",
+        "country": "USA_SUBDOMAINS",
+        "domains": [{"canonical_domain": "sub.usa.example", "pages": [{"url": "https://sub.usa.example/"}]}],
+    }
+    other = {
+        "version": "0.1-seed",
+        "country": "BETA",
+        "domains": [{"canonical_domain": "beta.example", "pages": [{"url": "https://beta.example/"}]}],
+    }
+    (tmp_path / "usa-edu-master.toon").write_text(json.dumps(base), encoding="utf-8")
+    (tmp_path / "usa-edu-master_subdomains.toon").write_text(
+        json.dumps(richer), encoding="utf-8"
+    )
+    (tmp_path / "beta.toon").write_text(json.dumps(other), encoding="utf-8")
+    return tmp_path
+
+
 @pytest.mark.asyncio
 async def test_scan_all_countries_processes_all(temp_settings, toon_seeds_dir):
     job = _make_job(temp_settings)
@@ -422,9 +445,26 @@ async def test_scan_all_countries_processes_all(temp_settings, toon_seeds_dir):
 
 
 @pytest.mark.asyncio
+async def test_scan_all_countries_prefers_subdomain_seed_file(
+    temp_settings, toon_seeds_with_subdomains_dir
+):
+    """Should skip a base seed when a matching _subdomains seed exists."""
+    job = _make_job(temp_settings)
+    scanned_stems: list[str] = []
+
+    async def _mock_scan(country_code, toon_path, *args, **kwargs):
+        scanned_stems.append(Path(toon_path).stem)
+        return {"country_code": country_code, "total_urls": 1, "urls_scanned": 1}
+
+    with patch.object(job, "scan_country", side_effect=_mock_scan):
+        await job.scan_all_countries(toon_seeds_with_subdomains_dir)
+
+    assert set(scanned_stems) == {"beta", "usa-edu-master_subdomains"}
+
+
+@pytest.mark.asyncio
 async def test_scan_all_countries_stops_when_budget_exhausted(temp_settings, toon_seeds_dir):
     """With an already-exhausted time budget no countries are started."""
-    import time
     job = _make_job(temp_settings)
 
     call_count = 0
