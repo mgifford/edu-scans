@@ -8,12 +8,21 @@ _SUBDOMAINS_SUFFIX = "_subdomains"
 
 
 def _should_include_seed_file(path: Path, stems_with_subdomains: set[str]) -> bool:
-    """Return True when *path* should be included in scanning/reporting."""
+    """Return True for subdomain seeds or base seeds without subdomain variants."""
     return path.stem.endswith(_SUBDOMAINS_SUFFIX) or path.stem not in stems_with_subdomains
 
 
 def list_effective_toon_seed_files(toon_seeds_dir: Path) -> list[Path]:
-    """Return TOON files preferring ``*_subdomains.toon`` over base seeds."""
+    """Return filtered TOON seed paths preferring ``*_subdomains.toon`` variants.
+
+    Args:
+        toon_seeds_dir: Directory containing ``*.toon`` seed files.
+
+    Returns:
+        List of seed file paths where each base seed is replaced by its matching
+        ``*_subdomains.toon`` file when that richer variant exists (for example,
+        ``foo.toon`` is excluded when ``foo_subdomains.toon`` is present).
+    """
     all_toon_files = sorted(toon_seeds_dir.glob("*.toon"))
     stems_with_subdomains: set[str] = {
         f.stem[: -len(_SUBDOMAINS_SUFFIX)]

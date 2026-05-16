@@ -622,7 +622,7 @@ def test_build_institution_lookup_ignores_invalid_json(tmp_path: Path) -> None:
 
 
 def test_count_toon_seed_urls_prefers_subdomain_seed_when_both_exist(tmp_path: Path) -> None:
-    """Coverage counting should avoid double-counting when _subdomains seed exists."""
+    """URL counting should avoid double-counting when _subdomains seed exists."""
     seeds_dir = tmp_path / "seeds"
     seeds_dir.mkdir()
     (seeds_dir / "usa-edu-master.toon").write_text(
