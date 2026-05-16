@@ -27,6 +27,7 @@ from urllib.parse import urlparse
 
 from src.lib.country_utils import country_code_to_display_name, country_filename_to_code
 from src.lib.settings import load_settings
+from src.lib.toon_seed_utils import list_effective_toon_seed_files
 
 
 # ---------------------------------------------------------------------------
@@ -51,7 +52,7 @@ def _count_toon_seed_urls(toon_seeds_dir: Path) -> dict[str, int]:
     counts: dict[str, int] = {}
     if not toon_seeds_dir.is_dir():
         return counts
-    for toon_file in toon_seeds_dir.glob("*.toon"):
+    for toon_file in list_effective_toon_seed_files(toon_seeds_dir):
         try:
             data = json.loads(toon_file.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -71,7 +72,7 @@ def _build_institution_lookup(toon_seeds_dir: Path) -> dict[str, str]:
     lookup: dict[str, str] = {}
     if not toon_seeds_dir.is_dir():
         return lookup
-    for toon_file in toon_seeds_dir.glob("*.toon"):
+    for toon_file in list_effective_toon_seed_files(toon_seeds_dir):
         try:
             data = json.loads(toon_file.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):

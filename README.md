@@ -202,7 +202,7 @@ This project is committed to transparency about build-time AI assistance.
 
 | Tool / LLM | What it was used for |
 |---|---|
-| GitHub Copilot (GPT-5.4) | Code edits, refactoring, repository migration work, documentation updates, process-document drafting (including definition-of-done documentation), and implementation assistance in VS Code |
+| GitHub Copilot (GPT-5.4 / GPT-5.5) | Code edits, refactoring, repository migration work, documentation updates, process-document drafting (including definition-of-done documentation), and implementation assistance in VS Code and Copilot Task Agent sessions |
 | Claude (Anthropic) | PR reviews, documentation editing, code-generation assistance during repository maintenance, and implementation of the Top 100 and state-split social media reporting features |
 | ChatGPT / GPT-4 / GPT-5 (OpenAI) | Design review, implementation review, debugging help, and documentation/report-generation assistance |
 

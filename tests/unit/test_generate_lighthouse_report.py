@@ -12,6 +12,7 @@ import pytest
 from src.cli.generate_lighthouse_report import (
     _build_institution_lookup,
     _build_stats_block,
+    _count_toon_seed_urls,
     _group_by_institution,
     _query_by_country,
     _query_by_url,
@@ -620,6 +621,63 @@ def test_build_institution_lookup_ignores_invalid_json(tmp_path: Path) -> None:
     assert result == {}
 
 
+def test_count_toon_seed_urls_uses_subdomain_when_both_exist(tmp_path: Path) -> None:
+    """URL counting should avoid double-counting when _subdomains seed exists."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    (seeds_dir / "usa-edu-master.toon").write_text(
+        json.dumps({"page_count": 10, "domains": []}),
+        encoding="utf-8",
+    )
+    (seeds_dir / "usa-edu-master_subdomains.toon").write_text(
+        json.dumps({"page_count": 30, "domains": []}),
+        encoding="utf-8",
+    )
+
+    counts = _count_toon_seed_urls(seeds_dir)
+    assert counts == {"USA_EDU_MASTER_SUBDOMAINS": 30}
+
+
+def test_build_institution_lookup_uses_subdomain_when_both_exist(
+    tmp_path: Path,
+) -> None:
+    """Institution lookup should ignore base seed when matching _subdomains exists."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    (seeds_dir / "usa-edu-master.toon").write_text(
+        json.dumps(
+            {
+                "domains": [
+                    {
+                        "canonical_domain": "base.example.edu",
+                        "institution_name": "Base Seed Name",
+                        "pages": [],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (seeds_dir / "usa-edu-master_subdomains.toon").write_text(
+        json.dumps(
+            {
+                "domains": [
+                    {
+                        "canonical_domain": "sub.example.edu",
+                        "institution_name": "Subdomain Seed Name",
+                        "pages": [],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    lookup = _build_institution_lookup(seeds_dir)
+    assert "base.example.edu" not in lookup
+    assert lookup["sub.example.edu"] == "Subdomain Seed Name"
+
+
 # ---------------------------------------------------------------------------
 # _group_by_institution tests
 # ---------------------------------------------------------------------------
@@ -850,4 +908,3 @@ def test_generate_lighthouse_report_includes_institution_breakdown(
     assert "70" in content
     # gov.example.fr has a11y=0.75 → displayed as 75 or 74 (rounded)
     assert "gov.example.fr" in content
-

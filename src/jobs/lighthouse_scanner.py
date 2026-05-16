@@ -12,6 +12,7 @@ from uuid import uuid4
 
 from src.lib.country_utils import country_filename_to_code
 from src.lib.settings import Settings
+from src.lib.toon_seed_utils import list_effective_toon_seed_files
 from src.services.lighthouse_scanner import LighthouseScanResult, LighthouseScanner
 from src.storage.schema import initialize_schema
 
@@ -42,7 +43,7 @@ class LighthouseScannerJob:
 
     def _extract_urls_from_toon(self, toon_data: dict) -> List[str]:
         """Extract all unique page URLs from TOON data structure.
-        
+
         Deduplicates URLs that appear in multiple domain entries or
         multiple times in the same domain's pages array.
         """
@@ -416,17 +417,16 @@ class LighthouseScannerJob:
 
         # When skipping recently-scanned URLs, sort countries so those not
         # scanned recently (or never scanned) come first.
+        toon_files = list_effective_toon_seed_files(toon_seeds_dir)
         if skip_recently_scanned_days > 0:
             last_scan_times = self._get_last_scan_time_per_country()
             toon_files = sorted(
-                toon_seeds_dir.glob("*.toon"),
+                toon_files,
                 key=lambda p: (
                     last_scan_times.get(country_filename_to_code(p.stem), ""),
                     p.stem,
                 ),
             )
-        else:
-            toon_files = sorted(toon_seeds_dir.glob("*.toon"))
 
         print(f"Found {len(toon_files)} TOON files to process")
 
