@@ -7,6 +7,11 @@ from pathlib import Path
 _SUBDOMAINS_SUFFIX = "_subdomains"
 
 
+def _should_include_seed_file(path: Path, stems_with_subdomains: set[str]) -> bool:
+    """Return True when *path* should be included in scanning/reporting."""
+    return path.stem.endswith(_SUBDOMAINS_SUFFIX) or path.stem not in stems_with_subdomains
+
+
 def list_effective_toon_seed_files(toon_seeds_dir: Path) -> list[Path]:
     """Return TOON files preferring ``*_subdomains.toon`` over base seeds."""
     all_toon_files = sorted(toon_seeds_dir.glob("*.toon"))
@@ -16,6 +21,7 @@ def list_effective_toon_seed_files(toon_seeds_dir: Path) -> list[Path]:
         if f.stem.endswith(_SUBDOMAINS_SUFFIX)
     }
     return [
-        f for f in all_toon_files
-        if f.stem.endswith(_SUBDOMAINS_SUFFIX) or f.stem not in stems_with_subdomains
+        f
+        for f in all_toon_files
+        if _should_include_seed_file(f, stems_with_subdomains)
     ]

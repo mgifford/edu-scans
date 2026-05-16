@@ -83,6 +83,8 @@ def _build_institution_lookup(toon_seeds_dir: Path) -> dict[str, str]:
             if canonical and name:
                 lookup[canonical] = name
     return lookup
+
+
 def _group_by_institution(
     rows_by_url: list[dict],
     institution_lookup: dict[str, str] | None = None,
