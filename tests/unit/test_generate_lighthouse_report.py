@@ -638,6 +638,46 @@ def test_count_toon_seed_urls_prefers_subdomain_seed_when_both_exist(tmp_path: P
     assert counts == {"USA_EDU_MASTER_SUBDOMAINS": 30}
 
 
+def test_build_institution_lookup_prefers_subdomain_seed_when_both_exist(
+    tmp_path: Path,
+) -> None:
+    """Institution lookup should ignore base seed when matching _subdomains exists."""
+    seeds_dir = tmp_path / "seeds"
+    seeds_dir.mkdir()
+    (seeds_dir / "usa-edu-master.toon").write_text(
+        json.dumps(
+            {
+                "domains": [
+                    {
+                        "canonical_domain": "base.example.edu",
+                        "institution_name": "Base Seed Name",
+                        "pages": [],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+    (seeds_dir / "usa-edu-master_subdomains.toon").write_text(
+        json.dumps(
+            {
+                "domains": [
+                    {
+                        "canonical_domain": "sub.example.edu",
+                        "institution_name": "Subdomain Seed Name",
+                        "pages": [],
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    lookup = _build_institution_lookup(seeds_dir)
+    assert "base.example.edu" not in lookup
+    assert lookup["sub.example.edu"] == "Subdomain Seed Name"
+
+
 # ---------------------------------------------------------------------------
 # _group_by_institution tests
 # ---------------------------------------------------------------------------
