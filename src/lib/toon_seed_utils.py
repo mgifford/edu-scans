@@ -8,7 +8,15 @@ _SUBDOMAINS_SUFFIX = "_subdomains"
 
 
 def _should_include_seed_file(path: Path, stems_with_subdomains: set[str]) -> bool:
-    """Return True for subdomain seeds or base seeds without subdomain variants."""
+    """Return True when a TOON seed should be included in effective processing.
+
+    Subdomain variants are always included. Base seeds are only included when
+    they do not have a matching ``*_subdomains.toon`` counterpart.
+
+    Args:
+        path: TOON seed file path.
+        stems_with_subdomains: Base stems that have subdomain variants.
+    """
     return path.stem.endswith(_SUBDOMAINS_SUFFIX) or path.stem not in stems_with_subdomains
 
 

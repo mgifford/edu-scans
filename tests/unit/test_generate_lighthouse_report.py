@@ -621,7 +621,7 @@ def test_build_institution_lookup_ignores_invalid_json(tmp_path: Path) -> None:
     assert result == {}
 
 
-def test_count_toon_seed_urls_prefers_subdomain_seed_when_both_exist(tmp_path: Path) -> None:
+def test_count_toon_seed_urls_uses_subdomain_when_both_exist(tmp_path: Path) -> None:
     """URL counting should avoid double-counting when _subdomains seed exists."""
     seeds_dir = tmp_path / "seeds"
     seeds_dir.mkdir()
@@ -638,7 +638,7 @@ def test_count_toon_seed_urls_prefers_subdomain_seed_when_both_exist(tmp_path: P
     assert counts == {"USA_EDU_MASTER_SUBDOMAINS": 30}
 
 
-def test_build_institution_lookup_prefers_subdomain_seed_when_both_exist(
+def test_build_institution_lookup_uses_subdomain_when_both_exist(
     tmp_path: Path,
 ) -> None:
     """Institution lookup should ignore base seed when matching _subdomains exists."""
