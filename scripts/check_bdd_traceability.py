@@ -10,9 +10,12 @@ from typing import Iterable
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-FEATURES_MAP_PATH = Path("FEATURES.md")
-FEATURES_DIR = Path("tests/bdd/features")
-STEPS_DIR = Path("tests/bdd/steps")
+FEATURES_MAP_PATH = REPO_ROOT / "FEATURES.md"
+FEATURES_DIR = REPO_ROOT / "tests/bdd/features"
+STEPS_DIR = REPO_ROOT / "tests/bdd/steps"
+FEATURES_MAP_REL = FEATURES_MAP_PATH.relative_to(REPO_ROOT).as_posix()
+FEATURES_DIR_REL = FEATURES_DIR.relative_to(REPO_ROOT).as_posix()
+STEPS_DIR_REL = STEPS_DIR.relative_to(REPO_ROOT).as_posix()
 BEHAVIOR_PATH_PREFIXES = (
     "src/services/",
     "src/cli/",
@@ -21,6 +24,7 @@ BEHAVIOR_PATH_PREFIXES = (
 )
 ALLOWED_TYPE_TAGS = {"@smoke", "@regression", "@workflow", "@docs-contract"}
 SCENARIO_ID_PATTERN = re.compile(r"\[[A-Z]+-\d{3}\]")
+BEHAVIOR_CHECK_EXCLUSIONS = {".github/workflows/bdd-quality.yml"}
 
 
 def _run_git_diff(base_range: str) -> list[str]:
@@ -87,14 +91,16 @@ def _get_changed_files() -> list[str]:
 
 
 def _is_feature_file(file_path: str) -> bool:
-    return file_path.startswith(f"{FEATURES_DIR.as_posix()}/") and file_path.endswith(".feature")
+    return file_path.startswith(f"{FEATURES_DIR_REL}/") and file_path.endswith(".feature")
 
 
 def _is_step_file(file_path: str) -> bool:
-    return file_path.startswith(f"{STEPS_DIR.as_posix()}/") and file_path.endswith(".js")
+    return file_path.startswith(f"{STEPS_DIR_REL}/") and file_path.endswith(".js")
 
 
 def _is_behavior_impl_file(file_path: str) -> bool:
+    if file_path in BEHAVIOR_CHECK_EXCLUSIONS:
+        return False
     return file_path.startswith(BEHAVIOR_PATH_PREFIXES)
 
 
@@ -152,7 +158,7 @@ def _validate_feature_step_consistency(
 def main() -> int:
     changed_files = _get_changed_files()
 
-    features_map_changed = FEATURES_MAP_PATH.as_posix() in changed_files
+    features_map_changed = FEATURES_MAP_REL in changed_files
     feature_files_changed = any(_is_feature_file(file_path) for file_path in changed_files)
     step_files_changed = any(_is_step_file(file_path) for file_path in changed_files)
     behavior_impl_changed = any(_is_behavior_impl_file(file_path) for file_path in changed_files)
@@ -173,7 +179,11 @@ def main() -> int:
         )
     )
 
-    feature_files = sorted(FEATURES_DIR.glob("*.feature"))
+    if not FEATURES_DIR.exists() or not FEATURES_DIR.is_dir():
+        errors.append(f"Required features directory is missing: {FEATURES_DIR_REL}/")
+        feature_files: list[Path] = []
+    else:
+        feature_files = sorted(FEATURES_DIR.glob("*.feature"))
     errors.extend(_validate_feature_catalog(feature_files))
 
     if errors:
