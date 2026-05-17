@@ -177,9 +177,9 @@ npm run test:bdd:docs-contract
 
 Key BDD artifacts:
 
-- `/home/runner/work/edu-scans/edu-scans/FEATURES.md` — capability map, user stories, traceability matrix
-- `/home/runner/work/edu-scans/edu-scans/tests/bdd/features/` — one Gherkin feature file per capability area
-- `/home/runner/work/edu-scans/edu-scans/tests/bdd/steps/` — executable step definitions
+- `FEATURES.md` — capability map, user stories, traceability matrix
+- `tests/bdd/features/` — one Gherkin feature file per capability area
+- `tests/bdd/steps/` — executable step definitions
 
 Behavior governance policy:
 

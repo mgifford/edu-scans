@@ -120,6 +120,35 @@ def _validate_feature_catalog(feature_files: Iterable[Path]) -> list[str]:
     return errors
 
 
+def _validate_behavior_traceability(
+    behavior_impl_changed: bool,
+    features_map_changed: bool,
+    feature_files_changed: bool,
+) -> list[str]:
+    if not behavior_impl_changed:
+        return []
+
+    errors: list[str] = []
+    if not features_map_changed:
+        errors.append("Behavior code/workflow changed, but FEATURES.md was not updated.")
+    if not feature_files_changed:
+        errors.append(
+            "Behavior code/workflow changed, but no Gherkin feature file was updated under tests/bdd/features/."
+        )
+    return errors
+
+
+def _validate_feature_step_consistency(
+    feature_files_changed: bool,
+    step_files_changed: bool,
+) -> list[str]:
+    if feature_files_changed and not step_files_changed:
+        return [
+            "Feature files changed, but no step definitions changed under tests/bdd/steps/."
+        ]
+    return []
+
+
 def main() -> int:
     changed_files = _get_changed_files()
 
@@ -130,20 +159,19 @@ def main() -> int:
 
     errors: list[str] = []
 
-    if behavior_impl_changed:
-        if not features_map_changed:
-            errors.append(
-                "Behavior code/workflow changed, but FEATURES.md was not updated."
-            )
-        if not feature_files_changed:
-            errors.append(
-                "Behavior code/workflow changed, but no Gherkin feature file was updated under tests/bdd/features/."
-            )
-
-    if feature_files_changed and not step_files_changed:
-        errors.append(
-            "Feature files changed, but no step definitions changed under tests/bdd/steps/."
+    errors.extend(
+        _validate_behavior_traceability(
+            behavior_impl_changed=behavior_impl_changed,
+            features_map_changed=features_map_changed,
+            feature_files_changed=feature_files_changed,
         )
+    )
+    errors.extend(
+        _validate_feature_step_consistency(
+            feature_files_changed=feature_files_changed,
+            step_files_changed=step_files_changed,
+        )
+    )
 
     feature_files = sorted(FEATURES_DIR.glob("*.feature"))
     errors.extend(_validate_feature_catalog(feature_files))
