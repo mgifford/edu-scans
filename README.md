@@ -167,6 +167,27 @@ python3 -m pytest tests/integration/ -v
 ruff check path/to/file.py tests/path/to/test_file.py
 ```
 
+Behavior-driven specs (Cucumber):
+
+```bash
+npm ci
+npm run check:bdd-traceability
+npm run test:bdd:docs-contract
+```
+
+Key BDD artifacts:
+
+- `/home/runner/work/edu-scans/edu-scans/FEATURES.md` — capability map, user stories, traceability matrix
+- `/home/runner/work/edu-scans/edu-scans/tests/bdd/features/` — one Gherkin feature file per capability area
+- `/home/runner/work/edu-scans/edu-scans/tests/bdd/steps/` — executable step definitions
+
+Behavior governance policy:
+
+- If behavior changes in `src/services/`, `src/cli/`, `src/jobs/`, or `.github/workflows/`,
+  update `FEATURES.md` and relevant Gherkin specs in the same pull request.
+- Keep scenario IDs and tags (`@smoke`, `@regression`, `@workflow`, `@docs-contract`) current.
+- Treat missing capability/story/spec links as a merge-blocking gap.
+
 For the GitHub Pages accessibility smoke tests:
 
 ```bash

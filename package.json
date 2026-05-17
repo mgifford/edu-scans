@@ -4,10 +4,14 @@
   "version": "1.0.0",
   "description": "Accessibility smoke tests for the generated GitHub Pages site.",
   "scripts": {
-    "test:a11y": "node scripts/run-axe-site-check.mjs"
+    "check:bdd-traceability": "python3 scripts/check_bdd_traceability.py",
+    "test:a11y": "node scripts/run-axe-site-check.mjs",
+    "test:bdd": "cucumber-js tests/bdd/features --require tests/bdd/steps/**/*.js",
+    "test:bdd:docs-contract": "cucumber-js tests/bdd/features --require tests/bdd/steps/**/*.js --tags \"@docs-contract\""
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.2",
+    "@cucumber/cucumber": "^12.9.0",
     "playwright": "^1.54.2"
   }
 }
