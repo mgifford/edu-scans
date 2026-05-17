@@ -24,7 +24,9 @@ BEHAVIOR_PATH_PREFIXES = (
 )
 ALLOWED_TYPE_TAGS = {"@smoke", "@regression", "@workflow", "@docs-contract"}
 SCENARIO_ID_PATTERN = re.compile(r"\[[A-Z]+-\d{3}\]")
+# Exclude BDD governance workflow itself from behavior-implementation coupling checks.
 BEHAVIOR_CHECK_EXCLUSIONS = {".github/workflows/bdd-quality.yml"}
+SCENARIO_PREFIXES = ("Scenario:", "Scenario Outline:")
 
 
 def _run_git_diff(base_range: str) -> list[str]:
@@ -118,7 +120,7 @@ def _validate_feature_catalog(feature_files: Iterable[Path]) -> list[str]:
 
         for line in text.splitlines():
             stripped = line.strip()
-            if stripped.startswith("Scenario:") and not SCENARIO_ID_PATTERN.search(stripped):
+            if stripped.startswith(SCENARIO_PREFIXES) and not SCENARIO_ID_PATTERN.search(stripped):
                 errors.append(
                     f"{feature_file}: scenario is missing an ID like [VAL-001] -> {stripped}"
                 )
