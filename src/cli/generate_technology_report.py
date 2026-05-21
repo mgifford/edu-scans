@@ -3,10 +3,18 @@
 Queries the metadata database for aggregate technology scan statistics
 and updates ``docs/technology-scanning.md`` with a live stats block between
 ``<!-- TECH_STATS_START -->`` and ``<!-- TECH_STATS_END -->``
-markers.  A summary JSON data file (``docs/technology-data.json``) is also
-written so that external tools and the page itself can link directly to the
-machine-readable results.  An optional CSV file (``docs/technology-data.csv``)
-exports one row per technology for independent verification and download.
+markers.  Two JSON data files are written:
+
+* ``docs/technology-data.json`` — full data including per-country page-level
+  drilldowns.  This file can be large and is excluded from version control;
+  it is uploaded as a GitHub Actions artifact instead.
+* ``docs/technology-index.json`` — compact cross-reference index mapping each
+  technology to its page count, categories, and per-country page counts.
+  This file is small enough to be committed to the repository and served via
+  GitHub Pages as a static API endpoint.
+
+An optional CSV file (``docs/technology-data.csv``) exports one row per
+technology for independent verification and download.
 """
 
 from __future__ import annotations
@@ -326,6 +334,121 @@ def _aggregate_tech_counts(
     return tech_counts, cat_counts, sorted_tech_categories
 
 
+def _build_technology_index(
+    conn: sqlite3.Connection,
+    generated_at: str,
+    base_url: str = "https://mgifford.github.io/edu-scans/",
+) -> dict:
+    """Build a compact technology cross-reference index from the database.
+
+    The index maps every detected technology name to its aggregate page count,
+    category list, and per-country page counts. No per-URL data is included,
+    keeping the file small enough to commit and serve via GitHub Pages.
+    """
+    rows = conn.execute(
+        """
+        SELECT country_code, url, technologies
+        FROM url_tech_results AS t
+        WHERE error_message IS NULL
+          AND technologies != '{}'
+          AND scanned_at = (
+              SELECT MAX(scanned_at)
+              FROM url_tech_results AS t2
+              WHERE t2.url = t.url
+                AND t2.error_message IS NULL
+          )
+        ORDER BY country_code, url
+        """
+    ).fetchall()
+
+    tech_pages: Counter = Counter()
+    tech_countries: dict[str, Counter] = {}
+    tech_cats: dict[str, set[str]] = {}
+    seen: set[tuple[str, str]] = set()
+
+    for row in rows:
+        country_code = row["country_code"]
+        url = row["url"]
+        url_key = (country_code, url)
+        if url_key in seen:
+            continue
+        seen.add(url_key)
+
+        try:
+            techs: dict = json.loads(row["technologies"] or "{}")
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        for tech_name, tech_info in techs.items():
+            tech_pages[tech_name] += 1
+            if tech_name not in tech_countries:
+                tech_countries[tech_name] = Counter()
+            tech_countries[tech_name][country_code] += 1
+
+            if not isinstance(tech_info, dict):
+                continue
+            cats: list[str] = tech_info.get("categories", [])
+            if tech_name not in tech_cats:
+                tech_cats[tech_name] = set()
+            tech_cats[tech_name].update(cats)
+
+    cat_pages: Counter = Counter()
+    cat_techs: dict[str, list[str]] = {}
+    for tech_name, cats in tech_cats.items():
+        for cat in cats:
+            cat_pages[cat] += tech_pages[tech_name]
+            cat_techs.setdefault(cat, [])
+            if tech_name not in cat_techs[cat]:
+                cat_techs[cat].append(tech_name)
+
+    by_technology = {
+        tech: {
+            "pages": tech_pages[tech],
+            "categories": sorted(tech_cats.get(tech, set())),
+            "by_country": dict(sorted(tech_countries[tech].items())),
+        }
+        for tech in sorted(tech_pages, key=lambda t: (-tech_pages[t], t))
+    }
+
+    by_category = {
+        cat: {
+            "pages": cat_pages[cat],
+            "technologies": sorted(cat_techs[cat]),
+        }
+        for cat in sorted(cat_pages, key=lambda c: (-cat_pages[c], c))
+    }
+
+    return {
+        "generated_at": generated_at,
+        "base_url": base_url,
+        "note": (
+            "Compact cross-reference index: technology → page count, categories, "
+            "and per-country page counts. For full per-URL drilldown data see the "
+            "technology-data.json workflow artifact."
+        ),
+        "by_technology": by_technology,
+        "by_category": by_category,
+    }
+
+
+def _empty_technology_index(
+    generated_at: str,
+    base_url: str = "https://mgifford.github.io/edu-scans/",
+) -> dict:
+    """Return an empty technology index payload with the standard schema."""
+    return {
+        "generated_at": generated_at,
+        "base_url": base_url,
+        "note": (
+            "Compact cross-reference index: technology → page count, categories, "
+            "and per-country page counts. For full per-URL drilldown data see the "
+            "technology-data.json workflow artifact."
+        ),
+        "by_technology": {},
+        "by_category": {},
+    }
+
+
 # ---------------------------------------------------------------------------
 # Stats block builder
 # ---------------------------------------------------------------------------
@@ -507,13 +630,15 @@ def generate_technology_report(
     data_path: Path,
     toon_seeds_dir: Path | None = None,
     csv_path: Path | None = None,
+    index_path: Path | None = None,
 ) -> bool:
-    """Update *page_path* stats block, write *data_path* JSON, and optionally write *csv_path* CSV.
+    """Update *page_path* stats block, write JSON outputs, and optionally write *csv_path* CSV.
 
     Args:
         db_path: Path to the SQLite metadata database.
         page_path: Path to the ``docs/technology-scanning.md`` Markdown page.
-        data_path: Output path for the machine-readable JSON data file.
+        data_path: Output path for the machine-readable JSON data file
+            (full drilldowns; large; excluded from version control).
         toon_seeds_dir: Directory containing ``*.toon`` seed files.  When
             provided the stats block will include a "X of Y available pages
             scanned" coverage line and ``total_available`` is written to the
@@ -521,6 +646,9 @@ def generate_technology_report(
         csv_path: Optional output path for a CSV file containing one row per
             detected technology.  When provided, the CSV enables independent
             verification and easy download of the full technology list.
+        index_path: Optional output path for the compact technology index JSON
+            (``docs/technology-index.json``).  When provided, the index is
+            written alongside the main data file and is suitable for commit.
 
     Returns ``True`` on success, ``False`` when the markers are missing from
     *page_path* (the page is left unchanged in that case).
@@ -588,6 +716,23 @@ def generate_technology_report(
     }
     data_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Data file written: {data_path}")
+
+    # --- write the compact technology index file (if requested) -------------
+    if index_path is not None:
+        if db_path.exists():
+            index_conn = sqlite3.connect(db_path)
+            index_conn.row_factory = sqlite3.Row
+            try:
+                index_data = _build_technology_index(index_conn, generated_at)
+            finally:
+                index_conn.close()
+        else:
+            index_data = _empty_technology_index(generated_at)
+        index_path.parent.mkdir(parents=True, exist_ok=True)
+        index_path.write_text(
+            json.dumps(index_data, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        print(f"Technology index written: {index_path}")
 
     # --- update the Markdown page -----------------------------------------
     if not page_path.exists():
@@ -694,6 +839,17 @@ def main() -> None:
         type=Path,
         default=Path("docs/technology-data.csv"),
     )
+    parser.add_argument(
+        "--index",
+        help=(
+            "Output path for the compact technology index JSON "
+            "(default: docs/technology-index.json). "
+            "This file is small enough to commit to the repository and is "
+            "served via GitHub Pages as a static API endpoint."
+        ),
+        type=Path,
+        default=Path("docs/technology-index.json"),
+    )
 
     args = parser.parse_args()
 
@@ -704,7 +860,14 @@ def main() -> None:
         db_path = Path(settings.metadata_db_url.replace("sqlite:///", ""))
 
     try:
-        ok = generate_technology_report(db_path, args.page, args.data, args.seeds_dir, args.csv)
+        ok = generate_technology_report(
+            db_path,
+            args.page,
+            args.data,
+            args.seeds_dir,
+            args.csv,
+            args.index,
+        )
         if not ok:
             sys.exit(1)
     except Exception as exc:

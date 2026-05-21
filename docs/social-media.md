@@ -50,7 +50,7 @@ _Stats as of 2026-05-21 06:35 UTC — last scan: 2026-05-21_
 
 <div style="clear:both;"></div>
 
-📥 Machine-readable results are available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
+📥 Machine-readable results are available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
 ---
 
@@ -77,7 +77,7 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 | Usa Edu Top100 | 100 | 100 | 89 | 24.7% | 22 | 32 | 43 | 20 | 70 | 54 | 0 | 38 | 10 | 34 | Apr 2026 – May 2026 |
 | **Total** | **13,730** | **7,626** | **11,853** | **47.9%** | **5,640** | **4,811** | **4,089** | **1,145** | **6,853** | **4,500** | **35** | **2,176** | **153** | **2,159** | — |
 
-> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
 ---
 

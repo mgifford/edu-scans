@@ -45,7 +45,7 @@ def _compute_eta(
 class GitHubIssueManager:
     """Manages GitHub issues for validation cycle tracking."""
 
-    def __init__(self, repo: str = "mgifford/eu-plus-government-scans"):
+    def __init__(self, repo: str = "mgifford/edu-scans"):
         self.repo = repo
         self._has_gh_cli = self._check_gh_cli()
 

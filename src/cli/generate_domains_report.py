@@ -146,7 +146,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
         f.write(
             "This page lists all government domains tracked in the dataset, "
             "grouped by country. Data is sourced from the "
-            "[TOON seed files](https://github.com/mgifford/eu-plus-government-scans"
+            "[TOON seed files](https://github.com/mgifford/edu-scans"
             "/tree/main/data/toon-seeds) in the repository.\n\n"
         )
         f.write(

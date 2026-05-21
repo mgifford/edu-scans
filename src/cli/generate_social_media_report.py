@@ -936,7 +936,7 @@ def _build_stats_block(
         "",
         "📥 Machine-readable results are available as the "
         "[social-media-data.json artifact (machine-readable JSON)]"
-        "(https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).",
+        "(https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).",
     ]
 
     # Digital Sovereignty Rankings section (leaderboard)
@@ -1015,7 +1015,7 @@ def _build_stats_block(
             "> Hover or focus any non-zero country-table count to preview matching pages. "
             "Activate the number to keep the preview open. Full machine-readable data is "
             "available as the [social-media-data.json artifact (machine-readable JSON)]"
-            "(https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).",
+            "(https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).",
         ]
 
     # Top 100 Universities ranked table
@@ -1253,7 +1253,7 @@ def _build_interactive_block(
     var more = count > sample.length
       ? '<li style="color:#aaa;font-style:italic;">…and ' +
         (count - sample.length).toLocaleString() +
-        ' more — see the <a href="https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml" rel="noopener noreferrer" style="color:#9ecfff;">social-media-data.json artifact (machine-readable JSON) in the Generate Scan Progress workflow</a> for the full list.</li>'
+        ' more — see the <a href="https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml" rel="noopener noreferrer" style="color:#9ecfff;">social-media-data.json artifact (machine-readable JSON) in the Generate Scan Progress workflow</a> for the full list.</li>'
       : "";
     return (
       '<details class="sm-tw-details">' +
