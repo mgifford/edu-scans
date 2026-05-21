@@ -101,6 +101,7 @@ jobs:
             --page docs/technology-scanning.md \
             --data docs/technology-data.json \
             --csv docs/technology-data.csv \
+            --index docs/technology-index.json \
             --seeds-dir data/toon-seeds \
             2>&1 | tee technology-report-output.txt
 
@@ -135,11 +136,12 @@ jobs:
           # docs/technology-data.json, and docs/lighthouse-data.json are excluded
           # from git because they can exceed GitHub's 100 MB file-size limit.
           # All four files are still uploaded as workflow artifacts above.
+          # docs/technology-index.json is compact and committed for API use.
           git add docs/scan-progress.md docs/scan-progress-history.json \
                   docs/scan-progress-parent-institutions.csv \
                   docs/domains.md docs/index.md \
                   docs/social-media.md \
-                  docs/technology-scanning.md docs/technology-data.csv \
+                  docs/technology-scanning.md docs/technology-data.csv docs/technology-index.json \
                   docs/third-party-tools.md docs/third-party-tools-data.json \
                   docs/accessibility-statements.md \
                   docs/lighthouse-results.md \
@@ -169,6 +171,7 @@ jobs:
             docs/technology-scanning.md
             docs/technology-data.json
             docs/technology-data.csv
+            docs/technology-index.json
             docs/third-party-tools.md
             docs/third-party-tools-data.json
             docs/accessibility-statements.md

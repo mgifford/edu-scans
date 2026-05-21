@@ -396,7 +396,7 @@ def _build_stats_block(
         "",
         "📥 Machine-readable results are available as the "
         "[accessibility-data.json artifact (machine-readable JSON)]"
-        "(https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).",
+        "(https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).",
         "",
         "Each country entry in the JSON file includes page-level evidence for "
         "pages with and without accessibility statements, plus a per-domain "
@@ -406,7 +406,7 @@ def _build_stats_block(
         "matching pages. If there are 20 or fewer URLs, the preview shows all of "
         "them; otherwise it shows a short sample. Full machine-readable data is "
         "available as the [accessibility-data.json artifact (machine-readable JSON)]"
-        "(https://github.com/mgifford/eu-plus-government-scans/actions/workflows/generate-scan-progress.yml).",
+        "(https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).",
     ]
 
     # Per-country breakdown table

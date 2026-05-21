@@ -8,9 +8,9 @@ We believe accessibility is a subset of quality. This project — scanning and c
 
 | Metric | Status / Value |
 | :--- | :--- |
-| **Open A11y Issues** | [View open accessibility issues](https://github.com/mgifford/eu-plus-government-scans/labels/accessibility) |
+| **Open A11y Issues** | [View open accessibility issues](https://github.com/mgifford/edu-scans/labels/accessibility) |
 | **Automated Test Pass Rate** | Monitored via CI/CD and URL validation workflows |
-| **A11y PRs Merged (MTD)** | Tracked in [project insights](https://github.com/mgifford/eu-plus-government-scans/pulse) |
+| **A11y PRs Merged (MTD)** | Tracked in [project insights](https://github.com/mgifford/edu-scans/pulse) |
 
 ## 3. Contributor Requirements (The Guardrails)
 
@@ -23,7 +23,7 @@ To contribute to this repo, you must follow these guidelines:
 
 ## 4. Reporting & Severity Taxonomy
 
-Please use our [issue templates](https://github.com/mgifford/eu-plus-government-scans/issues/new) when reporting issues. We prioritise based on:
+Please use our [issue templates](https://github.com/mgifford/edu-scans/issues/new) when reporting issues. We prioritise based on:
 
 - **Critical:** A defect that causes the scanner to misclassify, skip, or corrupt accessibility-statement data at scale
 - **High:** A significant gap in coverage, a broken validation workflow, or misleading output that affects research conclusions
@@ -67,8 +67,8 @@ When crawling or referencing external accessibility resources:
 
 ## 9. Getting Help
 
-- **Questions:** Open a [discussion](https://github.com/mgifford/eu-plus-government-scans/discussions)
-- **Bugs or gaps:** Open an [issue](https://github.com/mgifford/eu-plus-government-scans/issues)
+- **Questions:** Open a [discussion](https://github.com/mgifford/edu-scans/discussions)
+- **Bugs or gaps:** Open an [issue](https://github.com/mgifford/edu-scans/issues)
 - **Contributions:** See [README.md](./README.md) for setup and contribution guidance
 - **Accommodations:** Request via the `accessibility-accommodation` label
 

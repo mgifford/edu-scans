@@ -11,6 +11,7 @@ import pytest
 from src.cli.generate_technology_report import (
     _aggregate_tech_counts,
     _build_stats_block,
+    _build_technology_index,
     _query_by_country,
     _query_country_drilldowns,
     _query_summary,
@@ -655,6 +656,130 @@ def test_count_toon_seed_urls_reads_page_count(tmp_path: Path):
         (seeds_dir / f"{name}.toon").write_text(json.dumps(data), encoding="utf-8")
     result = _count_toon_seed_urls(seeds_dir)
     assert result == {"ICELAND": 139, "NORWAY": 239}
+
+
+# ---------------------------------------------------------------------------
+# Tests for _build_technology_index
+# ---------------------------------------------------------------------------
+
+def test_build_technology_index_empty_db(empty_db: Path):
+    """Should return empty by_technology and by_category for an empty database."""
+    conn = sqlite3.connect(empty_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _build_technology_index(conn, "2024-06-01 12:00 UTC")
+    finally:
+        conn.close()
+
+    assert result["by_technology"] == {}
+    assert result["by_category"] == {}
+    assert "generated_at" in result
+    assert "base_url" in result
+    assert "note" in result
+
+
+def test_build_technology_index_populated_db(populated_db: Path):
+    """Should aggregate technology counts and by_country breakdown correctly."""
+    conn = sqlite3.connect(populated_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _build_technology_index(conn, "2024-06-01 12:00 UTC")
+    finally:
+        conn.close()
+
+    by_tech = result["by_technology"]
+    assert "Nginx" in by_tech
+    assert by_tech["Nginx"]["pages"] == 2
+    assert by_tech["Nginx"]["categories"] == ["Web servers"]
+    assert by_tech["Nginx"]["by_country"]["ICELAND"] == 2
+
+    assert "WordPress" in by_tech
+    assert by_tech["WordPress"]["pages"] == 1
+    assert by_tech["WordPress"]["by_country"].get("ICELAND") == 1
+    assert "FRANCE" not in by_tech["WordPress"]["by_country"]
+
+    assert "Apache" in by_tech
+    assert by_tech["Apache"]["by_country"].get("FRANCE") == 2
+
+    by_cat = result["by_category"]
+    assert "Web servers" in by_cat
+    assert by_cat["Web servers"]["pages"] == 4
+    assert "Nginx" in by_cat["Web servers"]["technologies"]
+    assert "Apache" in by_cat["Web servers"]["technologies"]
+
+
+def test_build_technology_index_no_double_counting(duplicate_scan_db: Path):
+    """Each (country, url) pair should be counted once even if re-scanned."""
+    conn = sqlite3.connect(duplicate_scan_db)
+    conn.row_factory = sqlite3.Row
+    try:
+        result = _build_technology_index(conn, "2024-06-01 12:00 UTC")
+    finally:
+        conn.close()
+
+    by_tech = result["by_technology"]
+    assert by_tech["Nginx"]["pages"] == 1
+    assert by_tech["WordPress"]["pages"] == 1
+    assert by_tech["Nginx"]["by_country"]["ICELAND"] == 1
+
+
+def test_generate_technology_report_writes_index(populated_db: Path, tmp_path: Path):
+    """Should write technology-index.json when index_path is provided."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+    index_path = tmp_path / "technology-index.json"
+
+    result = generate_technology_report(
+        populated_db, page_path, data_path, index_path=index_path
+    )
+
+    assert result is True
+    assert index_path.exists()
+
+    index = json.loads(index_path.read_text())
+    assert "generated_at" in index
+    assert "base_url" in index
+    assert "by_technology" in index
+    assert "by_category" in index
+    assert len(index["by_technology"]) > 0
+
+
+def test_generate_technology_report_index_structure(populated_db: Path, tmp_path: Path):
+    """technology-index.json entries should have expected fields."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+    index_path = tmp_path / "technology-index.json"
+
+    generate_technology_report(
+        populated_db, page_path, data_path, index_path=index_path
+    )
+
+    index = json.loads(index_path.read_text())
+    for tech_name, entry in index["by_technology"].items():
+        assert "pages" in entry, f"Missing 'pages' for {tech_name}"
+        assert "categories" in entry, f"Missing 'categories' for {tech_name}"
+        assert "by_country" in entry, f"Missing 'by_country' for {tech_name}"
+        assert isinstance(entry["pages"], int)
+        assert isinstance(entry["categories"], list)
+        assert isinstance(entry["by_country"], dict)
+
+    for cat_name, entry in index["by_category"].items():
+        assert "pages" in entry, f"Missing 'pages' for category {cat_name}"
+        assert "technologies" in entry, f"Missing 'technologies' for category {cat_name}"
+
+
+def test_generate_technology_report_no_index_by_default(populated_db: Path, tmp_path: Path):
+    """Should not write index when index_path is None (default behavior)."""
+    page_path = tmp_path / "technology-scanning.md"
+    page_path.write_text(_TECH_PAGE_TEMPLATE)
+    data_path = tmp_path / "technology-data.json"
+    default_index = tmp_path / "technology-index.json"
+
+    generate_technology_report(populated_db, page_path, data_path)
+
+    assert not default_index.exists()
 
 
 # ---------------------------------------------------------------------------

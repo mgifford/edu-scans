@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-21 22:00 UTC",
+  "scope_note": "License classifications for technologies in the current Top Technologies table in technology-scanning.md. Values are best-effort and should be verified against upstream projects for policy use.",
+  "dpga_registry_source": "DPGA snapshot checked via GitHub at repo vee1e/dpg-registry-prototype (dpg_orgs_full.json) on 2026-05-21; only Drupal matched by name/slug among current top technologies.",
+  "records": [
+    {
+      "technology": "jQuery",
+      "license": "MIT",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "PHP",
+      "license": "PHP License v3.01",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Apache",
+      "license": "Apache License 2.0 (Apache HTTP Server)",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Bootstrap",
+      "license": "MIT",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Font Awesome",
+      "license": "Mixed: icons CC BY 4.0, fonts SIL OFL 1.1, code MIT",
+      "osi_approved": "partial",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Google Font API",
+      "license": "Service/API (not a single distributable software package license)",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "MySQL",
+      "license": "GPL-2.0-only (community) plus commercial dual licensing",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "WordPress",
+      "license": "GPL-2.0-or-later",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Nginx",
+      "license": "BSD-2-Clause (open source core)",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "jQuery Migrate",
+      "license": "MIT",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Windows Server",
+      "license": "Proprietary",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "IIS",
+      "license": "Proprietary",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "jQuery UI",
+      "license": "MIT",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Microsoft ASP.NET",
+      "license": "Mixed: ASP.NET Core (MIT) and legacy ASP.NET components",
+      "osi_approved": "partial",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Drupal",
+      "license": "GPL-2.0-or-later",
+      "osi_approved": "yes",
+      "dpga_registry": "listed"
+    },
+    {
+      "technology": "jsDelivr",
+      "license": "Service platform with mixed component licenses",
+      "osi_approved": "partial",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Google Tag Manager",
+      "license": "Proprietary service",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Cloudflare",
+      "license": "Proprietary service (with some open source components)",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "Yoast SEO",
+      "license": "GPL-3.0-or-later",
+      "osi_approved": "yes",
+      "dpga_registry": "not_listed"
+    },
+    {
+      "technology": "reCAPTCHA",
+      "license": "Proprietary service",
+      "osi_approved": "no",
+      "dpga_registry": "not_listed"
+    }
+  ]
+}

@@ -6,8 +6,6 @@ import subprocess
 from datetime import datetime, timezone
 from unittest.mock import MagicMock, patch
 
-import pytest
-
 from src.services.github_issue_manager import (
     GH_CLI_CHECK_TIMEOUT,
     GH_CLI_COMMAND_TIMEOUT,
@@ -148,7 +146,7 @@ def test_create_validation_issue_success():
 
     cmd_result = MagicMock()
     cmd_result.returncode = 0
-    cmd_result.stdout = "https://github.com/mgifford/eu-plus-government-scans/issues/123\n"
+    cmd_result.stdout = "https://github.com/mgifford/edu-scans/issues/123\n"
 
     with patch("subprocess.run", return_value=cmd_result):
         issue_number = manager.create_validation_issue("cycle-2024-01")
@@ -445,8 +443,6 @@ def test_compute_eta_returns_none_when_no_pending():
 
 def test_compute_eta_single_batch_remaining():
     """When only one batch remains the ETA is approximately now (no future runs needed)."""
-    from datetime import timedelta
-
     now = datetime.now(timezone.utc)
     result = _compute_eta(pending=3, batch_size=4, workflow_interval_hours=12.0)
     assert result is not None
@@ -560,7 +556,7 @@ def test_create_review_issue_success():
 
     cmd_result = MagicMock()
     cmd_result.returncode = 0
-    cmd_result.stdout = "https://github.com/mgifford/eu-plus-government-scans/issues/200\n"
+    cmd_result.stdout = "https://github.com/mgifford/edu-scans/issues/200\n"
 
     with patch("subprocess.run", return_value=cmd_result):
         issue_number = manager.create_review_issue(

@@ -82,9 +82,35 @@ _Stats as of 2026-05-21 06:36 UTC — last scan: 2026-05-20_
 | 14 | Caching | **1,262** |
 | 15 | Web frameworks | **1,059** |
 
-📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json) · [Download as CSV](technology-data.csv)
+📥 Machine-readable results: [Technology index (JSON)](technology-index.json) · [Full technology drilldown data (JSON artifact)](technology-data.json) · [Download as CSV](technology-data.csv) · [License/DPGA metadata (JSON)](technology-license-data.json)
 
 <!-- TECH_STATS_END -->
+
+---
+
+## License and Digital Public Goods status (Top Technologies)
+
+To support policy tracking of open source and free software use, this page now
+includes machine-readable license metadata for the current **Top Technologies**
+list:
+
+- [Download technology license data (JSON)](technology-license-data.json)
+
+Current summary from `technology-license-data.json`:
+
+- **DPGA Registry listed:** Drupal
+- **OSI-approved license (yes):** jQuery, PHP, Apache, Bootstrap, MySQL,
+  WordPress, Nginx, jQuery Migrate, jQuery UI, Drupal, Yoast SEO
+- **Partial/mixed:** Font Awesome, Microsoft ASP.NET, jsDelivr
+- **Not OSI-approved (no):** Google Font API, Windows Server, IIS,
+  Google Tag Manager, Cloudflare, reCAPTCHA
+
+> Notes:
+> - This is a best-effort mapping of detected technology names to primary
+>   upstream licenses.
+> - Some detections are products/services (not single software packages), so
+>   their licensing model can be mixed or proprietary.
+> - DPGA status is based on a checked snapshot at generation time and may change.
 
 ---
 

@@ -106,6 +106,7 @@ Each GitHub Actions scan run uploads its results as a downloadable artifact:
 
 - [GitHub Repository](https://github.com/mgifford/edu-scans)
 - [GitHub Actions Workflows](https://github.com/mgifford/edu-scans/actions)
+- [Data API](api.md)
 - [Accessibility Statement](https://github.com/mgifford/edu-scans/blob/main/ACCESSIBILITY.md)
 
 ---
