@@ -1,9 +1,9 @@
 ﻿rank,parent_institution,urls_scanned,reachable,coverage_pct
-1,Other,1644,1631,99.2
+1,Other,1644,1634,99.4
 2,International Theological Seminary,137,136,99.3
 3,East Mississippi Community College,136,136,100.0
 4,Home Ozarka College,135,134,99.3
-5,California State University,54,47,87.0
+5,California State University,54,48,88.9
 6,Adelphi University,44,44,100.0
 7,Illinois State University,42,42,100.0
 8,Duke University,41,41,100.0
@@ -14,7 +14,7 @@
 13,Georgia Institute of Technology,36,36,100.0
 14,George Washington University,33,32,97.0
 15,Lafayette College · Lafayette College,32,32,100.0
-16,Homepage — University of Louisville,32,30,93.8
+16,Homepage — University of Louisville,32,32,100.0
 17,George Fox University,32,32,100.0
 18,Dartmouth College,30,30,100.0
 19,International University of Business Agriculture and Technology,30,30,100.0
@@ -93,7 +93,7 @@
 92,Drury University,11,11,100.0
 93,"Frostburg State University is a comprehensive regional university offering strong programs in liberal arts and sciences, business, education, environmental studies and the arts",11,11,100.0
 94,Furman University,11,11,100.0
-95,Abraham Baldwin Agricultural College,10,8,80.0
+95,Abraham Baldwin Agricultural College,10,10,100.0
 96,Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.,10,10,100.0
 97,"Barry University, Miami Shores, Florida",10,10,100.0
 98,Brown University,10,10,100.0
@@ -175,7 +175,7 @@
 174,Georgia Medical Institute (GMI) is now Everest,7,6,85.7
 175,Grinnell College,7,7,100.0
 176,"Ithaca College, Ithaca, NY",7,7,100.0
-177,American University Washington D.C.,7,6,85.7
+177,American University Washington D.C.,7,7,100.0
 178,American Career College,7,7,100.0
 179,Georgia Highlands College,7,7,100.0
 180,Kilgore College,7,7,100.0
@@ -287,7 +287,7 @@
 286,Eastern Connecticut State University,5,5,100.0
 287,Erskine College,5,4,80.0
 288,Five Branches University,5,5,100.0
-289,"Grove City College in western Pennsylvania offers academically rigorous, affordable college education in a Christian environment just 60 miles from Pittsburgh, Pennsylvania",5,4,80.0
+289,"Grove City College in western Pennsylvania offers academically rigorous, affordable college education in a Christian environment just 60 miles from Pittsburgh, Pennsylvania",5,5,100.0
 290,Glion Institute of Higher Education,5,5,100.0
 291,Gwynedd-Mercy College,5,5,100.0
 292,Hobe Sound Bible College,5,5,100.0
@@ -441,7 +441,7 @@
 440,Imperial Valley College,4,3,75.0
 441,Charter Oak State College,4,4,100.0
 442,Le Cordon Bleu College of Culinary Arts-Chicago,4,0,0.0
-443,Chemeketa Community College,4,3,75.0
+443,Chemeketa Community College,4,4,100.0
 444,City University of Seattle,4,4,100.0
 445,Cleveland Chiropractic College,4,4,100.0
 446,Coconino Community College,4,4,100.0
@@ -472,7 +472,7 @@
 471,Franklin Pierce University,4,4,100.0
 472,Gallipolis Career College,4,3,75.0
 473,Grand Canyon University is a private Christian University in Phoenix,4,4,100.0
-474,Georgia Gwinnett College,4,3,75.0
+474,Georgia Gwinnett College,4,4,100.0
 475,Georgia Institute of Cosmetology,4,4,100.0
 476,Concordia College - St. Paul,4,4,100.0
 477,Goshen College,4,4,100.0
@@ -737,7 +737,7 @@
 736,Ecclesia College,2,2,100.0
 737,Beauty College,2,2,100.0
 738,Grand View University,2,2,100.0
-739,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,1,50.0
+739,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,2,100.0
 740,Bossier Parish Community College,2,2,100.0
 741,City Colleges of Chicago,2,2,100.0
 742,Kaplan University,2,2,100.0
@@ -896,7 +896,7 @@
 895,Huston-Tillotson University,2,2,100.0
 896,Humphreys College,2,2,100.0
 897,Illinois Central College,2,2,100.0
-898,Itawamba Community College in Northeast Mississippi (Fulton,2,0,0.0
+898,Itawamba Community College in Northeast Mississippi (Fulton,2,1,50.0
 899,The Institute for Continuing Health Care Education,2,0,0.0
 900,Institute for Clinical Social Work,2,2,100.0
 901,International Institute for Restorative Practices (IIRP),2,2,100.0
@@ -904,7 +904,7 @@
 903,Inver Hills Community College,2,2,100.0
 904,John A. Logan College Homepage,2,2,100.0
 905,Jackson State Community College,2,2,100.0
-906,Kaskaskia College,2,1,50.0
+906,Kaskaskia College,2,2,100.0
 907,Kansas City Art Institute,2,2,100.0
 908,Kern Community College District,2,2,100.0
 909,Kansas City Kansas Community College,2,1,50.0
@@ -2668,7 +2668,7 @@
 2667,Samra University of Oriental Medicine,1,0,0.0
 2668,Sandhills Community College,1,0,0.0
 2669,San Diego Culinary Institute,1,0,0.0
-2670,San Jacinto College,1,0,0.0
+2670,San Jacinto College,1,1,100.0
 2671,Welcome to San Juan College,1,1,100.0
 2672,SANS Technology Institute,1,1,100.0
 2673,Santa Fe University of Art and Design,1,1,100.0
