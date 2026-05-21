@@ -431,6 +431,24 @@ def _build_technology_index(
     }
 
 
+def _empty_technology_index(
+    generated_at: str,
+    base_url: str = "https://mgifford.github.io/edu-scans/",
+) -> dict:
+    """Return an empty technology index payload with the standard schema."""
+    return {
+        "generated_at": generated_at,
+        "base_url": base_url,
+        "note": (
+            "Compact cross-reference index: technology → page count, categories, "
+            "and per-country page counts. For full per-URL drilldown data see the "
+            "technology-data.json workflow artifact."
+        ),
+        "by_technology": {},
+        "by_category": {},
+    }
+
+
 # ---------------------------------------------------------------------------
 # Stats block builder
 # ---------------------------------------------------------------------------
@@ -637,7 +655,6 @@ def generate_technology_report(
     """
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    conn: sqlite3.Connection | None = None
     if not db_path.exists():
         summary: dict = {}
         tech_rows: list[dict] = []
@@ -654,9 +671,7 @@ def generate_technology_report(
             country_drilldowns = _query_country_drilldowns(conn)
             tech_drilldowns = _query_tech_drilldowns(conn)
         finally:
-            if index_path is None:
-                conn.close()
-                conn = None
+            conn.close()
 
     tech_counts, cat_counts, tech_categories = _aggregate_tech_counts(tech_rows)
 
@@ -704,30 +719,20 @@ def generate_technology_report(
 
     # --- write the compact technology index file (if requested) -------------
     if index_path is not None:
-        try:
-            if conn is not None:
-                index_data = _build_technology_index(conn, generated_at)
-            else:
-                index_data = {
-                    "generated_at": generated_at,
-                    "base_url": "https://mgifford.github.io/edu-scans/",
-                    "note": (
-                        "Compact cross-reference index: technology → page count, "
-                        "categories, and per-country page counts. For full per-URL "
-                        "drilldown data see the technology-data.json workflow artifact."
-                    ),
-                    "by_technology": {},
-                    "by_category": {},
-                }
-            index_path.parent.mkdir(parents=True, exist_ok=True)
-            index_path.write_text(
-                json.dumps(index_data, indent=2, ensure_ascii=False), encoding="utf-8"
-            )
-            print(f"Technology index written: {index_path}")
-        finally:
-            if conn is not None:
-                conn.close()
-                conn = None
+        if db_path.exists():
+            index_conn = sqlite3.connect(db_path)
+            index_conn.row_factory = sqlite3.Row
+            try:
+                index_data = _build_technology_index(index_conn, generated_at)
+            finally:
+                index_conn.close()
+        else:
+            index_data = _empty_technology_index(generated_at)
+        index_path.parent.mkdir(parents=True, exist_ok=True)
+        index_path.write_text(
+            json.dumps(index_data, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        print(f"Technology index written: {index_path}")
 
     # --- update the Markdown page -----------------------------------------
     if not page_path.exists():
