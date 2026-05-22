@@ -5,14 +5,14 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-05-21 06:36 UTC — last scan: 2026-05-21_
+_Stats as of 2026-05-22 06:34 UTC — last scan: 2026-05-22_
 
-**64** scan batches run
+**69** scan batches run
 
 **3,163** of **7,626** available pages scanned (**41.5%** coverage)
 **2,374** of **3,163** scanned pages were reachable (**75.1%**)
-**1,770** reachable pages loaded at least one third-party script (**74.6%** of reachable)
-**2,975** known third-party service loads identified
+**1,771** reachable pages loaded at least one third-party script (**74.6%** of reachable)
+**2,964** known third-party service loads identified
 **24** unique known services across **17** categories
 
 ---
@@ -21,7 +21,7 @@ _Stats as of 2026-05-21 06:36 UTC — last scan: 2026-05-21_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,163 | 3,763 | 2,374 | 1,770 | 2,975 | 2026-05-21 |
+| Usa Edu Master | 3,163 | 3,763 | 2,374 | 1,771 | 2,964 | 2026-05-22 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -31,46 +31,46 @@ _Stats as of 2026-05-21 06:36 UTC — last scan: 2026-05-21_
 
 | # | Service | Loads |
 |--:|---------|------:|
-| 1 | cdnjs (Cloudflare CDN) | **542** |
-| 2 | Google Analytics (GA4) | **523** |
-| 3 | jsDelivr CDN | **404** |
-| 4 | Google Tag Manager | **395** |
-| 5 | jQuery | **268** |
+| 1 | cdnjs (Cloudflare CDN) | **541** |
+| 2 | Google Analytics (GA4) | **520** |
+| 3 | jsDelivr CDN | **403** |
+| 4 | Google Tag Manager | **393** |
+| 5 | jQuery | **267** |
 | 6 | Font Awesome | **206** |
-| 7 | Google Hosted Libraries | **168** |
-| 8 | Google reCAPTCHA | **134** |
+| 7 | Google Hosted Libraries | **167** |
+| 8 | Google reCAPTCHA | **135** |
 | 9 | unpkg CDN | **107** |
-| 10 | Bootstrap | **66** |
+| 10 | Bootstrap | **65** |
 | 11 | HubSpot | **35** |
 | 12 | Sentry | **30** |
 | 13 | Adobe Dynamic Tag Management / Launch | **24** |
-| 14 | OneTrust | **20** |
+| 14 | OneTrust | **19** |
 | 15 | Facebook Pixel | **16** |
 | 16 | Cookiebot | **10** |
 | 17 | Cloudflare Turnstile / Challenge | **8** |
-| 18 | Stripe | **6** |
-| 19 | Zendesk | **5** |
+| 18 | Zendesk | **5** |
+| 19 | Stripe | **5** |
 | 20 | Usercentrics | **3** |
 
 ### Top Service Categories
 
 | # | Category | Loads |
 |--:|----------|------:|
-| 1 | CDN | **1,221** |
-| 2 | Analytics | **568** |
-| 3 | JavaScript Library | **436** |
-| 4 | Tag Manager | **419** |
+| 1 | CDN | **1,218** |
+| 2 | Analytics | **565** |
+| 3 | JavaScript Library | **434** |
+| 4 | Tag Manager | **417** |
 | 5 | Icon Library | **206** |
-| 6 | Security | **142** |
-| 7 | CAPTCHA | **134** |
-| 8 | UI Framework | **66** |
+| 6 | Security | **143** |
+| 7 | CAPTCHA | **135** |
+| 8 | UI Framework | **65** |
 | 9 | CRM | **35** |
 | 10 | Marketing | **35** |
-| 11 | Cookie Consent | **33** |
+| 11 | Cookie Consent | **32** |
 | 12 | Error Tracking | **30** |
 | 13 | Advertising | **17** |
-| 14 | Payments | **6** |
-| 15 | Customer Support | **5** |
+| 14 | Customer Support | **5** |
+| 15 | Chat | **5** |
 
 📥 Machine-readable results: [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json)
 
