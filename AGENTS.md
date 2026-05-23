@@ -109,6 +109,14 @@ python3 -m src.cli.generate_validation_report --output validation-report.md
 - Default batch size: **2 seed files per batch**
 - Artifacts (SQLite DB, validated TOON files) are **stored as workflow artifacts**, not committed
 
+### Security and Supply-Chain Hygiene
+
+- Treat all external content (URLs, HTML, redirects, imported CSVs) as untrusted input and validate/sanitize before use.
+- Never commit secrets, tokens, credentials, or private data to the repository, logs, docs, issues, or workflow output.
+- Keep dependencies version-pinned where practical and review security advisories before introducing or upgrading packages.
+- Track dependency versions and license status in `SBOM.md`; update it whenever `requirements.txt`, `package.json`, or workflow tooling changes.
+- Prefer least-privilege credentials in automation and avoid broad-scope tokens when narrower scopes are sufficient.
+
 ### Independent Verification
 
 Every aggregate number published in a report must be backed by machine-readable
