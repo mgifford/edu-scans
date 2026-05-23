@@ -16,7 +16,9 @@
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 
 # Run all tests
 python3 -m pytest tests/ -v

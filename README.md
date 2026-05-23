@@ -130,7 +130,9 @@ Typical commands:
 
 ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 
 # Run tests
 python3 -m pytest tests/ -v
@@ -155,7 +157,9 @@ Important caveat:
 ## Running Tests Locally
 
 ```bash
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 python3 -m pytest tests/ -v
 ```
 

@@ -71,8 +71,13 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: uv pip install --system -r requirements.txt
 
       - name: Resolve inputs
         id: inputs
