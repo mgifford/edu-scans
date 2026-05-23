@@ -91,7 +91,9 @@ You can also run validations locally using the CLI:
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 
 # Validate a specific seed file
 python3 -m src.cli.validate_urls --country USA_EDU_MASTER --rate-limit 2

@@ -47,9 +47,14 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          uv pip install --system -r requirements.txt
 
       - name: Find latest metadata artifact run ID
         id: find-metadata

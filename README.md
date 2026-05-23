@@ -130,7 +130,9 @@ Typical commands:
 
 ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 
 # Run tests
 python3 -m pytest tests/ -v
@@ -155,7 +157,9 @@ Important caveat:
 ## Running Tests Locally
 
 ```bash
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 python3 -m pytest tests/ -v
 ```
 
@@ -223,7 +227,7 @@ This project is committed to transparency about build-time AI assistance.
 
 | Tool / LLM | What it was used for |
 |---|---|
-| GitHub Copilot (GPT-5.4 / GPT-5.5) | Code edits, refactoring, repository migration work, documentation updates, process-document drafting (including definition-of-done documentation), and implementation assistance in VS Code and Copilot Task Agent sessions, including Data API layer integration work (API docs, compact index endpoint, and link normalization) |
+| GitHub Copilot (GPT-5.4 / GPT-5.5) | Code edits, refactoring, repository migration work, documentation updates, process-document drafting (including definition-of-done documentation), dependency/workflow package-manager migrations (including uv adoption), and implementation assistance in VS Code and Copilot Task Agent sessions, including Data API layer integration work (API docs, compact index endpoint, and link normalization) |
 | Claude (Anthropic) | PR reviews, documentation editing, code-generation assistance during repository maintenance, and implementation of the Top 100 and state-split social media reporting features |
 | ChatGPT / GPT-4 / GPT-5 (OpenAI) | Design review, implementation review, debugging help, and documentation/report-generation assistance |
 

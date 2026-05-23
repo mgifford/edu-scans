@@ -20,7 +20,9 @@ The URL validation scanner validates institution website URLs from TOON files, t
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 ## Usage
