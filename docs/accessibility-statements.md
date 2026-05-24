@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-05-22 06:34 UTC — last scan: 2026-05-21_
+_Stats as of 2026-05-24 06:26 UTC — last scan: 2026-05-23_
 
-**45** scan batches run
+**55** scan batches run
 
 **8,264** of **7,626** available domains scanned (**108.4%** coverage)
-**7,309** of **8,264** scanned domains were reachable (**88.4%**)
-**2,697** of **7,309** reachable domains have an accessibility statement (**36.9%**)
-**2,073** domains have the statement link in the footer (**76.9%** of domains with a statement)
+**7,310** of **8,264** scanned domains were reachable (**88.5%**)
+**2,699** of **7,310** reachable domains have an accessibility statement (**36.9%**)
+**2,075** domains have the statement link in the footer (**76.9%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,825 | 1,283 | 1,061 | 45.4% | Apr 2026 – May 2026 |
-| Usa Edu Master Subdomains | 8,258 | 3,763 | 7,292 | 2,675 | 2,055 | 36.7% | May 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,827 | 1,285 | 1,062 | 45.5% | Apr 2026 – May 2026 |
+| Usa Edu Master Subdomains | 8,258 | 3,763 | 7,293 | 2,681 | 2,058 | 36.8% | May 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 59 | 57 | 65.6% | Apr 2026 – May 2026 |
-| **Total** | **12,139** | **7,626** | **10,207** | **4,017** | **3,173** | **39.4%** | — |
+| **Total** | **12,139** | **7,626** | **10,210** | **4,025** | **3,177** | **39.4%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
