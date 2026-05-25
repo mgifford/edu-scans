@@ -15,6 +15,7 @@ from src.services.subdomain_scanner import (
     _existing_urls_for_domain,
     _make_candidate_url,
     load_subdomain_patterns,
+    save_toon,
 )
 from src.services.url_validator import ValidationResult
 
@@ -587,3 +588,36 @@ async def test_scan_toon_stats_counts_redirects() -> None:
 
     assert stats.redirected == 1
     assert stats.valid_found == 1
+
+
+# ---------------------------------------------------------------------------
+# save_toon
+# ---------------------------------------------------------------------------
+
+
+def test_save_toon_updates_page_count(tmp_path: Path) -> None:
+    """save_toon must recompute page_count from actual domain entries."""
+    toon_data = {
+        "version": "0.1-seed",
+        "country": "TEST",
+        "page_count": 1,  # stale — only reflects apex domains pre-subdomain-scan
+        "domains": [
+            {
+                "canonical_domain": "apex.edu",
+                "pages": [{"url": "https://apex.edu/", "is_root_page": True}],
+            },
+            {
+                "canonical_domain": "library.apex.edu",
+                "is_subdomain": True,
+                "pages": [{"url": "https://library.apex.edu/", "is_root_page": True}],
+            },
+        ],
+    }
+
+    output = tmp_path / "out.toon"
+    save_toon(toon_data, output)
+
+    import json
+    saved = json.loads(output.read_text())
+    # 2 domains × 1 page each → page_count must be 2, not the stale 1
+    assert saved["page_count"] == 2
