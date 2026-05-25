@@ -138,7 +138,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
     total_apex = sum(1 for d in all_domains if not _domain_is_subdomain(d))
     total_subdomains = sum(1 for d in all_domains if _domain_is_subdomain(d))
     total_domains = len(all_domains)
-    total_pages = sum(d.get("page_count", 0) for _, d in entries)
+    total_pages = sum(len(d.get("pages", [])) for _, data in entries for d in data.get("domains", []))
 
     with output_path.open("w", encoding="utf-8") as f:
         f.write("---\ntitle: Government Domains\nlayout: page\n---\n\n")
@@ -165,7 +165,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
             domains = data.get("domains", [])
             apex_count = sum(1 for d in domains if not _domain_is_subdomain(d))
             sub_count = sum(1 for d in domains if _domain_is_subdomain(d))
-            page_count = data.get("page_count", 0)
+            page_count = sum(len(d.get("pages", [])) for d in domains)
             counts_str = f"{apex_count:,} {'apex domain' if apex_count == 1 else 'apex domains'}"
             if sub_count:
                 counts_str += f", {sub_count:,} {'subdomain' if sub_count == 1 else 'subdomains'}"
@@ -179,7 +179,7 @@ def generate_domains_report(toon_dir: Path, output_path: Path) -> None:
         for _stem, data in entries:
             country = data.get("country", "Unknown")
             domains = data.get("domains", [])
-            page_count = data.get("page_count", 0)
+            page_count = sum(len(d.get("pages", [])) for d in domains)
             apex_count = sum(1 for d in domains if not _domain_is_subdomain(d))
             sub_count = sum(1 for d in domains if _domain_is_subdomain(d))
 

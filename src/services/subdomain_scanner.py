@@ -439,10 +439,17 @@ def load_toon(toon_path: Path) -> dict[str, Any]:
 def save_toon(toon_data: dict[str, Any], output_path: Path) -> None:
     """Serialise *toon_data* to *output_path* as formatted JSON.
 
+    Before writing, ``page_count`` is recomputed as the total number of pages
+    across all domain entries so that the summary field stays accurate even
+    after subdomains are appended to the file.
+
     Args:
         toon_data: TOON data dict to serialise.
         output_path: Destination file path.  Parent directories must exist.
     """
+    toon_data["page_count"] = sum(
+        len(d.get("pages", [])) for d in toon_data.get("domains", [])
+    )
     with output_path.open("w", encoding="utf-8") as fh:
         json.dump(toon_data, fh, indent=2, ensure_ascii=False)
         fh.write("\n")
