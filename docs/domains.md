@@ -3,22 +3,22 @@ title: Government Domains
 layout: page
 ---
 
-_Generated: 2026-05-25 06:47 UTC_
+_Generated: 2026-05-26 06:33 UTC_
 
 This page lists all government domains tracked in the dataset, grouped by country. Data is sourced from the [TOON seed files](https://github.com/mgifford/edu-scans/tree/main/data/toon-seeds) in the repository.
 
-**2 countries** · **9,713 domains** (3,863 apex domains, 5,850 subdomains) · **3,863 pages**
+**2 countries** · **9,713 domains** (3,863 apex domains, 5,850 subdomains) · **15,563 pages**
 
 ## Countries
 
-- [USA_EDU_MASTER](#usa_edu_master) (3,763 apex domains, 5,850 subdomains, 3,763 pages)
+- [USA_EDU_MASTER](#usa_edu_master) (3,763 apex domains, 5,850 subdomains, 15,463 pages)
 - [USA_EDU_TOP100](#usa_edu_top100) (100 apex domains, 100 pages)
 
 ---
 
 ## USA_EDU_MASTER
 
-**3,763 apex domains, 5,850 subdomains** · **3,763 pages**
+**3,763 apex domains, 5,850 subdomains** · **15,463 pages**
 
 | Domain | Type | Pages |
 |--------|------|-------|
