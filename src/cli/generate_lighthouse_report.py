@@ -523,6 +523,13 @@ def generate_lighthouse_report(
             summary = _query_summary(conn)
             by_country = _query_by_country(conn)
             by_url = _query_by_url(conn)
+        except sqlite3.DatabaseError as exc:
+            print(
+                f"Warning: database at {db_path} is malformed or unreadable: {exc}\n"
+                "Lighthouse report will not be updated — existing page preserved.",
+                file=sys.stderr,
+            )
+            return False
         finally:
             conn.close()
 
