@@ -908,3 +908,22 @@ def test_generate_lighthouse_report_includes_institution_breakdown(
     assert "70" in content
     # gov.example.fr has a11y=0.75 → displayed as 75 or 74 (rounded)
     assert "gov.example.fr" in content
+
+
+def test_generate_lighthouse_report_malformed_db(tmp_path: Path) -> None:
+    """A malformed database is handled gracefully: page is preserved unchanged."""
+    db_path = tmp_path / "malformed.db"
+    # Write garbage bytes so SQLite reports a malformed database.
+    db_path.write_bytes(b"not a valid sqlite3 database\x00" * 64)
+
+    page_path = tmp_path / "lighthouse-results.md"
+    page_path.write_text(_LIGHTHOUSE_PAGE_TEMPLATE, encoding="utf-8")
+    data_path = tmp_path / "lighthouse-data.json"
+
+    original_content = page_path.read_text(encoding="utf-8")
+    ok = generate_lighthouse_report(db_path, page_path, data_path)
+
+    # The function should return False (error) but NOT raise.
+    assert ok is False
+    # The page content must be unchanged — stale data is preserved.
+    assert page_path.read_text(encoding="utf-8") == original_content

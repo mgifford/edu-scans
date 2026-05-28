@@ -127,7 +127,9 @@ jobs:
             2>&1 | tee accessibility-report-output.txt
 
       - name: Generate Lighthouse results page
+        continue-on-error: true
         run: |
+          set -o pipefail
           python3 -m src.cli.generate_lighthouse_report \
             --page docs/lighthouse-results.md \
             --data docs/lighthouse-data.json \
