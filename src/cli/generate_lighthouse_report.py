@@ -517,12 +517,15 @@ def generate_lighthouse_report(
         by_country: list[dict] = []
         by_url: list[dict] = []
     else:
-        conn = sqlite3.connect(db_path)
-        conn.row_factory = sqlite3.Row
         try:
-            summary = _query_summary(conn)
-            by_country = _query_by_country(conn)
-            by_url = _query_by_url(conn)
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            try:
+                summary = _query_summary(conn)
+                by_country = _query_by_country(conn)
+                by_url = _query_by_url(conn)
+            finally:
+                conn.close()
         except sqlite3.DatabaseError as exc:
             print(
                 f"Warning: database at {db_path} is malformed or unreadable: {exc}\n"
@@ -530,8 +533,6 @@ def generate_lighthouse_report(
                 file=sys.stderr,
             )
             return False
-        finally:
-            conn.close()
 
     seed_counts = _count_toon_seed_urls(toon_seeds_dir) if toon_seeds_dir else {}
     total_available = sum(seed_counts.values())
