@@ -1,140 +1,140 @@
 {
-  "generated_at": "2026-05-27 06:42 UTC",
+  "generated_at": "2026-05-28 06:37 UTC",
   "base_url": "https://mgifford.github.io/edu-scans/",
   "note": "Compact cross-reference index: technology → page count, categories, and per-country page counts. For full per-URL drilldown data see the technology-data.json workflow artifact.",
   "by_technology": {
     "jQuery": {
-      "pages": 4729,
+      "pages": 4823,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 191,
-        "USA_EDU_MASTER_SUBDOMAINS": 4492,
-        "USA_EDU_TOP100": 46
+        "USA_EDU_MASTER": 1665,
+        "USA_EDU_MASTER_SUBDOMAINS": 3154,
+        "USA_EDU_TOP100": 4
       }
     },
     "Font Awesome": {
-      "pages": 3150,
+      "pages": 3213,
       "categories": [
         "Font scripts"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 126,
-        "USA_EDU_MASTER_SUBDOMAINS": 2990,
-        "USA_EDU_TOP100": 34
+        "USA_EDU_MASTER": 1128,
+        "USA_EDU_MASTER_SUBDOMAINS": 2082,
+        "USA_EDU_TOP100": 3
       }
     },
     "Google Tag Manager": {
-      "pages": 3119,
+      "pages": 3207,
       "categories": [
         "Tag managers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 160,
-        "USA_EDU_MASTER_SUBDOMAINS": 2899,
-        "USA_EDU_TOP100": 60
+        "USA_EDU_MASTER": 1464,
+        "USA_EDU_MASTER_SUBDOMAINS": 1738,
+        "USA_EDU_TOP100": 5
       }
     },
     "PHP": {
-      "pages": 2806,
+      "pages": 2904,
       "categories": [
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 163,
-        "USA_EDU_MASTER_SUBDOMAINS": 2596,
-        "USA_EDU_TOP100": 47
+        "USA_EDU_MASTER": 1428,
+        "USA_EDU_MASTER_SUBDOMAINS": 1473,
+        "USA_EDU_TOP100": 3
       }
     },
     "Google Font API": {
-      "pages": 2688,
+      "pages": 2748,
       "categories": [
         "Font scripts"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 123,
-        "USA_EDU_MASTER_SUBDOMAINS": 2542,
-        "USA_EDU_TOP100": 23
+        "USA_EDU_MASTER": 1033,
+        "USA_EDU_MASTER_SUBDOMAINS": 1713,
+        "USA_EDU_TOP100": 2
       }
     },
     "Bootstrap": {
-      "pages": 2442,
+      "pages": 2472,
       "categories": [
         "UI frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 79,
-        "USA_EDU_MASTER_SUBDOMAINS": 2343,
-        "USA_EDU_TOP100": 20
+        "USA_EDU_MASTER": 734,
+        "USA_EDU_MASTER_SUBDOMAINS": 1734,
+        "USA_EDU_TOP100": 4
       }
     },
     "Nginx": {
-      "pages": 2214,
+      "pages": 2206,
       "categories": [
         "Reverse proxies",
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 80,
-        "USA_EDU_MASTER_SUBDOMAINS": 2108,
-        "USA_EDU_TOP100": 26
+        "USA_EDU_MASTER": 746,
+        "USA_EDU_MASTER_SUBDOMAINS": 1459,
+        "USA_EDU_TOP100": 1
       }
     },
     "Apache": {
-      "pages": 2071,
+      "pages": 2081,
       "categories": [
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 72,
-        "USA_EDU_MASTER_SUBDOMAINS": 1971,
-        "USA_EDU_TOP100": 28
+        "USA_EDU_MASTER": 676,
+        "USA_EDU_MASTER_SUBDOMAINS": 1401,
+        "USA_EDU_TOP100": 4
       }
     },
     "Cloudflare": {
-      "pages": 1568,
+      "pages": 1571,
       "categories": [
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 99,
-        "USA_EDU_MASTER_SUBDOMAINS": 1456,
-        "USA_EDU_TOP100": 13
+        "USA_EDU_MASTER": 708,
+        "USA_EDU_MASTER_SUBDOMAINS": 862,
+        "USA_EDU_TOP100": 1
       }
     },
     "MySQL": {
-      "pages": 1347,
+      "pages": 1445,
       "categories": [
         "Databases"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 96,
-        "USA_EDU_MASTER_SUBDOMAINS": 1241,
-        "USA_EDU_TOP100": 10
+        "USA_EDU_MASTER": 752,
+        "USA_EDU_MASTER_SUBDOMAINS": 692,
+        "USA_EDU_TOP100": 1
       }
     },
     "WordPress": {
-      "pages": 1341,
+      "pages": 1439,
       "categories": [
         "Blogs",
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 95,
-        "USA_EDU_MASTER_SUBDOMAINS": 1236,
-        "USA_EDU_TOP100": 10
+        "USA_EDU_MASTER": 749,
+        "USA_EDU_MASTER_SUBDOMAINS": 689,
+        "USA_EDU_TOP100": 1
       }
     },
     "jQuery Migrate": {
-      "pages": 1295,
+      "pages": 1367,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 81,
-        "USA_EDU_MASTER_SUBDOMAINS": 1206,
-        "USA_EDU_TOP100": 8
+        "USA_EDU_MASTER": 608,
+        "USA_EDU_MASTER_SUBDOMAINS": 758,
+        "USA_EDU_TOP100": 1
       }
     },
     "Windows Server": {
@@ -143,42 +143,41 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 25,
-        "USA_EDU_MASTER_SUBDOMAINS": 1058,
-        "USA_EDU_TOP100": 3
+        "USA_EDU_MASTER": 278,
+        "USA_EDU_MASTER_SUBDOMAINS": 807,
+        "USA_EDU_TOP100": 1
       }
     },
     "IIS": {
-      "pages": 1077,
+      "pages": 1078,
       "categories": [
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 25,
-        "USA_EDU_MASTER_SUBDOMAINS": 1049,
-        "USA_EDU_TOP100": 3
+        "USA_EDU_MASTER": 277,
+        "USA_EDU_MASTER_SUBDOMAINS": 800,
+        "USA_EDU_TOP100": 1
       }
     },
     "jsDelivr": {
-      "pages": 1011,
+      "pages": 1025,
       "categories": [
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 43,
-        "USA_EDU_MASTER_SUBDOMAINS": 959,
-        "USA_EDU_TOP100": 9
+        "USA_EDU_MASTER": 407,
+        "USA_EDU_MASTER_SUBDOMAINS": 616,
+        "USA_EDU_TOP100": 2
       }
     },
     "Microsoft ASP.NET": {
-      "pages": 836,
+      "pages": 837,
       "categories": [
         "Web frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 21,
-        "USA_EDU_MASTER_SUBDOMAINS": 814,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 181,
+        "USA_EDU_MASTER_SUBDOMAINS": 656
       }
     },
     "Amazon Web Services": {
@@ -187,86 +186,83 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 24,
-        "USA_EDU_MASTER_SUBDOMAINS": 783,
-        "USA_EDU_TOP100": 19
+        "USA_EDU_MASTER": 212,
+        "USA_EDU_MASTER_SUBDOMAINS": 612,
+        "USA_EDU_TOP100": 2
       }
     },
     "Varnish": {
-      "pages": 798,
+      "pages": 797,
       "categories": [
         "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 39,
-        "USA_EDU_MASTER_SUBDOMAINS": 730,
-        "USA_EDU_TOP100": 29
+        "USA_EDU_MASTER": 415,
+        "USA_EDU_MASTER_SUBDOMAINS": 381,
+        "USA_EDU_TOP100": 1
       }
     },
     "jQuery UI": {
-      "pages": 776,
+      "pages": 781,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 14,
-        "USA_EDU_MASTER_SUBDOMAINS": 759,
-        "USA_EDU_TOP100": 3
+        "USA_EDU_MASTER": 121,
+        "USA_EDU_MASTER_SUBDOMAINS": 660
       }
     },
     "Slick": {
-      "pages": 713,
+      "pages": 723,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 43,
-        "USA_EDU_MASTER_SUBDOMAINS": 664,
-        "USA_EDU_TOP100": 6
+        "USA_EDU_MASTER": 340,
+        "USA_EDU_MASTER_SUBDOMAINS": 382,
+        "USA_EDU_TOP100": 1
       }
     },
     "Drupal": {
-      "pages": 664,
+      "pages": 667,
       "categories": [
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 24,
-        "USA_EDU_MASTER_SUBDOMAINS": 620,
-        "USA_EDU_TOP100": 20
+        "USA_EDU_MASTER": 210,
+        "USA_EDU_MASTER_SUBDOMAINS": 455,
+        "USA_EDU_TOP100": 2
       }
     },
     "Modernizr": {
-      "pages": 648,
+      "pages": 649,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 24,
-        "USA_EDU_MASTER_SUBDOMAINS": 617,
-        "USA_EDU_TOP100": 7
+        "USA_EDU_MASTER": 217,
+        "USA_EDU_MASTER_SUBDOMAINS": 432
       }
     },
     "YouTube": {
-      "pages": 499,
+      "pages": 511,
       "categories": [
         "Video players"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 35,
-        "USA_EDU_MASTER_SUBDOMAINS": 455,
-        "USA_EDU_TOP100": 9
+        "USA_EDU_MASTER": 268,
+        "USA_EDU_MASTER_SUBDOMAINS": 241,
+        "USA_EDU_TOP100": 2
       }
     },
     "Yoast SEO": {
-      "pages": 441,
+      "pages": 483,
       "categories": [
         "SEO"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 40,
-        "USA_EDU_MASTER_SUBDOMAINS": 397,
-        "USA_EDU_TOP100": 4
+        "USA_EDU_MASTER": 309,
+        "USA_EDU_MASTER_SUBDOMAINS": 174
       }
     },
     "Amazon Cloudfront": {
@@ -275,41 +271,50 @@
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 11,
-        "USA_EDU_MASTER_SUBDOMAINS": 396,
-        "USA_EDU_TOP100": 13
+        "USA_EDU_MASTER": 105,
+        "USA_EDU_MASTER_SUBDOMAINS": 314,
+        "USA_EDU_TOP100": 1
       }
     },
     "Lightbox": {
-      "pages": 364,
+      "pages": 373,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 22,
-        "USA_EDU_MASTER_SUBDOMAINS": 342
+        "USA_EDU_MASTER": 178,
+        "USA_EDU_MASTER_SUBDOMAINS": 195
       }
     },
     "MariaDB": {
-      "pages": 359,
+      "pages": 358,
       "categories": [
         "Databases"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 26,
-        "USA_EDU_MASTER_SUBDOMAINS": 315,
-        "USA_EDU_TOP100": 18
+        "USA_EDU_MASTER": 291,
+        "USA_EDU_MASTER_SUBDOMAINS": 67
       }
     },
     "Pantheon": {
-      "pages": 359,
+      "pages": 358,
       "categories": [
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 26,
-        "USA_EDU_MASTER_SUBDOMAINS": 315,
-        "USA_EDU_TOP100": 18
+        "USA_EDU_MASTER": 291,
+        "USA_EDU_MASTER_SUBDOMAINS": 67
+      }
+    },
+    "animate.css": {
+      "pages": 342,
+      "categories": [
+        "UI frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 194,
+        "USA_EDU_MASTER_SUBDOMAINS": 147,
+        "USA_EDU_TOP100": 1
       }
     },
     "Amazon EC2": {
@@ -318,20 +323,9 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 12,
-        "USA_EDU_MASTER_SUBDOMAINS": 309,
-        "USA_EDU_TOP100": 6
-      }
-    },
-    "animate.css": {
-      "pages": 326,
-      "categories": [
-        "UI frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 21,
-        "USA_EDU_MASTER_SUBDOMAINS": 301,
-        "USA_EDU_TOP100": 4
+        "USA_EDU_MASTER": 98,
+        "USA_EDU_MASTER_SUBDOMAINS": 228,
+        "USA_EDU_TOP100": 1
       }
     },
     "Cloud Platform": {
@@ -340,9 +334,9 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 12,
-        "USA_EDU_MASTER_SUBDOMAINS": 304,
-        "USA_EDU_TOP100": 6
+        "USA_EDU_MASTER": 95,
+        "USA_EDU_MASTER_SUBDOMAINS": 226,
+        "USA_EDU_TOP100": 1
       }
     },
     "Percona": {
@@ -351,128 +345,132 @@
         "Databases"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 12,
-        "USA_EDU_MASTER_SUBDOMAINS": 304,
-        "USA_EDU_TOP100": 6
+        "USA_EDU_MASTER": 95,
+        "USA_EDU_MASTER_SUBDOMAINS": 226,
+        "USA_EDU_TOP100": 1
       }
     },
     "Underscore.js": {
-      "pages": 281,
+      "pages": 298,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 12,
-        "USA_EDU_MASTER_SUBDOMAINS": 268,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 123,
+        "USA_EDU_MASTER_SUBDOMAINS": 175
       }
     },
     "reCAPTCHA": {
-      "pages": 272,
+      "pages": 283,
       "categories": [
         "Security"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 22,
-        "USA_EDU_MASTER_SUBDOMAINS": 250
-      }
-    },
-    "DataTables": {
-      "pages": 267,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 8,
-        "USA_EDU_MASTER_SUBDOMAINS": 257,
-        "USA_EDU_TOP100": 2
-      }
-    },
-    "Ubuntu": {
-      "pages": 265,
-      "categories": [
-        "Operating systems"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 258,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 152,
+        "USA_EDU_MASTER_SUBDOMAINS": 131
       }
     },
     "OWL Carousel": {
-      "pages": 257,
+      "pages": 276,
       "categories": [
         "Widgets"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 24,
-        "USA_EDU_MASTER_SUBDOMAINS": 232,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 176,
+        "USA_EDU_MASTER_SUBDOMAINS": 100
       }
     },
-    "Moment.js": {
-      "pages": 233,
+    "DataTables": {
+      "pages": 270,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 11,
-        "USA_EDU_MASTER_SUBDOMAINS": 218,
-        "USA_EDU_TOP100": 4
+        "USA_EDU_MASTER": 77,
+        "USA_EDU_MASTER_SUBDOMAINS": 193
       }
     },
-    "ZURB Foundation": {
-      "pages": 230,
+    "Ubuntu": {
+      "pages": 264,
       "categories": [
-        "UI frameworks"
+        "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 224,
-        "USA_EDU_TOP100": 2
-      }
-    },
-    "Revslider": {
-      "pages": 229,
-      "categories": [
-        "Miscellaneous"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 222,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 71,
+        "USA_EDU_MASTER_SUBDOMAINS": 193
       }
     },
     "Elementor": {
-      "pages": 222,
+      "pages": 251,
       "categories": [
         "Page builders"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 18,
-        "USA_EDU_MASTER_SUBDOMAINS": 204
+        "USA_EDU_MASTER": 166,
+        "USA_EDU_MASTER_SUBDOMAINS": 85
+      }
+    },
+    "Moment.js": {
+      "pages": 239,
+      "categories": [
+        "JavaScript libraries"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 107,
+        "USA_EDU_MASTER_SUBDOMAINS": 129,
+        "USA_EDU_TOP100": 3
+      }
+    },
+    "ZURB Foundation": {
+      "pages": 237,
+      "categories": [
+        "UI frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 95,
+        "USA_EDU_MASTER_SUBDOMAINS": 142
+      }
+    },
+    "Revslider": {
+      "pages": 236,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 64,
+        "USA_EDU_MASTER_SUBDOMAINS": 171,
+        "USA_EDU_TOP100": 1
       }
     },
     "OpenSSL": {
-      "pages": 216,
+      "pages": 214,
       "categories": [
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 208,
-        "USA_EDU_TOP100": 4
+        "USA_EDU_MASTER": 72,
+        "USA_EDU_MASTER_SUBDOMAINS": 140,
+        "USA_EDU_TOP100": 2
+      }
+    },
+    "Swiper Slider": {
+      "pages": 190,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 132,
+        "USA_EDU_MASTER_SUBDOMAINS": 58
       }
     },
     "Java": {
-      "pages": 183,
+      "pages": 185,
       "categories": [
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 8,
-        "USA_EDU_MASTER_SUBDOMAINS": 173,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 43,
+        "USA_EDU_MASTER_SUBDOMAINS": 142
       }
     },
     "Microsoft HTTPAPI": {
@@ -481,8 +479,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 176
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 175
       }
     },
     "AngularJS": {
@@ -491,17 +489,18 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 171
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 161
       }
     },
-    "Swiper Slider": {
-      "pages": 167,
+    "WP Engine": {
+      "pages": 160,
       "categories": [
-        "Miscellaneous"
+        "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 18,
-        "USA_EDU_MASTER_SUBDOMAINS": 148,
+        "USA_EDU_MASTER": 125,
+        "USA_EDU_MASTER_SUBDOMAINS": 34,
         "USA_EDU_TOP100": 1
       }
     },
@@ -511,8 +510,8 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 152
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 150
       }
     },
     "Ruby on Rails": {
@@ -521,8 +520,8 @@
         "Web frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 152
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 150
       }
     },
     "Google PageSpeed": {
@@ -532,7 +531,8 @@
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 149
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 145
       }
     },
     "RequireJS": {
@@ -541,37 +541,48 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 147
+        "USA_EDU_MASTER": 12,
+        "USA_EDU_MASTER_SUBDOMAINS": 135
       }
     },
     "Cart Functionality": {
-      "pages": 135,
+      "pages": 138,
       "categories": [
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 129
+        "USA_EDU_MASTER": 48,
+        "USA_EDU_MASTER_SUBDOMAINS": 90
       }
     },
     "Crazy Egg": {
-      "pages": 130,
+      "pages": 133,
       "categories": [
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 15,
-        "USA_EDU_MASTER_SUBDOMAINS": 115
+        "USA_EDU_MASTER": 50,
+        "USA_EDU_MASTER_SUBDOMAINS": 83
       }
     },
     "Google Cloud": {
-      "pages": 129,
+      "pages": 128,
       "categories": [
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 8,
-        "USA_EDU_MASTER_SUBDOMAINS": 120,
+        "USA_EDU_MASTER": 34,
+        "USA_EDU_MASTER_SUBDOMAINS": 94
+      }
+    },
+    "Handlebars": {
+      "pages": 128,
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 17,
+        "USA_EDU_MASTER_SUBDOMAINS": 110,
         "USA_EDU_TOP100": 1
       }
     },
@@ -581,63 +592,49 @@
         "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 119,
-        "USA_EDU_TOP100": 5
+        "USA_EDU_MASTER": 18,
+        "USA_EDU_MASTER_SUBDOMAINS": 107
       }
     },
-    "Handlebars": {
+    "FancyBox": {
       "pages": 125,
       "categories": [
-        "JavaScript frameworks"
+        "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 121,
+        "USA_EDU_MASTER": 58,
+        "USA_EDU_MASTER_SUBDOMAINS": 67
+      }
+    },
+    "Lodash": {
+      "pages": 120,
+      "categories": [
+        "JavaScript libraries"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 71,
+        "USA_EDU_MASTER_SUBDOMAINS": 48,
         "USA_EDU_TOP100": 1
       }
     },
     "Envoy": {
-      "pages": 124,
+      "pages": 117,
       "categories": [
         "Reverse proxies"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 119
-      }
-    },
-    "FancyBox": {
-      "pages": 124,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 8,
-        "USA_EDU_MASTER_SUBDOMAINS": 115,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "Lodash": {
-      "pages": 118,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 9,
-        "USA_EDU_MASTER_SUBDOMAINS": 107,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 110
       }
     },
     "React": {
-      "pages": 112,
+      "pages": 111,
       "categories": [
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 104,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 48,
+        "USA_EDU_MASTER_SUBDOMAINS": 63
       }
     },
     "OneTrust": {
@@ -646,29 +643,28 @@
         "Cookie compliance"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 101,
-        "USA_EDU_TOP100": 3
+        "USA_EDU_MASTER": 27,
+        "USA_EDU_MASTER_SUBDOMAINS": 77
       }
     },
     "Vue.js": {
-      "pages": 95,
+      "pages": 96,
       "categories": [
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 91
+        "USA_EDU_MASTER": 43,
+        "USA_EDU_MASTER_SUBDOMAINS": 53
       }
     },
     "W3 Total Cache": {
-      "pages": 94,
+      "pages": 95,
       "categories": [
         "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 90,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 42,
+        "USA_EDU_MASTER_SUBDOMAINS": 53
       }
     },
     "Angular": {
@@ -677,7 +673,19 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 92
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 91
+      }
+    },
+    "AddToAny": {
+      "pages": 90,
+      "categories": [
+        "Widgets"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 43,
+        "USA_EDU_MASTER_SUBDOMAINS": 46,
+        "USA_EDU_TOP100": 1
       }
     },
     "Debian": {
@@ -686,20 +694,18 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 84,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 20,
+        "USA_EDU_MASTER_SUBDOMAINS": 70
       }
     },
-    "WP Engine": {
+    "Gravity Forms": {
       "pages": 89,
       "categories": [
-        "PaaS"
+        "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 24,
-        "USA_EDU_MASTER_SUBDOMAINS": 62,
-        "USA_EDU_TOP100": 3
+        "USA_EDU_MASTER": 72,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
       }
     },
     "Node.js": {
@@ -708,20 +714,18 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 85,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 15,
+        "USA_EDU_MASTER_SUBDOMAINS": 72
       }
     },
-    "AddToAny": {
-      "pages": 85,
+    "Select2": {
+      "pages": 86,
       "categories": [
-        "Widgets"
+        "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 7,
-        "USA_EDU_MASTER_SUBDOMAINS": 76,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 28,
+        "USA_EDU_MASTER_SUBDOMAINS": 58
       }
     },
     "Red Hat": {
@@ -730,38 +734,49 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 79,
-        "USA_EDU_TOP100": 3
-      }
-    },
-    "Select2": {
-      "pages": 81,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 77
+        "USA_EDU_MASTER": 34,
+        "USA_EDU_MASTER_SUBDOMAINS": 50,
+        "USA_EDU_TOP100": 1
       }
     },
     "Backbone.js": {
-      "pages": 80,
+      "pages": 81,
       "categories": [
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 80
+        "USA_EDU_MASTER": 19,
+        "USA_EDU_MASTER_SUBDOMAINS": 62
       }
     },
     "Facebook": {
-      "pages": 79,
+      "pages": 81,
       "categories": [
         "Widgets"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 77
+        "USA_EDU_MASTER": 20,
+        "USA_EDU_MASTER_SUBDOMAINS": 61
+      }
+    },
+    "Google Maps": {
+      "pages": 79,
+      "categories": [
+        "Maps"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 34,
+        "USA_EDU_MASTER_SUBDOMAINS": 45
+      }
+    },
+    "Chart.js": {
+      "pages": 75,
+      "categories": [
+        "JavaScript graphics"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 17,
+        "USA_EDU_MASTER_SUBDOMAINS": 58
       }
     },
     "Ionicons": {
@@ -770,38 +785,18 @@
         "Font scripts"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 74
+        "USA_EDU_MASTER": 12,
+        "USA_EDU_MASTER_SUBDOMAINS": 63
       }
     },
-    "Chart.js": {
-      "pages": 74,
+    "WP Rocket": {
+      "pages": 75,
       "categories": [
-        "JavaScript graphics"
+        "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 72
-      }
-    },
-    "Google Maps": {
-      "pages": 74,
-      "categories": [
-        "Maps"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 69
-      }
-    },
-    "Gravity Forms": {
-      "pages": 74,
-      "categories": [
-        "Miscellaneous"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 7,
-        "USA_EDU_MASTER_SUBDOMAINS": 67
+        "USA_EDU_MASTER": 60,
+        "USA_EDU_MASTER_SUBDOMAINS": 15
       }
     },
     "Moodle": {
@@ -819,7 +814,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 70
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 68
       }
     },
     "Redis": {
@@ -828,8 +824,8 @@
         "Databases"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 68
+        "USA_EDU_MASTER": 32,
+        "USA_EDU_MASTER_SUBDOMAINS": 37
       }
     },
     "Redis Object Cache": {
@@ -838,49 +834,29 @@
         "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 68
+        "USA_EDU_MASTER": 32,
+        "USA_EDU_MASTER_SUBDOMAINS": 37
       }
     },
     "Polyfill": {
-      "pages": 66,
+      "pages": 67,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 58,
-        "USA_EDU_TOP100": 2
+        "USA_EDU_MASTER": 34,
+        "USA_EDU_MASTER_SUBDOMAINS": 32,
+        "USA_EDU_TOP100": 1
       }
     },
     "Alpine.js": {
-      "pages": 64,
+      "pages": 65,
       "categories": [
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 61,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "WP Rocket": {
-      "pages": 61,
-      "categories": [
-        "Caching"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 7,
-        "USA_EDU_MASTER_SUBDOMAINS": 54
-      }
-    },
-    "webpack": {
-      "pages": 58,
-      "categories": [
-        "Miscellaneous"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 57,
+        "USA_EDU_MASTER": 29,
+        "USA_EDU_MASTER_SUBDOMAINS": 35,
         "USA_EDU_TOP100": 1
       }
     },
@@ -890,8 +866,18 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 53
+        "USA_EDU_MASTER": 40,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
+      }
+    },
+    "webpack": {
+      "pages": 57,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 14,
+        "USA_EDU_MASTER_SUBDOMAINS": 43
       }
     },
     "comScore": {
@@ -909,8 +895,38 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 53,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 51
+      }
+    },
+    "UserWay": {
+      "pages": 54,
+      "categories": [
+        "Accessibility"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 40,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
+      }
+    },
+    "jQuery Mobile": {
+      "pages": 53,
+      "categories": [
+        "Mobile frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 36,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
+      }
+    },
+    "Flickity": {
+      "pages": 51,
+      "categories": [
+        "JavaScript libraries"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 33,
+        "USA_EDU_MASTER_SUBDOMAINS": 18
       }
     },
     "Imperva": {
@@ -919,49 +935,28 @@
         "Security"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 47,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "Flickity": {
-      "pages": 50,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 9,
-        "USA_EDU_MASTER_SUBDOMAINS": 41
-      }
-    },
-    "UserWay": {
-      "pages": 50,
-      "categories": [
-        "Accessibility"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 47
-      }
-    },
-    "jQuery Mobile": {
-      "pages": 50,
-      "categories": [
-        "Mobile frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 45
+        "USA_EDU_MASTER": 18,
+        "USA_EDU_MASTER_SUBDOMAINS": 33
       }
     },
     "LiteSpeed": {
-      "pages": 49,
+      "pages": 51,
       "categories": [
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 46
+        "USA_EDU_MASTER": 34,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
+      }
+    },
+    "Adobe Experience Manager": {
+      "pages": 49,
+      "categories": [
+        "CMS"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 25,
+        "USA_EDU_MASTER_SUBDOMAINS": 24
       }
     },
     "Weglot": {
@@ -970,41 +965,28 @@
         "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 47
-      }
-    },
-    "Adobe Experience Manager": {
-      "pages": 48,
-      "categories": [
-        "CMS"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 43,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 17,
+        "USA_EDU_MASTER_SUBDOMAINS": 32
       }
     },
     "WordPress Super Cache": {
-      "pages": 48,
+      "pages": 49,
       "categories": [
         "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 46,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 26,
+        "USA_EDU_MASTER_SUBDOMAINS": 23
       }
     },
     "Osano": {
-      "pages": 47,
+      "pages": 46,
       "categories": [
         "Cookie compliance"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 43,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 26,
+        "USA_EDU_MASTER_SUBDOMAINS": 20
       }
     },
     "Stimulus": {
@@ -1013,8 +995,8 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 41
+        "USA_EDU_MASTER": 27,
+        "USA_EDU_MASTER_SUBDOMAINS": 19
       }
     },
     "Vercel": {
@@ -1023,19 +1005,18 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 41,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 18,
+        "USA_EDU_MASTER_SUBDOMAINS": 28
       }
     },
     "Optimizely": {
-      "pages": 43,
+      "pages": 44,
       "categories": [
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 41
+        "USA_EDU_MASTER": 14,
+        "USA_EDU_MASTER_SUBDOMAINS": 30
       }
     },
     "Sucuri": {
@@ -1044,9 +1025,8 @@
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 4,
-        "USA_EDU_MASTER_SUBDOMAINS": 37,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 32,
+        "USA_EDU_MASTER_SUBDOMAINS": 10
       }
     },
     "Pagely": {
@@ -1055,8 +1035,8 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 40
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 31
       }
     },
     "CentOS": {
@@ -1065,37 +1045,38 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 38,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "Lua": {
-      "pages": 39,
-      "categories": [
-        "Programming languages"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 39
-      }
-    },
-    "OpenResty": {
-      "pages": 39,
-      "categories": [
-        "Web servers"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 39
+        "USA_EDU_MASTER": 13,
+        "USA_EDU_MASTER_SUBDOMAINS": 27
       }
     },
     "Twitter typeahead.js": {
-      "pages": 39,
+      "pages": 40,
       "categories": [
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 36
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 30
+      }
+    },
+    "prettyPhoto": {
+      "pages": 40,
+      "categories": [
+        "JavaScript libraries"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 21,
+        "USA_EDU_MASTER_SUBDOMAINS": 19
+      }
+    },
+    "Clipboard.js": {
+      "pages": 36,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 20,
+        "USA_EDU_MASTER_SUBDOMAINS": 16
       }
     },
     "Wix": {
@@ -1106,50 +1087,59 @@
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 6,
-        "USA_EDU_MASTER_SUBDOMAINS": 30
+        "USA_EDU_MASTER": 28,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
-    "prettyPhoto": {
-      "pages": 36,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 33
-      }
-    },
-    "Clipboard.js": {
+    "AppNexus": {
       "pages": 35,
       "categories": [
-        "Miscellaneous"
+        "Advertising"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 33
+        "USA_EDU_MASTER": 25,
+        "USA_EDU_MASTER_SUBDOMAINS": 10
+      }
+    },
+    "Lua": {
+      "pages": 35,
+      "categories": [
+        "Programming languages"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 29
+      }
+    },
+    "OpenResty": {
+      "pages": 35,
+      "categories": [
+        "Web servers"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 29
       }
     },
     "Next.js": {
-      "pages": 35,
+      "pages": 34,
       "categories": [
         "Web frameworks",
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 34,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 8,
+        "USA_EDU_MASTER_SUBDOMAINS": 26
       }
     },
-    "AppNexus": {
+    "TrackJs": {
       "pages": 34,
       "categories": [
-        "Advertising"
+        "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 31,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 23,
+        "USA_EDU_MASTER_SUBDOMAINS": 11
       }
     },
     "WooCommerce": {
@@ -1158,8 +1148,18 @@
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 30
+        "USA_EDU_MASTER": 28,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
+      }
+    },
+    "HubSpot": {
+      "pages": 32,
+      "categories": [
+        "Marketing automation"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 24,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
     "Python": {
@@ -1168,39 +1168,49 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 30,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "TrackJs": {
-      "pages": 30,
-      "categories": [
-        "Analytics"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 28,
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 24,
         "USA_EDU_TOP100": 1
       }
     },
     "UIKit": {
-      "pages": 30,
+      "pages": 31,
       "categories": [
         "UI frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 30
+        "USA_EDU_MASTER": 17,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
       }
     },
-    "HubSpot": {
+    "Litespeed Cache": {
       "pages": 29,
       "categories": [
-        "Marketing automation"
+        "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 27,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 21,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
+      }
+    },
+    "SiteGround": {
+      "pages": 29,
+      "categories": [
+        "PaaS"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 28,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
+      }
+    },
+    "Nuxt.js": {
+      "pages": 28,
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 24
       }
     },
     "Atlassian Statuspage": {
@@ -1219,33 +1229,14 @@
         "Widgets"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 26
-      }
-    },
-    "Litespeed Cache": {
-      "pages": 27,
-      "categories": [
-        "Caching"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 22
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 20
       }
     },
     "Materialize CSS": {
       "pages": 27,
       "categories": [
         "UI frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 27
-      }
-    },
-    "Nuxt.js": {
-      "pages": 27,
-      "categories": [
-        "JavaScript frameworks"
       ],
       "by_country": {
         "USA_EDU_MASTER": 1,
@@ -1258,7 +1249,8 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 26
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 25
       }
     },
     "Platform.sh": {
@@ -1267,19 +1259,8 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 24,
-        "USA_EDU_TOP100": 1
-      }
-    },
-    "SiteGround": {
-      "pages": 25,
-      "categories": [
-        "PaaS"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 5,
-        "USA_EDU_MASTER_SUBDOMAINS": 20
+        "USA_EDU_MASTER": 15,
+        "USA_EDU_MASTER_SUBDOMAINS": 11
       }
     },
     "Cookiebot": {
@@ -1288,18 +1269,8 @@
         "Cookie compliance"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 22
-      }
-    },
-    "FlexSlider": {
-      "pages": 23,
-      "categories": [
-        "Widgets"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 22
+        "USA_EDU_MASTER": 12,
+        "USA_EDU_MASTER_SUBDOMAINS": 12
       }
     },
     "Gatsby": {
@@ -1309,18 +1280,38 @@
         "Static site generator"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 23
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
       }
     },
     "IBM WebSphere Commerce": {
-      "pages": 22,
+      "pages": 23,
       "categories": [
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 20,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 13,
+        "USA_EDU_MASTER_SUBDOMAINS": 10
+      }
+    },
+    "AddThis": {
+      "pages": 22,
+      "categories": [
+        "Widgets"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 9,
+        "USA_EDU_MASTER_SUBDOMAINS": 13
+      }
+    },
+    "FlexSlider": {
+      "pages": 22,
+      "categories": [
+        "Widgets"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 11,
+        "USA_EDU_MASTER_SUBDOMAINS": 11
       }
     },
     "MailChimp": {
@@ -1329,8 +1320,8 @@
         "Marketing automation"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 21
+        "USA_EDU_MASTER": 12,
+        "USA_EDU_MASTER_SUBDOMAINS": 10
       }
     },
     "Squarespace": {
@@ -1339,8 +1330,8 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 20
+        "USA_EDU_MASTER": 18,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
     "three.js": {
@@ -1349,15 +1340,7 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 21
-      }
-    },
-    "AddThis": {
-      "pages": 20,
-      "categories": [
-        "Widgets"
-      ],
-      "by_country": {
+        "USA_EDU_MASTER": 1,
         "USA_EDU_MASTER_SUBDOMAINS": 20
       }
     },
@@ -1367,18 +1350,9 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 19,
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 9,
         "USA_EDU_TOP100": 1
-      }
-    },
-    "Joomla": {
-      "pages": 20,
-      "categories": [
-        "CMS"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 18
       }
     },
     "Webflow": {
@@ -1387,7 +1361,8 @@
         "Page builders"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 20
+        "USA_EDU_MASTER": 11,
+        "USA_EDU_MASTER_SUBDOMAINS": 9
       }
     },
     "Flywheel": {
@@ -1396,7 +1371,18 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 19
+        "USA_EDU_MASTER": 15,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
+      }
+    },
+    "Joomla": {
+      "pages": 19,
+      "categories": [
+        "CMS"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 12,
+        "USA_EDU_MASTER_SUBDOMAINS": 7
       }
     },
     "Material Design Lite": {
@@ -1405,17 +1391,8 @@
         "UI frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 19
-      }
-    },
-    "Microsoft SharePoint": {
-      "pages": 19,
-      "categories": [
-        "CMS"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 18
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 17
       }
     },
     "Sitefinity": {
@@ -1424,27 +1401,48 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 19
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 13
       }
     },
     "TrustArc": {
-      "pages": 18,
+      "pages": 19,
       "categories": [
         "Cookie compliance"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 17
+        "USA_EDU_MASTER": 5,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
       }
     },
     "DNN": {
-      "pages": 17,
+      "pages": 18,
       "categories": [
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 15
+        "USA_EDU_MASTER": 9,
+        "USA_EDU_MASTER_SUBDOMAINS": 9
+      }
+    },
+    "Microsoft SharePoint": {
+      "pages": 18,
+      "categories": [
+        "CMS"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
+      }
+    },
+    "particles.js": {
+      "pages": 18,
+      "categories": [
+        "JavaScript graphics"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 16,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "mod_wsgi": {
@@ -1453,7 +1451,8 @@
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 16,
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 13,
         "USA_EDU_TOP100": 1
       }
     },
@@ -1463,7 +1462,18 @@
         "Marketing automation"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 16
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
+      }
+    },
+    "Stripe": {
+      "pages": 16,
+      "categories": [
+        "Payment processors"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
       }
     },
     "SweetAlert2": {
@@ -1472,7 +1482,8 @@
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 16
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 14
       }
     },
     "Twitter": {
@@ -1481,8 +1492,8 @@
         "Widgets"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 15
+        "USA_EDU_MASTER": 8,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
     "Disqus": {
@@ -1503,16 +1514,6 @@
         "USA_EDU_MASTER_SUBDOMAINS": 15
       }
     },
-    "particles.js": {
-      "pages": 15,
-      "categories": [
-        "JavaScript graphics"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 12
-      }
-    },
     "Express": {
       "pages": 14,
       "categories": [
@@ -1520,7 +1521,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 14
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 12
       }
     },
     "Jetty": {
@@ -1539,8 +1541,18 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 13,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 7
+      }
+    },
+    "Plesk": {
+      "pages": 14,
+      "categories": [
+        "Hosting panels"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 8,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
       }
     },
     "Semantic-ui": {
@@ -1549,7 +1561,8 @@
         "UI frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 14
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 13
       }
     },
     "VideoJS": {
@@ -1558,7 +1571,8 @@
         "Video players"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 14
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 13
       }
     },
     "YUI": {
@@ -1576,25 +1590,18 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 13
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
       }
     },
-    "Plesk": {
-      "pages": 13,
+    "Craft CMS": {
+      "pages": 12,
       "categories": [
-        "Hosting panels"
+        "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 13
-      }
-    },
-    "Stripe": {
-      "pages": 13,
-      "categories": [
-        "Payment processors"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 13
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Google App Engine": {
@@ -1603,8 +1610,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 11,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 9
       }
     },
     "Kestrel": {
@@ -1613,7 +1620,18 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 12
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 11
+      }
+    },
+    "Yii": {
+      "pages": 12,
+      "categories": [
+        "Web frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 10,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Akamai": {
@@ -1622,18 +1640,8 @@
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 10
-      }
-    },
-    "Craft CMS": {
-      "pages": 11,
-      "categories": [
-        "CMS"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 9
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
     "Google Analytics": {
@@ -1642,9 +1650,8 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 9,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 7
       }
     },
     "Google Sign-in": {
@@ -1653,7 +1660,8 @@
         "Social login"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 11
+        "USA_EDU_MASTER": 5,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
       }
     },
     "Perl": {
@@ -1662,17 +1670,8 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 11
-      }
-    },
-    "Yii": {
-      "pages": 11,
-      "categories": [
-        "Web frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 9
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 7
       }
     },
     "Django": {
@@ -1681,7 +1680,8 @@
         "Web frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 10
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 9
       }
     },
     "Duda": {
@@ -1690,8 +1690,8 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 3,
-        "USA_EDU_MASTER_SUBDOMAINS": 7
+        "USA_EDU_MASTER": 9,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Element UI": {
@@ -1700,7 +1700,38 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 10
+        "USA_EDU_MASTER": 5,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
+      }
+    },
+    "PayPal": {
+      "pages": 10,
+      "categories": [
+        "Payment processors"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
+      }
+    },
+    "Pure CSS": {
+      "pages": 10,
+      "categories": [
+        "UI frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
+      }
+    },
+    "Socket.io": {
+      "pages": 10,
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
     "Brightspot": {
@@ -1728,7 +1759,18 @@
         "Rich text editors"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 9
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
+      }
+    },
+    "Highlight.js": {
+      "pages": 9,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Oracle Dynamic Monitoring Service": {
@@ -1746,25 +1788,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 9
-      }
-    },
-    "Pure CSS": {
-      "pages": 9,
-      "categories": [
-        "UI frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 9
-      }
-    },
-    "Socket.io": {
-      "pages": 9,
-      "categories": [
-        "JavaScript frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 9
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 8
       }
     },
     "Unbounce": {
@@ -1774,7 +1799,8 @@
         "Page builders"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 9
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
       }
     },
     "Fastly": {
@@ -1783,26 +1809,28 @@
         "CDN"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 8
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 7
       }
     },
-    "Google AdSense": {
+    "NitroPack": {
       "pages": 8,
       "categories": [
-        "Advertising"
+        "Caching"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 7,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
-    "PayPal": {
+    "SWFObject": {
       "pages": 8,
       "categories": [
-        "Payment processors"
+        "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 8
+        "USA_EDU_MASTER": 5,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "mod_perl": {
@@ -1811,7 +1839,8 @@
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 8
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
     "DreamWeaver": {
@@ -1820,8 +1849,28 @@
         "Editors"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
+      }
+    },
+    "Ensighten": {
+      "pages": 7,
+      "categories": [
+        "Tag managers"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 6,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
+      }
+    },
+    "Google AdSense": {
+      "pages": 7,
+      "categories": [
+        "Advertising"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Prototype": {
@@ -1830,17 +1879,8 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 7
-      }
-    },
-    "SWFObject": {
-      "pages": 7,
-      "categories": [
-        "Miscellaneous"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
       }
     },
     "Sitecore": {
@@ -1849,22 +1889,14 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 7
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 6
       }
     },
     "Caddy": {
       "pages": 6,
       "categories": [
         "Web servers"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
-      }
-    },
-    "Ensighten": {
-      "pages": 6,
-      "categories": [
-        "Tag managers"
       ],
       "by_country": {
         "USA_EDU_MASTER": 1,
@@ -1877,16 +1909,18 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 5
       }
     },
-    "Highlight.js": {
+    "Highcharts": {
       "pages": 6,
       "categories": [
-        "Miscellaneous"
+        "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Moment Timezone": {
@@ -1895,7 +1929,8 @@
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
     "MooTools": {
@@ -1914,17 +1949,8 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
-      }
-    },
-    "NitroPack": {
-      "pages": 6,
-      "categories": [
-        "Caching"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER": 2,
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Pinterest": {
@@ -1933,7 +1959,8 @@
         "Widgets"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Plyr": {
@@ -1942,7 +1969,28 @@
         "Video players"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 6
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
+      }
+    },
+    "Reveal.js": {
+      "pages": 6,
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
+      }
+    },
+    "TinyMCE": {
+      "pages": 6,
+      "categories": [
+        "Rich text editors"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Weebly": {
@@ -1951,8 +1999,18 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
+      }
+    },
+    "AMP": {
+      "pages": 5,
+      "categories": [
+        "JavaScript frameworks"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Adobe ColdFusion": {
@@ -1961,7 +2019,8 @@
         "Web frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Blazor": {
@@ -1979,7 +2038,8 @@
         "Programming languages"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "FrontPage": {
@@ -1988,16 +2048,8 @@
         "Editors"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
-      }
-    },
-    "Highcharts": {
-      "pages": 5,
-      "categories": [
-        "JavaScript graphics"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Leaflet": {
@@ -2006,7 +2058,8 @@
         "Maps"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Liferay": {
@@ -2015,22 +2068,24 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
+      }
+    },
+    "ShareThis": {
+      "pages": 5,
+      "categories": [
+        "Widgets"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
     "Svelte": {
       "pages": 5,
       "categories": [
         "JavaScript frameworks"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
-      }
-    },
-    "TinyMCE": {
-      "pages": 5,
-      "categories": [
-        "Rich text editors"
       ],
       "by_country": {
         "USA_EDU_MASTER": 1,
@@ -2043,7 +2098,8 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 4,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "UsableNet": {
@@ -2052,8 +2108,8 @@
         "Accessibility"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
     "Visual Website Optimizer": {
@@ -2062,8 +2118,8 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "mod_jk": {
@@ -2072,17 +2128,17 @@
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 5
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 4
       }
     },
-    "AMP": {
-      "pages": 4,
+    "scrollreveal": {
+      "pages": 5,
       "categories": [
-        "JavaScript frameworks"
+        "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 5
       }
     },
     "Atlassian Confluence": {
@@ -2109,7 +2165,18 @@
         "PaaS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
+      }
+    },
+    "Gravatar": {
+      "pages": 4,
+      "categories": [
+        "Miscellaneous"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Hammer.js": {
@@ -2118,7 +2185,8 @@
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 3
       }
     },
     "Mura CMS": {
@@ -2128,16 +2196,8 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
-      }
-    },
-    "ShareThis": {
-      "pages": 4,
-      "categories": [
-        "Widgets"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 3,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "SilverStripe": {
@@ -2146,16 +2206,8 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
-      }
-    },
-    "scrollreveal": {
-      "pages": 4,
-      "categories": [
-        "JavaScript libraries"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 4
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Clicky": {
@@ -2164,7 +2216,8 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Cufon": {
@@ -2182,16 +2235,8 @@
         "Font scripts"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
-      }
-    },
-    "Gravatar": {
-      "pages": 3,
-      "categories": [
-        "Miscellaneous"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Hugo": {
@@ -2200,7 +2245,8 @@
         "Static site generator"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Kentico CMS": {
@@ -2209,7 +2255,8 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "Percussion": {
@@ -2227,16 +2274,18 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
-    "Reveal.js": {
+    "Statcounter": {
       "pages": 3,
       "categories": [
-        "JavaScript frameworks"
+        "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 2,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "SyntaxHighlighter": {
@@ -2245,7 +2294,8 @@
         "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
     "TYPO3 CMS": {
@@ -2254,7 +2304,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 3
+        "USA_EDU_MASTER": 3
       }
     },
     "hCaptcha": {
@@ -2263,8 +2313,7 @@
         "Security"
       ],
       "by_country": {
-        "USA_EDU_MASTER": 1,
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 3
       }
     },
     "lighttpd": {
@@ -2291,7 +2340,8 @@
         "UI frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Contentful": {
@@ -2300,8 +2350,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1,
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 2
       }
     },
     "Exhibit": {
@@ -2310,7 +2359,8 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "Koha": {
@@ -2349,15 +2399,6 @@
         "USA_EDU_MASTER_SUBDOMAINS": 2
       }
     },
-    "Statcounter": {
-      "pages": 2,
-      "categories": [
-        "Analytics"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
-      }
-    },
     "Tumblr": {
       "pages": 2,
       "categories": [
@@ -2373,16 +2414,7 @@
         "Miscellaneous"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
-      }
-    },
-    "Typekit": {
-      "pages": 2,
-      "categories": [
-        "Font scripts"
-      ],
-      "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 2
       }
     },
     "Zepto": {
@@ -2391,7 +2423,7 @@
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 2
       }
     },
     "basket.js": {
@@ -2409,7 +2441,8 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 2
+        "USA_EDU_MASTER": 1,
+        "USA_EDU_MASTER_SUBDOMAINS": 1
       }
     },
     "1C-Bitrix": {
@@ -2419,7 +2452,7 @@
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "American Express": {
@@ -2437,7 +2470,7 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Apple Pay": {
@@ -2474,7 +2507,7 @@
         "Search engines"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "BEM": {
@@ -2483,7 +2516,7 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Bloomreach": {
@@ -2492,7 +2525,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "CIVIC": {
@@ -2519,7 +2552,7 @@
         "Ecommerce"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Datadome": {
@@ -2546,7 +2579,7 @@
         "JavaScript libraries"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "FreeBSD": {
@@ -2555,7 +2588,7 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Ghost": {
@@ -2591,7 +2624,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Hogan.js": {
@@ -2600,7 +2633,7 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Hotjar": {
@@ -2609,7 +2642,7 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Infusionsoft": {
@@ -2618,7 +2651,7 @@
         "Marketing automation"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Inspectlet": {
@@ -2627,7 +2660,7 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "JavaScript Infovis Toolkit": {
@@ -2654,7 +2687,7 @@
         "Marketing automation"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Meteor": {
@@ -2691,7 +2724,7 @@
         "Analytics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "NVD3": {
@@ -2700,7 +2733,7 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "OpenLayers": {
@@ -2727,7 +2760,7 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Raphael": {
@@ -2736,7 +2769,7 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "RightJS": {
@@ -2745,7 +2778,7 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_TOP100": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "RockRMS": {
@@ -2756,7 +2789,7 @@
         "Marketing automation"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "SDL Tridion": {
@@ -2765,7 +2798,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "SUSE": {
@@ -2774,7 +2807,7 @@
         "Operating systems"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Salesforce Commerce Cloud": {
@@ -2837,7 +2870,7 @@
         "CMS"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Supersized": {
@@ -2855,7 +2888,7 @@
         "Advertising"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Tiki Wiki CMS Groupware": {
@@ -2866,6 +2899,15 @@
         "Issue trackers",
         "Message boards",
         "Wikis"
+      ],
+      "by_country": {
+        "USA_EDU_MASTER_SUBDOMAINS": 1
+      }
+    },
+    "Typekit": {
+      "pages": 1,
+      "categories": [
+        "Font scripts"
       ],
       "by_country": {
         "USA_EDU_MASTER_SUBDOMAINS": 1
@@ -2904,7 +2946,7 @@
         "Web servers"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "Zipkin": {
@@ -2922,7 +2964,7 @@
         "JavaScript graphics"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "jQuery-pjax": {
@@ -2931,7 +2973,7 @@
         "Mobile frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "mod_python": {
@@ -2940,7 +2982,7 @@
         "Web server extensions"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "otrs": {
@@ -2958,7 +3000,7 @@
         "Font scripts"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     },
     "styled-components": {
@@ -2968,13 +3010,13 @@
         "JavaScript frameworks"
       ],
       "by_country": {
-        "USA_EDU_MASTER_SUBDOMAINS": 1
+        "USA_EDU_MASTER": 1
       }
     }
   },
   "by_category": {
     "JavaScript libraries": {
-      "pages": 9872,
+      "pages": 10105,
       "technologies": [
         "DataTables",
         "Dojo",
@@ -3031,7 +3073,7 @@
       ]
     },
     "Font scripts": {
-      "pages": 5922,
+      "pages": 6044,
       "technologies": [
         "Cufon",
         "Font Awesome",
@@ -3043,7 +3085,7 @@
       ]
     },
     "Programming languages": {
-      "pages": 3321,
+      "pages": 3417,
       "technologies": [
         "CFML",
         "Go",
@@ -3057,7 +3099,7 @@
       ]
     },
     "CDN": {
-      "pages": 3203,
+      "pages": 3219,
       "technologies": [
         "Akamai",
         "Amazon Cloudfront",
@@ -3070,14 +3112,14 @@
       ]
     },
     "Tag managers": {
-      "pages": 3125,
+      "pages": 3214,
       "technologies": [
         "Ensighten",
         "Google Tag Manager"
       ]
     },
     "UI frameworks": {
-      "pages": 3099,
+      "pages": 3154,
       "technologies": [
         "Bootstrap",
         "Bulma",
@@ -3090,16 +3132,8 @@
         "animate.css"
       ]
     },
-    "Reverse proxies": {
-      "pages": 2347,
-      "technologies": [
-        "Envoy",
-        "F5 BigIP",
-        "Nginx"
-      ]
-    },
     "CMS": {
-      "pages": 2278,
+      "pages": 2380,
       "technologies": [
         "1C-Bitrix",
         "Adobe Experience Manager",
@@ -3135,8 +3169,16 @@
         "WordPress"
       ]
     },
+    "Reverse proxies": {
+      "pages": 2332,
+      "technologies": [
+        "Envoy",
+        "F5 BigIP",
+        "Nginx"
+      ]
+    },
     "Databases": {
-      "pages": 2098,
+      "pages": 2195,
       "technologies": [
         "MariaDB",
         "MongoDB",
@@ -3146,7 +3188,7 @@
       ]
     },
     "PaaS": {
-      "pages": 1809,
+      "pages": 1883,
       "technologies": [
         "Amazon Web Services",
         "Atlassian Statuspage",
@@ -3163,7 +3205,7 @@
       ]
     },
     "Operating systems": {
-      "pages": 1573,
+      "pages": 1572,
       "technologies": [
         "CentOS",
         "Debian",
@@ -3176,7 +3218,7 @@
       ]
     },
     "Blogs": {
-      "pages": 1386,
+      "pages": 1484,
       "technologies": [
         "Ghost",
         "Mura CMS",
@@ -3188,7 +3230,7 @@
       ]
     },
     "Caching": {
-      "pages": 1252,
+      "pages": 1271,
       "technologies": [
         "Google PageSpeed",
         "Litespeed Cache",
@@ -3201,7 +3243,7 @@
       ]
     },
     "Web frameworks": {
-      "pages": 1072,
+      "pages": 1073,
       "technologies": [
         "Adobe ColdFusion",
         "Blazor",
@@ -3217,7 +3259,7 @@
       ]
     },
     "JavaScript frameworks": {
-      "pages": 1058,
+      "pages": 1069,
       "technologies": [
         "AMP",
         "Alpine.js",
@@ -3248,7 +3290,7 @@
       ]
     },
     "Miscellaneous": {
-      "pages": 769,
+      "pages": 819,
       "technologies": [
         "Amazon S3",
         "Clipboard.js",
@@ -3266,16 +3308,8 @@
         "webpack"
       ]
     },
-    "Video players": {
-      "pages": 519,
-      "technologies": [
-        "Plyr",
-        "VideoJS",
-        "YouTube"
-      ]
-    },
     "Widgets": {
-      "pages": 519,
+      "pages": 547,
       "technologies": [
         "AddThis",
         "AddToAny",
@@ -3289,14 +3323,22 @@
         "Twitter"
       ]
     },
+    "Video players": {
+      "pages": 531,
+      "technologies": [
+        "Plyr",
+        "VideoJS",
+        "YouTube"
+      ]
+    },
     "SEO": {
-      "pages": 441,
+      "pages": 483,
       "technologies": [
         "Yoast SEO"
       ]
     },
     "Web server extensions": {
-      "pages": 396,
+      "pages": 394,
       "technologies": [
         "Google PageSpeed",
         "OpenSSL",
@@ -3307,7 +3349,7 @@
       ]
     },
     "Security": {
-      "pages": 327,
+      "pages": 338,
       "technologies": [
         "Datadome",
         "Imperva",
@@ -3316,7 +3358,7 @@
       ]
     },
     "Analytics": {
-      "pages": 285,
+      "pages": 294,
       "technologies": [
         "Amplitude",
         "Clicky",
@@ -3334,7 +3376,7 @@
       ]
     },
     "Page builders": {
-      "pages": 251,
+      "pages": 280,
       "technologies": [
         "Elementor",
         "Unbounce",
@@ -3342,7 +3384,7 @@
       ]
     },
     "Ecommerce": {
-      "pages": 230,
+      "pages": 234,
       "technologies": [
         "1C-Bitrix",
         "Cart Functionality",
@@ -3355,7 +3397,7 @@
       ]
     },
     "JavaScript graphics": {
-      "pages": 203,
+      "pages": 208,
       "technologies": [
         "Chart.js",
         "D3",
@@ -3383,7 +3425,7 @@
       ]
     },
     "Maps": {
-      "pages": 81,
+      "pages": 86,
       "technologies": [
         "ArcGIS API for JavaScript",
         "Google Maps",
@@ -3391,14 +3433,8 @@
         "OpenLayers"
       ]
     },
-    "LMS": {
-      "pages": 71,
-      "technologies": [
-        "Moodle"
-      ]
-    },
     "Marketing automation": {
-      "pages": 70,
+      "pages": 73,
       "technologies": [
         "HubSpot",
         "Infusionsoft",
@@ -3408,15 +3444,21 @@
         "RockRMS"
       ]
     },
+    "LMS": {
+      "pages": 71,
+      "technologies": [
+        "Moodle"
+      ]
+    },
     "Accessibility": {
-      "pages": 55,
+      "pages": 59,
       "technologies": [
         "UsableNet",
         "UserWay"
       ]
     },
     "Mobile frameworks": {
-      "pages": 51,
+      "pages": 54,
       "technologies": [
         "jQuery Mobile",
         "jQuery-pjax"
@@ -3442,7 +3484,7 @@
       ]
     },
     "Payment processors": {
-      "pages": 27,
+      "pages": 32,
       "technologies": [
         "American Express",
         "Apple Pay",
@@ -3477,14 +3519,14 @@
       ]
     },
     "Rich text editors": {
-      "pages": 14,
+      "pages": 15,
       "technologies": [
         "Froala Editor",
         "TinyMCE"
       ]
     },
     "Hosting panels": {
-      "pages": 13,
+      "pages": 14,
       "technologies": [
         "Plesk"
       ]
