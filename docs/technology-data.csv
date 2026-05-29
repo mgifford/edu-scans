@@ -1,151 +1,151 @@
 ﻿rank,technology,pages,categories
-1,jQuery,4823,JavaScript libraries
-2,Font Awesome,3213,Font scripts
-3,Google Tag Manager,3207,Tag managers
-4,PHP,2904,Programming languages
-5,Google Font API,2748,Font scripts
-6,Bootstrap,2472,UI frameworks
-7,Nginx,2206,Reverse proxies; Web servers
-8,Apache,2081,Web servers
-9,Cloudflare,1571,CDN
-10,MySQL,1445,Databases
-11,WordPress,1439,Blogs; CMS
-12,jQuery Migrate,1367,JavaScript libraries
+1,jQuery,4719,JavaScript libraries
+2,Font Awesome,3140,Font scripts
+3,Google Tag Manager,3118,Tag managers
+4,PHP,2796,Programming languages
+5,Google Font API,2671,Font scripts
+6,Bootstrap,2437,UI frameworks
+7,Nginx,2194,Reverse proxies; Web servers
+8,Apache,2073,Web servers
+9,Cloudflare,1581,CDN
+10,MySQL,1338,Databases
+11,WordPress,1332,Blogs; CMS
+12,jQuery Migrate,1286,JavaScript libraries
 13,Windows Server,1086,Operating systems
 14,IIS,1078,Web servers
-15,jsDelivr,1025,CDN
-16,Microsoft ASP.NET,837,Web frameworks
-17,Amazon Web Services,826,PaaS
-18,Varnish,797,Caching
-19,jQuery UI,781,JavaScript libraries
-20,Slick,723,JavaScript libraries
-21,Drupal,667,CMS
+15,jsDelivr,1014,CDN
+16,Microsoft ASP.NET,838,Web frameworks
+17,Amazon Web Services,825,PaaS
+18,Varnish,798,Caching
+19,jQuery UI,774,JavaScript libraries
+20,Slick,705,JavaScript libraries
+21,Drupal,664,CMS
 22,Modernizr,649,JavaScript libraries
-23,YouTube,511,Video players
-24,Yoast SEO,483,SEO
+23,YouTube,482,Video players
+24,Yoast SEO,432,SEO
 25,Amazon Cloudfront,420,CDN
-26,Lightbox,373,JavaScript libraries
+26,Lightbox,363,JavaScript libraries
 27,MariaDB,358,Databases
 28,Pantheon,358,PaaS
-29,animate.css,342,UI frameworks
+29,animate.css,327,UI frameworks
 30,Amazon EC2,327,Web servers
 31,Percona,322,Databases
 32,Cloud Platform,322,PaaS
-33,Underscore.js,298,JavaScript libraries
-34,reCAPTCHA,283,Security
-35,OWL Carousel,276,Widgets
-36,DataTables,270,JavaScript libraries
-37,Ubuntu,264,Operating systems
-38,Elementor,251,Page builders
-39,Moment.js,239,JavaScript libraries
-40,ZURB Foundation,237,UI frameworks
-41,Revslider,236,Miscellaneous
+33,Underscore.js,280,JavaScript libraries
+34,reCAPTCHA,266,Security
+35,Ubuntu,263,Operating systems
+36,DataTables,260,JavaScript libraries
+37,OWL Carousel,256,Widgets
+38,ZURB Foundation,235,UI frameworks
+39,Moment.js,229,JavaScript libraries
+40,Revslider,226,Miscellaneous
+41,Elementor,225,Page builders
 42,OpenSSL,214,Web server extensions
-43,Swiper Slider,190,Miscellaneous
-44,Java,185,Programming languages
-45,Microsoft HTTPAPI,177,Web servers
-46,AngularJS,171,JavaScript frameworks
-47,WP Engine,160,PaaS
+43,Java,182,Programming languages
+44,Microsoft HTTPAPI,177,Web servers
+45,AngularJS,171,JavaScript frameworks
+46,Swiper Slider,167,Miscellaneous
+47,Ruby,153,Programming languages
 48,Ruby on Rails,153,Web frameworks
-49,Ruby,153,Programming languages
-50,Google PageSpeed,149,Caching; Web server extensions
-51,RequireJS,147,JavaScript frameworks
-52,Cart Functionality,138,Ecommerce
-53,Crazy Egg,133,Analytics
-54,Google Cloud,128,CDN
-55,Handlebars,128,JavaScript frameworks
-56,Amazon S3,125,Miscellaneous
-57,FancyBox,125,JavaScript libraries
-58,Lodash,120,JavaScript libraries
-59,Envoy,117,Reverse proxies
-60,React,111,JavaScript frameworks
-61,OneTrust,104,Cookie compliance
-62,Vue.js,96,JavaScript frameworks
-63,W3 Total Cache,95,Caching
-64,Angular,92,JavaScript frameworks
-65,Debian,90,Operating systems
-66,AddToAny,90,Widgets
-67,Gravity Forms,89,Miscellaneous
-68,Node.js,87,Programming languages
-69,Select2,86,JavaScript libraries
-70,Red Hat,85,Operating systems
-71,Facebook,81,Widgets
-72,Backbone.js,81,JavaScript frameworks
-73,Google Maps,79,Maps
-74,Ionicons,75,Font scripts
-75,WP Rocket,75,Caching
-76,Chart.js,75,JavaScript graphics
-77,Moodle,71,LMS
-78,Apache Tomcat,70,Web servers
-79,Redis,69,Databases
-80,Redis Object Cache,69,Caching
-81,Polyfill,67,JavaScript libraries
-82,Alpine.js,65,JavaScript frameworks
-83,Kinsta,57,PaaS
-84,webpack,57,Miscellaneous
-85,comScore,55,Analytics
-86,MathJax,54,JavaScript graphics
-87,UserWay,54,Accessibility
-88,jQuery Mobile,53,Mobile frameworks
-89,Imperva,51,Security
-90,Flickity,51,JavaScript libraries
-91,LiteSpeed,51,Web servers
-92,WordPress Super Cache,49,Caching
-93,Adobe Experience Manager,49,CMS
-94,Weglot,49,Miscellaneous
-95,Stimulus,46,JavaScript frameworks
-96,Osano,46,Cookie compliance
+49,Google PageSpeed,149,Caching; Web server extensions
+50,RequireJS,146,JavaScript frameworks
+51,Cart Functionality,136,Ecommerce
+52,Google Cloud,128,CDN
+53,Handlebars,128,JavaScript frameworks
+54,Amazon S3,125,Miscellaneous
+55,Crazy Egg,124,Analytics
+56,FancyBox,122,JavaScript libraries
+57,Lodash,118,JavaScript libraries
+58,Envoy,116,Reverse proxies
+59,React,111,JavaScript frameworks
+60,OneTrust,103,Cookie compliance
+61,W3 Total Cache,95,Caching
+62,Vue.js,93,JavaScript frameworks
+63,Angular,92,JavaScript frameworks
+64,Debian,89,Operating systems
+65,Node.js,87,Programming languages
+66,Red Hat,86,Operating systems
+67,AddToAny,83,Widgets
+68,Facebook,80,Widgets
+69,Select2,79,JavaScript libraries
+70,Backbone.js,79,JavaScript frameworks
+71,Google Maps,77,Maps
+72,Gravity Forms,76,Miscellaneous
+73,Ionicons,74,Font scripts
+74,Chart.js,74,JavaScript graphics
+75,Moodle,71,LMS
+76,Apache Tomcat,70,Web servers
+77,WP Engine,67,PaaS
+78,Redis Object Cache,67,Caching
+79,Redis,67,Databases
+80,Alpine.js,65,JavaScript frameworks
+81,Polyfill,65,JavaScript libraries
+82,WP Rocket,61,Caching
+83,webpack,58,Miscellaneous
+84,Kinsta,57,PaaS
+85,LiteSpeed,56,Web servers
+86,comScore,55,Analytics
+87,MathJax,54,JavaScript graphics
+88,UserWay,53,Accessibility
+89,jQuery Mobile,52,Mobile frameworks
+90,Imperva,51,Security
+91,WordPress Super Cache,50,Caching
+92,Weglot,49,Miscellaneous
+93,Flickity,49,JavaScript libraries
+94,Adobe Experience Manager,48,CMS
+95,Osano,46,Cookie compliance
+96,Stimulus,46,JavaScript frameworks
 97,Vercel,46,Web servers
-98,Optimizely,44,Analytics
+98,Optimizely,43,Analytics
 99,Sucuri,42,CDN
 100,Pagely,41,PaaS
 101,CentOS,40,Operating systems
-102,Twitter typeahead.js,40,JavaScript libraries
-103,prettyPhoto,40,JavaScript libraries
-104,Clipboard.js,36,Miscellaneous
-105,Wix,36,Blogs; CMS; Ecommerce
-106,AppNexus,35,Advertising
-107,OpenResty,35,Web servers
-108,Lua,35,Programming languages
-109,TrackJs,34,Analytics
-110,Next.js,34,Web frameworks; Web servers
-111,WooCommerce,33,Ecommerce
-112,HubSpot,32,Marketing automation
-113,Python,31,Programming languages
-114,UIKit,31,UI frameworks
-115,SiteGround,29,PaaS
-116,Litespeed Cache,29,Caching
-117,Nuxt.js,28,JavaScript frameworks
+102,prettyPhoto,40,JavaScript libraries
+103,Twitter typeahead.js,38,JavaScript libraries
+104,Wix,36,Blogs; CMS; Ecommerce
+105,Next.js,35,Web frameworks; Web servers
+106,Litespeed Cache,35,Caching
+107,WooCommerce,34,Ecommerce
+108,AppNexus,34,Advertising
+109,TrackJs,33,Analytics
+110,Clipboard.js,33,Miscellaneous
+111,Python,31,Programming languages
+112,HubSpot,30,Marketing automation
+113,UIKit,30,UI frameworks
+114,OpenResty,29,Web servers
+115,Lua,29,Programming languages
+116,Google Plus,28,Widgets
+117,Nuxt.js,27,JavaScript frameworks
 118,Materialize CSS,27,UI frameworks
 119,Atlassian Statuspage,27,Issue trackers; PaaS
-120,Google Plus,27,Widgets
+120,Platform.sh,27,PaaS
 121,D3,26,JavaScript graphics
-122,Platform.sh,26,PaaS
-123,Cookiebot,24,Cookie compliance
-124,IBM WebSphere Commerce,23,Ecommerce
-125,Gatsby,23,JavaScript frameworks; Static site generator
-126,AddThis,22,Widgets
-127,Squarespace,22,CMS
-128,FlexSlider,22,Widgets
-129,MailChimp,22,Marketing automation
-130,three.js,21,JavaScript graphics
-131,Webflow,20,Page builders
-132,GSAP,20,JavaScript frameworks
-133,Material Design Lite,19,UI frameworks
-134,Joomla,19,CMS
-135,TrustArc,19,Cookie compliance
-136,Flywheel,19,PaaS
-137,Sitefinity,19,CMS
-138,particles.js,18,JavaScript graphics
-139,DNN,18,CMS
-140,Microsoft SharePoint,18,CMS
-141,mod_wsgi,17,Web server extensions
-142,Stripe,16,Payment processors
-143,Mautic,16,Marketing automation
-144,Twitter,16,Widgets
-145,SweetAlert2,16,JavaScript libraries
-146,OpenGSE,15,Web servers
-147,Disqus,15,Comment systems
+122,SiteGround,25,PaaS
+123,Cookiebot,23,Cookie compliance
+124,Gatsby,23,JavaScript frameworks; Static site generator
+125,MailChimp,22,Marketing automation
+126,Squarespace,22,CMS
+127,IBM WebSphere Commerce,22,Ecommerce
+128,three.js,21,JavaScript graphics
+129,FlexSlider,21,Widgets
+130,AddThis,20,Widgets
+131,GSAP,20,JavaScript frameworks
+132,Joomla,20,CMS
+133,Webflow,20,Page builders
+134,Material Design Lite,19,UI frameworks
+135,Sitefinity,19,CMS
+136,Microsoft SharePoint,18,CMS
+137,Flywheel,18,PaaS
+138,DNN,18,CMS
+139,TrustArc,18,Cookie compliance
+140,mod_wsgi,17,Web server extensions
+141,Mautic,17,Marketing automation
+142,Twitter,16,Widgets
+143,SweetAlert2,16,JavaScript libraries
+144,particles.js,15,JavaScript graphics
+145,OpenGSE,15,Web servers
+146,Disqus,15,Comment systems
+147,Stripe,14,Payment processors
 148,Plesk,14,Hosting panels
 149,Jetty,14,Web servers
 150,Semantic-ui,14,UI frameworks
@@ -155,85 +155,85 @@
 154,VideoJS,14,Video players
 155,Concrete5,13,CMS
 156,Kestrel,12,Web servers
-157,Google App Engine,12,Web servers
+157,Google Sign-in,12,Social login
 158,Yii,12,Web frameworks
 159,Craft CMS,12,CMS
-160,Akamai,11,CDN
-161,Google Analytics,11,Analytics
-162,Google Sign-in,11,Social login
+160,Google App Engine,12,Web servers
+161,Akamai,11,CDN
+162,Google Analytics,11,Analytics
 163,Perl,11,Programming languages
 164,Django,10,Web frameworks
-165,Socket.io,10,JavaScript frameworks
-166,Element UI,10,JavaScript frameworks
-167,PayPal,10,Payment processors
-168,Pure CSS,10,UI frameworks
-169,Duda,10,CMS
-170,Highlight.js,9,Miscellaneous
-171,Oracle Dynamic Monitoring Service,9,Miscellaneous
-172,F5 BigIP,9,Reverse proxies
+165,Duda,10,CMS
+166,PayPal,10,Payment processors
+167,Socket.io,9,JavaScript frameworks
+168,Pure CSS,9,UI frameworks
+169,Brightspot,9,CMS
+170,Element UI,9,JavaScript frameworks
+171,F5 BigIP,9,Reverse proxies
+172,Oracle Dynamic Monitoring Service,9,Miscellaneous
 173,Froala Editor,9,Rich text editors
 174,Phusion Passenger,9,Web servers
-175,Brightspot,9,CMS
-176,Unbounce,9,Editors; Page builders
+175,Unbounce,9,Editors; Page builders
+176,SWFObject,8,Miscellaneous
 177,Fastly,8,CDN
-178,NitroPack,8,Caching
-179,mod_perl,8,Web server extensions
-180,SWFObject,8,Miscellaneous
-181,Prototype,7,JavaScript frameworks
-182,Sitecore,7,CMS
-183,DreamWeaver,7,Editors
-184,Google AdSense,7,Advertising
-185,Ensighten,7,Tag managers
-186,Reveal.js,6,JavaScript frameworks
-187,MooTools,6,JavaScript frameworks
-188,TinyMCE,6,Rich text editors
-189,Pinterest,6,Widgets
+178,mod_perl,8,Web server extensions
+179,Prototype,7,JavaScript frameworks
+180,Sitecore,7,CMS
+181,Google AdSense,7,Advertising
+182,DreamWeaver,7,Editors
+183,Ensighten,7,Tag managers
+184,Plyr,7,Video players
+185,Highlight.js,6,Miscellaneous
+186,Pinterest,6,Widgets
+187,Mustache,6,JavaScript frameworks
+188,Moment Timezone,6,JavaScript libraries
+189,TinyMCE,6,Rich text editors
 190,Weebly,6,CMS
-191,Plyr,6,Video players
+191,Caddy,6,Web servers
 192,Go,6,Programming languages
-193,Caddy,6,Web servers
-194,Highcharts,6,JavaScript graphics
-195,Mustache,6,JavaScript frameworks
-196,Moment Timezone,6,JavaScript libraries
-197,mod_jk,5,Web server extensions
-198,AMP,5,JavaScript frameworks
-199,Leaflet,5,Maps
-200,Blazor,5,Web frameworks
-201,Svelte,5,JavaScript frameworks
-202,UNIX,5,Operating systems
-203,FrontPage,5,Editors
-204,Liferay,5,CMS
-205,CFML,5,Programming languages
-206,Adobe ColdFusion,5,Web frameworks
-207,Visual Website Optimizer,5,Analytics
-208,ShareThis,5,Widgets
-209,UsableNet,5,Accessibility
-210,scrollreveal,5,JavaScript libraries
-211,Hammer.js,4,JavaScript libraries
-212,Atlassian Confluence,4,Wikis
-213,Atlassian Jira,4,Issue trackers
-214,GitHub Pages,4,PaaS
-215,Gravatar,4,Miscellaneous
-216,Mura CMS,4,Blogs; CMS
-217,SilverStripe,4,CMS
-218,lighttpd,3,Web servers
-219,Cufon,3,Font scripts
-220,Percussion,3,CMS
-221,Hugo,3,Static site generator
-222,Statcounter,3,Analytics
+193,Highcharts,6,JavaScript graphics
+194,mod_jk,5,Web server extensions
+195,Leaflet,5,Maps
+196,Liferay,5,CMS
+197,MooTools,5,JavaScript frameworks
+198,Blazor,5,Web frameworks
+199,Svelte,5,JavaScript frameworks
+200,NitroPack,5,Caching
+201,UNIX,5,Operating systems
+202,FrontPage,5,Editors
+203,CFML,5,Programming languages
+204,Adobe ColdFusion,5,Web frameworks
+205,UsableNet,5,Accessibility
+206,SilverStripe,4,CMS
+207,Hammer.js,4,JavaScript libraries
+208,AMP,4,JavaScript frameworks
+209,GitHub Pages,4,PaaS
+210,Gravatar,4,Miscellaneous
+211,Mura CMS,4,Blogs; CMS
+212,Visual Website Optimizer,4,Analytics
+213,ShareThis,4,Widgets
+214,scrollreveal,4,JavaScript libraries
+215,Reveal.js,3,JavaScript frameworks
+216,Cufon,3,Font scripts
+217,Atlassian Confluence,3,Wikis
+218,Atlassian Jira,3,Issue trackers
+219,Kentico CMS,3,CMS
+220,lighttpd,3,Web servers
+221,Percussion,3,CMS
+222,Hugo,3,Static site generator
 223,SyntaxHighlighter,3,Miscellaneous
 224,Glyphicons,3,Font scripts
-225,Clicky,3,Analytics
-226,Kentico CMS,3,CMS
+225,hCaptcha,3,Security
+226,Clicky,3,Analytics
 227,Plone,3,CMS
-228,hCaptcha,3,Security
-229,TYPO3 CMS,3,CMS
+228,TYPO3 CMS,3,CMS
+229,Tumblr,2,Blogs
 230,Amplitude,2,Analytics
-231,Prism,2,Miscellaneous
-232,Tumblr,2,Blogs
-233,Linkedin,2,Widgets
-234,basket.js,2,JavaScript libraries
-235,Koha,2,DMS
+231,Koha,2,DMS
+232,basket.js,2,JavaScript libraries
+233,Prism,2,Miscellaneous
+234,Linkedin,2,Widgets
+235,Statcounter,2,Analytics
 236,MediaWiki,2,Wikis
 237,Exhibit,2,JavaScript graphics
 238,Bulma,2,UI frameworks
@@ -242,42 +242,42 @@
 241,Contentful,2,CMS
 242,Zepto,2,JavaScript libraries
 243,Ghost,1,Blogs
-244,Salesforce Commerce Cloud,1,Ecommerce
-245,Sizmek,1,Advertising
-246,MongoDB,1,Databases
-247,Meteor,1,JavaScript frameworks; Web frameworks
-248,ArcGIS API for JavaScript,1,Maps
-249,OpenLayers,1,Maps
-250,Tiki Wiki CMS Groupware,1,Blogs; CMS; Issue trackers; Message boards; Wikis
-251,GoDaddy Website Builder,1,CMS
-252,Atlassian Jira Issue Collector,1,Development; Issue trackers
-253,Xajax,1,JavaScript libraries
-254,Supersized,1,JavaScript graphics
-255,JavaServer Pages,1,Web frameworks
-256,Datadome,1,Security
-257,Sapper,1,Web frameworks
-258,Microsoft Word,1,Editors
-259,otrs,1,Issue trackers
-260,Typekit,1,Font scripts
-261,Apple Pay,1,Payment processors
-262,Google Pay,1,Payment processors
-263,Shop Pay,1,Payment processors
-264,Shopify,1,Ecommerce
-265,American Express,1,Payment processors
-266,Venmo,1,Payment processors
-267,Visa,1,Payment processors
-268,Zipkin,1,Analytics
-269,Snap.svg,1,JavaScript libraries
-270,JavaScript Infovis Toolkit,1,JavaScript graphics
-271,Dojo,1,JavaScript libraries
-272,Cargo,1,CMS
-273,PHPDebugBar,1,Development
-274,CIVIC,1,Cookie compliance
-275,NVD3,1,JavaScript graphics
-276,Grav,1,CMS
-277,Marketo,1,Marketing automation
-278,FreeBSD,1,Operating systems
-279,Awesomplete,1,Search engines
+244,ArcGIS API for JavaScript,1,Maps
+245,GoDaddy Website Builder,1,CMS
+246,CIVIC,1,Cookie compliance
+247,Salesforce Commerce Cloud,1,Ecommerce
+248,Sizmek,1,Advertising
+249,Meteor,1,JavaScript frameworks; Web frameworks
+250,MongoDB,1,Databases
+251,Tiki Wiki CMS Groupware,1,Blogs; CMS; Issue trackers; Message boards; Wikis
+252,OpenLayers,1,Maps
+253,Atlassian Jira Issue Collector,1,Development; Issue trackers
+254,NVD3,1,JavaScript graphics
+255,Xajax,1,JavaScript libraries
+256,Supersized,1,JavaScript graphics
+257,JavaServer Pages,1,Web frameworks
+258,Grav,1,CMS
+259,Marketo,1,Marketing automation
+260,Datadome,1,Security
+261,Sapper,1,Web frameworks
+262,Microsoft Word,1,Editors
+263,otrs,1,Issue trackers
+264,Typekit,1,Font scripts
+265,Visa,1,Payment processors
+266,Google Pay,1,Payment processors
+267,American Express,1,Payment processors
+268,Shopify,1,Ecommerce
+269,Apple Pay,1,Payment processors
+270,Venmo,1,Payment processors
+271,Shop Pay,1,Payment processors
+272,FreeBSD,1,Operating systems
+273,Zipkin,1,Analytics
+274,Snap.svg,1,JavaScript libraries
+275,Dojo,1,JavaScript libraries
+276,JavaScript Infovis Toolkit,1,JavaScript graphics
+277,Cargo,1,CMS
+278,Awesomplete,1,Search engines
+279,PHPDebugBar,1,Development
 280,Fingerprintjs,1,JavaScript libraries
 281,Bloomreach,1,CMS
 282,SUSE,1,Operating systems
