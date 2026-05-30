@@ -60,7 +60,7 @@ class TechDetector:
         Drives the matching loop directly rather than calling ``wt.perform()``
         so we can handle both ``scriptSrc`` (current enthec key) and the legacy
         ``script`` key that predates the Oct-2023 schema rename.  webtech's own
-        ``perform()`` only checks ``script``, silently missing the 3 800+
+        ``perform()`` only checks ``script``, silently missing the 3,800+
         technologies whose fingerprints live under ``scriptSrc``.
 
         Args:
@@ -95,7 +95,7 @@ class TechDetector:
             if tech_data.get('cookies'):
                 target.check_cookies(tech_name, tech_data['cookies'])
             # enthec renamed 'script' → 'scriptSrc' in 2023; support both.
-            script_patterns = tech_data.get('scriptSrc') or tech_data.get('scripts') or tech_data.get('script')
+            script_patterns = tech_data.get('scriptSrc') or tech_data.get('script')
             if script_patterns:
                 target.check_script(tech_name, script_patterns)
             if tech_data.get('url'):
