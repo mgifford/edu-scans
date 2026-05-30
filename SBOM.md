@@ -14,7 +14,6 @@ This file tracks the project software bill of materials (SBOM) at the direct-dep
 
 | Package | Version spec | Purpose | License review status |
 |---|---:|---|---|
-| setuptools | >=68.0,<81.0 | Packaging/runtime compatibility (`pkg_resources`) | Pending verification |
 | PyYAML | >=6.0.1 | YAML parsing | Pending verification |
 | fastapi | 0.115.6 | API framework | Pending verification |
 | httpx | 0.28.1 | Async HTTP client for URL validation | Pending verification |
@@ -24,7 +23,7 @@ This file tracks the project software bill of materials (SBOM) at the direct-dep
 | tldextract | 5.1.3 | Domain parsing | Pending verification |
 | beautifulsoup4 | 4.12.3 | HTML parsing | Pending verification |
 | tenacity | 9.0.0 | Retry logic | Pending verification |
-| python-Wappalyzer | 0.3.1 | Technology detection | Pending verification |
+| webtech | 1.3.4 | Technology detection (fingerprints via enthec/webappanalyzer) | Pending verification |
 | pytest | 9.0.3 | Test runner | Pending verification |
 | pytest-asyncio | 1.3.0 | Async test support | Pending verification |
 | pytest-mock | 3.14.0 | Mocking for tests | Pending verification |
@@ -54,6 +53,7 @@ Use this log whenever dependency versions, dependency sets, or license decisions
 
 | Date (UTC) | Changed files | Version changes summary | License review summary | Reviewer |
 |---|---|---|---|---|
+| 2026-05-30 | `requirements.txt`, `src/services/tech_detector.py`, `SBOM.md` | Replaced `python-Wappalyzer==0.3.1` (stale, 2020) + `setuptools` workaround with `webtech==1.3.4`; fingerprints now sourced from enthec/webappanalyzer (active, 7500+ techs) | MIT (webtech); fingerprint data MIT (enthec) | Copilot Task Agent |
 | 2026-05-23 | `requirements.txt`, `package.json`, `AGENTS.md`, `SBOM.md` | Initial SBOM baseline captured from manifests | Initial status set to Pending verification | Copilot Task Agent |
 
 ## Verification Workflow

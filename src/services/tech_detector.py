@@ -57,6 +57,12 @@ class TechDetector:
         """
         Run webtech detection on pre-fetched page content.
 
+        Drives the matching loop directly rather than calling ``wt.perform()``
+        so we can handle both ``scriptSrc`` (current enthec key) and the legacy
+        ``script`` key that predates the Oct-2023 schema rename.  webtech's own
+        ``perform()`` only checks ``script``, silently missing the 3 800+
+        technologies whose fingerprints live under ``scriptSrc``.
+
         Args:
             url: The final URL of the page (after redirects).
             html: Raw HTML body.
@@ -66,6 +72,7 @@ class TechDetector:
             Technologies dict ``{tech_name: {versions: [...], categories: []}}``.
         """
         from webtech.target import Target
+        from webtech.utils import Format
 
         wt = self._get_webtech()
         target = Target()
@@ -75,8 +82,26 @@ class TechDetector:
         for key, value in headers.items():
             target.data['headers'][key.lower()] = (str(value), key)
         target.parse_html_page()
+        target.whitelist_data(wt.COMMON_HEADERS)
 
-        report = wt.perform(target)  # returns JSON-serialisable dict
+        # Run the per-technology checks ourselves so we support both key names.
+        for tech_name, tech_data in wt.db['apps'].items():
+            if tech_data.get('headers'):
+                target.check_headers(tech_name, tech_data['headers'])
+            if tech_data.get('html'):
+                target.check_html(tech_name, tech_data['html'])
+            if tech_data.get('meta'):
+                target.check_meta(tech_name, tech_data['meta'])
+            if tech_data.get('cookies'):
+                target.check_cookies(tech_name, tech_data['cookies'])
+            # enthec renamed 'script' → 'scriptSrc' in 2023; support both.
+            script_patterns = tech_data.get('scriptSrc') or tech_data.get('scripts') or tech_data.get('script')
+            if script_patterns:
+                target.check_script(tech_name, script_patterns)
+            if tech_data.get('url'):
+                target.check_url(tech_name, tech_data['url'])
+
+        report = target.generate_report(Format['json'])
 
         technologies: dict = {}
         for tech_entry in report.get('tech', []):
