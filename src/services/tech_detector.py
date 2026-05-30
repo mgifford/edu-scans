@@ -1,24 +1,15 @@
-"""Technology detection service using Wappalyzer for government websites."""
+"""Technology detection service using webtech for government websites."""
 
 from __future__ import annotations
 
 import asyncio
 import time
-import warnings
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
 import httpx
-
-
-WebPage = None
-"""Lazily imported Wappalyzer WebPage class.
-
-Keeping this import out of module scope prevents the whole CLI from crashing
-at import time when the optional Wappalyzer dependency stack is misconfigured.
-"""
 
 
 @dataclass(slots=True)
@@ -34,10 +25,10 @@ class TechDetector:
     """
     Service for detecting technologies used by government websites.
 
-    Uses python-Wappalyzer to fingerprint technologies from HTTP response
-    headers and HTML content.  Page content is fetched with the project's
-    standard httpx client and the resulting HTML/headers are passed directly
-    to Wappalyzer, avoiding a separate aiohttp dependency.
+    Uses webtech to fingerprint technologies from HTTP response headers and
+    HTML content.  Page content is fetched with the project's standard httpx
+    client and the resulting HTML/headers are passed directly to webtech,
+    avoiding a separate HTTP request.
     """
 
     def __init__(
@@ -49,24 +40,78 @@ class TechDetector:
         self.timeout_seconds = timeout_seconds
         self.max_redirects = max_redirects
         self.user_agent = user_agent
-        self._wappalyzer = None  # lazily initialised
+        self._webtech = None  # lazily initialised
 
-    def _get_wappalyzer(self):
-        """Return a cached Wappalyzer instance (lazy init to avoid import cost)."""
-        if self._wappalyzer is None:
-            from Wappalyzer import Wappalyzer
+    def _get_webtech(self):
+        """Return a cached WebTech instance (lazy init to avoid import cost)."""
+        if self._webtech is None:
+            from webtech import WebTech
+            from webtech.utils import Format
 
-            with warnings.catch_warnings():
-                warnings.simplefilter("ignore")
-                self._wappalyzer = Wappalyzer.latest()
-        return self._wappalyzer
+            self._webtech = WebTech()
+            # Switch to JSON output so perform() returns a structured dict.
+            self._webtech.output_format = Format['json']
+        return self._webtech
 
-    def _build_webpage(self, url: str, html: str, headers: dict):
-        """Return a Wappalyzer WebPage instance for the fetched content."""
-        webpage_cls = WebPage
-        if webpage_cls is None:
-            from Wappalyzer import WebPage as webpage_cls
-        return webpage_cls(url, html, headers)
+    def _analyze(self, url: str, html: str, headers: dict) -> dict:
+        """
+        Run webtech detection on pre-fetched page content.
+
+        Drives the matching loop directly rather than calling ``wt.perform()``
+        so we can handle both ``scriptSrc`` (current enthec key) and the legacy
+        ``script`` key that predates the Oct-2023 schema rename.  webtech's own
+        ``perform()`` only checks ``script``, silently missing the 3,800+
+        technologies whose fingerprints live under ``scriptSrc``.
+
+        Args:
+            url: The final URL of the page (after redirects).
+            html: Raw HTML body.
+            headers: HTTP response headers as a plain ``{name: value}`` dict.
+
+        Returns:
+            Technologies dict ``{tech_name: {versions: [...], categories: []}}``.
+        """
+        from webtech.target import Target
+        from webtech.utils import Format
+
+        wt = self._get_webtech()
+        target = Target()
+        target.data['url'] = url
+        target.data['html'] = html or ''
+        # webtech stores headers as {lowercase_name: (value, original_name)}
+        for key, value in headers.items():
+            target.data['headers'][key.lower()] = (str(value), key)
+        target.parse_html_page()
+        target.whitelist_data(wt.COMMON_HEADERS)
+
+        # Run the per-technology checks ourselves so we support both key names.
+        for tech_name, tech_data in wt.db['apps'].items():
+            if tech_data.get('headers'):
+                target.check_headers(tech_name, tech_data['headers'])
+            if tech_data.get('html'):
+                target.check_html(tech_name, tech_data['html'])
+            if tech_data.get('meta'):
+                target.check_meta(tech_name, tech_data['meta'])
+            if tech_data.get('cookies'):
+                target.check_cookies(tech_name, tech_data['cookies'])
+            # enthec renamed 'script' → 'scriptSrc' in 2023; support both.
+            script_patterns = tech_data.get('scriptSrc') or tech_data.get('script')
+            if script_patterns:
+                target.check_script(tech_name, script_patterns)
+            if tech_data.get('url'):
+                target.check_url(tech_name, tech_data['url'])
+
+        report = target.generate_report(Format['json'])
+
+        technologies: dict = {}
+        for tech_entry in report.get('tech', []):
+            name = tech_entry['name']
+            version = tech_entry.get('version')
+            technologies[name] = {
+                'versions': [version] if version else [],
+                'categories': [],
+            }
+        return technologies
 
     def detect_html(
         self,
@@ -96,11 +141,7 @@ class TechDetector:
             scanned_at = datetime.now(timezone.utc).isoformat()
 
         try:
-            webpage = self._build_webpage(final_url or url, html, headers)
-            wappalyzer = self._get_wappalyzer()
-            with warnings.catch_warnings():
-                warnings.simplefilter("ignore")
-                technologies = wappalyzer.analyze_with_versions_and_categories(webpage)
+            technologies = self._analyze(final_url or url, html, headers)
         except Exception as exc:  # noqa: BLE001
             return TechDetectionResult(
                 url=url,
@@ -120,7 +161,7 @@ class TechDetector:
         Detect technologies used by a single URL.
 
         Fetches the page with httpx and passes the HTML and response headers
-        to Wappalyzer for fingerprinting.
+        to webtech for fingerprinting.
 
         Returns:
             TechDetectionResult with detected technologies or an error message.
@@ -139,7 +180,7 @@ class TechDetector:
                 )
 
                 html = response.text
-                # httpx headers are case-insensitive; convert to plain dict for Wappalyzer
+                # httpx headers are case-insensitive; convert to plain dict for webtech
                 headers = dict(response.headers)
                 final_url = str(response.url)
 
