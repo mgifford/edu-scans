@@ -22,25 +22,16 @@ async def test_detect_url_success():
     mock_response.headers = {"content-type": "text/html", "x-powered-by": "PHP/8.1"}
 
     expected_techs = {
-        "WordPress": {"versions": ["6.0"], "categories": ["CMS", "Blogs"]},
-        "PHP": {"versions": ["8.1"], "categories": ["Programming languages"]},
+        "WordPress": {"versions": ["6.0"], "categories": []},
+        "PHP": {"versions": ["8.1"], "categories": []},
     }
 
     with patch("httpx.AsyncClient") as mock_client:
         mock_get = AsyncMock(return_value=mock_response)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(
-            detector,
-            "_get_wappalyzer",
-        ) as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = expected_techs
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                result = await detector.detect_url("https://example.gov/")
+        with patch.object(detector, "_analyze", return_value=expected_techs):
+            result = await detector.detect_url("https://example.gov/")
 
     assert result.url == "https://example.gov/"
     assert result.technologies == expected_techs
@@ -63,14 +54,8 @@ async def test_detect_url_no_technologies_detected():
         mock_get = AsyncMock(return_value=mock_response)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = {}
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                result = await detector.detect_url("https://minimal.gov/")
+        with patch.object(detector, "_analyze", return_value={}):
+            result = await detector.detect_url("https://minimal.gov/")
 
     assert result.technologies == {}
     assert result.error_message is None
@@ -134,7 +119,7 @@ async def test_detect_urls_batch_no_delay():
         "https://gov2.example/",
     ]
 
-    expected_techs = {"Nginx": {"versions": ["1.24"], "categories": ["Web servers"]}}
+    expected_techs = {"Nginx": {"versions": ["1.24"], "categories": []}}
 
     mock_response = Mock()
     mock_response.status_code = 200
@@ -150,14 +135,8 @@ async def test_detect_urls_batch_no_delay():
         mock_get = AsyncMock(side_effect=mock_get_side_effect)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = expected_techs
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                results = await detector.detect_urls_batch(urls, rate_limit_per_second=0)
+        with patch.object(detector, "_analyze", return_value=expected_techs):
+            results = await detector.detect_urls_batch(urls, rate_limit_per_second=0)
 
     assert len(results) == 2
     for url in urls:
@@ -176,7 +155,7 @@ async def test_detect_urls_batch():
         "https://gov2.example/",
     ]
 
-    expected_techs = {"Nginx": {"versions": ["1.24"], "categories": ["Web servers"]}}
+    expected_techs = {"Nginx": {"versions": ["1.24"], "categories": []}}
 
     mock_response = Mock()
     mock_response.status_code = 200
@@ -192,14 +171,8 @@ async def test_detect_urls_batch():
         mock_get = AsyncMock(side_effect=mock_get_side_effect)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = expected_techs
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                results = await detector.detect_urls_batch(urls, rate_limit_per_second=0)
+        with patch.object(detector, "_analyze", return_value=expected_techs):
+            results = await detector.detect_urls_batch(urls, rate_limit_per_second=0)
 
     assert len(results) == 2
     for url in urls:
@@ -234,18 +207,12 @@ async def test_detect_urls_batch_on_result_called_for_each_url():
         mock_get = AsyncMock(side_effect=mock_get_side_effect)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = {}
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                await detector.detect_urls_batch(
-                    urls,
-                    rate_limit_per_second=0,
-                    on_result=collected.append,
-                )
+        with patch.object(detector, "_analyze", return_value={}):
+            await detector.detect_urls_batch(
+                urls,
+                rate_limit_per_second=0,
+                on_result=collected.append,
+            )
 
     assert len(collected) == 2
     assert {r.url for r in collected} == set(urls)
@@ -281,19 +248,13 @@ async def test_detect_urls_batch_stops_early_when_budget_exhausted():
         mock_get = AsyncMock(side_effect=mock_get_side_effect)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = {}
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                results = await detector.detect_urls_batch(
-                    urls,
-                    rate_limit_per_second=0,
-                    max_runtime_seconds=10000,
-                    start_time=elapsed_start,
-                )
+        with patch.object(detector, "_analyze", return_value={}):
+            results = await detector.detect_urls_batch(
+                urls,
+                rate_limit_per_second=0,
+                max_runtime_seconds=10000,
+                start_time=elapsed_start,
+            )
 
     # All 3 URLs should be skipped because the budget is already exhausted
     assert len(results) == 0
@@ -320,25 +281,19 @@ async def test_detect_urls_batch_no_max_runtime_scans_all():
         mock_get = AsyncMock(side_effect=mock_get_side_effect)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.return_value = {}
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                results = await detector.detect_urls_batch(
-                    urls,
-                    rate_limit_per_second=0,
-                    max_runtime_seconds=None,
-                )
+        with patch.object(detector, "_analyze", return_value={}):
+            results = await detector.detect_urls_batch(
+                urls,
+                rate_limit_per_second=0,
+                max_runtime_seconds=None,
+            )
 
     assert len(results) == 3
 
 
 @pytest.mark.asyncio
 async def test_detect_url_analysis_error():
-    """Test graceful handling of Wappalyzer analysis failure."""
+    """Test graceful handling of webtech analysis failure."""
     detector = TechDetector(timeout_seconds=10)
 
     mock_response = Mock()
@@ -351,16 +306,10 @@ async def test_detect_url_analysis_error():
         mock_get = AsyncMock(return_value=mock_response)
         mock_client.return_value.__aenter__.return_value.get = mock_get
 
-        with patch.object(detector, "_get_wappalyzer") as mock_get_wap:
-            mock_wap = Mock()
-            mock_wap.analyze_with_versions_and_categories.side_effect = RuntimeError(
-                "parser failed"
-            )
-            mock_get_wap.return_value = mock_wap
-
-            with patch("src.services.tech_detector.WebPage") as mock_webpage_cls:
-                mock_webpage_cls.return_value = Mock()
-                result = await detector.detect_url("https://broken.gov/")
+        with patch.object(
+            detector, "_analyze", side_effect=RuntimeError("parser failed")
+        ):
+            result = await detector.detect_url("https://broken.gov/")
 
     assert result.technologies == {}
     assert "Analysis error" in result.error_message
