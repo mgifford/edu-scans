@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-06-03 06:54 UTC — last scan: 2026-06-02_
+_Stats as of 2026-06-04 06:52 UTC — last scan: 2026-06-03_
 
-**86** scan batches run
+**89** scan batches run
 
 **8,675** of **20,104** available domains scanned (**43.2%** coverage)
-**7,597** of **8,675** scanned domains were reachable (**87.6%**)
-**2,724** of **7,597** reachable domains have an accessibility statement (**35.9%**)
-**2,097** domains have the statement link in the footer (**77.0%** of domains with a statement)
+**7,599** of **8,675** scanned domains were reachable (**87.6%**)
+**2,727** of **7,599** reachable domains have an accessibility statement (**35.9%**)
+**2,100** domains have the statement link in the footer (**77.0%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,830 | 1,295 | 1,070 | 45.8% | Apr 2026 – May 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,832 | 1,298 | 1,073 | 45.8% | Apr 2026 – Jun 2026 |
 | Usa Edu Master Subdomains | 8,669 | 16,241 | 7,583 | 2,706 | 2,080 | 35.7% | May 2026 – Jun 2026 |
-| Usa Edu Top100 | 101 | 100 | 90 | 59 | 57 | 65.6% | Apr 2026 – May 2026 |
-| **Total** | **12,550** | **20,104** | **10,503** | **4,060** | **3,207** | **38.7%** | — |
+| Usa Edu Top100 | 101 | 100 | 91 | 62 | 60 | 68.1% | Apr 2026 – Jun 2026 |
+| **Total** | **12,550** | **20,104** | **10,506** | **4,066** | **3,213** | **38.7%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
