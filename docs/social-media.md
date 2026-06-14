@@ -25,11 +25,11 @@ layout: page
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-06-13 06:38 UTC — last scan: 2026-06-12_
+_Stats as of 2026-06-14 06:51 UTC — last scan: 2026-06-12_
 
 **59** scan batches run
 
-**11,839** of **20,294** available pages scanned (**58.3%** coverage)
+**11,839** of **20,310** available pages scanned (**58.3%** coverage)
 **10,787** of **11,839** scanned pages were reachable (**91.1%**)
 
 **Legacy social media** (older, centralised platforms):
@@ -73,9 +73,9 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
 | Usa Edu Master | 3,749 | 3,763 | 2,834 | 38.2% | 1,075 | 1,423 | 1,220 | 364 | 2,158 | 1,459 | 8 | 767 | 57 | 757 | Apr 2026 – Jun 2026 |
-| Usa Edu Master Subdomains | 11,833 | 16,431 | 10,775 | 60.9% | 6,530 | 3,438 | 2,888 | 947 | 4,867 | 3,188 | 29 | 1,541 | 90 | 1,541 | May 2026 – Jun 2026 |
+| Usa Edu Master Subdomains | 11,833 | 16,447 | 10,775 | 60.9% | 6,530 | 3,438 | 2,888 | 947 | 4,867 | 3,188 | 29 | 1,541 | 90 | 1,541 | May 2026 – Jun 2026 |
 | Usa Edu Top100 | 100 | 100 | 90 | 24.4% | 22 | 32 | 44 | 21 | 71 | 55 | 0 | 39 | 11 | 34 | Apr 2026 – Jun 2026 |
-| **Total** | **15,682** | **20,294** | **13,699** | **55.9%** | **7,627** | **4,893** | **4,152** | **1,332** | **7,096** | **4,702** | **37** | **2,347** | **158** | **2,332** | — |
+| **Total** | **15,682** | **20,310** | **13,699** | **55.9%** | **7,627** | **4,893** | **4,152** | **1,332** | **7,096** | **4,702** | **37** | **2,347** | **158** | **2,332** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
