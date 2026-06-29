@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-06-28 06:42 UTC — last scan: 2026-06-27_
+_Stats as of 2026-06-29 06:54 UTC — last scan: 2026-06-28_
 
-**189** scan batches run
+**197** scan batches run
 
-**9,014** of **20,134** available domains scanned (**44.8%** coverage)
-**7,945** of **9,014** scanned domains were reachable (**88.1%**)
-**2,906** of **7,945** reachable domains have an accessibility statement (**36.6%**)
-**2,268** domains have the statement link in the footer (**78.0%** of domains with a statement)
+**9,029** of **20,134** available domains scanned (**44.8%** coverage)
+**7,960** of **9,029** scanned domains were reachable (**88.2%**)
+**2,909** of **7,960** reachable domains have an accessibility statement (**36.5%**)
+**2,271** domains have the statement link in the footer (**78.1%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -27,9 +27,9 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
 | Usa Edu Master | 3,780 | 3,763 | 2,838 | 1,313 | 1,086 | 46.3% | Apr 2026 – Jun 2026 |
-| Usa Edu Master Subdomains | 9,008 | 16,271 | 7,933 | 2,894 | 2,257 | 36.5% | May 2026 – Jun 2026 |
+| Usa Edu Master Subdomains | 9,023 | 16,271 | 7,948 | 2,897 | 2,260 | 36.4% | May 2026 – Jun 2026 |
 | Usa Edu Top100 | 101 | 100 | 91 | 63 | 61 | 69.2% | Apr 2026 – Jun 2026 |
-| **Total** | **12,889** | **20,134** | **10,862** | **4,270** | **3,404** | **39.3%** | — |
+| **Total** | **12,904** | **20,134** | **10,877** | **4,273** | **3,407** | **39.3%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
