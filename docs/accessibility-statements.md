@@ -5,9 +5,9 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-06-30 06:40 UTC — last scan: 2026-06-29_
+_Stats as of 2026-07-01 06:47 UTC — last scan: 2026-07-01_
 
-**202** scan batches run
+**204** scan batches run
 
 **9,029** of **20,134** available domains scanned (**44.8%** coverage)
 **7,960** of **9,029** scanned domains were reachable (**88.2%**)
@@ -27,7 +27,7 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
 | Usa Edu Master | 3,780 | 3,763 | 2,838 | 1,313 | 1,086 | 46.3% | Apr 2026 – Jun 2026 |
-| Usa Edu Master Subdomains | 9,023 | 16,271 | 7,948 | 2,897 | 2,260 | 36.4% | May 2026 – Jun 2026 |
+| Usa Edu Master Subdomains | 9,023 | 16,271 | 7,948 | 2,897 | 2,260 | 36.4% | May 2026 – Jul 2026 |
 | Usa Edu Top100 | 101 | 100 | 91 | 63 | 61 | 69.2% | Apr 2026 – Jun 2026 |
 | **Total** | **12,904** | **20,134** | **10,877** | **4,273** | **3,407** | **39.3%** | — |
 
