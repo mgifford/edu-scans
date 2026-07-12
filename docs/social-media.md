@@ -25,11 +25,11 @@ layout: page
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-07-11 06:01 UTC — last scan: 2026-07-11_
+_Stats as of 2026-07-12 06:14 UTC — last scan: 2026-07-11_
 
 **143** scan batches run
 
-**13,893** of **20,294** available pages scanned (**68.5%** coverage)
+**13,893** of **20,848** available pages scanned (**66.6%** coverage)
 **12,843** of **13,893** scanned pages were reachable (**92.4%**)
 
 **Legacy social media** (older, centralised platforms):
@@ -73,9 +73,9 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
 | Usa Edu Master | 3,749 | 3,763 | 2,839 | 40.3% | 1,135 | 1,432 | 1,222 | 377 | 2,171 | 1,473 | 8 | 782 | 58 | 772 | Apr 2026 – Jul 2026 |
-| Usa Edu Master Subdomains | 13,887 | 16,431 | 12,832 | 66.3% | 8,476 | 3,562 | 2,980 | 1,123 | 5,139 | 3,264 | 30 | 1,718 | 93 | 1,718 | May 2026 – Jul 2026 |
+| Usa Edu Master Subdomains | 13,887 | 16,985 | 12,832 | 66.3% | 8,476 | 3,562 | 2,980 | 1,123 | 5,139 | 3,264 | 30 | 1,718 | 93 | 1,718 | May 2026 – Jul 2026 |
 | Usa Edu Top100 | 100 | 100 | 90 | 26.7% | 24 | 33 | 44 | 22 | 71 | 55 | 0 | 39 | 11 | 34 | Apr 2026 – Jul 2026 |
-| **Total** | **17,736** | **20,294** | **15,761** | **61.4%** | **9,635** | **5,027** | **4,246** | **1,522** | **7,381** | **4,792** | **38** | **2,539** | **162** | **2,524** | — |
+| **Total** | **17,736** | **20,848** | **15,761** | **61.4%** | **9,635** | **5,027** | **4,246** | **1,522** | **7,381** | **4,792** | **38** | **2,539** | **162** | **2,524** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
