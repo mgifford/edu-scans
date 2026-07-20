@@ -8,45 +8,45 @@ layout: page
 <div id="sm-tier-pie-container" style="float:right;margin:0 0 1rem 1.5rem;width:260px;max-width:45%;">
 <svg role="img" aria-labelledby="pie-title pie-desc" viewBox="0 0 240 314" width="240" height="314" xmlns="http://www.w3.org/2000/svg">
 <title id="pie-title">Social media tier distribution</title>
-<desc id="pie-desc">Pie chart: social media tier distribution across 18,350 scanned pages. Legacy only: 5,177 (28.2%), Modern only: 38 (0.2%), Mixed: 2,560 (14.0%), No Social: 10,136 (55.2%)</desc>
-<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 207.306,131.856 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 5,177 (28.9%)</title></path>
-<path d="M 120,110 L 207.306,131.856 A 90,90 0 0,1 207.007,133.018 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 38 (0.2%)</title></path>
-<path d="M 120,110 L 207.007,133.018 A 90,90 0 0,1 156.215,192.392 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 2,560 (14.3%)</title></path>
-<path d="M 120,110 L 156.215,192.392 A 90,90 0 1,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 10,136 (56.6%)</title></path>
+<desc id="pie-desc">Pie chart: social media tier distribution across 3,085 scanned pages. Legacy only: 938 (30.4%), Modern only: 7 (0.2%), Mixed: 502 (16.3%), No Social: 837 (27.1%)</desc>
+<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 167.898,186.196 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 938 (41.1%)</title></path>
+<path d="M 120,110 L 167.898,186.196 A 90,90 0 0,1 166.422,187.104 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 7 (0.3%)</title></path>
+<path d="M 120,110 L 166.422,187.104 A 90,90 0 0,1 53.040,170.136 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 502 (22.0%)</title></path>
+<path d="M 120,110 L 53.040,170.136 A 90,90 0 0,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 837 (36.6%)</title></path>
 <rect x="20" y="216" width="14" height="14" fill="#1a8cd8"/>
-<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (28.9%)</text>
+<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (41.1%)</text>
 <rect x="20" y="238" width="14" height="14" fill="#0085ff"/>
-<text x="40" y="249" font-size="11" font-family="sans-serif" fill="#333">Modern only (0.2%)</text>
+<text x="40" y="249" font-size="11" font-family="sans-serif" fill="#333">Modern only (0.3%)</text>
 <rect x="20" y="260" width="14" height="14" fill="#7856ff"/>
-<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (14.3%)</text>
+<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (22.0%)</text>
 <rect x="20" y="282" width="14" height="14" fill="#cccccc"/>
-<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (56.6%)</text>
+<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (36.6%)</text>
 </svg>
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-07-19 06:11 UTC — last scan: 2026-07-18_
+_Stats as of 2026-07-20 06:22 UTC — last scan: 2026-07-20_
 
-**171** scan batches run
+**1** scan batches run
 
-**14,507** of **20,362** available pages scanned (**71.2%** coverage)
-**13,460** of **14,507** scanned pages were reachable (**92.8%**)
+**3,085** of **20,362** available pages scanned (**15.2%** coverage)
+**2,284** of **3,085** scanned pages were reachable (**74.0%**)
 
 **Legacy social media** (older, centralised platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
-| 🐦 Twitter | **3,016** | 20.8% | 22.4% |
-| ✖ X | **1,259** | 8.7% | 9.4% |
-| 👍 Facebook | **5,312** | 36.6% | 39.5% |
-| 💼 LinkedIn | **3,422** | 23.6% | 25.4% |
+| 🐦 Twitter | **771** | 25.0% | 33.8% |
+| ✖ X | **241** | 7.8% | 10.6% |
+| 👍 Facebook | **1,432** | 46.4% | 62.7% |
+| 💼 LinkedIn | **963** | 31.2% | 42.2% |
 
 **Modern / open social media** (decentralised or open platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
-| 🦋 Bluesky | **95** | 0.7% | 0.7% |
-| 🐘 Mastodon / Fediverse | **1,740** | 12.0% | 12.9% |
+| 🦋 Bluesky | **29** | 0.9% | 1.3% |
+| 🐘 Mastodon / Fediverse | **500** | 16.2% | 21.9% |
 
 <div style="clear:both;"></div>
 
@@ -60,9 +60,7 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Rank | Country | Sovereignty Score | No Social | Modern Only | Legacy Exposure | Tier |
 |------|---------|:-----------------:|:---------:|:-----------:|:---------------:|------|
-| 1 | Usa Edu Master Subdomains | 66.9% | 8,964 | 30 | 40.1% | 🥉 Growing |
-| 2 | Usa Edu Master | 40.7% | 1,148 | 8 | 77.0% | 🥉 Growing |
-| 3 | Usa Edu Top100 | 26.7% | 24 | 0 | 78.9% | ⚠️ Legacy-heavy |
+| 1 | Usa Edu Master | 37.0% | 837 | 7 | 63.0% | ⚠️ Legacy-heavy |
 
 ---
 
@@ -72,10 +70,8 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
-| Usa Edu Master | 3,749 | 3,763 | 2,843 | 40.7% | 1,148 | 1,433 | 1,226 | 378 | 2,177 | 1,482 | 8 | 792 | 59 | 782 | Apr 2026 – Jul 2026 |
-| Usa Edu Master Subdomains | 14,501 | 16,499 | 13,449 | 66.9% | 8,964 | 3,711 | 2,994 | 1,256 | 5,291 | 3,409 | 30 | 1,729 | 93 | 1,729 | May 2026 – Jul 2026 |
-| Usa Edu Top100 | 100 | 100 | 90 | 26.7% | 24 | 33 | 44 | 22 | 71 | 55 | 0 | 39 | 11 | 34 | Apr 2026 – Jul 2026 |
-| **Total** | **18,350** | **20,362** | **16,382** | **62.1%** | **10,136** | **5,177** | **4,264** | **1,656** | **7,539** | **4,946** | **38** | **2,560** | **163** | **2,545** | — |
+| Usa Edu Master | 3,085 | 3,763 | 2,284 | 37.0% | 837 | 938 | 771 | 241 | 1,432 | 963 | 7 | 502 | 29 | 500 | Jul 2026 |
+| **Total** | **3,085** | **20,362** | **2,284** | **37.0%** | **837** | **938** | **771** | **241** | **1,432** | **963** | **7** | **502** | **29** | **500** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -87,108 +83,108 @@ Social media presence for the top 100 US universities by national ranking. **Tie
 
 | Rank | Institution | Tier | Platforms |
 |-----:|-------------|------|-----------|
-| 1 | Massachusetts Institute of Technology | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
-| 2 | Stanford University | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 3 | Harvard University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 4 | Princeton University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky |
-| 5 | California Institute of Technology | ❌ Unreachable | *(none)* |
-| 6 | Yale University | ⚠️ Legacy-only | 👍 Facebook |
-| 7 | Columbia University | ✅ No Social | *(none)* |
-| 8 | The University of Chicago | ✅ No Social | *(none)* |
-| 9 | University of Pennsylvania | ✅ No Social | *(none)* |
-| 10 | Johns Hopkins University | ❌ Unreachable | *(none)* |
-| 11 | Northwestern University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 12 | Duke University | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 13 | Dartmouth College | ⚠️ Legacy-only | ✖ X, 👍 Facebook |
-| 14 | Brown University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 15 | Vanderbilt University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 16 | Rice University | ❌ Unreachable | *(none)* |
-| 17 | University of Notre Dame | ❌ Unreachable | *(none)* |
-| 18 | University of California Los Angeles | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 19 | Georgetown University | ✅ No Social | *(none)* |
-| 20 | Emory University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 21 | University of California Berkeley | ✅ No Social | *(none)* |
-| 22 | Carnegie Mellon University | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
-| 23 | University of California San Diego | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
-| 24 | Tufts University | ✅ No Social | *(none)* |
-| 25 | University of Florida | ❌ Unreachable | *(none)* |
-| 26 | University of North Carolina at Chapel Hill | ✅ No Social | *(none)* |
-| 27 | University of Rochester | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 28 | Boston College | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
-| 29 | Case Western Reserve University | ✅ No Social | *(none)* |
-| 30 | Georgia Institute of Technology | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 31 | Wake Forest University | ❌ Unreachable | *(none)* |
-| 32 | New York University | ✅ No Social | *(none)* |
-| 33 | Tulane University | ✅ No Social | *(none)* |
-| 34 | University of Southern California | ✅ No Social | *(none)* |
-| 35 | Boston University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 36 | Ohio State University | ❌ Unreachable | *(none)* |
-| 37 | Lehigh University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 38 | Pennsylvania State University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 39 | Purdue University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 40 | University of Virginia | ❌ Unreachable | *(none)* |
-| 41 | University of Michigan | ✅ No Social | *(none)* |
-| 42 | Florida State University | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 43 | University of Georgia | ✅ No Social | *(none)* |
-| 44 | University of Texas at Austin | ✅ No Social | *(none)* |
-| 45 | University of Wisconsin Madison | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky |
-| 46 | University of Illinois Urbana-Champaign | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 47 | University of California Irvine | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 48 | Indiana University Bloomington | ✅ No Social | *(none)* |
-| 49 | Brandeis University | ✅ No Social | *(none)* |
-| 50 | University of California Davis | ✅ No Social | *(none)* |
-| 51 | Rutgers The State University of New Jersey | ⚠️ Legacy-only | 🐦 Twitter, ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 52 | College of William and Mary | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 53 | University of Maryland College Park | 🔀 Mixed | ✖ X, 👍 Facebook, 🐘 Mastodon |
-| 54 | University of Pittsburgh | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 55 | University of Minnesota Twin Cities | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 56 | Michigan State University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 57 | Arizona State University | ⚠️ Legacy-only | 👍 Facebook, 💼 LinkedIn |
-| 58 | University of Colorado Boulder | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky |
-| 59 | University of Utah | ⚠️ Legacy-only | ✖ X, 👍 Facebook |
-| 60 | University of Connecticut | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 61 | George Washington University | ❌ Unreachable | *(none)* |
-| 62 | American University | ✅ No Social | *(none)* |
-| 63 | Northeastern University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 64 | George Mason University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
-| 65 | Fordham University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 66 | Texas A&M University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 67 | University of Kansas | ⚠️ Legacy-only | 👍 Facebook |
-| 68 | Oregon State University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 🐘 Mastodon |
-| 69 | Colorado State University | ❌ Unreachable | *(none)* |
-| 70 | Virginia Tech | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
-| 71 | University of Iowa | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 72 | Iowa State University | 🔀 Mixed | 🐦 Twitter, ✖ X, 👍 Facebook, 🐘 Mastodon |
-| 73 | University of Nebraska Lincoln | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 74 | University of Arkansas | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 75 | Stony Brook University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 76 | University of Arizona | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 77 | University of Alabama | ✅ No Social | *(none)* |
-| 78 | Louisiana State University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 79 | University of Kentucky | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 🐘 Mastodon |
-| 80 | University of Tennessee | ✅ No Social | *(none)* |
-| 81 | University of Missouri | ⚠️ Legacy-only | ✖ X, 👍 Facebook |
-| 82 | Kansas State University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
-| 83 | University of Mississippi | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 84 | University of Oregon | ✅ No Social | *(none)* |
-| 85 | University of Nevada Las Vegas | ✅ No Social | *(none)* |
-| 86 | Baylor University | ⚠️ Legacy-only | 🐦 Twitter, ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 87 | Southern Methodist University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 88 | University of Miami | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
-| 89 | Villanova University | ✅ No Social | *(none)* |
-| 90 | St. John's University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 91 | Marquette University | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 92 | Santa Clara University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 93 | University of Denver | ✅ No Social | *(none)* |
-| 94 | Texas Christian University | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 95 | Drexel University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
-| 96 | Howard University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
-| 97 | Clark Atlanta University | ❌ Unreachable | *(none)* |
-| 98 | Xavier University of Louisiana | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
-| 99 | Spelman College | ⚠️ Legacy-only | ✖ X, 👍 Facebook, 💼 LinkedIn |
-| 100 | Morehouse College | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
+| 1 | Massachusetts Institute of Technology | *Not yet scanned* | — |
+| 2 | Stanford University | *Not yet scanned* | — |
+| 3 | Harvard University | *Not yet scanned* | — |
+| 4 | Princeton University | *Not yet scanned* | — |
+| 5 | California Institute of Technology | *Not yet scanned* | — |
+| 6 | Yale University | *Not yet scanned* | — |
+| 7 | Columbia University | *Not yet scanned* | — |
+| 8 | The University of Chicago | *Not yet scanned* | — |
+| 9 | University of Pennsylvania | *Not yet scanned* | — |
+| 10 | Johns Hopkins University | *Not yet scanned* | — |
+| 11 | Northwestern University | *Not yet scanned* | — |
+| 12 | Duke University | *Not yet scanned* | — |
+| 13 | Dartmouth College | *Not yet scanned* | — |
+| 14 | Brown University | *Not yet scanned* | — |
+| 15 | Vanderbilt University | *Not yet scanned* | — |
+| 16 | Rice University | *Not yet scanned* | — |
+| 17 | University of Notre Dame | *Not yet scanned* | — |
+| 18 | University of California Los Angeles | *Not yet scanned* | — |
+| 19 | Georgetown University | *Not yet scanned* | — |
+| 20 | Emory University | *Not yet scanned* | — |
+| 21 | University of California Berkeley | *Not yet scanned* | — |
+| 22 | Carnegie Mellon University | *Not yet scanned* | — |
+| 23 | University of California San Diego | *Not yet scanned* | — |
+| 24 | Tufts University | *Not yet scanned* | — |
+| 25 | University of Florida | *Not yet scanned* | — |
+| 26 | University of North Carolina at Chapel Hill | *Not yet scanned* | — |
+| 27 | University of Rochester | *Not yet scanned* | — |
+| 28 | Boston College | *Not yet scanned* | — |
+| 29 | Case Western Reserve University | *Not yet scanned* | — |
+| 30 | Georgia Institute of Technology | *Not yet scanned* | — |
+| 31 | Wake Forest University | *Not yet scanned* | — |
+| 32 | New York University | *Not yet scanned* | — |
+| 33 | Tulane University | *Not yet scanned* | — |
+| 34 | University of Southern California | *Not yet scanned* | — |
+| 35 | Boston University | *Not yet scanned* | — |
+| 36 | Ohio State University | *Not yet scanned* | — |
+| 37 | Lehigh University | *Not yet scanned* | — |
+| 38 | Pennsylvania State University | *Not yet scanned* | — |
+| 39 | Purdue University | *Not yet scanned* | — |
+| 40 | University of Virginia | *Not yet scanned* | — |
+| 41 | University of Michigan | *Not yet scanned* | — |
+| 42 | Florida State University | *Not yet scanned* | — |
+| 43 | University of Georgia | *Not yet scanned* | — |
+| 44 | University of Texas at Austin | *Not yet scanned* | — |
+| 45 | University of Wisconsin Madison | *Not yet scanned* | — |
+| 46 | University of Illinois Urbana-Champaign | *Not yet scanned* | — |
+| 47 | University of California Irvine | *Not yet scanned* | — |
+| 48 | Indiana University Bloomington | *Not yet scanned* | — |
+| 49 | Brandeis University | *Not yet scanned* | — |
+| 50 | University of California Davis | *Not yet scanned* | — |
+| 51 | Rutgers The State University of New Jersey | *Not yet scanned* | — |
+| 52 | College of William and Mary | *Not yet scanned* | — |
+| 53 | University of Maryland College Park | *Not yet scanned* | — |
+| 54 | University of Pittsburgh | *Not yet scanned* | — |
+| 55 | University of Minnesota Twin Cities | *Not yet scanned* | — |
+| 56 | Michigan State University | *Not yet scanned* | — |
+| 57 | Arizona State University | *Not yet scanned* | — |
+| 58 | University of Colorado Boulder | *Not yet scanned* | — |
+| 59 | University of Utah | *Not yet scanned* | — |
+| 60 | University of Connecticut | *Not yet scanned* | — |
+| 61 | George Washington University | *Not yet scanned* | — |
+| 62 | American University | *Not yet scanned* | — |
+| 63 | Northeastern University | *Not yet scanned* | — |
+| 64 | George Mason University | *Not yet scanned* | — |
+| 65 | Fordham University | *Not yet scanned* | — |
+| 66 | Texas A&M University | *Not yet scanned* | — |
+| 67 | University of Kansas | *Not yet scanned* | — |
+| 68 | Oregon State University | *Not yet scanned* | — |
+| 69 | Colorado State University | *Not yet scanned* | — |
+| 70 | Virginia Tech | *Not yet scanned* | — |
+| 71 | University of Iowa | *Not yet scanned* | — |
+| 72 | Iowa State University | *Not yet scanned* | — |
+| 73 | University of Nebraska Lincoln | *Not yet scanned* | — |
+| 74 | University of Arkansas | *Not yet scanned* | — |
+| 75 | Stony Brook University | *Not yet scanned* | — |
+| 76 | University of Arizona | *Not yet scanned* | — |
+| 77 | University of Alabama | *Not yet scanned* | — |
+| 78 | Louisiana State University | *Not yet scanned* | — |
+| 79 | University of Kentucky | *Not yet scanned* | — |
+| 80 | University of Tennessee | *Not yet scanned* | — |
+| 81 | University of Missouri | *Not yet scanned* | — |
+| 82 | Kansas State University | *Not yet scanned* | — |
+| 83 | University of Mississippi | *Not yet scanned* | — |
+| 84 | University of Oregon | *Not yet scanned* | — |
+| 85 | University of Nevada Las Vegas | *Not yet scanned* | — |
+| 86 | Baylor University | *Not yet scanned* | — |
+| 87 | Southern Methodist University | *Not yet scanned* | — |
+| 88 | University of Miami | *Not yet scanned* | — |
+| 89 | Villanova University | *Not yet scanned* | — |
+| 90 | St. John's University | *Not yet scanned* | — |
+| 91 | Marquette University | *Not yet scanned* | — |
+| 92 | Santa Clara University | *Not yet scanned* | — |
+| 93 | University of Denver | *Not yet scanned* | — |
+| 94 | Texas Christian University | *Not yet scanned* | — |
+| 95 | Drexel University | *Not yet scanned* | — |
+| 96 | Howard University | *Not yet scanned* | — |
+| 97 | Clark Atlanta University | *Not yet scanned* | — |
+| 98 | Xavier University of Louisiana | *Not yet scanned* | — |
+| 99 | Spelman College | *Not yet scanned* | — |
+| 100 | Morehouse College | *Not yet scanned* | — |
 
-*100 of 100 ranked institutions scanned so far.*
+*0 of 100 ranked institutions scanned so far.*
 
 <!-- SOCIAL_MEDIA_STATS_END -->
 
