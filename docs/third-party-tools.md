@@ -5,14 +5,14 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-07-26 06:15 UTC — last scan: 2026-07-26_
+_Stats as of 2026-07-27 06:25 UTC — last scan: 2026-07-27_
 
-**16** scan batches run
+**17** scan batches run
 
 **3,212** of **20,282** available pages scanned (**15.8%** coverage)
 **2,408** of **3,212** scanned pages were reachable (**75.0%**)
 **1,544** reachable pages loaded at least one third-party script (**64.1%** of reachable)
-**2,924** known third-party service loads identified
+**2,928** known third-party service loads identified
 **24** unique known services across **17** categories
 
 ---
@@ -21,7 +21,7 @@ _Stats as of 2026-07-26 06:15 UTC — last scan: 2026-07-26_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,212 | 3,763 | 2,408 | 1,544 | 2,924 | 2026-07-26 |
+| Usa Edu Master | 3,212 | 3,763 | 2,408 | 1,544 | 2,928 | 2026-07-27 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -32,11 +32,11 @@ _Stats as of 2026-07-26 06:15 UTC — last scan: 2026-07-26_
 | # | Service | Loads |
 |--:|---------|------:|
 | 1 | cdnjs (Cloudflare CDN) | **516** |
-| 2 | Google Analytics (GA4) | **511** |
+| 2 | Google Analytics (GA4) | **512** |
 | 3 | jsDelivr CDN | **430** |
-| 4 | Google Tag Manager | **377** |
+| 4 | Google Tag Manager | **381** |
 | 5 | jQuery | **266** |
-| 6 | Font Awesome | **200** |
+| 6 | Font Awesome | **199** |
 | 7 | Google Hosted Libraries | **163** |
 | 8 | Google reCAPTCHA | **133** |
 | 9 | unpkg CDN | **103** |
@@ -57,10 +57,10 @@ _Stats as of 2026-07-26 06:15 UTC — last scan: 2026-07-26_
 | # | Category | Loads |
 |--:|----------|------:|
 | 1 | CDN | **1,212** |
-| 2 | Analytics | **554** |
+| 2 | Analytics | **555** |
 | 3 | JavaScript Library | **429** |
-| 4 | Tag Manager | **401** |
-| 5 | Icon Library | **200** |
+| 4 | Tag Manager | **405** |
+| 5 | Icon Library | **199** |
 | 6 | Security | **141** |
 | 7 | CAPTCHA | **133** |
 | 8 | UI Framework | **60** |
