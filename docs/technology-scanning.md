@@ -5,9 +5,9 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_Stats as of 2026-07-28 06:08 UTC — last scan: 2026-07-28_
+_Stats as of 2026-07-29 06:11 UTC — last scan: 2026-07-28_
 
-**11** scan batches run
+**12** scan batches run
 
 **9,939** of **20,282** available pages scanned (**49.0%** coverage)
 **0** pages with technology detections (**0.0%** of scanned)
