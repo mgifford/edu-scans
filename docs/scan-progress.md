@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-07-29 06:11 UTC_
+_Generated: 2026-07-30 06:07 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -28,6 +28,7 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 
 | Date | Accessibility | Social Media | Technology | Third-Party JS | Lighthouse |
 |------|--------------|--------------|------------|----------------|------------|
+| 2026-07-30 | 60.6% | 68.0% | 68.0% | 15.8% | 2.9% |
 | 2026-07-29 | 60.6% | 68.0% | 68.0% | 15.8% | 2.9% |
 | 2026-07-28 | 60.6% | 68.0% | 68.0% | 15.8% | 2.8% |
 | 2026-07-27 | 60.6% | 68.0% | 68.0% | 15.8% | 2.8% |
@@ -41,7 +42,6 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 | 2026-06-12 | 62.7% | 77.3% | 77.3% | 15.6% | 55.3% |
 | 2026-06-11 | 62.7% | 77.3% | 77.3% | 15.6% | 54.5% |
 | 2026-06-10 | 62.7% | 77.3% | 77.3% | 15.6% | 54.5% |
-| 2026-06-09 | 62.7% | 77.3% | 77.3% | 15.6% | 54.5% |
 
 > Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. Lighthouse scans take longer per URL and may lag other scan types; the auto-prioritisation step compensates by triggering extra runs for the most-lagging scan each day.
 
@@ -150,8 +150,8 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 2,823 | 1,142 | 954 | 40% | Jul 2026 |
-| Usa Edu Master Subdomains | 8,409 | 7,446 | 2,490 | 1,915 | 33% | Jul 2026 |
+| Usa Edu Master | 3,780 | 2,824 | 1,142 | 954 | 40% | Jul 2026 |
+| Usa Edu Master Subdomains | 8,409 | 7,448 | 2,495 | 1,917 | 33% | Jul 2026 |
 | Usa Edu Top100 | 101 | 90 | 59 | 57 | 66% | Jul 2026 |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
@@ -160,7 +160,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,212 | 2026-07-29 |
+| Usa Edu Master | 3,212 | 2026-07-30 |
 
 ## Countries With Social Scan But No URL Validation
 
