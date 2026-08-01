@@ -5,7 +5,7 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_Stats as of 2026-07-31 06:20 UTC — last scan: 2026-07-28_
+_Stats as of 2026-08-01 06:12 UTC — last scan: 2026-07-28_
 
 **12** scan batches run
 
