@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-08-08 05:55 UTC — last scan: 2026-08-07_
+_Stats as of 2026-08-09 05:57 UTC — last scan: 2026-08-09_
 
-**71** scan batches run
+**73** scan batches run
 
-**8,720** of **20,372** available domains scanned (**42.8%** coverage)
-**7,635** of **8,720** scanned domains were reachable (**87.6%**)
-**2,524** of **7,635** reachable domains have an accessibility statement (**33.1%**)
-**1,942** domains have the statement link in the footer (**76.9%** of domains with a statement)
+**8,749** of **20,924** available domains scanned (**41.8%** coverage)
+**7,667** of **8,749** scanned domains were reachable (**87.6%**)
+**2,538** of **7,667** reachable domains have an accessibility statement (**33.1%**)
+**1,954** domains have the statement link in the footer (**77.0%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -27,9 +27,9 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
 | Usa Edu Master | 3,780 | 3,763 | 2,829 | 1,151 | 962 | 40.7% | Jul 2026 – Aug 2026 |
-| Usa Edu Master Subdomains | 8,714 | 16,509 | 7,629 | 2,514 | 1,933 | 33.0% | Jul 2026 – Aug 2026 |
+| Usa Edu Master Subdomains | 8,743 | 17,061 | 7,661 | 2,528 | 1,945 | 33.0% | Jul 2026 – Aug 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 59 | 57 | 65.6% | Jul 2026 – Aug 2026 |
-| **Total** | **12,595** | **20,372** | **10,548** | **3,724** | **2,952** | **35.3%** | — |
+| **Total** | **12,624** | **20,924** | **10,580** | **3,738** | **2,964** | **35.3%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
