@@ -5,14 +5,14 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-08-16 05:42 UTC — last scan: 2026-08-16_
+_Stats as of 2026-08-17 05:49 UTC — last scan: 2026-08-17_
 
-**84** scan batches run
+**88** scan batches run
 
 **3,212** of **19,984** available pages scanned (**16.1%** coverage)
 **2,420** of **3,212** scanned pages were reachable (**75.3%**)
 **1,570** reachable pages loaded at least one third-party script (**64.9%** of reachable)
-**2,938** known third-party service loads identified
+**2,934** known third-party service loads identified
 **24** unique known services across **17** categories
 
 ---
@@ -21,7 +21,7 @@ _Stats as of 2026-08-16 05:42 UTC — last scan: 2026-08-16_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,212 | 3,763 | 2,420 | 1,570 | 2,938 | 2026-08-16 |
+| Usa Edu Master | 3,212 | 3,763 | 2,420 | 1,570 | 2,934 | 2026-08-17 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -31,13 +31,13 @@ _Stats as of 2026-08-16 05:42 UTC — last scan: 2026-08-16_
 
 | # | Service | Loads |
 |--:|---------|------:|
-| 1 | cdnjs (Cloudflare CDN) | **520** |
-| 2 | Google Analytics (GA4) | **514** |
-| 3 | jsDelivr CDN | **436** |
-| 4 | Google Tag Manager | **381** |
-| 5 | jQuery | **259** |
+| 1 | cdnjs (Cloudflare CDN) | **517** |
+| 2 | Google Analytics (GA4) | **513** |
+| 3 | jsDelivr CDN | **435** |
+| 4 | Google Tag Manager | **382** |
+| 5 | jQuery | **260** |
 | 6 | Font Awesome | **202** |
-| 7 | Google Hosted Libraries | **161** |
+| 7 | Google Hosted Libraries | **160** |
 | 8 | Google reCAPTCHA | **130** |
 | 9 | unpkg CDN | **104** |
 | 10 | Bootstrap | **59** |
@@ -56,10 +56,10 @@ _Stats as of 2026-08-16 05:42 UTC — last scan: 2026-08-16_
 
 | # | Category | Loads |
 |--:|----------|------:|
-| 1 | CDN | **1,221** |
-| 2 | Analytics | **558** |
+| 1 | CDN | **1,216** |
+| 2 | Analytics | **557** |
 | 3 | JavaScript Library | **420** |
-| 4 | Tag Manager | **405** |
+| 4 | Tag Manager | **406** |
 | 5 | Icon Library | **202** |
 | 6 | Security | **139** |
 | 7 | CAPTCHA | **130** |

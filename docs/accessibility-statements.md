@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-08-16 05:42 UTC — last scan: 2026-08-15_
+_Stats as of 2026-08-17 05:49 UTC — last scan: 2026-08-17_
 
-**103** scan batches run
+**105** scan batches run
 
-**8,749** of **19,984** available domains scanned (**43.8%** coverage)
-**7,799** of **8,749** scanned domains were reachable (**89.1%**)
-**2,545** of **7,799** reachable domains have an accessibility statement (**32.6%**)
-**1,959** domains have the statement link in the footer (**77.0%** of domains with a statement)
+**8,766** of **19,984** available domains scanned (**43.9%** coverage)
+**7,818** of **8,766** scanned domains were reachable (**89.2%**)
+**2,548** of **7,818** reachable domains have an accessibility statement (**32.6%**)
+**1,962** domains have the statement link in the footer (**77.0%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -27,9 +27,9 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
 | Usa Edu Master | 3,780 | 3,763 | 2,833 | 1,157 | 966 | 40.8% | Jul 2026 – Aug 2026 |
-| Usa Edu Master Subdomains | 8,743 | 16,121 | 7,793 | 2,535 | 1,949 | 32.5% | Jul 2026 – Aug 2026 |
+| Usa Edu Master Subdomains | 8,760 | 16,121 | 7,812 | 2,538 | 1,952 | 32.5% | Jul 2026 – Aug 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 59 | 57 | 65.6% | Jul 2026 – Aug 2026 |
-| **Total** | **12,624** | **19,984** | **10,716** | **3,751** | **2,972** | **35.0%** | — |
+| **Total** | **12,641** | **19,984** | **10,735** | **3,754** | **2,975** | **35.0%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
