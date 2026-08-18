@@ -11,17 +11,15 @@ and use modern web technologies and third-party JavaScript.
 
 <!-- SCAN_PROGRESS_START -->
 
-_Progress as of 2026-08-02 06:17 UTC_
+_Progress as of 2026-08-18 05:44 UTC_
 
 | Scan Type | Pages Scanned | Coverage |
 |-----------|--------------|----------|
-| **Combined Reachability** | **11,904 confirmed reachable** | **<span role="img" aria-label="58.4% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:70px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">58.4%</span></span>** |
-| Social Media | 13,782 scanned (11,903 reachable) | <span role="img" aria-label="67.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:81px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">67.7%</span></span> |
-| Technology | 13,782 scanned | <span role="img" aria-label="67.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:81px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">67.7%</span></span> |
-| Lighthouse | 615 scanned | <span role="img" aria-label="3.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:4px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">3.0%</span></span> |
-| Accessibility Statements | 12,290 domains | <span role="img" aria-label="60.3% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:72px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">60.3%</span></span> |
+| **Combined Reachability** | **11,141 confirmed reachable** | **<span role="img" aria-label="55.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:67px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">55.7%</span></span>** |
+| Social Media | 13,058 scanned (11,141 reachable) | <span role="img" aria-label="65.3% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:78px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">65.3%</span></span> |
+| Accessibility Statements | 3,081 domains | <span role="img" aria-label="15.4% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:19px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">15.4%</span></span> |
 
-Scan data **11,904** of **20,372** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
+Scan data **11,141** of **19,984** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
 
 <!-- SCAN_PROGRESS_END -->
 
