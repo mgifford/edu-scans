@@ -5,7 +5,29 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_No scan data yet — stats update automatically after every scan run._
+_Stats as of 2026-08-19 05:45 UTC — last scan: 2026-08-18_
+
+**5** scan batches run
+
+**9,215** of **19,984** available pages scanned (**46.1%** coverage)
+**0** pages with technology detections (**0.0%** of scanned)
+**0** unique technologies identified
+
+---
+
+## Technology Scan by Country
+
+| Country | URLs Scanned | Pages with Detections | Available | Last Scan |
+|---------|-------------|----------------------|-----------|----------|
+| Usa Edu Master | 3,749 | 0 | 3,763 | 2026-08-18 |
+| Usa Edu Master Subdomains | 9,209 | 0 | 16,121 | 2026-08-18 |
+| Usa Edu Top100 | 100 | 0 | 100 | 2026-08-18 |
+
+> Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable technology data (JSON)](technology-data.json).
+
+---
+
+📥 Machine-readable results: [Download machine-readable technology data (JSON)](technology-data.json) · [Download as CSV](technology-data.csv)
 
 <!-- TECH_STATS_END -->
 
