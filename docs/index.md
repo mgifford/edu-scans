@@ -11,14 +11,15 @@ and use modern web technologies and third-party JavaScript.
 
 <!-- SCAN_PROGRESS_START -->
 
-_Progress as of 2026-08-21 05:47 UTC_
+_Progress as of 2026-08-22 05:40 UTC_
 
 | Scan Type | Pages Scanned | Coverage |
 |-----------|--------------|----------|
 | **Combined Reachability** | **11,141 confirmed reachable** | **<span role="img" aria-label="55.7% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:67px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">55.7%</span></span>** |
 | Social Media | 13,058 scanned (11,141 reachable) | <span role="img" aria-label="65.3% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:78px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">65.3%</span></span> |
 | Technology | 13,058 scanned | <span role="img" aria-label="65.3% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:78px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">65.3%</span></span> |
-| Accessibility Statements | 12,092 domains | <span role="img" aria-label="60.5% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:73px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">60.5%</span></span> |
+| Lighthouse | 1,445 scanned | <span role="img" aria-label="7.2% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:9px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">7.2%</span></span> |
+| Accessibility Statements | 12,107 domains | <span role="img" aria-label="60.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:73px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">60.6%</span></span> |
 
 Scan data **11,141** of **19,984** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
 
