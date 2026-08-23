@@ -25,11 +25,11 @@ layout: page
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-08-22 05:40 UTC — last scan: 2026-08-18_
+_Stats as of 2026-08-23 05:44 UTC — last scan: 2026-08-18_
 
 **7** scan batches run
 
-**9,215** of **19,984** available pages scanned (**46.1%** coverage)
+**9,215** of **20,142** available pages scanned (**45.8%** coverage)
 **8,272** of **9,215** scanned pages were reachable (**89.8%**)
 
 **Legacy social media** (older, centralised platforms):
@@ -73,9 +73,9 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
 | Usa Edu Master | 3,749 | 3,763 | 2,807 | 35.9% | 1,001 | 1,153 | 935 | 320 | 1,790 | 1,221 | 7 | 646 | 51 | 636 | Aug 2026 |
-| Usa Edu Master Subdomains | 9,209 | 16,121 | 8,246 | 47.6% | 3,894 | 3,133 | 2,285 | 966 | 4,248 | 2,796 | 27 | 1,192 | 79 | 1,193 | Aug 2026 |
+| Usa Edu Master Subdomains | 9,209 | 16,279 | 8,246 | 47.6% | 3,894 | 3,133 | 2,285 | 966 | 4,248 | 2,796 | 27 | 1,192 | 79 | 1,193 | Aug 2026 |
 | Usa Edu Top100 | 100 | 100 | 88 | 28.4% | 25 | 28 | 38 | 19 | 63 | 49 | 0 | 35 | 8 | 32 | Aug 2026 |
-| **Total** | **13,058** | **19,984** | **11,141** | **44.5%** | **4,920** | **4,314** | **3,258** | **1,305** | **6,101** | **4,066** | **34** | **1,873** | **138** | **1,861** | — |
+| **Total** | **13,058** | **20,142** | **11,141** | **44.5%** | **4,920** | **4,314** | **3,258** | **1,305** | **6,101** | **4,066** | **34** | **1,873** | **138** | **1,861** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 

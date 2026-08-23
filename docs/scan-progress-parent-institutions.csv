@@ -1,16 +1,16 @@
 ﻿rank,parent_institution,urls_scanned,reachable,coverage_pct
-1,Other,1111,1104,99.4
-2,American International University - Bangladesh,137,137,100.0
-3,East Mississippi Community College,136,136,100.0
-4,Home Ozarka College,135,134,99.3
-5,Frederick Community College,134,134,100.0
+1,Other,1161,1150,99.1
+2,East Mississippi Community College,136,136,100.0
+3,Home Ozarka College,135,134,99.3
+4,Frederick Community College,134,134,100.0
+5,American International University - Bangladesh,131,131,100.0
 6,"AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA",130,130,100.0
 7,California State University,54,49,90.7
 8,Adelphi University,43,43,100.0
 9,Illinois State University,42,42,100.0
 10,Duke University,41,41,100.0
 11,Emory University Home Page,41,41,100.0
-12,Georgia State University,41,41,100.0
+12,Georgia State University,40,40,100.0
 13,Florida International University,39,39,100.0
 14,Georgia Institute of Technology,38,37,97.4
 15,Homepage — University of Louisville,35,33,94.3
@@ -29,8 +29,8 @@
 28,"Highline Community College (HCC), Des Moines, WA (Washington State Community Colleges)",23,23,100.0
 29,Indiana Institute of Technology,22,22,100.0
 30,Central Michigan University,22,22,100.0
-31,Des Moines Area Community College,22,22,100.0
-32,Bard College,21,21,100.0
+31,Des Moines Area Community College,21,21,100.0
+32,Bard College,20,20,100.0
 33,Barton County Community College,20,20,100.0
 34,Colorado State University,19,18,94.7
 35,Kalamazoo College,19,19,100.0
@@ -53,23 +53,23 @@
 52,Clemson University,14,14,100.0
 53,Kansas State University,14,14,100.0
 54,College of Marin,13,13,100.0
-55,An-Najah National University,13,13,100.0
-56,College Degree Online,13,13,100.0
-57,University of California,13,12,92.3
-58,Coastal Carolina University,13,13,100.0
-59,Boston University,13,13,100.0
-60,Cornell University,12,12,100.0
-61,Drexel University,12,11,91.7
-62,Eastern Washington University,12,12,100.0
-63,Hofstra University,12,12,100.0
-64,Accredited College Degree Programs Online,12,12,100.0
-65,California State University Channel Islands (CSUCI),12,12,100.0
-66,Eastern Maine Community College,12,12,100.0
-67,Florida Institute of Technology,12,12,100.0
-68,California Lutheran University,12,12,100.0
-69,Furman University,12,12,100.0
-70,California College of the Arts,11,11,100.0
-71,Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.,11,11,100.0
+55,College Degree Online,13,13,100.0
+56,University of California,13,12,92.3
+57,Coastal Carolina University,13,13,100.0
+58,Boston University,13,13,100.0
+59,Cornell University,12,12,100.0
+60,Eastern Washington University,12,12,100.0
+61,Accredited College Degree Programs Online,12,12,100.0
+62,California State University Channel Islands (CSUCI),12,12,100.0
+63,Eastern Maine Community College,12,12,100.0
+64,Florida Institute of Technology,12,12,100.0
+65,California Lutheran University,12,12,100.0
+66,An-Najah National University,12,12,100.0
+67,Furman University,12,12,100.0
+68,California College of the Arts,11,11,100.0
+69,Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.,11,11,100.0
+70,Drexel University,11,10,90.9
+71,Hofstra University,11,11,100.0
 72,Edgewood College,11,11,100.0
 73,Ave Maria University > Home,11,11,100.0
 74,Brigham Young University - Idaho,11,11,100.0
@@ -80,1628 +80,1628 @@
 79,American University in Dubai,11,11,100.0
 80,Elmhurst College,11,11,100.0
 81,Carleton College,11,11,100.0
-82,Bellarmine University,11,11,100.0
-83,[CSI] College of Southern Idaho,11,11,100.0
-84,Indiana University/Purdue University at Indianapolis,11,11,100.0
-85,Columbia University in the City of New York,11,11,100.0
-86,"Frostburg State University is a comprehensive regional university offering strong programs in liberal arts and sciences, business, education, environmental studies and the arts",11,11,100.0
-87,Abraham Baldwin Agricultural College,10,10,100.0
-88,Home » Stamford International University (Thailand),10,10,100.0
-89,"Barry University, Miami Shores, Florida",10,10,100.0
-90,Baylor College of Medicine,10,10,100.0
-91,European University,10,10,100.0
-92,"Grand Canyon University is a private Christian University in Phoenix, AZ",10,10,100.0
-93,Cedarville University,10,10,100.0
+82,[CSI] College of Southern Idaho,11,11,100.0
+83,Indiana University/Purdue University at Indianapolis,11,11,100.0
+84,Columbia University in the City of New York,11,11,100.0
+85,"Frostburg State University is a comprehensive regional university offering strong programs in liberal arts and sciences, business, education, environmental studies and the arts",11,11,100.0
+86,Abraham Baldwin Agricultural College,10,10,100.0
+87,Home » Stamford International University (Thailand),10,10,100.0
+88,"Barry University, Miami Shores, Florida",10,10,100.0
+89,Baylor College of Medicine,10,10,100.0
+90,European University,10,10,100.0
+91,"Grand Canyon University is a private Christian University in Phoenix, AZ",10,10,100.0
+92,Cedarville University,10,10,100.0
+93,Bellarmine University,10,10,100.0
 94,Arkansas Tech University,10,10,100.0
 95,California Institute of Technology,10,9,90.0
-96,Columbia College of Missouri,10,10,100.0
-97,Clark University,10,10,100.0
-98,College of Osteopathic Medicine of the Pacific (Western University of Health Sciences),10,10,100.0
-99,Georgia College & State University,10,10,100.0
-100,Augsburg College,9,9,100.0
-101,Brown University,9,9,100.0
-102,Bowdoin College,9,9,100.0
-103,Bethune-Cookman University,9,9,100.0
-104,Fuller Theological Seminary,9,9,100.0
-105,Guilford Technical Community College,9,9,100.0
-106,Georgia Highlands College,9,9,100.0
-107,College of Saint Benedict & Saint John\'s University,9,9,100.0
-108,IE University,9,9,100.0
-109,"Gordon College, one of the top Christian colleges in America & New England",9,9,100.0
-110,Harvard University,9,9,100.0
-111,Forsyth Technical Community College,9,9,100.0
-112,Jerusalem University College,9,9,100.0
-113,Brevard College,9,9,100.0
-114,East Tennessee State University,9,9,100.0
-115,Central Methodist College,9,9,100.0
-116,Kean University of New Jersey,9,9,100.0
-117,Hillsdale College,9,9,100.0
-118,Jesuit School of Theology of Santa Clara University in Berkeley,9,8,88.9
-119,Florida Gulf Coast University,9,9,100.0
-120,Henry Ford Community College,9,9,100.0
-121,Central Virginia Community College,9,9,100.0
-122,Hinds Community College in Mississippi,9,9,100.0
-123,James Madison University,8,8,100.0
-124,Carl Albert State College,8,8,100.0
-125,Central Penn College,8,8,100.0
-126,Florida State College at Jacksonville,8,8,100.0
-127,Elgin Community College (ECC) Homepage,8,8,100.0
-128,Harding University,8,8,100.0
-129,Harvey Mudd College,8,8,100.0
-130,Bentley University,8,8,100.0
-131,Eastern Arizona College Homepage,8,8,100.0
-132,High Point University © 2012,8,8,100.0
-133,Elizabethtown College,8,8,100.0
-134,Foothill-De Anza Community College District,8,8,100.0
-135,Drake University,8,8,100.0
-136,DigiPen Institute of Technology,8,8,100.0
-137,Fairleigh Dickinson University (FDU),8,8,100.0
-138,Fashion Institute of Technology,8,8,100.0
-139,Elon University,8,8,100.0
-140,Ivy Tech Community College of Indiana,8,8,100.0
-141,"Huntingdon College, Montgomery, Alabama * Experience the Tradition, Know and Be Known.",8,7,87.5
-142,Bible Colleges,7,7,100.0
-143,Columbia College Chicago,7,7,100.0
-144,"Abilene Christian University, a Christian college in Abilene, Texas",7,7,100.0
-145,Clovis Community College,7,7,100.0
-146,Fitchburg State University,7,7,100.0
-147,"Alliant International University; California Graduate Schools, Graduate Degrees; Undergraduate Bachelors Completion Degrees",7,7,100.0
-148,Amrita University,7,7,100.0
-149,Claflin University,7,7,100.0
-150,Coe College,7,7,100.0
-151,Florida Southern College,7,7,100.0
-152,Grinnell College,7,7,100.0
-153,American Career College,7,7,100.0
-154,Catholic University of Eastern Africa,7,7,100.0
-155,A Top Christian College in Southern California,7,7,100.0
-156,Augustana College (IL),7,7,100.0
-157,Chapman University,7,7,100.0
-158,Hope College,7,7,100.0
-159,Houghton College,7,7,100.0
-160,Augusta University,7,5,71.4
-161,Bowling Green State University,7,7,100.0
-162,Garrett College,7,6,85.7
-163,Georgia Medical Institute (GMI) is now Everest,7,6,85.7
-164,College of Mount St. Joseph,7,7,100.0
-165,Baldwin Wallace University,7,7,100.0
-166,Grand Valley State University,7,7,100.0
-167,John Cabot University,7,7,100.0
-168,Eckerd College,7,7,100.0
-169,Ferris State University,7,7,100.0
-170,Concordia College,7,5,71.4
-171,Earlham College,7,6,85.7
-172,Christian University,7,7,100.0
-173,Hobart and William Smith Colleges,7,7,100.0
-174,Karlsruhe Institute of Technology,7,7,100.0
-175,Academy of Art University,6,6,100.0
-176,Aga Khan University,6,6,100.0
-177,Hope International University,6,6,100.0
-178,Aims Community College,6,6,100.0
-179,"Broward College, formerly Broward Community College",6,6,100.0
-180,Bryant University,6,6,100.0
-181,College of the Canyons,6,5,83.3
-182,College of DuPage,6,6,100.0
-183,Eastern Connecticut State University,6,6,100.0
-184,Illinois College of Optometry,6,6,100.0
-185,Idaho State University,6,6,100.0
-186,"Ithaca College, Ithaca, NY",6,6,100.0
-187,Janus University California,6,6,100.0
-188,American University Washington D.C.,6,6,100.0
-189,Andrews University,6,6,100.0
-190,Antioch University,6,6,100.0
-191,[LWC] Lindsey Wilson College,6,5,83.3
-192,Austin Peay State University,6,6,100.0
-193,"Bridgewater State University, Bridgewater, Massachusetts",6,6,100.0
-194,Bethel College St. Paul,6,6,100.0
-195,Hamilton College,6,6,100.0
-196,American University in Cairo,6,6,100.0
-197,Bay de Noc Community College,6,6,100.0
-198,Boston College,6,6,100.0
-199,Belmont University,6,6,100.0
-200,Bemidji State University,6,6,100.0
-201,Bethlehem University,6,6,100.0
-202,Bob Jones University,6,6,100.0
-203,Bryn Mawr College,6,6,100.0
-204,Fox Valley Technical College Home Page,6,6,100.0
-205,Harford Community College,6,6,100.0
-206,Boise State University,6,6,100.0
-207,Butte College,6,6,100.0
-208,California Baptist University (CBU),6,6,100.0
-209,Endicott College in Beverly Massachusetts,6,6,100.0
-210,Calvin College,6,6,100.0
-211,Carteret Community College,6,6,100.0
-212,Catawba College,6,6,100.0
-213,College of Biblical Studies,6,6,100.0
-214,Kankakee Community College Home,6,6,100.0
-215,Champlain College,6,6,100.0
-216,Home â Salem College,6,6,100.0
-217,Gettysburg College,6,6,100.0
-218,Hesston College,6,6,100.0
-219,Islamic University of Technology,6,6,100.0
-220,Dominican University,6,6,100.0
-221,Dunwoody College of Technology,6,6,100.0
-222,Essex County College,6,6,100.0
-223,Fayetteville Technical Community College,6,6,100.0
-224,Georgetown University,6,6,100.0
-225,Genesee Community College,6,6,100.0
-226,Midwest University,6,6,100.0
-227,Brigham Young University Hawaii,5,5,100.0
-228,Hartford Seminary,5,5,100.0
-229,Haverford College in Pennsylvania,5,5,100.0
-230,Bradley University,5,3,60.0
-231,Chowan College,5,5,100.0
-232,Midwestern Career College,5,5,100.0
-233,Africa University,5,5,100.0
-234,State University of New York,5,4,80.0
-235,Alma College,5,5,100.0
-236,Abraham Lincoln University,5,5,100.0
-237,Aurora University,5,5,100.0
-238,Bakersfield College,5,5,100.0
-239,Florida Polytechnic University,5,5,100.0
-240,"Grove City College in western Pennsylvania offers academically rigorous, affordable college education in a Christian environment just 60 miles from Pittsburgh, Pennsylvania",5,5,100.0
-241,Glion Institute of Higher Education,5,5,100.0
-242,Hawaii Pacific University,5,5,100.0
-243,Hobe Sound Bible College,5,5,100.0
-244,"Indiana Wesleyan University, Marion",5,5,100.0
-245,Indiana University/Purdue University at Columbus,5,5,100.0
-246,California Community Colleges Chancellor\'s Office,5,5,100.0
-247,American Public University System,5,5,100.0
-248,Albany State University,5,5,100.0
-249,Bryan College,5,5,100.0
-250,Bryant and Stratton College,5,5,100.0
-251,Colorado Mountain College,5,5,100.0
-252,Eastern West Virginia Community and Technical College,5,5,100.0
-253,Erskine College,5,4,80.0
-254,Geneva College,5,5,100.0
-255,Grand Rapids Community College,5,5,100.0
-256,Isothermal Community College,5,5,100.0
-257,Kellogg Community College,5,5,100.0
-258,College of the Mainland,5,5,100.0
-259,Duquesne University,5,5,100.0
-260,Asia Pacific Theological Seminary (APTS),5,5,100.0
-261,Asbury Theological Seminary,5,5,100.0
-262,Assumption College,5,5,100.0
-263,Ateneo de Manila University,5,5,100.0
-264,Bay Path University,5,5,100.0
-265,Bennington College,5,5,100.0
-266,Berean University of the Assemblies of God,5,5,100.0
-267,Berklee College of Music,5,5,100.0
-268,Berry College,5,5,100.0
-269,Black Hills State University,5,5,100.0
-270,Bryn Athyn College,5,5,100.0
-271,Gardner Webb University,5,5,100.0
-272,Hilbert College,5,5,100.0
-273,College of Arts and Sciences & Conservatory of Music,5,5,100.0
-274,Eastern Mennonite University,5,5,100.0
-275,Butler University,5,5,100.0
-276,Central Christian College of the Bible,5,5,100.0
-277,Gwynedd Mercy University,5,5,100.0
-278,Grambling State University,5,5,100.0
-279,Thomas Jefferson University   Jefferson Medical College   Jefferson College of Graduate Studies   Jefferson School of Health Profession   Jefferson School of Nursing   Jefferson School of Pharmacy   Jefferson School of Population Health,5,5,100.0
-280,Centre College,5,5,100.0
-281,Christopher Newport University,5,5,100.0
-282,"California State University, Bakersfield",5,5,100.0
-283,"California State University, San Marcos",5,5,100.0
-284,"California State University, Stanislaus",5,5,100.0
-285,Eastern University,5,5,100.0
-286,Eastern Michigan University,5,5,100.0
-287,Columbus College of Art and Design,5,5,100.0
-288,Calumet College of St. Joseph,5,5,100.0
-289,Community College System of New Hampshire,5,5,100.0
-290,College of Early Learning,5,5,100.0
-291,Chafer Theological Seminary,5,5,100.0
-292,Chamberlain College of Nursing,5,5,100.0
-293,Clackamas Community College,5,4,80.0
-294,Coconino Community College,5,5,100.0
-295,Converse College,5,5,100.0
-296,Gustavus Adolphus College,5,5,100.0
-297,Crafton Hills College,5,5,100.0
-298,Chadron State College,5,5,100.0
-299,Charleston Southern University,5,5,100.0
-300,CUNY Borough of Manhattan Community College,5,5,100.0
-301,Central Washington University,5,5,100.0
-302,Frontier Nursing University,5,5,100.0
-303,Bible College in Pennsylvania,5,5,100.0
-304,Davenport College of Business,5,5,100.0
-305,Daytona State College,5,5,100.0
-306,Dallas Baptist University,5,5,100.0
-307,Delaware County Community College,5,5,100.0
-308,DePauw University,5,4,80.0
-309,Fairmont State University,5,5,100.0
-310,Greenville University,5,5,100.0
-311,Howard Community College,5,5,100.0
-312,Illinois Benedictine College,5,5,100.0
-313,Illinois Wesleyan University,5,5,100.0
-314,"College Degrees, Nebraska Community College, Online Classes",5,5,100.0
-315,Dakota State University,5,5,100.0
-316,Eastern Illinois University,5,5,100.0
-317,Eastern Oregon State College,5,5,100.0
-318,Husson University,5,5,100.0
-319,Kansas City University,5,5,100.0
-320,Iowa Lakes Community College,5,4,80.0
-321,Gallipolis Career College,5,4,80.0
-322,Georgetown College,5,5,100.0
-323,Hastings College,5,5,100.0
-324,John Brown University,5,4,80.0
-325,George C Wallace State Community College-Hanceville,5,5,100.0
-326,Kalamazoo Valley Community College,5,5,100.0
-327,Hebrew Union College,4,4,100.0
-328,"HACC, Central Pennsylvania's Community College Home Page",4,4,100.0
-329,Indiana University of Pennsylvania,4,4,100.0
-330,Clinton Community College,4,4,100.0
-331,Welcome to Yeshwantrao Chavan College of Engineering,4,4,100.0
-332,Ashland University,4,4,100.0
-333,Alfred University,4,4,100.0
-334,Alfred State College,4,4,100.0
-335,Austin Community College,4,4,100.0
-336,Buena Vista University,4,4,100.0
-337,Clarendon College,4,4,100.0
-338,Hamline University,4,4,100.0
-339,Hampton University,4,4,100.0
-340,Herzing University,4,4,100.0
-341,Keiser University,4,4,100.0
-342,"California State University, San Jose",4,4,100.0
-343,Alvin Community College,4,4,100.0
-344,Amherst College,4,4,100.0
-345,Angelo State University,4,4,100.0
-346,Delaware Valley University,4,4,100.0
-347,Johns Hopkins University,4,3,75.0
-348,Arizona Christian University,4,4,100.0
-349,"Arkansas State University, Newport",4,4,100.0
-350,Bluefield College,4,4,100.0
-351,Cayuga County Community College,4,4,100.0
-352,Caldwell Community College and Technical Institute,4,3,75.0
-353,Columbia College Washington D.C.,4,4,100.0
-354,Central Arizona College,4,4,100.0
-355,Clayton College & State University,4,4,100.0
-356,Colby-Sawyer College,4,4,100.0
-357,Hillsborough Community College Home,4,4,100.0
-358,Herkimer County Community College,4,4,100.0
-359,Illinois College,4,4,100.0
-360,Johnson County Community College,4,4,100.0
-361,Bible Based Christian College,4,4,100.0
-362,Bluefield State College,4,4,100.0
-363,Central Connecticut State University,4,4,100.0
-364,El Paso Community College,4,3,75.0
-365,Georgia Southwestern State University,4,4,100.0
-366,"Home » Saint Mary\'s College, Notre Dame, IN",4,4,100.0
-367,Aquinas College,4,4,100.0
-368,Blackhawk Technical College,4,4,100.0
-369,Covenant College,4,4,100.0
-370,Elmira College,4,4,100.0
-371,Ahsanullah University of Science & Technology,4,4,100.0
-372,Austin College,4,4,100.0
-373,Avila College,4,4,100.0
-374,Bates College,4,4,100.0
-375,Butler County Community College,4,4,100.0
-376,Benedictine University Benedictine University,4,4,100.0
-377,Bethel College Newton,4,4,100.0
-378,Community College of Beaver County,4,4,100.0
-379,Concordia University Nebraska,4,4,100.0
-380,Bay Mills Community College,4,4,100.0
-381,Bowie State University,4,4,100.0
-382,California Institute of the Arts,4,4,100.0
-383,Davidson-Davie Community College,4,4,100.0
-384,College of the Holy Cross,4,4,100.0
-385,Brenau University,4,4,100.0
-386,Brescia University,4,4,100.0
-387,Best Liberal Arts Colleges Small and Private,4,4,100.0
-388,Bevill State Community College,4,4,100.0
-389,Columbia State Community College,4,4,100.0
-390,East Carolina University,4,4,100.0
-391,Emporia State University,4,4,100.0
-392,Georgia Southern University,4,4,100.0
-393,Camden County College,4,4,100.0
-394,Elizabeth City State University,4,4,100.0
-395,"California State University, Dominguez Hills",4,4,100.0
-396,"California State University, Sacramento",4,4,100.0
-397,Dallas College,4,4,100.0
-398,Carrington College California-Sacramento,4,4,100.0
-399,Carroll University,4,4,100.0
-400,Community College of Allegheny County,4,4,100.0
-401,Clear Creek Baptist Bible College,4,4,100.0
-402,Colorado Community College System,4,4,100.0
-403,"Centre for Commercial Law Studies (CCLS), Queen Mary, University of London",4,2,50.0
-404,Federico Beauty Institute,4,4,100.0
-405,Charter Oak State College,4,4,100.0
-406,Le Cordon Bleu College of Culinary Arts-Chicago,4,0,0.0
-407,Chemeketa Community College,4,3,75.0
-408,Concordia University,4,2,50.0
-409,City University of Seattle,4,4,100.0
-410,Cleveland Chiropractic College,4,4,100.0
-411,College of the Marshall Islands,4,4,100.0
-412,Colgate is a nationally recognized liberal arts college set on a beautiful,4,4,100.0
-413,College of San Mateo,4,4,100.0
-414,Daemen College,4,4,100.0
-415,Fulton-Montgomery Community College,4,4,100.0
-416,Columbus State Community College,4,4,100.0
-417,Columbia Theological Seminary,4,4,100.0
-418,"Chatham University, Pittsburgh, PA",4,4,100.0
-419,Del Mar College,4,4,100.0
-420,Denver Seminary,4,3,75.0
-421,Goodwin College Home,4,4,100.0
-422,George Wythe University,4,4,100.0
-423,Hindu University of America,4,4,100.0
-424,Dickinson State University,4,4,100.0
-425,College of Saint Catherine,4,4,100.0
-426,Drury University,4,4,100.0
-427,Dyersburg State Community College,4,4,100.0
-428,Eastern Florida State College,4,4,100.0
-429,Elms College,4,4,100.0
-430,Goucher College,4,4,100.0
-431,Jefferson Community College,4,4,100.0
-432,Flint Hills Technical College,4,4,100.0
-433,Colorado State University - Global Campus,4,4,100.0
-434,Haskell Indian Nations University,4,4,100.0
-435,Franklin and Marshall College,4,4,100.0
-436,Florida SouthWestern State College,4,4,100.0
-437,Grand Canyon University is a private Christian University in Phoenix,4,4,100.0
-438,Georgia Gwinnett College,4,4,100.0
-439,Georgia Institute of Cosmetology,4,4,100.0
-440,Concordia College - St. Paul,4,4,100.0
-441,Guilford College,4,4,100.0
-442,Hampshire College,4,4,100.0
-443,Johnson University,4,4,100.0
-444,Adirondack Community College,4,4,100.0
-445,Horizon College and Seminary,4,4,100.0
-446,James A Rhodes State College,4,2,50.0
-447,Colleges in Texas Tech Training Schools,4,4,100.0
-448,Home of Southern Evangelical Seminary,4,4,100.0
-449,Hollins University,4,4,100.0
-450,FAU Honors College,4,3,75.0
-451,Hudson Valley Community College,4,4,100.0
-452,Illinois Institute of Technology,4,4,100.0
-453,Thomas Jefferson University   Jefferson Medical College   Jefferson College of Graduate Studies   Jefferson,4,4,100.0
-454,A Top Christian University and Seminary,4,4,100.0
-455,Drew University,3,3,100.0
-456,Indiana Wesleyan University,3,3,100.0
-457,Alabama Agricultural and Mechanical University,3,2,66.7
-458,American Baptist College,3,3,100.0
-459,Brandeis University,3,3,100.0
-460,Adams State College,3,3,100.0
-461,Asia Pacific Institute of Management,3,3,100.0
-462,East Central Community College,3,2,66.7
-463,Karunya University,3,3,100.0
-464,Adrian College,3,3,100.0
-465,Air Force Institute of Technology,3,2,66.7
-466,Alamance Community College,3,3,100.0
-467,Alaska Pacific University â Discover Active Learning,3,3,100.0
-468,Birzeit University,3,2,66.7
-469,"Central Methodist University in Fayette, Missouri",3,3,100.0
-470,College of Idaho,3,3,100.0
-471,Fielding Institute,3,3,100.0
-472,Golden Gate University,3,3,100.0
-473,Gwynedd-Mercy College,3,3,100.0
-474,"Harper College, Palatine, Il",3,3,100.0
-475,Hawkeye Community College,3,2,66.7
-476,Hampden-Sydney College,3,3,100.0
-477,Alverno College,3,2,66.7
-478,Amberton University,3,3,100.0
-479,Anderson University,3,3,100.0
-480,Andrew College,3,3,100.0
-481,Institute for Advanced Study,3,3,100.0
-482,"Arkansas State University, Beebe",3,3,100.0
-483,"Arkansas State University, Mountain Home",3,3,100.0
-484,Bay Atlantic University,3,3,100.0
-485,Blue Mountain College,3,3,100.0
-486,Brewton-Parker College,3,3,100.0
-487,Community College of Rhode Island,3,3,100.0
-488,Central Georgia Technical College,3,2,66.7
-489,"Chattanooga College Medical, Dental, & Technical Careers, Chattanooga State of Tennessee, Chattanooga College is the source for that career you have always dreamed of.",3,3,100.0
-490,Cowley County Community College,3,3,100.0
-491,Criswell College,3,3,100.0
-492,East Central College,3,3,100.0
-493,Eastern WV Community & Technical College,3,3,100.0
-494,East-West University,3,3,100.0
-495,ECPI University,3,3,100.0
-496,Full Sail University,3,3,100.0
-497,Georgia Northwestern Technical College,3,3,100.0
-498,Hong Kong Adventist college,3,3,100.0
-499,Indian Hills Community College,3,3,100.0
-500,Indian River State College,3,3,100.0
-501,James Sprunt Community College,3,3,100.0
-502,Advanced Technology Institute,3,3,100.0
-503,Bucks County Community College,3,3,100.0
-504,City Colleges of Chicago,3,3,100.0
-505,Centenary College of Louisiana,3,3,100.0
-506,Coastline Community College,3,3,100.0
-507,College of the Ozarks,3,3,100.0
-508,Columbia Basin College (CBC),3,3,100.0
-509,Gemological Institute of America,3,3,100.0
-510,Academic medical center at State University of New York at Stony Brook,3,3,100.0
-511,Arcadia University,3,3,100.0
-512,Aiken Technical College,3,3,100.0
-513,Athens Technical College,3,3,100.0
-514,Concordia University Texas Home Page,3,3,100.0
-515,Florida Metropolitan University (FMU) is now Everest University,3,3,100.0
-516,Atlantic University College,3,3,100.0
-517,Atlantic University,3,3,100.0
-518,Augustana College (SD),3,3,100.0
-519,Augusta Technical College,3,2,66.7
-520,Auburn University at Montgomery,3,3,100.0
-521,Babson College,3,3,100.0
-522,"blueridge college of evangelism, christian bible colleges in wytheville va",3,3,100.0
-523,"Beacon College for ADHD Students, LD Students and gifted LD",3,3,100.0
-524,Benedictine College,3,3,100.0
-525,Bergen Community College Homepage,3,3,100.0
-526,Bethany Divinity College and Seminary,3,3,100.0
-527,Bethany College,3,3,100.0
-528,Blackfeet Community College,3,2,66.7
-529,Bismarck State College,3,3,100.0
-530,Blue Ridge Community and Technical College,3,2,66.7
-531,Cossatot Community College of the University of Arkansas,3,3,100.0
-532,Erie Community College,3,3,100.0
-533,East Central University,3,3,100.0
-534,Francis Marion University,3,3,100.0
-535,Bloomsburg University of Pennsylvania,3,3,100.0
-536,Flagler College,3,3,100.0
-537,Global University,3,3,100.0
-538,Blessing-Rieman College of Nursing,3,3,100.0
-539,Brookline College,3,3,100.0
-540,Broward College,3,3,100.0
-541,Ball State University,3,3,100.0
-542,Bucknell University,3,3,100.0
-543,Delaware State University,3,3,100.0
-544,Cabrillo College Home Page,3,3,100.0
-545,Central Alabama Community College,3,3,100.0
-546,California Coast University,3,3,100.0
-547,Caldwell College New Jersey,3,3,100.0
-548,Des Moines University,3,3,100.0
-549,"Galen College, Nursing Schools, Nursing Degrees",3,3,100.0
-550,Greenville Technical College,3,3,100.0
-551,J Sargeant Reynolds Community College,3,3,100.0
-552,Cambridge College,3,3,100.0
-553,Find Your Calling at Campbellsville University,3,3,100.0
-554,Canisius College,3,3,100.0
-555,Kansas City Kansas Community College,3,2,66.7
-556,College of Eastern Utah,3,3,100.0
-557,Clark State Community College,3,3,100.0
-558,"California State University, Monterey Bay",3,3,100.0
-559,Delaware College of Art and Design,3,3,100.0
-560,Eastern Kentucky University,3,3,100.0
-561,Humboldt State University,3,3,100.0
-562,Carolina Christian College Winston,3,3,100.0
-563,Cascadia Community College,3,3,100.0
-564,"Career College in Miami Dade with Computer, Business, Medical, and Art Classes",3,3,100.0
-565,Coastland Christian Bible College and University,3,3,100.0
-566,Community College of Philadelphia,3,3,100.0
-567,Cebu Doctors\' University . Welcome,3,3,100.0
-568,Cecil College,3,3,100.0
-569,Chaminade University of Honolulu,3,3,100.0
-570,Chatham University,3,3,100.0
-571,Chattanooga State Community College,3,3,100.0
-572,Chestnut Hill College,3,3,100.0
-573,Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester,3,2,66.7
-574,Cleveland Institute of Art,3,3,100.0
-575,Colorado Institute of Massage Therapy,3,3,100.0
-576,Colombo International Nautical & Engineering College (CINEC),3,2,66.7
-577,Claremont McKenna College,3,3,100.0
-578,Christian Life College,3,2,66.7
-579,Cleary College,3,3,100.0
-580,Cleveland Community College,3,3,100.0
-581,Colby College,3,3,100.0
-582,Colorado Mesa University,3,3,100.0
-583,Denver College of Nursing,3,3,100.0
-584,Connecticut College,3,2,66.7
-585,"Conservative Theological University, Conservative Christian Academy, First Conservative Baptist Church, Jacksonville, FL",3,3,100.0
-586,College of the Sequoias,3,3,100.0
-587,Clover Park Technical College,3,3,100.0
-588,"Concordia Seminary, St. Louis",3,3,100.0
-589,College of Southern Maryland,3,3,100.0
-590,Cleveland State University,3,3,100.0
-591,Cuesta College,3,3,100.0
-592,Curry College,3,3,100.0
-593,Chattahoochee Valley Community College,3,3,100.0
-594,Chippewa Valley Technical College,3,3,100.0
-595,Dakota County Technical College,3,3,100.0
-596,Delta College,3,3,100.0
-597,Eucon International College,3,3,100.0
-598,Dallas Nursing Institute,3,3,100.0
-599,Delaware Technical Community College,3,3,100.0
-600,Edgecombe Community College,3,3,100.0
-601,Independence Community College,3,2,66.7
-602,Aviation College and Engineering Degree Program,3,3,100.0
-603,Denver's College of Opportunity,3,3,100.0
-604,Erikson Institute,3,3,100.0
-605,East Texas Baptist University,3,3,100.0
-606,"Gonzaga University, Spokane Washington",3,3,100.0
-607,"Futures Inspired l Holyoke Community College, Holyoke, MA",3,3,100.0
-608,Holmes Community College,3,3,100.0
-609,Cuyahoga Community College District,3,3,100.0
-610,Faulkner University,3,3,100.0
-611,Florence-Darlington Technical College,3,3,100.0
-612,Florida Education Institute,3,3,100.0
-613,Fort Hays State University,3,3,100.0
-614,Freed-Hardeman University,3,3,100.0
-615,Five Branches University,3,3,100.0
-616,Florida Vedic College,3,3,100.0
-617,Framingham State University,3,3,100.0
-618,Franklin Pierce University,3,3,100.0
-619,Friends University,3,3,100.0
-620,Finishing Trades Institute of the Mid,3,3,100.0
-621,Fort Valley State University,3,3,100.0
-622,Gadsden State Community College,3,3,100.0
-623,Goldey-Beacom College,3,3,100.0
-624,God's Bible School and College,3,3,100.0
-625,Great Falls College Montana State University,3,3,100.0
-626,Eastern New Mexico University-Roswell Campus,3,3,100.0
-627,Goshen College,3,3,100.0
-628,Graceland University,3,3,100.0
-629,Gateway Technical College,3,3,100.0
-630,Guam Community College,3,3,100.0
-631,Gwinnett College,3,3,100.0
-632,Houston Community College,3,3,100.0
-633,Jackson Community College,3,3,100.0
-634,Joliet Junior College,3,3,100.0
-635,Illinois Eastern Community Colleges,3,3,100.0
-636,HR College of Commerce & Economics,3,3,100.0
-637,illinoisbaptistcollege.edu,3,3,100.0
-638,International Medical & Technological University,3,2,66.7
-639,Irvine Valley College,3,3,100.0
-640,Institute for the Study of Coherence and Emergence,3,3,100.0
-641,Dutchess Community College,3,3,100.0
-642,International Technological University,3,3,100.0
-643,Illinois Valley Community College,3,3,100.0
-644,John F. Kennedy University,3,3,100.0
-645,"Juniata College, by any measure one of the best liberal arts colleges in the U.S.",3,3,100.0
-646,Kansas Wesleyan University,3,3,100.0
-647,"Art School, Art Colleges Massachusetts, MA",3,3,100.0
-648,Northeastern University,3,3,100.0
-649,Sarah Lawrence College. A Deeper Education.,3,3,100.0
-650,Online College Degrees William Howard Taft University,3,3,100.0
-651,University of Maryland,3,3,100.0
-652,University of Nebraska,3,3,100.0
-653,Deep Springs College,2,2,100.0
-654,College of the Atlantic,2,2,100.0
-655,Horry-Georgetown Technical College,2,2,100.0
-656,Anne Arundel Community College,2,2,100.0
-657,Alderson Broaddus College,2,1,50.0
-658,Academy College,2,2,100.0
-659,Connecticut State University System,2,2,100.0
-660,Appalachian College of Pharmacy,2,2,100.0
-661,American College of Thessaloniki,2,2,100.0
-662,Adrian\'s Beauty Colleges,2,2,100.0
-663,Agnes Scott College,2,2,100.0
-664,American Institute of Alternative Medicine AIAM,2,2,100.0
-665,American International College,2,2,100.0
-666,American Islamic College,2,2,100.0
-667,Atlantic International University,2,2,100.0
-668,American InterContinental University,2,2,100.0
-669,Association of Jesuit Colleges and Universities,2,2,100.0
-670,Alamo Colleges District,2,2,100.0
-671,Albany Technical College,2,2,100.0
-672,College of the Albemarle,2,2,100.0
-673,Carlos Albizu University,2,2,100.0
-674,Alcorn State University,2,2,100.0
-675,Alexandria Technical & Community College,2,1,50.0
-676,Allegany College of Maryland,2,2,100.0
-677,Allen County Community College,2,2,100.0
-678,Allen University,2,2,100.0
-679,Arapahoe Community College in Colorado,2,2,100.0
-680,Caribbean Nazarene College,2,2,100.0
-681,Collin County Community College District,2,2,100.0
-682,Front Range Community College,2,2,100.0
-683,Holy Apostles College & Seminary,2,2,100.0
-684,"Distance Learning Courses and Programs at Warnborough College at Bachelors, Masters, and PhD levels",2,2,100.0
-685,American Institute,2,2,100.0
-686,Anaheim University,2,2,100.0
-687,Aaniiih Nakoda College,2,2,100.0
-688,Anoka Technical College Home,2,2,100.0
-689,Home page of the Asia Pacific Maritime Institute,2,2,100.0
-690,Cape Cod Community College,2,2,100.0
-691,Cochise College Home Page,2,2,100.0
-692,Central Wyoming College,2,2,100.0
-693,Dillard University,2,2,100.0
-694,Ecclesia College,2,2,100.0
-695,Beauty College,2,2,100.0
-696,Grand View University,2,2,100.0
-697,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,2,100.0
-698,"Belmont Abbey College, Charlotte, NC",2,2,100.0
-699,Bossier Parish Community College,2,1,50.0
-700,Argosy University,2,0,0.0
-701,Arkansas Baptist College,2,2,100.0
-702,Art Center College of Design,2,2,100.0
-703,Ashford University,2,1,50.0
-704,Online University,2,2,100.0
-705,ATA College,2,2,100.0
-706,Athens State University,2,2,100.0
-707,Carthage College,2,2,100.0
-708,Colorado Northwestern Community College,2,2,100.0
-709,American University in Bulgaria,2,2,100.0
-710,Spelman College,2,1,50.0
-711,Antelope Valley College,2,2,100.0
-712,Averett College,2,2,100.0
-713,Barber-Scotia College,2,2,100.0
-714,Barry University,2,2,100.0
-715,Bastyr University,2,2,100.0
-716,Baylor University,2,2,100.0
-717,Beaufort County Community College,2,2,100.0
-718,Belhaven University,2,2,100.0
-719,Bethany Theological Seminary,2,2,100.0
-720,Bircham International University,2,2,100.0
-721,Career Training – Online Career Training Programs – Blackstone Career Institute,2,2,100.0
-722,Bladen Community College,2,2,100.0
-723,"Bethany Lutheran College is a Christian, liberal arts college in Mankato, Minnesota.",2,2,100.0
-724,Blue Mountain Community College,2,2,100.0
-725,Blue Ridge Community College,2,2,100.0
-726,Bluffton College,2,2,100.0
-727,Denison University,2,2,100.0
-728,Greenville Presbyterian Theological Seminary,2,2,100.0
-729,Brazosport College,2,2,100.0
-730,Bristol Community College,2,2,100.0
-731,Welcome to Brookdale Community College,2,1,50.0
-732,Brunswick Community College,2,2,100.0
-733,Bon Secours Memorial College of Nursing,2,2,100.0
-734,California Pacific University,2,2,100.0
-735,Bhaktivedanta Institute,2,2,100.0
-736,Century College,2,2,100.0
-737,Clarkson University,2,2,100.0
-738,Calhoun Community College,2,2,100.0
-739,California Polytechnic State University,2,2,100.0
-740,California State University System,2,2,100.0
-741,Cameron University,2,2,100.0
-742,Capitol Technology University,2,2,100.0
-743,"California State University, Los Angeles",2,2,100.0
-744,Central State University,2,2,100.0
-745,Concorde Career Colleges,2,2,100.0
-746,Caribbean University,2,2,100.0
-747,Carroll College Helena,2,1,50.0
-748,Carroll Community College,2,2,100.0
-749,Central Baptist College,2,2,100.0
-750,CBD College,2,2,100.0
-751,Central Baptist Theological Seminary,2,1,50.0
-752,Columbia College,2,2,100.0
-753,City College of San Francisco,2,2,100.0
-754,Central Carolina Technical College,2,2,100.0
-755,Colorado Christian University,2,2,100.0
-756,Community College of Vermont,2,2,100.0
-757,Gutenberg College Great Books.,2,2,100.0
-758,Imperial Valley College,2,1,50.0
-759,Charles R. Drew University of Medicine and Science,2,2,100.0
-760,Cedar Crest College,2,2,100.0
-761,Central Christian College of KS,2,2,100.0
-762,College of Central Florida,2,2,100.0
-763,Claremont Graduate University,2,2,100.0
-764,Chabot College,2,2,100.0
-765,Chesapeake College,2,2,100.0
-766,Cincinnati State Technical and Community College,2,2,100.0
-767,Columbia International University,2,2,100.0
-768,Clarke University,2,2,100.0
-769,Cleveland State Community College,2,2,100.0
-770,Cloud County Community College,2,1,50.0
-771,California Nurses Educational Institute,2,2,100.0
-772,Coahoma Community College,2,2,100.0
-773,Coastal Alabama Community College,2,2,100.0
-774,Coastal Pines Technical College,2,2,100.0
-775,Cogswell Polytechnical College,2,1,50.0
-776,Coker College,2,2,100.0
-777,College of the Desert,2,2,100.0
-778,Colorado College,2,2,100.0
-779,Columbus University,2,2,100.0
-780,Columbus Technical College,2,2,100.0
-781,Commonwealth Institute of Funeral Service,2,2,100.0
-782,Computek College,2,2,100.0
-783,College Front Page,2,2,100.0
-784,Connors State College,2,2,100.0
-785,Craven Community College,2,2,100.0
-786,Crowley\'s Ridge College,2,2,100.0
-787,Crowder College Neosho Missouri,2,2,100.0
-788,Indiana State University,2,2,100.0
-789,College of Southern Nevada,2,2,100.0
-790,Colorado State University-Pueblo,2,1,50.0
-791,Concordia University Wisconsin,2,2,100.0
-792,Danville Area Community College,2,2,100.0
-793,Dakota College at Bottineau,2,2,100.0
-794,Dallas Christian College,2,2,100.0
-795,Dallas Theological Seminary (DTS),2,1,50.0
-796,Davidson College Home,2,2,100.0
-797,Dawson Community College,2,2,100.0
-798,Welcome to Daymar College!,2,0,0.0
-799,Dodge City Community College,2,2,100.0
-800,Dean College,2,2,100.0
-801,Delta State University,2,2,100.0
-802,El Camino Community College District,2,1,50.0
-803,Golden West College,2,2,100.0
-804,Harris-Stowe State University,2,1,50.0
-805,North Central University,2,0,0.0
-806,Divers Institute of Technology,2,2,100.0
-807,J F Drake State Community and Technical College,2,2,100.0
-808,Diablo Valley College,2,2,100.0
-809,Dakota Wesleyan University,2,1,50.0
-810,Emory & Henry College,2,2,100.0
-811,Emmaus Bible College Home Page,2,2,100.0
-812,Empire College,2,2,100.0
-813,Estrella Mountain Community College,2,2,100.0
-814,East Stroudsburg State University of Pennsylvania,2,2,100.0
-815,Evangel University,2,2,100.0
-816,Halifax Community College,2,2,100.0
-817,Everest University,2,1,50.0
-818,Welcome to Florida Atlantic University,2,2,100.0
-819,Finger Lakes Community College,2,2,100.0
-820,"Accredited, independent college, offering Bachelor and Associate degrees",2,2,100.0
-821,Fisher More Catholic College,2,1,50.0
-822,Florida College,2,2,100.0
-823,Florida Memorial University,2,2,100.0
-824,Fontbonne University,2,2,100.0
-825,Fort Scott Community College,2,2,100.0
-826,"Christian Life College, Stockton, California",2,2,100.0
-827,Fresno Pacific University,2,2,100.0
-828,God\'s Bible School & College,2,2,100.0
-829,Genesis Career College,2,2,100.0
-830,Great Lakes Institute of Technology,2,2,100.0
-831,Gogebic Community College,2,2,100.0
-832,USM University of Santa Monica,2,2,100.0
-833,Georgia Piedmont Technical College,2,2,100.0
-834,Grace College & Theological Seminary in Indiana,2,2,100.0
-835,Grantham University,2,2,100.0
-836,Greensboro College,2,2,100.0
-837,Golden State Baptist College,2,2,100.0
-838,Gwinnett Technical College,2,2,100.0
-839,Allan Hancock College,2,2,100.0
-840,Harrisburg University,2,2,100.0
-841,Huntsville Bible College,2,2,100.0
-842,Houston Baptist University,2,2,100.0
-843,Holy Cross College,2,2,100.0
-844,Futures Inspired l Holyoke Community College,2,2,100.0
-845,Humacao Community College,2,2,100.0
-846,Heald College,2,0,0.0
-847,Heartland Community College,2,2,100.0
-848,Hebrew College,2,2,100.0
-849,College of the Redwoods,2,2,100.0
-850,Hodges University,2,1,50.0
-851,Hutchinson Community College,2,2,100.0
-852,"Discover Judson University, a Four Year Christian College in Elgin near Chicago",2,2,100.0
-853,Hendrix College,2,2,100.0
-854,"Hollywood Institute of Beauty Careers  Cosmetology, Makeup, Hair, Nails, and Skin Care",2,2,100.0
-855,Hawaii Medical College,2,2,100.0
-856,Howard Payne University,2,2,100.0
-857,"Emmanuel College, Boston",2,2,100.0
-858,Hardin-Simmons University,2,2,100.0
-859,Huston-Tillotson University,2,2,100.0
-860,Humphreys College,2,2,100.0
-861,Illinois Central College,2,2,100.0
-862,Itawamba Community College in Northeast Mississippi (Fulton,2,1,50.0
-863,The Institute for Continuing Health Care Education,2,1,50.0
-864,Institute for Clinical Social Work,2,2,100.0
-865,International Institute for Restorative Practices (IIRP),2,2,100.0
-866,Southern Union State Community College,2,2,100.0
-867,Inver Hills Community College,2,2,100.0
-868,Iona College,2,2,100.0
-869,John A. Logan College Homepage,2,2,100.0
-870,Johnson C. Smith University,2,1,50.0
-871,Jefferson Davis Community College,2,0,0.0
-872,Jackson State Community College,2,2,100.0
-873,Kansas City Art Institute,2,2,100.0
-874,University of Kentucky,2,1,50.0
-875,Kirtland Community College,2,1,50.0
-876,- LATIN AMERICAN BIBLE INSTITUTE,2,2,100.0
-877,Los Angeles City College,2,2,100.0
-878,La\'James International College...LJIC is distinctively different!,2,1,50.0
-879,Lane Community College,2,2,100.0
-880,Lurleen B. Wallace Community College,2,1,50.0
-881,Arkansas Colleges and Universities,2,2,100.0
-882,H Councill Trenholm State Technical College,2,2,100.0
-883,Welcome To Lala Lajpatrai Institute of Management,2,2,100.0
-884,Homepage — Nazareth College,2,2,100.0
-885,Loyola Marymount University,2,2,100.0
-886,Welcome to the Lakes Region Community College,2,2,100.0
-887,"Digital University of America + Peace University, USA",2,2,100.0
-888,César Ritz Colleges Switzerland,2,1,50.0
-889,Marion Military Institute,2,2,100.0
-890,Marymount College Rancho Palos Verdes,2,1,50.0
-891,Mercer County Community College,2,2,100.0
-892,Meridian College Florida Career Colleges,2,2,100.0
-893,"Mars Hill College, in the Blue Ridge Mountains near Asheville, NC",2,1,50.0
-894,Miami University of Ohio,2,2,100.0
-895,Motorcycle Mechanics Institute (MMI),2,1,50.0
-896,Monmouth College,2,0,0.0
-897,Welcome to Moravian College,2,1,50.0
-898,Morningside College,2,1,50.0
-899,Michigan State University. Est. 1855. East Lansing,2,2,100.0
-900,Hellenic College and Holy Cross Greek Orthodox School of Theology,2,2,100.0
-901,Baton Rouge Community College,2,2,100.0
-902,Northeast Ohio Medical University — NEOMED,2,2,100.0
-903,North Greenville University,2,1,50.0
-904,Northeastern Junior College,2,2,100.0
-905,"NLP Training Vancouver, Erickson College, Ericksonian Hypnosis, Milton Erickson",2,0,0.0
-906,Law NUJS Kolkata WB National University of Juridical Sciences India West Bengal,2,2,100.0
-907,Northwest Louisiana Technical College,2,1,50.0
-908,Oakland Community College,2,2,100.0
-909,Oklahoma City Community College,2,2,100.0
-910,Welcome to Ogeechee Technical College!,2,2,100.0
-911,Ohio State University,2,1,50.0
-912,Olivet Nazarene University,2,2,100.0
-913,University of the Pacific,2,0,0.0
-914,Palomar Community College District,2,2,100.0
-915,University System of Georgia,2,2,100.0
-916,"Philander Smith College, Think Justice, Little Rock, Arkansas, UNCF, HBCU",2,0,0.0
-917,University of New Hampshire,2,1,50.0
-918,Pennsylvania Institute of Technology,2,2,100.0
-919,Pueblo Community College,2,2,100.0
-920,Randolph College,2,2,100.0
-921,Riverside Community College District,2,2,100.0
-922,Welcome to the University of Redlands,2,2,100.0
-923,University of Rhode Island,2,2,100.0
-924,Richmont Graduate University,2,2,100.0
-925,RIO GRANDE BIBLE INSTITUTE,2,2,100.0
-926,Carl Sandburg College,2,1,50.0
-927,University of South Carolina,2,2,100.0
-928,The University of Scranton,2,2,100.0
-929,South Carolina State University,2,1,50.0
-930,Sullivan College of Technology & Design,2,1,50.0
-931,Seattle University,2,2,100.0
-932,Seminole State College of Florida Home Page,2,2,100.0
-933,St. Francis College,2,1,50.0
-934,Shasta College,2,2,100.0
-935,Shawnee Community College Homepage,2,2,100.0
-936,Shoreline Community College,2,2,100.0
-937,University of South Alabama Homepage,2,2,100.0
-938,Columbia-Greene Community College,2,2,100.0
-939,University of St. Thomas,2,2,100.0
-940,Schenectady County Community College,2,2,100.0
-941,Catholic Seminary Schools,2,2,100.0
-942,» The Texas A&M University System,2,2,100.0
-943,Tokyo International University of America,2,1,50.0
-944,The University of Toledo,2,0,0.0
-945,Trinity Western University,2,2,100.0
-946,Tunxis Community College,2,0,0.0
-947,University of Arkansas Community College at Hope,2,2,100.0
-948,University of Arkansas at Little Rock,2,2,100.0
-949,The University of Baltimore Online Education,2,1,50.0
-950,University of Northern California,2,1,50.0
-951,University of North Carolina at Wilmington,2,1,50.0
-952,University of Nevada,2,1,50.0
-953,The University of Southern Mississippi,2,2,100.0
-954,University of the SouthwestHome,2,2,100.0
-955,University of Tennessee,2,2,100.0
-956,University of West Alabama,2,1,50.0
-957,Welcome to the Website for the Institute for Vaccine Safety,2,2,100.0
-958,"Associate Degree, College Degrees",2,1,50.0
-959,Villa Maria College,2,2,100.0
-960,University of Virginia,2,1,50.0
-961,Washburn University,2,1,50.0
-962,George C Wallace State Community College-Selma,2,2,100.0
-963,Welcome to Wharton County Junior College,2,1,50.0
-964,Western Institute for Social Research,2,2,100.0
-965,William Mitchell College of Law,2,1,50.0
-966,West Tennessee Business College,2,1,50.0
-967,Contra Costa Community College District,1,1,100.0
-968,Arizona Automotive Institute,1,1,100.0
-969,Rasmussen College,1,0,0.0
-970,Arab American University - Jenin,1,0,0.0
-971,American Bible College & Seminary,1,0,0.0
-972,American Baptist Seminary of the West,1,0,0.0
-973,Asheville-Buncombe Technical Community College,1,1,100.0
-974,Atlanta College of Art,1,0,0.0
-975,Acadiana Technical College,1,0,0.0
-976,American College of Acupuncture & Oriental Medicine,1,1,100.0
-977,Atlanta Christian College,1,0,0.0
-978,Online Master\'s Degree Programs in Education at American College of Education,1,1,100.0
-979,American College of Healthcare Sciences,1,1,100.0
-980,ACM â Associated Colleges of the Midwest — Home,1,1,100.0
-981,Albertson College of Idaho,1,0,0.0
-982,Albany College of Pharmacy and Health Sciences (ACPHS),1,1,100.0
-983,American College of Traditional Chinese Medicine,1,0,0.0
-984,Amarillo College,1,0,0.0
-985,Southwest Acupuncture College,1,0,0.0
-986,University of San Diego,1,0,0.0
-987,The University of Adelaide,1,0,0.0
-988,Career College Los Angeles,1,0,0.0
-989,AFI Conservatory,1,1,100.0
-990,Alahgaff University,1,1,100.0
-991,American Healthcare Institute Continuing Education Nurses Mental Health Professionals Maryland,1,0,0.0
-992,Aquinas Institute of Theology > Home,1,1,100.0
-993,Lesley University,1,1,100.0
-994,American Indian College of the Assemblies of God,1,1,100.0
-995,American Institute of Holistic Theology,1,1,100.0
-996,The Art Institutes,1,1,100.0
-997,All India Institute of Medical Sciences,1,1,100.0
-998,Welcome to American Institute of Medical Science and Education,1,1,100.0
-999,AIMT American Institute of Medical Technology,1,0,0.0
-1000,The Art Institute Of Pittsburgh Online Division,1,0,0.0
-1001,American InterContinental University â AIU South Florida,1,0,0.0
-1002,Alaska Bible College,1,1,100.0
-1003,Alameda Beauty College & Beauty,1,0,0.0
-1004,University of Alaska - Anchorage,1,1,100.0
-1005,Alaska Career College,1,1,100.0
-1006,Albright College,1,0,0.0
-1007,State University of New York at Albany,1,1,100.0
-1008,Welcome to Albertus Magnus College,1,1,100.0
-1009,Alice Lloyd College,1,1,100.0
-1010,Allegheny College,1,0,0.0
-1011,Welcome to Allegheny College,1,1,100.0
-1012,Allentown College of Saint Francis de Sales,1,0,0.0
-1013,Allen College,1,1,100.0
-1014,Online College Courses & Degrees,1,0,0.0
-1015,Online Allied Health and Medical School Education Courses by Allied Health Institute,1,0,0.0
-1016,Alpena Community College,1,1,100.0
-1017,Altamaha Technical College,1,0,0.0
-1018,Concordia College - Moorhead,1,1,100.0
-1019,"Fergusson College, Pune",1,1,100.0
-1020,Alvernia University,1,1,100.0
-1021,Ambassador University,1,1,100.0
-1022,Ambassador Baptist College,1,1,100.0
-1023,Welcome to Ambria College of Nursing,1,1,100.0
-1024,Anderson Medical Career College,1,0,0.0
-1025,American College Dublin,1,1,100.0
-1026,American Coastline University,1,0,0.0
-1027,"Online Colleges, Schools, Universities and Scholarships Reviews by America.edu",1,1,100.0
-1028,"Distance Learning, Distance Education, Online Degree at American Global University",1,0,0.0
-1029,American Institute for Paralegal Studies,1,0,0.0
-1030,Home Antonelli Medical & Professional Institute,1,0,0.0
-1031,Anamarc College,1,0,0.0
-1032,Arkansas Northeastern College,1,1,100.0
-1033,Ancilla College,1,0,0.0
-1034,Welcome to Angeles College,1,1,100.0
-1035,Angeles Institute,1,1,100.0
-1036,Angelina College,1,1,100.0
-1037,Anna Maria College,1,0,0.0
-1038,Welcome to the Anoka Ramsey Community College Website,1,1,100.0
-1039,AKKINENI NAGESWARA RAO COLLEGE,1,1,100.0
-1040,Saint Anselm College,1,1,100.0
-1041,Online College Degree Programs,1,0,0.0
-1042,Antioch University - Los Angeles,1,1,100.0
-1043,Antioch University New England,1,1,100.0
-1044,Antioch University Santa Barbara,1,1,100.0
-1045,Antioch University - Seattle,1,1,100.0
-1046,Antonelli Institute Art & Photography,1,0,0.0
-1047,American Professional Institute,1,0,0.0
-1048,"Alpena Community College, Alpena, Michigan, USA",1,1,100.0
-1049,Michigan's Largest Evangelical Christian University,1,1,100.0
-1050,Arellano University,1,1,100.0
-1051,The University of Arizona,1,1,100.0
-1052,Arlington Baptist College,1,0,0.0
-1053,Texas Career Institute,1,1,100.0
-1054,Armstrong Atlantic State University Savannah,1,0,0.0
-1055,Army Warrior University,1,0,0.0
-1056,The School of the Art Institute of Chicago,1,1,100.0
-1057,ASA College,1,0,0.0
-1058,Asbury University,1,1,100.0
-1059,Alabama Southern Community College,1,0,0.0
-1060,Ashmead College Is Now Everest College,1,0,0.0
-1061,Online College Degree Programs â Accredited Online School,1,1,100.0
-1062,Asian Institute of Medical Studies,1,0,0.0
-1063,Asnuntuck Community College,1,0,0.0
-1064,Associated Technical College_Home_Los Angeles,1,1,100.0
-1065,Athabasca University,1,0,0.0
-1066,Athena College of Beauty,1,0,0.0
-1067,ATI College,1,1,100.0
-1068,Atlanta Technical College,1,1,100.0
-1069,Atlantic Cape Community College,1,1,100.0
-1070,Atria Institute of Technology,1,1,100.0
-1071,ATS Institute of Technology,1,1,100.0
-1072,American University of Beirut,1,0,0.0
-1073,American University of Biblical Studies,1,0,0.0
-1074,Atlanta University Center Consortium,1,0,0.0
-1075,American University for Humanities,1,0,0.0
-1076,The American University in London,1,1,100.0
-1077,The American University of Rome,1,1,100.0
-1078,Austin Presbyterian Theological Seminary,1,0,0.0
-1079,American University,1,1,100.0
-1080,AvancÃ© Beauty College â Train for an Exciting Career in Cosmetology,1,0,0.0
-1081,"Massage Therapy & Skin Care Training School, Accredited Cosmetology, Makeup Artist & Esthetics Institute in North Virginia, Maryland & DC",1,0,0.0
-1082,Avinashilingam University for Women,1,0,0.0
-1083,Shreveport Colleges,1,1,100.0
-1084,The Arizona Culinary Institute,1,1,100.0
-1085,"AZURE COLLEGE, Great in Demand Career Programs",1,0,0.0
-1086,Arizona Western College,1,1,100.0
-1087,Broken Arrow Beauty College & Cosmetology Education Center,1,0,0.0
-1088,Belmont Abbey College,1,1,100.0
-1089,Bacone College,1,0,0.0
-1090,Bainbridge State College,1,0,0.0
-1091,Welcome to Baker College,1,1,100.0
-1092,Baldwin-Wallace College,1,0,0.0
-1093,Baptist University of America,1,0,0.0
-1094,Bapuji Dental College And Hospital,1,1,100.0
-1095,Lincoln University Missouri,1,0,0.0
-1096,Barclay College,1,1,100.0
-1097,Baruch College,1,1,100.0
-1098,Colleges in Georgia,1,0,0.0
-1099,Bay State · Bay State College,1,1,100.0
-1100,Accredited Christian Bible College & Seminary,1,0,0.0
-1101,Baptist College of America,1,1,100.0
-1102,Baltimore City Community College,1,1,100.0
-1103,Long Island Colleges,1,0,0.0
-1104,SS Cyril and Methodius Byzantine Catholic Seminary,1,1,100.0
-1105,Becker College,1,0,0.0
-1106,"Bellevue College, Washington [Previously Bellevue Community College]",1,1,100.0
-1107,Welcome to Bellin College,1,1,100.0
-1108,Bellmar Chicago Beauty College,1,0,0.0
-1109,Belmont College,1,1,100.0
-1110,Welcome to Beloit College,1,1,100.0
-1111,Bergin University of Canine Studies,1,1,100.0
-1112,Berkeley College,1,1,100.0
-1113,Jump Start Your Education at Berkshire Community College,1,1,100.0
-1114,Bethany College California,1,1,100.0
-1115,Bethel College,1,1,100.0
-1116,Bethlehem Bible College ÙÙÙØ© Ø¨ÙØª ÙØ­Ù ÙÙÙØªØ§Ø¨ Ø§ÙÙ ÙØ¯Ø³,1,0,0.0
-1117,Benjamin Franklin Institute of Technology,1,1,100.0
-1118,The Benjamin Franklin Institute of Global Education,1,0,0.0
-1119,Bainbridge Graduate Institute · The Pioneer of Sustainable Business Education,1,0,0.0
-1120,Bhavnagar University Official Website,1,0,0.0
-1121,Black Hawk College,1,1,100.0
-1122,BH Carroll Theological Institute,1,0,0.0
-1123,Baltimore Hebrew University,1,0,0.0
-1124,Washington Bible College/Capital Bible Seminary,1,0,0.0
-1125,Biblical Seminary,1,0,0.0
-1126,Baltimore International College Foundation,1,0,0.0
-1127,Big Bend Community College,1,1,100.0
-1128,Bilkent University,1,1,100.0
-1129,State University of New York at Binghamton,1,1,100.0
-1130,BioHealth College,1,0,0.0
-1131,Birthingway College of Midwifery,1,0,0.0
-1132,Bishop State Community College â Mobile,1,1,100.0
-1133,BJ's Beauty & Barber College,1,0,0.0
-1134,Blackburn College,1,1,100.0
-1135,Black River Technical College,1,1,100.0
-1136,Blake Austin College,1,1,100.0
-1137,Blessed John XXIII National Seminary,1,0,0.0
-1138,Welcome to Blinn College,1,0,0.0
-1139,Bloomfield College,1,1,100.0
-1140,Bethany Lutheran Theological Seminary,1,1,100.0
-1141,Blue Cliff Career College,1,1,100.0
-1142,Bluewater Bible College & Institute - Home,1,0,0.0
-1143,Bank Street College of Education,1,0,0.0
-1144,Boise Bible College,1,1,100.0
-1145,Boricua College,1,0,0.0
-1146,Welcome to Don Bosco Technical Institute,1,1,100.0
-1147,Boston Baptist College,1,1,100.0
-1148,The Boston Conservatory,1,1,100.0
-1149,Baltimore Polytechnic Institute,1,1,100.0
-1150,B.P. Koirala Institute of Health Sciences,1,1,100.0
-1151,Accredited University Degree Programs in CA & WA,1,0,0.0
-1152,Baton Rouge College,1,0,0.0
-1153,Briar Cliff College,1,0,0.0
-1154,Lincoln College of New England,1,0,0.0
-1155,Bridgemont Community and Technical College,1,0,0.0
-1156,University of Bridgeport,1,1,100.0
-1157,Bridgewater State University,1,1,100.0
-1158,Bristol University homepage,1,1,100.0
-1159,Bristol University â Quality and Practical Education,1,0,0.0
-1160,Broadview University,1,0,0.0
-1161,State University of New York College at Brockport,1,1,100.0
-1162,The College at Brockport,1,0,0.0
-1163,The Brooklyn Culinary Institute,1,0,0.0
-1164,Brooks Institute of Photography,1,0,0.0
-1165,Brooks College in Long Beach,1,0,0.0
-1166,Brookstone College Of Business,1,0,0.0
-1167,Brown Mackie College,1,0,0.0
-1168,Bryan College Sacramento California,1,0,0.0
-1169,Online Career Training at Bryan College Online,1,0,0.0
-1170,Colleges in Missouri,1,0,0.0
-1171,BryanLGH College of Health Sciences,1,0,0.0
-1172,Bryman College is now Everest College,1,0,0.0
-1173,Birmingham-Southern College,1,0,0.0
-1174,Bangor Theological Seminary,1,0,0.0
-1175,Baptist Theological Seminary at Richmond,1,0,0.0
-1176,Welcome to Bombay Teachers\' Training College,1,1,100.0
-1177,State University of New York at Buffalo,1,1,100.0
-1178,State University of New York College at Buffalo,1,1,100.0
-1179,Buffalo State College,1,0,0.0
-1180,Welcome To Butler Community College,1,1,100.0
-1181,Cabrini University,1,0,0.0
-1182,Cabrini College,1,0,0.0
-1183,"Welcome to CAHSU (Belize Medical College) Homepage. Offshore Medical Schools, Foreign Medical Schools,Caribbean medical school",1,0,0.0
-1184,CaliforniaColleges.edu,1,1,100.0
-1185,California Southern University,1,1,100.0
-1186,California University of Pennsylvania,1,1,100.0
-1187,Online Education – Online Degree – California Intercontinental University,1,1,100.0
-1188,A Christian Bible College in Kansas City,1,1,100.0
-1189,Calvary Midwest Bible College,1,0,0.0
-1190,Calvin Theological Seminary,1,1,100.0
-1191,Cambridge Junior College,1,0,0.0
-1192,Cameron College,1,0,0.0
-1193,Welcome to Cañada College,1,1,100.0
-1194,West Penn Allegheny Cancer Institute (WPACI),1,0,0.0
-1195,Canyon College,1,0,0.0
-1196,Capitol College,1,0,0.0
-1197,Capri Beauty College,1,1,100.0
-1198,Capstone College,1,0,0.0
-1199,College Degrees,1,0,0.0
-1200,Florida Career College,1,0,0.0
-1201,Career Institute,1,0,0.0
-1202,Career Point College,1,0,0.0
-1203,"California Polytechnic State University, Pomona",1,1,100.0
-1204,"California State University, San Bernardino",1,1,100.0
-1205,MedSpa Careers Institute,1,0,0.0
-1206,Career Technical College,1,0,0.0
-1207,Carolinas College of Health Sciences,1,0,0.0
-1208,Carver College,1,1,100.0
-1209,Casper College,1,1,100.0
-1210,Castleton State University,1,1,100.0
-1211,Clark Atlanta University,1,0,0.0
-1212,Central Bible College,1,1,100.0
-1213,Calvary Baptist Seminary,1,1,100.0
-1214,Christian Brothers University,1,1,100.0
-1215,California College San Diego,1,0,0.0
-1216,Carroll College Waukesha,1,0,0.0
-1217,Concordia College - Ann Arbor,1,0,0.0
-1218,Community College of Aurora in Colorado,1,1,100.0
-1219,The Community College of Baltimore County,1,1,100.0
-1220,Cumberland County College,1,1,100.0
-1221,Community Christian College,1,1,100.0
-1222,Community College of Denver,1,1,100.0
-1223,The College of Coastal Georgia,1,1,100.0
-1224,Corinthian Colleges,1,0,0.0
-1225,CCI Colleges.edu,1,1,100.0
-1226,Cincinnati College of Mortuary Science,1,1,100.0
-1227,Clayton College of Natural Health,1,0,0.0
-1228,Career College of Northern Nevada,1,0,0.0
-1229,Columbia College of Nursing,1,0,0.0
-1230,California College of Podiatric Medicine,1,0,0.0
-1231,Concordia College - Seward,1,0,0.0
-1232,Cincinnati Christian University,1,0,0.0
-1233,CDE Career Institute,1,1,100.0
-1234,Chief Dull Knife College,1,1,100.0
-1235,Catholic Distance University,1,0,0.0
-1236,Cedar Valley College,1,0,0.0
-1237,Centenary College,1,0,0.0
-1238,Welcome to Central College,1,1,100.0
-1239,Central Methodist University in Fayette,1,1,100.0
-1240,Central Seminary,1,1,100.0
-1241,Centura College Career School,1,1,100.0
-1242,Centura College,1,1,100.0
-1243,Centura Institute Career School,1,1,100.0
-1244,Cerritos College Home Page,1,1,100.0
-1245,Cerro Coso Community College Home,1,1,100.0
-1246,CES College,1,0,0.0
-1247,Welcome To Cape Fear Community College,1,1,100.0
-1248,Chancellor University,1,0,0.0
-1249,Welcome to Charles of Italy Beauty College,1,1,100.0
-1250,Chatfield College,1,0,0.0
-1251,COLLEGE OF HAIR DESIGN,1,0,0.0
-1252,The University of Chicago Booth,1,1,100.0
-1253,National College of Chiropractic,1,0,0.0
-1254,Chong Shin University in USA,1,0,0.0
-1255,Christ University,1,0,0.0
-1256,Christian Life College / Welcome,1,1,100.0
-1257,Colorado Heights University,1,0,0.0
-1258,Welcome to the world\'s premier culinary college in New York,1,1,100.0
-1259,The Council of Independent Colleges,1,1,100.0
-1260,Coorg Institute of Dental Sciences,1,0,0.0
-1261,California Institute for Human Science,1,1,100.0
-1262,Psychology Graduate Programs at California Institute of Integral Studies,1,1,100.0
-1263,Cleveland Institute of Music,1,1,100.0
-1264,Cebu Institute of Technology – University,1,1,100.0
-1265,Welcome to Citrus College,1,1,100.0
-1266,City College,1,0,0.0
-1267,The Claremont Colleges,1,1,100.0
-1268,Clarion University of Pennsylvania,1,1,100.0
-1269,Welcome to Clark College,1,1,100.0
-1270,Sterling and Francine Clark Art Institute,1,1,100.0
-1271,Clatsop Community College,1,1,100.0
-1272,Clearwater Christian College,1,0,0.0
-1273,Clinch Valley College,1,0,0.0
-1274,Clinton College,1,1,100.0
-1275,Chabot-Las Positas Community College District,1,0,0.0
-1276,Central Louisiana Technical College,1,0,0.0
-1277,"Christian Leadership University Online Bible College, Online Christian Colleges, and Christian Theology Seminaries",1,0,0.0
-1278,Central Maine Community College,1,1,100.0
-1279,Copper Mountain Community College,1,1,100.0
-1280,Copper Mountain College,1,0,0.0
-1281,Central Maine Medical Center College of Nursing and Health Professions,1,0,0.0
-1282,University of Central Missouri,1,0,0.0
-1283,College of Mount Saint Vincent,1,0,0.0
-1284,Carson-Newman College,1,1,100.0
-1285,Welcome to Central Nursing College,1,0,0.0
-1286,Vocational College,1,1,100.0
-1287,Welcome to Central New Mexico Community College,1,1,100.0
-1288,College of New Rochelle,1,0,0.0
-1289,California National University,1,0,0.0
-1290,Coastal Carolina Community College,1,1,100.0
-1291,Cobb Beauty College,1,0,0.0
-1292,Central Oregon Community College,1,0,0.0
-1293,College of Charleston,1,1,100.0
-1294,Coffeyville Community College,1,1,100.0
-1295,Colby Community College,1,1,100.0
-1296,Coleman University,1,0,0.0
-1297,College for Creative Studies,1,1,100.0
-1298,"Design Training, Game Production School, Arizona Design Colleges",1,0,0.0
-1299,University of Colorado Health Sciences Center,1,1,100.0
-1300,An Online University with Unlimited Possibilities,1,0,0.0
-1301,Columbia College Hollywood,1,1,100.0
-1302,Columbia College (SC),1,0,0.0
-1303,Columbia Evangelical Seminary,1,0,0.0
-1304,Northwestern Connecticut Community College,1,0,0.0
-1305,Community Business College,1,0,0.0
-1306,Welcome to Compass College of Cinematic Arts,1,1,100.0
-1307,El Camino College-Compton Center,1,0,0.0
-1308,Future University,1,0,0.0
-1309,Welcome to Concord University,1,1,100.0
-1310,Your Ontario Community College for Full & Part Time Studies,1,0,0.0
-1311,Contra Costa College,1,1,100.0
-1312,Coppin State University,1,1,100.0
-1313,Cornell College,1,0,0.0
-1314,Corning Community College,1,1,100.0
-1315,Cornish College of the Arts,1,1,100.0
-1316,State University of New York College at Cortland,1,1,100.0
-1317,Central Ohio Technical College,1,1,100.0
-1318,College of the Ouachitas,1,0,0.0
-1319,Welcome to CPCC â Central Piedmont Community College,1,0,0.0
-1320,Business College Johnstown,1,0,0.0
-1321,The Salvation Army College for Officer Training at Crestmont,1,1,100.0
-1322,Court Reporting Institute,1,0,0.0
-1323,| Court Reporting Institute of Louisiana,1,0,0.0
-1324,Crimson Technical Aviation College,1,0,0.0
-1325,Crossroads Bible College,1,1,100.0
-1326,Crossroads College,1,1,100.0
-1327,Private Christian College,1,1,100.0
-1328,"California State University, Fresno",1,1,100.0
-1329,California State Christian University,1,0,0.0
-1330,College of St. Joseph,1,0,0.0
-1331,College of Saint Mary,1,1,100.0
-1332,The College of St. Scholastica,1,1,100.0
-1333,The College of Saint Thomas More adds Saint John Fisher as its co,1,0,0.0
-1334,Welcome to Chicago State University,1,1,100.0
-1335,California State Polytechnic University,1,0,0.0
-1336,The Colorado State University System,1,1,100.0
-1337,South Puget Sound Community College,1,0,0.0
-1338,Lincoln Culinary Institute,1,1,100.0
-1339,Cambridge Technical Institute,1,1,100.0
-1340,Christian Theological Seminary,1,1,100.0
-1341,Continental Theological Seminary,1,1,100.0
-1342,Welcome to the Catholic University of America,1,1,100.0
-1343,University of Colorado Anschutz Medical,1,1,100.0
-1344,California University of Business and Techology (CUBT) Home Page,1,0,0.0
-1345,Columbia Union College,1,0,0.0
-1346,University of Colorado at Denver,1,1,100.0
-1347,Undergraduate Degrees and Academic Programs for a Great College Education,1,1,100.0
-1348,Curtin University,1,1,100.0
-1349,The Curtis Institute of Music,1,1,100.0
-1350,California University of Science and Medicine,1,1,100.0
-1351,Catawba Valley Community College,1,1,100.0
-1352,The College of Westchester,1,1,100.0
-1353,Cypress College,1,1,100.0
-1354,Dade Medical College,1,0,0.0
-1355,Dallas Institute of Funeral Service Education Mortuary Profession School Dallas Texas,1,1,100.0
-1356,Dana College,1,0,0.0
-1357,Darton State College,1,0,0.0
-1358,Davis Applied Technology College,1,0,0.0
-1359,Davidson County Community College,1,0,0.0
-1360,Davis College,1,0,0.0
-1361,Davis College > Home,1,1,100.0
-1362,Dawn Career Institute,1,1,100.0
-1363,Tennessee Career Colleges,1,0,0.0
-1364,Dayspring Bible College & Seminary,1,0,0.0
-1365,Welcome to Daytona College,1,1,100.0
-1366,University of Dubuque,1,1,100.0
-1367,Detroit Baptist Theological Seminary,1,1,100.0
-1368,Duluth Business University,1,0,0.0
-1369,Dominican University of California,1,1,100.0
-1370,Dallas County Community College,1,1,100.0
-1371,Delhi Technological University,1,0,0.0
-1372,DCI Career Institute,1,0,0.0
-1373,Welcome to DCT University Center Switzerland,1,0,0.0
-1374,Deakin University,1,0,0.0
-1375,Welcome to De Anza College,1,1,100.0
-1376,The Defiance College,1,1,100.0
-1377,San Joaquin Delta College,1,1,100.0
-1378,Delaware Valley College,1,0,0.0
-1379,Denmark Technical College,1,1,100.0
-1380,Welcome to DeSales University,1,1,100.0
-1381,"Concordia College, Moorhead, Minn.",1,1,100.0
-1382,On Campus & Online College Degree Programs,1,1,100.0
-1383,DIA UNIVERSITY,1,0,0.0
-1384,Digital University of America + Peace University,1,1,100.0
-1385,Design Institute of San Diego,1,1,100.0
-1386,Dixie State College of Utah,1,1,100.0
-1387,Defense Language Institute Foreign Language Center,1,1,100.0
-1388,Lipscomb University,1,0,0.0
-1389,Computer Animation College,1,0,0.0
-1390,DMART INSTITUTE,1,0,0.0
-1391,DOW MEDICAL COLLEGE ALUMNI,1,0,0.0
-1392,Dubai Medical College for Girls,1,1,100.0
-1393,Welcome to Dayanand Medical College & Hospital (DMC&H),1,1,100.0
-1394,Dordt College,1,1,100.0
-1395,Welcome to Dover Business College,1,0,0.0
-1396,DoveStar Institute,1,0,0.0
-1397,Dowling College,1,0,0.0
-1398,SUNY Downstate Health Sciences University,1,0,0.0
-1399,Dubai Pharmacy College,1,0,0.0
-1400,.. Drake College of Business ..  - Home,1,0,0.0
-1401,Disciples Seminary Foundation,1,1,100.0
-1402,Dabney S Lancaster Community College,1,0,0.0
-1403,University of Denver,1,1,100.0
-1404,Alfred Nobel University of Economics and Law,1,0,0.0
-1405,Duff\'s Business Institute is now Everest Institute,1,0,0.0
-1406,Welcome To Duke University Press,1,1,100.0
-1407,St. Joseph\'s Seminary,1,1,100.0
-1408,Durham Technical Community College,1,0,0.0
-1409,Daniel Webster College,1,0,0.0
-1410,Divine Word College,1,1,100.0
-1411,D'Youville College,1,1,100.0
-1412,Padmashree Dr. D.Y. Patil University,1,1,100.0
-1413,Utah College,1,1,100.0
-1414,Eastern College,1,0,0.0
-1415,Eastfield College,1,0,0.0
-1416,Emmanuel College,1,0,0.0
-1417,Indian Institute of Ecology and Environment,1,1,100.0
-1418,The Institute of Ecotechnics,1,1,100.0
-1419,Emmanuel Christian Seminary,1,0,0.0
-1420,Edmonds Community College,1,0,0.0
-1421,Eden Theological Seminary,1,1,100.0
-1422,EDIC College,1,0,0.0
-1423,Edinboro University of Pennsylvania,1,1,100.0
-1424,Edison State College,1,0,0.0
-1425,Edison State Community College,1,1,100.0
-1426,EDP College,1,0,0.0
-1427,Welcome to Eastern Gateway Community College,1,1,100.0
-1428,Eastern Iowa Community College District,1,1,100.0
-1429,Allied Health College & School,1,1,100.0
-1430,Eastern Idaho Technical College,1,0,0.0
-1431,Welcome to East Los Angeles College,1,1,100.0
-1432,El Centro College,1,0,0.0
-1433,Electronic Learning Institute > Home,1,0,0.0
-1434,Elim Bible Institute,1,1,100.0
-1435,Ellis University,1,0,0.0
-1436,Embry Riddle Aeronautical University,1,0,0.0
-1437,Eastern Nazarene College,1,0,0.0
-1438,Earthnet Institute is a nonprofit organization working to ameilorate global issues through research and partnerships.,1,0,0.0
-1439,Eastern New Mexico University-Roswell,1,1,100.0
-1440,Eastern Oklahoma State College,1,1,100.0
-1441,Eastern Oregon University,1,0,0.0
-1442,Epic Bible College,1,1,100.0
-1443,Erie Institute of Technology,1,1,100.0
-1444,Welcome to Elaine Steven Beauty College,1,0,0.0
-1445,State University of New York Empire State College,1,1,100.0
-1446,Enterprise State Community College,1,1,100.0
-1447,About Escondido Bible College,1,0,0.0
-1448,ETI Technical College of Niles,1,1,100.0
-1449,Evangel Theological Seminary,1,1,100.0
-1450,EVANGELIA UNIVERSITY,1,1,100.0
-1451,Evangelical Seminary,1,1,100.0
-1452,Evangelical Theological Seminary,1,1,100.0
-1453,University of Evansville,1,1,100.0
-1454,Evergreen Valley College,1,1,100.0
-1455,Everest College,1,0,0.0
-1456,Everest College Phoenix,1,0,0.0
-1457,Everest Institute,1,0,0.0
-1458,Online Degrees & Classes through Everest University Online,1,0,0.0
-1459,The Evergreen State College,1,1,100.0
-1460,Edward Waters University,1,1,100.0
-1461,East West Institute of Technology,1,0,0.0
-1462,"Expression College for Digital Arts â Sound, Motion Graphics, Animation and Visual Effects, Game Art Design, Interactive Audio, and Digital Filmmaking School",1,0,0.0
-1463,Welcome to Fairfield University,1,1,100.0
-1464,Faith Evangelical College and Seminary,1,0,0.0
-1465,The University of Maine Farmington,1,1,100.0
-1466,Fashion Careers College,1,0,0.0
-1467,James H Faulkner State Community College,1,0,0.0
-1468,Franklin College Switzerland,1,0,0.0
-1469,Florida Christian College,1,0,0.0
-1470,"Integrative Medicine, chinese Medicine, Florida College of Integrative Medicine",1,1,100.0
-1471,First Coast Technical College,1,1,100.0
-1472,Fond du Lac Tribal and Community College,1,1,100.0
-1473,Felician College,1,1,100.0
-1474,Fergusson College,1,1,100.0
-1475,Florida Hospital College of Health Sciences,1,0,0.0
-1476,The Franklin Institute,1,1,100.0
-1477,The University of Findlay,1,1,100.0
-1478,Finlandia University,1,0,0.0
-1479,Five Colleges,1,1,100.0
-1480,Florida Keys Community College,1,0,0.0
-1481,Tallahassee Community College,1,0,0.0
-1482,State University System of Florida,1,1,100.0
-1483,L E Fletcher Technical Community College,1,1,100.0
-1484,Fletcher Technical Community College,1,0,0.0
-1485,Florida Memorial College,1,1,100.0
-1486,Welcome to Florida Medical Training Institute,1,1,100.0
-1487,Florida Metropolitan University (FMU) Online is now Everest University Online,1,0,0.0
-1488,Welcome to Fontys University of Applied Sciences,1,1,100.0
-1489,Forest Institute,1,0,0.0
-1490,Forrest College,1,1,100.0
-1491,Foundations Bible College & Theological Seminary,1,1,100.0
-1492,Fountainhead College of Technology in Knoxville TN,1,0,0.0
-1493,Fox College,1,1,100.0
-1494,Fort Peck Community College,1,1,100.0
-1495,Frank Phillips College,1,1,100.0
-1496,Saint Francis University,1,1,100.0
-1497,THE FRANKLIN CAREER INSTITUTE,1,0,0.0
-1498,Feather River Community College District,1,0,0.0
-1499,State University of New York College at Fredonia,1,1,100.0
-1500,Fresno City College,1,1,100.0
-1501,Fitchburg State College,1,0,0.0
-1502,The Florida State University,1,1,100.0
-1503,Five Towns College,1,1,100.0
-1504,Florida Technical College,1,1,100.0
-1505,Frederick Taylor University,1,1,100.0
-1506,Flathead Valley Community College,1,1,100.0
-1507,Free Will Baptist Bible College,1,0,0.0
-1508,Galen College,1,1,100.0
-1509,Gallaudet University,1,1,100.0
-1510,Garden City College of science and management studies,1,0,0.0
-1511,GateWay Community College,1,1,100.0
-1512,Gavilan College,1,1,100.0
-1513,Great Basin College,1,1,100.0
-1514,GRACE BIBLE COLLEGE,1,0,0.0
-1515,Glendale University,1,1,100.0
-1516,Garden City Community College,1,1,100.0
-1517,Gretna Career College,1,0,0.0
-1518,Gloucester County College,1,0,0.0
-1519,Welcome to Grace College of Divinity,1,0,0.0
-1520,Georgia Career Institute,1,1,100.0
-1521,State University of New York College at Geneseo,1,1,100.0
-1522,Germanna Community College,1,1,100.0
-1523,George Fox College,1,0,0.0
-1524,Graduate Institute of Applied Linguistics,1,0,0.0
-1525,Gibbs College  Boston,1,0,0.0
-1526,"Gibbs College in Livingston, New Jersey  College Programs for the Career Minded Student",1,0,0.0
-1527,Career Focused Programs at Gibbs College Cranston,1,0,0.0
-1528,Girard College,1,1,100.0
-1529,KLS Gogte Institute of Technology,1,1,100.0
-1530,Welcome to GITAM University,1,1,100.0
-1531,Great Lakes Christian College > Home,1,1,100.0
-1532,Welcome to the Global Language Institute,1,0,0.0
-1533,Globe Institute of Technology,1,0,0.0
-1534,Gurukul Lutheran Theological College & Research Institute,1,1,100.0
-1535,GMI Engineering and Management Institute,1,0,0.0
-1536,Welcome to George Mason University,1,1,100.0
-1537,Baptist Bible College Home,1,0,0.0
-1538,"Columbia College, Sonora California. A California Community College in the Sierra Foothills",1,1,100.0
-1539,Goddard College,1,0,0.0
-1540,Golf Colleges,1,0,0.0
-1541,"Golf Schools, Golf Colleges",1,1,100.0
-1542,Gonzaga University,1,1,100.0
-1543,Lakeshore Technical College,1,1,100.0
-1544,Georgia Perimeter College,1,0,0.0
-1545,Grace University,1,1,100.0
-1546,Grand Teton University Home Page,1,1,100.0
-1547,Granite State College,1,1,100.0
-1548,Grayson College,1,1,100.0
-1549,Great Bay Community College,1,1,100.0
-1550,Greenleaf University Online Degree Programs,1,0,0.0
-1551,Green Mountain College,1,0,0.0
-1552,Welcome to Green River Community College,1,1,100.0
-1553,Griggs University,1,1,100.0
-1554,Grossmont College,1,1,100.0
-1555,Good Samaritan College of Nursing,1,1,100.0
-1556,The General Theological Seminary,1,1,100.0
-1557,Guardian College,1,0,0.0
-1558,Gulf Coast State College,1,1,100.0
-1559,Fortis College in Tampa Florida,1,1,100.0
-1560,Hagerstown Maryland University Degrees,1,0,0.0
-1561,Hagerstown Community College,1,1,100.0
-1562,"Beauty School, Cosmetology & Hair College",1,0,0.0
-1563,Hallmark Institute of Photography / Photography School,1,1,100.0
-1564,Hallmark College,1,1,100.0
-1565,Hallmark University,1,1,100.0
-1566,Online University Degrees and,1,0,0.0
-1567,Harcum College,1,0,0.0
-1568,Hargrave Military Academy – The Premier Military Boarding School,1,1,100.0
-1569,Welcome to the Harid Conservatory,1,1,100.0
-1570,Harper College,1,1,100.0
-1571,"Harrington College of Design â Interior Design Program, Digital Photography, Graphic Design & Interior Design Schools",1,0,0.0
-1572,University of Hartford,1,1,100.0
-1573,Welcome to Hartnell College!!,1,1,100.0
-1574,Welcome to Harvest Bible University,1,1,100.0
-1575,Hellenic American University,1,1,100.0
-1576,University of Hawaii at Manoa,1,1,100.0
-1577,Hawaii Tokai International College,1,0,0.0
-1578,Haywood Community College,1,1,100.0
-1579,Hillsdale Free Will Baptist College,1,1,100.0
-1580,Hellenic College and Holy Cross Greek Orthodox,1,1,100.0
-1581,Huntington College of Health Sciences,1,0,0.0
-1582,Health Career Institute,1,1,100.0
-1583,Heritage Christian University,1,1,100.0
-1584,"Health Works Institute, Massage Therapy and Esthetics Program",1,0,0.0
-1585,Heartland Baptist Bible College,1,1,100.0
-1586,Hebron University,1,1,100.0
-1587,Heidelberg University,1,1,100.0
-1588,Hennepin Technical College ~,1,1,100.0
-1589,Heritage College,1,1,100.0
-1590,Heritage Bible College,1,1,100.0
-1591,- Heritage Institute of Technology -   - Home,1,1,100.0
-1592,Herzing University Online,1,1,100.0
-1593,New Hampshire Colleges,1,0,0.0
-1594,Holy Family University,1,1,100.0
-1595,Hibbing Community College,1,0,0.0
-1596,Hickey College,1,0,0.0
-1597,Hawaii College Of Oriental Medicine,1,0,0.0
-1598,Welcome to Highland Community College,1,1,100.0
-1599,Welcome to Hill College,1,1,100.0
-1600,ç§è·ç¥å­¸é¢ Christian Ministry Institute,1,0,0.0
-1601,Welcome to H. L. College of Commerce,1,1,100.0
-1602,Holy Names University,1,1,100.0
-1603,Ohio Technical College,1,1,100.0
-1604,The Heritage Institute,1,1,100.0
-1605,Holmes Bible College,1,1,100.0
-1606,Homeopathic College of Canada,1,0,0.0
-1607,Welcome to Hood Theological Seminary,1,1,100.0
-1608,"California State University, Long Beach",1,1,100.0
-1609,University of Houston System,1,0,0.0
-1610,State University of New York Downstate Medical Center,1,0,0.0
-1611,State University of New York Health Sience Centre Syracuse,1,0,0.0
-1612,Hebrew Theological College,1,1,100.0
-1613,Hawaii Technology Institute,1,0,0.0
-1614,Hypnosis Training College,1,1,100.0
-1615,Marshalltown Community College,1,1,100.0
-1616,Welcome to IBAIS University,1,0,0.0
-1617,International Business College,1,0,0.0
-1618,International Baptist College,1,0,0.0
-1619,International College of Broadcasting,1,0,0.0
-1620,International City Beauty College,1,0,0.0
-1621,On Campus & Online College Degrees,1,0,0.0
-1622,The Institute of Contemporary Psychoanalysis,1,1,100.0
-1623,Institute for Creation Research Education,1,1,100.0
-1624,Seminary of the Immaculate Conception,1,1,100.0
-1625,Construction School Brooklyn NY Technical School Institute of Design & Construction,1,1,100.0
-1626,"Masters and postgraduates Barcelona. MBA, in company courses, on line courses, Executive Education, IDEC Pompeu Fabra University",1,0,0.0
-1627,Interior Designers Institute,1,1,100.0
-1628,Island Drafting and Technical Institute – Associate Degrees in Drafting and Electronics,1,1,100.0
-1629,International Institute of Cosmetology,1,0,0.0
-1630,Welcome to Indian Institute of Foreign Trade,1,0,0.0
-1631,Ilisagvik College,1,1,100.0
-1632,University of Illinois at Urbana-Champaign,1,1,100.0
-1633,Welcome to ILS Law College,1,1,100.0
-1634,"IMDR, The Institute of Management Development and Research, Pune.",1,1,100.0
-1635,Immaculata University,1,0,0.0
-1636,Indiana Baptist College // Welcome,1,0,0.0
-1637,INHA University,1,0,0.0
-1638,Home â InovaTech College of Business and Technology,1,0,0.0
-1639,The Institute of Technology,1,0,0.0
-1640,IntelliTec College - Grand Junction,1,1,100.0
-1641,Intercollege,1,0,0.0
-1642,Interface College,1,0,0.0
-1643,International College of Cosmetology » Financial Aid Available to those who qualify! Evening Classes Available.,1,0,0.0
-1644,University of Windsor,1,0,0.0
-1645,INSTITUTE OF THERAPEUTIC MASSAGE LIMA,1,0,0.0
-1646,Welcome to International Open University,1,1,100.0
-1647,Iowa Central Community College,1,1,100.0
-1648,Indiana University/Purdue University at Fort Wayne,1,0,0.0
-1649,Institute of Productivity & Management,1,1,100.0
-1650,Institute of Production & Recording,1,0,0.0
-1651,Institute for the Psychological Sciences,1,0,0.0
-1652,Irene\'s Myomassology Institute,1,1,100.0
-1653,Irvine University,1,0,0.0
-1654,University of Southern California,1,1,100.0
-1655,Itasca Community College,1,0,0.0
-1656,Institute of Taoist Education and Acupuncture,1,1,100.0
-1657,Ithaca College,1,1,100.0
-1658,ITI Technical College,1,1,100.0
-1659,"Institut Teknologi Pertama, Pertama Institute of Technology, Malaysia",1,0,0.0
-1660,International Theological Seminary,1,1,100.0
-1661,ITT Technical Institute,1,0,0.0
-1662,Institute of Textile Technology,1,0,0.0
-1663,Indiana University East,1,1,100.0
-1664,International University of Fundamental Studies,1,0,0.0
-1665,Indiana University at Kokomo,1,1,100.0
-1666,Indiana University Northwest,1,1,100.0
-1667,Indiana University Southeast,1,1,100.0
-1668,Iowa Western Community College,1,1,100.0
-1669,The Institute of World Politics,1,1,100.0
-1670,The Institute for Worship Studies â Forming Servant Leaders in Christian Worship Renewal,1,1,100.0
-1671,Jacksonville College-Main,1,0,0.0
-1672,Welcome to Jamestown Business College!,1,0,0.0
-1673,Johnson Bible College,1,1,100.0
-1674,Jamnalal Bajaj Institute of Management Studies,1,1,100.0
-1675,Jamestown College,1,0,0.0
-1676,Jefferson College of Health Sciences,1,0,0.0
-1677,Jones County Junior College,1,1,100.0
-1678,William Jessup University,1,1,100.0
-1679,Jordan Evangelical Theological Seminary,1,1,100.0
-1680,William Jewell College,1,1,100.0
-1681,The Johns Hopkins University Applied Physics Laboratory,1,1,100.0
-1682,Mohammad Ali Jinnah University,1,1,100.0
-1683,Jiwaji University,1,1,100.0
-1684,Welcome to JAMAL MOHAMED COLLEGE (Autonomous),1,1,100.0
-1685,José María Vargas University,1,1,100.0
-1686,Jawaharlal Nehru Medical College,1,1,100.0
-1687,JOHN PAUL II INSTITUTE,1,1,100.0
-1688,Welcome to Johnston Community College,1,0,0.0
-1689,Jones College,1,0,0.0
-1690,Jones International University,1,0,0.0
-1691,John Tyler Community College,1,0,0.0
-1692,The Jewish Theological Seminary,1,1,100.0
-1693,Jacksonville University,1,0,0.0
-1694,Kaplan University,1,0,0.0
-1695,Online University Degree Programs,1,0,0.0
-1696,Kaskaskia College,1,1,100.0
-1697,Kendall College of Art and Design,1,1,100.0
-1698,Kansas City College and Bible School,1,0,0.0
-1699,Kern Community College District,1,1,100.0
-1700,Southcentral Kentucky Community and Technical College,1,1,100.0
-1701,Kansas City University of Medicine and Biosciences,1,0,0.0
-1702,Keene State College,1,1,100.0
-1703,The Keeter Center at College of the Ozarks,1,1,100.0
+96,Clark University,10,10,100.0
+97,Georgia College & State University,10,10,100.0
+98,Brown University,9,9,100.0
+99,Bowdoin College,9,9,100.0
+100,Bethune-Cookman University,9,9,100.0
+101,Fuller Theological Seminary,9,9,100.0
+102,Guilford Technical Community College,9,9,100.0
+103,Georgia Highlands College,9,9,100.0
+104,College of Saint Benedict & Saint John\'s University,9,9,100.0
+105,IE University,9,9,100.0
+106,"Gordon College, one of the top Christian colleges in America & New England",9,9,100.0
+107,Harvard University,9,9,100.0
+108,Forsyth Technical Community College,9,9,100.0
+109,Jerusalem University College,9,9,100.0
+110,Brevard College,9,9,100.0
+111,East Tennessee State University,9,9,100.0
+112,Central Methodist College,9,9,100.0
+113,Kean University of New Jersey,9,9,100.0
+114,Hillsdale College,9,9,100.0
+115,Jesuit School of Theology of Santa Clara University in Berkeley,9,8,88.9
+116,Columbia College of Missouri,9,9,100.0
+117,College of Osteopathic Medicine of the Pacific (Western University of Health Sciences),9,9,100.0
+118,Florida Gulf Coast University,9,9,100.0
+119,Henry Ford Community College,9,9,100.0
+120,Hinds Community College in Mississippi,9,9,100.0
+121,Augsburg College,8,8,100.0
+122,James Madison University,8,8,100.0
+123,Carl Albert State College,8,8,100.0
+124,Florida State College at Jacksonville,8,8,100.0
+125,Elgin Community College (ECC) Homepage,8,8,100.0
+126,Harvey Mudd College,8,8,100.0
+127,Bentley University,8,8,100.0
+128,Eastern Arizona College Homepage,8,8,100.0
+129,High Point University © 2012,8,8,100.0
+130,Elizabethtown College,8,8,100.0
+131,Foothill-De Anza Community College District,8,8,100.0
+132,Drake University,8,8,100.0
+133,DigiPen Institute of Technology,8,8,100.0
+134,Fairleigh Dickinson University (FDU),8,8,100.0
+135,Fashion Institute of Technology,8,8,100.0
+136,Elon University,8,8,100.0
+137,Ivy Tech Community College of Indiana,8,8,100.0
+138,"Huntingdon College, Montgomery, Alabama * Experience the Tradition, Know and Be Known.",8,7,87.5
+139,Bible Colleges,7,7,100.0
+140,Columbia College Chicago,7,7,100.0
+141,"Abilene Christian University, a Christian college in Abilene, Texas",7,7,100.0
+142,Fitchburg State University,7,7,100.0
+143,"Alliant International University; California Graduate Schools, Graduate Degrees; Undergraduate Bachelors Completion Degrees",7,7,100.0
+144,Amrita University,7,7,100.0
+145,Central Penn College,7,7,100.0
+146,Claflin University,7,7,100.0
+147,Coe College,7,7,100.0
+148,Florida Southern College,7,7,100.0
+149,Grinnell College,7,7,100.0
+150,American Career College,7,7,100.0
+151,Catholic University of Eastern Africa,7,7,100.0
+152,Harding University,7,7,100.0
+153,A Top Christian College in Southern California,7,7,100.0
+154,Augustana College (IL),7,7,100.0
+155,Chapman University,7,7,100.0
+156,Hope College,7,7,100.0
+157,Houghton College,7,7,100.0
+158,Augusta University,7,5,71.4
+159,Bowling Green State University,7,7,100.0
+160,Garrett College,7,6,85.7
+161,Georgia Medical Institute (GMI) is now Everest,7,6,85.7
+162,College of Mount St. Joseph,7,7,100.0
+163,Baldwin Wallace University,7,7,100.0
+164,Grand Valley State University,7,7,100.0
+165,John Cabot University,7,7,100.0
+166,Eckerd College,7,7,100.0
+167,Ferris State University,7,7,100.0
+168,Concordia College,7,5,71.4
+169,Christian University,7,7,100.0
+170,Hobart and William Smith Colleges,7,7,100.0
+171,Karlsruhe Institute of Technology,7,7,100.0
+172,Academy of Art University,6,6,100.0
+173,Aga Khan University,6,6,100.0
+174,Clovis Community College,6,6,100.0
+175,Hope International University,6,6,100.0
+176,Aims Community College,6,6,100.0
+177,Bryant University,6,6,100.0
+178,College of the Canyons,6,5,83.3
+179,College of DuPage,6,6,100.0
+180,Eastern Connecticut State University,6,6,100.0
+181,Illinois College of Optometry,6,6,100.0
+182,Idaho State University,6,6,100.0
+183,"Ithaca College, Ithaca, NY",6,6,100.0
+184,Janus University California,6,6,100.0
+185,American University Washington D.C.,6,6,100.0
+186,Andrews University,6,6,100.0
+187,Antioch University,6,6,100.0
+188,[LWC] Lindsey Wilson College,6,5,83.3
+189,Austin Peay State University,6,6,100.0
+190,"Bridgewater State University, Bridgewater, Massachusetts",6,6,100.0
+191,Bethel College St. Paul,6,6,100.0
+192,Hamilton College,6,6,100.0
+193,American University in Cairo,6,6,100.0
+194,Bay de Noc Community College,6,6,100.0
+195,Boston College,6,6,100.0
+196,Belmont University,6,6,100.0
+197,Bemidji State University,6,6,100.0
+198,Bethlehem University,6,6,100.0
+199,Bob Jones University,6,6,100.0
+200,Bryn Mawr College,6,6,100.0
+201,Fox Valley Technical College Home Page,6,6,100.0
+202,Harford Community College,6,6,100.0
+203,Boise State University,6,6,100.0
+204,Butte College,6,6,100.0
+205,California Baptist University (CBU),6,6,100.0
+206,Calvin College,6,6,100.0
+207,Carteret Community College,6,6,100.0
+208,Catawba College,6,6,100.0
+209,College of Biblical Studies,6,6,100.0
+210,Kankakee Community College Home,6,6,100.0
+211,Champlain College,6,6,100.0
+212,Home â Salem College,6,6,100.0
+213,Earlham College,6,5,83.3
+214,Gettysburg College,6,6,100.0
+215,Hesston College,6,6,100.0
+216,Islamic University of Technology,6,6,100.0
+217,Dunwoody College of Technology,6,6,100.0
+218,Essex County College,6,6,100.0
+219,Fayetteville Technical Community College,6,6,100.0
+220,Georgetown University,6,6,100.0
+221,Genesee Community College,6,6,100.0
+222,Midwest University,6,6,100.0
+223,Central Virginia Community College,6,6,100.0
+224,Brigham Young University Hawaii,5,5,100.0
+225,Hartford Seminary,5,5,100.0
+226,Haverford College in Pennsylvania,5,5,100.0
+227,Chowan College,5,5,100.0
+228,Midwestern Career College,5,5,100.0
+229,Africa University,5,5,100.0
+230,State University of New York,5,4,80.0
+231,Alma College,5,5,100.0
+232,Abraham Lincoln University,5,5,100.0
+233,Aurora University,5,5,100.0
+234,Bakersfield College,5,5,100.0
+235,"Broward College, formerly Broward Community College",5,5,100.0
+236,Florida Polytechnic University,5,5,100.0
+237,"Grove City College in western Pennsylvania offers academically rigorous, affordable college education in a Christian environment just 60 miles from Pittsburgh, Pennsylvania",5,5,100.0
+238,Glion Institute of Higher Education,5,5,100.0
+239,Hawaii Pacific University,5,5,100.0
+240,Hobe Sound Bible College,5,5,100.0
+241,"Indiana Wesleyan University, Marion",5,5,100.0
+242,Indiana University/Purdue University at Columbus,5,5,100.0
+243,California Community Colleges Chancellor\'s Office,5,5,100.0
+244,American Public University System,5,5,100.0
+245,Albany State University,5,5,100.0
+246,Bryan College,5,5,100.0
+247,Bryant and Stratton College,5,5,100.0
+248,Colorado Mountain College,5,5,100.0
+249,Eastern West Virginia Community and Technical College,5,5,100.0
+250,Erskine College,5,4,80.0
+251,Geneva College,5,5,100.0
+252,Grand Rapids Community College,5,5,100.0
+253,Isothermal Community College,5,5,100.0
+254,Kellogg Community College,5,5,100.0
+255,College of the Mainland,5,5,100.0
+256,Duquesne University,5,5,100.0
+257,Asia Pacific Theological Seminary (APTS),5,5,100.0
+258,Asbury Theological Seminary,5,5,100.0
+259,Assumption College,5,5,100.0
+260,Ateneo de Manila University,5,5,100.0
+261,Bay Path University,5,5,100.0
+262,Bennington College,5,5,100.0
+263,Berean University of the Assemblies of God,5,5,100.0
+264,Berklee College of Music,5,5,100.0
+265,Bryn Athyn College,5,5,100.0
+266,Gardner Webb University,5,5,100.0
+267,Hilbert College,5,5,100.0
+268,College of Arts and Sciences & Conservatory of Music,5,5,100.0
+269,Eastern Mennonite University,5,5,100.0
+270,Butler University,5,5,100.0
+271,Central Christian College of the Bible,5,5,100.0
+272,Endicott College in Beverly Massachusetts,5,5,100.0
+273,Gwynedd Mercy University,5,5,100.0
+274,Grambling State University,5,5,100.0
+275,Thomas Jefferson University   Jefferson Medical College   Jefferson College of Graduate Studies   Jefferson School of Health Profession   Jefferson School of Nursing   Jefferson School of Pharmacy   Jefferson School of Population Health,5,5,100.0
+276,Centre College,5,5,100.0
+277,Christopher Newport University,5,5,100.0
+278,"California State University, Bakersfield",5,5,100.0
+279,"California State University, San Marcos",5,5,100.0
+280,"California State University, Stanislaus",5,5,100.0
+281,Eastern University,5,5,100.0
+282,Eastern Michigan University,5,5,100.0
+283,Columbus College of Art and Design,5,5,100.0
+284,Calumet College of St. Joseph,5,5,100.0
+285,Community College System of New Hampshire,5,5,100.0
+286,College of Early Learning,5,5,100.0
+287,Chamberlain College of Nursing,5,5,100.0
+288,Coconino Community College,5,5,100.0
+289,Converse College,5,5,100.0
+290,Gustavus Adolphus College,5,5,100.0
+291,Crafton Hills College,5,5,100.0
+292,Chadron State College,5,5,100.0
+293,Charleston Southern University,5,5,100.0
+294,CUNY Borough of Manhattan Community College,5,5,100.0
+295,Central Washington University,5,5,100.0
+296,Frontier Nursing University,5,5,100.0
+297,Bible College in Pennsylvania,5,5,100.0
+298,Davenport College of Business,5,5,100.0
+299,Daytona State College,5,5,100.0
+300,Dallas Baptist University,5,5,100.0
+301,Delaware County Community College,5,5,100.0
+302,Fairmont State University,5,5,100.0
+303,Greenville University,5,5,100.0
+304,Illinois Benedictine College,5,5,100.0
+305,Illinois Wesleyan University,5,5,100.0
+306,Dominican University,5,5,100.0
+307,Eastern Illinois University,5,5,100.0
+308,Eastern Oregon State College,5,5,100.0
+309,Husson University,5,5,100.0
+310,Kansas City University,5,5,100.0
+311,Iowa Lakes Community College,5,4,80.0
+312,Gallipolis Career College,5,4,80.0
+313,Georgetown College,5,5,100.0
+314,Hastings College,5,5,100.0
+315,John Brown University,5,4,80.0
+316,George C Wallace State Community College-Hanceville,5,5,100.0
+317,Kalamazoo Valley Community College,5,5,100.0
+318,Hebrew Union College,4,4,100.0
+319,"HACC, Central Pennsylvania's Community College Home Page",4,4,100.0
+320,Indiana University of Pennsylvania,4,4,100.0
+321,Clinton Community College,4,4,100.0
+322,Welcome to Yeshwantrao Chavan College of Engineering,4,4,100.0
+323,Ashland University,4,4,100.0
+324,Alfred University,4,4,100.0
+325,Alfred State College,4,4,100.0
+326,Austin Community College,4,4,100.0
+327,Buena Vista University,4,4,100.0
+328,Clarendon College,4,4,100.0
+329,Hamline University,4,4,100.0
+330,Hampton University,4,4,100.0
+331,Herzing University,4,4,100.0
+332,"California State University, San Jose",4,4,100.0
+333,Alvin Community College,4,4,100.0
+334,Amherst College,4,4,100.0
+335,Angelo State University,4,4,100.0
+336,Delaware Valley University,4,4,100.0
+337,Johns Hopkins University,4,3,75.0
+338,Arizona Christian University,4,4,100.0
+339,"Arkansas State University, Newport",4,4,100.0
+340,Bluefield College,4,4,100.0
+341,Cayuga County Community College,4,4,100.0
+342,Caldwell Community College and Technical Institute,4,3,75.0
+343,Columbia College Washington D.C.,4,4,100.0
+344,Central Arizona College,4,4,100.0
+345,Clayton College & State University,4,4,100.0
+346,Colby-Sawyer College,4,4,100.0
+347,Hillsborough Community College Home,4,4,100.0
+348,Herkimer County Community College,4,4,100.0
+349,Illinois College,4,4,100.0
+350,Johnson County Community College,4,4,100.0
+351,Bible Based Christian College,4,4,100.0
+352,Bluefield State College,4,4,100.0
+353,Central Connecticut State University,4,4,100.0
+354,El Paso Community College,4,3,75.0
+355,Georgia Southwestern State University,4,4,100.0
+356,"Home » Saint Mary\'s College, Notre Dame, IN",4,4,100.0
+357,Aquinas College,4,4,100.0
+358,Blackhawk Technical College,4,4,100.0
+359,Covenant College,4,4,100.0
+360,Elmira College,4,4,100.0
+361,Ahsanullah University of Science & Technology,4,4,100.0
+362,Austin College,4,4,100.0
+363,Avila College,4,4,100.0
+364,Bates College,4,4,100.0
+365,Butler County Community College,4,4,100.0
+366,Benedictine University Benedictine University,4,4,100.0
+367,Berry College,4,4,100.0
+368,Bethel College Newton,4,4,100.0
+369,Black Hills State University,4,4,100.0
+370,Community College of Beaver County,4,4,100.0
+371,Concordia University Nebraska,4,4,100.0
+372,Bay Mills Community College,4,4,100.0
+373,Bowie State University,4,4,100.0
+374,California Institute of the Arts,4,4,100.0
+375,Davidson-Davie Community College,4,4,100.0
+376,College of the Holy Cross,4,4,100.0
+377,Brenau University,4,4,100.0
+378,Brescia University,4,4,100.0
+379,Best Liberal Arts Colleges Small and Private,4,4,100.0
+380,Bevill State Community College,4,4,100.0
+381,Columbia State Community College,4,4,100.0
+382,East Carolina University,4,4,100.0
+383,Emporia State University,4,4,100.0
+384,Georgia Southern University,4,4,100.0
+385,Camden County College,4,4,100.0
+386,Elizabeth City State University,4,4,100.0
+387,"California State University, Dominguez Hills",4,4,100.0
+388,"California State University, Sacramento",4,4,100.0
+389,Dallas College,4,4,100.0
+390,Carrington College California-Sacramento,4,4,100.0
+391,Carroll University,4,4,100.0
+392,Community College of Allegheny County,4,4,100.0
+393,Clear Creek Baptist Bible College,4,4,100.0
+394,Colorado Community College System,4,4,100.0
+395,"Centre for Commercial Law Studies (CCLS), Queen Mary, University of London",4,2,50.0
+396,Federico Beauty Institute,4,4,100.0
+397,Chafer Theological Seminary,4,4,100.0
+398,Charter Oak State College,4,4,100.0
+399,Le Cordon Bleu College of Culinary Arts-Chicago,4,0,0.0
+400,Chemeketa Community College,4,3,75.0
+401,Concordia University,4,2,50.0
+402,City University of Seattle,4,4,100.0
+403,Clackamas Community College,4,3,75.0
+404,Cleveland Chiropractic College,4,4,100.0
+405,College of the Marshall Islands,4,4,100.0
+406,Colgate is a nationally recognized liberal arts college set on a beautiful,4,4,100.0
+407,College of San Mateo,4,4,100.0
+408,Daemen College,4,4,100.0
+409,Fulton-Montgomery Community College,4,4,100.0
+410,Columbus State Community College,4,4,100.0
+411,Columbia Theological Seminary,4,4,100.0
+412,"Chatham University, Pittsburgh, PA",4,4,100.0
+413,Del Mar College,4,4,100.0
+414,Denver Seminary,4,3,75.0
+415,DePauw University,4,4,100.0
+416,Goodwin College Home,4,4,100.0
+417,George Wythe University,4,4,100.0
+418,Howard Community College,4,4,100.0
+419,Hindu University of America,4,4,100.0
+420,"College Degrees, Nebraska Community College, Online Classes",4,4,100.0
+421,Dickinson State University,4,4,100.0
+422,College of Saint Catherine,4,4,100.0
+423,Drury University,4,4,100.0
+424,Dyersburg State Community College,4,4,100.0
+425,Dakota State University,4,4,100.0
+426,Eastern Florida State College,4,4,100.0
+427,Elms College,4,4,100.0
+428,Goucher College,4,4,100.0
+429,Flint Hills Technical College,4,4,100.0
+430,Colorado State University - Global Campus,4,4,100.0
+431,Haskell Indian Nations University,4,4,100.0
+432,Franklin and Marshall College,4,4,100.0
+433,Florida SouthWestern State College,4,4,100.0
+434,Grand Canyon University is a private Christian University in Phoenix,4,4,100.0
+435,Georgia Gwinnett College,4,4,100.0
+436,Georgia Institute of Cosmetology,4,4,100.0
+437,Concordia College - St. Paul,4,4,100.0
+438,Guilford College,4,4,100.0
+439,Hampshire College,4,4,100.0
+440,Johnson University,4,4,100.0
+441,Adirondack Community College,4,4,100.0
+442,Horizon College and Seminary,4,4,100.0
+443,James A Rhodes State College,4,2,50.0
+444,Colleges in Texas Tech Training Schools,4,4,100.0
+445,Home of Southern Evangelical Seminary,4,4,100.0
+446,Hollins University,4,4,100.0
+447,FAU Honors College,4,3,75.0
+448,Hudson Valley Community College,4,4,100.0
+449,Illinois Institute of Technology,4,4,100.0
+450,Thomas Jefferson University   Jefferson Medical College   Jefferson College of Graduate Studies   Jefferson,4,4,100.0
+451,A Top Christian University and Seminary,4,4,100.0
+452,Drew University,3,3,100.0
+453,Indiana Wesleyan University,3,3,100.0
+454,Alabama Agricultural and Mechanical University,3,2,66.7
+455,American Baptist College,3,3,100.0
+456,Brandeis University,3,3,100.0
+457,Adams State College,3,3,100.0
+458,Asia Pacific Institute of Management,3,3,100.0
+459,East Central Community College,3,2,66.7
+460,Karunya University,3,3,100.0
+461,Adrian College,3,3,100.0
+462,Air Force Institute of Technology,3,2,66.7
+463,Alamance Community College,3,3,100.0
+464,Alaska Pacific University â Discover Active Learning,3,3,100.0
+465,Birzeit University,3,2,66.7
+466,"Central Methodist University in Fayette, Missouri",3,3,100.0
+467,College of Idaho,3,3,100.0
+468,Fielding Institute,3,3,100.0
+469,Golden Gate University,3,3,100.0
+470,Gwynedd-Mercy College,3,3,100.0
+471,"Harper College, Palatine, Il",3,3,100.0
+472,Hawkeye Community College,3,2,66.7
+473,Hampden-Sydney College,3,3,100.0
+474,Alverno College,3,2,66.7
+475,Amberton University,3,3,100.0
+476,Anderson University,3,3,100.0
+477,Andrew College,3,3,100.0
+478,Institute for Advanced Study,3,3,100.0
+479,"Arkansas State University, Beebe",3,3,100.0
+480,"Arkansas State University, Mountain Home",3,3,100.0
+481,Bay Atlantic University,3,3,100.0
+482,Blue Mountain College,3,3,100.0
+483,Brewton-Parker College,3,3,100.0
+484,Community College of Rhode Island,3,3,100.0
+485,Central Georgia Technical College,3,2,66.7
+486,"Chattanooga College Medical, Dental, & Technical Careers, Chattanooga State of Tennessee, Chattanooga College is the source for that career you have always dreamed of.",3,3,100.0
+487,Cowley County Community College,3,3,100.0
+488,Criswell College,3,3,100.0
+489,Eastern WV Community & Technical College,3,3,100.0
+490,East-West University,3,3,100.0
+491,ECPI University,3,3,100.0
+492,Full Sail University,3,3,100.0
+493,Georgia Northwestern Technical College,3,3,100.0
+494,Hong Kong Adventist college,3,3,100.0
+495,Indian Hills Community College,3,3,100.0
+496,Indian River State College,3,3,100.0
+497,James Sprunt Community College,3,3,100.0
+498,Advanced Technology Institute,3,3,100.0
+499,Bucks County Community College,3,3,100.0
+500,City Colleges of Chicago,3,3,100.0
+501,Centenary College of Louisiana,3,3,100.0
+502,Coastline Community College,3,3,100.0
+503,College of the Ozarks,3,3,100.0
+504,Columbia Basin College (CBC),3,3,100.0
+505,Gemological Institute of America,3,3,100.0
+506,Academic medical center at State University of New York at Stony Brook,3,3,100.0
+507,Arcadia University,3,3,100.0
+508,Aiken Technical College,3,3,100.0
+509,Athens Technical College,3,3,100.0
+510,Concordia University Texas Home Page,3,3,100.0
+511,Florida Metropolitan University (FMU) is now Everest University,3,3,100.0
+512,Atlantic University College,3,3,100.0
+513,Atlantic University,3,3,100.0
+514,Augustana College (SD),3,3,100.0
+515,Augusta Technical College,3,2,66.7
+516,Auburn University at Montgomery,3,3,100.0
+517,Babson College,3,3,100.0
+518,"blueridge college of evangelism, christian bible colleges in wytheville va",3,3,100.0
+519,"Beacon College for ADHD Students, LD Students and gifted LD",3,3,100.0
+520,Benedictine College,3,3,100.0
+521,Bergen Community College Homepage,3,3,100.0
+522,Bethany Divinity College and Seminary,3,3,100.0
+523,Bethany College,3,3,100.0
+524,Blackfeet Community College,3,2,66.7
+525,Bismarck State College,3,3,100.0
+526,Blue Ridge Community and Technical College,3,2,66.7
+527,Cossatot Community College of the University of Arkansas,3,3,100.0
+528,Erie Community College,3,3,100.0
+529,East Central University,3,3,100.0
+530,Francis Marion University,3,3,100.0
+531,Bloomsburg University of Pennsylvania,3,3,100.0
+532,Bradley University,3,3,100.0
+533,Flagler College,3,3,100.0
+534,Global University,3,3,100.0
+535,Blessing-Rieman College of Nursing,3,3,100.0
+536,Brookline College,3,3,100.0
+537,Broward College,3,3,100.0
+538,Ball State University,3,3,100.0
+539,Bucknell University,3,3,100.0
+540,Delaware State University,3,3,100.0
+541,Cabrillo College Home Page,3,3,100.0
+542,Central Alabama Community College,3,3,100.0
+543,California Coast University,3,3,100.0
+544,Caldwell College New Jersey,3,3,100.0
+545,Des Moines University,3,3,100.0
+546,"Galen College, Nursing Schools, Nursing Degrees",3,3,100.0
+547,Greenville Technical College,3,3,100.0
+548,J Sargeant Reynolds Community College,3,3,100.0
+549,Cambridge College,3,3,100.0
+550,Find Your Calling at Campbellsville University,3,3,100.0
+551,Canisius College,3,3,100.0
+552,Kansas City Kansas Community College,3,2,66.7
+553,College of Eastern Utah,3,3,100.0
+554,Clark State Community College,3,3,100.0
+555,"California State University, Monterey Bay",3,3,100.0
+556,Delaware College of Art and Design,3,3,100.0
+557,Eastern Kentucky University,3,3,100.0
+558,Humboldt State University,3,3,100.0
+559,Carolina Christian College Winston,3,3,100.0
+560,Cascadia Community College,3,3,100.0
+561,"Career College in Miami Dade with Computer, Business, Medical, and Art Classes",3,3,100.0
+562,Coastland Christian Bible College and University,3,3,100.0
+563,Community College of Philadelphia,3,3,100.0
+564,Cebu Doctors\' University . Welcome,3,3,100.0
+565,Cecil College,3,3,100.0
+566,Chaminade University of Honolulu,3,3,100.0
+567,Chatham University,3,3,100.0
+568,Chattanooga State Community College,3,3,100.0
+569,Chestnut Hill College,3,3,100.0
+570,Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester,3,2,66.7
+571,Cleveland Institute of Art,3,3,100.0
+572,Colorado Institute of Massage Therapy,3,3,100.0
+573,Colombo International Nautical & Engineering College (CINEC),3,2,66.7
+574,Claremont McKenna College,3,3,100.0
+575,Christian Life College,3,2,66.7
+576,Cleary College,3,3,100.0
+577,Cleveland Community College,3,3,100.0
+578,Colby College,3,3,100.0
+579,Colorado Mesa University,3,3,100.0
+580,Denver College of Nursing,3,3,100.0
+581,Connecticut College,3,2,66.7
+582,"Conservative Theological University, Conservative Christian Academy, First Conservative Baptist Church, Jacksonville, FL",3,3,100.0
+583,College of the Sequoias,3,3,100.0
+584,Clover Park Technical College,3,3,100.0
+585,"Concordia Seminary, St. Louis",3,3,100.0
+586,Cleveland State University,3,3,100.0
+587,Curry College,3,3,100.0
+588,Chattahoochee Valley Community College,3,3,100.0
+589,Chippewa Valley Technical College,3,3,100.0
+590,Dakota County Technical College,3,3,100.0
+591,Delta College,3,3,100.0
+592,Eucon International College,3,3,100.0
+593,Dallas Nursing Institute,3,3,100.0
+594,Delaware Technical Community College,3,3,100.0
+595,Edgecombe Community College,3,3,100.0
+596,Aviation College and Engineering Degree Program,3,3,100.0
+597,Denver's College of Opportunity,3,3,100.0
+598,Erikson Institute,3,3,100.0
+599,East Texas Baptist University,3,3,100.0
+600,"Gonzaga University, Spokane Washington",3,3,100.0
+601,"Futures Inspired l Holyoke Community College, Holyoke, MA",3,3,100.0
+602,Holmes Community College,3,3,100.0
+603,Cuyahoga Community College District,3,3,100.0
+604,Faulkner University,3,3,100.0
+605,Florence-Darlington Technical College,3,3,100.0
+606,Florida Education Institute,3,3,100.0
+607,Fort Hays State University,3,3,100.0
+608,Freed-Hardeman University,3,3,100.0
+609,Five Branches University,3,3,100.0
+610,Framingham State University,3,3,100.0
+611,Franklin Pierce University,3,3,100.0
+612,Friends University,3,3,100.0
+613,Finishing Trades Institute of the Mid,3,3,100.0
+614,Fort Valley State University,3,3,100.0
+615,Gadsden State Community College,3,3,100.0
+616,Goldey-Beacom College,3,3,100.0
+617,God's Bible School and College,3,3,100.0
+618,Great Falls College Montana State University,3,3,100.0
+619,Eastern New Mexico University-Roswell Campus,3,3,100.0
+620,Goshen College,3,3,100.0
+621,Graceland University,3,3,100.0
+622,Gateway Technical College,3,3,100.0
+623,Guam Community College,3,3,100.0
+624,Gwinnett College,3,3,100.0
+625,Houston Community College,3,3,100.0
+626,Jackson Community College,3,3,100.0
+627,Joliet Junior College,3,3,100.0
+628,Illinois Eastern Community Colleges,3,3,100.0
+629,HR College of Commerce & Economics,3,3,100.0
+630,illinoisbaptistcollege.edu,3,3,100.0
+631,International Medical & Technological University,3,2,66.7
+632,Irvine Valley College,3,3,100.0
+633,Institute for the Study of Coherence and Emergence,3,3,100.0
+634,International Technological University,3,3,100.0
+635,Illinois Valley Community College,3,3,100.0
+636,John F. Kennedy University,3,3,100.0
+637,"Juniata College, by any measure one of the best liberal arts colleges in the U.S.",3,3,100.0
+638,Kansas Wesleyan University,3,3,100.0
+639,Jefferson Community College,3,3,100.0
+640,"Art School, Art Colleges Massachusetts, MA",3,3,100.0
+641,Northeastern University,3,3,100.0
+642,Sarah Lawrence College. A Deeper Education.,3,3,100.0
+643,Online College Degrees William Howard Taft University,3,3,100.0
+644,University of Maryland,3,3,100.0
+645,University of Nebraska,3,3,100.0
+646,Deep Springs College,2,2,100.0
+647,College of the Atlantic,2,2,100.0
+648,Horry-Georgetown Technical College,2,2,100.0
+649,Anne Arundel Community College,2,2,100.0
+650,Alderson Broaddus College,2,1,50.0
+651,Academy College,2,2,100.0
+652,Connecticut State University System,2,2,100.0
+653,Appalachian College of Pharmacy,2,2,100.0
+654,American College of Thessaloniki,2,2,100.0
+655,Adrian\'s Beauty Colleges,2,2,100.0
+656,Agnes Scott College,2,2,100.0
+657,American Institute of Alternative Medicine AIAM,2,2,100.0
+658,American International College,2,2,100.0
+659,American Islamic College,2,2,100.0
+660,Atlantic International University,2,2,100.0
+661,American InterContinental University,2,2,100.0
+662,Association of Jesuit Colleges and Universities,2,2,100.0
+663,Alamo Colleges District,2,2,100.0
+664,Albany Technical College,2,2,100.0
+665,College of the Albemarle,2,2,100.0
+666,Carlos Albizu University,2,2,100.0
+667,Alcorn State University,2,2,100.0
+668,Alexandria Technical & Community College,2,1,50.0
+669,Allegany College of Maryland,2,2,100.0
+670,Allen County Community College,2,2,100.0
+671,Allen University,2,2,100.0
+672,Arapahoe Community College in Colorado,2,2,100.0
+673,Caribbean Nazarene College,2,2,100.0
+674,Collin County Community College District,2,2,100.0
+675,Front Range Community College,2,2,100.0
+676,Holy Apostles College & Seminary,2,2,100.0
+677,"Distance Learning Courses and Programs at Warnborough College at Bachelors, Masters, and PhD levels",2,2,100.0
+678,American Institute,2,2,100.0
+679,Anaheim University,2,2,100.0
+680,Aaniiih Nakoda College,2,2,100.0
+681,Anoka Technical College Home,2,2,100.0
+682,Home page of the Asia Pacific Maritime Institute,2,2,100.0
+683,Cape Cod Community College,2,2,100.0
+684,Cochise College Home Page,2,2,100.0
+685,Central Wyoming College,2,2,100.0
+686,Dillard University,2,2,100.0
+687,Ecclesia College,2,2,100.0
+688,Beauty College,2,2,100.0
+689,Grand View University,2,2,100.0
+690,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,2,100.0
+691,"Belmont Abbey College, Charlotte, NC",2,2,100.0
+692,Bossier Parish Community College,2,1,50.0
+693,Argosy University,2,0,0.0
+694,Arkansas Baptist College,2,2,100.0
+695,Art Center College of Design,2,2,100.0
+696,Ashford University,2,1,50.0
+697,Online University,2,2,100.0
+698,ATA College,2,2,100.0
+699,Carthage College,2,2,100.0
+700,Colorado Northwestern Community College,2,2,100.0
+701,American University in Bulgaria,2,2,100.0
+702,Spelman College,2,1,50.0
+703,Antelope Valley College,2,2,100.0
+704,Averett College,2,2,100.0
+705,Barber-Scotia College,2,2,100.0
+706,Barry University,2,2,100.0
+707,Bastyr University,2,2,100.0
+708,Baylor University,2,2,100.0
+709,Beaufort County Community College,2,2,100.0
+710,Belhaven University,2,2,100.0
+711,Bethany Theological Seminary,2,2,100.0
+712,Bircham International University,2,2,100.0
+713,Career Training – Online Career Training Programs – Blackstone Career Institute,2,2,100.0
+714,Bladen Community College,2,2,100.0
+715,"Bethany Lutheran College is a Christian, liberal arts college in Mankato, Minnesota.",2,2,100.0
+716,Blue Mountain Community College,2,2,100.0
+717,Blue Ridge Community College,2,2,100.0
+718,Bluffton College,2,2,100.0
+719,Denison University,2,2,100.0
+720,Greenville Presbyterian Theological Seminary,2,2,100.0
+721,Brazosport College,2,2,100.0
+722,Bristol Community College,2,2,100.0
+723,Welcome to Brookdale Community College,2,1,50.0
+724,Brunswick Community College,2,2,100.0
+725,Bon Secours Memorial College of Nursing,2,2,100.0
+726,California Pacific University,2,2,100.0
+727,Bhaktivedanta Institute,2,2,100.0
+728,Century College,2,2,100.0
+729,Clarkson University,2,2,100.0
+730,Calhoun Community College,2,2,100.0
+731,California Polytechnic State University,2,2,100.0
+732,California State University System,2,2,100.0
+733,Cameron University,2,2,100.0
+734,Capitol Technology University,2,2,100.0
+735,"California State University, Los Angeles",2,2,100.0
+736,Central State University,2,2,100.0
+737,Concorde Career Colleges,2,2,100.0
+738,Caribbean University,2,2,100.0
+739,Carroll College Helena,2,1,50.0
+740,Carroll Community College,2,2,100.0
+741,Central Baptist College,2,2,100.0
+742,CBD College,2,2,100.0
+743,Central Baptist Theological Seminary,2,1,50.0
+744,Columbia College,2,2,100.0
+745,City College of San Francisco,2,2,100.0
+746,Central Carolina Technical College,2,2,100.0
+747,Colorado Christian University,2,2,100.0
+748,Community College of Vermont,2,2,100.0
+749,Gutenberg College Great Books.,2,2,100.0
+750,Imperial Valley College,2,1,50.0
+751,Charles R. Drew University of Medicine and Science,2,2,100.0
+752,Cedar Crest College,2,2,100.0
+753,Central Christian College of KS,2,2,100.0
+754,College of Central Florida,2,2,100.0
+755,Claremont Graduate University,2,2,100.0
+756,Chabot College,2,2,100.0
+757,Chesapeake College,2,2,100.0
+758,Cincinnati State Technical and Community College,2,2,100.0
+759,Columbia International University,2,2,100.0
+760,Clarke University,2,2,100.0
+761,Cleveland State Community College,2,2,100.0
+762,Cloud County Community College,2,1,50.0
+763,California Nurses Educational Institute,2,2,100.0
+764,Coahoma Community College,2,2,100.0
+765,Coastal Alabama Community College,2,2,100.0
+766,Coastal Pines Technical College,2,2,100.0
+767,Cogswell Polytechnical College,2,1,50.0
+768,Coker College,2,2,100.0
+769,College of the Desert,2,2,100.0
+770,Colorado College,2,2,100.0
+771,Columbus University,2,2,100.0
+772,Columbus Technical College,2,2,100.0
+773,Commonwealth Institute of Funeral Service,2,2,100.0
+774,Computek College,2,2,100.0
+775,College Front Page,2,2,100.0
+776,Connors State College,2,2,100.0
+777,Craven Community College,2,2,100.0
+778,Crowley\'s Ridge College,2,2,100.0
+779,Crowder College Neosho Missouri,2,2,100.0
+780,Indiana State University,2,2,100.0
+781,College of Southern Maryland,2,2,100.0
+782,College of Southern Nevada,2,2,100.0
+783,Colorado State University-Pueblo,2,1,50.0
+784,Cuesta College,2,2,100.0
+785,Concordia University Wisconsin,2,2,100.0
+786,Danville Area Community College,2,2,100.0
+787,Dakota College at Bottineau,2,2,100.0
+788,Dallas Christian College,2,2,100.0
+789,Dallas Theological Seminary (DTS),2,1,50.0
+790,Davidson College Home,2,2,100.0
+791,Dawson Community College,2,2,100.0
+792,Welcome to Daymar College!,2,0,0.0
+793,Dodge City Community College,2,2,100.0
+794,Dean College,2,2,100.0
+795,Delta State University,2,2,100.0
+796,El Camino Community College District,2,1,50.0
+797,Harris-Stowe State University,2,1,50.0
+798,North Central University,2,0,0.0
+799,Divers Institute of Technology,2,2,100.0
+800,J F Drake State Community and Technical College,2,2,100.0
+801,Diablo Valley College,2,2,100.0
+802,Dakota Wesleyan University,2,1,50.0
+803,East Central College,2,2,100.0
+804,Emory & Henry College,2,2,100.0
+805,Emmaus Bible College Home Page,2,2,100.0
+806,Empire College,2,2,100.0
+807,Estrella Mountain Community College,2,2,100.0
+808,East Stroudsburg State University of Pennsylvania,2,2,100.0
+809,Evangel University,2,2,100.0
+810,Halifax Community College,2,2,100.0
+811,Everest University,2,1,50.0
+812,Welcome to Florida Atlantic University,2,2,100.0
+813,Finger Lakes Community College,2,2,100.0
+814,"Accredited, independent college, offering Bachelor and Associate degrees",2,2,100.0
+815,Fisher More Catholic College,2,1,50.0
+816,Florida College,2,2,100.0
+817,Florida Memorial University,2,2,100.0
+818,Fontbonne University,2,2,100.0
+819,Fort Scott Community College,2,2,100.0
+820,"Christian Life College, Stockton, California",2,2,100.0
+821,Fresno Pacific University,2,2,100.0
+822,God\'s Bible School & College,2,2,100.0
+823,Genesis Career College,2,2,100.0
+824,Great Lakes Institute of Technology,2,2,100.0
+825,Gogebic Community College,2,2,100.0
+826,USM University of Santa Monica,2,2,100.0
+827,Georgia Piedmont Technical College,2,2,100.0
+828,Grace College & Theological Seminary in Indiana,2,2,100.0
+829,Grantham University,2,2,100.0
+830,Greensboro College,2,2,100.0
+831,Golden State Baptist College,2,2,100.0
+832,Gwinnett Technical College,2,2,100.0
+833,Allan Hancock College,2,2,100.0
+834,Harrisburg University,2,2,100.0
+835,Huntsville Bible College,2,2,100.0
+836,Houston Baptist University,2,2,100.0
+837,Holy Cross College,2,2,100.0
+838,Futures Inspired l Holyoke Community College,2,2,100.0
+839,Humacao Community College,2,2,100.0
+840,Heald College,2,0,0.0
+841,Heartland Community College,2,2,100.0
+842,Hebrew College,2,2,100.0
+843,College of the Redwoods,2,2,100.0
+844,Hodges University,2,1,50.0
+845,Hutchinson Community College,2,2,100.0
+846,"Discover Judson University, a Four Year Christian College in Elgin near Chicago",2,2,100.0
+847,Hendrix College,2,2,100.0
+848,"Hollywood Institute of Beauty Careers  Cosmetology, Makeup, Hair, Nails, and Skin Care",2,2,100.0
+849,Hawaii Medical College,2,2,100.0
+850,Howard Payne University,2,2,100.0
+851,"Emmanuel College, Boston",2,2,100.0
+852,Hardin-Simmons University,2,2,100.0
+853,Huston-Tillotson University,2,2,100.0
+854,Humphreys College,2,2,100.0
+855,Illinois Central College,2,2,100.0
+856,Itawamba Community College in Northeast Mississippi (Fulton,2,1,50.0
+857,The Institute for Continuing Health Care Education,2,1,50.0
+858,Institute for Clinical Social Work,2,2,100.0
+859,International Institute for Restorative Practices (IIRP),2,2,100.0
+860,Southern Union State Community College,2,2,100.0
+861,Inver Hills Community College,2,2,100.0
+862,Iona College,2,2,100.0
+863,John A. Logan College Homepage,2,2,100.0
+864,Johnson C. Smith University,2,1,50.0
+865,Jefferson Davis Community College,2,0,0.0
+866,Jackson State Community College,2,2,100.0
+867,Kansas City Art Institute,2,2,100.0
+868,University of Kentucky,2,1,50.0
+869,Kirtland Community College,2,1,50.0
+870,- LATIN AMERICAN BIBLE INSTITUTE,2,2,100.0
+871,Los Angeles City College,2,2,100.0
+872,La\'James International College...LJIC is distinctively different!,2,1,50.0
+873,Lane Community College,2,2,100.0
+874,Lurleen B. Wallace Community College,2,1,50.0
+875,Arkansas Colleges and Universities,2,2,100.0
+876,H Councill Trenholm State Technical College,2,2,100.0
+877,Welcome To Lala Lajpatrai Institute of Management,2,2,100.0
+878,Homepage — Nazareth College,2,2,100.0
+879,Loyola Marymount University,2,2,100.0
+880,Welcome to the Lakes Region Community College,2,2,100.0
+881,"Digital University of America + Peace University, USA",2,2,100.0
+882,César Ritz Colleges Switzerland,2,1,50.0
+883,Marion Military Institute,2,2,100.0
+884,Marymount College Rancho Palos Verdes,2,1,50.0
+885,Mercer County Community College,2,2,100.0
+886,Meridian College Florida Career Colleges,2,2,100.0
+887,"Mars Hill College, in the Blue Ridge Mountains near Asheville, NC",2,1,50.0
+888,Miami University of Ohio,2,2,100.0
+889,Motorcycle Mechanics Institute (MMI),2,1,50.0
+890,Monmouth College,2,0,0.0
+891,Welcome to Moravian College,2,1,50.0
+892,Morningside College,2,1,50.0
+893,Michigan State University. Est. 1855. East Lansing,2,2,100.0
+894,Hellenic College and Holy Cross Greek Orthodox School of Theology,2,2,100.0
+895,Baton Rouge Community College,2,2,100.0
+896,Northeast Ohio Medical University — NEOMED,2,2,100.0
+897,North Greenville University,2,1,50.0
+898,Northeastern Junior College,2,2,100.0
+899,"NLP Training Vancouver, Erickson College, Ericksonian Hypnosis, Milton Erickson",2,0,0.0
+900,Law NUJS Kolkata WB National University of Juridical Sciences India West Bengal,2,2,100.0
+901,Northwest Louisiana Technical College,2,1,50.0
+902,Oakland Community College,2,2,100.0
+903,Oklahoma City Community College,2,2,100.0
+904,Welcome to Ogeechee Technical College!,2,2,100.0
+905,Ohio State University,2,1,50.0
+906,Olivet Nazarene University,2,2,100.0
+907,University of the Pacific,2,0,0.0
+908,Palomar Community College District,2,2,100.0
+909,University System of Georgia,2,2,100.0
+910,"Philander Smith College, Think Justice, Little Rock, Arkansas, UNCF, HBCU",2,0,0.0
+911,University of New Hampshire,2,1,50.0
+912,Pennsylvania Institute of Technology,2,2,100.0
+913,Pueblo Community College,2,2,100.0
+914,Randolph College,2,2,100.0
+915,Riverside Community College District,2,2,100.0
+916,Welcome to the University of Redlands,2,2,100.0
+917,University of Rhode Island,2,2,100.0
+918,Richmont Graduate University,2,2,100.0
+919,RIO GRANDE BIBLE INSTITUTE,2,2,100.0
+920,Carl Sandburg College,2,1,50.0
+921,University of South Carolina,2,2,100.0
+922,The University of Scranton,2,2,100.0
+923,South Carolina State University,2,1,50.0
+924,Sullivan College of Technology & Design,2,1,50.0
+925,Seattle University,2,2,100.0
+926,Seminole State College of Florida Home Page,2,2,100.0
+927,St. Francis College,2,1,50.0
+928,Shasta College,2,2,100.0
+929,Shawnee Community College Homepage,2,2,100.0
+930,Shoreline Community College,2,2,100.0
+931,University of South Alabama Homepage,2,2,100.0
+932,Columbia-Greene Community College,2,2,100.0
+933,Dutchess Community College,2,2,100.0
+934,University of St. Thomas,2,2,100.0
+935,Schenectady County Community College,2,2,100.0
+936,Catholic Seminary Schools,2,2,100.0
+937,» The Texas A&M University System,2,2,100.0
+938,Tokyo International University of America,2,1,50.0
+939,The University of Toledo,2,0,0.0
+940,Trinity Western University,2,2,100.0
+941,Tunxis Community College,2,0,0.0
+942,University of Arkansas Community College at Hope,2,2,100.0
+943,University of Arkansas at Little Rock,2,2,100.0
+944,The University of Baltimore Online Education,2,1,50.0
+945,University of Northern California,2,1,50.0
+946,University of North Carolina at Wilmington,2,1,50.0
+947,University of Nevada,2,1,50.0
+948,The University of Southern Mississippi,2,2,100.0
+949,University of the SouthwestHome,2,2,100.0
+950,University of Tennessee,2,2,100.0
+951,University of West Alabama,2,1,50.0
+952,Welcome to the Website for the Institute for Vaccine Safety,2,2,100.0
+953,"Associate Degree, College Degrees",2,1,50.0
+954,Villa Maria College,2,2,100.0
+955,University of Virginia,2,1,50.0
+956,Washburn University,2,1,50.0
+957,George C Wallace State Community College-Selma,2,2,100.0
+958,Welcome to Wharton County Junior College,2,1,50.0
+959,Western Institute for Social Research,2,2,100.0
+960,William Mitchell College of Law,2,1,50.0
+961,West Tennessee Business College,2,1,50.0
+962,Contra Costa Community College District,1,1,100.0
+963,Arizona Automotive Institute,1,1,100.0
+964,Rasmussen College,1,0,0.0
+965,Arab American University - Jenin,1,0,0.0
+966,American Bible College & Seminary,1,0,0.0
+967,American Baptist Seminary of the West,1,0,0.0
+968,Asheville-Buncombe Technical Community College,1,1,100.0
+969,Atlanta College of Art,1,0,0.0
+970,Acadiana Technical College,1,0,0.0
+971,American College of Acupuncture & Oriental Medicine,1,1,100.0
+972,Atlanta Christian College,1,0,0.0
+973,Online Master\'s Degree Programs in Education at American College of Education,1,1,100.0
+974,American College of Healthcare Sciences,1,1,100.0
+975,ACM â Associated Colleges of the Midwest — Home,1,1,100.0
+976,Albertson College of Idaho,1,0,0.0
+977,Albany College of Pharmacy and Health Sciences (ACPHS),1,1,100.0
+978,American College of Traditional Chinese Medicine,1,0,0.0
+979,Amarillo College,1,0,0.0
+980,Southwest Acupuncture College,1,0,0.0
+981,University of San Diego,1,0,0.0
+982,The University of Adelaide,1,0,0.0
+983,Career College Los Angeles,1,0,0.0
+984,AFI Conservatory,1,1,100.0
+985,Alahgaff University,1,1,100.0
+986,American Healthcare Institute Continuing Education Nurses Mental Health Professionals Maryland,1,0,0.0
+987,Aquinas Institute of Theology > Home,1,1,100.0
+988,Lesley University,1,1,100.0
+989,American Indian College of the Assemblies of God,1,1,100.0
+990,American Institute of Holistic Theology,1,1,100.0
+991,The Art Institutes,1,1,100.0
+992,All India Institute of Medical Sciences,1,1,100.0
+993,Welcome to American Institute of Medical Science and Education,1,1,100.0
+994,AIMT American Institute of Medical Technology,1,0,0.0
+995,The Art Institute Of Pittsburgh Online Division,1,0,0.0
+996,American InterContinental University â AIU South Florida,1,0,0.0
+997,Alaska Bible College,1,1,100.0
+998,Alameda Beauty College & Beauty,1,0,0.0
+999,University of Alaska - Anchorage,1,1,100.0
+1000,Alaska Career College,1,1,100.0
+1001,Albright College,1,0,0.0
+1002,State University of New York at Albany,1,1,100.0
+1003,Welcome to Albertus Magnus College,1,1,100.0
+1004,Alice Lloyd College,1,1,100.0
+1005,Allegheny College,1,0,0.0
+1006,Welcome to Allegheny College,1,1,100.0
+1007,Allentown College of Saint Francis de Sales,1,0,0.0
+1008,Allen College,1,1,100.0
+1009,Online College Courses & Degrees,1,0,0.0
+1010,Online Allied Health and Medical School Education Courses by Allied Health Institute,1,0,0.0
+1011,Alpena Community College,1,1,100.0
+1012,Altamaha Technical College,1,0,0.0
+1013,Concordia College - Moorhead,1,1,100.0
+1014,"Fergusson College, Pune",1,1,100.0
+1015,Alvernia University,1,1,100.0
+1016,Ambassador University,1,1,100.0
+1017,Ambassador Baptist College,1,1,100.0
+1018,Welcome to Ambria College of Nursing,1,1,100.0
+1019,Anderson Medical Career College,1,0,0.0
+1020,American College Dublin,1,1,100.0
+1021,American Coastline University,1,0,0.0
+1022,"Online Colleges, Schools, Universities and Scholarships Reviews by America.edu",1,1,100.0
+1023,"Distance Learning, Distance Education, Online Degree at American Global University",1,0,0.0
+1024,American Institute for Paralegal Studies,1,0,0.0
+1025,Home Antonelli Medical & Professional Institute,1,0,0.0
+1026,Anamarc College,1,0,0.0
+1027,Arkansas Northeastern College,1,1,100.0
+1028,Ancilla College,1,0,0.0
+1029,Welcome to Angeles College,1,1,100.0
+1030,Angeles Institute,1,1,100.0
+1031,Angelina College,1,1,100.0
+1032,Anna Maria College,1,0,0.0
+1033,Welcome to the Anoka Ramsey Community College Website,1,1,100.0
+1034,AKKINENI NAGESWARA RAO COLLEGE,1,1,100.0
+1035,Saint Anselm College,1,1,100.0
+1036,Online College Degree Programs,1,0,0.0
+1037,Antioch University - Los Angeles,1,1,100.0
+1038,Antioch University New England,1,1,100.0
+1039,Antioch University Santa Barbara,1,1,100.0
+1040,Antioch University - Seattle,1,1,100.0
+1041,Antonelli Institute Art & Photography,1,0,0.0
+1042,American Professional Institute,1,0,0.0
+1043,"Alpena Community College, Alpena, Michigan, USA",1,1,100.0
+1044,Michigan's Largest Evangelical Christian University,1,1,100.0
+1045,Arellano University,1,1,100.0
+1046,The University of Arizona,1,1,100.0
+1047,Arlington Baptist College,1,0,0.0
+1048,Texas Career Institute,1,1,100.0
+1049,Armstrong Atlantic State University Savannah,1,0,0.0
+1050,Army Warrior University,1,0,0.0
+1051,The School of the Art Institute of Chicago,1,1,100.0
+1052,ASA College,1,0,0.0
+1053,Asbury University,1,1,100.0
+1054,Alabama Southern Community College,1,0,0.0
+1055,Ashmead College Is Now Everest College,1,0,0.0
+1056,Online College Degree Programs â Accredited Online School,1,1,100.0
+1057,Asian Institute of Medical Studies,1,0,0.0
+1058,Asnuntuck Community College,1,0,0.0
+1059,Associated Technical College_Home_Los Angeles,1,1,100.0
+1060,Athabasca University,1,0,0.0
+1061,Athena College of Beauty,1,0,0.0
+1062,Athens State University,1,1,100.0
+1063,ATI College,1,1,100.0
+1064,Atlanta Technical College,1,1,100.0
+1065,Atlantic Cape Community College,1,1,100.0
+1066,Atria Institute of Technology,1,1,100.0
+1067,ATS Institute of Technology,1,1,100.0
+1068,American University of Beirut,1,0,0.0
+1069,American University of Biblical Studies,1,0,0.0
+1070,Atlanta University Center Consortium,1,0,0.0
+1071,American University for Humanities,1,0,0.0
+1072,The American University in London,1,1,100.0
+1073,The American University of Rome,1,1,100.0
+1074,Austin Presbyterian Theological Seminary,1,0,0.0
+1075,American University,1,1,100.0
+1076,AvancÃ© Beauty College â Train for an Exciting Career in Cosmetology,1,0,0.0
+1077,"Massage Therapy & Skin Care Training School, Accredited Cosmetology, Makeup Artist & Esthetics Institute in North Virginia, Maryland & DC",1,0,0.0
+1078,Avinashilingam University for Women,1,0,0.0
+1079,Shreveport Colleges,1,1,100.0
+1080,The Arizona Culinary Institute,1,1,100.0
+1081,"AZURE COLLEGE, Great in Demand Career Programs",1,0,0.0
+1082,Arizona Western College,1,1,100.0
+1083,Broken Arrow Beauty College & Cosmetology Education Center,1,0,0.0
+1084,Belmont Abbey College,1,1,100.0
+1085,Bacone College,1,0,0.0
+1086,Bainbridge State College,1,0,0.0
+1087,Welcome to Baker College,1,1,100.0
+1088,Baldwin-Wallace College,1,0,0.0
+1089,Baptist University of America,1,0,0.0
+1090,Bapuji Dental College And Hospital,1,1,100.0
+1091,Lincoln University Missouri,1,0,0.0
+1092,Barclay College,1,1,100.0
+1093,Baruch College,1,1,100.0
+1094,Colleges in Georgia,1,0,0.0
+1095,Bay State · Bay State College,1,1,100.0
+1096,Accredited Christian Bible College & Seminary,1,0,0.0
+1097,Baptist College of America,1,1,100.0
+1098,Baltimore City Community College,1,1,100.0
+1099,Long Island Colleges,1,0,0.0
+1100,SS Cyril and Methodius Byzantine Catholic Seminary,1,1,100.0
+1101,Becker College,1,0,0.0
+1102,"Bellevue College, Washington [Previously Bellevue Community College]",1,1,100.0
+1103,Welcome to Bellin College,1,1,100.0
+1104,Bellmar Chicago Beauty College,1,0,0.0
+1105,Belmont College,1,1,100.0
+1106,Welcome to Beloit College,1,1,100.0
+1107,Bergin University of Canine Studies,1,1,100.0
+1108,Berkeley College,1,1,100.0
+1109,Jump Start Your Education at Berkshire Community College,1,1,100.0
+1110,Bethany College California,1,1,100.0
+1111,Bethel College,1,1,100.0
+1112,Bethlehem Bible College ÙÙÙØ© Ø¨ÙØª ÙØ­Ù ÙÙÙØªØ§Ø¨ Ø§ÙÙ ÙØ¯Ø³,1,0,0.0
+1113,Benjamin Franklin Institute of Technology,1,1,100.0
+1114,The Benjamin Franklin Institute of Global Education,1,0,0.0
+1115,Bainbridge Graduate Institute · The Pioneer of Sustainable Business Education,1,0,0.0
+1116,Bhavnagar University Official Website,1,0,0.0
+1117,Black Hawk College,1,1,100.0
+1118,BH Carroll Theological Institute,1,0,0.0
+1119,Baltimore Hebrew University,1,0,0.0
+1120,Washington Bible College/Capital Bible Seminary,1,0,0.0
+1121,Biblical Seminary,1,0,0.0
+1122,Baltimore International College Foundation,1,0,0.0
+1123,Big Bend Community College,1,1,100.0
+1124,Bilkent University,1,1,100.0
+1125,State University of New York at Binghamton,1,1,100.0
+1126,BioHealth College,1,0,0.0
+1127,Birthingway College of Midwifery,1,0,0.0
+1128,Bishop State Community College â Mobile,1,1,100.0
+1129,BJ's Beauty & Barber College,1,0,0.0
+1130,Blackburn College,1,1,100.0
+1131,Black River Technical College,1,1,100.0
+1132,Blake Austin College,1,1,100.0
+1133,Blessed John XXIII National Seminary,1,0,0.0
+1134,Welcome to Blinn College,1,0,0.0
+1135,Bloomfield College,1,1,100.0
+1136,Bethany Lutheran Theological Seminary,1,1,100.0
+1137,Blue Cliff Career College,1,1,100.0
+1138,Bluewater Bible College & Institute - Home,1,0,0.0
+1139,Bank Street College of Education,1,0,0.0
+1140,Boise Bible College,1,1,100.0
+1141,Boricua College,1,0,0.0
+1142,Welcome to Don Bosco Technical Institute,1,1,100.0
+1143,Boston Baptist College,1,1,100.0
+1144,The Boston Conservatory,1,1,100.0
+1145,Baltimore Polytechnic Institute,1,1,100.0
+1146,B.P. Koirala Institute of Health Sciences,1,1,100.0
+1147,Accredited University Degree Programs in CA & WA,1,0,0.0
+1148,Baton Rouge College,1,0,0.0
+1149,Briar Cliff College,1,0,0.0
+1150,Lincoln College of New England,1,0,0.0
+1151,Bridgemont Community and Technical College,1,0,0.0
+1152,University of Bridgeport,1,1,100.0
+1153,Bridgewater State University,1,1,100.0
+1154,Bristol University homepage,1,1,100.0
+1155,Bristol University â Quality and Practical Education,1,0,0.0
+1156,Broadview University,1,0,0.0
+1157,State University of New York College at Brockport,1,1,100.0
+1158,The College at Brockport,1,0,0.0
+1159,The Brooklyn Culinary Institute,1,0,0.0
+1160,Brooks Institute of Photography,1,0,0.0
+1161,Brooks College in Long Beach,1,0,0.0
+1162,Brookstone College Of Business,1,0,0.0
+1163,Brown Mackie College,1,0,0.0
+1164,Bryan College Sacramento California,1,0,0.0
+1165,Online Career Training at Bryan College Online,1,0,0.0
+1166,Colleges in Missouri,1,0,0.0
+1167,BryanLGH College of Health Sciences,1,0,0.0
+1168,Bryman College is now Everest College,1,0,0.0
+1169,Birmingham-Southern College,1,0,0.0
+1170,Bangor Theological Seminary,1,0,0.0
+1171,Baptist Theological Seminary at Richmond,1,0,0.0
+1172,Welcome to Bombay Teachers\' Training College,1,1,100.0
+1173,State University of New York at Buffalo,1,1,100.0
+1174,State University of New York College at Buffalo,1,1,100.0
+1175,Buffalo State College,1,0,0.0
+1176,Welcome To Butler Community College,1,1,100.0
+1177,Cabrini University,1,0,0.0
+1178,Cabrini College,1,0,0.0
+1179,"Welcome to CAHSU (Belize Medical College) Homepage. Offshore Medical Schools, Foreign Medical Schools,Caribbean medical school",1,0,0.0
+1180,CaliforniaColleges.edu,1,1,100.0
+1181,California Southern University,1,1,100.0
+1182,California University of Pennsylvania,1,1,100.0
+1183,Online Education – Online Degree – California Intercontinental University,1,1,100.0
+1184,A Christian Bible College in Kansas City,1,1,100.0
+1185,Calvary Midwest Bible College,1,0,0.0
+1186,Calvin Theological Seminary,1,1,100.0
+1187,Cambridge Junior College,1,0,0.0
+1188,Cameron College,1,0,0.0
+1189,Welcome to Cañada College,1,1,100.0
+1190,West Penn Allegheny Cancer Institute (WPACI),1,0,0.0
+1191,Canyon College,1,0,0.0
+1192,Capitol College,1,0,0.0
+1193,Capri Beauty College,1,1,100.0
+1194,Capstone College,1,0,0.0
+1195,College Degrees,1,0,0.0
+1196,Florida Career College,1,0,0.0
+1197,Career Institute,1,0,0.0
+1198,Career Point College,1,0,0.0
+1199,"California Polytechnic State University, Pomona",1,1,100.0
+1200,"California State University, San Bernardino",1,1,100.0
+1201,MedSpa Careers Institute,1,0,0.0
+1202,Career Technical College,1,0,0.0
+1203,Carolinas College of Health Sciences,1,0,0.0
+1204,Carver College,1,1,100.0
+1205,Casper College,1,1,100.0
+1206,Castleton State University,1,1,100.0
+1207,Clark Atlanta University,1,0,0.0
+1208,Central Bible College,1,1,100.0
+1209,Calvary Baptist Seminary,1,1,100.0
+1210,Christian Brothers University,1,1,100.0
+1211,California College San Diego,1,0,0.0
+1212,Carroll College Waukesha,1,0,0.0
+1213,Concordia College - Ann Arbor,1,0,0.0
+1214,Community College of Aurora in Colorado,1,1,100.0
+1215,The Community College of Baltimore County,1,1,100.0
+1216,Cumberland County College,1,1,100.0
+1217,Community Christian College,1,1,100.0
+1218,Community College of Denver,1,1,100.0
+1219,The College of Coastal Georgia,1,1,100.0
+1220,Corinthian Colleges,1,0,0.0
+1221,CCI Colleges.edu,1,1,100.0
+1222,Cincinnati College of Mortuary Science,1,1,100.0
+1223,Clayton College of Natural Health,1,0,0.0
+1224,Career College of Northern Nevada,1,0,0.0
+1225,Columbia College of Nursing,1,0,0.0
+1226,California College of Podiatric Medicine,1,0,0.0
+1227,Concordia College - Seward,1,0,0.0
+1228,Cincinnati Christian University,1,0,0.0
+1229,CDE Career Institute,1,1,100.0
+1230,Chief Dull Knife College,1,1,100.0
+1231,Catholic Distance University,1,0,0.0
+1232,Cedar Valley College,1,0,0.0
+1233,Centenary College,1,0,0.0
+1234,Welcome to Central College,1,1,100.0
+1235,Central Methodist University in Fayette,1,1,100.0
+1236,Central Seminary,1,1,100.0
+1237,Centura College Career School,1,1,100.0
+1238,Centura College,1,1,100.0
+1239,Centura Institute Career School,1,1,100.0
+1240,Cerritos College Home Page,1,1,100.0
+1241,Cerro Coso Community College Home,1,1,100.0
+1242,CES College,1,0,0.0
+1243,Welcome To Cape Fear Community College,1,1,100.0
+1244,Chancellor University,1,0,0.0
+1245,Welcome to Charles of Italy Beauty College,1,1,100.0
+1246,Chatfield College,1,0,0.0
+1247,COLLEGE OF HAIR DESIGN,1,0,0.0
+1248,The University of Chicago Booth,1,1,100.0
+1249,National College of Chiropractic,1,0,0.0
+1250,Chong Shin University in USA,1,0,0.0
+1251,Christ University,1,0,0.0
+1252,Christian Life College / Welcome,1,1,100.0
+1253,Colorado Heights University,1,0,0.0
+1254,Welcome to the world\'s premier culinary college in New York,1,1,100.0
+1255,The Council of Independent Colleges,1,1,100.0
+1256,Coorg Institute of Dental Sciences,1,0,0.0
+1257,California Institute for Human Science,1,1,100.0
+1258,Psychology Graduate Programs at California Institute of Integral Studies,1,1,100.0
+1259,Cleveland Institute of Music,1,1,100.0
+1260,Cebu Institute of Technology – University,1,1,100.0
+1261,Welcome to Citrus College,1,1,100.0
+1262,City College,1,0,0.0
+1263,The Claremont Colleges,1,1,100.0
+1264,Clarion University of Pennsylvania,1,1,100.0
+1265,Welcome to Clark College,1,1,100.0
+1266,Sterling and Francine Clark Art Institute,1,1,100.0
+1267,Clatsop Community College,1,1,100.0
+1268,Clearwater Christian College,1,0,0.0
+1269,Clinch Valley College,1,0,0.0
+1270,Clinton College,1,1,100.0
+1271,Chabot-Las Positas Community College District,1,0,0.0
+1272,Central Louisiana Technical College,1,0,0.0
+1273,"Christian Leadership University Online Bible College, Online Christian Colleges, and Christian Theology Seminaries",1,0,0.0
+1274,Central Maine Community College,1,1,100.0
+1275,Copper Mountain Community College,1,1,100.0
+1276,Copper Mountain College,1,0,0.0
+1277,Central Maine Medical Center College of Nursing and Health Professions,1,0,0.0
+1278,University of Central Missouri,1,0,0.0
+1279,College of Mount Saint Vincent,1,0,0.0
+1280,Carson-Newman College,1,1,100.0
+1281,Welcome to Central Nursing College,1,0,0.0
+1282,Vocational College,1,1,100.0
+1283,Welcome to Central New Mexico Community College,1,1,100.0
+1284,College of New Rochelle,1,0,0.0
+1285,California National University,1,0,0.0
+1286,Coastal Carolina Community College,1,1,100.0
+1287,Cobb Beauty College,1,0,0.0
+1288,Central Oregon Community College,1,0,0.0
+1289,College of Charleston,1,1,100.0
+1290,Coffeyville Community College,1,1,100.0
+1291,Colby Community College,1,1,100.0
+1292,Coleman University,1,0,0.0
+1293,College for Creative Studies,1,1,100.0
+1294,"Design Training, Game Production School, Arizona Design Colleges",1,0,0.0
+1295,University of Colorado Health Sciences Center,1,1,100.0
+1296,An Online University with Unlimited Possibilities,1,0,0.0
+1297,Columbia College Hollywood,1,1,100.0
+1298,Columbia College (SC),1,0,0.0
+1299,Columbia Evangelical Seminary,1,0,0.0
+1300,Northwestern Connecticut Community College,1,0,0.0
+1301,Community Business College,1,0,0.0
+1302,Welcome to Compass College of Cinematic Arts,1,1,100.0
+1303,El Camino College-Compton Center,1,0,0.0
+1304,Future University,1,0,0.0
+1305,Welcome to Concord University,1,1,100.0
+1306,Your Ontario Community College for Full & Part Time Studies,1,0,0.0
+1307,Contra Costa College,1,1,100.0
+1308,Coppin State University,1,1,100.0
+1309,Cornell College,1,0,0.0
+1310,Corning Community College,1,1,100.0
+1311,Cornish College of the Arts,1,1,100.0
+1312,State University of New York College at Cortland,1,1,100.0
+1313,Central Ohio Technical College,1,1,100.0
+1314,College of the Ouachitas,1,0,0.0
+1315,Welcome to CPCC â Central Piedmont Community College,1,0,0.0
+1316,Business College Johnstown,1,0,0.0
+1317,The Salvation Army College for Officer Training at Crestmont,1,1,100.0
+1318,Court Reporting Institute,1,0,0.0
+1319,| Court Reporting Institute of Louisiana,1,0,0.0
+1320,Crimson Technical Aviation College,1,0,0.0
+1321,Crossroads Bible College,1,1,100.0
+1322,Crossroads College,1,1,100.0
+1323,Private Christian College,1,1,100.0
+1324,"California State University, Fresno",1,1,100.0
+1325,California State Christian University,1,0,0.0
+1326,College of St. Joseph,1,0,0.0
+1327,College of Saint Mary,1,1,100.0
+1328,The College of St. Scholastica,1,1,100.0
+1329,The College of Saint Thomas More adds Saint John Fisher as its co,1,0,0.0
+1330,Welcome to Chicago State University,1,1,100.0
+1331,California State Polytechnic University,1,0,0.0
+1332,The Colorado State University System,1,1,100.0
+1333,South Puget Sound Community College,1,0,0.0
+1334,Lincoln Culinary Institute,1,1,100.0
+1335,Cambridge Technical Institute,1,1,100.0
+1336,Christian Theological Seminary,1,1,100.0
+1337,Continental Theological Seminary,1,1,100.0
+1338,Welcome to the Catholic University of America,1,1,100.0
+1339,University of Colorado Anschutz Medical,1,1,100.0
+1340,California University of Business and Techology (CUBT) Home Page,1,0,0.0
+1341,Columbia Union College,1,0,0.0
+1342,University of Colorado at Denver,1,1,100.0
+1343,Undergraduate Degrees and Academic Programs for a Great College Education,1,1,100.0
+1344,Curtin University,1,1,100.0
+1345,The Curtis Institute of Music,1,1,100.0
+1346,California University of Science and Medicine,1,1,100.0
+1347,Catawba Valley Community College,1,1,100.0
+1348,The College of Westchester,1,1,100.0
+1349,Cypress College,1,1,100.0
+1350,Dade Medical College,1,0,0.0
+1351,Dallas Institute of Funeral Service Education Mortuary Profession School Dallas Texas,1,1,100.0
+1352,Dana College,1,0,0.0
+1353,Darton State College,1,0,0.0
+1354,Davis Applied Technology College,1,0,0.0
+1355,Davidson County Community College,1,0,0.0
+1356,Davis College,1,0,0.0
+1357,Davis College > Home,1,1,100.0
+1358,Dawn Career Institute,1,1,100.0
+1359,Tennessee Career Colleges,1,0,0.0
+1360,Dayspring Bible College & Seminary,1,0,0.0
+1361,Welcome to Daytona College,1,1,100.0
+1362,University of Dubuque,1,1,100.0
+1363,Detroit Baptist Theological Seminary,1,1,100.0
+1364,Duluth Business University,1,0,0.0
+1365,Dominican University of California,1,1,100.0
+1366,Dallas County Community College,1,1,100.0
+1367,Delhi Technological University,1,0,0.0
+1368,DCI Career Institute,1,0,0.0
+1369,Welcome to DCT University Center Switzerland,1,0,0.0
+1370,Deakin University,1,0,0.0
+1371,Welcome to De Anza College,1,1,100.0
+1372,The Defiance College,1,1,100.0
+1373,San Joaquin Delta College,1,1,100.0
+1374,Delaware Valley College,1,0,0.0
+1375,Denmark Technical College,1,1,100.0
+1376,Welcome to DeSales University,1,1,100.0
+1377,"Concordia College, Moorhead, Minn.",1,1,100.0
+1378,On Campus & Online College Degree Programs,1,1,100.0
+1379,DIA UNIVERSITY,1,0,0.0
+1380,Digital University of America + Peace University,1,1,100.0
+1381,Design Institute of San Diego,1,1,100.0
+1382,Dixie State College of Utah,1,1,100.0
+1383,Defense Language Institute Foreign Language Center,1,1,100.0
+1384,Lipscomb University,1,0,0.0
+1385,Computer Animation College,1,0,0.0
+1386,DMART INSTITUTE,1,0,0.0
+1387,DOW MEDICAL COLLEGE ALUMNI,1,0,0.0
+1388,Dubai Medical College for Girls,1,1,100.0
+1389,Welcome to Dayanand Medical College & Hospital (DMC&H),1,1,100.0
+1390,Dordt College,1,1,100.0
+1391,Welcome to Dover Business College,1,0,0.0
+1392,DoveStar Institute,1,0,0.0
+1393,Dowling College,1,0,0.0
+1394,SUNY Downstate Health Sciences University,1,0,0.0
+1395,Dubai Pharmacy College,1,0,0.0
+1396,.. Drake College of Business ..  - Home,1,0,0.0
+1397,Disciples Seminary Foundation,1,1,100.0
+1398,Dabney S Lancaster Community College,1,0,0.0
+1399,University of Denver,1,1,100.0
+1400,Alfred Nobel University of Economics and Law,1,0,0.0
+1401,Duff\'s Business Institute is now Everest Institute,1,0,0.0
+1402,Welcome To Duke University Press,1,1,100.0
+1403,St. Joseph\'s Seminary,1,1,100.0
+1404,Durham Technical Community College,1,0,0.0
+1405,Daniel Webster College,1,0,0.0
+1406,Divine Word College,1,1,100.0
+1407,D'Youville College,1,1,100.0
+1408,Padmashree Dr. D.Y. Patil University,1,1,100.0
+1409,Utah College,1,1,100.0
+1410,Eastern College,1,0,0.0
+1411,Eastfield College,1,0,0.0
+1412,Emmanuel College,1,0,0.0
+1413,Indian Institute of Ecology and Environment,1,1,100.0
+1414,The Institute of Ecotechnics,1,1,100.0
+1415,Emmanuel Christian Seminary,1,0,0.0
+1416,Edmonds Community College,1,0,0.0
+1417,Eden Theological Seminary,1,1,100.0
+1418,EDIC College,1,0,0.0
+1419,Edinboro University of Pennsylvania,1,1,100.0
+1420,Edison State College,1,0,0.0
+1421,Edison State Community College,1,1,100.0
+1422,EDP College,1,0,0.0
+1423,Welcome to Eastern Gateway Community College,1,1,100.0
+1424,Eastern Iowa Community College District,1,1,100.0
+1425,Allied Health College & School,1,1,100.0
+1426,Eastern Idaho Technical College,1,0,0.0
+1427,Welcome to East Los Angeles College,1,1,100.0
+1428,El Centro College,1,0,0.0
+1429,Electronic Learning Institute > Home,1,0,0.0
+1430,Elim Bible Institute,1,1,100.0
+1431,Ellis University,1,0,0.0
+1432,Embry Riddle Aeronautical University,1,0,0.0
+1433,Eastern Nazarene College,1,0,0.0
+1434,Earthnet Institute is a nonprofit organization working to ameilorate global issues through research and partnerships.,1,0,0.0
+1435,Eastern New Mexico University-Roswell,1,1,100.0
+1436,Eastern Oklahoma State College,1,1,100.0
+1437,Eastern Oregon University,1,0,0.0
+1438,Epic Bible College,1,1,100.0
+1439,Erie Institute of Technology,1,1,100.0
+1440,Welcome to Elaine Steven Beauty College,1,0,0.0
+1441,State University of New York Empire State College,1,1,100.0
+1442,Enterprise State Community College,1,1,100.0
+1443,About Escondido Bible College,1,0,0.0
+1444,ETI Technical College of Niles,1,1,100.0
+1445,Evangel Theological Seminary,1,1,100.0
+1446,EVANGELIA UNIVERSITY,1,1,100.0
+1447,Evangelical Seminary,1,1,100.0
+1448,Evangelical Theological Seminary,1,1,100.0
+1449,University of Evansville,1,1,100.0
+1450,Evergreen Valley College,1,1,100.0
+1451,Everest College,1,0,0.0
+1452,Everest College Phoenix,1,0,0.0
+1453,Everest Institute,1,0,0.0
+1454,Online Degrees & Classes through Everest University Online,1,0,0.0
+1455,The Evergreen State College,1,1,100.0
+1456,Edward Waters University,1,1,100.0
+1457,East West Institute of Technology,1,0,0.0
+1458,"Expression College for Digital Arts â Sound, Motion Graphics, Animation and Visual Effects, Game Art Design, Interactive Audio, and Digital Filmmaking School",1,0,0.0
+1459,Welcome to Fairfield University,1,1,100.0
+1460,Faith Evangelical College and Seminary,1,0,0.0
+1461,The University of Maine Farmington,1,1,100.0
+1462,Fashion Careers College,1,0,0.0
+1463,James H Faulkner State Community College,1,0,0.0
+1464,Franklin College Switzerland,1,0,0.0
+1465,Florida Christian College,1,0,0.0
+1466,"Integrative Medicine, chinese Medicine, Florida College of Integrative Medicine",1,1,100.0
+1467,First Coast Technical College,1,1,100.0
+1468,Fond du Lac Tribal and Community College,1,1,100.0
+1469,Felician College,1,1,100.0
+1470,Fergusson College,1,1,100.0
+1471,Florida Hospital College of Health Sciences,1,0,0.0
+1472,The Franklin Institute,1,1,100.0
+1473,The University of Findlay,1,1,100.0
+1474,Finlandia University,1,0,0.0
+1475,Five Colleges,1,1,100.0
+1476,Florida Keys Community College,1,0,0.0
+1477,Tallahassee Community College,1,0,0.0
+1478,State University System of Florida,1,1,100.0
+1479,L E Fletcher Technical Community College,1,1,100.0
+1480,Fletcher Technical Community College,1,0,0.0
+1481,Florida Vedic College,1,1,100.0
+1482,Florida Memorial College,1,1,100.0
+1483,Welcome to Florida Medical Training Institute,1,1,100.0
+1484,Florida Metropolitan University (FMU) Online is now Everest University Online,1,0,0.0
+1485,Welcome to Fontys University of Applied Sciences,1,1,100.0
+1486,Forest Institute,1,0,0.0
+1487,Forrest College,1,1,100.0
+1488,Foundations Bible College & Theological Seminary,1,1,100.0
+1489,Fountainhead College of Technology in Knoxville TN,1,0,0.0
+1490,Fox College,1,1,100.0
+1491,Fort Peck Community College,1,1,100.0
+1492,Frank Phillips College,1,1,100.0
+1493,Saint Francis University,1,1,100.0
+1494,THE FRANKLIN CAREER INSTITUTE,1,0,0.0
+1495,Feather River Community College District,1,0,0.0
+1496,State University of New York College at Fredonia,1,1,100.0
+1497,Fresno City College,1,1,100.0
+1498,Fitchburg State College,1,0,0.0
+1499,The Florida State University,1,1,100.0
+1500,Five Towns College,1,1,100.0
+1501,Florida Technical College,1,1,100.0
+1502,Frederick Taylor University,1,1,100.0
+1503,Flathead Valley Community College,1,1,100.0
+1504,Free Will Baptist Bible College,1,0,0.0
+1505,Galen College,1,1,100.0
+1506,Gallaudet University,1,1,100.0
+1507,Garden City College of science and management studies,1,0,0.0
+1508,GateWay Community College,1,1,100.0
+1509,Gavilan College,1,1,100.0
+1510,Great Basin College,1,1,100.0
+1511,GRACE BIBLE COLLEGE,1,0,0.0
+1512,Glendale University,1,1,100.0
+1513,Garden City Community College,1,1,100.0
+1514,Gretna Career College,1,0,0.0
+1515,Gloucester County College,1,0,0.0
+1516,Welcome to Grace College of Divinity,1,0,0.0
+1517,Georgia Career Institute,1,1,100.0
+1518,State University of New York College at Geneseo,1,1,100.0
+1519,Germanna Community College,1,1,100.0
+1520,George Fox College,1,0,0.0
+1521,Graduate Institute of Applied Linguistics,1,0,0.0
+1522,Gibbs College  Boston,1,0,0.0
+1523,"Gibbs College in Livingston, New Jersey  College Programs for the Career Minded Student",1,0,0.0
+1524,Career Focused Programs at Gibbs College Cranston,1,0,0.0
+1525,Girard College,1,1,100.0
+1526,KLS Gogte Institute of Technology,1,1,100.0
+1527,Welcome to GITAM University,1,1,100.0
+1528,Great Lakes Christian College > Home,1,1,100.0
+1529,Welcome to the Global Language Institute,1,0,0.0
+1530,Globe Institute of Technology,1,0,0.0
+1531,Gurukul Lutheran Theological College & Research Institute,1,1,100.0
+1532,GMI Engineering and Management Institute,1,0,0.0
+1533,Welcome to George Mason University,1,1,100.0
+1534,Baptist Bible College Home,1,0,0.0
+1535,"Columbia College, Sonora California. A California Community College in the Sierra Foothills",1,1,100.0
+1536,Goddard College,1,0,0.0
+1537,Golden West College,1,1,100.0
+1538,Golf Colleges,1,0,0.0
+1539,"Golf Schools, Golf Colleges",1,1,100.0
+1540,Gonzaga University,1,1,100.0
+1541,Lakeshore Technical College,1,1,100.0
+1542,Georgia Perimeter College,1,0,0.0
+1543,Grace University,1,1,100.0
+1544,Grand Teton University Home Page,1,1,100.0
+1545,Granite State College,1,1,100.0
+1546,Grayson College,1,1,100.0
+1547,Great Bay Community College,1,1,100.0
+1548,Greenleaf University Online Degree Programs,1,0,0.0
+1549,Green Mountain College,1,0,0.0
+1550,Welcome to Green River Community College,1,1,100.0
+1551,Griggs University,1,1,100.0
+1552,Grossmont College,1,1,100.0
+1553,Good Samaritan College of Nursing,1,1,100.0
+1554,The General Theological Seminary,1,1,100.0
+1555,Guardian College,1,0,0.0
+1556,Gulf Coast State College,1,1,100.0
+1557,Fortis College in Tampa Florida,1,1,100.0
+1558,Hagerstown Maryland University Degrees,1,0,0.0
+1559,Hagerstown Community College,1,1,100.0
+1560,"Beauty School, Cosmetology & Hair College",1,0,0.0
+1561,Hallmark Institute of Photography / Photography School,1,1,100.0
+1562,Hallmark College,1,1,100.0
+1563,Hallmark University,1,1,100.0
+1564,Online University Degrees and,1,0,0.0
+1565,Harcum College,1,0,0.0
+1566,Hargrave Military Academy – The Premier Military Boarding School,1,1,100.0
+1567,Welcome to the Harid Conservatory,1,1,100.0
+1568,Harper College,1,1,100.0
+1569,"Harrington College of Design â Interior Design Program, Digital Photography, Graphic Design & Interior Design Schools",1,0,0.0
+1570,University of Hartford,1,1,100.0
+1571,Welcome to Hartnell College!!,1,1,100.0
+1572,Welcome to Harvest Bible University,1,1,100.0
+1573,Hellenic American University,1,1,100.0
+1574,University of Hawaii at Manoa,1,1,100.0
+1575,Hawaii Tokai International College,1,0,0.0
+1576,Haywood Community College,1,1,100.0
+1577,Hillsdale Free Will Baptist College,1,1,100.0
+1578,Hellenic College and Holy Cross Greek Orthodox,1,1,100.0
+1579,Huntington College of Health Sciences,1,0,0.0
+1580,Health Career Institute,1,1,100.0
+1581,Heritage Christian University,1,1,100.0
+1582,"Health Works Institute, Massage Therapy and Esthetics Program",1,0,0.0
+1583,Heartland Baptist Bible College,1,1,100.0
+1584,Hebron University,1,1,100.0
+1585,Heidelberg University,1,1,100.0
+1586,Hennepin Technical College ~,1,1,100.0
+1587,Heritage College,1,1,100.0
+1588,Heritage Bible College,1,1,100.0
+1589,- Heritage Institute of Technology -   - Home,1,1,100.0
+1590,Herzing University Online,1,1,100.0
+1591,New Hampshire Colleges,1,0,0.0
+1592,Holy Family University,1,1,100.0
+1593,Hibbing Community College,1,0,0.0
+1594,Hickey College,1,0,0.0
+1595,Hawaii College Of Oriental Medicine,1,0,0.0
+1596,Welcome to Highland Community College,1,1,100.0
+1597,Welcome to Hill College,1,1,100.0
+1598,ç§è·ç¥å­¸é¢ Christian Ministry Institute,1,0,0.0
+1599,Welcome to H. L. College of Commerce,1,1,100.0
+1600,Holy Names University,1,1,100.0
+1601,Ohio Technical College,1,1,100.0
+1602,The Heritage Institute,1,1,100.0
+1603,Holmes Bible College,1,1,100.0
+1604,Homeopathic College of Canada,1,0,0.0
+1605,Welcome to Hood Theological Seminary,1,1,100.0
+1606,"California State University, Long Beach",1,1,100.0
+1607,University of Houston System,1,0,0.0
+1608,State University of New York Downstate Medical Center,1,0,0.0
+1609,State University of New York Health Sience Centre Syracuse,1,0,0.0
+1610,Hebrew Theological College,1,1,100.0
+1611,Hawaii Technology Institute,1,0,0.0
+1612,Hypnosis Training College,1,1,100.0
+1613,Marshalltown Community College,1,1,100.0
+1614,Welcome to IBAIS University,1,0,0.0
+1615,International Business College,1,0,0.0
+1616,International Baptist College,1,0,0.0
+1617,International College of Broadcasting,1,0,0.0
+1618,International City Beauty College,1,0,0.0
+1619,On Campus & Online College Degrees,1,0,0.0
+1620,The Institute of Contemporary Psychoanalysis,1,1,100.0
+1621,Institute for Creation Research Education,1,1,100.0
+1622,Seminary of the Immaculate Conception,1,1,100.0
+1623,Construction School Brooklyn NY Technical School Institute of Design & Construction,1,1,100.0
+1624,"Masters and postgraduates Barcelona. MBA, in company courses, on line courses, Executive Education, IDEC Pompeu Fabra University",1,0,0.0
+1625,Interior Designers Institute,1,1,100.0
+1626,Island Drafting and Technical Institute – Associate Degrees in Drafting and Electronics,1,1,100.0
+1627,International Institute of Cosmetology,1,0,0.0
+1628,Welcome to Indian Institute of Foreign Trade,1,0,0.0
+1629,Ilisagvik College,1,1,100.0
+1630,University of Illinois at Urbana-Champaign,1,1,100.0
+1631,Welcome to ILS Law College,1,1,100.0
+1632,"IMDR, The Institute of Management Development and Research, Pune.",1,1,100.0
+1633,Immaculata University,1,0,0.0
+1634,Indiana Baptist College // Welcome,1,0,0.0
+1635,Independence Community College,1,1,100.0
+1636,INHA University,1,0,0.0
+1637,Home â InovaTech College of Business and Technology,1,0,0.0
+1638,The Institute of Technology,1,0,0.0
+1639,IntelliTec College - Grand Junction,1,1,100.0
+1640,Intercollege,1,0,0.0
+1641,Interface College,1,0,0.0
+1642,International College of Cosmetology » Financial Aid Available to those who qualify! Evening Classes Available.,1,0,0.0
+1643,University of Windsor,1,0,0.0
+1644,INSTITUTE OF THERAPEUTIC MASSAGE LIMA,1,0,0.0
+1645,Welcome to International Open University,1,1,100.0
+1646,Iowa Central Community College,1,1,100.0
+1647,Indiana University/Purdue University at Fort Wayne,1,0,0.0
+1648,Institute of Productivity & Management,1,1,100.0
+1649,Institute of Production & Recording,1,0,0.0
+1650,Institute for the Psychological Sciences,1,0,0.0
+1651,Irene\'s Myomassology Institute,1,1,100.0
+1652,Irvine University,1,0,0.0
+1653,University of Southern California,1,1,100.0
+1654,Itasca Community College,1,0,0.0
+1655,Institute of Taoist Education and Acupuncture,1,1,100.0
+1656,Ithaca College,1,1,100.0
+1657,ITI Technical College,1,1,100.0
+1658,"Institut Teknologi Pertama, Pertama Institute of Technology, Malaysia",1,0,0.0
+1659,International Theological Seminary,1,1,100.0
+1660,ITT Technical Institute,1,0,0.0
+1661,Institute of Textile Technology,1,0,0.0
+1662,Indiana University East,1,1,100.0
+1663,International University of Fundamental Studies,1,0,0.0
+1664,Indiana University at Kokomo,1,1,100.0
+1665,Indiana University Northwest,1,1,100.0
+1666,Indiana University Southeast,1,1,100.0
+1667,Iowa Western Community College,1,1,100.0
+1668,The Institute of World Politics,1,1,100.0
+1669,The Institute for Worship Studies â Forming Servant Leaders in Christian Worship Renewal,1,1,100.0
+1670,Jacksonville College-Main,1,0,0.0
+1671,Welcome to Jamestown Business College!,1,0,0.0
+1672,Johnson Bible College,1,1,100.0
+1673,Jamnalal Bajaj Institute of Management Studies,1,1,100.0
+1674,Jamestown College,1,0,0.0
+1675,Jefferson College of Health Sciences,1,0,0.0
+1676,Jones County Junior College,1,1,100.0
+1677,William Jessup University,1,1,100.0
+1678,Jordan Evangelical Theological Seminary,1,1,100.0
+1679,William Jewell College,1,1,100.0
+1680,The Johns Hopkins University Applied Physics Laboratory,1,1,100.0
+1681,Mohammad Ali Jinnah University,1,1,100.0
+1682,Jiwaji University,1,1,100.0
+1683,Welcome to JAMAL MOHAMED COLLEGE (Autonomous),1,1,100.0
+1684,José María Vargas University,1,1,100.0
+1685,Jawaharlal Nehru Medical College,1,1,100.0
+1686,JOHN PAUL II INSTITUTE,1,1,100.0
+1687,Welcome to Johnston Community College,1,0,0.0
+1688,Jones College,1,0,0.0
+1689,Jones International University,1,0,0.0
+1690,John Tyler Community College,1,0,0.0
+1691,The Jewish Theological Seminary,1,1,100.0
+1692,Jacksonville University,1,0,0.0
+1693,Kaplan University,1,0,0.0
+1694,Online University Degree Programs,1,0,0.0
+1695,Kaskaskia College,1,1,100.0
+1696,Kendall College of Art and Design,1,1,100.0
+1697,Kansas City College and Bible School,1,0,0.0
+1698,Kern Community College District,1,1,100.0
+1699,Southcentral Kentucky Community and Technical College,1,1,100.0
+1700,Kansas City University of Medicine and Biosciences,1,0,0.0
+1701,Keene State College,1,1,100.0
+1702,The Keeter Center at College of the Ozarks,1,1,100.0
+1703,Keiser University,1,1,100.0
 1704,Kendall College in Chicago IL,1,0,0.0
 1705,Kennesaw State University,1,1,100.0
 1706,Kensington College,1,0,0.0
