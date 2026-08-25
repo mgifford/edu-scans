@@ -1,5 +1,5 @@
 ﻿rank,parent_institution,urls_scanned,reachable,coverage_pct
-1,Other,1550,1539,99.3
+1,Other,1550,1540,99.4
 2,East Mississippi Community College,136,136,100.0
 3,Home Ozarka College,135,134,99.3
 4,Frederick Community College,134,134,100.0
@@ -169,7 +169,7 @@
 168,John Cabot University,7,7,100.0
 169,Eckerd College,7,7,100.0
 170,Ferris State University,7,7,100.0
-171,Concordia College,7,5,71.4
+171,Concordia College,7,6,85.7
 172,Hesston College,7,7,100.0
 173,Christian University,7,7,100.0
 174,Essex County College,7,7,100.0
@@ -221,7 +221,7 @@
 220,Kankakee Community College Home,6,6,100.0
 221,Champlain College,6,6,100.0
 222,Home â Salem College,6,6,100.0
-223,Earlham College,6,5,83.3
+223,Earlham College,6,6,100.0
 224,Gettysburg College,6,6,100.0
 225,Delaware County Community College,6,6,100.0
 226,Islamic University of Technology,6,6,100.0
@@ -355,7 +355,7 @@
 354,"Arkansas State University, Newport",4,4,100.0
 355,Bluefield College,4,4,100.0
 356,Cayuga County Community College,4,4,100.0
-357,Caldwell Community College and Technical Institute,4,3,75.0
+357,Caldwell Community College and Technical Institute,4,4,100.0
 358,Columbia College Washington D.C.,4,4,100.0
 359,Central Arizona College,4,4,100.0
 360,Clayton College & State University,4,4,100.0
@@ -417,7 +417,7 @@
 416,Le Cordon Bleu College of Culinary Arts-Chicago,4,0,0.0
 417,Chemeketa Community College,4,3,75.0
 418,City University of Seattle,4,4,100.0
-419,Clackamas Community College,4,3,75.0
+419,Clackamas Community College,4,4,100.0
 420,Cleveland Chiropractic College,4,4,100.0
 421,Colgate is a nationally recognized liberal arts college set on a beautiful,4,4,100.0
 422,College of San Mateo,4,4,100.0
@@ -454,7 +454,7 @@
 453,Johnson University,4,4,100.0
 454,Adirondack Community College,4,4,100.0
 455,Horizon College and Seminary,4,4,100.0
-456,James A Rhodes State College,4,2,50.0
+456,James A Rhodes State College,4,3,75.0
 457,Colleges in Texas Tech Training Schools,4,4,100.0
 458,Home of Southern Evangelical Seminary,4,4,100.0
 459,Hollins University,4,4,100.0
@@ -687,7 +687,7 @@
 686,American Institute,2,2,100.0
 687,Anaheim University,2,2,100.0
 688,Aaniiih Nakoda College,2,2,100.0
-689,Anna Maria College,2,1,50.0
+689,Anna Maria College,2,2,100.0
 690,Anoka Technical College Home,2,2,100.0
 691,Home page of the Asia Pacific Maritime Institute,2,2,100.0
 692,Cape Cod Community College,2,2,100.0
@@ -744,7 +744,7 @@
 743,"California State University, Los Angeles",2,2,100.0
 744,Central State University,2,2,100.0
 745,Concorde Career Colleges,2,2,100.0
-746,Carroll College Helena,2,1,50.0
+746,Carroll College Helena,2,2,100.0
 747,Carroll Community College,2,2,100.0
 748,Central Baptist College,2,2,100.0
 749,CBD College,2,2,100.0
@@ -2143,7 +2143,7 @@
 2142,Moreno Valley College,1,1,100.0
 2143,Mohawk Valley Community College,1,1,100.0
 2144,Mount Vernon Nazarene University,1,1,100.0
-2145,Mississippi Valley State University,1,0,0.0
+2145,Mississippi Valley State University,1,1,100.0
 2146,Mary Washington College,1,0,0.0
 2147,Mount Wachusett Community College in Gardner Massachusetts,1,1,100.0
 2148,Mountain West College is now Everest College,1,0,0.0
@@ -2874,7 +2874,7 @@
 2873,SOWELA Technical Community College,1,1,100.0
 2874,Spalding UniversityHome » Spalding University,1,1,100.0
 2875,Spartan College of Aeronautics and Technology,1,1,100.0
-2876,Saint Peter\'s College Home,1,0,0.0
+2876,Saint Peter\'s College Home,1,1,100.0
 2877,South Piedmont Community College,1,1,100.0
 2878,St. Petersburg College,1,1,100.0
 2879,St. Paul Christian University,1,1,100.0
@@ -3045,7 +3045,7 @@
 3044,Texas County Technical College,1,1,100.0
 3045,Toccoa Falls College,1,1,100.0
 3046,The Global Open University,1,1,100.0
-3047,Thapar University,1,0,0.0
+3047,Thapar University,1,1,100.0
 3048,The American College,1,1,100.0
 3049,The Beauty Institute,1,1,100.0
 3050,University of Sioux Falls,1,0,0.0
@@ -3553,7 +3553,7 @@
 3552,Welder Training and Testing Institute,1,1,100.0
 3553,World University of Bangladesh (WUB),1,0,0.0
 3554,Washington University,1,1,100.0
-3555,Wenatchee Valley College,1,0,0.0
+3555,Wenatchee Valley College,1,1,100.0
 3556,West Virginia Northern Community College,1,1,100.0
 3557,West Virginia University,1,1,100.0
 3558,West Virginia Wesleyan College,1,1,100.0
@@ -3567,7 +3567,7 @@
 3566,Xavier University of Louisiana,1,1,100.0
 3567,Yale University,1,1,100.0
 3568,Yorktowne Business Institute,1,0,0.0
-3569,Yavapai College,1,0,0.0
+3569,Yavapai College,1,1,100.0
 3570,York County Community College > Home,1,1,100.0
 3571,Woodland Community College,1,1,100.0
 3572,York College of Pennsylvania,1,1,100.0
