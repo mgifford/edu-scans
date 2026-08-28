@@ -5,9 +5,9 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-08-27 16:30 UTC — last scan: 2026-08-27_
+_Stats as of 2026-08-28 17:26 UTC — last scan: 2026-08-28_
 
-**37** scan batches run
+**39** scan batches run
 
 **8,266** of **20,142** available domains scanned (**41.0%** coverage)
 **7,311** of **8,266** scanned domains were reachable (**88.4%**)
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,832 | 1,133 | 950 | 40.0% | Aug 2026 |
-| Usa Edu Master Subdomains | 8,260 | 16,279 | 7,305 | 2,502 | 1,921 | 34.3% | Aug 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,832 | 1,138 | 955 | 40.2% | Aug 2026 |
+| Usa Edu Master Subdomains | 8,260 | 16,279 | 7,305 | 2,503 | 1,922 | 34.3% | Aug 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 58 | 56 | 64.4% | Aug 2026 |
-| **Total** | **12,141** | **20,142** | **10,227** | **3,693** | **2,927** | **36.1%** | — |
+| **Total** | **12,141** | **20,142** | **10,227** | **3,699** | **2,933** | **36.2%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
