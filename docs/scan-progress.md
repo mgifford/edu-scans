@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-08-28 17:26 UTC_
+_Generated: 2026-08-29 11:39 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -28,6 +28,7 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 
 | Date | Accessibility | Social Media | Technology | Third-Party JS | Lighthouse |
 |------|--------------|--------------|------------|----------------|------------|
+| 2026-08-29 | 60.3% | 67.2% | 67.2% | 15.8% | 27.0% |
 | 2026-08-28 | 60.3% | 67.2% | 67.2% | 15.8% | 27.0% |
 | 2026-08-27 | 60.3% | 67.2% | 67.2% | 15.8% | 27.0% |
 | 2026-08-26 | 60.3% | 67.2% | 67.2% | 15.8% | 27.0% |
@@ -41,7 +42,6 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 | 2026-08-18 | 15.4% | 65.3% | 0.0% | 0.0% | 0.0% |
 | 2026-08-02 | 60.3% | 67.7% | 67.7% | 15.8% | 3.0% |
 | 2026-08-01 | 60.6% | 68.0% | 68.0% | 15.8% | 3.0% |
-| 2026-07-31 | 60.6% | 68.0% | 68.0% | 15.8% | 3.0% |
 
 > Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. Lighthouse scans take longer per URL and may lag other scan types; the auto-prioritisation step compensates by triggering extra runs for the most-lagging scan each day.
 
@@ -141,7 +141,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 2,832 | 1,138 | 955 | 40% | Aug 2026 |
+| Usa Edu Master | 3,780 | 2,832 | 1,141 | 957 | 40% | Aug 2026 |
 | Usa Edu Master Subdomains | 8,260 | 7,305 | 2,503 | 1,922 | 34% | Aug 2026 |
 | Usa Edu Top100 | 101 | 90 | 58 | 56 | 64% | Aug 2026 |
 
@@ -151,7 +151,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,187 | 2026-08-28 |
+| Usa Edu Master | 3,187 | 2026-08-29 |
 
 ## Countries With Social Scan But No URL Validation
 
