@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-09-02 09:36 UTC_
+_Generated: 2026-09-03 09:47 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -28,6 +28,7 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 
 | Date | Accessibility | Social Media | Technology | Third-Party JS | Lighthouse |
 |------|--------------|--------------|------------|----------------|------------|
+| 2026-09-03 | 60.3% | 67.2% | 67.2% | 15.8% | 31.1% |
 | 2026-09-02 | 60.3% | 67.2% | 67.2% | 15.8% | 31.1% |
 | 2026-09-01 | 60.3% | 67.2% | 67.2% | 15.8% | 31.1% |
 | 2026-08-31 | 60.3% | 67.2% | 67.2% | 15.8% | 29.7% |
@@ -41,7 +42,6 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 | 2026-08-23 | 60.1% | 64.8% | 64.8% | 15.3% | 17.0% |
 | 2026-08-22 | 60.6% | 65.3% | 65.3% | 15.4% | 7.2% |
 | 2026-08-21 | 60.5% | 65.3% | 65.3% | 15.4% | 0.0% |
-| 2026-08-20 | 60.3% | 65.3% | 65.3% | 15.4% | 0.0% |
 
 > Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. Lighthouse scans take longer per URL and may lag other scan types; the auto-prioritisation step compensates by triggering extra runs for the most-lagging scan each day.
 
@@ -130,8 +130,8 @@ Aggregated results across all institutions grouped by parent organization (syste
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,749 | 2026-09-01 |
-| Usa Edu Master Subdomains | 9,695 | 2026-09-02 |
+| Usa Edu Master | 3,749 | 2026-09-02 |
+| Usa Edu Master Subdomains | 9,695 | 2026-09-03 |
 | Usa Edu Top100 | 100 | 2026-09-01 |
 
 ## Lighthouse Scan by Country
@@ -149,8 +149,8 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 2,834 | 1,148 | 960 | 41% | Aug 2026 – Sep 2026 |
-| Usa Edu Master Subdomains | 8,260 | 7,308 | 2,529 | 1,946 | 35% | Aug 2026 – Sep 2026 |
+| Usa Edu Master | 3,780 | 2,834 | 1,149 | 960 | 41% | Aug 2026 – Sep 2026 |
+| Usa Edu Master Subdomains | 8,260 | 7,308 | 2,533 | 1,950 | 35% | Aug 2026 – Sep 2026 |
 | Usa Edu Top100 | 101 | 90 | 58 | 56 | 64% | Aug 2026 – Sep 2026 |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
@@ -159,7 +159,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,187 | 2026-09-02 |
+| Usa Edu Master | 3,187 | 2026-09-03 |
 
 ## Countries With Social Scan But No URL Validation
 
