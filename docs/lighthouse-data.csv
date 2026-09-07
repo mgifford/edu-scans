@@ -1001,7 +1001,6 @@ USA_EDU_MASTER_SUBDOMAINS,https://brand.holycross.edu/,91.0,93.0,100.0,92.0,,202
 USA_EDU_MASTER_SUBDOMAINS,https://brand.louisville.edu/,70.0,100.0,77.0,92.0,,2026-08-31T17:25:13.171550+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://brand.oberlin.edu/,92.0,100.0,54.0,91.0,,2026-08-22T17:27:32.936390+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://brand.ozarka.edu/,90.0,87.0,96.0,92.0,,2026-08-31T00:24:28.923879+00:00
-USA_EDU_MASTER_SUBDOMAINS,https://brandeis.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65242),2026-09-05T18:29:52.095686+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://brandman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-09-05T18:11:49.092745+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://brazosport.edu/,100.0,92.0,77.0,85.0,,2026-08-22T07:10:50.088220+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://brc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-09-05T18:24:53.414694+00:00
@@ -1370,7 +1369,6 @@ USA_EDU_MASTER_SUBDOMAINS,https://case.fiu.edu/sish/,95.0,96.0,77.0,92.0,,2026-0
 USA_EDU_MASTER_SUBDOMAINS,https://caspercollege.edu/,90.0,99.0,77.0,100.0,,2026-08-22T08:03:59.179623+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://castleton.edu/,98.0,100.0,58.0,100.0,,2026-08-22T08:04:01.831196+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://catawba.edu/,82.0,90.0,69.0,83.0,,2026-08-22T08:04:26.489195+00:00
-USA_EDU_MASTER_SUBDOMAINS,https://cau.edu/,,,,,Lighthouse timed out after 120s,2026-09-05T18:41:21.602047+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://cayuga-cc.edu/,82.0,100.0,100.0,100.0,,2026-08-22T08:08:16.970798+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://cbc.edu/,100.0,90.0,73.0,100.0,,2026-08-22T08:13:49.442572+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://cbcag.edu/,99.0,97.0,77.0,100.0,,2026-08-22T08:14:21.535265+00:00
@@ -1690,7 +1688,6 @@ USA_EDU_MASTER_SUBDOMAINS,https://collinscollege.edu/,,,,,Invalid JSON output fr
 USA_EDU_MASTER_SUBDOMAINS,https://coloradocollege.edu/,96.0,100.0,77.0,92.0,,2026-08-22T18:00:04.531615+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://coloradomesa.edu/,87.0,100.0,54.0,100.0,,2026-08-22T18:02:03.555952+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://coloradomtn.edu/,68.0,100.0,69.0,100.0,,2026-08-22T18:02:42.055306+00:00
-USA_EDU_MASTER_SUBDOMAINS,https://colostate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-09-05T18:46:15.318670+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://colsouth.edu/,,,,,Lighthouse timed out after 120s,2026-09-05T18:17:03.134880+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://colum.edu/,90.0,95.0,77.0,92.0,,2026-08-22T18:10:28.131843+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://columbia.edu/,83.0,97.0,35.0,83.0,,2026-08-22T18:16:58.085196+00:00
@@ -3048,7 +3045,6 @@ USA_EDU_MASTER_SUBDOMAINS,https://gvsu.edu/,88.0,98.0,58.0,100.0,,2026-08-25T10:
 USA_EDU_MASTER_SUBDOMAINS,https://gw.edu/,100.0,92.0,96.0,92.0,,2026-08-24T18:43:30.817157+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://gwinnettcollege.edu/,78.0,92.0,77.0,85.0,,2026-08-30T20:35:17.118102+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://gwinnetttech.edu/,81.0,90.0,54.0,92.0,,2026-08-30T20:35:49.753042+00:00
-USA_EDU_MASTER_SUBDOMAINS,https://gwu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-09-05T19:06:19.686541+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://hacc.edu/,66.0,93.0,77.0,92.0,,2026-08-30T20:37:53.350680+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://hacc.teamdynamix.com/TDClient/78/Portal/Home/,77.0,100.0,81.0,92.0,,2026-08-30T20:38:29.515118+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://hagerstownbusinesscol.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65053),2026-09-05T19:10:19.108809+00:00
@@ -3784,7 +3780,6 @@ USA_EDU_MASTER_SUBDOMAINS,https://jefferson.edu/,92.0,90.0,35.0,100.0,,2026-08-2
 USA_EDU_MASTER_SUBDOMAINS,https://jeffersonhealth.wd5.myworkdayjobs.com/ThomasJeffersonExternal,91.0,97.0,96.0,100.0,,2026-08-21T04:49:43.651804+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://jets.edu/,55.0,84.0,96.0,85.0,,2026-09-05T00:08:44.069539+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://jfku.edu/,99.0,92.0,77.0,92.0,,2026-09-04T23:58:27.271246+00:00
-USA_EDU_MASTER_SUBDOMAINS,https://jh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-09-05T19:21:11.914768+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://jiwaji.edu/,68.0,63.0,92.0,73.0,,2026-09-04T23:55:36.624572+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://jjc.edu/,98.0,93.0,77.0,85.0,,2026-09-05T00:07:51.017608+00:00
 USA_EDU_MASTER_SUBDOMAINS,https://jmu.edu/,80.0,95.0,77.0,92.0,,2026-09-04T23:46:43.321860+00:00
@@ -7382,11 +7377,16 @@ USA_EDU_MASTER_SUBDOMAINS,https://wycliffe.edu/,100.0,87.0,100.0,92.0,,2026-09-0
 USA_EDU_MASTER_SUBDOMAINS,https://ycce.edu/,55.0,80.0,96.0,85.0,,2026-08-21T04:51:29.185027+00:00
 USA_EDU_TOP100,https://arizona.edu/,82.0,94.0,73.0,100.0,,2026-08-21T06:59:04.303746+00:00
 USA_EDU_TOP100,https://berkeley.edu/,74.0,100.0,100.0,92.0,,2026-08-21T06:48:29.334403+00:00
+USA_EDU_TOP100,https://brandeis.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65244),2026-09-07T09:16:55.208712+00:00
+USA_EDU_TOP100,https://cau.edu/,,,,,Lighthouse timed out after 120s,2026-09-07T09:17:09.669362+00:00
 USA_EDU_TOP100,https://colorado.edu/,79.0,85.0,58.0,85.0,,2026-08-21T06:54:47.075130+00:00
+USA_EDU_TOP100,https://colostate.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-09-07T09:17:07.434891+00:00
 USA_EDU_TOP100,https://du.edu/,91.0,88.0,54.0,92.0,,2026-08-21T07:02:31.193455+00:00
 USA_EDU_TOP100,https://fsu.edu/,93.0,97.0,58.0,92.0,,2026-08-21T06:51:58.006616+00:00
 USA_EDU_TOP100,https://gmu.edu/,78.0,98.0,35.0,85.0,,2026-08-21T06:56:03.547404+00:00
+USA_EDU_TOP100,https://gwu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-09-07T09:17:04.446852+00:00
 USA_EDU_TOP100,https://isi.edu/,93.0,100.0,73.0,92.0,,2026-08-21T06:50:28.507888+00:00
+USA_EDU_TOP100,https://jh.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65013),2026-09-07T09:16:17.469407+00:00
 USA_EDU_TOP100,https://ksu.edu/,95.0,100.0,73.0,100.0,,2026-08-21T07:00:01.864878+00:00
 USA_EDU_TOP100,https://ku.edu/,87.0,100.0,100.0,100.0,,2026-08-21T06:57:10.253513+00:00
 USA_EDU_TOP100,https://lsu.edu/,94.0,93.0,77.0,92.0,,2026-08-21T06:59:34.093271+00:00
@@ -7398,9 +7398,9 @@ USA_EDU_TOP100,https://morehouse.edu/,87.0,92.0,58.0,92.0,,2026-08-21T07:03:50.2
 USA_EDU_TOP100,https://msu.edu/,91.0,91.0,54.0,85.0,,2026-08-21T06:54:28.043197+00:00
 USA_EDU_TOP100,https://northeastern.edu/,55.0,93.0,73.0,69.0,,2026-08-21T06:55:53.289522+00:00
 USA_EDU_TOP100,https://northwestern.edu/,90.0,95.0,100.0,100.0,,2026-08-21T06:46:48.031958+00:00
-USA_EDU_TOP100,https://notredame.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-09-05T18:02:32.415286+00:00
-USA_EDU_TOP100,https://nyu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65399),2026-09-05T18:03:03.354055+00:00
-USA_EDU_TOP100,https://ohio-state.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-09-05T18:03:03.481402+00:00
+USA_EDU_TOP100,https://notredame.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65028),2026-09-07T09:16:19.472240+00:00
+USA_EDU_TOP100,https://nyu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65399),2026-09-07T09:16:46.442684+00:00
+USA_EDU_TOP100,https://ohio-state.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65031),2026-09-07T09:16:46.503370+00:00
 USA_EDU_TOP100,https://olemiss.edu/,72.0,100.0,58.0,100.0,,2026-08-21T07:00:25.164774+00:00
 USA_EDU_TOP100,https://oregonstate.edu/,89.0,92.0,54.0,100.0,,2026-08-21T06:57:20.877245+00:00
 USA_EDU_TOP100,https://pitt.edu/,98.0,100.0,96.0,92.0,,2026-08-21T06:54:07.077190+00:00
@@ -7428,7 +7428,7 @@ USA_EDU_TOP100,https://uci.edu/,100.0,100.0,96.0,91.0,,2026-08-21T06:52:58.31285
 USA_EDU_TOP100,https://ucla.edu/,100.0,99.0,92.0,100.0,,2026-08-21T06:48:00.562262+00:00
 USA_EDU_TOP100,https://uconn.edu/,96.0,96.0,77.0,92.0,,2026-08-21T06:55:19.769395+00:00
 USA_EDU_TOP100,https://ucsd.edu/,79.0,88.0,58.0,100.0,,2026-08-21T06:48:46.177313+00:00
-USA_EDU_TOP100,https://uf.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-09-05T18:02:34.417119+00:00
+USA_EDU_TOP100,https://uf.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65062),2026-09-07T09:16:21.474839+00:00
 USA_EDU_TOP100,https://uga.edu/,88.0,95.0,58.0,85.0,,2026-08-21T06:52:02.238747+00:00
 USA_EDU_TOP100,https://uillinois.edu/,84.0,95.0,50.0,83.0,,2026-08-21T06:52:52.958243+00:00
 USA_EDU_TOP100,https://uiowa.edu/,96.0,100.0,73.0,100.0,,2026-08-21T06:57:56.887459+00:00
@@ -7448,7 +7448,7 @@ USA_EDU_TOP100,https://vanderbilt.edu/,95.0,94.0,69.0,83.0,,2026-08-21T06:47:28.
 USA_EDU_TOP100,https://villanova.edu/,44.0,92.0,73.0,92.0,,2026-08-21T07:01:13.311851+00:00
 USA_EDU_TOP100,https://virginia.edu/,91.0,88.0,69.0,100.0,,2026-08-21T08:49:30.034083+00:00
 USA_EDU_TOP100,https://vt.edu/,92.0,96.0,58.0,83.0,,2026-08-21T06:57:38.783184+00:00
-USA_EDU_TOP100,https://wakeforest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65076),2026-09-05T18:02:58.331067+00:00
+USA_EDU_TOP100,https://wakeforest.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65078),2026-09-07T09:16:40.755412+00:00
 USA_EDU_TOP100,https://wisc.edu/,94.0,100.0,77.0,100.0,,2026-08-21T06:52:31.593843+00:00
 USA_EDU_TOP100,https://xula.edu/,92.0,87.0,50.0,82.0,,2026-08-21T07:03:21.350681+00:00
 USA_EDU_TOP100,https://yale.edu/,100.0,88.0,100.0,92.0,,2026-08-21T06:45:57.195776+00:00
