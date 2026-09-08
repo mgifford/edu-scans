@@ -5,9 +5,9 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-09-07 10:16 UTC — last scan: 2026-09-07_
+_Stats as of 2026-09-08 09:40 UTC — last scan: 2026-09-07_
 
-**42** scan batches run
+**43** scan batches run
 
 **7,453** of **100** available pages audited (**7453.0%** coverage)
 **6,872** successful audits (**92.2%** of audited)
