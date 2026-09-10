@@ -5,9 +5,9 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-09-09 09:44 UTC — last scan: 2026-09-09_
+_Stats as of 2026-09-10 09:43 UTC — last scan: 2026-09-10_
 
-**70** scan batches run
+**73** scan batches run
 
 **8,266** of **3,863** available domains scanned (**214.0%** coverage)
 **7,316** of **8,266** scanned domains were reachable (**88.5%**)
