@@ -5,9 +5,9 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-09-11 09:40 UTC — last scan: 2026-09-11_
+_Stats as of 2026-09-12 09:21 UTC — last scan: 2026-09-12_
 
-**48** scan batches run
+**50** scan batches run
 
 **7,453** of **100** available pages audited (**7453.0%** coverage)
 **6,872** successful audits (**92.2%** of audited)
@@ -25,7 +25,7 @@ _Stats as of 2026-09-11 09:40 UTC — last scan: 2026-09-11_
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
 | Usa Edu Master Subdomains | 7,381 | — | 90 | 91 | 78 | 83 | 2026-09-05 |
-| Usa Edu Top100 | 100 | 100 | 87 | 95 | 68 | 93 | 2026-09-11 |
+| Usa Edu Top100 | 100 | 100 | 87 | 95 | 68 | 93 | 2026-09-12 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
