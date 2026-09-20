@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
+_Stats as of 2026-09-20 09:49 UTC — last scan: 2026-09-19_
 
-**71** scan batches run
+**75** scan batches run
 
-**8,838** of **16,173** available pages audited (**54.6%** coverage)
-**8,085** successful audits (**91.5%** of audited)
+**8,897** of **16,173** available pages audited (**55.0%** coverage)
+**8,131** successful audits (**91.4%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master Subdomains | 8,777 | 16,073 | 90 | 91 | 78 | 82 | 2026-09-19 |
-| Usa Edu Top100 | 100 | 100 | 87 | 95 | 68 | 93 | 2026-09-18 |
+| Usa Edu Master Subdomains | 8,838 | 16,073 | 90 | 91 | 78 | 82 | 2026-09-19 |
+| Usa Edu Top100 | 99 | 100 | 87 | 95 | 68 | 93 | 2026-09-19 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 7,041 of 7,041 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 7,098 of 7,098 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -2181,6 +2181,7 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="divine word college dwci.edu"><td>Divine Word College</td><td>dwci.edu</td><td>1</td><td>75</td><td>90</td><td>96</td><td>92</td></tr>
 <tr data-search="dakota wesleyan university dwu.edu"><td>Dakota Wesleyan University</td><td>dwu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="d&#x27;youville college dyc.edu"><td>D&#x27;Youville College</td><td>dyc.edu</td><td>1</td><td>98</td><td>100</td><td>50</td><td>92</td></tr>
+<tr data-search="padmashree dr. d.y. patil university dypatil.edu"><td>Padmashree Dr. D.Y. Patil University</td><td>dypatil.edu</td><td>1</td><td>61</td><td>90</td><td>50</td><td>92</td></tr>
 <tr data-search="eastern arizona college homepage eac.edu"><td>Eastern Arizona College Homepage</td><td>eac.edu</td><td>1</td><td>87</td><td>86</td><td>54</td><td>100</td></tr>
 <tr data-search="eastern arizona college homepage eacc.edu"><td>Eastern Arizona College Homepage</td><td>eacc.edu</td><td>1</td><td>95</td><td>100</td><td>92</td><td>92</td></tr>
 <tr data-search="earlham college earlham.edu"><td>Earlham College</td><td>earlham.edu</td><td>1</td><td>42</td><td>83</td><td>54</td><td>85</td></tr>
@@ -5596,13 +5597,53 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="oxnard college oxnardcollege.edu"><td>Oxnard College</td><td>oxnardcollege.edu</td><td>1</td><td>90</td><td>98</td><td>73</td><td>85</td></tr>
 <tr data-search="occidental college oxy.edu"><td>Occidental College</td><td>oxy.edu</td><td>1</td><td>86</td><td>84</td><td>77</td><td>100</td></tr>
 <tr data-search="home ozarka college ozarka.edu"><td>Home Ozarka College</td><td>ozarka.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pace university in the city of new york and westchester county pace.edu"><td>Pace University in the City of New York and Westchester County</td><td>pace.edu</td><td>1</td><td>77</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="pace institute paceinstitute.edu"><td>Pace Institute</td><td>paceinstitute.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pacifica graduate institute pacifica.edu"><td>Pacifica Graduate Institute</td><td>pacifica.edu</td><td>1</td><td>90</td><td>83</td><td>73</td><td>85</td></tr>
+<tr data-search="pacific life bible college pacificlife.edu"><td>Pacific Life Bible College</td><td>pacificlife.edu</td><td>1</td><td>99</td><td>88</td><td>77</td><td>100</td></tr>
+<tr data-search="pacific oaks college pacificoaks.edu"><td>Pacific Oaks College</td><td>pacificoaks.edu</td><td>1</td><td>53</td><td>97</td><td>54</td><td>85</td></tr>
+<tr data-search="pacific university pacificu.edu"><td>Pacific University</td><td>pacificu.edu</td><td>1</td><td>93</td><td>97</td><td>73</td><td>85</td></tr>
 <tr data-search="pack.astate.edu pack.astate.edu"><td>pack.astate.edu</td><td>pack.astate.edu</td><td>1</td><td>76</td><td>100</td><td>96</td><td>83</td></tr>
 <tr data-search="pages.hmc.edu pages.hmc.edu"><td>pages.hmc.edu</td><td>pages.hmc.edu</td><td>1</td><td>100</td><td>88</td><td>96</td><td>80</td></tr>
+<tr data-search="paier college of art paiercollegeofart.edu"><td>Paier College of Art</td><td>paiercollegeofart.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="paine college. augusta, ga. paine.edu"><td>Paine College. Augusta, GA.</td><td>paine.edu</td><td>1</td><td>81</td><td>96</td><td>96</td><td>92</td></tr>
+<tr data-search="palmer college of chiropractic palmbeachstate.edu"><td>Palmer College of Chiropractic</td><td>palmbeachstate.edu</td><td>1</td><td>79</td><td>100</td><td>73</td><td>92</td></tr>
+<tr data-search="palmer theological seminary palmerseminary.edu"><td>Palmer Theological Seminary</td><td>palmerseminary.edu</td><td>1</td><td>79</td><td>80</td><td>50</td><td>100</td></tr>
+<tr data-search="palo alto university paloaltou.edu"><td>Palo Alto University</td><td>paloaltou.edu</td><td>1</td><td>73</td><td>94</td><td>69</td><td>85</td></tr>
+<tr data-search="palomar community college district palomar.edu"><td>Palomar Community College District</td><td>palomar.edu</td><td>1</td><td>86</td><td>92</td><td>77</td><td>85</td></tr>
+<tr data-search="palomar community college district paloverde.edu"><td>Palomar Community College District</td><td>paloverde.edu</td><td>1</td><td>94</td><td>95</td><td>100</td><td>77</td></tr>
+<tr data-search="pamlico community college pamlicocc.edu"><td>Pamlico Community College</td><td>pamlicocc.edu</td><td>1</td><td>86</td><td>88</td><td>100</td><td>100</td></tr>
+<tr data-search="panola college panola.edu"><td>Panola College</td><td>panola.edu</td><td>1</td><td>99</td><td>88</td><td>77</td><td>100</td></tr>
+<tr data-search="paradise valley community college paradisevalley.edu"><td>Paradise Valley Community College</td><td>paradisevalley.edu</td><td>1</td><td>84</td><td>100</td><td>54</td><td>85</td></tr>
 <tr data-search="aba approved programs and accredited paralegal college paralegal.edu"><td>ABA Approved Programs and Accredited Paralegal College</td><td>paralegal.edu</td><td>1</td><td>86</td><td>80</td><td>73</td><td>85</td></tr>
+<tr data-search="paris junior college parisjc.edu"><td>Paris Junior College</td><td>parisjc.edu</td><td>1</td><td>96</td><td>96</td><td>73</td><td>85</td></tr>
+<tr data-search="park university park.edu"><td>Park University</td><td>park.edu</td><td>1</td><td>94</td><td>92</td><td>73</td><td>92</td></tr>
+<tr data-search="parkland college parkland.edu"><td>Parkland College</td><td>parkland.edu</td><td>1</td><td>75</td><td>68</td><td>54</td><td>92</td></tr>
+<tr data-search="parks college is now everest college parks.edu"><td>Parks College is now Everest College</td><td>parks.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pasadena city college pasadena.edu"><td>Pasadena City College</td><td>pasadena.edu</td><td>1</td><td>88</td><td>94</td><td>73</td><td>92</td></tr>
+<tr data-search="passion university home page passion.edu"><td>Passion University Home Page</td><td>passion.edu</td><td>1</td><td>95</td><td>91</td><td>96</td><td>100</td></tr>
 <tr data-search="password.eastern.edu password.eastern.edu"><td>password.eastern.edu</td><td>password.eastern.edu</td><td>2</td><td>94</td><td>98</td><td>100</td><td>91</td></tr>
+<tr data-search="patrick henry community college patrickhenry.edu"><td>Patrick Henry Community College</td><td>patrickhenry.edu</td><td>1</td><td>91</td><td>92</td><td>100</td><td>85</td></tr>
+<tr data-search="paul quinn college paulquinn.edu"><td>Paul Quinn College</td><td>paulquinn.edu</td><td>1</td><td>100</td><td>99</td><td>54</td><td>100</td></tr>
+<tr data-search="paul smith\&#x27;s college paulsmiths.edu"><td>Paul Smith\&#x27;s College</td><td>paulsmiths.edu</td><td>1</td><td>76</td><td>98</td><td>58</td><td>100</td></tr>
+<tr data-search="payne seminary payne.edu"><td>Payne Seminary</td><td>payne.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="palm beach atlantic university pba.edu"><td>Palm Beach Atlantic University</td><td>pba.edu</td><td>1</td><td>92</td><td>95</td><td>73</td><td>100</td></tr>
+<tr data-search="palm beach atlantic college pbac.edu"><td>Palm Beach Atlantic College</td><td>pbac.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pennsylvania college of art &amp; design &gt; your place to prepare for a life in art pcad.edu"><td>Pennsylvania College of Art &amp; Design &gt; Your place to prepare for a life in art</td><td>pcad.edu</td><td>1</td><td>95</td><td>83</td><td>58</td><td>75</td></tr>
+<tr data-search="passaic county community college pccc.edu"><td>Passaic County Community College</td><td>pccc.edu</td><td>1</td><td>94</td><td>94</td><td>73</td><td>77</td></tr>
+<tr data-search="pensacola christian college pcci.edu"><td>Pensacola Christian College</td><td>pcci.edu</td><td>1</td><td>94</td><td>96</td><td>73</td><td>92</td></tr>
+<tr data-search="pennsylvania college of technology pct.edu"><td>Pennsylvania College of Technology</td><td>pct.edu</td><td>1</td><td>65</td><td>84</td><td>69</td><td>85</td></tr>
+<tr data-search="pass christian university pcu.edu"><td>Pass Christian University</td><td>pcu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="paul d. camp community college pdc.edu"><td>Paul D. Camp Community College</td><td>pdc.edu</td><td>1</td><td>83</td><td>98</td><td>77</td><td>92</td></tr>
+<tr data-search="pebble hills university pebblehills.edu"><td>Pebble Hills University</td><td>pebblehills.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pembroke state university pembroke.edu"><td>Pembroke State University</td><td>pembroke.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pennsylvania highlands community college pennhighlands.edu"><td>Pennsylvania Highlands Community College</td><td>pennhighlands.edu</td><td>1</td><td>35</td><td>92</td><td>54</td><td>92</td></tr>
+<tr data-search="pensacola state college pensacolastate.edu"><td>Pensacola State College</td><td>pensacolastate.edu</td><td>1</td><td>95</td><td>79</td><td>35</td><td>85</td></tr>
+<tr data-search="peoples college of law peoplescollegeoflaw.edu"><td>PEOPLES COLLEGE OF LAW</td><td>peoplescollegeoflaw.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pepperdine university pepperdine.edu"><td>Pepperdine University</td><td>pepperdine.edu</td><td>1</td><td>76</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="college of alameda peralta.edu"><td>College of Alameda</td><td>peralta.edu</td><td>1</td><td>92</td><td>99</td><td>50</td><td>100</td></tr>
 <tr data-search="peralta.samanage.com peralta.samanage.com"><td>peralta.samanage.com</td><td>peralta.samanage.com</td><td>1</td><td>100</td><td>100</td><td>58</td><td>54</td></tr>
+<tr data-search="perelandra college perelandra.edu"><td>Perelandra College</td><td>perelandra.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="pg.4cd.edu pg.4cd.edu"><td>pg.4cd.edu</td><td>pg.4cd.edu</td><td>3</td><td>95</td><td>95</td><td>100</td><td>91</td></tr>
 <tr data-search="pg.grcc.edu pg.grcc.edu"><td>pg.grcc.edu</td><td>pg.grcc.edu</td><td>2</td><td>94</td><td>92</td><td>96</td><td>83</td></tr>
 <tr data-search="american international university - bangladesh pharmacy.aiub.edu"><td>American International University - Bangladesh</td><td>pharmacy.aiub.edu</td><td>1</td><td>55</td><td>90</td><td>96</td><td>100</td></tr>
@@ -5619,8 +5660,11 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="idaho state university pharmacy.isu.edu"><td>Idaho State University</td><td>pharmacy.isu.edu</td><td>1</td><td>100</td><td>62</td><td>100</td><td>75</td></tr>
 <tr data-search="an-najah national university pharmacy.najah.edu"><td>An-Najah National University</td><td>pharmacy.najah.edu</td><td>1</td><td>54</td><td>82</td><td>77</td><td>91</td></tr>
 <tr data-search="home ozarka college pharmacy.ozarka.edu"><td>Home Ozarka College</td><td>pharmacy.ozarka.edu</td><td>1</td><td>83</td><td>87</td><td>96</td><td>92</td></tr>
+<tr data-search="patrick henry college phc.edu"><td>Patrick Henry College</td><td>phc.edu</td><td>1</td><td>92</td><td>82</td><td>62</td><td>77</td></tr>
+<tr data-search="pasco-hernando community college phcc.edu"><td>Pasco-Hernando Community College</td><td>phcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="philanthropies.churchofjesuschrist.org philanthropies.churchofjesuschrist.org"><td>philanthropies.churchofjesuschrist.org</td><td>philanthropies.churchofjesuschrist.org</td><td>3</td><td>82</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="online college degree programs â online school phoenix.edu"><td>Online College Degree Programs â Online School</td><td>phoenix.edu</td><td>1</td><td>100</td><td>88</td><td>54</td><td>85</td></tr>
+<tr data-search="pasco-hernando state college phsc.edu"><td>Pasco-Hernando State College</td><td>phsc.edu</td><td>1</td><td>100</td><td>97</td><td>73</td><td>92</td></tr>
 <tr data-search="physics-engineering.highline.edu physics-engineering.highline.edu"><td>physics-engineering.highline.edu</td><td>physics-engineering.highline.edu</td><td>1</td><td>95</td><td>80</td><td>73</td><td>77</td></tr>
 <tr data-search="american international university - bangladesh physics.aiub.edu"><td>American International University - Bangladesh</td><td>physics.aiub.edu</td><td>1</td><td>56</td><td>90</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: physics.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>physics.anrcollege.edu</td><td>1</td><td>94</td><td>60</td><td>73</td><td>82</td></tr>
@@ -5654,8 +5698,15 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="home ozarka college physics.ozarka.edu"><td>Home Ozarka College</td><td>physics.ozarka.edu</td><td>1</td><td>90</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="college of william and mary physics.wm.edu"><td>College of William and Mary</td><td>physics.wm.edu</td><td>1</td><td>95</td><td>100</td><td>69</td><td>85</td></tr>
 <tr data-search="los angeles pierce college piercecollege.edu"><td>Los Angeles Pierce College</td><td>piercecollege.edu</td><td>1</td><td>95</td><td>96</td><td>73</td><td>83</td></tr>
+<tr data-search="pennsylvania institute of health and technology piht.edu"><td>Pennsylvania Institute of Health and Technology</td><td>piht.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="pirateport.ecu.edu pirateport.ecu.edu"><td>pirateport.ecu.edu</td><td>pirateport.ecu.edu</td><td>1</td><td>96</td><td>100</td><td>100</td><td>66</td></tr>
-<tr data-search="pennsylvania institute of technology, media, pa pitt.edu"><td>Pennsylvania Institute of Technology, Media, PA</td><td>pitt.edu</td><td>1</td><td>98</td><td>100</td><td>96</td><td>92</td></tr>
+<tr data-search="pennsylvania institute of technology, media, pa pit.edu"><td>Pennsylvania Institute of Technology, Media, PA</td><td>pit.edu</td><td>1</td><td>89</td><td>88</td><td>69</td><td>85</td></tr>
+<tr data-search="pennsylvania institute of technology, media, pa pitt.edu"><td>Pennsylvania Institute of Technology, Media, PA</td><td>pitt.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
+<tr data-search="pacific islands university piu.edu"><td>Pacific Islands University</td><td>piu.edu</td><td>1</td><td>95</td><td>90</td><td>96</td><td>85</td></tr>
+<tr data-search="pacific lutheran theological seminary plts.edu"><td>Pacific Lutheran Theological Seminary</td><td>plts.edu</td><td>1</td><td>71</td><td>64</td><td>77</td><td>77</td></tr>
+<tr data-search="pacific lutheran university plu.edu"><td>Pacific Lutheran University</td><td>plu.edu</td><td>1</td><td>87</td><td>95</td><td>77</td><td>92</td></tr>
+<tr data-search="pacific northwest college of art pnca.edu"><td>Pacific Northwest College of Art</td><td>pnca.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="pacific northwest university of health sciences pnwu.edu"><td>Pacific Northwest University of Health Sciences</td><td>pnwu.edu</td><td>1</td><td>76</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh police.aiub.edu"><td>American International University - Bangladesh</td><td>police.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="carl albert state college police.carlalbert.edu"><td>Carl Albert State College</td><td>police.carlalbert.edu</td><td>1</td><td>100</td><td>72</td><td>100</td><td>90</td></tr>
 <tr data-search="christendom college police.christendom.edu"><td>Christendom College</td><td>police.christendom.edu</td><td>1</td><td>—</td><td>80</td><td>92</td><td>50</td></tr>
@@ -5754,7 +5805,9 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="portal.vsc.edu portal.vsc.edu"><td>portal.vsc.edu</td><td>portal.vsc.edu</td><td>1</td><td>95</td><td>94</td><td>58</td><td>54</td></tr>
 <tr data-search="portalguard.canyons.edu portalguard.canyons.edu"><td>portalguard.canyons.edu</td><td>portalguard.canyons.edu</td><td>3</td><td>93</td><td>93</td><td>100</td><td>91</td></tr>
 <tr data-search="post.davenport.edu post.davenport.edu"><td>post.davenport.edu</td><td>post.davenport.edu</td><td>1</td><td>80</td><td>91</td><td>58</td><td>92</td></tr>
+<tr data-search="palestine polytechnic university ppu.edu"><td>Palestine Polytechnic University</td><td>ppu.edu</td><td>1</td><td>44</td><td>76</td><td>96</td><td>75</td></tr>
 <tr data-search="pratt.duke.edu pratt.duke.edu"><td>pratt.duke.edu</td><td>pratt.duke.edu</td><td>1</td><td>82</td><td>99</td><td>58</td><td>100</td></tr>
+<tr data-search="pearl river community college prcc.edu"><td>Pearl River Community College</td><td>prcc.edu</td><td>1</td><td>89</td><td>94</td><td>92</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh president.aiub.edu"><td>American International University - Bangladesh</td><td>president.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: president.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>president.anrcollege.edu</td><td>1</td><td>52</td><td>60</td><td>69</td><td>82</td></tr>
 <tr data-search="arizona state university president.asu.edu"><td>Arizona State University</td><td>president.asu.edu</td><td>1</td><td>95</td><td>87</td><td>92</td><td>77</td></tr>
@@ -5814,7 +5867,9 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="kalamazoo college provost.kzoo.edu"><td>Kalamazoo College</td><td>provost.kzoo.edu</td><td>1</td><td>100</td><td>93</td><td>100</td><td>100</td></tr>
 <tr data-search="home ozarka college provost.ozarka.edu"><td>Home Ozarka College</td><td>provost.ozarka.edu</td><td>1</td><td>83</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="ps.fresnostate.edu ps.fresnostate.edu"><td>ps.fresnostate.edu</td><td>ps.fresnostate.edu</td><td>1</td><td>93</td><td>95</td><td>100</td><td>100</td></tr>
-<tr data-search="pennsylvania state university - schuylkill campus psu.edu"><td>Pennsylvania State University - Schuylkill Campus</td><td>psu.edu</td><td>1</td><td>99</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="pellissippi state community college pstcc.edu"><td>Pellissippi State Community College</td><td>pstcc.edu</td><td>1</td><td>91</td><td>100</td><td>96</td><td>92</td></tr>
+<tr data-search="pennsylvania state university - schuylkill campus psu.edu"><td>Pennsylvania State University - Schuylkill Campus</td><td>psu.edu</td><td>1</td><td>67</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="pacific states university psuca.edu"><td>PACIFIC STATES UNIVERSITY</td><td>psuca.edu</td><td>1</td><td>91</td><td>74</td><td>77</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh psychology.aiub.edu"><td>American International University - Bangladesh</td><td>psychology.aiub.edu</td><td>1</td><td>56</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: psychology.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>psychology.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arizona state university psychology.asu.edu"><td>Arizona State University</td><td>psychology.asu.edu</td><td>1</td><td>94</td><td>100</td><td>96</td><td>85</td></tr>
@@ -5836,6 +5891,7 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="illinois state university psychology.illinoisstate.edu"><td>Illinois State University</td><td>psychology.illinoisstate.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="kalamazoo college psychology.kzoo.edu"><td>Kalamazoo College</td><td>psychology.kzoo.edu</td><td>1</td><td>99</td><td>92</td><td>100</td><td>100</td></tr>
 <tr data-search="home ozarka college psychology.ozarka.edu"><td>Home Ozarka College</td><td>psychology.ozarka.edu</td><td>1</td><td>97</td><td>87</td><td>96</td><td>92</td></tr>
+<tr data-search="performance training institute ptitraining.edu"><td>Performance Training Institute</td><td>ptitraining.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="american international university - bangladesh public-health.aiub.edu"><td>American International University - Bangladesh</td><td>public-health.aiub.edu</td><td>1</td><td>53</td><td>90</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: public-health.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>public-health.anrcollege.edu</td><td>1</td><td>55</td><td>60</td><td>69</td><td>82</td></tr>
 <tr data-search="christendom college public-health.christendom.edu"><td>Christendom College</td><td>public-health.christendom.edu</td><td>1</td><td>91</td><td>98</td><td>—</td><td>—</td></tr>
@@ -5850,6 +5906,7 @@ _Stats as of 2026-09-19 09:30 UTC — last scan: 2026-09-19_
 <tr data-search="frederick community college public-policy.frederick.edu"><td>Frederick Community College</td><td>public-policy.frederick.edu</td><td>1</td><td>94</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="genesis career college public-policy.genesiscareer.edu"><td>Genesis Career College</td><td>public-policy.genesiscareer.edu</td><td>1</td><td>—</td><td>80</td><td>92</td><td>50</td></tr>
 <tr data-search="home ozarka college public-policy.ozarka.edu"><td>Home Ozarka College</td><td>public-policy.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
+<tr data-search="pacific union college puc.edu"><td>Pacific Union College</td><td>puc.edu</td><td>1</td><td>93</td><td>97</td><td>73</td><td>92</td></tr>
 <tr data-search="purdue university purdue.edu"><td>Purdue University</td><td>purdue.edu</td><td>1</td><td>78</td><td>100</td><td>35</td><td>92</td></tr>
 <tr data-search="aims community college recreation.aims.edu"><td>Aims Community College</td><td>recreation.aims.edu</td><td>1</td><td>93</td><td>83</td><td>73</td><td>75</td></tr>
 <tr data-search="american international university - bangladesh recreation.aiub.edu"><td>American International University - Bangladesh</td><td>recreation.aiub.edu</td><td>1</td><td>50</td><td>94</td><td>96</td><td>100</td></tr>
