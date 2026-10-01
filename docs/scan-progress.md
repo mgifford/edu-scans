@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-09-23 09:58 UTC_
+_Generated: 2026-10-01 11:36 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -13,12 +13,12 @@ Coverage is measured as pages scanned out of **19,936** pages available in the s
 
 | Scan Type | Pages Scanned | Available | Coverage |
 |-----------|--------------|-----------|----------|
-| **Combined Reachability** | **12,512 confirmed reachable** | 19,936 | **<span role="img" aria-label="62.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:75px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">62.8%</span></span>** |
-| Social Media | 14,350 scanned (12,512 reachable) | 19,936 | <span role="img" aria-label="72.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:86px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">72.0%</span></span> |
-| Technology | 14,350 scanned | 19,936 | <span role="img" aria-label="72.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:86px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">72.0%</span></span> |
-| Lighthouse | 8,164 scanned | 19,936 | <span role="img" aria-label="41.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:49px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">41.0%</span></span> |
-| Accessibility Statements | 12,472 domains | 19,936 | <span role="img" aria-label="62.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:75px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">62.6%</span></span> |
-| Third-Party JS | 3,211 scanned | 19,936 | <span role="img" aria-label="16.1% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:19px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">16.1%</span></span> |
+| **Combined Reachability** | **2,043 confirmed reachable** | 19,936 | **<span role="img" aria-label="10.2% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:12px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">10.2%</span></span>** |
+| Social Media | 0 scanned (0 reachable) | 19,936 | <span role="img" aria-label="0.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:0px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.0%</span></span> |
+| Technology | 3,749 scanned | 19,936 | <span role="img" aria-label="18.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:23px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">18.8%</span></span> |
+| Lighthouse | 0 scanned | 19,936 | <span role="img" aria-label="0.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:0px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">0.0%</span></span> |
+| Accessibility Statements | 2,965 domains | 19,936 | <span role="img" aria-label="14.9% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:18px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">14.9%</span></span> |
+| Third-Party JS | 2,953 scanned | 19,936 | <span role="img" aria-label="14.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:18px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">14.8%</span></span> |
 
 > **Combined Reachability** counts each URL once if it was confirmed reachable by any scan type.
 
@@ -28,6 +28,7 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 
 | Date | Accessibility | Social Media | Technology | Third-Party JS | Lighthouse |
 |------|--------------|--------------|------------|----------------|------------|
+| 2026-10-01 | 14.9% | 0.0% | 18.8% | 14.8% | 0.0% |
 | 2026-09-23 | 62.6% | 72.0% | 72.0% | 16.1% | 41.0% |
 | 2026-09-22 | 62.6% | 72.0% | 72.0% | 16.0% | 41.0% |
 | 2026-09-21 | 62.6% | 72.0% | 72.0% | 16.0% | 41.0% |
@@ -41,108 +42,26 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 | 2026-09-13 | 60.9% | 67.9% | 67.9% | 16.0% | 34.6% |
 | 2026-09-12 | 314.3% | 350.6% | 350.6% | 82.5% | 178.5% |
 | 2026-09-11 | 314.3% | 350.6% | 350.6% | 82.5% | 178.5% |
-| 2026-09-10 | 314.3% | 350.6% | 350.6% | 82.5% | 178.5% |
 
 > Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. Lighthouse scans take longer per URL and may lag other scan types; the auto-prioritisation step compensates by triggering extra runs for the most-lagging scan each day.
-
-## Top Parent Institutions by Scan Coverage
-
-Aggregated results across all institutions grouped by parent organization (system affiliation, network, etc.):
-
-| Parent Institution | URLs Scanned | Reachable | Coverage |
-|---|---|---|---|
-| Other | 2,097 | 2,089 | 100% |
-| Genesis Career College | 140 | 140 | 100% |
-| American International University - Bangladesh | 137 | 137 | 100% |
-| Christendom College | 137 | 137 | 100% |
-| Home Ozarka College | 135 | 134 | 99% |
-| Frederick Community College | 134 | 134 | 100% |
-| AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA | 131 | 131 | 100% |
-| California State University | 63 | 58 | 92% |
-| Adelphi University | 43 | 43 | 100% |
-| Illinois State University | 42 | 42 | 100% |
-| Duke University | 41 | 41 | 100% |
-| Emory University Home Page | 41 | 41 | 100% |
-| Georgia State University | 41 | 41 | 100% |
-| Florida International University | 39 | 39 | 100% |
-| Georgia Institute of Technology | 38 | 38 | 100% |
-| Homepage — University of Louisville | 35 | 35 | 100% |
-| George Washington University | 33 | 32 | 97% |
-| Dartmouth College | 32 | 32 | 100% |
-| George Fox University | 32 | 32 | 100% |
-| Barnard College | 31 | 31 | 100% |
-| Columbus State University | 30 | 30 | 100% |
-| International University of Business Agriculture and Technology | 28 | 28 | 100% |
-| Iowa State University of Science and Technology | 28 | 28 | 100% |
-| Arizona State University | 27 | 27 | 100% |
-| California State University, Fullerton | 27 | 27 | 100% |
-| Howard University | 26 | 26 | 100% |
-| Auburn University | 25 | 25 | 100% |
-| Foothill College Home | 25 | 25 | 100% |
-| California Polytechnic State University - San Luis Obispo | 24 | 24 | 100% |
-| Brigham Young University | 24 | 24 | 100% |
-| Highline Community College (HCC), Des Moines, WA (Washington State Community Colleges) | 23 | 23 | 100% |
-| Family of Faith College â A Light to the Nations | 23 | 22 | 96% |
-| Indiana Institute of Technology | 22 | 22 | 100% |
-| Central Michigan University | 22 | 22 | 100% |
-| Des Moines Area Community College | 22 | 22 | 100% |
-| Bard College | 21 | 21 | 100% |
-| College of William and Mary | 20 | 20 | 100% |
-| Barton County Community College | 20 | 20 | 100% |
-| Fuller Theological Seminary | 19 | 19 | 100% |
-| Kalamazoo College | 19 | 19 | 100% |
-| Hanover College | 18 | 18 | 100% |
-| Fullerton College | 17 | 17 | 100% |
-| Indiana University at South Bend | 17 | 17 | 100% |
-| John Wood Community College | 17 | 17 | 100% |
-| Biola University | 17 | 17 | 100% |
-| Drexel University | 16 | 15 | 94% |
-| Campbell University | 16 | 16 | 100% |
-| Excelsior College | 16 | 16 | 100% |
-| DePaul University | 15 | 15 | 100% |
-| Assumption University of Thailand | 15 | 15 | 100% |
-
-> This grouping organizes individual institution domains under their parent systems or networks (e.g., "University of California" spans UC Berkeley, UCLA, UC San Diego, etc.). Useful for identifying coverage gaps at the system level.
-
-📥 [Download full parent institutions list (CSV)](scan-progress-parent-institutions.csv)
 
 ## URL Validation by Country
 
 | Country | Total | Valid | Invalid | Scan Period | Coverage |
 |---------|-------|-------|---------|-------------|----------|
-| Usa Edu Master | 919 | 3 | 918 | Aug 2026 – Sep 2026 | <span role="img" aria-label="24.4% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:90px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:22px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">24.4%</span></span> |
-| Usa Edu Top100 | 11 | 0 | 11 | Sep 2026 | <span role="img" aria-label="11.0% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:90px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:10px;height:100%;background:#b91c1c;"></span></span><span style="font-size:0.85em;color:#374151;">11.0%</span></span> |
+| Usa Edu Master | 3,749 | 2,043 | 1,706 | Oct 2026 | <span role="img" aria-label="99.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:90px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:90px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">99.6%</span></span> |
 
 > Hover or focus any non-zero **Total**, **Valid**, or **Invalid** count to preview matching URLs. **Valid** and **Invalid** can overlap because a URL may have passed in one validation run and failed in another during the same scan period; download the CSV for the underlying evidence from [scan-progress-data.json](scan-progress-data.json).
-
-## Social Media Scan by Country
-
-| Country | Scanned | Available | Reachable | Twitter-only | Modern | Mixed | No Social | Twitter | X | Bluesky | Mastodon | Scan Period |
-|---------|---------|-----------|-----------|-------------|--------|-------|-----------|---------|---|---------|----------|-------------|
-| Usa Edu Master | 3,749 | 3,763 | 2,839 | 1,201 | 7 | 693 | 1,107 | 972 | 350 | 52 | 682 | Aug 2026 – Sep 2026 |
-| Usa Edu Master Subdomains | 10,501 | 16,073 | 9,584 | 3,276 | 27 | 1,418 | 5,310 | 2,397 | 1,195 | 83 | 1,418 | Aug 2026 – Sep 2026 |
-| Usa Edu Top100 | 100 | 100 | 89 | 28 | 0 | 36 | 27 | 38 | 20 | 8 | 33 | Aug 2026 – Sep 2026 |
-
-> **Tier columns** (Twitter-only / Modern / Mixed / No Social) classify each page by its overall social media presence. **Platform columns** (Twitter / X / Bluesky / Mastodon) count pages with at least one link to that platform — a page may appear in more than one platform column.
-
-> Hover or focus any non-zero platform count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and platform from [social-media-data.json](social-media-data.json).
 
 ## Technology Scan by Country
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,749 | 2026-09-23 |
-| Usa Edu Master Subdomains | 10,501 | 2026-09-21 |
-| Usa Edu Top100 | 100 | 2026-09-23 |
+| Usa Edu Master | 3,749 | 2026-10-01 |
 
-## Lighthouse Scan by Country
+## Lighthouse Scan
 
-| Country | URLs | Perf | A11y | Best Practices | SEO | Last Scan |
-|---------|------|------|------|----------------|-----|----------|
-| Usa Edu Master Subdomains | 8,074 | 90 | 91 | 78 | 82 | 2026-09-20 |
-| Usa Edu Top100 | 90 | 87 | 95 | 72 | 93 | 2026-09-20 |
-
-> Scores are averages across all successfully audited URLs, displayed as 0–100 (multiply source values × 100).
+_No Lighthouse scans have been run yet. Trigger the **Scan Lighthouse** workflow manually._
 
 ## Accessibility Statement Scan by Country
 
@@ -150,9 +69,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 2,842 | 1,172 | 984 | 41% | Aug 2026 – Sep 2026 |
-| Usa Edu Master Subdomains | 8,591 | 7,650 | 2,567 | 1,984 | 34% | Aug 2026 – Sep 2026 |
-| Usa Edu Top100 | 101 | 90 | 59 | 57 | 66% | Aug 2026 – Sep 2026 |
+| Usa Edu Master | 2,965 | 2,205 | 798 | 715 | 36% | Oct 2026 |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
@@ -160,13 +77,13 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,211 | 2026-09-23 |
+| Usa Edu Master | 2,953 | 2026-10-01 |
 
-## Countries With Social Scan But No URL Validation
+## Countries Pending Social Media Scan
 
-These countries have social media scan data but no URL validation data (URL validation may have been skipped because the social scan already confirmed reachability):
+These countries have URL validation data but have not yet been scanned for social media links:
 
-`USA_EDU_MASTER_SUBDOMAINS`
+`USA_EDU_MASTER`
 
 ## Scan Priority Guide
 
