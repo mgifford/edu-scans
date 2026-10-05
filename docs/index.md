@@ -11,16 +11,16 @@ and use modern web technologies and third-party JavaScript.
 
 <!-- SCAN_PROGRESS_START -->
 
-_Progress as of 2026-10-04 11:06 UTC_
+_Progress as of 2026-10-05 12:15 UTC_
 
 | Scan Type | Pages Scanned | Coverage |
 |-----------|--------------|----------|
-| **Combined Reachability** | **11,049 confirmed reachable** | **<span role="img" aria-label="54.3% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:65px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">54.3%</span></span>** |
-| Social Media | 13,176 scanned (11,041 reachable) | <span role="img" aria-label="64.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:78px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">64.8%</span></span> |
-| Technology | 13,176 scanned | <span role="img" aria-label="64.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:78px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">64.8%</span></span> |
-| Accessibility Statements | 12,170 domains | <span role="img" aria-label="59.8% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:72px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">59.8%</span></span> |
+| **Combined Reachability** | **11,811 confirmed reachable** | **<span role="img" aria-label="58.1% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:70px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">58.1%</span></span>** |
+| Social Media | 13,941 scanned (11,803 reachable) | <span role="img" aria-label="68.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:82px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">68.6%</span></span> |
+| Technology | 13,941 scanned | <span role="img" aria-label="68.6% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:82px;height:100%;background:#15803d;"></span></span><span style="font-size:0.85em;color:#374151;">68.6%</span></span> |
+| Accessibility Statements | 12,420 domains | <span role="img" aria-label="61.1% complete" style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;"><span style="display:inline-block;width:120px;height:12px;background:#e2e8f0;border-radius:2px;overflow:hidden;"><span style="display:block;width:73px;height:100%;background:#b45309;"></span></span><span style="font-size:0.85em;color:#374151;">61.1%</span></span> |
 
-Scan data **11,049** of **20,336** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
+Scan data **11,811** of **20,336** available pages confirmed reachable. See the [Scan Progress Report](scan-progress.md) for full details.
 
 <!-- SCAN_PROGRESS_END -->
 

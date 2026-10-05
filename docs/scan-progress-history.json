@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-05-08",
-    "total_available": 3863,
-    "accessibility_count": 3881,
-    "accessibility_pct": 100.5,
-    "social_count": 3849,
-    "social_pct": 99.6,
-    "technology_count": 3849,
-    "technology_pct": 99.6,
-    "third_party_js_count": 3163,
-    "third_party_js_pct": 81.9,
-    "lighthouse_count": 2217,
-    "lighthouse_pct": 57.4
-  },
-  {
     "date": "2026-05-09",
     "total_available": 3863,
     "accessibility_count": 3881,
@@ -1254,6 +1240,20 @@
     "social_pct": 64.8,
     "technology_count": 13176,
     "technology_pct": 64.8,
+    "third_party_js_count": 3168,
+    "third_party_js_pct": 15.6,
+    "lighthouse_count": 0,
+    "lighthouse_pct": 0.0
+  },
+  {
+    "date": "2026-10-05",
+    "total_available": 20336,
+    "accessibility_count": 12420,
+    "accessibility_pct": 61.1,
+    "social_count": 13941,
+    "social_pct": 68.6,
+    "technology_count": 13941,
+    "technology_pct": 68.6,
     "third_party_js_count": 3168,
     "third_party_js_pct": 15.6,
     "lighthouse_count": 0,
