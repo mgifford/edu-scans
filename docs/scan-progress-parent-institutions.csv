@@ -1,7 +1,7 @@
 ﻿rank,parent_institution,urls_scanned,reachable,coverage_pct
-1,Other,1634,1604,98.2
+1,Other,1634,1606,98.3
 2,Genesis Career College,140,140,100.0
-3,American International University - Bangladesh,137,64,46.7
+3,American International University - Bangladesh,137,137,100.0
 4,Christendom College,136,12,8.8
 5,Home Ozarka College,135,134,99.3
 6,"AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA",134,134,100.0
@@ -46,17 +46,17 @@
 45,Fullerton College,17,16,94.1
 46,Indiana University at South Bend,17,17,100.0
 47,Assumption University of Thailand,16,16,100.0
-48,Ave Maria University > Home,16,15,93.8
+48,Ave Maria University > Home,16,16,100.0
 49,Campbell University,16,16,100.0
 50,Biola University,16,16,100.0
 51,Excelsior College,16,16,100.0
 52,DePaul University,15,15,100.0
 53,Arkansas State University,15,15,100.0
 54,Clemson University,15,15,100.0
-55,Drexel University,14,13,92.9
+55,Drexel University,14,14,100.0
 56,Kennesaw State University,14,14,100.0
 57,Case Western Reserve University,14,14,100.0
-58,California Lutheran University,14,13,92.9
+58,California Lutheran University,14,14,100.0
 59,Kansas State University,14,14,100.0
 60,College of Marin,13,13,100.0
 61,College Degree Online,13,13,100.0
@@ -75,7 +75,7 @@
 74,Hofstra University,11,11,100.0
 75,Brown University,11,11,100.0
 76,Al-Quds University - The Arab University in Jerusalem,11,11,100.0
-77,Creighton University,11,8,72.7
+77,Creighton University,11,11,100.0
 78,"A Liberal Arts College in Colorado, Fort Lewis College, Durango, CO",11,11,100.0
 79,American University in Dubai,11,11,100.0
 80,Elmhurst College,11,11,100.0
@@ -125,7 +125,7 @@
 124,Jesuit School of Theology of Santa Clara University in Berkeley,9,8,88.9
 125,Korea University,9,9,100.0
 126,Elon University,9,9,100.0
-127,Florida Gulf Coast University,9,7,77.8
+127,Florida Gulf Coast University,9,9,100.0
 128,Henry Ford Community College,9,9,100.0
 129,"Huntingdon College, Montgomery, Alabama * Experience the Tradition, Know and Be Known.",9,8,88.9
 130,Hinds Community College in Mississippi,9,9,100.0
@@ -134,7 +134,7 @@
 133,Africa University,8,7,87.5
 134,Carl Albert State College,8,8,100.0
 135,Coe College,8,8,100.0
-136,Florida Southern College,8,7,87.5
+136,Florida Southern College,8,8,100.0
 137,Grinnell College,8,8,100.0
 138,Florida State College at Jacksonville,8,8,100.0
 139,Elgin Community College (ECC) Homepage,8,8,100.0
@@ -201,7 +201,7 @@
 200,"California State University, San Jose",6,6,100.0
 201,American University Washington D.C.,6,6,100.0
 202,Andrews University,6,6,100.0
-203,[LWC] Lindsey Wilson College,6,4,66.7
+203,[LWC] Lindsey Wilson College,6,5,83.3
 204,Colombo International Nautical & Engineering College (CINEC),6,5,83.3
 205,Kansas Wesleyan University,6,6,100.0
 206,Bluefield State College,6,6,100.0
@@ -218,8 +218,8 @@
 217,Harford Community College,6,6,100.0
 218,Boise State University,6,6,100.0
 219,Eastern Mennonite University,6,6,100.0
-220,Butte College,6,5,83.3
-221,Baldwin Wallace University,6,3,50.0
+220,Butte College,6,6,100.0
+221,Baldwin Wallace University,6,6,100.0
 222,California Baptist University (CBU),6,6,100.0
 223,Grambling State University,6,6,100.0
 224,John Cabot University,6,6,100.0
@@ -262,7 +262,7 @@
 261,California Community Colleges Chancellor\'s Office,5,5,100.0
 262,American Public University System,5,5,100.0
 263,Albany State University,5,5,100.0
-264,Bryan College,5,4,80.0
+264,Bryan College,5,5,100.0
 265,Bryant and Stratton College,5,5,100.0
 266,Colorado Mountain College,5,5,100.0
 267,Eastern West Virginia Community and Technical College,5,5,100.0
@@ -366,7 +366,7 @@
 365,Keiser University,4,4,100.0
 366,Alvin Community College,4,4,100.0
 367,Amberton University,4,4,100.0
-368,Angelo State University,4,3,75.0
+368,Angelo State University,4,4,100.0
 369,Delaware Valley University,4,4,100.0
 370,Johns Hopkins University,4,3,75.0
 371,Arizona Christian University,4,4,100.0
@@ -431,7 +431,7 @@
 430,Imperial Valley College,4,3,75.0
 431,Charter Oak State College,4,4,100.0
 432,Le Cordon Bleu College of Culinary Arts-Chicago,4,0,0.0
-433,Chemeketa Community College,4,3,75.0
+433,Chemeketa Community College,4,4,100.0
 434,City University of Seattle,4,4,100.0
 435,College of San Mateo,4,4,100.0
 436,Daemen College,4,4,100.0
@@ -443,7 +443,7 @@
 442,"Chatham University, Pittsburgh, PA",4,4,100.0
 443,Del Mar College,4,4,100.0
 444,Denver Seminary,4,3,75.0
-445,DePauw University,4,3,75.0
+445,DePauw University,4,4,100.0
 446,Fashion Institute of Technology,4,4,100.0
 447,Goodwin College Home,4,4,100.0
 448,Greenville University,4,4,100.0
@@ -493,7 +493,7 @@
 492,Karunya University,3,3,100.0
 493,Adrian College,3,3,100.0
 494,Air Force Institute of Technology,3,2,66.7
-495,Alamance Community College,3,2,66.7
+495,Alamance Community College,3,3,100.0
 496,Allegany College of Maryland,3,3,100.0
 497,Birzeit University,3,2,66.7
 498,"Central Methodist University in Fayette, Missouri",3,3,100.0
@@ -540,7 +540,7 @@
 539,Arcadia University,3,3,100.0
 540,Aiken Technical College,3,3,100.0
 541,Ateneo de Manila University,3,3,100.0
-542,Athens Technical College,3,2,66.7
+542,Athens Technical College,3,3,100.0
 543,Concordia University Texas Home Page,3,3,100.0
 544,Atlantic University College,3,3,100.0
 545,Atlantic University,3,3,100.0
@@ -564,7 +564,7 @@
 563,Bradley University,3,3,100.0
 564,Flagler College,3,3,100.0
 565,Global University,3,3,100.0
-566,Brazosport College,3,2,66.7
+566,Brazosport College,3,3,100.0
 567,Brookline College,3,3,100.0
 568,Broward College,3,3,100.0
 569,Ball State University,3,3,100.0
@@ -580,11 +580,11 @@
 579,J Sargeant Reynolds Community College,3,3,100.0
 580,California Polytechnic State University,3,3,100.0
 581,Cambridge College,3,3,100.0
-582,Camden County College,3,2,66.7
+582,Camden County College,3,3,100.0
 583,Find Your Calling at Campbellsville University,3,3,100.0
 584,Canisius College,3,3,100.0
 585,Kansas City Kansas Community College,3,2,66.7
-586,College of Eastern Utah,3,2,66.7
+586,College of Eastern Utah,3,3,100.0
 587,Clark State Community College,3,3,100.0
 588,Concorde Career Colleges,3,3,100.0
 589,"California State University, Monterey Bay",3,3,100.0
@@ -969,7 +969,7 @@
 968,Shoreline Community College,2,2,100.0
 969,University of South Alabama Homepage,2,2,100.0
 970,Columbia-Greene Community College,2,2,100.0
-971,Dutchess Community College,2,1,50.0
+971,Dutchess Community College,2,2,100.0
 972,University of St. Thomas,2,2,100.0
 973,Schenectady County Community College,2,2,100.0
 974,Catholic Seminary Schools,2,2,100.0
@@ -1320,7 +1320,7 @@
 1319,Coastal Alabama Community College,1,1,100.0
 1320,Coastal Carolina Community College,1,1,100.0
 1321,Cobb Beauty College,1,0,0.0
-1322,College of Charleston,1,0,0.0
+1322,College of Charleston,1,1,100.0
 1323,Coffeyville Community College,1,1,100.0
 1324,Colby Community College,1,1,100.0
 1325,Coleman University,1,0,0.0
@@ -1463,7 +1463,7 @@
 1462,Electronic Learning Institute > Home,1,0,0.0
 1463,Elim Bible Institute,1,1,100.0
 1464,Ellis University,1,0,0.0
-1465,Embry Riddle Aeronautical University,1,0,0.0
+1465,Embry Riddle Aeronautical University,1,1,100.0
 1466,Eastern Nazarene College,1,0,0.0
 1467,Earthnet Institute is a nonprofit organization working to ameilorate global issues through research and partnerships.,1,0,0.0
 1468,Eastern New Mexico University-Roswell,1,1,100.0
@@ -3012,7 +3012,7 @@
 3011,Texas A&M International University,1,1,100.0
 3012,Texas A&M University - College Station,1,1,100.0
 3013,Texas A&M University - Corpus Christi,1,1,100.0
-3014,Texas A&M University Corpus Christi,1,0,0.0
+3014,Texas A&M University Corpus Christi,1,1,100.0
 3015,Tarleton State University,1,1,100.0
 3016,Tooele Applied Technology College,1,0,0.0
 3017,Taylor University,1,1,100.0
