@@ -1,5 +1,5 @@
 ﻿rank,parent_institution,urls_scanned,reachable,coverage_pct
-1,Other,1634,1606,98.3
+1,Other,1634,1607,98.3
 2,Genesis Career College,140,140,100.0
 3,American International University - Bangladesh,137,137,100.0
 4,Christendom College,136,12,8.8
@@ -14,7 +14,7 @@
 13,Georgia State University,41,41,100.0
 14,Florida International University,38,38,100.0
 15,Georgia Institute of Technology,38,38,100.0
-16,Homepage — University of Louisville,34,32,94.1
+16,Homepage — University of Louisville,34,33,97.1
 17,George Washington University,33,32,97.0
 18,Lafayette College · Lafayette College,32,32,100.0
 19,Dartmouth College,31,31,100.0
@@ -418,7 +418,7 @@
 417,Columbia State Community College,4,4,100.0
 418,East Carolina University,4,4,100.0
 419,Emporia State University,4,4,100.0
-420,Georgia Southern University,4,3,75.0
+420,Georgia Southern University,4,4,100.0
 421,Elizabeth City State University,4,4,100.0
 422,"California State University, Dominguez Hills",4,4,100.0
 423,"California State University, Sacramento",4,4,100.0
@@ -723,7 +723,7 @@
 722,Dillard University,2,2,100.0
 723,Ecclesia College,2,2,100.0
 724,Grand View University,2,2,100.0
-725,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,1,50.0
+725,"Itawamba Community College in Northeast Mississippi (Fulton, Tupelo, Belden)",2,2,100.0
 726,Indian Hills Community College,2,2,100.0
 727,"Belmont Abbey College, Charlotte, NC",2,2,100.0
 728,Bossier Parish Community College,2,1,50.0
@@ -3045,7 +3045,7 @@
 3044,Texas County Technical College,1,1,100.0
 3045,Toccoa Falls College,1,1,100.0
 3046,The Global Open University,1,1,100.0
-3047,Thapar University,1,0,0.0
+3047,Thapar University,1,1,100.0
 3048,The American College,1,1,100.0
 3049,The Beauty Institute,1,1,100.0
 3050,University of Sioux Falls,1,0,0.0
