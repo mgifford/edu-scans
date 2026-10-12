@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-10-11 11:23 UTC — last scan: 2026-10-11_
+_Stats as of 2026-10-12 13:09 UTC — last scan: 2026-10-12_
 
-**39** scan batches run
+**42** scan batches run
 
-**8,553** of **20,200** available domains scanned (**42.3%** coverage)
-**7,583** of **8,553** scanned domains were reachable (**88.7%**)
-**2,468** of **7,583** reachable domains have an accessibility statement (**32.5%**)
-**2,016** domains have the statement link in the footer (**81.7%** of domains with a statement)
+**8,648** of **20,200** available domains scanned (**42.8%** coverage)
+**7,681** of **8,648** scanned domains were reachable (**88.8%**)
+**2,512** of **7,681** reachable domains have an accessibility statement (**32.7%**)
+**2,057** domains have the statement link in the footer (**81.9%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,833 | 1,225 | 1,029 | 43.2% | Oct 2026 |
-| Usa Edu Master Subdomains | 8,547 | 16,337 | 7,576 | 2,460 | 2,010 | 32.5% | Oct 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,833 | 1,226 | 1,029 | 43.3% | Oct 2026 |
+| Usa Edu Master Subdomains | 8,642 | 16,337 | 7,674 | 2,504 | 2,051 | 32.6% | Oct 2026 |
 | Usa Edu Top100 | 101 | 100 | 89 | 59 | 57 | 66.3% | Oct 2026 |
-| **Total** | **12,428** | **20,200** | **10,498** | **3,744** | **3,096** | **35.7%** | — |
+| **Total** | **12,523** | **20,200** | **10,596** | **3,789** | **3,137** | **35.8%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
