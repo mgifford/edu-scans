@@ -228,7 +228,7 @@ This project is committed to transparency about build-time AI assistance.
 | Tool / LLM | What it was used for |
 |---|---|
 | GitHub Copilot (GPT-5.4 / GPT-5.5) | Code edits, refactoring, repository migration work, documentation updates (including security guidance and SBOM/process-document drafting), dependency/workflow package-manager migrations (including uv adoption), and implementation assistance in VS Code and Copilot Task Agent sessions, including Data API layer integration work (API docs, compact index endpoint, and link normalization), and migration from python-Wappalyzer to webtech with scriptSrc detection fix |
-| Claude (Anthropic) | PR reviews, documentation editing, code-generation assistance during repository maintenance, and implementation of the Top 100 and state-split social media reporting features |
+| Claude (Anthropic) | PR reviews, documentation editing, code-generation assistance during repository maintenance, and implementation of the Top 100 and state-split social media reporting features, and Dependabot security fixes (npm lockfile updates) |
 | ChatGPT / GPT-4 / GPT-5 (OpenAI) | Design review, implementation review, debugging help, and documentation/report-generation assistance |
 
 No AI model runs as part of the application at runtime.
