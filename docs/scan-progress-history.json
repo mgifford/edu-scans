@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-05-17",
-    "total_available": 7626,
-    "accessibility_count": 12110,
-    "accessibility_pct": 158.8,
-    "social_count": 13229,
-    "social_pct": 173.5,
-    "technology_count": 13229,
-    "technology_pct": 173.5,
-    "third_party_js_count": 3163,
-    "third_party_js_pct": 41.5,
-    "lighthouse_count": 4452,
-    "lighthouse_pct": 58.4
-  },
-  {
     "date": "2026-05-18",
     "total_available": 7626,
     "accessibility_count": 12139,
@@ -1258,5 +1244,19 @@
     "third_party_js_pct": 15.7,
     "lighthouse_count": 3800,
     "lighthouse_pct": 18.8
+  },
+  {
+    "date": "2026-10-14",
+    "total_available": 20200,
+    "accessibility_count": 12523,
+    "accessibility_pct": 62.0,
+    "social_count": 14559,
+    "social_pct": 72.1,
+    "technology_count": 14559,
+    "technology_pct": 72.1,
+    "third_party_js_count": 3168,
+    "third_party_js_pct": 15.7,
+    "lighthouse_count": 4374,
+    "lighthouse_pct": 21.7
   }
 ]
