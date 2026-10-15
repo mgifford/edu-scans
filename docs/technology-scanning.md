@@ -5,9 +5,9 @@ layout: page
 
 <!-- TECH_STATS_START -->
 
-_Stats as of 2026-10-14 10:10 UTC — last scan: 2026-10-11_
+_Stats as of 2026-10-15 09:53 UTC — last scan: 2026-10-15_
 
-**12** scan batches run
+**13** scan batches run
 
 **10,716** of **20,200** available pages scanned (**53.0%** coverage)
 **0** pages with technology detections (**0.0%** of scanned)
@@ -19,7 +19,7 @@ _Stats as of 2026-10-14 10:10 UTC — last scan: 2026-10-11_
 
 | Country | URLs Scanned | Pages with Detections | Available | Last Scan |
 |---------|-------------|----------------------|-----------|----------|
-| Usa Edu Master | 3,749 | 0 | 3,763 | 2026-10-08 |
+| Usa Edu Master | 3,749 | 0 | 3,763 | 2026-10-15 |
 | Usa Edu Master Subdomains | 10,710 | 0 | 16,337 | 2026-10-11 |
 | Usa Edu Top100 | 100 | 0 | 100 | 2026-10-09 |
 
