@@ -8,45 +8,45 @@ layout: page
 <div id="sm-tier-pie-container" style="float:right;margin:0 0 1rem 1.5rem;width:260px;max-width:45%;">
 <svg role="img" aria-labelledby="pie-title pie-desc" viewBox="0 0 240 314" width="240" height="314" xmlns="http://www.w3.org/2000/svg">
 <title id="pie-title">Social media tier distribution</title>
-<desc id="pie-desc">Pie chart: social media tier distribution across 14,559 scanned pages. Legacy only: 4,522 (31.1%), Modern only: 33 (0.2%), Mixed: 2,256 (15.5%), No Social: 6,059 (41.6%)</desc>
-<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 192.357,163.521 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 4,522 (35.1%)</title></path>
-<path d="M 120,110 L 192.357,163.521 A 90,90 0 0,1 191.485,164.680 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 33 (0.3%)</title></path>
-<path d="M 120,110 L 191.485,164.680 A 90,90 0 0,1 103.572,198.488 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 2,256 (17.5%)</title></path>
-<path d="M 120,110 L 103.572,198.488 A 90,90 0 0,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 6,059 (47.1%)</title></path>
+<desc id="pie-desc">Pie chart: social media tier distribution across 14,559 scanned pages. Legacy only: 4,563 (31.3%), Modern only: 33 (0.2%), Mixed: 2,284 (15.7%), No Social: 6,075 (41.7%)</desc>
+<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 192.067,163.911 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 4,563 (35.2%)</title></path>
+<path d="M 120,110 L 192.067,163.911 A 90,90 0 0,1 191.195,165.057 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 33 (0.3%)</title></path>
+<path d="M 120,110 L 191.195,165.057 A 90,90 0 0,1 102.542,198.291 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 2,284 (17.6%)</title></path>
+<path d="M 120,110 L 102.542,198.291 A 90,90 0 0,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 6,075 (46.9%)</title></path>
 <rect x="20" y="216" width="14" height="14" fill="#1a8cd8"/>
-<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (35.1%)</text>
+<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (35.2%)</text>
 <rect x="20" y="238" width="14" height="14" fill="#0085ff"/>
 <text x="40" y="249" font-size="11" font-family="sans-serif" fill="#333">Modern only (0.3%)</text>
 <rect x="20" y="260" width="14" height="14" fill="#7856ff"/>
-<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (17.5%)</text>
+<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (17.6%)</text>
 <rect x="20" y="282" width="14" height="14" fill="#cccccc"/>
-<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (47.1%)</text>
+<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (46.9%)</text>
 </svg>
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-10-15 09:53 UTC — last scan: 2026-10-12_
+_Stats as of 2026-10-16 09:47 UTC — last scan: 2026-10-16_
 
-**17** scan batches run
+**22** scan batches run
 
 **10,716** of **20,200** available pages scanned (**53.0%** coverage)
-**9,620** of **10,716** scanned pages were reachable (**89.8%**)
+**9,625** of **10,716** scanned pages were reachable (**89.8%**)
 
 **Legacy social media** (older, centralised platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
-| 🐦 Twitter | **2,329** | 21.7% | 24.2% |
-| ✖ X | **1,136** | 10.6% | 11.8% |
-| 👍 Facebook | **4,711** | 44.0% | 49.0% |
-| 💼 LinkedIn | **3,260** | 30.4% | 33.9% |
+| 🐦 Twitter | **2,333** | 21.8% | 24.2% |
+| ✖ X | **1,141** | 10.6% | 11.9% |
+| 👍 Facebook | **4,721** | 44.1% | 49.0% |
+| 💼 LinkedIn | **3,269** | 30.5% | 34.0% |
 
 **Modern / open social media** (decentralised or open platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
 | 🦋 Bluesky | **83** | 0.8% | 0.9% |
-| 🐘 Mastodon / Fediverse | **1,515** | 14.1% | 15.7% |
+| 🐘 Mastodon / Fediverse | **1,524** | 14.2% | 15.8% |
 
 <div style="clear:both;"></div>
 
@@ -60,9 +60,9 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Rank | Country | Sovereignty Score | No Social | Modern Only | Legacy Exposure | Tier |
 |------|---------|:-----------------:|:---------:|:-----------:|:---------------:|------|
-| 1 | Usa Edu Master Subdomains | 52.2% | 4,992 | 27 | 49.8% | 🥉 Growing |
-| 2 | Usa Edu Master | 37.0% | 1,040 | 6 | 67.9% | ⚠️ Legacy-heavy |
-| 3 | Usa Edu Top100 | 30.7% | 27 | 0 | 72.7% | ⚠️ Legacy-heavy |
+| 1 | Usa Edu Master Subdomains | 52.2% | 4,995 | 27 | 49.9% | 🥉 Growing |
+| 2 | Usa Edu Master | 37.4% | 1,053 | 6 | 69.7% | ⚠️ Legacy-heavy |
+| 3 | Usa Edu Top100 | 30.7% | 27 | 0 | 73.9% | ⚠️ Legacy-heavy |
 
 ---
 
@@ -72,10 +72,10 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
-| Usa Edu Master | 3,749 | 3,763 | 2,829 | 37.0% | 1,040 | 1,209 | 969 | 350 | 1,911 | 1,317 | 6 | 711 | 48 | 702 | Oct 2026 |
-| Usa Edu Master Subdomains | 10,710 | 16,337 | 9,613 | 52.2% | 4,992 | 3,284 | 2,324 | 1,135 | 4,705 | 3,256 | 27 | 1,510 | 82 | 1,511 | Oct 2026 |
-| Usa Edu Top100 | 100 | 100 | 88 | 30.7% | 27 | 29 | 37 | 21 | 64 | 50 | 0 | 35 | 7 | 32 | Oct 2026 |
-| **Total** | **14,559** | **20,200** | **12,530** | **48.6%** | **6,059** | **4,522** | **3,330** | **1,506** | **6,680** | **4,623** | **33** | **2,256** | **137** | **2,245** | — |
+| Usa Edu Master | 3,749 | 3,763 | 2,834 | 37.4% | 1,053 | 1,247 | 997 | 363 | 1,967 | 1,355 | 6 | 732 | 50 | 722 | Oct 2026 |
+| Usa Edu Master Subdomains | 10,710 | 16,337 | 9,615 | 52.2% | 4,995 | 3,286 | 2,328 | 1,137 | 4,711 | 3,260 | 27 | 1,517 | 82 | 1,518 | Oct 2026 |
+| Usa Edu Top100 | 100 | 100 | 88 | 30.7% | 27 | 30 | 37 | 21 | 65 | 50 | 0 | 35 | 7 | 32 | Oct 2026 |
+| **Total** | **14,559** | **20,200** | **12,537** | **48.7%** | **6,075** | **4,563** | **3,362** | **1,521** | **6,743** | **4,665** | **33** | **2,284** | **139** | **2,272** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -92,7 +92,7 @@ Social media presence for the top 100 US universities by national ranking. **Tie
 | 3 | Harvard University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
 | 4 | Princeton University | ✅ No Social | *(none)* |
 | 5 | California Institute of Technology | ❌ Unreachable | *(none)* |
-| 6 | Yale University | ✅ No Social | *(none)* |
+| 6 | Yale University | ⚠️ Legacy-only | 👍 Facebook |
 | 7 | Columbia University | ✅ No Social | *(none)* |
 | 8 | The University of Chicago | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
 | 9 | University of Pennsylvania | ✅ No Social | *(none)* |
@@ -107,7 +107,7 @@ Social media presence for the top 100 US universities by national ranking. **Tie
 | 18 | University of California Los Angeles | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
 | 19 | Georgetown University | ✅ No Social | *(none)* |
 | 20 | Emory University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
-| 21 | University of California Berkeley | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
+| 21 | University of California Berkeley | ✅ No Social | *(none)* |
 | 22 | Carnegie Mellon University | 🔀 Mixed | ✖ X, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
 | 23 | University of California San Diego | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky, 🐘 Mastodon |
 | 24 | Tufts University | ✅ No Social | *(none)* |
@@ -120,7 +120,7 @@ Social media presence for the top 100 US universities by national ranking. **Tie
 | 31 | Wake Forest University | ❌ Unreachable | *(none)* |
 | 32 | New York University | ❌ Unreachable | *(none)* |
 | 33 | Tulane University | ✅ No Social | *(none)* |
-| 34 | University of Southern California | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🦋 Bluesky |
+| 34 | University of Southern California | ✅ No Social | *(none)* |
 | 35 | Boston University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
 | 36 | Ohio State University | ❌ Unreachable | *(none)* |
 | 37 | Lehigh University | 🔀 Mixed | 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
@@ -166,7 +166,7 @@ Social media presence for the top 100 US universities by national ranking. **Tie
 | 77 | University of Alabama | ✅ No Social | *(none)* |
 | 78 | Louisiana State University | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn, 🐘 Mastodon |
 | 79 | University of Kentucky | 🔀 Mixed | 🐦 Twitter, 👍 Facebook, 🐘 Mastodon |
-| 80 | University of Tennessee | ⚠️ Legacy-only | ✖ X, 👍 Facebook |
+| 80 | University of Tennessee | ✅ No Social | *(none)* |
 | 81 | University of Missouri | ⚠️ Legacy-only | ✖ X, 👍 Facebook |
 | 82 | Kansas State University | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook |
 | 83 | University of Mississippi | ⚠️ Legacy-only | 🐦 Twitter, 👍 Facebook, 💼 LinkedIn |
