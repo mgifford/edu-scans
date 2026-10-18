@@ -5,14 +5,14 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-10-17 09:19 UTC — last scan: 2026-10-17_
+_Stats as of 2026-10-18 09:36 UTC — last scan: 2026-10-18_
 
-**49** scan batches run
+**54** scan batches run
 
-**3,186** of **20,200** available pages scanned (**15.8%** coverage)
-**2,396** of **3,186** scanned pages were reachable (**75.2%**)
-**1,626** reachable pages loaded at least one third-party script (**67.9%** of reachable)
-**2,891** known third-party service loads identified
+**3,186** of **19,392** available pages scanned (**16.4%** coverage)
+**2,397** of **3,186** scanned pages were reachable (**75.2%**)
+**1,627** reachable pages loaded at least one third-party script (**67.9%** of reachable)
+**2,897** known third-party service loads identified
 **24** unique known services across **17** categories
 
 ---
@@ -21,7 +21,7 @@ _Stats as of 2026-10-17 09:19 UTC — last scan: 2026-10-17_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,186 | 3,763 | 2,396 | 1,626 | 2,891 | 2026-10-17 |
+| Usa Edu Master | 3,186 | 3,763 | 2,397 | 1,627 | 2,897 | 2026-10-18 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -31,12 +31,12 @@ _Stats as of 2026-10-17 09:19 UTC — last scan: 2026-10-17_
 
 | # | Service | Loads |
 |--:|---------|------:|
-| 1 | cdnjs (Cloudflare CDN) | **531** |
-| 2 | Google Analytics (GA4) | **501** |
-| 3 | jsDelivr CDN | **431** |
+| 1 | cdnjs (Cloudflare CDN) | **529** |
+| 2 | Google Analytics (GA4) | **503** |
+| 3 | jsDelivr CDN | **433** |
 | 4 | Google Tag Manager | **373** |
-| 5 | jQuery | **253** |
-| 6 | Font Awesome | **198** |
+| 5 | jQuery | **254** |
+| 6 | Font Awesome | **201** |
 | 7 | Google Hosted Libraries | **157** |
 | 8 | Google reCAPTCHA | **129** |
 | 9 | unpkg CDN | **96** |
@@ -57,10 +57,10 @@ _Stats as of 2026-10-17 09:19 UTC — last scan: 2026-10-17_
 | # | Category | Loads |
 |--:|----------|------:|
 | 1 | CDN | **1,215** |
-| 2 | Analytics | **543** |
-| 3 | JavaScript Library | **410** |
+| 2 | Analytics | **545** |
+| 3 | JavaScript Library | **411** |
 | 4 | Tag Manager | **395** |
-| 5 | Icon Library | **198** |
+| 5 | Icon Library | **201** |
 | 6 | Security | **140** |
 | 7 | CAPTCHA | **129** |
 | 8 | UI Framework | **56** |
