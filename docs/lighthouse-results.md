@@ -5,12 +5,12 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
+_Stats as of 2026-10-25 09:48 UTC — last scan: 2026-10-24_
 
-**45** scan batches run
+**47** scan batches run
 
-**7,673** of **15,629** available pages audited (**49.1%** coverage)
-**6,900** successful audits (**89.9%** of audited)
+**7,800** of **15,629** available pages audited (**49.9%** coverage)
+**7,012** successful audits (**89.9%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
 
@@ -24,8 +24,8 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master Subdomains | 7,600 | 15,529 | 91 | 92 | 81 | 83 | 2026-10-23 |
-| Usa Edu Top100 | 100 | 100 | 86 | 95 | 76 | 93 | 2026-10-22 |
+| Usa Edu Master Subdomains | 7,727 | 15,529 | 91 | 92 | 81 | 83 | 2026-10-24 |
+| Usa Edu Top100 | 100 | 100 | 86 | 95 | 76 | 93 | 2026-10-24 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
 
@@ -36,7 +36,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <div class="lh-filter-bar">
 <label for="lh-institution-search" class="sr-only">Filter institutions</label>
 <input type="search" id="lh-institution-search" placeholder="Filter by institution name or domain…" aria-controls="lighthouse-institution-table">
-<span id="lh-institution-count" aria-live="polite">Showing 6,005 of 6,005 institutions</span>
+<span id="lh-institution-count" aria-live="polite">Showing 6,120 of 6,120 institutions</span>
 </div>
 
 <table id="lighthouse-institution-table">
@@ -175,6 +175,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="institute for clinical social work admissions.icsw.edu"><td>Institute for Clinical Social Work</td><td>admissions.icsw.edu</td><td>1</td><td>86</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="indiana institute of technology admissions.indianatech.edu"><td>Indiana Institute of Technology</td><td>admissions.indianatech.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="indiana university at south bend admissions.iusb.edu"><td>Indiana University at South Bend</td><td>admissions.iusb.edu</td><td>2</td><td>95</td><td>96</td><td>77</td><td>96</td></tr>
+<tr data-search="karunya university admissions.karunya.edu"><td>Karunya University</td><td>admissions.karunya.edu</td><td>1</td><td>48</td><td>65</td><td>50</td><td>100</td></tr>
 <tr data-search="::midwestern career college:: admissions.mccollege.edu"><td>::Midwestern Career College::</td><td>admissions.mccollege.edu</td><td>1</td><td>73</td><td>97</td><td>69</td><td>100</td></tr>
 <tr data-search="home ozarka college admissions.ozarka.edu"><td>Home Ozarka College</td><td>admissions.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="home » stamford international university (thailand) admissions.stamford.edu"><td>Home » Stamford International University (Thailand)</td><td>admissions.stamford.edu</td><td>1</td><td>49</td><td>78</td><td>50</td><td>58</td></tr>
@@ -331,6 +332,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="indiana university/purdue university at columbus alumni.iupuc.edu"><td>Indiana University/Purdue University at Columbus</td><td>alumni.iupuc.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>50</td></tr>
 <tr data-search="janus university california alumni.jarvis.edu"><td>Janus University California</td><td>alumni.jarvis.edu</td><td>1</td><td>38</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="james madison university alumni.jmu.edu"><td>James Madison University</td><td>alumni.jmu.edu</td><td>1</td><td>70</td><td>93</td><td>73</td><td>83</td></tr>
+<tr data-search="keiser university alumni.keiseruniversity.edu"><td>Keiser University</td><td>alumni.keiseruniversity.edu</td><td>1</td><td>—</td><td>90</td><td>77</td><td>61</td></tr>
 <tr data-search="homepage — university of louisville alumni.louisville.edu"><td>Homepage — University of Louisville</td><td>alumni.louisville.edu</td><td>1</td><td>31</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="college of marin alumni.marin.edu"><td>College of Marin</td><td>alumni.marin.edu</td><td>1</td><td>75</td><td>90</td><td>96</td><td>92</td></tr>
 <tr data-search="home ozarka college alumni.ozarka.edu"><td>Home Ozarka College</td><td>alumni.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
@@ -491,12 +493,14 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="james sprunt community college apply.jamessprunt.edu"><td>James Sprunt Community College</td><td>apply.jamessprunt.edu</td><td>1</td><td>90</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="johnson county community college apply.jccc.edu"><td>Johnson County Community College</td><td>apply.jccc.edu</td><td>1</td><td>99</td><td>96</td><td>69</td><td>100</td></tr>
 <tr data-search="john wood community college apply.jwcc.edu"><td>John Wood Community College</td><td>apply.jwcc.edu</td><td>1</td><td>99</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="kellogg community college apply.kellogg.edu"><td>Kellogg Community College</td><td>apply.kellogg.edu</td><td>1</td><td>90</td><td>96</td><td>77</td><td>92</td></tr>
 <tr data-search="::midwestern career college:: apply.mccollege.edu"><td>::Midwestern Career College::</td><td>apply.mccollege.edu</td><td>1</td><td>93</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="apply.northbridge.edu apply.northbridge.edu"><td>apply.northbridge.edu</td><td>apply.northbridge.edu</td><td>1</td><td>72</td><td>82</td><td>73</td><td>66</td></tr>
 <tr data-search="bible based christian college apply.nwc.edu"><td>Bible Based Christian College</td><td>apply.nwc.edu</td><td>1</td><td>76</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="home ozarka college apply.ozarka.edu"><td>Home Ozarka College</td><td>apply.ozarka.edu</td><td>1</td><td>87</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="california state university, san jose apply.sjsu.edu"><td>California State University, San Jose</td><td>apply.sjsu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="apply2.gannon.edu apply2.gannon.edu"><td>apply2.gannon.edu</td><td>apply2.gannon.edu</td><td>1</td><td>96</td><td>94</td><td>77</td><td>92</td></tr>
+<tr data-search="apply2.ksu.edu apply2.ksu.edu"><td>apply2.ksu.edu</td><td>apply2.ksu.edu</td><td>1</td><td>100</td><td>92</td><td>100</td><td>91</td></tr>
 <tr data-search="applynow.cincinnatistate.edu applynow.cincinnatistate.edu"><td>applynow.cincinnatistate.edu</td><td>applynow.cincinnatistate.edu</td><td>1</td><td>89</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="applynow.fgcu.edu applynow.fgcu.edu"><td>applynow.fgcu.edu</td><td>applynow.fgcu.edu</td><td>1</td><td>95</td><td>82</td><td>100</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh apps.aiub.edu"><td>American International University - Bangladesh</td><td>apps.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
@@ -699,6 +703,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="auth-cas.bethel.edu auth-cas.bethel.edu"><td>auth-cas.bethel.edu</td><td>auth-cas.bethel.edu</td><td>3</td><td>98</td><td>95</td><td>100</td><td>91</td></tr>
 <tr data-search="auth-prod.bethel.edu auth-prod.bethel.edu"><td>auth-prod.bethel.edu</td><td>auth-prod.bethel.edu</td><td>5</td><td>98</td><td>89</td><td>100</td><td>91</td></tr>
 <tr data-search="auth.clarkstate.edu auth.clarkstate.edu"><td>auth.clarkstate.edu</td><td>auth.clarkstate.edu</td><td>3</td><td>100</td><td>94</td><td>92</td><td>91</td></tr>
+<tr data-search="auth.kansascity.edu auth.kansascity.edu"><td>auth.kansascity.edu</td><td>auth.kansascity.edu</td><td>3</td><td>96</td><td>89</td><td>92</td><td>91</td></tr>
 <tr data-search="advanced technology institute auto.edu"><td>Advanced Technology Institute</td><td>auto.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="auwolves.com auwolves.com"><td>auwolves.com</td><td>auwolves.com</td><td>1</td><td>55</td><td>89</td><td>73</td><td>100</td></tr>
 <tr data-search="avancã© beauty college â train for an exciting career in cosmetology avancebeautycollege.edu"><td>AvancÃ© Beauty College â Train for an Exciting Career in Cosmetology</td><td>avancebeautycollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -1185,6 +1190,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="international university of business agriculture and technology career.indiana.edu"><td>International University of Business Agriculture and Technology</td><td>career.indiana.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="career.indianapolis.iu.edu career.indianapolis.iu.edu"><td>career.indianapolis.iu.edu</td><td>career.indianapolis.iu.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="kansas city kansas community college career.kckcc.edu"><td>Kansas City Kansas Community College</td><td>career.kckcc.edu</td><td>1</td><td>89</td><td>97</td><td>100</td><td>92</td></tr>
+<tr data-search="kean university of new jersey career.kean.edu"><td>Kean University of New Jersey</td><td>career.kean.edu</td><td>1</td><td>93</td><td>94</td><td>100</td><td>92</td></tr>
 <tr data-search="kalamazoo college career.kzoo.edu"><td>Kalamazoo College</td><td>career.kzoo.edu</td><td>1</td><td>89</td><td>90</td><td>77</td><td>100</td></tr>
 <tr data-search="an-najah national university career.najah.edu"><td>An-Najah National University</td><td>career.najah.edu</td><td>1</td><td>93</td><td>85</td><td>69</td><td>92</td></tr>
 <tr data-search="home ozarka college career.ozarka.edu"><td>Home Ozarka College</td><td>career.ozarka.edu</td><td>1</td><td>97</td><td>87</td><td>96</td><td>92</td></tr>
@@ -1245,6 +1251,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="harvard university careers.harvard.edu"><td>Harvard University</td><td>careers.harvard.edu</td><td>1</td><td>99</td><td>92</td><td>77</td><td>100</td></tr>
 <tr data-search="hillsdale college careers.hillsdale.edu"><td>Hillsdale College</td><td>careers.hillsdale.edu</td><td>1</td><td>98</td><td>95</td><td>77</td><td>92</td></tr>
 <tr data-search="jesuit school of theology of santa clara university in berkeley careers.jsu.edu"><td>Jesuit School of Theology of Santa Clara University in Berkeley</td><td>careers.jsu.edu</td><td>1</td><td>100</td><td>95</td><td>81</td><td>92</td></tr>
+<tr data-search="kansas state university careers.k-state.edu"><td>Kansas State University</td><td>careers.k-state.edu</td><td>1</td><td>80</td><td>86</td><td>54</td><td>92</td></tr>
 <tr data-search="home ozarka college careers.ozarka.edu"><td>Home Ozarka College</td><td>careers.ozarka.edu</td><td>1</td><td>86</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="careers.scitexas.edu careers.scitexas.edu"><td>careers.scitexas.edu</td><td>careers.scitexas.edu</td><td>1</td><td>95</td><td>87</td><td>100</td><td>85</td></tr>
 <tr data-search="careerservices.alamo.edu careerservices.alamo.edu"><td>careerservices.alamo.edu</td><td>careerservices.alamo.edu</td><td>1</td><td>98</td><td>91</td><td>100</td><td>92</td></tr>
@@ -1662,6 +1669,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="cos.gatech.edu cos.gatech.edu"><td>cos.gatech.edu</td><td>cos.gatech.edu</td><td>1</td><td>96</td><td>95</td><td>96</td><td>61</td></tr>
 <tr data-search="central ohio technical college cotc.edu"><td>Central Ohio Technical College</td><td>cotc.edu</td><td>1</td><td>91</td><td>100</td><td>58</td><td>92</td></tr>
 <tr data-search="college of the ouachitas coto.edu"><td>College of the Ouachitas</td><td>coto.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="cougarapp.kean.edu cougarapp.kean.edu"><td>cougarapp.kean.edu</td><td>cougarapp.kean.edu</td><td>1</td><td>95</td><td>92</td><td>100</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh counseling.aiub.edu"><td>American International University - Bangladesh</td><td>counseling.aiub.edu</td><td>1</td><td>52</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: counseling.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>counseling.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="appalachian state university counseling.appstate.edu"><td>Appalachian State University</td><td>counseling.appstate.edu</td><td>1</td><td>98</td><td>91</td><td>96</td><td>80</td></tr>
@@ -1996,6 +2004,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="illinois state university dining.illinoisstate.edu"><td>Illinois State University</td><td>dining.illinoisstate.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="international university of business agriculture and technology dining.indiana.edu"><td>International University of Business Agriculture and Technology</td><td>dining.indiana.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="indiana institute of technology dining.indianatech.edu"><td>Indiana Institute of Technology</td><td>dining.indianatech.edu</td><td>1</td><td>87</td><td>100</td><td>73</td><td>100</td></tr>
+<tr data-search="kansas state university dining.k-state.edu"><td>Kansas State University</td><td>dining.k-state.edu</td><td>1</td><td>71</td><td>93</td><td>73</td><td>83</td></tr>
 <tr data-search="home ozarka college dining.ozarka.edu"><td>Home Ozarka College</td><td>dining.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="home â salem college dining.salem.edu"><td>Home â Salem College</td><td>dining.salem.edu</td><td>1</td><td>94</td><td>97</td><td>100</td><td>92</td></tr>
 <tr data-search="college of saint catherine dining.stkate.edu"><td>College of Saint Catherine</td><td>dining.stkate.edu</td><td>1</td><td>—</td><td>82</td><td>—</td><td>73</td></tr>
@@ -2388,6 +2397,8 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="johnson county community college events.jccc.edu"><td>Johnson County Community College</td><td>events.jccc.edu</td><td>1</td><td>100</td><td>84</td><td>69</td><td>82</td></tr>
 <tr data-search="james madison university events.jmu.edu"><td>James Madison University</td><td>events.jmu.edu</td><td>1</td><td>100</td><td>87</td><td>92</td><td>92</td></tr>
 <tr data-search="john wood community college events.jwu.edu"><td>John Wood Community College</td><td>events.jwu.edu</td><td>1</td><td>87</td><td>96</td><td>73</td><td>92</td></tr>
+<tr data-search="kansas state university events.k-state.edu"><td>Kansas State University</td><td>events.k-state.edu</td><td>1</td><td>93</td><td>91</td><td>73</td><td>92</td></tr>
+<tr data-search="kansas city university events.kansascity.edu"><td>Kansas City University</td><td>events.kansascity.edu</td><td>1</td><td>99</td><td>93</td><td>96</td><td>66</td></tr>
 <tr data-search="homepage — university of louisville events.louisville.edu"><td>Homepage — University of Louisville</td><td>events.louisville.edu</td><td>1</td><td>99</td><td>94</td><td>58</td><td>92</td></tr>
 <tr data-search="::midwestern career college:: events.mccollege.edu"><td>::Midwestern Career College::</td><td>events.mccollege.edu</td><td>1</td><td>98</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="an-najah national university events.najah.edu"><td>An-Najah National University</td><td>events.najah.edu</td><td>1</td><td>70</td><td>95</td><td>100</td><td>100</td></tr>
@@ -2434,6 +2445,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="colorado state university extension.colostate.edu"><td>Colorado State University</td><td>extension.colostate.edu</td><td>1</td><td>95</td><td>99</td><td>73</td><td>100</td></tr>
 <tr data-search="frederick community college extension.frederick.edu"><td>Frederick Community College</td><td>extension.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="california state university, fullerton extension.fullerton.edu"><td>California State University, Fullerton</td><td>extension.fullerton.edu</td><td>2</td><td>75</td><td>99</td><td>73</td><td>100</td></tr>
+<tr data-search="kansas state university extension.k-state.edu"><td>Kansas State University</td><td>extension.k-state.edu</td><td>1</td><td>94</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="home ozarka college extension.ozarka.edu"><td>Home Ozarka College</td><td>extension.ozarka.edu</td><td>1</td><td>87</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="fa-eutm-saasfaprod1.fa.ocs.oraclecloud.com fa-eutm-saasfaprod1.fa.ocs.oraclecloud.com"><td>fa-eutm-saasfaprod1.fa.ocs.oraclecloud.com</td><td>fa-eutm-saasfaprod1.fa.ocs.oraclecloud.com</td><td>1</td><td>90</td><td>93</td><td>92</td><td>91</td></tr>
 <tr data-search="american international university - bangladesh facilities.aiub.edu"><td>American International University - Bangladesh</td><td>facilities.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
@@ -2559,6 +2571,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="florida keys community college fkcc.edu"><td>Florida Keys Community College</td><td>fkcc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="flagler college flagler.edu"><td>Flagler College</td><td>flagler.edu</td><td>1</td><td>85</td><td>98</td><td>77</td><td>92</td></tr>
 <tr data-search="flaglerathletics.com flaglerathletics.com"><td>flaglerathletics.com</td><td>flaglerathletics.com</td><td>1</td><td>88</td><td>98</td><td>73</td><td>92</td></tr>
+<tr data-search="l e fletcher technical community college fletcher.edu"><td>L E Fletcher Technical Community College</td><td>fletcher.edu</td><td>1</td><td>85</td><td>98</td><td>77</td><td>100</td></tr>
 <tr data-search="fletcher technical community college flintrivertech.edu"><td>Fletcher Technical Community College</td><td>flintrivertech.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="florida college floridacollege.edu"><td>Florida College</td><td>floridacollege.edu</td><td>1</td><td>94</td><td>88</td><td>58</td><td>85</td></tr>
 <tr data-search="floridapoly.atlassian.net floridapoly.atlassian.net"><td>floridapoly.atlassian.net</td><td>floridapoly.atlassian.net</td><td>1</td><td>94</td><td>96</td><td>92</td><td>92</td></tr>
@@ -2716,6 +2729,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="career focused programs at gibbs college cranston gibbsri.edu"><td>Career Focused Programs at Gibbs College Cranston</td><td>gibbsri.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="georgia institute of cosmetology gic.edu"><td>Georgia Institute of Cosmetology</td><td>gic.edu</td><td>1</td><td>67</td><td>88</td><td>73</td><td>85</td></tr>
 <tr data-search="girard college girardcollege.edu"><td>Girard College</td><td>girardcollege.edu</td><td>1</td><td>99</td><td>98</td><td>96</td><td>100</td></tr>
+<tr data-search="kls gogte institute of technology git.edu"><td>KLS Gogte Institute of Technology</td><td>git.edu</td><td>1</td><td>70</td><td>87</td><td>77</td><td>92</td></tr>
 <tr data-search="give.fiu.edu give.fiu.edu"><td>give.fiu.edu</td><td>give.fiu.edu</td><td>2</td><td>95</td><td>100</td><td>77</td><td>96</td></tr>
 <tr data-search="givetohamptonu.org givetohamptonu.org"><td>givetohamptonu.org</td><td>givetohamptonu.org</td><td>1</td><td>100</td><td>87</td><td>100</td><td>46</td></tr>
 <tr data-search="american international university - bangladesh giving.aiub.edu"><td>American International University - Bangladesh</td><td>giving.aiub.edu</td><td>1</td><td>56</td><td>94</td><td>96</td><td>100</td></tr>
@@ -2759,6 +2773,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="indian river state college giving.irsc.edu"><td>Indian River State College</td><td>giving.irsc.edu</td><td>1</td><td>94</td><td>92</td><td>77</td><td>100</td></tr>
 <tr data-search="ivy tech community college of indiana giving.ivytech.edu"><td>Ivy Tech Community College of Indiana</td><td>giving.ivytech.edu</td><td>1</td><td>91</td><td>83</td><td>77</td><td>77</td></tr>
 <tr data-search=":: thomas jefferson university : jefferson medical college : jefferson college of graduate studies : jefferson school of health profession : jefferson school of nursing : jefferson school of pharmacy : jefferson school of population health :: giving.jefferson.edu"><td>:: Thomas Jefferson University : Jefferson Medical College : Jefferson College of Graduate Studies : Jefferson School of Health Profession : Jefferson School of Nursing : Jefferson School of Pharmacy : Jefferson School of Population Health ::</td><td>giving.jefferson.edu</td><td>1</td><td>86</td><td>85</td><td>100</td><td>92</td></tr>
+<tr data-search="keiser university giving.keiseruniversity.edu"><td>Keiser University</td><td>giving.keiseruniversity.edu</td><td>1</td><td>—</td><td>80</td><td>92</td><td>50</td></tr>
 <tr data-search="home ozarka college giving.ozarka.edu"><td>Home Ozarka College</td><td>giving.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="baylor college of medicine giving.tlu.edu"><td>Baylor College of Medicine</td><td>giving.tlu.edu</td><td>1</td><td>61</td><td>77</td><td>77</td><td>82</td></tr>
 <tr data-search="college of william and mary giving.wm.edu"><td>College of William and Mary</td><td>giving.wm.edu</td><td>1</td><td>95</td><td>93</td><td>77</td><td>100</td></tr>
@@ -2826,6 +2841,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="goodwin college home goodwin.edu"><td>Goodwin College Home</td><td>goodwin.edu</td><td>1</td><td>90</td><td>86</td><td>73</td><td>85</td></tr>
 <tr data-search="gordon college, one of the top christian colleges in america &amp; new england gordon.edu"><td>Gordon College, one of the top Christian colleges in America &amp; New England</td><td>gordon.edu</td><td>1</td><td>89</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="goshen college goshen.edu"><td>Goshen College</td><td>goshen.edu</td><td>1</td><td>97</td><td>96</td><td>58</td><td>100</td></tr>
+<tr data-search="lakeshore technical college gotoltc.edu"><td>Lakeshore Technical College</td><td>gotoltc.edu</td><td>1</td><td>68</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="goucher college goucher.edu"><td>Goucher College</td><td>goucher.edu</td><td>1</td><td>97</td><td>99</td><td>69</td><td>92</td></tr>
 <tr data-search="georgia perimeter college gpc.edu"><td>Georgia Perimeter College</td><td>gpc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="gps.averett.edu gps.averett.edu"><td>gps.averett.edu</td><td>gps.averett.edu</td><td>1</td><td>98</td><td>87</td><td>73</td><td>100</td></tr>
@@ -3117,6 +3133,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="illinois eastern community colleges helpdesk.iecc.edu"><td>Illinois Eastern Community Colleges</td><td>helpdesk.iecc.edu</td><td>1</td><td>100</td><td>86</td><td>100</td><td>100</td></tr>
 <tr data-search="iowa lakes community college helpdesk.iowalakes.edu"><td>Iowa Lakes Community College</td><td>helpdesk.iowalakes.edu</td><td>1</td><td>100</td><td>94</td><td>100</td><td>54</td></tr>
 <tr data-search="discover judson university, a four year christian college in elgin near chicago helpdesk.judsonu.edu"><td>Discover Judson University, a Four Year Christian College in Elgin near Chicago</td><td>helpdesk.judsonu.edu</td><td>1</td><td>93</td><td>100</td><td>77</td><td>50</td></tr>
+<tr data-search="kean university of new jersey helpdesk.kean.edu"><td>Kean University of New Jersey</td><td>helpdesk.kean.edu</td><td>1</td><td>95</td><td>89</td><td>100</td><td>58</td></tr>
 <tr data-search="home ozarka college helpdesk.ozarka.edu"><td>Home Ozarka College</td><td>helpdesk.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="helpdesk.remotesupport.cmich.edu helpdesk.remotesupport.cmich.edu"><td>helpdesk.remotesupport.cmich.edu</td><td>helpdesk.remotesupport.cmich.edu</td><td>1</td><td>100</td><td>67</td><td>81</td><td>92</td></tr>
 <tr data-search="james a rhodes state college helpdesk.rhodesstate.edu"><td>James A Rhodes State College</td><td>helpdesk.rhodesstate.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>54</td></tr>
@@ -3243,6 +3260,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="illinois state university housing.illinoisstate.edu"><td>Illinois State University</td><td>housing.illinoisstate.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="international university of business agriculture and technology housing.indiana.edu"><td>International University of Business Agriculture and Technology</td><td>housing.indiana.edu</td><td>1</td><td>94</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="indiana institute of technology housing.indianatech.edu"><td>Indiana Institute of Technology</td><td>housing.indianatech.edu</td><td>1</td><td>96</td><td>100</td><td>73</td><td>100</td></tr>
+<tr data-search="kansas state university housing.k-state.edu"><td>Kansas State University</td><td>housing.k-state.edu</td><td>1</td><td>94</td><td>98</td><td>73</td><td>83</td></tr>
 <tr data-search="howard university howard.edu"><td>Howard University</td><td>howard.edu</td><td>1</td><td>92</td><td>93</td><td>73</td><td>92</td></tr>
 <tr data-search="howard community college howardcc.edu"><td>Howard Community College</td><td>howardcc.edu</td><td>1</td><td>70</td><td>100</td><td>69</td><td>92</td></tr>
 <tr data-search="howardcctech.atlassian.net howardcctech.atlassian.net"><td>howardcctech.atlassian.net</td><td>howardcctech.atlassian.net</td><td>1</td><td>79</td><td>92</td><td>92</td><td>92</td></tr>
@@ -3348,6 +3366,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="idp.gcsu.edu idp.gcsu.edu"><td>idp.gcsu.edu</td><td>idp.gcsu.edu</td><td>2</td><td>89</td><td>97</td><td>77</td><td>91</td></tr>
 <tr data-search="idp.gsu.edu idp.gsu.edu"><td>idp.gsu.edu</td><td>idp.gsu.edu</td><td>1</td><td>100</td><td>87</td><td>96</td><td>90</td></tr>
 <tr data-search="idp.hfcc.edu idp.hfcc.edu"><td>idp.hfcc.edu</td><td>idp.hfcc.edu</td><td>5</td><td>100</td><td>89</td><td>100</td><td>90</td></tr>
+<tr data-search="idp.scc.kit.edu idp.scc.kit.edu"><td>idp.scc.kit.edu</td><td>idp.scc.kit.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="island drafting and technical institute – associate degrees in drafting and electronics idti.edu"><td>Island Drafting and Technical Institute – Associate Degrees in Drafting and Electronics</td><td>idti.edu</td><td>1</td><td>61</td><td>85</td><td>100</td><td>85</td></tr>
 <tr data-search="ie university ie.edu"><td>IE University</td><td>ie.edu</td><td>1</td><td>79</td><td>78</td><td>73</td><td>85</td></tr>
 <tr data-search="ie.service-now.com ie.service-now.com"><td>ie.service-now.com</td><td>ie.service-now.com</td><td>1</td><td>100</td><td>96</td><td>58</td><td>54</td></tr>
@@ -3604,20 +3623,62 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="juniata college, by any measure one of the best liberal arts colleges in the u.s. juniata.edu"><td>Juniata College, by any measure one of the best liberal arts colleges in the U.S.</td><td>juniata.edu</td><td>1</td><td>94</td><td>94</td><td>73</td><td>92</td></tr>
 <tr data-search="john wood community college jwcc.edu"><td>John Wood Community College</td><td>jwcc.edu</td><td>1</td><td>87</td><td>97</td><td>73</td><td>92</td></tr>
 <tr data-search="john wood community college jwu.edu"><td>John Wood Community College</td><td>jwu.edu</td><td>1</td><td>87</td><td>100</td><td>73</td><td>100</td></tr>
+<tr data-search="kansas state university k-state.edu"><td>Kansas State University</td><td>k-state.edu</td><td>1</td><td>93</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="kace-k1000.fitchburgstate.edu kace-k1000.fitchburgstate.edu"><td>kace-k1000.fitchburgstate.edu</td><td>kace-k1000.fitchburgstate.edu</td><td>1</td><td>100</td><td>89</td><td>96</td><td>42</td></tr>
 <tr data-search="kalamazoodining.catertrax.com kalamazoodining.catertrax.com"><td>kalamazoodining.catertrax.com</td><td>kalamazoodining.catertrax.com</td><td>1</td><td>100</td><td>87</td><td>96</td><td>63</td></tr>
+<tr data-search="kansas city university kansascity.edu"><td>Kansas City University</td><td>kansascity.edu</td><td>1</td><td>88</td><td>89</td><td>54</td><td>100</td></tr>
+<tr data-search="kaplan university kaplan.edu"><td>Kaplan University</td><td>kaplan.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="karunya university karunya.edu"><td>Karunya University</td><td>karunya.edu</td><td>1</td><td>64</td><td>73</td><td>77</td><td>92</td></tr>
+<tr data-search="kaskaskia college kaskaskia.edu"><td>Kaskaskia College</td><td>kaskaskia.edu</td><td>1</td><td>90</td><td>83</td><td>77</td><td>83</td></tr>
+<tr data-search="kendall college of art and design kcad.edu"><td>Kendall College of Art and Design</td><td>kcad.edu</td><td>1</td><td>97</td><td>100</td><td>54</td><td>85</td></tr>
 <tr data-search="kansas city art institute kcai.edu"><td>Kansas City Art Institute</td><td>kcai.edu</td><td>2</td><td>92</td><td>98</td><td>75</td><td>72</td></tr>
 <tr data-search="kankakee community college home kcc.edu"><td>Kankakee Community College Home</td><td>kcc.edu</td><td>1</td><td>94</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="kansas city college and bible school kccbs.edu"><td>Kansas City College and Bible School</td><td>kccbs.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kern community college district kccd.edu"><td>Kern Community College District</td><td>kccd.edu</td><td>1</td><td>94</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="kccedu.my.site.com kccedu.my.site.com"><td>kccedu.my.site.com</td><td>kccedu.my.site.com</td><td>1</td><td>95</td><td>92</td><td>50</td><td>91</td></tr>
 <tr data-search="kansas city kansas community college kckcc.edu"><td>Kansas City Kansas Community College</td><td>kckcc.edu</td><td>1</td><td>94</td><td>90</td><td>73</td><td>92</td></tr>
+<tr data-search="kansas city university of medicine and biosciences kcumb.edu"><td>Kansas City University of Medicine and Biosciences</td><td>kcumb.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kean university of new jersey kean.edu"><td>Kean University of New Jersey</td><td>kean.edu</td><td>1</td><td>76</td><td>100</td><td>58</td><td>100</td></tr>
+<tr data-search="keene state college keene.edu"><td>Keene State College</td><td>keene.edu</td><td>1</td><td>72</td><td>100</td><td>77</td><td>77</td></tr>
+<tr data-search="keiser university keiseruniversity.edu"><td>Keiser University</td><td>keiseruniversity.edu</td><td>1</td><td>95</td><td>93</td><td>96</td><td>42</td></tr>
+<tr data-search="kellogg community college kellogg.edu"><td>Kellogg Community College</td><td>kellogg.edu</td><td>1</td><td>95</td><td>75</td><td>73</td><td>85</td></tr>
+<tr data-search="kendall college in chicago il kendall.edu"><td>Kendall College in Chicago IL</td><td>kendall.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kennesaw state university kennesaw.edu"><td>Kennesaw State University</td><td>kennesaw.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>100</td></tr>
+<tr data-search="kensington college kensingtoncollege.edu"><td>Kensington College</td><td>kensingtoncollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kent state university kent.edu"><td>Kent State University</td><td>kent.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kenyon college kenyon.edu"><td>Kenyon College</td><td>kenyon.edu</td><td>1</td><td>62</td><td>93</td><td>73</td><td>100</td></tr>
+<tr data-search="kestrel institute kestrel.edu"><td>Kestrel Institute</td><td>kestrel.edu</td><td>1</td><td>100</td><td>91</td><td>92</td><td>82</td></tr>
+<tr data-search="kettering university (gmi) kettering.edu"><td>Kettering University (GMI)</td><td>kettering.edu</td><td>1</td><td>65</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="keystone college keystone.edu"><td>Keystone College</td><td>keystone.edu</td><td>1</td><td>76</td><td>93</td><td>54</td><td>100</td></tr>
+<tr data-search="kilgore college kilgore.edu"><td>Kilgore College</td><td>kilgore.edu</td><td>1</td><td>79</td><td>85</td><td>58</td><td>100</td></tr>
+<tr data-search="kilian community college – an affordable university in sioux falls, south dakota kilian.edu"><td>Kilian Community College – An affordable University in Sioux Falls, South Dakota</td><td>kilian.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="king university king.edu"><td>King University</td><td>king.edu</td><td>1</td><td>100</td><td>100</td><td>73</td><td>100</td></tr>
+<tr data-search="king college kingsborough.edu"><td>King College</td><td>kingsborough.edu</td><td>1</td><td>94</td><td>98</td><td>73</td><td>100</td></tr>
+<tr data-search="kingston college kingston.edu"><td>Kingston College</td><td>kingston.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kingswood university kingswood.edu"><td>Kingswood University</td><td>kingswood.edu</td><td>1</td><td>93</td><td>72</td><td>69</td><td>92</td></tr>
+<tr data-search="kirkwood community college kirkwood.edu"><td>Kirkwood Community College</td><td>kirkwood.edu</td><td>1</td><td>93</td><td>100</td><td>54</td><td>83</td></tr>
+<tr data-search="kirtland community college kirtland.edu"><td>Kirtland Community College</td><td>kirtland.edu</td><td>1</td><td>83</td><td>97</td><td>69</td><td>100</td></tr>
+<tr data-search="kirtland community college kishwaukeecollege.edu"><td>Kirtland Community College</td><td>kishwaukeecollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="karlsruhe institute of technology kit.edu"><td>Karlsruhe Institute of Technology</td><td>kit.edu</td><td>1</td><td>79</td><td>82</td><td>100</td><td>92</td></tr>
+<tr data-search="kavikulguru institute of technology and science kits.edu"><td>Kavikulguru Institute Of Technology And Science</td><td>kits.edu</td><td>1</td><td>99</td><td>82</td><td>69</td><td>83</td></tr>
+<tr data-search="klamath community college klamathcc.edu"><td>Klamath Community College</td><td>klamathcc.edu</td><td>1</td><td>81</td><td>92</td><td>77</td><td>75</td></tr>
 <tr data-search="k.l.n. college of engineering klnce.edu"><td>K.L.N. College of Engineering</td><td>klnce.edu</td><td>1</td><td>84</td><td>62</td><td>42</td><td>91</td></tr>
+<tr data-search="knox college knox.edu"><td>Knox College</td><td>knox.edu</td><td>1</td><td>95</td><td>100</td><td>96</td><td>100</td></tr>
+<tr data-search="knox theological seminary knoxseminary.edu"><td>Knox Theological Seminary</td><td>knoxseminary.edu</td><td>1</td><td>91</td><td>86</td><td>77</td><td>92</td></tr>
+<tr data-search="knoxville college knoxvillecollege.edu"><td>Knoxville College</td><td>knoxvillecollege.edu</td><td>1</td><td>99</td><td>96</td><td>96</td><td>61</td></tr>
 <tr data-search="kokomo.iu.edu kokomo.iu.edu"><td>kokomo.iu.edu</td><td>kokomo.iu.edu</td><td>2</td><td>76</td><td>98</td><td>73</td><td>100</td></tr>
+<tr data-search="kongu engineering college, perundurai kongu.edu"><td>Kongu Engineering College, Perundurai</td><td>kongu.edu</td><td>1</td><td>99</td><td>96</td><td>92</td><td>91</td></tr>
+<tr data-search="korea university korea.edu"><td>Korea University</td><td>korea.edu</td><td>1</td><td>88</td><td>83</td><td>81</td><td>92</td></tr>
 <tr data-search="kansas state university ksu.edu"><td>Kansas State University</td><td>ksu.edu</td><td>1</td><td>83</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="the university of kansas ku.edu"><td>The University of Kansas</td><td>ku.edu</td><td>1</td><td>86</td><td>100</td><td>77</td><td>100</td></tr>
+<tr data-search="kuwait university kuniv.edu"><td>Kuwait University</td><td>kuniv.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kutztown university of pennsylvania kutztown.edu"><td>Kutztown University of Pennsylvania</td><td>kutztown.edu</td><td>1</td><td>93</td><td>94</td><td>73</td><td>100</td></tr>
 <tr data-search="kalamazoo valley community college kvcc.edu"><td>Kalamazoo Valley Community College</td><td>kvcc.edu</td><td>1</td><td>100</td><td>89</td><td>77</td><td>100</td></tr>
 <tr data-search="kvcc.freshservice.com kvcc.freshservice.com"><td>kvcc.freshservice.com</td><td>kvcc.freshservice.com</td><td>1</td><td>100</td><td>100</td><td>100</td><td>50</td></tr>
 <tr data-search="kanawha valley community and technical college kvctc.edu"><td>Kanawha Valley Community and Technical College</td><td>kvctc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kentucky wesleyan college kwc.edu"><td>KENTUCKY WESLEYAN COLLEGE</td><td>kwc.edu</td><td>1</td><td>95</td><td>95</td><td>58</td><td>92</td></tr>
+<tr data-search="kansas wesleyan university kwu.edu"><td>Kansas Wesleyan University</td><td>kwu.edu</td><td>1</td><td>100</td><td>84</td><td>77</td><td>92</td></tr>
+<tr data-search="kansas wesleyan university kysu.edu"><td>Kansas Wesleyan University</td><td>kysu.edu</td><td>1</td><td>91</td><td>100</td><td>73</td><td>85</td></tr>
 <tr data-search="kalamazoo college kzoo.edu"><td>Kalamazoo College</td><td>kzoo.edu</td><td>1</td><td>99</td><td>87</td><td>100</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh lab.aiub.edu"><td>American International University - Bangladesh</td><td>lab.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: lab.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>lab.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -3627,7 +3688,9 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="international university of business agriculture and technology lab.indiana.edu"><td>International University of Business Agriculture and Technology</td><td>lab.indiana.edu</td><td>1</td><td>94</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="indiana university/purdue university at indianapolis lab.iupui.edu"><td>Indiana University/Purdue University at Indianapolis</td><td>lab.iupui.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>50</td></tr>
 <tr data-search="home ozarka college lab.ozarka.edu"><td>Home Ozarka College</td><td>lab.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
+<tr data-search="labette community college labette.edu"><td>Labette Community College</td><td>labette.edu</td><td>1</td><td>78</td><td>92</td><td>73</td><td>100</td></tr>
 <tr data-search="- latin american bible institute labi.edu"><td>- LATIN AMERICAN BIBLE INSTITUTE</td><td>labi.edu</td><td>1</td><td>97</td><td>100</td><td>100</td><td>92</td></tr>
+<tr data-search="laboure college laboure.edu"><td>Laboure College</td><td>laboure.edu</td><td>1</td><td>75</td><td>95</td><td>73</td><td>85</td></tr>
 <tr data-search="american international university - bangladesh labs.aiub.edu"><td>American International University - Bangladesh</td><td>labs.aiub.edu</td><td>1</td><td>56</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="al-quds university - the arab university in jerusalem labs.alquds.edu"><td>Al-Quds University - The Arab University in Jerusalem</td><td>labs.alquds.edu</td><td>1</td><td>98</td><td>98</td><td>100</td><td>54</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: labs.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>labs.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -3639,8 +3702,23 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="frederick community college labs.frederick.edu"><td>Frederick Community College</td><td>labs.frederick.edu</td><td>1</td><td>94</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="homepage — university of louisville labs.louisville.edu"><td>Homepage — University of Louisville</td><td>labs.louisville.edu</td><td>1</td><td>80</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="home ozarka college labs.ozarka.edu"><td>Home Ozarka College</td><td>labs.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
+<tr data-search="lado college lado.edu"><td>LADO College</td><td>lado.edu</td><td>1</td><td>94</td><td>93</td><td>100</td><td>100</td></tr>
+<tr data-search="lafayette college · lafayette college lafayette.edu"><td>Lafayette College · Lafayette College</td><td>lafayette.edu</td><td>1</td><td>79</td><td>96</td><td>73</td><td>92</td></tr>
+<tr data-search="lagrange college lagrange.edu"><td>LaGrange College</td><td>lagrange.edu</td><td>1</td><td>76</td><td>96</td><td>69</td><td>91</td></tr>
+<tr data-search="la james college lajames.edu"><td>La James College</td><td>lajames.edu</td><td>1</td><td>80</td><td>97</td><td>73</td><td>100</td></tr>
+<tr data-search="la\&#x27;james international college...ljic is distinctively different! lajamesinternationalcollege.edu"><td>La\&#x27;James International College...LJIC is distinctively different!</td><td>lajamesinternationalcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="la\&#x27;james international college...ljic is distinctively different! lakeareatech.edu"><td>La\&#x27;James International College...LJIC is distinctively different!</td><td>lakeareatech.edu</td><td>1</td><td>80</td><td>97</td><td>96</td><td>100</td></tr>
+<tr data-search="lake erie college, an outstanding educational experience. lakeerie.edu"><td>Lake Erie College, An Outstanding Educational Experience.</td><td>lakeerie.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="lakeland community college lakelandcc.edu"><td>Lakeland Community College</td><td>lakelandcc.edu</td><td>1</td><td>90</td><td>70</td><td>54</td><td>73</td></tr>
+<tr data-search="lake land college lakelandcollege.edu"><td>Lake Land College</td><td>lakelandcollege.edu</td><td>1</td><td>89</td><td>100</td><td>73</td><td>92</td></tr>
+<tr data-search="lake michigan college lakemichigancollege.edu"><td>Lake Michigan College</td><td>lakemichigancollege.edu</td><td>1</td><td>91</td><td>81</td><td>73</td><td>85</td></tr>
+<tr data-search="lakeview college of nursing lakeviewcol.edu"><td>Lakeview College of Nursing</td><td>lakeviewcol.edu</td><td>1</td><td>97</td><td>82</td><td>77</td><td>85</td></tr>
+<tr data-search="lakewood college lakewoodcollege.edu"><td>Lakewood College</td><td>lakewoodcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="lamar community college lamarcc.edu"><td>Lamar Community College</td><td>lamarcc.edu</td><td>1</td><td>92</td><td>95</td><td>77</td><td>85</td></tr>
 <tr data-search="eugene lang college lang.edu"><td>Eugene Lang College</td><td>lang.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="las.depaul.edu las.depaul.edu"><td>las.depaul.edu</td><td>las.depaul.edu</td><td>3</td><td>57</td><td>91</td><td>74</td><td>92</td></tr>
+<tr data-search="la salle university lasalle.edu"><td>La Salle University</td><td>lasalle.edu</td><td>1</td><td>91</td><td>85</td><td>73</td><td>85</td></tr>
+<tr data-search="la sierra university lasierra.edu"><td>La Sierra University</td><td>lasierra.edu</td><td>1</td><td>83</td><td>88</td><td>73</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh law.aiub.edu"><td>American International University - Bangladesh</td><td>law.aiub.edu</td><td>1</td><td>55</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: law.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>law.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arizona state university law.asu.edu"><td>Arizona State University</td><td>law.asu.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>100</td></tr>
@@ -3666,7 +3744,10 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="home ozarka college law.ozarka.edu"><td>Home Ozarka College</td><td>law.ozarka.edu</td><td>1</td><td>81</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="college of william and mary law.wm.edu"><td>College of William and Mary</td><td>law.wm.edu</td><td>1</td><td>89</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="bible college in pennsylvania lbc.edu"><td>Bible College in Pennsylvania</td><td>lbc.edu</td><td>1</td><td>86</td><td>82</td><td>73</td><td>92</td></tr>
+<tr data-search="laguna college of art and design lcad.edu"><td>Laguna College of Art and Design</td><td>lcad.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>100</td></tr>
+<tr data-search="lac courte oreilles ojibwa community college lco.edu"><td>Lac Courte Oreilles Ojibwa Community College</td><td>lco.edu</td><td>1</td><td>82</td><td>95</td><td>73</td><td>92</td></tr>
 <tr data-search="learning.fielding.edu learning.fielding.edu"><td>learning.fielding.edu</td><td>learning.fielding.edu</td><td>1</td><td>93</td><td>91</td><td>100</td><td>58</td></tr>
+<tr data-search="lake erie college of osteopathic medicine lecom.edu"><td>Lake Erie College of Osteopathic Medicine</td><td>lecom.edu</td><td>1</td><td>95</td><td>92</td><td>100</td><td>85</td></tr>
 <tr data-search="american international university - bangladesh legal.aiub.edu"><td>American International University - Bangladesh</td><td>legal.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: legal.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>legal.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="assumption university of thailand legal.au.edu"><td>Assumption University of Thailand</td><td>legal.au.edu</td><td>1</td><td>55</td><td>83</td><td>92</td><td>77</td></tr>
@@ -3697,6 +3778,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="libguides.hilbert.edu libguides.hilbert.edu"><td>libguides.hilbert.edu</td><td>libguides.hilbert.edu</td><td>1</td><td>95</td><td>94</td><td>96</td><td>83</td></tr>
 <tr data-search="libguides.hiu.edu libguides.hiu.edu"><td>libguides.hiu.edu</td><td>libguides.hiu.edu</td><td>1</td><td>97</td><td>82</td><td>100</td><td>92</td></tr>
 <tr data-search="libguides.hofstra.edu libguides.hofstra.edu"><td>libguides.hofstra.edu</td><td>libguides.hofstra.edu</td><td>1</td><td>89</td><td>85</td><td>96</td><td>83</td></tr>
+<tr data-search="libguides.kean.edu libguides.kean.edu"><td>libguides.kean.edu</td><td>libguides.kean.edu</td><td>1</td><td>100</td><td>94</td><td>92</td><td>83</td></tr>
 <tr data-search="american international university - bangladesh libraries.aiub.edu"><td>American International University - Bangladesh</td><td>libraries.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="alfred university libraries.alfred.edu"><td>Alfred University</td><td>libraries.alfred.edu</td><td>1</td><td>93</td><td>99</td><td>100</td><td>83</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: libraries.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>libraries.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -3900,6 +3982,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="joliet junior college library.jjc.edu"><td>Joliet Junior College</td><td>library.jjc.edu</td><td>1</td><td>95</td><td>87</td><td>100</td><td>50</td></tr>
 <tr data-search="jerusalem university college library.ju.edu"><td>Jerusalem University College</td><td>library.ju.edu</td><td>1</td><td>100</td><td>97</td><td>96</td><td>83</td></tr>
 <tr data-search="juniata college, by any measure one of the best liberal arts colleges in the u.s. library.juniata.edu"><td>Juniata College, by any measure one of the best liberal arts colleges in the U.S.</td><td>library.juniata.edu</td><td>1</td><td>94</td><td>90</td><td>100</td><td>83</td></tr>
+<tr data-search="kansas city university library.kansascity.edu"><td>Kansas City University</td><td>library.kansascity.edu</td><td>1</td><td>94</td><td>83</td><td>100</td><td>83</td></tr>
 <tr data-search="kalamazoo college library.kzoo.edu"><td>Kalamazoo College</td><td>library.kzoo.edu</td><td>1</td><td>100</td><td>88</td><td>73</td><td>92</td></tr>
 <tr data-search="homepage — university of louisville library.louisville.edu"><td>Homepage — University of Louisville</td><td>library.louisville.edu</td><td>1</td><td>100</td><td>95</td><td>100</td><td>92</td></tr>
 <tr data-search="college of marin library.marin.edu"><td>College of Marin</td><td>library.marin.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>92</td></tr>
@@ -3916,6 +3999,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="library.utahtech.edu library.utahtech.edu"><td>library.utahtech.edu</td><td>library.utahtech.edu</td><td>1</td><td>99</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="central virginia community college library.vccs.edu"><td>Central Virginia Community College</td><td>library.vccs.edu</td><td>1</td><td>100</td><td>75</td><td>65</td><td>58</td></tr>
 <tr data-search="libraryguides.goshen.edu libraryguides.goshen.edu"><td>libraryguides.goshen.edu</td><td>libraryguides.goshen.edu</td><td>1</td><td>94</td><td>86</td><td>73</td><td>83</td></tr>
+<tr data-search="laboratory institute of merchandising limcollege.edu"><td>Laboratory Institute of Merchandising</td><td>limcollege.edu</td><td>1</td><td>47</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="accredited online college lincolnonline.edu"><td>Accredited Online College</td><td>lincolnonline.edu</td><td>1</td><td>74</td><td>97</td><td>77</td><td>92</td></tr>
 <tr data-search="[lwc] lindsey wilson college lindsey.edu"><td>[LWC] Lindsey Wilson College</td><td>lindsey.edu</td><td>1</td><td>55</td><td>80</td><td>96</td><td>83</td></tr>
 <tr data-search="link.jwu.edu link.jwu.edu"><td>link.jwu.edu</td><td>link.jwu.edu</td><td>1</td><td>98</td><td>100</td><td>96</td><td>82</td></tr>
@@ -4021,8 +4105,12 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="logon.ccc.edu logon.ccc.edu"><td>logon.ccc.edu</td><td>logon.ccc.edu</td><td>2</td><td>100</td><td>89</td><td>92</td><td>87</td></tr>
 <tr data-search="colleges in arizona longtechnicalcollege.edu"><td>Colleges in Arizona</td><td>longtechnicalcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="homepage — university of louisville louisville.edu"><td>Homepage — University of Louisville</td><td>louisville.edu</td><td>8</td><td>54</td><td>100</td><td>75</td><td>98</td></tr>
+<tr data-search="lake superior college lsc.edu"><td>Lake Superior College</td><td>lsc.edu</td><td>1</td><td>83</td><td>83</td><td>100</td><td>83</td></tr>
+<tr data-search="lake superior state university lssu.edu"><td>Lake Superior State University</td><td>lssu.edu</td><td>1</td><td>92</td><td>95</td><td>96</td><td>100</td></tr>
 <tr data-search="louisiana state university and agricultural and mechanical college lsu.edu"><td>Louisiana State University and Agricultural and Mechanical College</td><td>lsu.edu</td><td>1</td><td>94</td><td>93</td><td>100</td><td>92</td></tr>
+<tr data-search="lake tahoe community college ltcc.edu"><td>Lake Tahoe Community College</td><td>ltcc.edu</td><td>1</td><td>87</td><td>93</td><td>77</td><td>100</td></tr>
 <tr data-search="luddy.iu.edu luddy.iu.edu"><td>luddy.iu.edu</td><td>luddy.iu.edu</td><td>2</td><td>89</td><td>100</td><td>77</td><td>100</td></tr>
+<tr data-search="lake washington institute of technology lwtc.edu"><td>Lake Washington Institute of Technology</td><td>lwtc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="lx.asu.edu lx.asu.edu"><td>lx.asu.edu</td><td>lx.asu.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="m365.cloud.microsoft m365.cloud.microsoft"><td>m365.cloud.microsoft</td><td>m365.cloud.microsoft</td><td>1</td><td>95</td><td>100</td><td>58</td><td>—</td></tr>
 <tr data-search="macu-edu.my.site.com macu-edu.my.site.com"><td>macu-edu.my.site.com</td><td>macu-edu.my.site.com</td><td>1</td><td>81</td><td>80</td><td>77</td><td>75</td></tr>
@@ -4064,6 +4152,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="iowa lakes community college mail.iowalakes.edu"><td>Iowa Lakes Community College</td><td>mail.iowalakes.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="institute for the study of coherence and emergence mail.isce.edu"><td>Institute for the Study of Coherence and Emergence</td><td>mail.isce.edu</td><td>1</td><td>100</td><td>83</td><td>96</td><td>91</td></tr>
 <tr data-search="john brown university mail.jbu.edu"><td>John Brown University</td><td>mail.jbu.edu</td><td>1</td><td>99</td><td>86</td><td>92</td><td>91</td></tr>
+<tr data-search="kansas city kansas community college mail.kckcc.edu"><td>Kansas City Kansas Community College</td><td>mail.kckcc.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="college of mount st. joseph mail.msj.edu"><td>College of Mount St. Joseph</td><td>mail.msj.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="césar ritz colleges switzerland mail.ritz.edu"><td>César Ritz Colleges Switzerland</td><td>mail.ritz.edu</td><td>1</td><td>80</td><td>57</td><td>100</td><td>73</td></tr>
 <tr data-search=":: welcome to yeshwantrao chavan college of engineering :: mail.ycce.edu"><td>:: Welcome to Yeshwantrao Chavan College of Engineering ::</td><td>mail.ycce.edu</td><td>1</td><td>85</td><td>82</td><td>96</td><td>91</td></tr>
@@ -4126,6 +4215,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="illinois institute of technology math.iit.edu"><td>Illinois Institute of Technology</td><td>math.iit.edu</td><td>1</td><td>97</td><td>93</td><td>73</td><td>66</td></tr>
 <tr data-search="illinois state university math.illinoisstate.edu"><td>Illinois State University</td><td>math.illinoisstate.edu</td><td>1</td><td>95</td><td>98</td><td>73</td><td>100</td></tr>
 <tr data-search="international university of business agriculture and technology math.indiana.edu"><td>International University of Business Agriculture and Technology</td><td>math.indiana.edu</td><td>1</td><td>100</td><td>95</td><td>77</td><td>100</td></tr>
+<tr data-search="kansas state university math.k-state.edu"><td>Kansas State University</td><td>math.k-state.edu</td><td>1</td><td>94</td><td>100</td><td>73</td><td>85</td></tr>
 <tr data-search="home ozarka college math.ozarka.edu"><td>Home Ozarka College</td><td>math.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="mathematics.emory.edu mathematics.emory.edu"><td>mathematics.emory.edu</td><td>mathematics.emory.edu</td><td>1</td><td>100</td><td>94</td><td>73</td><td>82</td></tr>
 <tr data-search="::midwestern career college:: mccollege.edu"><td>::Midwestern Career College::</td><td>mccollege.edu</td><td>1</td><td>60</td><td>91</td><td>50</td><td>85</td></tr>
@@ -4217,6 +4307,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="moodle.jacksonvillecollege.edu moodle.jacksonvillecollege.edu"><td>moodle.jacksonvillecollege.edu</td><td>moodle.jacksonvillecollege.edu</td><td>1</td><td>95</td><td>90</td><td>100</td><td>54</td></tr>
 <tr data-search="james sprunt community college moodle.jamessprunt.edu"><td>James Sprunt Community College</td><td>moodle.jamessprunt.edu</td><td>1</td><td>100</td><td>99</td><td>69</td><td>45</td></tr>
 <tr data-search="john cabot university moodle.johncabot.edu"><td>John Cabot University</td><td>moodle.johncabot.edu</td><td>1</td><td>88</td><td>72</td><td>100</td><td>82</td></tr>
+<tr data-search="kellogg community college moodle.kellogg.edu"><td>Kellogg Community College</td><td>moodle.kellogg.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>90</td></tr>
 <tr data-search="kalamazoo college moodle.kzoo.edu"><td>Kalamazoo College</td><td>moodle.kzoo.edu</td><td>1</td><td>94</td><td>97</td><td>100</td><td>91</td></tr>
 <tr data-search="an-najah national university moodle.najah.edu"><td>An-Najah National University</td><td>moodle.najah.edu</td><td>1</td><td>54</td><td>72</td><td>69</td><td>73</td></tr>
 <tr data-search="home ozarka college moodle.ozarka.edu"><td>Home Ozarka College</td><td>moodle.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
@@ -4433,6 +4524,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="john a. logan college homepage my.jalc.edu"><td>John A. Logan College Homepage</td><td>my.jalc.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>91</td></tr>
 <tr data-search="johnson university my.johnsonu.edu"><td>Johnson University</td><td>my.johnsonu.edu</td><td>1</td><td>94</td><td>93</td><td>77</td><td>83</td></tr>
 <tr data-search="juniata college, by any measure one of the best liberal arts colleges in the u.s. my.juniata.edu"><td>Juniata College, by any measure one of the best liberal arts colleges in the U.S.</td><td>my.juniata.edu</td><td>1</td><td>100</td><td>68</td><td>35</td><td>83</td></tr>
+<tr data-search="kansas wesleyan university my.kwu.edu"><td>Kansas Wesleyan University</td><td>my.kwu.edu</td><td>1</td><td>100</td><td>100</td><td>50</td><td>91</td></tr>
 <tr data-search="bible college in pennsylvania my.lbc.edu"><td>Bible College in Pennsylvania</td><td>my.lbc.edu</td><td>1</td><td>100</td><td>88</td><td>96</td><td>82</td></tr>
 <tr data-search="homepage — university of louisville my.louisville.edu"><td>Homepage — University of Louisville</td><td>my.louisville.edu</td><td>1</td><td>31</td><td>100</td><td>100</td><td>61</td></tr>
 <tr data-search="home ozarka college my.ozarka.edu"><td>Home Ozarka College</td><td>my.ozarka.edu</td><td>1</td><td>100</td><td>80</td><td>96</td><td>58</td></tr>
@@ -4646,6 +4738,9 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="indiana university at south bend online.iusb.edu"><td>Indiana University at South Bend</td><td>online.iusb.edu</td><td>1</td><td>95</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="john f. kennedy university online.jfku.edu"><td>John F. Kennedy University</td><td>online.jfku.edu</td><td>1</td><td>95</td><td>74</td><td>77</td><td>91</td></tr>
 <tr data-search="john wood community college online.jwu.edu"><td>John Wood Community College</td><td>online.jwu.edu</td><td>1</td><td>81</td><td>88</td><td>81</td><td>92</td></tr>
+<tr data-search="kansas state university online.k-state.edu"><td>Kansas State University</td><td>online.k-state.edu</td><td>2</td><td>94</td><td>96</td><td>73</td><td>92</td></tr>
+<tr data-search="karunya university online.karunya.edu"><td>Karunya University</td><td>online.karunya.edu</td><td>1</td><td>75</td><td>68</td><td>100</td><td>75</td></tr>
+<tr data-search="keiser university online.keiseruniversity.edu"><td>Keiser University</td><td>online.keiseruniversity.edu</td><td>1</td><td>98</td><td>88</td><td>77</td><td>54</td></tr>
 <tr data-search="[lwc] lindsey wilson college online.lindsey.edu"><td>[LWC] Lindsey Wilson College</td><td>online.lindsey.edu</td><td>1</td><td>94</td><td>64</td><td>73</td><td>83</td></tr>
 <tr data-search="homepage — university of louisville online.louisville.edu"><td>Homepage — University of Louisville</td><td>online.louisville.edu</td><td>1</td><td>38</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="christian university online.macu.edu"><td>Christian University</td><td>online.macu.edu</td><td>1</td><td>98</td><td>76</td><td>73</td><td>61</td></tr>
@@ -4678,7 +4773,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="frederick community college outlook.frederick.edu"><td>Frederick Community College</td><td>outlook.frederick.edu</td><td>1</td><td>94</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="outlook.live.com outlook.live.com"><td>outlook.live.com</td><td>outlook.live.com</td><td>1</td><td>70</td><td>99</td><td>54</td><td>85</td></tr>
 <tr data-search="outlook.office.com outlook.office.com"><td>outlook.office.com</td><td>outlook.office.com</td><td>15</td><td>100</td><td>98</td><td>57</td><td>59</td></tr>
-<tr data-search="outlook.office365.com outlook.office365.com"><td>outlook.office365.com</td><td>outlook.office365.com</td><td>45</td><td>100</td><td>96</td><td>56</td><td>63</td></tr>
+<tr data-search="outlook.office365.com outlook.office365.com"><td>outlook.office365.com</td><td>outlook.office365.com</td><td>47</td><td>100</td><td>96</td><td>56</td><td>63</td></tr>
 <tr data-search="home ozarka college outlook.ozarka.edu"><td>Home Ozarka College</td><td>outlook.ozarka.edu</td><td>1</td><td>88</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="home ozarka college ozarka.edu"><td>Home Ozarka College</td><td>ozarka.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="pack.astate.edu pack.astate.edu"><td>pack.astate.edu</td><td>pack.astate.edu</td><td>1</td><td>69</td><td>100</td><td>96</td><td>83</td></tr>
@@ -4815,6 +4910,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="illinois benedictine college portal.ibc.edu"><td>Illinois Benedictine College</td><td>portal.ibc.edu</td><td>1</td><td>100</td><td>93</td><td>96</td><td>91</td></tr>
 <tr data-search="illinois college of optometry portal.ico.edu"><td>Illinois College of Optometry</td><td>portal.ico.edu</td><td>1</td><td>99</td><td>93</td><td>96</td><td>91</td></tr>
 <tr data-search="illinois institute of technology portal.iit.edu"><td>Illinois Institute of Technology</td><td>portal.iit.edu</td><td>1</td><td>75</td><td>93</td><td>96</td><td>82</td></tr>
+<tr data-search="kellogg community college portal.kellogg.edu"><td>Kellogg Community College</td><td>portal.kellogg.edu</td><td>1</td><td>100</td><td>100</td><td>69</td><td>54</td></tr>
 <tr data-search="[lwc] lindsey wilson college portal.lindsey.edu"><td>[LWC] Lindsey Wilson College</td><td>portal.lindsey.edu</td><td>1</td><td>100</td><td>61</td><td>92</td><td>83</td></tr>
 <tr data-search="homepage — university of louisville portal.louisville.edu"><td>Homepage — University of Louisville</td><td>portal.louisville.edu</td><td>1</td><td>100</td><td>90</td><td>96</td><td>63</td></tr>
 <tr data-search="christian university portal.macu.edu"><td>Christian University</td><td>portal.macu.edu</td><td>1</td><td>93</td><td>95</td><td>50</td><td>91</td></tr>
@@ -5070,6 +5166,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="services.asusystem.edu services.asusystem.edu"><td>services.asusystem.edu</td><td>services.asusystem.edu</td><td>1</td><td>81</td><td>80</td><td>77</td><td>83</td></tr>
 <tr data-search="services.bridgewater.edu services.bridgewater.edu"><td>services.bridgewater.edu</td><td>services.bridgewater.edu</td><td>1</td><td>99</td><td>100</td><td>81</td><td>92</td></tr>
 <tr data-search="services.dartmouth.edu services.dartmouth.edu"><td>services.dartmouth.edu</td><td>services.dartmouth.edu</td><td>1</td><td>75</td><td>93</td><td>81</td><td>92</td></tr>
+<tr data-search="services.kckcc.edu services.kckcc.edu"><td>services.kckcc.edu</td><td>services.kckcc.edu</td><td>1</td><td>93</td><td>100</td><td>81</td><td>83</td></tr>
 <tr data-search="home of southern evangelical seminary ses.edu"><td>Home of Southern Evangelical Seminary</td><td>ses.edu</td><td>1</td><td>100</td><td>84</td><td>77</td><td>85</td></tr>
 <tr data-search="shib.artcenter.edu shib.artcenter.edu"><td>shib.artcenter.edu</td><td>shib.artcenter.edu</td><td>3</td><td>100</td><td>76</td><td>92</td><td>54</td></tr>
 <tr data-search="shib.oit.duke.edu shib.oit.duke.edu"><td>shib.oit.duke.edu</td><td>shib.oit.duke.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -5081,6 +5178,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="shibboleth.hamilton.edu shibboleth.hamilton.edu"><td>shibboleth.hamilton.edu</td><td>shibboleth.hamilton.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>91</td></tr>
 <tr data-search="shprs.asu.edu shprs.asu.edu"><td>shprs.asu.edu</td><td>shprs.asu.edu</td><td>1</td><td>95</td><td>100</td><td>96</td><td>85</td></tr>
 <tr data-search="sieve.emporia.edu sieve.emporia.edu"><td>sieve.emporia.edu</td><td>sieve.emporia.edu</td><td>1</td><td>100</td><td>82</td><td>96</td><td>58</td></tr>
+<tr data-search="signin.k-state.edu signin.k-state.edu"><td>signin.k-state.edu</td><td>signin.k-state.edu</td><td>1</td><td>99</td><td>69</td><td>100</td><td>91</td></tr>
 <tr data-search="signon.byuh.edu signon.byuh.edu"><td>signon.byuh.edu</td><td>signon.byuh.edu</td><td>1</td><td>98</td><td>96</td><td>81</td><td>58</td></tr>
 <tr data-search="signon.capella.edu signon.capella.edu"><td>signon.capella.edu</td><td>signon.capella.edu</td><td>3</td><td>98</td><td>88</td><td>100</td><td>90</td></tr>
 <tr data-search="silverleafsystemsb2c.b2clogin.com silverleafsystemsb2c.b2clogin.com"><td>silverleafsystemsb2c.b2clogin.com</td><td>silverleafsystemsb2c.b2clogin.com</td><td>3</td><td>100</td><td>100</td><td>100</td><td>91</td></tr>
@@ -5164,6 +5262,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="hawaii pacific university sso.hpu.edu"><td>Hawaii Pacific University</td><td>sso.hpu.edu</td><td>2</td><td>96</td><td>96</td><td>86</td><td>58</td></tr>
 <tr data-search="hobart and william smith colleges sso.hws.edu"><td>Hobart and William Smith Colleges</td><td>sso.hws.edu</td><td>3</td><td>96</td><td>62</td><td>99</td><td>90</td></tr>
 <tr data-search="sso.illinoisstate.edu sso.illinoisstate.edu"><td>sso.illinoisstate.edu</td><td>sso.illinoisstate.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="kean university of new jersey sso.kean.edu"><td>Kean University of New Jersey</td><td>sso.kean.edu</td><td>1</td><td>100</td><td>96</td><td>81</td><td>58</td></tr>
 <tr data-search=":: midwest university :: sso.midwestern.edu"><td>:: Midwest University ::</td><td>sso.midwestern.edu</td><td>3</td><td>100</td><td>65</td><td>92</td><td>90</td></tr>
 <tr data-search="sso.okta.nevada.edu sso.okta.nevada.edu"><td>sso.okta.nevada.edu</td><td>sso.okta.nevada.edu</td><td>1</td><td>99</td><td>95</td><td>96</td><td>58</td></tr>
 <tr data-search="home ozarka college sso.ozarka.edu"><td>Home Ozarka College</td><td>sso.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
@@ -5177,6 +5276,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="staff.christendom.edu staff.christendom.edu"><td>staff.christendom.edu</td><td>staff.christendom.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="colorado state university - global campus staff.csuglobal.edu"><td>Colorado State University - Global Campus</td><td>staff.csuglobal.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="frederick community college staff.frederick.edu"><td>Frederick Community College</td><td>staff.frederick.edu</td><td>1</td><td>94</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="kellogg community college staff.kellogg.edu"><td>Kellogg Community College</td><td>staff.kellogg.edu</td><td>1</td><td>99</td><td>81</td><td>96</td><td>85</td></tr>
 <tr data-search="an-najah national university staff.najah.edu"><td>An-Najah National University</td><td>staff.najah.edu</td><td>1</td><td>100</td><td>98</td><td>92</td><td>90</td></tr>
 <tr data-search="home ozarka college staff.ozarka.edu"><td>Home Ozarka College</td><td>staff.ozarka.edu</td><td>1</td><td>86</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="american islamic college staging.aicusa.edu"><td>American Islamic College</td><td>staging.aicusa.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>50</td></tr>
@@ -5285,6 +5385,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="humboldt state university status.humboldt.edu"><td>Humboldt State University</td><td>status.humboldt.edu</td><td>1</td><td>100</td><td>86</td><td>77</td><td>69</td></tr>
 <tr data-search="illinois valley community college status.ivcc.edu"><td>Illinois Valley Community College</td><td>status.ivcc.edu</td><td>1</td><td>99</td><td>81</td><td>77</td><td>61</td></tr>
 <tr data-search="john cabot university status.johncabot.edu"><td>John Cabot University</td><td>status.johncabot.edu</td><td>1</td><td>100</td><td>81</td><td>77</td><td>92</td></tr>
+<tr data-search="status.ksu.edu status.ksu.edu"><td>status.ksu.edu</td><td>status.ksu.edu</td><td>1</td><td>100</td><td>69</td><td>96</td><td>91</td></tr>
 <tr data-search="homepage — university of louisville status.louisville.edu"><td>Homepage — University of Louisville</td><td>status.louisville.edu</td><td>1</td><td>100</td><td>81</td><td>77</td><td>66</td></tr>
 <tr data-search="home ozarka college status.ozarka.edu"><td>Home Ozarka College</td><td>status.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="a top christian university and seminary status.trincoll.edu"><td>A Top Christian University and Seminary</td><td>status.trincoll.edu</td><td>1</td><td>94</td><td>52</td><td>100</td><td>92</td></tr>
@@ -5436,6 +5537,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="indiana wesleyan university, marion support.indwes.edu"><td>Indiana Wesleyan University, Marion</td><td>support.indwes.edu</td><td>1</td><td>80</td><td>63</td><td>92</td><td>91</td></tr>
 <tr data-search="irvine valley college support.ivc.edu"><td>Irvine Valley College</td><td>support.ivc.edu</td><td>1</td><td>100</td><td>89</td><td>69</td><td>58</td></tr>
 <tr data-search="jackson community college support.jccmi.edu"><td>Jackson Community College</td><td>support.jccmi.edu</td><td>1</td><td>100</td><td>94</td><td>100</td><td>54</td></tr>
+<tr data-search="support.ksu.edu support.ksu.edu"><td>support.ksu.edu</td><td>support.ksu.edu</td><td>1</td><td>78</td><td>96</td><td>81</td><td>92</td></tr>
 <tr data-search="[lwc] lindsey wilson college support.lindsey.edu"><td>[LWC] Lindsey Wilson College</td><td>support.lindsey.edu</td><td>1</td><td>94</td><td>79</td><td>100</td><td>100</td></tr>
 <tr data-search="support.montserrat.edu support.montserrat.edu"><td>support.montserrat.edu</td><td>support.montserrat.edu</td><td>1</td><td>100</td><td>46</td><td>69</td><td>82</td></tr>
 <tr data-search="home ozarka college support.ozarka.edu"><td>Home Ozarka College</td><td>support.ozarka.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>92</td></tr>
@@ -5539,6 +5641,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="frederick community college theology.frederick.edu"><td>Frederick Community College</td><td>theology.frederick.edu</td><td>1</td><td>95</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="home ozarka college theology.ozarka.edu"><td>Home Ozarka College</td><td>theology.ozarka.edu</td><td>1</td><td>88</td><td>87</td><td>96</td><td>92</td></tr>
 <tr data-search="thesanfordschool.asu.edu thesanfordschool.asu.edu"><td>thesanfordschool.asu.edu</td><td>thesanfordschool.asu.edu</td><td>1</td><td>91</td><td>94</td><td>96</td><td>85</td></tr>
+<tr data-search="kaplan career institute thompson.edu"><td>Kaplan Career Institute</td><td>thompson.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="baylor college of medicine tlu.edu"><td>Baylor College of Medicine</td><td>tlu.edu</td><td>1</td><td>97</td><td>90</td><td>96</td><td>92</td></tr>
 <tr data-search="today.appstate.edu today.appstate.edu"><td>today.appstate.edu</td><td>today.appstate.edu</td><td>1</td><td>94</td><td>91</td><td>77</td><td>100</td></tr>
 <tr data-search="today.charleston.edu today.charleston.edu"><td>today.charleston.edu</td><td>today.charleston.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>92</td></tr>
@@ -5710,6 +5813,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.aaiscloud.com www.aaiscloud.com"><td>www.aaiscloud.com</td><td>www.aaiscloud.com</td><td>2</td><td>88</td><td>90</td><td>77</td><td>72</td></tr>
 <tr data-search="www.abac.edu www.abac.edu"><td>www.abac.edu</td><td>www.abac.edu</td><td>1</td><td>94</td><td>85</td><td>77</td><td>100</td></tr>
 <tr data-search="www.academyart.edu www.academyart.edu"><td>www.academyart.edu</td><td>www.academyart.edu</td><td>1</td><td>95</td><td>95</td><td>58</td><td>92</td></tr>
+<tr data-search="www.accessibility.kit.edu www.accessibility.kit.edu"><td>www.accessibility.kit.edu</td><td>www.accessibility.kit.edu</td><td>1</td><td>98</td><td>84</td><td>96</td><td>75</td></tr>
 <tr data-search="www.adelphi.edu www.adelphi.edu"><td>www.adelphi.edu</td><td>www.adelphi.edu</td><td>41</td><td>79</td><td>91</td><td>73</td><td>99</td></tr>
 <tr data-search="www.admissions.caltech.edu www.admissions.caltech.edu"><td>www.admissions.caltech.edu</td><td>www.admissions.caltech.edu</td><td>1</td><td>100</td><td>90</td><td>92</td><td>100</td></tr>
 <tr data-search="www.adrian.edu www.adrian.edu"><td>www.adrian.edu</td><td>www.adrian.edu</td><td>1</td><td>95</td><td>94</td><td>77</td><td>100</td></tr>
@@ -5720,6 +5824,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.alumni.bentley.edu www.alumni.bentley.edu"><td>www.alumni.bentley.edu</td><td>www.alumni.bentley.edu</td><td>1</td><td>100</td><td>96</td><td>92</td><td>82</td></tr>
 <tr data-search="www.alumni.depaul.edu www.alumni.depaul.edu"><td>www.alumni.depaul.edu</td><td>www.alumni.depaul.edu</td><td>1</td><td>74</td><td>83</td><td>77</td><td>83</td></tr>
 <tr data-search="www.alumni.hi.edu www.alumni.hi.edu"><td>www.alumni.hi.edu</td><td>www.alumni.hi.edu</td><td>1</td><td>75</td><td>100</td><td>100</td><td>100</td></tr>
+<tr data-search="www.alumni.kit.edu www.alumni.kit.edu"><td>www.alumni.kit.edu</td><td>www.alumni.kit.edu</td><td>1</td><td>97</td><td>69</td><td>100</td><td>75</td></tr>
 <tr data-search="www.amu.apus.edu www.amu.apus.edu"><td>www.amu.apus.edu</td><td>www.amu.apus.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="www.andrews.edu www.andrews.edu"><td>www.andrews.edu</td><td>www.andrews.edu</td><td>3</td><td>97</td><td>75</td><td>68</td><td>85</td></tr>
 <tr data-search="www.angelo.edu www.angelo.edu"><td>www.angelo.edu</td><td>www.angelo.edu</td><td>1</td><td>85</td><td>92</td><td>77</td><td>100</td></tr>
@@ -5844,6 +5949,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.colum.edu www.colum.edu"><td>www.colum.edu</td><td>www.colum.edu</td><td>1</td><td>95</td><td>95</td><td>96</td><td>92</td></tr>
 <tr data-search="www.columbiabasin.edu www.columbiabasin.edu"><td>www.columbiabasin.edu</td><td>www.columbiabasin.edu</td><td>1</td><td>68</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="www.columbusstate.edu www.columbusstate.edu"><td>www.columbusstate.edu</td><td>www.columbusstate.edu</td><td>27</td><td>94</td><td>100</td><td>95</td><td>99</td></tr>
+<tr data-search="www.communications.k-state.edu www.communications.k-state.edu"><td>www.communications.k-state.edu</td><td>www.communications.k-state.edu</td><td>1</td><td>93</td><td>100</td><td>96</td><td>83</td></tr>
 <tr data-search="www.converse.edu www.converse.edu"><td>www.converse.edu</td><td>www.converse.edu</td><td>2</td><td>90</td><td>98</td><td>75</td><td>92</td></tr>
 <tr data-search="www.cookman.edu www.cookman.edu"><td>www.cookman.edu</td><td>www.cookman.edu</td><td>2</td><td>96</td><td>95</td><td>73</td><td>92</td></tr>
 <tr data-search="www.covenant.edu www.covenant.edu"><td>www.covenant.edu</td><td>www.covenant.edu</td><td>1</td><td>91</td><td>99</td><td>73</td><td>92</td></tr>
@@ -5853,6 +5959,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.cs.cornell.edu www.cs.cornell.edu"><td>www.cs.cornell.edu</td><td>www.cs.cornell.edu</td><td>1</td><td>93</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="www.cs.iastate.edu www.cs.iastate.edu"><td>www.cs.iastate.edu</td><td>www.cs.iastate.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="www.cs.jhu.edu www.cs.jhu.edu"><td>www.cs.jhu.edu</td><td>www.cs.jhu.edu</td><td>1</td><td>94</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="www.cs.ksu.edu www.cs.ksu.edu"><td>www.cs.ksu.edu</td><td>www.cs.ksu.edu</td><td>1</td><td>99</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="www.csbsju.edu www.csbsju.edu"><td>www.csbsju.edu</td><td>www.csbsju.edu</td><td>3</td><td>94</td><td>99</td><td>76</td><td>92</td></tr>
 <tr data-search="www.csc.edu www.csc.edu"><td>www.csc.edu</td><td>www.csc.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>92</td></tr>
 <tr data-search="www.cscc.edu www.cscc.edu"><td>www.cscc.edu</td><td>www.cscc.edu</td><td>1</td><td>85</td><td>96</td><td>73</td><td>85</td></tr>
@@ -5950,6 +6057,7 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.gettysburg.edu www.gettysburg.edu"><td>www.gettysburg.edu</td><td>www.gettysburg.edu</td><td>2</td><td>80</td><td>100</td><td>73</td><td>96</td></tr>
 <tr data-search="www.ggc.edu www.ggc.edu"><td>www.ggc.edu</td><td>www.ggc.edu</td><td>1</td><td>67</td><td>97</td><td>77</td><td>100</td></tr>
 <tr data-search="www.giving.guilford.edu www.giving.guilford.edu"><td>www.giving.guilford.edu</td><td>www.giving.guilford.edu</td><td>1</td><td>97</td><td>62</td><td>96</td><td>85</td></tr>
+<tr data-search="www.giving.kit.edu www.giving.kit.edu"><td>www.giving.kit.edu</td><td>www.giving.kit.edu</td><td>1</td><td>96</td><td>79</td><td>100</td><td>83</td></tr>
 <tr data-search="www.gmercyu.edu www.gmercyu.edu"><td>www.gmercyu.edu</td><td>www.gmercyu.edu</td><td>1</td><td>95</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="www.goodwin.edu www.goodwin.edu"><td>www.goodwin.edu</td><td>www.goodwin.edu</td><td>1</td><td>94</td><td>87</td><td>73</td><td>85</td></tr>
 <tr data-search="www.google.com www.google.com"><td>www.google.com</td><td>www.google.com</td><td>14</td><td>94</td><td>100</td><td>100</td><td>100</td></tr>
@@ -5993,10 +6101,12 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.ie.edu www.ie.edu"><td>www.ie.edu</td><td>www.ie.edu</td><td>3</td><td>95</td><td>89</td><td>74</td><td>77</td></tr>
 <tr data-search="www.indianatech.edu www.indianatech.edu"><td>www.indianatech.edu</td><td>www.indianatech.edu</td><td>2</td><td>88</td><td>100</td><td>73</td><td>96</td></tr>
 <tr data-search="www.indwes.edu www.indwes.edu"><td>www.indwes.edu</td><td>www.indwes.edu</td><td>1</td><td>72</td><td>78</td><td>73</td><td>85</td></tr>
+<tr data-search="www.informatik.kit.edu www.informatik.kit.edu"><td>www.informatik.kit.edu</td><td>www.informatik.kit.edu</td><td>1</td><td>92</td><td>78</td><td>100</td><td>83</td></tr>
 <tr data-search="www.inside.iastate.edu www.inside.iastate.edu"><td>www.inside.iastate.edu</td><td>www.inside.iastate.edu</td><td>1</td><td>94</td><td>100</td><td>100</td><td>85</td></tr>
 <tr data-search="www.iowacentral.edu www.iowacentral.edu"><td>www.iowacentral.edu</td><td>www.iowacentral.edu</td><td>1</td><td>95</td><td>89</td><td>73</td><td>100</td></tr>
 <tr data-search="www.isu.edu www.isu.edu"><td>www.isu.edu</td><td>www.isu.edu</td><td>1</td><td>96</td><td>93</td><td>69</td><td>54</td></tr>
 <tr data-search="www.it.iastate.edu www.it.iastate.edu"><td>www.it.iastate.edu</td><td>www.it.iastate.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
+<tr data-search="www.its.kit.edu www.its.kit.edu"><td>www.its.kit.edu</td><td>www.its.kit.edu</td><td>1</td><td>92</td><td>69</td><td>100</td><td>67</td></tr>
 <tr data-search="www.iup.edu www.iup.edu"><td>www.iup.edu</td><td>www.iup.edu</td><td>2</td><td>98</td><td>100</td><td>77</td><td>100</td></tr>
 <tr data-search="www.ivcc.edu www.ivcc.edu"><td>www.ivcc.edu</td><td>www.ivcc.edu</td><td>1</td><td>95</td><td>96</td><td>96</td><td>85</td></tr>
 <tr data-search="www.ivybusiness.iastate.edu www.ivybusiness.iastate.edu"><td>www.ivybusiness.iastate.edu</td><td>www.ivybusiness.iastate.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>92</td></tr>
@@ -6012,7 +6122,10 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.ju.edu www.ju.edu"><td>www.ju.edu</td><td>www.ju.edu</td><td>6</td><td>95</td><td>90</td><td>73</td><td>96</td></tr>
 <tr data-search="www.jwcc.edu www.jwcc.edu"><td>www.jwcc.edu</td><td>www.jwcc.edu</td><td>1</td><td>100</td><td>96</td><td>73</td><td>77</td></tr>
 <tr data-search="www.jwu.edu www.jwu.edu"><td>www.jwu.edu</td><td>www.jwu.edu</td><td>11</td><td>94</td><td>100</td><td>73</td><td>100</td></tr>
+<tr data-search="www.k-state.edu www.k-state.edu"><td>www.k-state.edu</td><td>www.k-state.edu</td><td>3</td><td>92</td><td>97</td><td>72</td><td>92</td></tr>
+<tr data-search="www.kansascity.edu www.kansascity.edu"><td>www.kansascity.edu</td><td>www.kansascity.edu</td><td>2</td><td>80</td><td>89</td><td>54</td><td>96</td></tr>
 <tr data-search="www.kcc.edu www.kcc.edu"><td>www.kcc.edu</td><td>www.kcc.edu</td><td>2</td><td>94</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="www.kean.edu www.kean.edu"><td>www.kean.edu</td><td>www.kean.edu</td><td>5</td><td>94</td><td>99</td><td>77</td><td>87</td></tr>
 <tr data-search="www.kvcc.edu www.kvcc.edu"><td>www.kvcc.edu</td><td>www.kvcc.edu</td><td>4</td><td>98</td><td>94</td><td>77</td><td>90</td></tr>
 <tr data-search="www.law.capital.edu www.law.capital.edu"><td>www.law.capital.edu</td><td>www.law.capital.edu</td><td>1</td><td>93</td><td>89</td><td>73</td><td>85</td></tr>
 <tr data-search="www.law.columbia.edu www.law.columbia.edu"><td>www.law.columbia.edu</td><td>www.law.columbia.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>92</td></tr>
@@ -6024,6 +6137,8 @@ _Stats as of 2026-10-24 09:31 UTC — last scan: 2026-10-23_
 <tr data-search="www.library.ico.edu www.library.ico.edu"><td>www.library.ico.edu</td><td>www.library.ico.edu</td><td>1</td><td>56</td><td>91</td><td>96</td><td>92</td></tr>
 <tr data-search="www.library.jcsu.edu www.library.jcsu.edu"><td>www.library.jcsu.edu</td><td>www.library.jcsu.edu</td><td>1</td><td>94</td><td>93</td><td>96</td><td>92</td></tr>
 <tr data-search="www.macu.edu www.macu.edu"><td>www.macu.edu</td><td>www.macu.edu</td><td>2</td><td>75</td><td>94</td><td>77</td><td>73</td></tr>
+<tr data-search="www.math.kit.edu www.math.kit.edu"><td>www.math.kit.edu</td><td>www.math.kit.edu</td><td>1</td><td>97</td><td>78</td><td>100</td><td>83</td></tr>
+<tr data-search="www.med.kit.edu www.med.kit.edu"><td>www.med.kit.edu</td><td>www.med.kit.edu</td><td>1</td><td>92</td><td>86</td><td>100</td><td>83</td></tr>
 <tr data-search="www.montserrat.edu www.montserrat.edu"><td>www.montserrat.edu</td><td>www.montserrat.edu</td><td>1</td><td>98</td><td>88</td><td>100</td><td>77</td></tr>
 <tr data-search="www.music.iastate.edu www.music.iastate.edu"><td>www.music.iastate.edu</td><td>www.music.iastate.edu</td><td>1</td><td>95</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="www.my.avemaria.edu www.my.avemaria.edu"><td>www.my.avemaria.edu</td><td>www.my.avemaria.edu</td><td>1</td><td>99</td><td>94</td><td>73</td><td>66</td></tr>
