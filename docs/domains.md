@@ -3,7 +3,7 @@ title: Government Domains
 layout: page
 ---
 
-_Generated: 2026-10-27 10:31 UTC_
+_Generated: 2026-10-28 11:19 UTC_
 
 This page lists all government domains tracked in the dataset, grouped by country. Data is sourced from the [TOON seed files](https://github.com/mgifford/edu-scans/tree/main/data/toon-seeds) in the repository.
 
