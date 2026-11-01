@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-10-31 10:54 UTC — last scan: 2026-10-31_
+_Stats as of 2026-11-01 11:49 UTC — last scan: 2026-11-01_
 
-**2** scan batches run
+**7** scan batches run
 
-**5,195** of **19,392** available domains scanned (**26.8%** coverage)
-**4,413** of **5,195** scanned domains were reachable (**84.9%**)
-**1,295** of **4,413** reachable domains have an accessibility statement (**29.3%**)
-**1,143** domains have the statement link in the footer (**88.3%** of domains with a statement)
+**8,015** of **19,554** available domains scanned (**41.0%** coverage)
+**7,042** of **8,015** scanned domains were reachable (**87.9%**)
+**2,299** of **7,042** reachable domains have an accessibility statement (**32.6%**)
+**1,903** domains have the statement link in the footer (**82.8%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,9 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 2,994 | 3,763 | 2,236 | 829 | 739 | 37.1% | Oct 2026 |
-| Usa Edu Master Subdomains | 3,063 | 15,529 | 2,806 | 703 | 603 | 25.1% | Oct 2026 |
-| **Total** | **6,057** | **19,392** | **5,042** | **1,532** | **1,342** | **30.4%** | — |
+| Usa Edu Master | 3,752 | 3,763 | 2,815 | 1,087 | 947 | 38.6% | Oct 2026 – Nov 2026 |
+| Usa Edu Master Subdomains | 7,991 | 15,691 | 7,015 | 2,255 | 1,877 | 32.1% | Oct 2026 – Nov 2026 |
+| Usa Edu Top100 | 101 | 100 | 89 | 59 | 56 | 66.3% | Oct 2026 |
+| **Total** | **11,844** | **19,554** | **9,919** | **3,401** | **2,880** | **34.3%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
