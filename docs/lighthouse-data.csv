@@ -1,1 +1,645 @@
 ﻿country_code,url,performance,accessibility,best_practices,seo,error,scanned_at
+USA_EDU_MASTER_SUBDOMAINS,https://91a8cbfe-25ce-4134-936b-6552e7e79cff.iad.login.instructure.com/?goto=https%3A%2F%2F91a8cbfe-25ce-4134-936b-6552e7e79cff.iad.login.instructure.com%2Fam%2Foauth2%2Falpha%2Fauthorize%3Fauthentication_provider%3D12868ab9-5afe-4ed7-8666-87216cd6a5de%26canvas_request_id%3D4cd6355d-ab24-47d4-98a3-34edce667567%26client_id%3Dcanvas-prod-iad%26nonce%3D90151832f8ce2efcac0b63194713f578bfed8d44863e46b4%26org_id%3D91a8cbfe-25ce-4134-936b-6552e7e79cff%26redirect_uri%3Dhttps%3A%2F%2Fsso.canvaslms.com%2Flogin%2Foauth2%2Fcallback%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhYWNfaWQiOjUyNzEwMDAwMDAwMDAwMjc2LCJub25jZSI6IjkwMTUxODMyZjhjZTJlZmNhYzBiNjMxOTQ3MTNmNTc4YmZlZDhkNDQ4NjNlNDZiNCIsImhvc3QiOiJhbGZyZWR1Lmluc3RydWN0dXJlLmNvbSIsInRhcmdldF9hdXRoX3Byb3ZpZGVyIjoiMTI4NjhhYjktNWFmZS00ZWQ3LTg2NjYtODcyMTZjZDZhNWRlIiwiZXhwIjoxNzkzNTI3NDI1fQ.KirkAx6v5buSflVVq7s0COlAxIReETc59WZwSh7avCA%26target_domain%3Dhttps%3A%2F%2Falfredu.instructure.com&realm=/alpha,100.0,100.0,69.0,54.0,,2026-11-01T13:01:53.898892+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aamu.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T12:54:21.109915+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ab.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65013),2026-11-01T12:59:08.838956+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://abac.edu/,86.0,82.0,77.0,91.0,,2026-11-01T12:21:58.947494+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://abcnash.edu/,92.0,88.0,77.0,92.0,,2026-11-01T13:12:12.731724+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://abcs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-11-01T13:12:45.678964+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://about.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:40:10.782354+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://absw.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T13:12:43.789923+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://academyart.edu/,74.0,88.0,58.0,85.0,,2026-11-01T12:26:13.931786+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://academycollege.edu/,93.0,97.0,100.0,92.0,,2026-11-01T12:26:00.084886+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acadiana.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-11-01T12:27:27.602638+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acaom.edu/,56.0,79.0,58.0,85.0,,2026-11-01T13:14:39.878909+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accessibility.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:33:50.835485+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accessibility.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65306),2026-11-01T12:04:38.682637+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accounts.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:44:09.948411+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accounts.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:05:59.259630+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/apu.edu/grants&followup=https://sites.google.com/apu.edu/grants&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1377426665:1793526642421177,86.0,94.0,100.0,100.0,,2026-11-01T12:19:08.813334+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/apu.edu/psychdepartment&followup=https://sites.google.com/apu.edu/psychdepartment&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1925827846:1793526595369680,99.0,94.0,100.0,100.0,,2026-11-01T12:17:51.702529+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://achs.edu/,95.0,83.0,58.0,92.0,,2026-11-01T13:14:48.753831+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acm.edu/,100.0,93.0,96.0,45.0,,2026-11-01T12:31:58.716861+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acofi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-11-01T12:58:21.265156+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acphs.edu/,100.0,98.0,38.0,85.0,,2026-11-01T12:57:04.310422+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://act.edu/,52.0,85.0,54.0,92.0,,2026-11-01T13:15:13.594910+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://actcm.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 357 column 21 (char 65068),2026-11-01T13:15:33.658431+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://actx.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-11-01T13:10:50.778094+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://acu.edu/,99.0,100.0,96.0,92.0,,2026-11-01T12:20:33.422289+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://adams.edu/,90.0,81.0,77.0,100.0,,2026-11-01T12:32:18.656870+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://adamsstateuniversity.freshservice.com/support/home,95.0,100.0,100.0,50.0,,2026-11-01T12:32:44.978292+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://adelphi.edu/,70.0,87.0,73.0,100.0,,2026-11-01T12:32:54.539222+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.act.edu/,77.0,100.0,81.0,92.0,,2026-11-01T13:15:23.427085+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:28:46.118318+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.aku.edu/,75.0,96.0,100.0,82.0,,2026-11-01T12:47:55.911925+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:02:25.308740+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.mccollege.edu/,72.0,97.0,69.0,100.0,,2026-11-01T12:11:25.577288+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://admissions.ycce.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65414),2026-11-01T11:56:44.637897+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://adrian.edu/,78.0,96.0,73.0,100.0,,2026-11-01T12:45:37.430100+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://adrians.edu/,95.0,73.0,73.0,85.0,,2026-11-01T12:46:09.601483+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://advancement.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:32:12.283596+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://advancement.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 653 column 21 (char 130303),2026-11-01T12:03:55.747907+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://afi.edu/,67.0,86.0,65.0,77.0,,2026-11-01T12:46:41.992562+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://afit.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64820),2026-11-01T12:51:35.878619+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://africau.edu/,92.0,67.0,73.0,77.0,,2026-11-01T12:47:08.114625+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://agnesscott.edu/,85.0,98.0,73.0,92.0,,2026-11-01T12:48:32.851314+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ahgaff.edu/,81.0,83.0,96.0,100.0,,2026-11-01T12:54:51.675974+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ahi.edu/index.asp,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-11-01T13:15:46.550848+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiam.edu/,95.0,79.0,73.0,92.0,,2026-11-01T13:16:32.540401+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aic.edu/,32.0,90.0,73.0,92.0,,2026-11-01T13:17:23.205355+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aicag.edu/,89.0,78.0,62.0,92.0,,2026-11-01T13:15:48.083480+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiht.edu/,91.0,79.0,54.0,77.0,,2026-11-01T13:16:50.326778+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiims.edu/,45.0,60.0,50.0,73.0,,2026-11-01T13:02:36.010091+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aims.edu/,100.0,100.0,73.0,85.0,,2026-11-01T12:50:29.548807+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aimt.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T12:51:22.204907+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:17:25.718643+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiufl.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65019),2026-11-01T13:17:04.464078+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aiuniv.edu/,86.0,89.0,58.0,85.0,,2026-11-01T13:17:00.124743+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://akbible.edu/,99.0,95.0,96.0,100.0,,2026-11-01T12:56:11.228890+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aku.edu/,94.0,78.0,92.0,85.0,,2026-11-01T12:47:38.601420+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alamancecc.edu/,81.0,98.0,77.0,77.0,,2026-11-01T12:55:03.791341+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alamedabeautycollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65049),2026-11-01T12:55:28.155970+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alamo.edu/,94.0,89.0,73.0,85.0,,2026-11-01T12:55:37.155929+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alaskacareercollege.edu/,76.0,89.0,96.0,100.0,,2026-11-01T12:56:14.674098+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alaskapacific.edu/,89.0,87.0,54.0,92.0,,2026-11-01T12:56:39.034126+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alasu.edu/,95.0,96.0,54.0,100.0,,2026-11-01T12:56:23.367579+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alb.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T12:58:32.095253+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://albanytech.edu/,100.0,97.0,65.0,85.0,,2026-11-01T12:57:57.992019+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alc.edu/,100.0,88.0,81.0,92.0,,2026-11-01T13:02:23.377969+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alcorn.edu/,94.0,89.0,54.0,92.0,,2026-11-01T12:58:39.994136+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alextech.edu/,90.0,94.0,73.0,100.0,,2026-11-01T12:59:24.620472+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alfred.edu/,68.0,97.0,58.0,100.0,,2026-11-01T13:01:10.134358+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alfredstate.edu/,46.0,100.0,77.0,100.0,,2026-11-01T12:59:49.489623+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alfredu.samanage.com/login,100.0,100.0,54.0,54.0,,2026-11-01T13:02:11.959002+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alleg.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-11-01T13:03:37.139896+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://allegany.edu/,78.0,88.0,77.0,83.0,,2026-11-01T13:03:14.428293+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://allencc.edu/,75.0,93.0,54.0,92.0,,2026-11-01T13:03:58.073119+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://allencol.edu/,,,,,Lighthouse timed out after 120s,2026-11-01T13:04:37.497470+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://allencollege.edu/,100.0,94.0,100.0,92.0,,2026-11-01T13:03:40.207613+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://allenuniversity.edu/,91.0,97.0,77.0,92.0,,2026-11-01T13:04:02.121700+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alliant.edu/,100.0,100.0,58.0,100.0,,2026-11-01T13:04:42.630857+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alma.edu/,85.0,93.0,77.0,92.0,,2026-11-01T13:06:37.594922+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alpenacc.edu/,93.0,92.0,100.0,91.0,,2026-11-01T13:07:59.543309+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alpenacc.elluciancrmrecruit.com/Apply/Account/Login?ReturnUrl=%2fApply,68.0,90.0,100.0,90.0,,2026-11-01T13:08:24.633974+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alquds.edu/,31.0,78.0,62.0,92.0,,2026-11-01T12:52:00.663593+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://altamahatech.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65035),2026-11-01T13:08:29.229858+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alu.edu/,94.0,95.0,54.0,92.0,,2026-11-01T12:24:04.829958+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.africau.edu/,97.0,100.0,100.0,91.0,,2026-11-01T12:47:34.224737+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:31:39.436984+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.alfred.edu/,100.0,83.0,73.0,66.0,,2026-11-01T13:01:19.753148+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.alquds.edu/,63.0,71.0,73.0,85.0,,2026-11-01T12:52:32.676013+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:03:50.522407+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.capella.edu/,95.0,97.0,100.0,85.0,,2026-11-01T12:28:05.392388+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.fortlewis.edu/,88.0,100.0,54.0,92.0,,2026-11-01T12:16:01.026529+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alumni.ycce.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65398),2026-11-01T11:56:47.384247+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alvernia.edu/,74.0,88.0,77.0,92.0,,2026-11-01T13:08:42.874375+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alverno.edu/,,,,,Lighthouse timed out after 120s,2026-11-01T13:08:50.719285+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://alvincollege.edu/,100.0,92.0,69.0,83.0,,2026-11-01T13:10:02.315490+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ambassador.edu/,100.0,95.0,96.0,61.0,,2026-11-01T13:11:12.632298+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ambassadors.edu/,97.0,89.0,77.0,92.0,,2026-11-01T13:11:11.664422+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://amberton.edu/,76.0,92.0,73.0,85.0,,2026-11-01T13:11:34.122484+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://amcd.edu/,38.0,88.0,35.0,92.0,,2026-11-01T13:14:37.292068+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://amercoastuniv.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65037),2026-11-01T13:14:19.102285+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://americancareercollege.edu/,88.0,96.0,54.0,92.0,,2026-11-01T13:12:53.585777+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://americaninstitute.edu/,100.0,94.0,38.0,100.0,,2026-11-01T13:15:57.761916+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://americanparalegal.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65045),2026-11-01T13:16:29.171612+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ancollege.edu/,100.0,92.0,96.0,92.0,,2026-11-01T12:20:05.995408+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65252),2026-11-01T11:57:41.462337+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://api.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65266),2026-11-01T12:10:23.463092+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://api.lindsey.edu/,100.0,73.0,100.0,91.0,,2026-11-01T12:14:58.510192+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.abac.edu/,91.0,96.0,73.0,92.0,,2026-11-01T12:23:19.989178+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.aims.edu/,100.0,97.0,73.0,100.0,,2026-11-01T12:51:04.808178+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:47:28.414933+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.americaninstitute.edu/,95.0,79.0,73.0,92.0,,2026-11-01T13:16:07.287455+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65274),2026-11-01T12:07:24.668836+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.asurams.edu/,94.0,100.0,73.0,92.0,,2026-11-01T12:57:50.378026+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.aud.edu/,78.0,95.0,69.0,77.0,,2026-11-01T11:53:12.341844+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.capella.edu/,78.0,95.0,54.0,92.0,,2026-11-01T12:28:43.938881+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apply.mccollege.edu/,99.0,96.0,77.0,100.0,,2026-11-01T12:12:12.811890+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:47:24.873254+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.alpenacc.edu/,100.0,80.0,92.0,92.0,,2026-11-01T13:08:22.482370+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.alquds.edu/en/login,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65432),2026-11-01T12:53:47.837358+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:07:10.181819+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.asurams.edu/,100.0,100.0,100.0,100.0,,2026-11-01T12:57:28.923128+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.auto.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65392),2026-11-01T12:46:34.506386+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.capital.edu/,56.0,95.0,73.0,92.0,,2026-11-01T12:29:59.815678+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.fortlewis.edu/,100.0,50.0,92.0,80.0,,2026-11-01T12:17:07.115340+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apps.stonybrookmedicine.edu/logon/LogonPoint/tmindex.html,100.0,100.0,54.0,54.0,,2026-11-01T12:25:49.257568+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://apu.edu/,90.0,100.0,58.0,100.0,,2026-11-01T12:17:44.411668+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://architecture.academyart.edu/,98.0,80.0,81.0,50.0,,2026-11-01T12:26:28.579743+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://architecture.aiub.edu/,52.0,94.0,96.0,100.0,,2026-11-01T13:21:08.007408+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://architecture.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65302),2026-11-01T11:59:08.662321+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://arts.abac.edu/,98.0,85.0,73.0,91.0,,2026-11-01T12:22:07.698698+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://arts.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:19:23.062851+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://arts.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T11:58:26.015704+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ascc.edu/,75.0,77.0,96.0,64.0,,2026-11-01T12:54:41.749107+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://asurams.edu/,98.0,91.0,69.0,92.0,,2026-11-01T12:57:15.399885+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://atc.edu/,96.0,97.0,77.0,92.0,,2026-11-01T12:50:05.946642+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.abac.edu/,89.0,92.0,50.0,100.0,,2026-11-01T12:22:19.820745+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:30:32.837268+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.alverno.edu/,68.0,80.0,69.0,92.0,,2026-11-01T13:09:29.133364+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:03:12.403872+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.apu.edu/,60.0,91.0,54.0,100.0,,2026-11-01T12:17:52.559561+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.capital.edu/,68.0,84.0,54.0,100.0,,2026-11-01T12:29:25.269450+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://athletics.csi.edu/,70.0,84.0,69.0,85.0,,2026-11-01T12:13:06.945529+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aud.edu/,65.0,95.0,69.0,77.0,,2026-11-01T11:51:39.264316+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aupanthers.com/,62.0,89.0,54.0,100.0,,2026-11-01T12:39:06.375568+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aus-csm.symplicity.com/,94.0,98.0,100.0,92.0,,2026-11-01T12:49:04.002482+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aus.edu/,90.0,62.0,54.0,85.0,,2026-11-01T12:48:44.584791+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://aus.elluciancrmrecruit.com/Apply/Account/Login?ReturnUrl=%2fApply,94.0,94.0,77.0,80.0,,2026-11-01T12:49:56.414194+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://auto.edu/,100.0,100.0,100.0,100.0,,2026-11-01T12:46:20.788205+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://auwolves.com/,81.0,89.0,73.0,100.0,,2026-11-01T13:08:50.066439+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://bbc.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65015),2026-11-01T12:27:41.986330+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://biology.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:23:56.470427+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://biology.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65282),2026-11-01T12:00:34.178490+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://blackboard.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:42:54.986847+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://blackboard.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:05:18.150858+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://blackboard.atc.edu/,100.0,100.0,77.0,54.0,,2026-11-01T12:50:19.109209+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://bluewater.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65029),2026-11-01T12:10:47.424971+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://brand.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:36:53.184099+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://brand.alquds.edu/,100.0,50.0,88.0,80.0,,2026-11-01T12:53:11.571781+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://brandman.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65027),2026-11-01T12:31:38.137323+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://bursar.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:29:05.378075+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://bursar.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:02:45.016930+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://business.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:18:31.846539+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://business.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T11:58:04.654119+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://calendar.abac.edu/,75.0,69.0,58.0,91.0,,2026-11-01T12:22:54.885140+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://calendar.agnesscott.edu/,60.0,95.0,77.0,100.0,,2026-11-01T12:48:40.603364+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://calendar.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:36:21.483277+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://calendar.allegany.edu/,100.0,78.0,69.0,91.0,,2026-11-01T13:03:15.604186+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://calvary.edu/,62.0,89.0,35.0,92.0,,2026-11-01T12:15:10.325173+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://canvas.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:42:25.816302+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://canvas.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:05:16.166218+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://canvas.capital.edu/,95.0,93.0,96.0,91.0,,2026-11-01T12:29:40.847729+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://canvas.jefferson.edu/,99.0,92.0,96.0,100.0,,2026-11-01T11:55:55.237621+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://capella.edu/,91.0,80.0,73.0,85.0,,2026-11-01T12:27:48.147304+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://career.aiub.edu/,50.0,91.0,100.0,75.0,,2026-11-01T13:31:19.922245+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://career.alma.edu/,100.0,94.0,100.0,85.0,,2026-11-01T13:07:08.329869+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://career.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:03:31.009521+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careered.libguides.com/tui/students/,100.0,93.0,96.0,50.0,,2026-11-01T12:31:09.553786+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careers.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:31:23.561887+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careers.americancareercollege.edu/,94.0,93.0,54.0,100.0,,2026-11-01T13:13:04.254098+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careers.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65282),2026-11-01T12:03:34.161036+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careers.fortlewis.edu/,94.0,91.0,54.0,92.0,,2026-11-01T12:15:45.450646+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://careerservices.alamo.edu/,99.0,91.0,100.0,92.0,,2026-11-01T12:55:47.767608+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cas.apu.edu/cas/login?service=https%3a%2f%2finside.apu.edu%2f,100.0,100.0,73.0,82.0,,2026-11-01T12:18:47.120075+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cdn.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T12:10:14.055330+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://center.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:48:41.320758+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://center.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:07:50.623228+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://centre.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:49:05.204065+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://centre.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:07:54.126031+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://chancellor.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:41:00.799642+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://chat.apu.edu/,98.0,100.0,73.0,75.0,,2026-11-01T12:19:10.987343+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://chemistry.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:23:35.958480+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://chemistry.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:00:19.718409+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cncusa.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-11-01T11:57:20.916459+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://communications.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:26:08.583480+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://communications.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65310),2026-11-01T12:01:20.133409+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://communications.aud.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65426),2026-11-01T11:51:46.880872+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://compliance.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:37:28.748771+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://connect.fortlewis.edu/apply/,96.0,92.0,73.0,83.0,,2026-11-01T12:17:14.284283+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://continuing-education.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:27:49.618785+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://continuing-education.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65336),2026-11-01T12:02:03.852974+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://counseling.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:34:58.616104+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cs.alasu.edu/,100.0,98.0,92.0,91.0,,2026-11-01T12:56:33.698569+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cs.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65262),2026-11-01T11:59:58.568114+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cs.aud.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65380),2026-11-01T11:51:41.948586+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://cs.capella.edu/,100.0,88.0,100.0,90.0,,2026-11-01T12:28:02.179284+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://csi.edu/,100.0,93.0,73.0,77.0,,2026-11-01T12:12:17.440867+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://csi.spydus.com/cgi-bin/spydus.exe/MSGTRN/OPAC/HOME,55.0,93.0,77.0,69.0,,2026-11-01T12:13:42.354128+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://data.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:10:36.408757+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://data.capella.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 365 column 21 (char 64497),2026-11-01T12:29:07.671316+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dei.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:38:00.433560+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dental.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:20:39.415957+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dental.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T11:58:53.698393+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dentistry.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:21:04.573865+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dentistry.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65290),2026-11-01T11:59:07.505748+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://design.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:21:29.108186+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://design.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T11:59:15.241127+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dev.abac.edu/,98.0,82.0,77.0,58.0,,2026-11-01T12:23:49.092370+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dev.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65266),2026-11-01T12:09:53.183831+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dia.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T11:53:22.190971+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dining.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:30:29.504121+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://dining.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:03:08.526878+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://disability.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:39:21.504756+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://diversity.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:37:42.465025+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://divinity.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:22:17.662368+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://divinity.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T11:59:36.294093+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://drakecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65033),2026-11-01T11:51:21.076992+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://duep.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65017),2026-11-01T12:59:39.714183+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://economics.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:25:23.283721+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://economics.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:01:02.899475+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://education.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:19:22.270608+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://education.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65290),2026-11-01T11:58:23.818677+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://eicollege.edu/,100.0,91.0,58.0,92.0,,2026-11-01T13:06:30.726881+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://elearn.alu.edu/login/ALU/login.php,100.0,79.0,88.0,91.0,,2026-11-01T12:25:06.758616+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://email.ab.edu/,100.0,85.0,100.0,58.0,,2026-11-01T12:59:15.830800+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://email.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:44:59.268319+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://email.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65276),2026-11-01T12:06:05.457749+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://empire.edu/brands/acutabove,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65515),2026-11-01T12:15:19.834732+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://engineering.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:19:04.073640+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://engineering.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65298),2026-11-01T11:58:11.010895+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://english.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:24:32.506997+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://english.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:00:40.845354+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://escondidobiblecollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65053),2026-11-01T12:21:58.532579+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.abac.edu/,89.0,100.0,77.0,92.0,,2026-11-01T12:22:38.265551+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.adams.edu/,76.0,94.0,96.0,92.0,,2026-11-01T12:32:23.604403+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.aims.edu/,95.0,92.0,73.0,100.0,,2026-11-01T12:50:57.053906+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:36:03.003171+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.aku.edu/Pages/default.aspx,80.0,92.0,77.0,83.0,,2026-11-01T12:48:05.596691+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.alliant.edu/,95.0,96.0,54.0,92.0,,2026-11-01T13:05:24.749730+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.aud.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65396),2026-11-01T11:52:48.338313+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.csi.edu/,97.0,88.0,73.0,92.0,,2026-11-01T12:13:46.546349+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.mccollege.edu/,100.0,100.0,77.0,92.0,,2026-11-01T12:11:29.955368+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://events.trincoll.edu/,96.0,91.0,50.0,58.0,,2026-11-01T12:19:39.674418+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://exchange.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:45:44.668649+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://exchange.alquds.edu/,97.0,100.0,100.0,100.0,,2026-11-01T12:53:25.543244+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://exchange.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:06:23.145553+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://extension.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:27:54.237353+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://extension.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:02:07.184310+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://f1489e43-4a93-4d7e-a623-cf8c8ba63d9e.dub.login.instructure.com/?goto=https%3A%2F%2Ff1489e43-4a93-4d7e-a623-cf8c8ba63d9e.dub.login.instructure.com%2Fam%2Foauth2%2Falpha%2Fauthorize%3Fauthentication_provider%3Dbd17e50c-dd13-4a91-b0e6-83ade5702ce6%26canvas_request_id%3D3a8dd8bc-d5a4-481c-acf5-e089adaaf54d%26client_id%3Dcanvas-prod-dub%26nonce%3D351295f10f80a166cc51509b3a685b53f1d5451acbb91bda%26org_id%3Df1489e43-4a93-4d7e-a623-cf8c8ba63d9e%26redirect_uri%3Dhttps%3A%2F%2Fsso.canvaslms.com%2Flogin%2Foauth2%2Fcallback%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhYWNfaWQiOjI5MjI4MDAwMDAwMDAwMDIwMywibm9uY2UiOiIzNTEyOTVmMTBmODBhMTY2Y2M1MTUwOWIzYTY4NWI1M2YxZDU0NTFhY2JiOTFiZGEiLCJob3N0IjoiY2FudmFzLmF1cy5lZHUiLCJ0YXJnZXRfYXV0aF9wcm92aWRlciI6ImJkMTdlNTBjLWRkMTMtNGE5MS1iMGU2LTgzYWRlNTcwMmNlNiIsImV4cCI6MTc5MzUyNzMxMH0.J14uGKC6yjblhV188BIc6fzJ6xgufllt9SD3tvzy9sk%26target_domain%3Dhttps%3A%2F%2Fcanvas.aus.edu&realm=/alpha,100.0,100.0,77.0,54.0,,2026-11-01T12:49:17.179554+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://facilities.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:33:18.329113+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://facilities.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:04:32.844199+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://faculty.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:45:49.016024+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://faculty.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:06:42.234677+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://faculty.apu.edu/index.cfm,96.0,63.0,50.0,82.0,,2026-11-01T12:18:44.780490+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://faculty.fortlewis.edu/directory,95.0,79.0,92.0,91.0,,2026-11-01T12:17:04.835923+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://financial-aid.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:29:38.266536+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://financial-aid.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65308),2026-11-01T12:02:46.979884+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://fine-arts.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:27:19.706913+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://fine-arts.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:02:01.660388+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://fisher.edu/,93.0,91.0,58.0,92.0,,2026-11-01T12:31:46.188216+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://forms.monday.com/forms/b46041133b7834ecadd661d5e8700694?r=use1,80.0,95.0,81.0,50.0,,2026-11-01T13:05:51.469188+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://fortlewis.edu/,77.0,96.0,50.0,92.0,,2026-11-01T12:15:27.890779+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://foundation.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:32:28.507222+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://foundation.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65296),2026-11-01T12:04:11.835832+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://foundation.csi.edu/,93.0,92.0,100.0,92.0,,2026-11-01T12:13:16.761361+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://foundation.fortlewis.edu/,89.0,98.0,54.0,92.0,,2026-11-01T12:16:12.305885+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://franklincareer.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65039),2026-11-01T11:57:29.399263+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://giving.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:31:53.135595+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://giving.aku.edu/,100.0,88.0,73.0,91.0,,2026-11-01T12:47:58.508382+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://giving.alamo.edu/g/alamofdn,93.0,98.0,77.0,92.0,,2026-11-01T12:55:48.833960+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://giving.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:03:52.961643+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://giving.jefferson.edu/,88.0,85.0,100.0,92.0,,2026-11-01T11:55:18.037808+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://global.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:38:31.706560+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://global.asurams.edu/,94.0,97.0,69.0,100.0,,2026-11-01T12:57:23.069026+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://global.jefferson.edu/,95.0,86.0,100.0,83.0,,2026-11-01T11:55:44.451372+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://graduate.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:22:41.639969+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://graduate.alquds.edu/en/,75.0,96.0,92.0,92.0,,2026-11-01T12:52:03.442952+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://graduate.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T11:59:51.046171+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://graduate.fortlewis.edu/,94.0,100.0,54.0,92.0,,2026-11-01T12:15:38.958586+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://grants.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:08:32.265559+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://gsl.alcorn.edu/adfs/ls/?SAMLRequest=hZJPTxsxEMXvlfodLN/3X6BVa2UXBRAiEqUrsnDg5tiziak93nrshH77bjag0kPp9Xlm3u%2BNZ3727CzbQSDjseZVXnIGqLw2uKn5fXeVfeFnzccPc5LODmKR4hbv4GcCimzsRBLTQ81TQOElGRIoHZCISqwW327ELC/FEHz0ylvOlpc1d4Mywxr00K8teN0/WamfHKy98w6tsXKrf0gE5OzhFWt2wFoSJVgiRYlxlMrZ56yqsrLqyq/i04mYnT5y1r44nRs8JngPa30sInHddW3Wfl9104Cd0RBux%2Bqab7zfWMiVdwf7VhKZ3Sj30hJwtiCCEEfAC4%2BUHIQVhJ1RcH93U/NtjAOJotjv9/mfMYUsKCYNGCmXVvmAOehUSEW8mVYsppThzW7fzyBfGXjzP5d58cagefnQQ87lZeutUb/Ywlq/vwgg4xgyhjRmvPLByfhvhiqvJsXorJ9KRUIaQJnegOasaI6uf1/OeE%2B/AQ%3D%3D&RelayState=https://www.google.com/a/students.alcorn.edu/ServiceLogin?service%3Dmail%26passive%3Dtrue%26continue%3Dhttps%253A%252F%252Fmail.google.com%252Fmail%252F%26ss%3D1%26ltmpl%3Ddefault%26ltmplcache%3D2%26emr%3D1%26osid%3D1,100.0,88.0,92.0,91.0,,2026-11-01T12:59:04.781001+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://hancockcollege.edu/,89.0,96.0,69.0,92.0,,2026-11-01T13:02:49.396707+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://health.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:34:22.523715+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://help.adelphi.edu/,100.0,73.0,73.0,92.0,,2026-11-01T12:44:26.940139+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://help.aims.edu/TDClient/93/Portal/Home/,100.0,100.0,81.0,92.0,,2026-11-01T12:51:14.517863+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://help.allegany.edu/support/home,94.0,100.0,100.0,50.0,,2026-11-01T13:03:34.919774+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://help.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:09:14.086391+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://help.sunyacc.edu/TDClient/277/Portal/Home/,94.0,100.0,81.0,92.0,,2026-11-01T12:45:34.403874+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.academyart.edu/home/,100.0,96.0,100.0,91.0,,2026-11-01T12:27:23.021789+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.albanytech.edu/,95.0,84.0,100.0,100.0,,2026-11-01T12:58:18.042350+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.alma.edu/,100.0,100.0,73.0,54.0,,2026-11-01T13:07:57.670360+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.alu.edu/,100.0,83.0,100.0,91.0,,2026-11-01T12:25:24.557605+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.americancareercollege.edu/support/login,100.0,100.0,77.0,54.0,,2026-11-01T13:13:53.131540+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:09:18.859629+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.asurams.edu/login,100.0,100.0,58.0,54.0,,2026-11-01T12:57:53.254390+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://helpdesk.csi.edu/support/home,100.0,76.0,100.0,50.0,,2026-11-01T12:14:14.204252+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://heritageit.edu/,52.0,79.0,62.0,83.0,,2026-11-01T11:51:12.091463+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://history.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:24:27.522103+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://history.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:00:36.502426+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://honors.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:22:46.683597+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://honors.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T11:59:52.887229+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://housing.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:29:39.790501+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://housing.alliant.edu/listing,45.0,87.0,73.0,92.0,,2026-11-01T13:05:01.067172+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://housing.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:02:51.430320+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://hr.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:32:42.537901+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://hr.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65264),2026-11-01T12:04:14.378662+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://hr.aud.edu/,100.0,57.0,92.0,83.0,,2026-11-01T11:52:24.479399+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://humanresources.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:33:01.743770+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://humanresources.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65312),2026-11-01T12:04:17.222574+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ibais.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65021),2026-11-01T11:56:26.280957+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://id.quicklaunch.io/authenticationendpoint/login.do?RelayState=https%3A%2F%2Fmoodle.amberton.edu%2F&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=le0haZKmQ180xLpQzvLvpC4w7Mbg709FCYOBsPFnnjlp1PiCORYp16eW1pdyCvBV0%2F9dhCWzVDDMxEH0L773cISLXQ7B0KxmA4d21fjk%2FA7oB5GSiBOihxAsr%2FMjUNmsUs5pUPIZgum44Q59bZrTQlfg8HKaiezmDc6MuvQtzqzbLXzvxPYFSHKJCfsOU6Dz%2FQWsKjAqwJWw85D9bMLrEess5pZm%2FydPvFmjraoE7njbsUZMmmsZcNXGP2kuJcW0uzKw40OjKo6BbVu%2FTMe8N5blNHaiCIyEB1Hi4NU7W1p0soI6IRZqXKnTyIBooaPIQqSJirU2vaXnud9sUP1cYA%3D%3D&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=amberton.edu&sessionDataKey=8c2d075a-4c95-49a8-860f-4bb08b0ac743&relyingParty=https%3A%2F%2Fmoodle.amberton.edu%2Fauth%2Fsaml2%2Fsp%2Fmetadata.php&type=samlsso&sp=Moodle_prod&isSaaSApp=false&authenticators=BasicAuthenticator:LOCAL,99.0,82.0,73.0,45.0,,2026-11-01T13:11:49.368497+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://idp.apu.edu/profile/SAML2/Redirect/SSO?execution=e1s1,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65404),2026-11-01T12:18:28.626234+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://innovation.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:49:29.653447+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://innovation.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:08:11.581977+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://innovation.fortlewis.edu/,99.0,98.0,77.0,100.0,,2026-11-01T12:17:26.780844+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://inside.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:46:39.043170+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://inside.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:07:03.112019+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://institute.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:49:07.214371+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://institute.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65290),2026-11-01T12:08:06.575862+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://internal.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:47:02.931989+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://internal.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:07:06.258002+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://international.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:38:18.813501+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://intranet.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:46:35.949452+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://intranet.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:06:48.783323+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://intranet.aud.edu/,99.0,100.0,69.0,54.0,,2026-11-01T11:53:07.888323+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://intranet.suscc.edu/,55.0,73.0,92.0,58.0,,2026-11-01T11:54:19.073605+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ipm.edu/,98.0,95.0,73.0,92.0,,2026-11-01T12:10:59.495413+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://it.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65264),2026-11-01T12:08:49.020264+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://its.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T12:08:52.951657+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://jefferson.edu/,84.0,90.0,81.0,100.0,,2026-11-01T11:54:30.051458+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://jeffersonhealth.wd5.myworkdayjobs.com/ThomasJeffersonExternal,99.0,97.0,96.0,100.0,,2026-11-01T11:54:55.804678+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://journalism.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:26:13.755539+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://journalism.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:01:24.059996+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lab.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:48:17.535401+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lab.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65266),2026-11-01T12:07:45.739431+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://labi.edu/,98.0,100.0,100.0,92.0,,2026-11-01T11:50:38.903197+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://labs.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:48:14.968857+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://labs.alquds.edu/login/?redirect_to=https%3A%2F%2Flabs.alquds.edu%2F,100.0,98.0,100.0,54.0,,2026-11-01T12:54:04.556343+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://labs.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:07:32.607671+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://law.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:17:37.749115+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://law.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T11:57:42.237123+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://legal.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:37:11.061519+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://libraries.aiub.edu/,51.0,94.0,96.0,100.0,,2026-11-01T13:34:08.067138+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://libraries.alfred.edu/home,95.0,99.0,100.0,83.0,,2026-11-01T13:01:45.563255+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://libraries.apu.edu/home,95.0,99.0,100.0,83.0,,2026-11-01T12:18:21.617832+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.abcnash.edu/home,100.0,92.0,73.0,83.0,,2026-11-01T13:12:17.582009+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.academyart.edu/,94.0,67.0,73.0,83.0,,2026-11-01T12:26:59.762090+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.adrian.edu/,94.0,74.0,77.0,58.0,,2026-11-01T12:45:46.499676+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.alamancecc.edu/library,100.0,96.0,54.0,83.0,,2026-11-01T12:55:15.191536+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.alfredstate.edu/,77.0,97.0,100.0,83.0,,2026-11-01T13:00:00.119973+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.alliant.edu/,,,,,Invalid JSON output from Lighthouse: Expecting property name enclosed in double quotes: line 1055 column 6 (char 65532),2026-11-01T13:05:06.315663+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.alma.edu/homepage,77.0,94.0,100.0,42.0,,2026-11-01T13:07:18.954796+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.alquds.edu/ar/,63.0,95.0,96.0,92.0,,2026-11-01T12:52:49.929479+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.amberton.edu/welcome,95.0,81.0,73.0,75.0,,2026-11-01T13:11:47.944951+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:04:54.705848+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.aus.edu/,100.0,94.0,58.0,92.0,,2026-11-01T12:49:12.459444+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.fortlewis.edu/,94.0,84.0,50.0,92.0,,2026-11-01T12:16:24.646674+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.jefferson.edu/,95.0,92.0,96.0,92.0,,2026-11-01T11:55:31.061860+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.midwestern.edu/mwuhome,95.0,95.0,92.0,83.0,,2026-11-01T11:53:56.026643+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://library.sunyacc.edu/home,95.0,90.0,96.0,92.0,,2026-11-01T12:45:11.627882+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lincolnonline.edu/,79.0,90.0,77.0,92.0,,2026-11-01T12:30:03.834020+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lindsey.edu/,74.0,80.0,96.0,83.0,,2026-11-01T12:14:22.994504+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lms.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:43:17.071719+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://lms.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T12:05:37.180019+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.aiub.edu/,52.0,94.0,96.0,100.0,,2026-11-01T13:43:56.696565+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65276),2026-11-01T12:05:43.300033+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.fortlewis.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 344 column 22 (char 65505),2026-11-01T12:16:36.875027+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.library.capella.edu/login,100.0,88.0,77.0,90.0,,2026-11-01T12:28:22.646609+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/3b1b6f81-81f8-4168-8ca0-999426c07e0c/wsfed?wa=wsignin1.0&wtrealm=https%3a%2f%2fportal.achs.edu%2fCMCPortal%2f&wct=2026-11-01T09%3a55%3a30Z&wctx=rm%3d0%26id%3dpassive%26ru%3dsecure%2fstudent%2fstuportal.aspx&wreply=https%3a%2f%2fportal.achs.edu%2fCMCPortal%2f&AppType=Portal&Role=STUDENT,100.0,100.0,77.0,54.0,,2026-11-01T13:15:08.439511+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/43dc6068-d154-4efd-abda-f32a9028e82f/saml2?SAMLRequest=fZJBb9swDIXv%2BxWG7rIl2zUSIQmQNRgWoGuDJu2hl0KWqFaALGWivLX%2FforTYd2hvVJ8%2FB4ftUA5uKNYj%2BnZ38LPETAVL4PzKKaHJRmjF0GiReHlACiSEvv1jytRl0wcY0hBBUfeST5XSESIyQZPiu1mSR75XM%2Fbrmlo03eGtpy1dMa7mvbM9I1mXHWGkeIeImbNkuQRWYg4wtZjkj7lEqs7yjll%2FMDm4qIRNX8gxSbvYb1Mk%2Bo5pSOKqnLhyfpysCoGDCYF76yHUoWhahutOtbNqOYXLW3BaCp7Lalpajln9QxmtalO29WkWP9d4TJ4HAeIe4i%2FrIK726t%2FKOlUiL602WUcVRrjmTM5mAaRYvcW3lfrtfVPn%2BfWn5tQfD8cdnR3sz%2BQ1eI0R0xpxNUJ%2FDF3sr6o3gsW58NfZ9R2swvOqtfiW4iDTB874SWfKlZTM7WK0eMRlDUWdE7GufD7MoJMsCSZD6RanaH%2Ff7DVlz8%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=wPADo1XJ9c1qhSpEXt4eF5orNzZNintHJD68JrT2fz09MYM2sxEvm7V%2FQfTL60FbyCE3mEs1PuY%2BYqxSKvKuTowthUS7DXP1mBlbyIff0CyaiwSuW1ThjCCugytCHrC59%2F9q4UxAwPdwYB8rXnSXMnuV06phpg6FIqjKLU6u78SeuDM48tkLVoPBxTXSNMjAxD6y3CINRJxFpLFEEbxHMi84gI6nmLhFZwYE1blvTz%2FEaosTWOAK38%2F%2F%2B5jjJajkRs638Bc%2B2yBEpsKP6jhiubqdS0HMmYTlNm6o7uXeL%2Fd%2BgjyWjfqW8Cw2Mg%2BLzwXfIdGaLzcoN3VpR66T0L6tJg%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:58:52.446459+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/4cbda2dd-620b-4a77-8bbe-1a865b43c21b/saml2?SAMLRequest=nZLLbtswEEV%2FReCeEkm9bMJyoMYoaiBpjdjtopuCIicJUT4Ukkrdvy8s12iySBbdzgzuuTNzV1dHa7JnCFF71yGaE3S1XkVhzcj7KT26O3iaIKbsaI2LfG50aAqOexF15E5YiDxJvu9vbzjLCR%2BDT156g7LtpkM%2F2HLZtLKUNaloxVTLykYRVrWlZKQeSFkLBkSREmXfLiZYTlC2jXGCrYtJuNQhRliDKcWEHsiS15STMl%2BU9XeU7f7iPmintHt439twHor80%2BGww7sv%2BwPKNhCTdiLN6MeUxsiLwvgH7XKrZfDR3yfvjHaQS2%2BLSg5KMKVww8iAK9G2eDEMgKlYNPVQlZLRoTidiaGsjxHCSfjauzhZCHsIz1rC17ubfygAwGLUOSWE1DkYM0ktnDR%2BUjPwpIXH4FWR%2FE9w6PwdPt8nvHjL%2B5uLixW0viAwHEcIGpyEWX9VvBC%2BZOCzsLDd7LzR8vf%2FZKA3xv%2B6DiASdCiFCVD20Qcr0tsCNKdzRSt8P49ysEKbXqkAMaJifTb6Op%2FrPw%3D%3D&RelayState=eyJ0ZW5hbnRJZCI6IjAwYmIwNDQ1LTA4YjAtNGI2OS05NWM5LTUzZDc0MzI3OTQ3YyIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG5vRklBUyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9teS50cmlkZW50dGVjaC5lZHUvYXV0aC9jYWxsYmFjaz9sb2dpblR4SWQ9ZDJmNjJlNTAtNDgzMS00YTYyLTk3OWItOTIzNWFiZWEwOWFiIiwiaWRwTG9nb3V0VXJsIjoiaHR0cHM6Ly9teS50cmlkZW50dGVjaC5lZHUvaWRwLWxvZ291dCIsInRva2VuVmVyc2lvbiI6IjEuMS4wIiwic2lnbmF0dXJlIjoiNTljMjhmMWNiYWZmM2ZhNTRhNmVhYjBkYzdmYWZlNzZmMjY2YTg0MWFkMWU4ZWI0MzIyZWRlMDU4MThhYzY0NCJ9&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=JmvJfR0GWj0cYcT%2Bk1DsoyP2zz8lfDMlCWksJJSMmTEzEnM2qfzp%2BLRVu0ykYrynxQA%2Bk1LePRm9vQmVPRGvc4drZNlI4TTZjkMEXPZ%2FC%2Fo5hyfgEe%2FbBBHRDjH1fIkvBsKgu5KEj27kqvhXL%2Fox%2Fy9xuDo56SHuCZNQa7M%2BJFwM%2F%2FSrD4CvNYLNp6UOZ0UgRkORkXNVO8m0aoKekrvJWyBZmUmgXKRi551M2fXEtyes07ZF6CJkNtc%2BSVTHrHbkFwms18SCsLurf9X2uo8%2BOUCVpy2CuQ2XAR1wxLPOUWFs57qKX%2FlWQbva%2FSiJ4v8vlGAjVtj%2FQ%2FHM4TefSEaHug%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:31:29.824512+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/4decaa71-8e72-428c-96fb-0723bcd19851/saml2?SAMLRequest=rVJfb9MwEP8qkd%2BdxE67JFZbqaxMqxisagpIvCDHubTWHDv4HMq%2BPWkKYjywJ17v7vdXt0DZmV6sh3Cye%2Fg2AIboR2csimmxJIO3wknUKKzsAEVQolq%2FfxA8TkXvXXDKGfIC8jpCIoIP2lkSbTdLcrd%2FW91%2Ffty%2Fq76yPGcpZCmd8zyjs7LMqMxkSnNW52Vdtu08K0n0CTyO6CUZyUYKxAG2FoO0YRyl%2FIYyRlN2YKlghWDsC4k2YyJtZZhQpxB6FEli3FHbuNPKO3RtcNZoC7FyXTJrQEmZM1pAzumMF4qWN21N05xntWpYWcxZcsnJSbT7Ff%2BNto22x9eT19cjFPeHw47uHqsDida%2F27h1FocOfAX%2Bu1bwcf%2Fwx2vrfDBw1jgqGThC3D23HvB0dv4JJ8%2FYJxeZpBjtloynBc94kY9tlImSxtRSPZHV4mJaTI351X%2Fh7iDIRga5SF5SL64P9WEsYLvZOaPVc3TnfCfDv%2FthMZsmuqHtdCoGiz0o3WpoxpqMcedbDzLAkgQ%2FAImS1VX1789d%2FQQ%3D&RelayState=https%3A%2F%2Ffortlewiscollege.myfreshworks.com%2Fsp%2FSAML%2F842891208232870269%2Flogin,100.0,100.0,77.0,54.0,,2026-11-01T12:17:26.921846+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6b3cfc37-af28-43df-ba35-82912bee3009/saml2?SAMLRequest=fVJPa9swFL%2FvUxjdZVuyk8YiCWQNY4F2C026Qy9Flp9TgSxlelK7ffsp9kY72HoTT%2B%2F3l7dEOZiz2MTwZO%2FgewQM2Y%2FBWBTjx4pEb4WTqFFYOQCKoMRhc3sjeF6Ks3fBKWfIG8j7CIkIPmhnSbbbrshj28m6UaymVSs7Wi8Up7IESYHN26sZq2vetCT7Bh4TZkUSRQIiRthZDNKGNCr5nDJGS3YsGzGbCV4%2FkGybcmgrw4h6CuGMoiiMO2mbD1p5h64PzhptIVduKOZtpXpVXVHZ8wWtq66nraxmdMEbxluAqiyb4pKOk2zzJ8K1sxgH8Afwz1rB%2Fd3Nq5SS9llinvJ7nd5KegCfmjJwghy6OHkZKUm2%2F13jR207bU%2FvN9hOSyg%2BH497uv96OJL18sIjxl78%2BmIhOfi3tE61%2BahC9FPwMdOyeItfThfxJRHstntntPqZfXJ%2BkOH%2FxljOxonuaD%2BuimjxDEr3GrpUmTHu5dqDDLAiSR9IsZ5E%2F7689Ydf&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=8n5Z2V0l80YXPB%2BBAaSNoaszI6xkdFsjRXCHFBKNwaZCV3uC7UzddrfjJ9GynnXmS%2BOhnnAAHHM0L3qIosLOJGUMNQAw8IZmNlJCNTYQdfuNks2EEH98oLnOFD%2BdN9gOZhBdbq4Luvjo71uYVS%2BmCB7bHlFrOPgGWOkgRnruqvY4L2RhjaWdu9OP8tQuXvHB4igiwrP1aWogh5Q8TpcSCijWnvbNQBex3XYOo10md0yFhRJ5cTcb44UOZDQVCg1WZxkKPGJxRBSFwuOsF%2B2KpZuBhRkRA2WvXvqHbBw6OXz2ThuYnTzm8XGogI%2BKIwXfqwTX9LyxzcV3KKzInjwPfQ%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T13:13:29.116591+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6b3cfc37-af28-43df-ba35-82912bee3009/saml2?SAMLRequest=rVJbb9owFP4rkd%2BdOM4VC5BYWVW0bkWEbtJeJsc5AauOndlOKf9%2BIWxa%2B7A%2B7fWc81115o53qmerwR%2F1Dn4O4Hzw0int2LRYoMFqZriTjmnegWNesGr1%2BZ7RkLDeGm%2BEUegV5H0Edw6sl0ajYLNeoNvdx%2Bru28PuU%2FWD5kWRcchxwUmM0zLPcZkSwDxrZiUXTRbnFAVfwboRvUAj2Ujh3AAb7TzXfhwRmuM4xiTekxnLMpYl31GwHhNJzf2EOnrfOxZFyhykDjsprHGm9UYrqSEUpovyOhGtSArMW1riNGlaXPMkwyWdxbQGSAiZRZeco5nt7%2FgfpG6kPryfvL4eOXa332%2Fx9qHao2D1p40bo93Qga3APksBj7v7v15PYwAxsvpBy%2BdLfH%2FGxh7C7txacMeTsU9usu766KIWlbSgaRpTmpQ5STJK8khwpWountByfvHOpuLs8n9KdOB5wz2fR68V5tf3%2BjLWsVlvjZLiHNwa23H%2F77biMJ4mssHtdMoG7XoQspXQjKUpZU43FriHBfJ2ABREy6vq2z9e%2FgI%3D&RelayState=https%3A%2F%2Fwestcoastuniversity-org.myfreshworks.com%2Fsp%2FSAML%2F827244122386035206%2Flogin,100.0,100.0,77.0,54.0,,2026-11-01T13:13:53.006426+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6c1c0a9a-5861-489f-ba71-d6fe5489a0d6/oauth2/v2.0/authorize?client_id=b676319b-d9de-43e1-af01-e879ace2e832&redirect_uri=https%3A%2F%2Fevents.alma.edu%2Fcallback&scope=openid&response_type=code&state=sENKjvsZrhJdwJA6a66opeN10ftT6waSybKBU7wp,100.0,100.0,77.0,54.0,,2026-11-01T13:07:33.458256+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6c1c0a9a-5861-489f-ba71-d6fe5489a0d6/oauth2/v2.0/authorize?state=aHR0cHM6Ly9pbnNpZGUuYWxtYS5lZHU%3D&scope=openid%20offline_access&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fsso.alma.edu%2Fcallback&client_id=37385e65-e605-4b1b-ac0f-8d3e1a6ffbeb,100.0,100.0,77.0,54.0,,2026-11-01T13:07:35.439372+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6c1c0a9a-5861-489f-ba71-d6fe5489a0d6/oauth2/v2.0/authorize?state=aHR0cHM6Ly9pbnNpZGUuYWxtYS5lZHUv&scope=openid%20offline_access&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fsso.alma.edu%2Fcallback&client_id=37385e65-e605-4b1b-ac0f-8d3e1a6ffbeb,99.0,100.0,77.0,54.0,,2026-11-01T13:07:39.285974+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/6c6fca3b-4bc9-432b-8587-8bb1c15e4adc/saml2?SAMLRequest=fZLLTsMwEEX3fEXkvZM6jzax2kqlFaJSgYoWFmyQ40xaS4ldPA6Pv8dNQcCCbsdz59y54zGKtjnwWef2%2Bh5eOkAXvLeNRt4%2FTEhnNTcCFXItWkDuJN%2FMblY8Dgf8YI0z0jTkl%2BS8QiCCdcpoEiwXE%2FJcsFGZVZBSmSdAU1YmtKjyjIq0qmSc1qxIYhI8gkWvmRA%2FwgsRO1hqdEI7XxrEQ8oYHbDtoOBpwePsiQQLv4fSwvWqvXMH5FHUmJ3SYaukNWhqZ3SjNITStNFQDmspkpKmpSxomsQlzbN8RPOyZJJlkIpKRsftvJnZ9wpzo7FrwW7AvioJD%2FerH5REFSpv0XbSdfYE6fH9FBKsv5K7VLpSenc%2BtPLUhPx6u13T9d1mS6bj4xzeR2GnR%2Bo%2F0N70OPrdPT6d%2FNZzlou1aZT8CK6MbYX73wYLWV9RFa37Vt5pPIBUtYLKZ9I05m1uQTiYEM8HEk1P0L9fa3rxCQ%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=ArRfYCv%2FeUKravJsjeTkFpCF7f0CoEUlQaYlXCcYYKzIECyBea7ztqRawFw%2FECzs8dutjHaSf%2F%2BQXmI1PM36EpxcAlcC5%2Btv1Eane2Pupi87kWSI01gKgUstdR5iVurOk3c%2BwOlPA1YAXrf1f8qng5R8oGzl2b6GoNICMKAnvnpO7SGsB4bRZY1EpBVZOvHTlBOvSJIhFPyHqqtqNpb3odhx6DqMeuFCz99AsRWven%2BzUxMYgVAZziJjnef0XRG4Kwi9cmCMHUn3F6U2rM7o5BPIIoJcfRkLiwQFyJkionUu1zIqvLh4X1wG5jgA15WLKwiy7n%2FdjQ6UzgKxxfHYjQ%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:13:55.952741+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/712a36c7-3e2d-4f6f-87d0-3192d156f77d/saml2?SAMLRequest=jVJba9swFP4rRu%2ByLTuxEpEE0oayQLeFJtvDXooiHTcCXTwdeZd%2FP8duWQdb2Zs4%2Br7zXTgrlM52Ytuni3%2BArz1gyn4461GMH2vSRy%2BCRIPCSwcokhLH7ft7UeWl6GJIQQVLXlHeZkhEiMkET7L9bk0eFdRnkDPelAqaBVeVArU41wy4ms9b3Spe8sWymZ1rkn2GiANzTYZFAx2xh73HJH0aRmXVUMZoyU7lUswrUbMvJNsNaYyXaWRdUupQFIUNT8bnzqgYMLQpeGs85Cq4grNK1o3itIZK01nbtHTBdUlrtqw0mzct57q4ZqxItn0Jchs89g7iEeI3o%2BDTw%2F1vKReCtpBLDba7mBx0X8ih6GlHgd30oFJh3l26v8BJdniu%2BMZ4bfzT2%2B2eJxCKd6fTgR4%2BHk9ks7pqiLGtuPlvYw6S1DLJq69V8XrFajqYD4P4fncI1qif2V2ITqZ%2Fe2M5GydG03aEit5jB8q0BvTQpbXh%2B20EmWBNUuyBFJtJ9M%2FD3PwC&RelayState=https%3A%2F%2Fmoodle.adelphi.edu%2F&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=OFo0p70uMpWIzkI5Kg6RktmVKlM%2BHuDIYz6822E4nwuiZhbvXdBnCpb%2BeeNFjiz1f2WQSBPyIH9nl9%2F%2BSgLTQkb6V5dw1UpGJU2KJ0%2FjBWCJZT4vvZLijgUlzD4tPLeGwz%2Bi0FzhVRmzRaA0Od1MLwcHct1IXgnqRc11Z5tzeORQpSt4iZfu2oVANds1YBBUn9V71%2FwT1GXx20dl4H8j297wehaHwqRJO0Qp7XSkcXVDOFCDo8%2B1Hv%2Fg9xRGB9zHkTOBYhdIThEDvw%2FDMZQTj2nhNZwRMQ27N81aiNVEwAxpMGLcUicuY9nM1%2BUa4ZM5M1eiqrWb1e1BN%2F%2F1stJ5oQ%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:43:30.797314+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/712a36c7-3e2d-4f6f-87d0-3192d156f77d/saml2?SAMLRequest=lVJdj9MwEPwrkd%2FzYaeNW6utVK5CVDqguhYeeEF79uZqybGD1%2BHr15OmnDh4qMSTpfHO7MxoVwSd69V2SGf%2FgF8GpJR975wnNX2s2RC9CkCWlIcOSSWtjtu390oUlepjSEEHx15QbjOACGOywbNsv1uzz1Lyul5w5FWrTavnwvAKmkXbtI%2ByBj5bilrPeAuyZdlHjDQy12wUGulEA%2B49JfBphCrR5JznFT9VSzUXSshPLNuNaayHNLHOKfWkytKFJ%2BuLzuoYKLQpeGc9Fjp0peQC6kbLvEZh8tloIl9IU%2BU1X46%2B5k0rpSkvGQXLts9B7oKnocN4xPjVavzwcP%2FvKjDo%2BrMt0AwlUV92wQwOi%2F7cT2IlXV%2BRg6YJhZ9DRJYdfrf7ynpj%2FdPtYh%2BvQ6TenE6H%2FPD%2BeGKb1UVWTUXFzX976jCBgQR%2FLK3Kl4Kr6%2BW8G63sd4fgrP6RvQ6xg3Tb6QWxJm%2BnUZUieLLo01ipc%2BHbXURIuGYpDsjKzXXl3%2Fe5%2BQU%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:43:28.702631+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/712a36c7-3e2d-4f6f-87d0-3192d156f77d/saml2?SAMLRequest=lVLLbtswEPwVgXdKohQ9TNgG3BhFDaStEbs95BIw5ComwIfKJfv6%2Bspyg6Y9GOiFBHZ3ZmcGu0Rhzcg3KZ7cPXxJgDH7bo1DPjdWJAXHvUCN3AkLyKPkh837O17lJR%2BDj156Q15BriMEIoSovSPZbrsij6rpWM9aKWXXtEyVtaie6m64WTDFatn2fTP0ojs%2FJPsMASfkikxEExwxwc5hFC5OpbJqKWO0ZMdywZual%2F0DybaTG%2B1EnFGnGEfkRWH8s3a51TJ49EP0zmgHufS26Fgl6lZ2tIZK0ZuhHWjfqZLWbFEp1rRD16ni7LEi2ebFyK13mCyEA4SvWsKn%2B7t%2FVwkFZjzpHFQqEMfCepUM5ONpnMkKvPwVFRLnqviZApBs%2FzvdN9op7Z6vB%2Ft0GUL%2B7njc0%2F3Hw5Gsl2daPgcV1v%2BtyUIUSkTxR9KyeE24vFzOh0nKbrv3Rssf2VsfrIjXlZ4rWtFhHuUxCIcaXJwiNcZ%2Fuw0gIqxIDAlIsb6s%2FPs%2B178A,100.0,100.0,77.0,54.0,,2026-11-01T12:43:58.939509+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/712a36c7-3e2d-4f6f-87d0-3192d156f77d/saml2?SAMLRequest=lVLLbtswEPwVgXe9KFuSCduAE6OogbQ1YqeHXIIVuYoJUKTKpfr6%2BspygqQ9GOiJwHBndmawS4LO9GIzhJO9x28DUoh%2BdsaSmD5WbPBWOCBNwkKHJIIUh82nO8GTTPTeBSedYe8o1xlAhD5oZ1m0267YU143qgFeIrQNLopC1jnUs0VbVdA086bmeSWzmZyVNYu%2BoqeRuWKj0EgnGnBnKYANI5TxMs7zOMuP2ULMuSj4I4u2YxptIUysUwg9iTQ17lnbpNPSO3JtcNZoi4l0XVrlHIpSVnGBXMWztmzjulJZXOQLrvJ5ObpS6TkjZ9HmNcitszR06A%2Fov2uJD%2Fd3%2F64ChaY%2F6QTVkBL1aefUYDDpT%2F0kltLl5TFImlD4PXhk0f6l3RttlbbP14ttLkMkPh6P%2B3j%2F5XBk6%2BVZVkxF%2BfV%2Fe%2BowgIIAb5aW6XvB5eVyPo9Wdtu9M1r%2Bij4430G47vSMaBW306gIHixptGGs1Bj349YjBFyx4Adk6fqy8u%2F7XP8B,99.0,100.0,77.0,54.0,,2026-11-01T12:43:52.305855+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/75fd8dfa-1db7-4112-9592-698d91f4d374/saml2?SAMLRequest=nZNPj9owEMW%2FSuR7%2FjiQBCxgRWGrIm3bCGgPvSDHnuxadezU4%2BzSb18lQMuhy4FrZvTey5ufZw%2FHRgev4FBZMyc0SsjDYoa80S1bdv7FbOFXB%2BiDY6MNsmEwJ50zzHJUyAxvAJkXbLf8%2FMTSKGGts94Kq0mwWc%2FJocqLrKiqSVJwCTXklNfjNM15SoWYVOmoGsFoUnNOgu%2BXEGmUkGCD2MHGoOfGz0mapHlIaZjQfTJlWcZoGo2T%2FAcJyrPdB2WkMs%2B3s1WnJWSf9vsyLL%2Fu9iRYA3pluB%2BsX7xvkcWxts%2FKRI0SzqKtvTVaGYiEbeIiq%2BVE1jyksirCMaVpOM2maZhPJ3JK67EcFeO4ryklwRIRXC%2B8sga7BtwO3KsS8G379M8KAELeqogmSZJFoHUnFDdC204Ohr1W2DorY29%2FgiGn67ChH3d1ltt%2Fzi9RyOLxbHF4PLbgFBgBh9JZOYuvhC8MfOENbNal1Ur8voeBpdb2beWAe5gT7zogwUfrGu7fF6ARHb4oGdbDKoOGK72U0gEiiS%2FRzmSCHDhdWePheBenK9u03CnsAYAjF%2F7S8bXwSnPELdT3NH5zTTDRSwOykiO%2BWSd7pEF4kHvHDbbW%2BfNp%2FpdncZq9U8ff6fVbXvwB&RelayState=eyJ0ZW5hbnRJZCI6ImRiNTYzZWI4LTI1MDMtNGRmMS05MWMzLTliZDdmNjQxOTE1ZCIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG1aOUlBSyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9teS5hbHZlcm5vLmVkdS9hdXRoL2NhbGxiYWNrP2xvZ2luVHhJZD1jMmZkNjcxNC1jMjcyLTRmMDktOTNiOS1iNGYyYjczYmU0YzMiLCJpZHBMb2dvdXRVcmwiOiJodHRwczovL215LmFsdmVybm8uZWR1L2lkcC1sb2dvdXQiLCJ0b2tlblZlcnNpb24iOiIxLjEuMCIsInNpZ25hdHVyZSI6IjVlODliODUzYTE4ZDIyMTQ4ZTIyNTQxZDZmZTgxODcyM2Q3MjYyNmFlZDM2YTMwYTJmNmNiMmEzMjNmNDgyOTgifQ%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=UJZmd7sGhnkZYd26fOrb2%2F3obCHnlnkpSKbNycdNu3dosyjK5cO87ObTIf%2BUSgLxCrqlHGCUPMeq1N78YbKT0f7wqfMCNNJaHdYtNxiHvcbzxd63QNQFYWNr9JGhiiBOaYVzf7%2FvgnUn8v7wqI2c6EIs2AYz3MeOyCm1PHMlasUZYAYHtXM%2BvSgTcAwh1XP6w2l%2FPOUgysNf9HHJ1F0irWxLFNqeBFEuIJG4SDIOlTImK%2Bxih4wO8yhwTIaegpvkAcG9lan1m8AcvgArviXO%2FzEebtkAy%2Fdks2ZvH2r506PzpGBCXhMjGFL2PuUmf5Iuppuqal17xdtH%2BE33cGefcA%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T13:09:49.032294+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/9847450c-4365-4e32-b26e-b73baa0ea04b/saml2?SAMLRequest=nZJPj9MwEMW%2FSuS7E9txEmo1XYWtEJUWqLZdDlyQ40x3Lfwn2M5Svv2qKWUXCfbAdWb0fm9m3vLqaE32CCFq71pEc4KuVssorRlFN6UHdwvfJ4gpO1rjopgbLZqCE15GHYWTFqJISuy6DzeC5USMwSevvEHZZt2irwy4qmuuGJd8qJqS1nXVs4VUAAfaNEqppjlA1aPs88UEywnKNjFOsHExSZdaxAirMaWY0D1ZiKoUvM4ZL7%2BgbPsL91a7Qbv7173156Eo3u%2F3W7z9tNujbA0xaSfTjH5IaYyiKIy%2F1y63WgUf%2FSF5Z7SDXHlbLN7whldEYV7WFeZQMtyzGnDflL2UBCThfXE6E0NZFyOEk%2FC1d3GyEHYQHrWCu9ubZxQAYDnqnBJCqhyMmZSWThk%2FDTPwpIXH4Ici%2BW%2Fg0Pk7Yr5PePGW1zeXFyto9Rt8HCFocAr%2BQpVRNZQWy%2BIF7JKLj9LCZr31Rquf%2F5OLzhj%2F4zqATNCiFCZA2TsfrEz%2FFqA5nSt6wId5VICV2nTDECBGVKzORv%2FM7OoJ&RelayState=eyJ0ZW5hbnRJZCI6ImZmZTU0NjZkLWEyZWEtNDU3Ni1iYWRkLThkMTdkZmU4ZjJhYiIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG1yaklBQyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9leHBlcmllbmNlLmVsbHVjaWFuY2xvdWQuY29tL2FzYzcxMS9hdXRoL2NhbGxiYWNrP2xvZ2luVHhJZD03MTRmMGNjOS0wZDA1LTRjNTktYjUwOC1jNDU1ZDEyZjJhNzgiLCJpZHBMb2dvdXRVcmwiOiJodHRwczovL2V4cGVyaWVuY2UuZWxsdWNpYW5jbG91ZC5jb20vaWRwLWxvZ291dCIsInRva2VuVmVyc2lvbiI6IjEuMS4wIiwic2lnbmF0dXJlIjoiZjk5OGExYTk4ZjBiMzAwOWM1NjU5N2Q5YTA5ODRiMGUwZjJiNzk2YjFhNGFiOTkxZTFmODFkNTRlMDk4Yzg3ZSJ9&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=jdk5js3hOjIsOOHunKLCj1znIeDFGyyknjkB8pE2kO0ogqnEg%2Bt4H5iHaGFmVK03%2BRwfbBk06XQXnpu0gUSPimnyaIfqn3Xp6RoRmQBncDy04tMROJKltxLNFFM0XBYtJTarX1d%2FkLSO%2F7LXQZAAwmhlSGRcSO6H%2BKKop63aO%2BWYK9KRvHBvPzVu55%2FWUKDHVS7%2Bk4%2FOn9qwxs25bLPPmxcXafQKxqEA8oPgeEJ7dZIKjn%2BqvWR0X0hejOjxeLwOnigTyFTpUujFguxdHMfyATBCYtZG%2B7TnraUWJjrBvC12TpF3nooQniBgRWzqPLNd38WxzgBLvrFFEgzctkSl0g%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T13:00:20.581594+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/9847450c-4365-4e32-b26e-b73baa0ea04b/saml2?SAMLRequest=nZJbj9MwEIX%2FSuR3J3aS5mI1XYWtEJUWqLaFB16QY092LXwJtrOUf4%2BaUlgk2AdeZ0bnOzNz1jcno5Mn8EE52yGaEnSzWQdu9MT6OT7ae%2Fg6Q4jJyWgb2NLo0OwtczyowCw3EFgU7NC%2FvWN5StjkXXTCaZTsth36XAxtU4syF6VshqqQY5NXbcNHWdBGlDkB2dKRUI6Sj1cTeUpQsgthhp0NkdvYoZzkFaYUE3okLVsVrKzTumw%2BoWT%2FE%2FdKWansw8vehstQYG%2BOxz3evz8cUbKFEJXlcUE%2FxjgFlmXaPSibGiW8C26MzmplIRXOZG1T1uWKCFwW1QqXUOR4yCvAQ10MnBPgpByy85lylPQhgD8L3zobZgP%2BAP5JCfhwf%2FcbBQCYTyqlhJBVClrPQnErtJvlAjxr4ck7mUX3BSy6fIct9%2FHP3vLy5vxqBW1%2BgU8TeAVWwF%2BoPIia0mydPYNdc%2FGOG9ht904r8f1%2FctFr7b7deuAROhT9DCh57bzh8d8CNKVLRUk8LqMMDFe6l9JDCCjbXIz%2BmdnNDw%3D%3D&RelayState=eyJ0ZW5hbnRJZCI6ImZmZTU0NjZkLWEyZWEtNDU3Ni1iYWRkLThkMTdkZmU4ZjJhYiIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG1yaklBQyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9leHBlcmllbmNlLmVsbHVjaWFuY2xvdWQuY29tL2FzYzcxMS9hdXRoL2NhbGxiYWNrP2xvZ2luVHhJZD05ZGMwNzNmZC1jZTcwLTRjMDUtYmZmMy0xNWQ3YTM5NWI4OWIiLCJpZHBMb2dvdXRVcmwiOiJodHRwczovL2V4cGVyaWVuY2UuZWxsdWNpYW5jbG91ZC5jb20vaWRwLWxvZ291dCIsInRva2VuVmVyc2lvbiI6IjEuMS4wIiwic2lnbmF0dXJlIjoiMmJiMzJlM2Q0ZThlNGRhY2I1ZjFhYTI4ZWQxZTMyZTNhNmM0YTQwYzk0ODJlMDJhOWVlNDk1Yjc1NTRlYWMwNCJ9&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=nGSGlJOC%2FCQ4bu7Io1XzLw92EGI9QkqD%2BT%2B3L1p67pXB266DU%2B3xhJNfJbSCwGbpwTNJfzAojswDjWZrC%2FCAFNrIROFgBkLStENy7j0j3aFzZUEb%2F2U9HiKOouizAAU%2F1Z2X6YPnyd0uHDAkTjf4R77xwxBjsmCCfZdCEBpk3JDft%2BlkmOGQ%2BpthQEsKq%2FU7F1jOF0KDOUPLuRACRpp3FSdZgqe6Jw8OMT2vIAKag%2BoXjNEaoKl%2BleMazwmDWiqtgBxCVv7Nzp6dZiv5vWKQJ2vZfnklrV89GXKaUYplOO2JrgOgwkVA0kvWzI7HlMy83fv9Y%2BbqN6tDDOozIc9YLw%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T13:00:43.476399+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/a6cda06a-52d9-4672-ae1f-f6f9c9f14e37/oauth2/authorize?client_id=f4ec2625-1c16-4192-bf31-b135321b3498&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DGS91u0XIkzSCmNTkZpQklcJtwCNd6cBP0T4OgEZx4LPOnxGl2M_JapsFd_WoTlCDdsgd8Q6aYmXxhydj9rg2Pi20Z6WKaj6-Tacupo2pE4IofUpNnfSDM2akNJSyUNrqz5kkUTJwTXJz4Z2DnPpIe3JlmMGDlI5QYDag-tuDb6ReR_D4aal2uonkdnFmz6H9mpOkzXgTM5cq0LUZVzgqFA&response_mode=form_post&nonce=639291235088360962.ZmI3MjNjZTMtODM4Ny00Nzg1LWFiZGQtZmNlYjJlZmUwNGE3MDViNDljM2EtYjNlMy00ZTU1LTg1YjMtY2U4YWFlYjc0NjNh&x-client-SKU=ID_NET472&x-client-ver=6.10.0.0,100.0,96.0,73.0,54.0,,2026-11-01T12:20:03.570619+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/ab1e0336-a247-4b81-8bd2-a29b22feb1f6/saml2?SAMLRequest=jdFLS8NAEADgu%2bB%2fCHtP9pE0TZakUPRSqJdWPXiR6WbSBpLdurMR%2ffduLaJHb%2fNg4JuZZj2Hk93h24wUks19ywim0V%2fzV2GUhKUyh77CosRlpUzed6bM6yUuQAJLntHT4GzLVCZYsiGacWMpgA2xJFSZSpkK%2bShqvRC6kJnIhRJ18cKSNRH6EGfvnKV5Qr9H%2fz4YfNptW3YK4Uyac2fHwWIGBjqcPsGHDLuZd2rk45lDpPPRHQfLL%2bjtJcpijyUf02ipZbO32gENpC1MSDoYvV8%2fbHW06rN3wRk3stXtTZI033L%2fn0H4cbPVj7KAuqoOC5kqjBsXqldp1ed9jMqyyqUEAUUW0MarUHbww%2fEU6AwGM%2bOmX3rDr4gIavjft6y%2bAA%3d%3d,100.0,100.0,77.0,54.0,,2026-11-01T12:26:34.357790+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/d1149785-ab36-40e7-bea0-afb6532b0175/saml2?SAMLRequest=nZJPj9MwEMW%2FSuS7E%2F9JmtRqugpbISotUG0LBy7Idqa7Fo4dbGcp3x41pbBIsAeuM6P3ezPzVjenwWZPEKLxrkU0J%2BhmvYpysKPopvTo7uHrBDFlp8G6KOZGi6bghJfRROHkAFEkLfbd2zvBciLG4JPX3qJsu2nRZwDKS6JUrTlXrFk2FSeScVLXjVRcLUuu%2BoprjrKPVxMsJyjbxjjB1sUkXWoRI2yBKcWEHshSVKUoWc7Y4hPKdj9xr4zrjXt42Zu6DEXx5nDY4d37%2FQFlG4jJOJlm9GNKYxRFYf2DcflgdPDRH5N31jjItR%2BKntJyWTcVloovcEmgxgokwfKoFhVnitC6Ks5nYijrYoRwFr71Lk4DhD2EJ6Phw%2F3dbxQAYDmanBJCqhysnbSRTls%2F9TPwrIXH4Psi%2BS%2Fg0OU7Yr5PePaWlzeXVyto%2FQt8GiEYcBr%2BQpVa17wpVsUz2DUX7%2BQA283OW6O%2F%2F08uOmv9t9sAMkGLUpgAZa99GGT6twDN6VwxPT7OowIGaWzX9wFiRMX6YvTPzK5%2FAA%3D%3D&RelayState=eyJ0ZW5hbnRJZCI6ImE1MzlhMGYwLWRhMDYtNDJmOC04OTc1LTFkYjkwYmJjN2M1NCIsImFjY291bnRJZCI6IjAwMUcwMDAwMDBpSG1uNklBQyIsImp3dENhbGxiYWNrVXJsIjoiaHR0cHM6Ly9leHBlcmllbmNlLmVsbHVjaWFuY2xvdWQuY29tL2FjYzczOC9hdXRoL2NhbGxiYWNrP2xvZ2luVHhJZD0xNDE5MmIwMC1jN2ZhLTQxMzktYWYxNS1jMTIyNjI3YzliNjQiLCJpZHBMb2dvdXRVcmwiOiJodHRwczovL2V4cGVyaWVuY2UuZWxsdWNpYW5jbG91ZC5jb20vaWRwLWxvZ291dCIsInRva2VuVmVyc2lvbiI6IjEuMS4wIiwic2lnbmF0dXJlIjoiMmY4YzVmNjJlZDQ1MDM3MzViZTIxMjE0Mzg2MmZlOTUyODUyYzkyMzk5MTgzMTg5YzdmZTJmODYyOGE5YWE1YyJ9&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=UclKpkFOeM0mhcaJpw%2FDXALsWQB5ZNweDSLo%2BFX7AXCUdUrAll4P2tEycmeaBznbX11PV1RcdOCVHU3H%2F%2FYB2yctVkC2Ob1d%2FgX%2FYp0rqBv%2Fu4LtNLEoZDJ2pBwAgoeT1CaquBLH7DnB0jqFC1uMGb4wRICtQAadVsy%2FYFMRw2MLOQ%2F749v1dfBM820oFYmtPds%2FFXawhC5AetHm5kXzobx8laqz8jKEjI4juY%2BurXDgOwBPJ0qSeOh7%2BXZLBNHZW5vTMXwm1upMZDtCUPVX1zUYVShEfzEsGmLuBQmNUlzM98OpSOtCfaXSQBixd3rkCIqYyG3YZT%2BWSQkhmW%2F3AQ%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T13:08:03.131276+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/d1d8f653-6844-454b-a4fc-c52bc2c76e72/saml2?SAMLRequest=fVHLbsIwELz3KyLf83LshFghiJZDkaiKgPbQS%2BU4DlhKbOp1aPv3DVBUDhXX0ew8dorJV9d6B2lBGT1GcRChSXlXTHu30yv50Utw3sDQMEa91cxwUMA07yQwJ9h6%2BrRgOIjY3hpnhGmRN5%2BN0TvhFPNR09AmSRqaxSLHVZaLmJC8iWtSRTThaUZomiPv9eI96AznAL2ca3BcuwGKcOrHsR%2FFmyhnFLMoekPebAilNHenq51ze2Bh2Jqt0kGnhDVgGmd0q7QMhOnCOq5HTUoTPx0R4hNKKp%2BTRviC4kpgkaUywyHwrsXIW%2F72uFe6Vnp7u3R1JgF73GyW%2FvJ5vUHeFEDaY7IHo6HvpF1Le1BCvqwWf1n5fg8B7yGQdR8CmLP7Ceb6%2B3MnrURlcQTZ6R%2F2PAE7Ircj8Ys9Kv8zK8Ir0bIIr2cu734A&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=OL96VgqSKb%2BQupv8ZvdLx9K%2FYKd4%2F7Hx%2FrBarupp3p01cOj9LtdkmfE66K%2FvnqQYojv1JaWqbk9A11FsR0SRK5ZrGA3lQwBVG9VbVvhufLTVgw8kpt9srkEI55KGzviQroMi2b2X9zCW%2BJh9pq7UcpmaDAv32TiT5itRMgzW%2FjzYtwHBdekb42lkqFHmvPu9tOULdwvc5Pe%2FQEL8qhBzJ1yx7IuSkk9UVPjWzxJ3UdNXiI9qOj0YvmijKjqKUHmStZpIo1K26AP4KG1Uqx37l0xWUeWN6BIPbATGGihiqbKXIsZEv8CYk%2Bp2%2BbOJoeVdMo8xWpyJs0BkkBgLaf5FIQ%3D%3D,100.0,100.0,77.0,54.0,,2026-11-01T12:49:43.938392+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://login.microsoftonline.com/d1d8f653-6844-454b-a4fc-c52bc2c76e72/saml2?SAMLRequest=fZLLbtswEEX3%2FoqAez2otwnbgBv3YcC1jdjJIpuAIkcJAYlUOWTS%2Fn1lqW3aAsnsODPn4s4FF8i7tmdr7570DXzzgG52NdT3rtXIxuGSeKuZ4aiQad4BMifYaf11x5IwZr01zgjTkv%2Bw9ymOCNYpoydsu1mSw%2F7j7vB5u39oKKfzlKd1CpJXVSFlU1RlQ2nB00qmsaxplce8nNA7sDjoLMkgS2aTGqKHrUbHtRv6cVIElAYxPcdzllOWl%2FcTuhmOVZq7EX9yrkcWRa15VDrslLAGTeOMbpWGUJguklRWTZGnQVFlWZDlWR3wrBGByJNaJKIsoEyiy%2BnJJH%2F8lcwHpaXSj%2B8HUk9LyL6cz8fgeDidJ5H176CujUbfgT2BfVYCbm92r56VdpZrcCH3GIL0o4uICySrUWRxebMxFrt6C1pEf2%2B9cj3bD263m6Nplfgx9i%2F1ydiOu7ePoiEdO0oGzbjKvMYehGoUSPJHZt225uXaAnewJM56IFfRajZ5%2Bfdbrn4C&RelayState=https%3A%2F%2Fintranet.aus.edu%2Fdashboard,100.0,100.0,77.0,54.0,,2026-11-01T12:49:41.913848+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://mail.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:44:53.306393+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://mail.aku.edu/owa/auth/logon.aspx?url=https%3a%2f%2fmail.aku.edu%2fowa%2f&reason=0,99.0,82.0,92.0,50.0,,2026-11-01T12:48:20.969454+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://mail.alfredstate.edu/owa/auth/logon.aspx?url=https%3a%2f%2fmail.alfredstate.edu%2fowa%2f&reason=0,100.0,82.0,92.0,50.0,,2026-11-01T13:00:58.852002+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://mail.ycce.edu/,93.0,82.0,96.0,91.0,,2026-11-01T11:57:17.944156+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://marketing.aiub.edu/,52.0,94.0,96.0,100.0,,2026-11-01T13:36:38.778391+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://marketing.alvincollege.edu/Login.jsp?serviceurl=%2Fapp%2F872754173%2FHomePage.do,100.0,100.0,77.0,54.0,,2026-11-01T13:10:12.581910+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://marketing.labi.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65410),2026-11-01T11:50:40.906239+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://math.aiub.edu/,55.0,94.0,96.0,100.0,,2026-11-01T13:23:06.546485+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://math.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:00:13.057372+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://mccollege.edu/,78.0,91.0,50.0,92.0,,2026-11-01T12:11:07.976487+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://med.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:18:30.937364+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://med.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T11:58:02.763268+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://medicine.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:18:15.166635+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://medicine.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T11:57:49.801225+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://midwest.edu/,71.0,65.0,50.0,83.0,,2026-11-01T11:54:03.515739+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://midwestern.edu/,82.0,96.0,77.0,100.0,,2026-11-01T11:53:33.267657+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://moodle.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:43:04.312382+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://moodle.ancollege.edu/my/,100.0,98.0,100.0,91.0,,2026-11-01T12:20:18.980827+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://moodle.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65278),2026-11-01T12:05:21.853362+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://music.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:21:53.095522+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://music.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65274),2026-11-01T11:59:29.310356+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.aamu.edu,100.0,90.0,92.0,91.0,,2026-11-01T12:54:28.115364+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.aamu.edu/,100.0,90.0,92.0,91.0,,2026-11-01T12:54:27.015309+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.abac.edu/,100.0,81.0,96.0,82.0,,2026-11-01T12:22:57.709600+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.acu.edu,100.0,100.0,73.0,54.0,,2026-11-01T12:21:04.385674+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.acu.edu/,100.0,100.0,73.0,54.0,,2026-11-01T12:20:56.727380+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:42:06.781228+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.alaskapacific.edu/,77.0,68.0,96.0,58.0,,2026-11-01T12:56:55.423559+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.alcorn.edu/,97.0,88.0,92.0,91.0,,2026-11-01T12:58:41.776231+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.alfred.edu/,94.0,96.0,73.0,100.0,,2026-11-01T13:01:47.885185+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.allencc.edu/ICS,100.0,100.0,77.0,91.0,,2026-11-01T13:03:58.990548+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.allenuniversity.edu/,100.0,80.0,92.0,91.0,,2026-11-01T13:04:22.312225+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.americancareercollege.edu/,90.0,62.0,77.0,82.0,,2026-11-01T13:13:06.314898+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://my.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65264),2026-11-01T12:04:56.995326+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://myapps.jefferson.edu/logon/LogonPoint/tmindex.html,100.0,62.0,77.0,45.0,,2026-11-01T11:56:04.820485+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://myportal.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:42:14.993795+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://myportal.americancareercollege.edu/,100.0,93.0,69.0,91.0,,2026-11-01T13:13:27.361782+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://myportal.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T12:05:00.822755+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://news.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:35:48.191564+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://news.stonybrookmedicine.edu/,70.0,96.0,77.0,100.0,,2026-11-01T12:25:45.475310+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://nursing.aiub.edu/,59.0,94.0,96.0,100.0,,2026-11-01T13:20:14.616839+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://nursing.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T11:58:45.934733+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ombudsman.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:39:38.708586+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.africau.edu/,74.0,84.0,100.0,83.0,,2026-11-01T12:47:09.187511+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.aims.edu/d2l/login,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 680 column 21 (char 65434),2026-11-01T12:50:40.569909+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:28:11.371202+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.alquds.edu/,100.0,50.0,69.0,82.0,,2026-11-01T12:52:28.725199+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:02:23.382113+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.aud.edu/,89.0,90.0,92.0,75.0,,2026-11-01T11:52:15.830014+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.lindsey.edu/,95.0,64.0,73.0,83.0,,2026-11-01T12:14:33.554875+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://online.midwestern.edu/auth/login.cgi,100.0,52.0,92.0,58.0,,2026-11-01T11:53:42.812937+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://opendata.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T12:10:41.580278+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ott.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65266),2026-11-01T12:08:28.313898+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:45:26.894544+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:06:20.700264+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.cloud.microsoft/mail/,100.0,100.0,58.0,54.0,,2026-11-01T12:23:05.516939+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.cloud.microsoft/mail/?realm=alfred.edu,100.0,100.0,54.0,54.0,,2026-11-01T13:02:08.705558+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.cloud.microsoft/mail/?realm=alfredstate.edu,100.0,100.0,58.0,54.0,,2026-11-01T13:00:56.496727+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.cloud.microsoft/mail/?realm=fortlewis.edu,99.0,100.0,58.0,91.0,,2026-11-01T12:16:43.612782+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://outlook.cloud.microsoft/mail/?realm=trident.edu&vd=webmail,100.0,100.0,58.0,54.0,,2026-11-01T12:30:48.095263+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://paralegal.edu/,87.0,80.0,73.0,85.0,,2026-11-01T12:20:27.654744+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://pharmacy.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:20:15.733612+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://pharmacy.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T11:58:46.925307+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://physics.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:23:30.922242+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://physics.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:00:14.439384+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://police.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:35:12.808219+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://political-science.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:25:37.955734+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://political-science.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65322),2026-11-01T12:01:18.576011+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.abcnash.edu/,100.0,80.0,92.0,91.0,,2026-11-01T13:12:32.413835+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.academyart.edu/,99.0,88.0,54.0,58.0,,2026-11-01T12:27:05.252443+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.afit.edu/vdesk/hangup.php3,100.0,73.0,92.0,42.0,,2026-11-01T12:51:39.723655+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.aiub.edu/,94.0,75.0,92.0,82.0,,2026-11-01T13:41:50.302263+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.aku.edu/,100.0,63.0,88.0,82.0,,2026-11-01T12:48:19.948504+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.alliant.edu/cmcportal/,99.0,88.0,96.0,82.0,,2026-11-01T13:06:07.807148+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.alquds.edu/en/login,86.0,90.0,100.0,58.0,,2026-11-01T12:53:15.780683+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.atc.edu/,100.0,100.0,73.0,54.0,,2026-11-01T12:50:07.908308+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.auto.edu/,97.0,95.0,96.0,91.0,,2026-11-01T12:46:31.341605+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.hancockcollege.edu/,100.0,87.0,96.0,91.0,,2026-11-01T13:03:05.820452+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://portal.lindsey.edu/,100.0,61.0,92.0,83.0,,2026-11-01T12:14:36.875679+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://president.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:40:27.898655+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://privacy.aiub.edu/,46.0,94.0,96.0,100.0,,2026-11-01T13:39:58.294732+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://provost.aiub.edu/,50.0,94.0,96.0,100.0,,2026-11-01T13:40:48.554236+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://psychology.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:24:47.152536+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://psychology.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65296),2026-11-01T12:00:56.809929+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://public-health.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:26:59.059502+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://public-health.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65308),2026-11-01T12:01:42.556953+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://public-policy.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:27:04.056669+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://public-policy.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65308),2026-11-01T12:01:45.491649+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://recreation.aims.edu/,97.0,83.0,69.0,75.0,,2026-11-01T12:50:42.967876+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://recreation.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:30:48.326736+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://recreation.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:03:28.977648+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://registrar.afi.edu/login,100.0,98.0,96.0,92.0,,2026-11-01T12:46:53.798497+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://registrar.africau.edu/,100.0,81.0,96.0,91.0,,2026-11-01T12:47:15.552827+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://registrar.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:28:47.134478+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://registrar.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65292),2026-11-01T12:02:29.389749+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://registrar.aud.edu/,98.0,72.0,92.0,83.0,,2026-11-01T11:52:20.493078+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://research.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:47:50.881834+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://research.alquds.edu/en/,65.0,79.0,92.0,83.0,,2026-11-01T12:53:59.017557+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://research.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65286),2026-11-01T12:07:28.335786+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://research.jefferson.edu/,95.0,83.0,77.0,83.0,,2026-11-01T11:56:10.226101+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://safety.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:35:30.232173+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://science.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:19:51.333750+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://science.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T11:58:32.650700+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://servicedesk.alvincollege.edu/Login.jsp?serviceurl=%2Fapp%2F823974934%2FHomePage.do,100.0,100.0,77.0,54.0,,2026-11-01T13:10:50.716818+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://servicedesk.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65298),2026-11-01T12:09:35.441714+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://servicenow.ask-fred.net/auth_redirect.do?sysparm_stack=no&sysparm_url=https%3A%2F%2Flogin.microsoftonline.com%2F6b3cfc37-af28-43df-ba35-82912bee3009%2Fsaml2%3FSAMLRequest%3DlVJLj9owEP4rke%252FO%252B0EsgkRBVZG222ihPfRm7DFrNbFTjwPtv28IrHZ76Eq9jr%252BZ7%252BUl8r5LB7Ye%252FbN5gp8joA9%252B9Z1BdntpyOgMsxw1MsN7QOYF268%252FP7A0jNngrLfCdiRYI4Lz2pqNNTj24PbgzlrA16eHhjx7PyCLIrzNjL2EHH9Q5UCGBnxk%252BHngJwilJcF2UqANv556XezsSZuw18JZtMpb02kDobB9VB4zoURWUa7SBc0zqeiRZwVdpHWSHgGyOK6j2QoJPlonYHbaEMU7BBLstg3ZP26qKq9VEmcVV0VZybzgdaJ4npWJkOVCigmILUfUZ3hdRRxhZ9Bz4xuSxmlJk4TGySGuWVGwIg7zuP5Ogvae0QdtpDan9wM93kDIPh0OLW2%252F7A%252FzgbOW4B4n9P9l%252BQ0czjlOp8lqOcfAZt3ubcnvS%252BIvzZLVC%252FdFjFPzMrxroFcRUxnL6C3DnW9gV927bWs7LX4H666zl40D7icv3o0w19Jz%252F28RSZjMEy2pmqFsNDiA0EqDJNHqTvv3J179AQ%253D%253D%26RelayState%3Dhttps%253A%252F%252Fservicenow.ask-fred.net%252Fnavpage.do,97.0,100.0,58.0,54.0,,2026-11-01T13:13:49.909516+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://signon.capella.edu/idp/SSO.saml2?SAMLRequest=fZHBbsIwEER%2FJfI9ieMIQixAouVQJCoQSXvopTL2Fiwltpu1UT%2B%2FIbQqHMrJ2vXO2%2FF4iqJtHF8EfzQ7%2BAyAPvpqG4N8uJiR0BluBWrkRrSA3EteLZ7XnCWUu856K21DriT3FQIROq%2BtIdFqOSPvIGlRlHtVyAnLs8lY5iDVaKxAiLKkH7nI9wWjUjBGolfosFfOSA%2Fq5YgBVga9ML5vUTaOsyymWU1LPso4ZW8kWvav0Ub4QXX03iFPU9QHY00ihYOmEQmokGrl0qraJGf%2F%2FaLFr8lHazC00FXQnbSEl936DyNF6wLeYFC3roEzJG2tCg0k7ujSocbLyWIhceiqU4xoY3Qk2v6k%2BKCN0uZwP8D9ZQj5U11v4%2B2mqsl8ekbzIZBu%2Fr%2B%2FaXo9d6luf37%2BDQ%3D%3D&RelayState=https%3A%2F%2Fcampus.capella.edu%2Fsaml_login%3FReturnTo%3Dhttps%253A%252F%252Fcampus.capella.edu%252F,100.0,88.0,100.0,90.0,,2026-11-01T12:28:32.938119+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://social-work.aiub.edu/,58.0,94.0,96.0,100.0,,2026-11-01T13:26:28.352985+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://social-work.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65300),2026-11-01T12:01:40.105121+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sociology.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:25:18.257447+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sociology.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65290),2026-11-01T12:00:58.201842+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sponsored.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65290),2026-11-01T12:08:36.590098+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.adams.edu/carbon/admin/login.jsp,100.0,60.0,73.0,75.0,,2026-11-01T12:32:33.458526+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.afit.edu/,100.0,86.0,100.0,58.0,,2026-11-01T12:51:42.526815+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:43:46.311834+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.allenuniversity.edu/tenant;jsessionid=4F6D883544796F27960DE5036D3ABC79?tenant=,97.0,94.0,50.0,36.0,,2026-11-01T13:04:35.172419+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.amberton.edu/tenant;jsessionid=94870711D7637901DCB093508C198578?tenant=,97.0,82.0,50.0,45.0,,2026-11-01T13:12:06.122536+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65268),2026-11-01T12:05:39.819837+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sso.sunyacc.edu/carbon/admin/index.jsp,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 365 column 21 (char 64579),2026-11-01T12:45:31.880158+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://staff.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:46:14.864444+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://staff.alquds.edu/,100.0,50.0,96.0,73.0,,2026-11-01T12:53:44.050011+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://staff.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65276),2026-11-01T12:06:44.982087+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://staging.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:09:56.778212+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://static.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:10:18.107985+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://status.acu.edu/,99.0,81.0,77.0,92.0,,2026-11-01T12:21:32.019708+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://status.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65280),2026-11-01T12:09:40.129802+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://status.capella.edu/,98.0,87.0,77.0,69.0,,2026-11-01T12:28:53.339355+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://stonybrookmedicine.edu/,83.0,100.0,92.0,92.0,,2026-11-01T12:25:26.887848+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://student.alquds.edu/en/login,96.0,79.0,81.0,83.0,,2026-11-01T12:53:32.021719+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://student.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:06:26.937269+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://student.fortlewis.edu/directory,100.0,76.0,92.0,91.0,,2026-11-01T12:16:52.558812+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://student.mccollege.edu/authenticate.php,100.0,55.0,96.0,80.0,,2026-11-01T12:11:55.176859+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://studenthousing.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:29:58.009580+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://studenthousing.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65310),2026-11-01T12:03:06.666716+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://study-abroad.aiub.edu/,53.0,94.0,96.0,100.0,,2026-11-01T13:38:49.526832+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sunyacc.edu/,95.0,92.0,73.0,92.0,,2026-11-01T12:45:00.891104+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.acu.edu/,99.0,94.0,100.0,54.0,,2026-11-01T12:21:12.524137+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.adelphi.edu/,100.0,100.0,77.0,54.0,,2026-11-01T12:44:47.951651+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.africau.edu/,93.0,55.0,100.0,92.0,,2026-11-01T12:47:35.401373+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.alamancecc.edu/,95.0,83.0,100.0,100.0,,2026-11-01T12:55:25.416901+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.alextech.edu/,100.0,87.0,85.0,92.0,,2026-11-01T12:59:29.447488+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.alliant.edu/Login.jsp?serviceurl=%2Fapp%2F810702150%2FHomePage.do,100.0,100.0,73.0,54.0,,2026-11-01T13:06:16.947816+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.americancareercollege.edu/,100.0,62.0,77.0,82.0,,2026-11-01T13:14:17.283081+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65284),2026-11-01T12:09:32.155877+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://support.lindsey.edu/,97.0,79.0,100.0,100.0,,2026-11-01T12:14:48.011662+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://suscc.edu/,89.0,90.0,69.0,85.0,,2026-11-01T11:54:04.718103+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sustainability.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:33:32.372018+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sustainability.alquds.edu/,90.0,77.0,73.0,85.0,,2026-11-01T12:52:46.244751+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://sustainability.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65312),2026-11-01T12:04:35.676651+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://tech-transfer.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65306),2026-11-01T12:08:15.164508+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://tech.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65270),2026-11-01T12:09:11.475530+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://technology.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65294),2026-11-01T12:08:57.591080+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://test.abac.edu/,98.0,82.0,77.0,58.0,,2026-11-01T12:23:56.738829+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://test.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65272),2026-11-01T12:10:02.160730+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://test.lindsey.edu/,82.0,84.0,100.0,50.0,,2026-11-01T12:14:57.407859+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://theology.acu.edu/,95.0,78.0,54.0,50.0,,2026-11-01T12:20:42.569405+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://theology.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:21:57.620771+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://theology.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65288),2026-11-01T11:59:30.896016+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://trident.edu/,79.0,99.0,54.0,85.0,,2026-11-01T12:30:46.965522+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://trincoll.edu/,75.0,87.0,73.0,92.0,,2026-11-01T12:19:11.153592+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://umhs.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 347 column 21 (char 64819),2026-11-01T11:50:42.908899+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ventures.jefferson.edu,95.0,88.0,100.0,83.0,,2026-11-01T11:56:18.593243+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://veterans.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:39:08.406900+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://victory.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 348 column 21 (char 65025),2026-11-01T12:27:45.011740+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://vpaa.aiub.edu/,54.0,94.0,96.0,100.0,,2026-11-01T13:41:17.142307+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://vpsa.aiub.edu/,51.0,94.0,96.0,100.0,,2026-11-01T13:41:38.139541+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://wbl.csi.edu/eagle-jobs/?utm_source=careerscsiedu&utm_campaign=domainredirect,100.0,98.0,73.0,100.0,,2026-11-01T12:13:07.389817+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.academycollege.edu/,100.0,75.0,100.0,50.0,,2026-11-01T12:26:13.622839+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.adrians.edu/,100.0,75.0,100.0,83.0,,2026-11-01T12:46:09.617317+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.aiub.edu/,56.0,94.0,96.0,100.0,,2026-11-01T13:44:37.901102+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.alu.edu/,100.0,75.0,100.0,45.0,,2026-11-01T12:24:32.842325+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.alvincollege.edu/owa/auth/logon.aspx?url=https%3a%2f%2fwebmail.alvincollege.edu%2fowa%2f&reason=0,100.0,82.0,92.0,50.0,,2026-11-01T13:10:30.900137+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.americancareercollege.edu/,100.0,75.0,81.0,50.0,,2026-11-01T13:13:32.133745+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.anrcollege.edu/,,,,,Invalid JSON output from Lighthouse: Unterminated string starting at: line 343 column 22 (char 65282),2026-11-01T12:06:01.371393+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.aud.edu/owa/auth/logon.aspx?url=https%3a%2f%2fwebmail.aud.edu%2fowa%2f&reason=0,100.0,82.0,92.0,50.0,,2026-11-01T11:52:49.412228+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://webmail.ipm.edu/,100.0,75.0,100.0,50.0,,2026-11-01T12:11:04.244139+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://wellness.aiub.edu/,57.0,94.0,96.0,100.0,,2026-11-01T13:34:40.354958+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.abac.edu/news/,100.0,85.0,77.0,100.0,,2026-11-01T12:22:32.569962+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.academyart.edu/academy-life/current-students/,84.0,95.0,58.0,92.0,,2026-11-01T12:27:07.560427+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/about/,80.0,90.0,73.0,100.0,,2026-11-01T12:42:24.294353+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/admissions/,82.0,90.0,73.0,100.0,,2026-11-01T12:37:18.923855+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/alumni/,86.0,84.0,73.0,100.0,,2026-11-01T12:39:27.968917+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/brand/,75.0,94.0,73.0,100.0,,2026-11-01T12:41:26.898412+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/business/,71.0,84.0,73.0,100.0,,2026-11-01T12:32:54.956989+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/campus-recreation/,95.0,100.0,73.0,100.0,,2026-11-01T12:39:23.378568+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/continuing-education/,77.0,93.0,73.0,100.0,,2026-11-01T12:37:04.295653+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/dining/,85.0,93.0,73.0,100.0,,2026-11-01T12:38:38.404301+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/diversity/,79.0,90.0,73.0,100.0,,2026-11-01T12:41:47.924672+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/education/,80.0,84.0,73.0,100.0,,2026-11-01T12:33:10.575075+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/events/,86.0,97.0,73.0,100.0,,2026-11-01T12:41:10.825266+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/giving/,91.0,84.0,73.0,92.0,,2026-11-01T12:39:44.472479+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/global/,86.0,90.0,73.0,100.0,,2026-11-01T12:42:08.506365+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/health/,93.0,93.0,73.0,100.0,,2026-11-01T12:40:26.388256+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/honors/,82.0,84.0,73.0,92.0,,2026-11-01T12:34:17.455615+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/housing/,85.0,93.0,73.0,100.0,,2026-11-01T12:38:22.943359+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/hr/,83.0,90.0,73.0,100.0,,2026-11-01T12:40:01.993796+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/innovation-center/,87.0,87.0,73.0,100.0,,2026-11-01T12:44:16.142964+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/it/,86.0,90.0,73.0,100.0,,2026-11-01T12:44:23.744157+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/libraries/,87.0,86.0,50.0,100.0,,2026-11-01T12:40:09.954965+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/news/,85.0,94.0,73.0,100.0,,2026-11-01T12:41:00.048169+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/nursing/,74.0,84.0,73.0,100.0,,2026-11-01T12:33:35.216664+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/one-stop/financial-aid/,90.0,93.0,73.0,100.0,,2026-11-01T12:38:19.968985+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/one-stop/registration/,82.0,93.0,73.0,100.0,,2026-11-01T12:38:01.686650+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/president/,79.0,90.0,73.0,92.0,,2026-11-01T12:42:40.107494+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/communications/,73.0,90.0,73.0,100.0,,2026-11-01T12:37:00.170410+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/english/,73.0,90.0,73.0,100.0,,2026-11-01T12:35:48.427928+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/history/,75.0,90.0,73.0,100.0,,2026-11-01T12:35:48.027743+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/physics/,78.0,90.0,73.0,100.0,,2026-11-01T12:35:04.768016+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/political-science/,87.0,90.0,73.0,100.0,,2026-11-01T12:36:32.401936+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/program/undergraduate/sociology/,84.0,90.0,73.0,100.0,,2026-11-01T12:36:21.988628+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/programs/?query=Music#filter_results,75.0,97.0,73.0,100.0,,2026-11-01T12:33:56.200170+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/programs/?query=biology#filter_results,72.0,97.0,73.0,100.0,,2026-11-01T12:35:46.832186+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/programs/?query=chemistry#filter_results,80.0,97.0,73.0,100.0,,2026-11-01T12:35:05.987947+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/programs/?query=computer+science#filter_results,82.0,97.0,73.0,100.0,,2026-11-01T12:34:19.955503+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/programs/?query=mathematics#filter_results,91.0,97.0,73.0,100.0,,2026-11-01T12:34:39.686579+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/provost/,78.0,84.0,73.0,100.0,,2026-11-01T12:43:12.018280+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/provost/faculty-information/,81.0,90.0,73.0,100.0,,2026-11-01T12:43:55.135129+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adelphi.edu/safety-transportation/,87.0,90.0,73.0,100.0,,2026-11-01T12:40:45.928298+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.adrian.edu/apply,95.0,94.0,77.0,100.0,,2026-11-01T12:45:56.380885+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.aiam.edu/,94.0,79.0,73.0,92.0,,2026-11-01T13:16:36.652596+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.alfredstate.edu/,66.0,100.0,73.0,100.0,,2026-11-01T12:59:50.283587+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.alma.edu/admissions/,88.0,92.0,77.0,92.0,,2026-11-01T13:07:01.145306+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.alu.edu/,,95.0,50.0,85.0,,2026-11-01T12:24:52.465345+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.alu.edu/alumni/,93.0,92.0,50.0,100.0,,2026-11-01T12:24:23.907120+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.apu.edu/advancement/,92.0,100.0,58.0,100.0,,2026-11-01T12:18:12.841579+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.apu.edu/canvas/,91.0,100.0,58.0,100.0,,2026-11-01T12:18:44.459863+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.aus.edu/,66.0,62.0,54.0,85.0,,2026-11-01T12:49:30.140178+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.capella.edu,87.0,80.0,73.0,85.0,,2026-11-01T12:28:27.011574+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.capital.edu/admission-aid/,85.0,94.0,73.0,85.0,,2026-11-01T12:30:00.797856+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/apply/,95.0,94.0,73.0,85.0,,2026-11-01T12:14:09.959274+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/biology-department/?utm_source=biologycsiedu&utm_campaign=domainredirect,100.0,94.0,73.0,85.0,,2026-11-01T12:12:42.899122+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/business-and-information-systems-department/?utm_source=businesscsiedu&utm_campaign=domainredirect,100.0,94.0,73.0,85.0,,2026-11-01T12:12:28.009735+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/education-department/?utm_source=educationcsiedu&utm_campaign=domainredirect,92.0,94.0,73.0,85.0,,2026-11-01T12:12:42.416221+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/english-language-philosophy-department/?utm_source=englishcsiedu&utm_campaign=domainredirect,95.0,94.0,73.0,85.0,,2026-11-01T12:12:52.134155+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.csi.edu/hr/?utm_source=hrcsiedu&utm_campaign=domainredirect,91.0,94.0,73.0,85.0,,2026-11-01T12:13:31.011116+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.fisher.edu/admissions-aid,80.0,87.0,54.0,92.0,,2026-11-01T12:31:55.765714+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.jefferson.edu/academics/programs/online.html,95.0,91.0,100.0,100.0,,2026-11-01T11:54:37.672931+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.jefferson.edu/admissions.html,91.0,88.0,100.0,100.0,,2026-11-01T11:54:51.253492+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.jefferson.edu/alumni/index.html,95.0,90.0,77.0,85.0,,2026-11-01T11:55:04.558988+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.law.capital.edu/,90.0,92.0,73.0,85.0,,2026-11-01T12:29:20.100446+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.library.aud.edu/,90.0,90.0,96.0,92.0,,2026-11-01T11:52:43.936551+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.trincoll.edu/library/,98.0,89.0,73.0,92.0,,2026-11-01T12:19:29.958993+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.wearejefferson.org/community-impact/,99.0,88.0,92.0,85.0,,2026-11-01T11:55:42.119907+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://www.wearejefferson.org/human-resources/,100.0,84.0,92.0,85.0,,2026-11-01T11:55:19.857663+00:00
+USA_EDU_MASTER_SUBDOMAINS,https://ycce.edu/,56.0,80.0,96.0,85.0,,2026-11-01T11:56:37.974896+00:00
