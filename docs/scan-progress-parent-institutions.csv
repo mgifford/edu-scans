@@ -4,7 +4,7 @@
 3,Home Ozarka College,135,134,99.3
 4,Frederick Community College,134,134,100.0
 5,"AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA",109,109,100.0
-6,California State University,53,47,88.7
+6,California State University,53,48,90.6
 7,Adelphi University,43,43,100.0
 8,Illinois State University,42,42,100.0
 9,Duke University,41,41,100.0
@@ -32,7 +32,7 @@
 31,Brigham Young University,21,21,100.0
 32,Barton County Community College,20,20,100.0
 33,College of William and Mary,19,19,100.0
-34,Colorado State University,19,18,94.7
+34,Colorado State University,19,19,100.0
 35,John Wood Community College,18,18,100.0
 36,Barnard College,18,18,100.0
 37,Kalamazoo College,18,18,100.0
@@ -807,7 +807,7 @@
 806,Dakota Wesleyan University,2,1,50.0
 807,East Mississippi Community College,2,2,100.0
 808,Erie Community College,2,2,100.0
-809,East Central Community College,2,1,50.0
+809,East Central Community College,2,2,100.0
 810,Emory & Henry College,2,2,100.0
 811,Emmaus Bible College Home Page,2,2,100.0
 812,Empire College,2,2,100.0
@@ -923,7 +923,7 @@
 922,Pennsylvania Institute of Technology,2,2,100.0
 923,Pueblo Community College,2,2,100.0
 924,Randolph College,2,2,100.0
-925,Riverside Community College District,2,1,50.0
+925,Riverside Community College District,2,2,100.0
 926,Welcome to the University of Redlands,2,2,100.0
 927,University of Rhode Island,2,2,100.0
 928,Richmont Graduate University,2,2,100.0
@@ -2102,7 +2102,7 @@
 2101,Motlow State Community College,1,1,100.0
 2102,Mount Senario College,1,0,0.0
 2103,Welcome to Murray State College!,1,1,100.0
-2104,Mississippi Delta Community College,1,0,0.0
+2104,Mississippi Delta Community College,1,1,100.0
 2105,Mt. San Jacinto Community College District,1,1,100.0
 2106,Mount St. Mary's College Maryland,1,1,100.0
 2107,Mount Saint Mary College,1,1,100.0
@@ -2239,7 +2239,7 @@
 2238,Northwest Institute of Literary Arts,1,0,0.0
 2239,Northern Illinois University,1,1,100.0
 2240,New Jersey Institute of Technology,1,1,100.0
-2241,Northern Kentucky University,1,0,0.0
+2241,Northern Kentucky University,1,1,100.0
 2242,National-Louis University,1,1,100.0
 2243,National Labor College Home,1,1,100.0
 2244,Northwestern Michigan College,1,1,100.0
@@ -2436,7 +2436,7 @@
 2435,Philadelphia College of Osteopathic Medicine,1,1,100.0
 2436,Pennsylvania College of Technology,1,1,100.0
 2437,Pass Christian University,1,0,0.0
-2438,Paul D. Camp Community College,1,0,0.0
+2438,Paul D. Camp Community College,1,1,100.0
 2439,Welcome to Professional Driver Institute,1,0,0.0
 2440,Portland State University,1,1,100.0
 2441,Pebble Hills University,1,0,0.0
@@ -2781,7 +2781,7 @@
 2780,Southeastern Illinois College,1,1,100.0
 2781,Siena College,1,1,100.0
 2782,Siena Heights University > Home,1,1,100.0
-2783,Sierra College,1,0,0.0
+2783,Sierra College,1,1,100.0
 2784,Sierra Nevada College,1,0,0.0
 2785,Shrimati Indira Gandhi College,1,1,100.0
 2786,Symbiosis Institute of Media & Communication,1,1,100.0
