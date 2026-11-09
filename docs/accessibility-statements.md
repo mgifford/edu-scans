@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-11-08 11:55 UTC — last scan: 2026-11-08_
+_Stats as of 2026-11-09 13:52 UTC — last scan: 2026-11-09_
 
-**24** scan batches run
+**30** scan batches run
 
-**8,149** of **20,310** available domains scanned (**40.1%** coverage)
-**7,177** of **8,149** scanned domains were reachable (**88.1%**)
-**2,422** of **7,177** reachable domains have an accessibility statement (**33.7%**)
-**1,968** domains have the statement link in the footer (**81.3%** of domains with a statement)
+**8,312** of **20,310** available domains scanned (**40.9%** coverage)
+**7,343** of **8,312** scanned domains were reachable (**88.3%**)
+**2,456** of **7,343** reachable domains have an accessibility statement (**33.4%**)
+**1,994** domains have the statement link in the footer (**81.2%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,838 | 1,166 | 977 | 41.1% | Oct 2026 – Nov 2026 |
-| Usa Edu Master Subdomains | 8,143 | 16,447 | 7,166 | 2,399 | 1,949 | 33.5% | Oct 2026 – Nov 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,838 | 1,167 | 978 | 41.1% | Oct 2026 – Nov 2026 |
+| Usa Edu Master Subdomains | 8,306 | 16,447 | 7,333 | 2,438 | 1,979 | 33.2% | Oct 2026 – Nov 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 60 | 57 | 66.7% | Oct 2026 – Nov 2026 |
-| **Total** | **12,024** | **20,310** | **10,094** | **3,625** | **2,983** | **35.9%** | — |
+| **Total** | **12,187** | **20,310** | **10,261** | **3,665** | **3,014** | **35.7%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
