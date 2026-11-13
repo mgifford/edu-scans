@@ -5,15 +5,15 @@ layout: page
 
 <!-- THIRD_PARTY_JS_STATS_START -->
 
-_Stats as of 2026-11-12 13:44 UTC — last scan: 2026-11-12_
+_Stats as of 2026-11-13 13:05 UTC — last scan: 2026-11-13_
 
-**32** scan batches run
+**35** scan batches run
 
 **3,330** of **20,310** available pages scanned (**16.4%** coverage)
-**2,518** of **3,330** scanned pages were reachable (**75.6%**)
-**1,742** reachable pages loaded at least one third-party script (**69.2%** of reachable)
-**3,035** known third-party service loads identified
-**24** unique known services across **17** categories
+**2,520** of **3,330** scanned pages were reachable (**75.7%**)
+**2,098** reachable pages loaded at least one third-party script (**83.3%** of reachable)
+**3,774** known third-party service loads identified
+**26** unique known services across **17** categories
 
 ---
 
@@ -21,7 +21,7 @@ _Stats as of 2026-11-12 13:44 UTC — last scan: 2026-11-12_
 
 | Country | Scanned | Available | Reachable | URLs with 3rd-Party JS | Known Service Loads | Last Scan |
 |---------|---------|-----------|-----------|------------------------|--------------------|----------|
-| Usa Edu Master | 3,330 | 3,763 | 2,518 | 1,742 | 3,035 | 2026-11-12 |
+| Usa Edu Master | 3,330 | 3,763 | 2,520 | 2,098 | 3,774 | 2026-11-13 |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open and download a CSV for that country and metric from [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json).
 
@@ -31,46 +31,46 @@ _Stats as of 2026-11-12 13:44 UTC — last scan: 2026-11-12_
 
 | # | Service | Loads |
 |--:|---------|------:|
-| 1 | cdnjs (Cloudflare CDN) | **560** |
-| 2 | Google Analytics (GA4) | **529** |
-| 3 | jsDelivr CDN | **459** |
-| 4 | Google Tag Manager | **381** |
-| 5 | jQuery | **264** |
-| 6 | Font Awesome | **218** |
-| 7 | Google Hosted Libraries | **167** |
-| 8 | Google reCAPTCHA | **131** |
-| 9 | unpkg CDN | **101** |
-| 10 | Bootstrap | **57** |
-| 11 | Sentry | **30** |
-| 12 | HubSpot | **27** |
-| 13 | OneTrust | **26** |
-| 14 | Adobe Dynamic Tag Management / Launch | **22** |
-| 15 | Facebook Pixel | **16** |
-| 16 | Cookiebot | **14** |
-| 17 | Cloudflare Turnstile / Challenge | **13** |
-| 18 | Stripe | **6** |
-| 19 | Zendesk | **4** |
-| 20 | Cloudflare Web Analytics | **3** |
+| 1 | cdnjs (Cloudflare CDN) | **670** |
+| 2 | Google Analytics (GA4) | **658** |
+| 3 | jsDelivr CDN | **562** |
+| 4 | Google Tag Manager | **508** |
+| 5 | jQuery | **288** |
+| 6 | Font Awesome | **287** |
+| 7 | Google reCAPTCHA | **193** |
+| 8 | Google Hosted Libraries | **189** |
+| 9 | unpkg CDN | **132** |
+| 10 | Bootstrap | **66** |
+| 11 | HubSpot | **43** |
+| 12 | OneTrust | **37** |
+| 13 | Sentry | **30** |
+| 14 | Adobe Dynamic Tag Management / Launch | **24** |
+| 15 | Facebook Pixel | **21** |
+| 16 | Cookiebot | **20** |
+| 17 | Cloudflare Turnstile / Challenge | **18** |
+| 18 | Stripe | **10** |
+| 19 | Zendesk | **5** |
+| 20 | Google Analytics (Universal) | **4** |
 
 ### Top Service Categories
 
 | # | Category | Loads |
 |--:|----------|------:|
-| 1 | CDN | **1,287** |
-| 2 | Analytics | **575** |
-| 3 | JavaScript Library | **431** |
-| 4 | Tag Manager | **403** |
-| 5 | Icon Library | **218** |
-| 6 | Security | **144** |
-| 7 | CAPTCHA | **131** |
-| 8 | UI Framework | **57** |
-| 9 | Cookie Consent | **42** |
-| 10 | Error Tracking | **30** |
-| 11 | CRM | **27** |
-| 12 | Marketing | **27** |
-| 13 | Advertising | **17** |
-| 14 | Payments | **6** |
-| 15 | Customer Support | **4** |
+| 1 | CDN | **1,553** |
+| 2 | Analytics | **714** |
+| 3 | Tag Manager | **532** |
+| 4 | JavaScript Library | **477** |
+| 5 | Icon Library | **287** |
+| 6 | Security | **211** |
+| 7 | CAPTCHA | **193** |
+| 8 | UI Framework | **66** |
+| 9 | Cookie Consent | **59** |
+| 10 | CRM | **43** |
+| 11 | Marketing | **43** |
+| 12 | Error Tracking | **30** |
+| 13 | Advertising | **23** |
+| 14 | Payments | **10** |
+| 15 | Customer Support | **5** |
 
 📥 Machine-readable results: [Download machine-readable third-party tools data (JSON)](third-party-tools-data.json)
 
