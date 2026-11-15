@@ -5,11 +5,11 @@ layout: page
 
 <!-- LIGHTHOUSE_STATS_START -->
 
-_Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
+_Stats as of 2026-11-15 12:43 UTC — last scan: 2026-11-14_
 
 **31** scan batches run
 
-**6,233** of **16,547** available pages audited (**37.7%** coverage)
+**6,233** of **19,889** available pages audited (**31.3%** coverage)
 **5,666** successful audits (**90.9%** of audited)
 
 **Overall average Lighthouse scores** (0–100 scale):
@@ -24,7 +24,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 
 | Country | Audited | Available | Perf | A11y | Best Practices | SEO | Last Scan |
 |---------|--------:|----------:|:----:|:----:|:--------------:|:---:|-----------|
-| Usa Edu Master Subdomains | 6,156 | 16,447 | 92 | 92 | 80 | 83 | 2026-11-14 |
+| Usa Edu Master Subdomains | 6,156 | 19,789 | 92 | 92 | 80 | 83 | 2026-11-14 |
 | Usa Edu Top100 | 100 | 100 | 85 | 95 | 77 | 92 | 2026-11-14 |
 
 > Scores are averages across all successfully audited URLs, displayed as 0–100 (Lighthouse stores scores as 0.0–1.0 internally).
@@ -99,7 +99,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american bible college &amp; seminary abcs.edu"><td>American Bible College &amp; Seminary</td><td>abcs.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bible colleges about.abc.edu"><td>Bible Colleges</td><td>about.abc.edu</td><td>1</td><td>96</td><td>65</td><td>77</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh about.aiub.edu"><td>American International University - Bangladesh</td><td>about.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: about.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>about.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="about.anrcollege.edu about.anrcollege.edu"><td>about.anrcollege.edu</td><td>about.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="columbia college chicago about.colum.edu"><td>Columbia College Chicago</td><td>about.colum.edu</td><td>1</td><td>95</td><td>92</td><td>73</td><td>92</td></tr>
 <tr data-search="frederick community college about.frederick.edu"><td>Frederick Community College</td><td>about.frederick.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="american baptist seminary of the west absw.edu"><td>American Baptist Seminary of the West</td><td>absw.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -126,7 +126,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="highline community college (hcc), des moines, wa (washington state community colleges) accessibility.highline.edu"><td>Highline Community College (HCC), Des Moines, WA (Washington State Community Colleges)</td><td>accessibility.highline.edu</td><td>1</td><td>100</td><td>80</td><td>92</td><td>77</td></tr>
 <tr data-search="account.fiu.edu account.fiu.edu"><td>account.fiu.edu</td><td>account.fiu.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>91</td></tr>
 <tr data-search="american international university - bangladesh accounts.aiub.edu"><td>American International University - Bangladesh</td><td>accounts.aiub.edu</td><td>1</td><td>55</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: accounts.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>accounts.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="accounts.anrcollege.edu accounts.anrcollege.edu"><td>accounts.anrcollege.edu</td><td>accounts.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="brandeis university accounts.brandeis.edu"><td>Brandeis University</td><td>accounts.brandeis.edu</td><td>1</td><td>—</td><td>86</td><td>92</td><td>91</td></tr>
 <tr data-search="brigham young university hawaii accounts.byuh.edu"><td>Brigham Young University Hawaii</td><td>accounts.byuh.edu</td><td>1</td><td>94</td><td>91</td><td>100</td><td>75</td></tr>
 <tr data-search="california college of the arts accounts.cca.edu"><td>California College of the Arts</td><td>accounts.cca.edu</td><td>1</td><td>100</td><td>80</td><td>100</td><td>82</td></tr>
@@ -172,7 +172,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="assumption university of thailand admissions.au.edu"><td>Assumption University of Thailand</td><td>admissions.au.edu</td><td>1</td><td>93</td><td>79</td><td>92</td><td>92</td></tr>
 <tr data-search="augsburg college admissions.augsburg.edu"><td>Augsburg College</td><td>admissions.augsburg.edu</td><td>1</td><td>100</td><td>97</td><td>100</td><td>91</td></tr>
 <tr data-search="barry university, miami shores, florida admissions.barstow.edu"><td>Barry University, Miami Shores, Florida</td><td>admissions.barstow.edu</td><td>1</td><td>100</td><td>93</td><td>100</td><td>91</td></tr>
-<tr data-search="admissions.ccv.edu admissions.ccv.edu"><td>admissions.ccv.edu</td><td>admissions.ccv.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
+<tr data-search="community college of vermont admissions.ccv.edu"><td>Community College of Vermont</td><td>admissions.ccv.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="chowan college admissions.chowan.edu"><td>Chowan College</td><td>admissions.chowan.edu</td><td>1</td><td>92</td><td>93</td><td>73</td><td>100</td></tr>
 <tr data-search="clinton community college admissions.clinton.edu"><td>Clinton Community College</td><td>admissions.clinton.edu</td><td>2</td><td>78</td><td>100</td><td>92</td><td>96</td></tr>
 <tr data-search="clovis community college admissions.clovis.edu"><td>Clovis Community College</td><td>admissions.clovis.edu</td><td>1</td><td>100</td><td>92</td><td>69</td><td>91</td></tr>
@@ -432,7 +432,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="eastern west virginia community and technical college apply.dewv.edu"><td>Eastern West Virginia Community and Technical College</td><td>apply.dewv.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="dillard university apply.dillard.edu"><td>Dillard University</td><td>apply.dillard.edu</td><td>1</td><td>93</td><td>95</td><td>73</td><td>100</td></tr>
 <tr data-search="apply.drew.edu apply.drew.edu"><td>apply.drew.edu</td><td>apply.drew.edu</td><td>1</td><td>100</td><td>96</td><td>96</td><td>90</td></tr>
-<tr data-search="east central college apply.eastcentral.edu"><td>East Central College</td><td>apply.eastcentral.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>63</td></tr>
+<tr data-search="apply.eastcentral.edu apply.eastcentral.edu"><td>apply.eastcentral.edu</td><td>apply.eastcentral.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>63</td></tr>
 <tr data-search="eastern wv community &amp; technical college apply.easternwv.edu"><td>Eastern WV Community &amp; Technical College</td><td>apply.easternwv.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="east-west university apply.eastwest.edu"><td>East-West University</td><td>apply.eastwest.edu</td><td>1</td><td>99</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="ecclesia college apply.ecollege.edu"><td>Ecclesia College</td><td>apply.ecollege.edu</td><td>1</td><td>96</td><td>92</td><td>73</td><td>100</td></tr>
@@ -468,7 +468,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american public university system apps.apus.edu"><td>American Public University System</td><td>apps.apus.edu</td><td>1</td><td>58</td><td>99</td><td>69</td><td>100</td></tr>
 <tr data-search="arkansas state university apps.astate.edu"><td>Arkansas State University</td><td>apps.astate.edu</td><td>1</td><td>100</td><td>80</td><td>92</td><td>91</td></tr>
 <tr data-search="albany state university apps.asurams.edu"><td>Albany State University</td><td>apps.asurams.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-<tr data-search="advanced technology institute apps.auto.edu"><td>Advanced Technology Institute</td><td>apps.auto.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="apps.auto.edu apps.auto.edu"><td>apps.auto.edu</td><td>apps.auto.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="belmont abbey college, charlotte, nc apps.bac.edu"><td>Belmont Abbey College, Charlotte, NC</td><td>apps.bac.edu</td><td>1</td><td>100</td><td>80</td><td>73</td><td>91</td></tr>
 <tr data-search="apps.bluefieldstate.edu apps.bluefieldstate.edu"><td>apps.bluefieldstate.edu</td><td>apps.bluefieldstate.edu</td><td>1</td><td>100</td><td>54</td><td>92</td><td>80</td></tr>
 <tr data-search="bossier parish community college apps.bpcc.edu"><td>Bossier Parish Community College</td><td>apps.bpcc.edu</td><td>1</td><td>100</td><td>96</td><td>92</td><td>91</td></tr>
@@ -595,7 +595,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="[csi] college of southern idaho athletics.csi.edu"><td>[CSI] College of Southern Idaho</td><td>athletics.csi.edu</td><td>1</td><td>70</td><td>84</td><td>69</td><td>85</td></tr>
 <tr data-search="delaware valley university athletics.delval.edu"><td>Delaware Valley University</td><td>athletics.delval.edu</td><td>1</td><td>69</td><td>88</td><td>54</td><td>92</td></tr>
 <tr data-search="elmhurst college athletics.elmhurst.edu"><td>Elmhurst College</td><td>athletics.elmhurst.edu</td><td>1</td><td>75</td><td>87</td><td>73</td><td>92</td></tr>
-<tr data-search="athletics.elmira.edu athletics.elmira.edu"><td>athletics.elmira.edu</td><td>athletics.elmira.edu</td><td>1</td><td>74</td><td>92</td><td>50</td><td>100</td></tr>
+<tr data-search="elmira college athletics.elmira.edu"><td>Elmira College</td><td>athletics.elmira.edu</td><td>1</td><td>74</td><td>92</td><td>50</td><td>100</td></tr>
 <tr data-search="florida polytechnic university athletics.floridapoly.edu"><td>Florida Polytechnic University</td><td>athletics.floridapoly.edu</td><td>1</td><td>67</td><td>100</td><td>69</td><td>100</td></tr>
 <tr data-search="florida metropolitan university (fmu) is now everest university athletics.fmu.edu"><td>Florida Metropolitan University (FMU) is now Everest University</td><td>athletics.fmu.edu</td><td>1</td><td>42</td><td>89</td><td>50</td><td>100</td></tr>
 <tr data-search="grove city college in western pennsylvania offers academically rigorous, affordable college education in a christian environment just 60 miles from pittsburgh, pennsylvania athletics.gcc.edu"><td>Grove City College in western Pennsylvania offers academically rigorous, affordable college education in a Christian environment just 60 miles from Pittsburgh, Pennsylvania</td><td>athletics.gcc.edu</td><td>1</td><td>30</td><td>92</td><td>54</td><td>85</td></tr>
@@ -781,7 +781,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="bju.avifresh.com bju.avifresh.com"><td>bju.avifresh.com</td><td>bju.avifresh.com</td><td>1</td><td>72</td><td>97</td><td>96</td><td>100</td></tr>
 <tr data-search="bob jones university bju.edu"><td>Bob Jones University</td><td>bju.edu</td><td>1</td><td>100</td><td>92</td><td>100</td><td>85</td></tr>
 <tr data-search="american international university - bangladesh blackboard.aiub.edu"><td>American International University - Bangladesh</td><td>blackboard.aiub.edu</td><td>1</td><td>55</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: blackboard.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>blackboard.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="blackboard.anrcollege.edu blackboard.anrcollege.edu"><td>blackboard.anrcollege.edu</td><td>blackboard.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="aiken technical college blackboard.atc.edu"><td>Aiken Technical College</td><td>blackboard.atc.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>54</td></tr>
 <tr data-search="blue ridge community and technical college blackboard.blueridgectc.edu"><td>Blue Ridge Community and Technical College</td><td>blackboard.blueridgectc.edu</td><td>1</td><td>94</td><td>92</td><td>54</td><td>50</td></tr>
 <tr data-search="bryn mawr college blackboard.brynmawr.edu"><td>Bryn Mawr College</td><td>blackboard.brynmawr.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>60</td></tr>
@@ -794,7 +794,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="coastal carolina university blackboard.coastalbend.edu"><td>Coastal Carolina University</td><td>blackboard.coastalbend.edu</td><td>1</td><td>85</td><td>88</td><td>54</td><td>50</td></tr>
 <tr data-search="concordia university nebraska blackboard.cune.edu"><td>Concordia University Nebraska</td><td>blackboard.cune.edu</td><td>1</td><td>94</td><td>91</td><td>73</td><td>42</td></tr>
 <tr data-search="eastern arizona college homepage blackboard.eacc.edu"><td>Eastern Arizona College Homepage</td><td>blackboard.eacc.edu</td><td>1</td><td>100</td><td>92</td><td>73</td><td>50</td></tr>
-<tr data-search="erie community college blackboard.ecc.edu"><td>Erie Community College</td><td>blackboard.ecc.edu</td><td>1</td><td>77</td><td>91</td><td>69</td><td>50</td></tr>
+<tr data-search="blackboard.ecc.edu blackboard.ecc.edu"><td>blackboard.ecc.edu</td><td>blackboard.ecc.edu</td><td>1</td><td>77</td><td>91</td><td>69</td><td>50</td></tr>
 <tr data-search="east central university blackboard.ecok.edu"><td>East Central University</td><td>blackboard.ecok.edu</td><td>1</td><td>100</td><td>92</td><td>73</td><td>50</td></tr>
 <tr data-search="fitchburg state university blackboard.fitchburgstate.edu"><td>Fitchburg State University</td><td>blackboard.fitchburgstate.edu</td><td>1</td><td>95</td><td>91</td><td>73</td><td>50</td></tr>
 <tr data-search="francis marion university blackboard.fmarion.edu"><td>Francis Marion University</td><td>blackboard.fmarion.edu</td><td>1</td><td>98</td><td>92</td><td>73</td><td>50</td></tr>
@@ -927,9 +927,9 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american international university - bangladesh business.aiub.edu"><td>American International University - Bangladesh</td><td>business.aiub.edu</td><td>1</td><td>59</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: business.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>business.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="american university in cairo business.aucegypt.edu"><td>American University in Cairo</td><td>business.aucegypt.edu</td><td>1</td><td>74</td><td>92</td><td>73</td><td>85</td></tr>
-<tr data-search="ave maria university &gt; home business.avemaria.edu"><td>Ave Maria University &gt; Home</td><td>business.avemaria.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="business.avemaria.edu business.avemaria.edu"><td>business.avemaria.edu</td><td>business.avemaria.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="campbell university business.campbell.edu"><td>Campbell University</td><td>business.campbell.edu</td><td>1</td><td>94</td><td>95</td><td>73</td><td>92</td></tr>
-<tr data-search="college of charleston business.cofc.edu"><td>College of Charleston</td><td>business.cofc.edu</td><td>1</td><td>34</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="business.cofc.edu business.cofc.edu"><td>business.cofc.edu</td><td>business.cofc.edu</td><td>1</td><td>34</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="cornell university business.cornell.edu"><td>Cornell University</td><td>business.cornell.edu</td><td>1</td><td>94</td><td>96</td><td>73</td><td>92</td></tr>
 <tr data-search="california pacific university business.cpu.edu"><td>California Pacific University</td><td>business.cpu.edu</td><td>1</td><td>98</td><td>87</td><td>96</td><td>77</td></tr>
 <tr data-search="depaul university business.depaul.edu"><td>DePaul University</td><td>business.depaul.edu</td><td>3</td><td>75</td><td>93</td><td>76</td><td>92</td></tr>
@@ -1011,7 +1011,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="georgia institute of technology calendar.gatech.edu"><td>Georgia Institute of Technology</td><td>calendar.gatech.edu</td><td>1</td><td>—</td><td>90</td><td>100</td><td>92</td></tr>
 <tr data-search="georgia southern university calendar.georgiasouthern.edu"><td>Georgia Southern University</td><td>calendar.georgiasouthern.edu</td><td>1</td><td>100</td><td>97</td><td>96</td><td>100</td></tr>
 <tr data-search="gwynedd mercy university calendar.gmercyu.edu"><td>Gwynedd Mercy University</td><td>calendar.gmercyu.edu</td><td>1</td><td>44</td><td>96</td><td>54</td><td>82</td></tr>
-<tr data-search="grambling state university calendar.gram.edu"><td>Grambling State University</td><td>calendar.gram.edu</td><td>1</td><td>75</td><td>93</td><td>96</td><td>50</td></tr>
+<tr data-search="calendar.gram.edu calendar.gram.edu"><td>calendar.gram.edu</td><td>calendar.gram.edu</td><td>1</td><td>75</td><td>93</td><td>96</td><td>50</td></tr>
 <tr data-search="georgia state university calendar.gsu.edu"><td>Georgia State University</td><td>calendar.gsu.edu</td><td>1</td><td>100</td><td>88</td><td>92</td><td>100</td></tr>
 <tr data-search="greenville technical college calendar.gvltec.edu"><td>Greenville Technical College</td><td>calendar.gvltec.edu</td><td>1</td><td>100</td><td>88</td><td>92</td><td>92</td></tr>
 <tr data-search="grand valley state university calendar.gvsu.edu"><td>Grand Valley State University</td><td>calendar.gvsu.edu</td><td>1</td><td>99</td><td>100</td><td>100</td><td>100</td></tr>
@@ -1046,7 +1046,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="campusrec.wm.edu campusrec.wm.edu"><td>campusrec.wm.edu</td><td>campusrec.wm.edu</td><td>1</td><td>93</td><td>83</td><td>92</td><td>83</td></tr>
 <tr data-search="canisius college canisius.edu"><td>Canisius College</td><td>canisius.edu</td><td>1</td><td>77</td><td>100</td><td>73</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh canvas.aiub.edu"><td>American International University - Bangladesh</td><td>canvas.aiub.edu</td><td>1</td><td>58</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: canvas.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>canvas.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="canvas.anrcollege.edu canvas.anrcollege.edu"><td>canvas.anrcollege.edu</td><td>canvas.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="ateneo de manila university canvas.ateneo.edu"><td>Ateneo de Manila University</td><td>canvas.ateneo.edu</td><td>1</td><td>95</td><td>94</td><td>77</td><td>82</td></tr>
 <tr data-search="american university in cairo canvas.aucegypt.edu"><td>American University in Cairo</td><td>canvas.aucegypt.edu</td><td>1</td><td>98</td><td>96</td><td>96</td><td>91</td></tr>
 <tr data-search="boise state university canvas.boisestate.edu"><td>Boise State University</td><td>canvas.boisestate.edu</td><td>1</td><td>94</td><td>91</td><td>96</td><td>83</td></tr>
@@ -1078,7 +1078,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="calvin college career.calvin.edu"><td>Calvin College</td><td>career.calvin.edu</td><td>1</td><td>48</td><td>94</td><td>100</td><td>92</td></tr>
 <tr data-search="christendom college career.christendom.edu"><td>Christendom College</td><td>career.christendom.edu</td><td>1</td><td>97</td><td>68</td><td>96</td><td>85</td></tr>
 <tr data-search="clemson university career.clemson.edu"><td>Clemson University</td><td>career.clemson.edu</td><td>1</td><td>95</td><td>100</td><td>100</td><td>85</td></tr>
-<tr data-search="career.colostate.edu career.colostate.edu"><td>career.colostate.edu</td><td>career.colostate.edu</td><td>1</td><td>86</td><td>84</td><td>58</td><td>85</td></tr>
+<tr data-search="colorado state university career.colostate.edu"><td>Colorado State University</td><td>career.colostate.edu</td><td>1</td><td>86</td><td>84</td><td>58</td><td>85</td></tr>
 <tr data-search="cornell university career.cornell.edu"><td>Cornell University</td><td>career.cornell.edu</td><td>1</td><td>81</td><td>97</td><td>100</td><td>92</td></tr>
 <tr data-search="college of saint benedict &amp; saint john\&#x27;s university career.csbsju.edu"><td>College of Saint Benedict &amp; Saint John\&#x27;s University</td><td>career.csbsju.edu</td><td>1</td><td>85</td><td>90</td><td>100</td><td>92</td></tr>
 <tr data-search="catholic university of eastern africa career.cuchicago.edu"><td>Catholic University of Eastern Africa</td><td>career.cuchicago.edu</td><td>1</td><td>89</td><td>89</td><td>77</td><td>92</td></tr>
@@ -1254,7 +1254,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="clark university cdn.clarku.edu"><td>Clark University</td><td>cdn.clarku.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="central michigan university cdn.cmich.edu"><td>Central Michigan University</td><td>cdn.cmich.edu</td><td>1</td><td>100</td><td>50</td><td>88</td><td>80</td></tr>
 <tr data-search="colorado mountain college cdn.coloradomtn.edu"><td>Colorado Mountain College</td><td>cdn.coloradomtn.edu</td><td>1</td><td>100</td><td>96</td><td>69</td><td>100</td></tr>
-<tr data-search="dartmouth college cdn.dartmouth.edu"><td>Dartmouth College</td><td>cdn.dartmouth.edu</td><td>1</td><td>100</td><td>80</td><td>92</td><td>90</td></tr>
+<tr data-search="cdn.dartmouth.edu cdn.dartmouth.edu"><td>cdn.dartmouth.edu</td><td>cdn.dartmouth.edu</td><td>1</td><td>100</td><td>80</td><td>92</td><td>90</td></tr>
 <tr data-search="east carolina university cdn.ecu.edu"><td>East Carolina University</td><td>cdn.ecu.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="edgewood college cdn.edgewood.edu"><td>Edgewood College</td><td>cdn.edgewood.edu</td><td>1</td><td>100</td><td>95</td><td>96</td><td>90</td></tr>
 <tr data-search="federico beauty institute cdn.federico.edu"><td>Federico Beauty Institute</td><td>cdn.federico.edu</td><td>1</td><td>73</td><td>100</td><td>69</td><td>85</td></tr>
@@ -1310,7 +1310,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="chaminade university of honolulu chaminade.edu"><td>Chaminade University of Honolulu</td><td>chaminade.edu</td><td>2</td><td>70</td><td>90</td><td>73</td><td>96</td></tr>
 <tr data-search="champlain college champlain.edu"><td>Champlain College</td><td>champlain.edu</td><td>1</td><td>85</td><td>92</td><td>77</td><td>85</td></tr>
 <tr data-search="american international university - bangladesh chancellor.aiub.edu"><td>American International University - Bangladesh</td><td>chancellor.aiub.edu</td><td>1</td><td>59</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: chancellor.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>chancellor.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="chancellor.anrcollege.edu chancellor.anrcollege.edu"><td>chancellor.anrcollege.edu</td><td>chancellor.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="appalachian state university chancellor.appstate.edu"><td>Appalachian State University</td><td>chancellor.appstate.edu</td><td>1</td><td>100</td><td>98</td><td>77</td><td>83</td></tr>
 <tr data-search="frederick community college chancellor.frederick.edu"><td>Frederick Community College</td><td>chancellor.frederick.edu</td><td>1</td><td>97</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="chancellor university chancelloru.edu"><td>Chancellor University</td><td>chancelloru.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -1586,10 +1586,10 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="california state university, fresno cs.csufresno.edu"><td>California State University, Fresno</td><td>cs.csufresno.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="duke university cs.duke.edu"><td>Duke University</td><td>cs.duke.edu</td><td>1</td><td>94</td><td>97</td><td>73</td><td>77</td></tr>
 <tr data-search="earlham college cs.earlham.edu"><td>Earlham College</td><td>cs.earlham.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>92</td></tr>
-<tr data-search="east carolina university cs.ecu.edu"><td>East Carolina University</td><td>cs.ecu.edu</td><td>1</td><td>100</td><td>100</td><td>54</td><td>92</td></tr>
+<tr data-search="cs.ecu.edu cs.ecu.edu"><td>cs.ecu.edu</td><td>cs.ecu.edu</td><td>1</td><td>100</td><td>100</td><td>54</td><td>92</td></tr>
 <tr data-search="eastern maine community college cs.emerson.edu"><td>Eastern Maine Community College</td><td>cs.emerson.edu</td><td>1</td><td>100</td><td>71</td><td>92</td><td>54</td></tr>
 <tr data-search="cs.engineering.gwu.edu cs.engineering.gwu.edu"><td>cs.engineering.gwu.edu</td><td>cs.engineering.gwu.edu</td><td>1</td><td>83</td><td>91</td><td>96</td><td>92</td></tr>
-<tr data-search="florida institute of technology cs.fit.edu"><td>Florida Institute of Technology</td><td>cs.fit.edu</td><td>1</td><td>91</td><td>96</td><td>73</td><td>91</td></tr>
+<tr data-search="cs.fit.edu cs.fit.edu"><td>cs.fit.edu</td><td>cs.fit.edu</td><td>1</td><td>91</td><td>96</td><td>73</td><td>91</td></tr>
 <tr data-search="fulton-montgomery community college cs.fmcc.edu"><td>Fulton-Montgomery Community College</td><td>cs.fmcc.edu</td><td>1</td><td>98</td><td>85</td><td>92</td><td>92</td></tr>
 <tr data-search="college degree online cs.franklin.edu"><td>College Degree Online</td><td>cs.franklin.edu</td><td>1</td><td>94</td><td>94</td><td>100</td><td>100</td></tr>
 <tr data-search="frederick community college cs.frederick.edu"><td>Frederick Community College</td><td>cs.frederick.edu</td><td>1</td><td>100</td><td>87</td><td>92</td><td>91</td></tr>
@@ -1778,13 +1778,13 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="brigham young university dev.byu.edu"><td>Brigham Young University</td><td>dev.byu.edu</td><td>1</td><td>94</td><td>48</td><td>73</td><td>73</td></tr>
 <tr data-search="california baptist university (cbu) dev.calbaptist.edu"><td>California Baptist University (CBU)</td><td>dev.calbaptist.edu</td><td>1</td><td>99</td><td>93</td><td>73</td><td>69</td></tr>
 <tr data-search="cci colleges.edu dev.ccicolleges.edu"><td>CCI Colleges.edu</td><td>dev.ccicolleges.edu</td><td>1</td><td>88</td><td>97</td><td>69</td><td>50</td></tr>
-<tr data-search="charter oak state college dev.charteroak.edu"><td>Charter Oak State College</td><td>dev.charteroak.edu</td><td>1</td><td>97</td><td>82</td><td>88</td><td>69</td></tr>
+<tr data-search="dev.charteroak.edu dev.charteroak.edu"><td>dev.charteroak.edu</td><td>dev.charteroak.edu</td><td>1</td><td>97</td><td>82</td><td>88</td><td>69</td></tr>
 <tr data-search="colombo international nautical &amp; engineering college (cinec) dev.cinec.edu"><td>Colombo International Nautical &amp; Engineering College (CINEC)</td><td>dev.cinec.edu</td><td>1</td><td>100</td><td>50</td><td>92</td><td>73</td></tr>
 <tr data-search="concordia college, moorhead, minn. dev.concordiacollege.edu"><td>Concordia College, Moorhead, Minn.</td><td>dev.concordiacollege.edu</td><td>1</td><td>99</td><td>96</td><td>77</td><td>66</td></tr>
 <tr data-search="california state university, dominguez hills dev.csudh.edu"><td>California State University, Dominguez Hills</td><td>dev.csudh.edu</td><td>1</td><td>95</td><td>82</td><td>69</td><td>42</td></tr>
 <tr data-search="chattahoochee valley community college dev.cv.edu"><td>Chattahoochee Valley Community College</td><td>dev.cv.edu</td><td>1</td><td>100</td><td>83</td><td>96</td><td>90</td></tr>
 <tr data-search="denver college of nursing dev.denvercollegeofnursing.edu"><td>Denver College of Nursing</td><td>dev.denvercollegeofnursing.edu</td><td>1</td><td>96</td><td>100</td><td>73</td><td>61</td></tr>
-<tr data-search="depauw university dev.depauw.edu"><td>DePauw University</td><td>dev.depauw.edu</td><td>1</td><td>100</td><td>98</td><td>77</td><td>61</td></tr>
+<tr data-search="dev.depauw.edu dev.depauw.edu"><td>dev.depauw.edu</td><td>dev.depauw.edu</td><td>1</td><td>100</td><td>98</td><td>77</td><td>61</td></tr>
 <tr data-search="el camino community college district dev.elcamino.edu"><td>El Camino Community College District</td><td>dev.elcamino.edu</td><td>1</td><td>100</td><td>97</td><td>96</td><td>91</td></tr>
 <tr data-search="fairmont state university dev.fairmontstate.edu"><td>Fairmont State University</td><td>dev.fairmontstate.edu</td><td>1</td><td>83</td><td>100</td><td>73</td><td>61</td></tr>
 <tr data-search="florida education institute dev.fei.edu"><td>Florida Education Institute</td><td>dev.fei.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>82</td></tr>
@@ -1962,7 +1962,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="brigham young university hawaii email.byuh.edu"><td>Brigham Young University Hawaii</td><td>email.byuh.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="coconino community college email.coconino.edu"><td>Coconino Community College</td><td>email.coconino.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="frederick community college email.frederick.edu"><td>Frederick Community College</td><td>email.frederick.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>92</td></tr>
-<tr data-search="garrett college email.garrettcollege.edu"><td>Garrett College</td><td>email.garrettcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="email.garrettcollege.edu email.garrettcollege.edu"><td>email.garrettcollege.edu</td><td>email.garrettcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="goucher college email.goucher.edu"><td>Goucher College</td><td>email.goucher.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="aviation college and engineering degree program email.vaughn.edu"><td>Aviation College and Engineering Degree Program</td><td>email.vaughn.edu</td><td>1</td><td>100</td><td>100</td><td>54</td><td>54</td></tr>
 <tr data-search="embry riddle aeronautical university, prescott embryriddle.edu"><td>Embry Riddle Aeronautical University, Prescott</td><td>embryriddle.edu</td><td>1</td><td>99</td><td>91</td><td>77</td><td>92</td></tr>
@@ -2172,7 +2172,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="eastern washington university ewu.edu"><td>Eastern Washington University</td><td>ewu.edu</td><td>1</td><td>96</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="excelsior college excelsior.edu"><td>Excelsior College</td><td>excelsior.edu</td><td>1</td><td>69</td><td>93</td><td>54</td><td>85</td></tr>
 <tr data-search="american international university - bangladesh exchange.aiub.edu"><td>American International University - Bangladesh</td><td>exchange.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="association of jesuit colleges and universities exchange.ajcunet.edu"><td>Association of Jesuit Colleges and Universities</td><td>exchange.ajcunet.edu</td><td>1</td><td>64</td><td>100</td><td>96</td><td>92</td></tr>
+<tr data-search="exchange.ajcunet.edu exchange.ajcunet.edu"><td>exchange.ajcunet.edu</td><td>exchange.ajcunet.edu</td><td>1</td><td>64</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="al-quds university - the arab university in jerusalem exchange.alquds.edu"><td>Al-Quds University - The Arab University in Jerusalem</td><td>exchange.alquds.edu</td><td>1</td><td>97</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: exchange.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>exchange.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="auburn university at montgomery exchange.aum.edu"><td>Auburn University at Montgomery</td><td>exchange.aum.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
@@ -2212,7 +2212,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="a top christian college in southern california faculty.apu.edu"><td>A Top Christian College in Southern California</td><td>faculty.apu.edu</td><td>1</td><td>96</td><td>63</td><td>50</td><td>82</td></tr>
 <tr data-search="bemidji state university faculty.bemidjistate.edu"><td>Bemidji State University</td><td>faculty.bemidjistate.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="bennington college faculty.bennington.edu"><td>Bennington College</td><td>faculty.bennington.edu</td><td>1</td><td>100</td><td>67</td><td>92</td><td>90</td></tr>
-<tr data-search="faculty.bentley.edu faculty.bentley.edu"><td>faculty.bentley.edu</td><td>faculty.bentley.edu</td><td>1</td><td>100</td><td>86</td><td>77</td><td>91</td></tr>
+<tr data-search="bentley university faculty.bentley.edu"><td>Bentley University</td><td>faculty.bentley.edu</td><td>1</td><td>100</td><td>86</td><td>77</td><td>91</td></tr>
 <tr data-search="community college of philadelphia faculty.ccp.edu"><td>Community College of Philadelphia</td><td>faculty.ccp.edu</td><td>1</td><td>100</td><td>93</td><td>77</td><td>40</td></tr>
 <tr data-search="clarendon college faculty.clarendoncollege.edu"><td>Clarendon College</td><td>faculty.clarendoncollege.edu</td><td>1</td><td>62</td><td>66</td><td>65</td><td>82</td></tr>
 <tr data-search="columbia state community college faculty.columbiastate.edu"><td>Columbia State Community College</td><td>faculty.columbiastate.edu</td><td>1</td><td>94</td><td>87</td><td>54</td><td>91</td></tr>
@@ -2324,7 +2324,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="fort scott community college fortscott.edu"><td>Fort Scott Community College</td><td>fortscott.edu</td><td>1</td><td>97</td><td>85</td><td>54</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh foundation.aiub.edu"><td>American International University - Bangladesh</td><td>foundation.aiub.edu</td><td>1</td><td>58</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: foundation.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>foundation.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="foundation.bergen.edu foundation.bergen.edu"><td>foundation.bergen.edu</td><td>foundation.bergen.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>61</td></tr>
+<tr data-search="bergen community college homepage foundation.bergen.edu"><td>Bergen Community College Homepage</td><td>foundation.bergen.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>61</td></tr>
 <tr data-search="cabrillo college home page foundation.cabrillo.edu"><td>Cabrillo College Home Page</td><td>foundation.cabrillo.edu</td><td>1</td><td>95</td><td>89</td><td>73</td><td>92</td></tr>
 <tr data-search="california polytechnic state university - san luis obispo foundation.calpoly.edu"><td>California Polytechnic State University - San Luis Obispo</td><td>foundation.calpoly.edu</td><td>1</td><td>89</td><td>89</td><td>96</td><td>85</td></tr>
 <tr data-search="carteret community college foundation.carteret.edu"><td>Carteret Community College</td><td>foundation.carteret.edu</td><td>1</td><td>99</td><td>100</td><td>100</td><td>92</td></tr>
@@ -2653,10 +2653,10 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="heritage christian university hcu.edu"><td>Heritage Christian University</td><td>hcu.edu</td><td>1</td><td>98</td><td>78</td><td>73</td><td>85</td></tr>
 <tr data-search="heald college heald.edu"><td>Heald College</td><td>heald.edu</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="american international university - bangladesh health.aiub.edu"><td>American International University - Bangladesh</td><td>health.aiub.edu</td><td>1</td><td>59</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="ave maria university &gt; home health.avemaria.edu"><td>Ave Maria University &gt; Home</td><td>health.avemaria.edu</td><td>1</td><td>100</td><td>100</td><td>92</td><td>100</td></tr>
+<tr data-search="health.avemaria.edu health.avemaria.edu"><td>health.avemaria.edu</td><td>health.avemaria.edu</td><td>1</td><td>100</td><td>100</td><td>92</td><td>100</td></tr>
 <tr data-search="barry university, miami shores, florida health.barry.edu"><td>Barry University, Miami Shores, Florida</td><td>health.barry.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>91</td></tr>
 <tr data-search="carteret community college health.carteret.edu"><td>Carteret Community College</td><td>health.carteret.edu</td><td>1</td><td>71</td><td>95</td><td>77</td><td>100</td></tr>
-<tr data-search="health.colostate.edu health.colostate.edu"><td>health.colostate.edu</td><td>health.colostate.edu</td><td>2</td><td>92</td><td>90</td><td>50</td><td>85</td></tr>
+<tr data-search="colorado state university health.colostate.edu"><td>Colorado State University</td><td>health.colostate.edu</td><td>2</td><td>92</td><td>90</td><td>50</td><td>85</td></tr>
 <tr data-search="cornell university health.cornell.edu"><td>Cornell University</td><td>health.cornell.edu</td><td>1</td><td>99</td><td>95</td><td>96</td><td>92</td></tr>
 <tr data-search="florida international university health.fiu.edu"><td>Florida International University</td><td>health.fiu.edu</td><td>1</td><td>95</td><td>96</td><td>100</td><td>100</td></tr>
 <tr data-search="frederick community college health.frederick.edu"><td>Frederick Community College</td><td>health.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
@@ -2771,14 +2771,14 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="frederick community college helpdesk.frederick.edu"><td>Frederick Community College</td><td>helpdesk.frederick.edu</td><td>1</td><td>98</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="frostburg state university is a comprehensive regional university offering strong programs in liberal arts and sciences, business, education, environmental studies and the arts helpdesk.frostburg.edu"><td>Frostburg State University is a comprehensive regional university offering strong programs in liberal arts and sciences, business, education, environmental studies and the arts</td><td>helpdesk.frostburg.edu</td><td>1</td><td>100</td><td>98</td><td>88</td><td>90</td></tr>
 <tr data-search="gardner webb university helpdesk.gardner-webb.edu"><td>Gardner Webb University</td><td>helpdesk.gardner-webb.edu</td><td>1</td><td>87</td><td>86</td><td>96</td><td>58</td></tr>
-<tr data-search="georgia medical institute (gmi) is now everest helpdesk.georgian.edu"><td>Georgia Medical Institute (GMI) is now Everest</td><td>helpdesk.georgian.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="helpdesk.georgian.edu helpdesk.georgian.edu"><td>helpdesk.georgian.edu</td><td>helpdesk.georgian.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="great falls college montana state university helpdesk.gfcmsu.edu"><td>Great Falls College Montana State University</td><td>helpdesk.gfcmsu.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>50</td></tr>
 <tr data-search="georgia gwinnett college helpdesk.ggc.edu"><td>Georgia Gwinnett College</td><td>helpdesk.ggc.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>54</td></tr>
 <tr data-search="gemological institute of america helpdesk.ghc.edu"><td>Gemological Institute of America</td><td>helpdesk.ghc.edu</td><td>1</td><td>100</td><td>86</td><td>73</td><td>58</td></tr>
 <tr data-search="gwynedd-mercy college helpdesk.gmc.edu"><td>Gwynedd-Mercy College</td><td>helpdesk.gmc.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>91</td></tr>
 <tr data-search="gogebic community college helpdesk.gogebic.edu"><td>Gogebic Community College</td><td>helpdesk.gogebic.edu</td><td>1</td><td>100</td><td>83</td><td>100</td><td>100</td></tr>
 <tr data-search="goodwin college home helpdesk.goodwin.edu"><td>Goodwin College Home</td><td>helpdesk.goodwin.edu</td><td>1</td><td>98</td><td>96</td><td>77</td><td>58</td></tr>
-<tr data-search="grambling state university helpdesk.gram.edu"><td>Grambling State University</td><td>helpdesk.gram.edu</td><td>1</td><td>99</td><td>69</td><td>77</td><td>92</td></tr>
+<tr data-search="helpdesk.gram.edu helpdesk.gram.edu"><td>helpdesk.gram.edu</td><td>helpdesk.gram.edu</td><td>1</td><td>99</td><td>69</td><td>77</td><td>92</td></tr>
 <tr data-search="georgia southwestern state university helpdesk.gsw.edu"><td>Georgia Southwestern State University</td><td>helpdesk.gsw.edu</td><td>1</td><td>100</td><td>100</td><td>58</td><td>54</td></tr>
 <tr data-search="guilford technical community college helpdesk.gtcc.edu"><td>Guilford Technical Community College</td><td>helpdesk.gtcc.edu</td><td>1</td><td>80</td><td>66</td><td>73</td><td>75</td></tr>
 <tr data-search="hamilton college helpdesk.hamilton.edu"><td>Hamilton College</td><td>helpdesk.hamilton.edu</td><td>1</td><td>100</td><td>100</td><td>81</td><td>91</td></tr>
@@ -2867,7 +2867,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="california polytechnic state university - san luis obispo housing.calpoly.edu"><td>California Polytechnic State University - San Luis Obispo</td><td>housing.calpoly.edu</td><td>1</td><td>85</td><td>91</td><td>96</td><td>85</td></tr>
 <tr data-search="central connecticut state university housing.ccsu.edu"><td>Central Connecticut State University</td><td>housing.ccsu.edu</td><td>2</td><td>96</td><td>96</td><td>86</td><td>100</td></tr>
 <tr data-search="chowan college housing.chowan.edu"><td>Chowan College</td><td>housing.chowan.edu</td><td>1</td><td>81</td><td>92</td><td>73</td><td>100</td></tr>
-<tr data-search="housing.colostate.edu housing.colostate.edu"><td>housing.colostate.edu</td><td>housing.colostate.edu</td><td>1</td><td>70</td><td>96</td><td>54</td><td>92</td></tr>
+<tr data-search="colorado state university housing.colostate.edu"><td>Colorado State University</td><td>housing.colostate.edu</td><td>1</td><td>70</td><td>96</td><td>54</td><td>92</td></tr>
 <tr data-search="connecticut college housing.conncoll.edu"><td>Connecticut College</td><td>housing.conncoll.edu</td><td>1</td><td>95</td><td>96</td><td>96</td><td>91</td></tr>
 <tr data-search="california state university, long beach housing.csulb.edu"><td>California State University, Long Beach</td><td>housing.csulb.edu</td><td>1</td><td>73</td><td>97</td><td>73</td><td>92</td></tr>
 <tr data-search="emory university home page housing.emory.edu"><td>Emory University Home Page</td><td>housing.emory.edu</td><td>1</td><td>100</td><td>91</td><td>73</td><td>83</td></tr>
@@ -2984,7 +2984,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american public university system intranet.apus.edu"><td>American Public University System</td><td>intranet.apus.edu</td><td>1</td><td>100</td><td>100</td><td>73</td><td>54</td></tr>
 <tr data-search="athens technical college intranet.athenstech.edu"><td>Athens Technical College</td><td>intranet.athenstech.edu</td><td>1</td><td>93</td><td>91</td><td>73</td><td>77</td></tr>
 <tr data-search=":: american university in dubai :: intranet.aud.edu"><td>:: American University in Dubai ::</td><td>intranet.aud.edu</td><td>1</td><td>99</td><td>100</td><td>69</td><td>54</td></tr>
-<tr data-search="intranet.bcm.edu intranet.bcm.edu"><td>intranet.bcm.edu</td><td>intranet.bcm.edu</td><td>1</td><td>100</td><td>83</td><td>100</td><td>75</td></tr>
+<tr data-search="baylor college of medicine intranet.bcm.edu"><td>Baylor College of Medicine</td><td>intranet.bcm.edu</td><td>1</td><td>100</td><td>83</td><td>100</td><td>75</td></tr>
 <tr data-search="central christian college of the bible intranet.cccc.edu"><td>Central Christian College of the Bible</td><td>intranet.cccc.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>63</td></tr>
 <tr data-search="clackamas community college intranet.clackamas.edu"><td>Clackamas Community College</td><td>intranet.clackamas.edu</td><td>1</td><td>100</td><td>86</td><td>50</td><td>91</td></tr>
 <tr data-search="dakota county technical college intranet.dctc.edu"><td>Dakota County Technical College</td><td>intranet.dctc.edu</td><td>1</td><td>100</td><td>67</td><td>77</td><td>58</td></tr>
@@ -2996,7 +2996,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="::institute of productivity &amp; management, india:: ipm.edu"><td>::Institute of Productivity &amp; Management, INDIA::</td><td>ipm.edu</td><td>1</td><td>98</td><td>95</td><td>73</td><td>92</td></tr>
 <tr data-search="university of southern california isi.edu"><td>University of Southern California</td><td>isi.edu</td><td>1</td><td>92</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh it.aiub.edu"><td>American International University - Bangladesh</td><td>it.aiub.edu</td><td>1</td><td>53</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: it.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>it.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="it.anrcollege.edu it.anrcollege.edu"><td>it.anrcollege.edu</td><td>it.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="barry university, miami shores, florida it.barstow.edu"><td>Barry University, Miami Shores, Florida</td><td>it.barstow.edu</td><td>1</td><td>100</td><td>94</td><td>100</td><td>91</td></tr>
 <tr data-search="bay atlantic university it.bau.edu"><td>Bay Atlantic University</td><td>it.bau.edu</td><td>1</td><td>89</td><td>100</td><td>92</td><td>100</td></tr>
 <tr data-search="bevill state community college it.bscc.edu"><td>Bevill State Community College</td><td>it.bscc.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>54</td></tr>
@@ -3020,7 +3020,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="hesston college it.hesston.edu"><td>Hesston College</td><td>it.hesston.edu</td><td>1</td><td>100</td><td>91</td><td>92</td><td>82</td></tr>
 <tr data-search="college of marin it.marin.edu"><td>College of Marin</td><td>it.marin.edu</td><td>1</td><td>94</td><td>95</td><td>92</td><td>92</td></tr>
 <tr data-search="an-najah national university it.najah.edu"><td>An-Najah National University</td><td>it.najah.edu</td><td>1</td><td>62</td><td>89</td><td>77</td><td>100</td></tr>
-<tr data-search="dutchess community college it.sunydutchess.edu"><td>Dutchess Community College</td><td>it.sunydutchess.edu</td><td>1</td><td>100</td><td>82</td><td>96</td><td>54</td></tr>
+<tr data-search="it.sunydutchess.edu it.sunydutchess.edu"><td>it.sunydutchess.edu</td><td>it.sunydutchess.edu</td><td>1</td><td>100</td><td>82</td><td>96</td><td>54</td></tr>
 <tr data-search="ithelp.bvu.edu ithelp.bvu.edu"><td>ithelp.bvu.edu</td><td>ithelp.bvu.edu</td><td>1</td><td>94</td><td>98</td><td>100</td><td>50</td></tr>
 <tr data-search="american international university - bangladesh its.aiub.edu"><td>American International University - Bangladesh</td><td>its.aiub.edu</td><td>1</td><td>58</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: its.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>its.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -3084,7 +3084,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="bible college in pennsylvania lbc.edu"><td>Bible College in Pennsylvania</td><td>lbc.edu</td><td>1</td><td>98</td><td>82</td><td>73</td><td>92</td></tr>
 <tr data-search="learning.fielding.edu learning.fielding.edu"><td>learning.fielding.edu</td><td>learning.fielding.edu</td><td>1</td><td>98</td><td>91</td><td>100</td><td>58</td></tr>
 <tr data-search="american international university - bangladesh legal.aiub.edu"><td>American International University - Bangladesh</td><td>legal.aiub.edu</td><td>1</td><td>53</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="legal.au.edu legal.au.edu"><td>legal.au.edu</td><td>legal.au.edu</td><td>1</td><td>55</td><td>83</td><td>92</td><td>77</td></tr>
+<tr data-search="assumption university of thailand legal.au.edu"><td>Assumption University of Thailand</td><td>legal.au.edu</td><td>1</td><td>55</td><td>83</td><td>92</td><td>77</td></tr>
 <tr data-search="dallas college legal.dallascollege.edu"><td>Dallas College</td><td>legal.dallascollege.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>58</td></tr>
 <tr data-search="foothill college home legal.fordham.edu"><td>Foothill College Home</td><td>legal.fordham.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="frederick community college legal.frederick.edu"><td>Frederick Community College</td><td>legal.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
@@ -3303,7 +3303,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="cankdeska cikana community college littlehoop.edu"><td>Cankdeska Cikana Community College</td><td>littlehoop.edu</td><td>1</td><td>89</td><td>85</td><td>73</td><td>92</td></tr>
 <tr data-search="live.hssu.edu live.hssu.edu"><td>live.hssu.edu</td><td>live.hssu.edu</td><td>1</td><td>100</td><td>83</td><td>77</td><td>73</td></tr>
 <tr data-search="american international university - bangladesh lms.aiub.edu"><td>American International University - Bangladesh</td><td>lms.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: lms.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>lms.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="lms.anrcollege.edu lms.anrcollege.edu"><td>lms.anrcollege.edu</td><td>lms.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bay path university lms.baypath.edu"><td>Bay Path University</td><td>lms.baypath.edu</td><td>1</td><td>—</td><td>100</td><td>92</td><td>91</td></tr>
 <tr data-search="brescia university lms.brescia.edu"><td>Brescia University</td><td>lms.brescia.edu</td><td>1</td><td>100</td><td>98</td><td>96</td><td>58</td></tr>
 <tr data-search="boston university lms.bu.edu"><td>Boston University</td><td>lms.bu.edu</td><td>1</td><td>100</td><td>92</td><td>73</td><td>50</td></tr>
@@ -3321,7 +3321,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="an-najah national university lms.najah.edu"><td>An-Najah National University</td><td>lms.najah.edu</td><td>1</td><td>99</td><td>76</td><td>92</td><td>45</td></tr>
 <tr data-search="login-apps.carleton.edu login-apps.carleton.edu"><td>login-apps.carleton.edu</td><td>login-apps.carleton.edu</td><td>1</td><td>100</td><td>90</td><td>77</td><td>58</td></tr>
 <tr data-search="american international university - bangladesh login.aiub.edu"><td>American International University - Bangladesh</td><td>login.aiub.edu</td><td>1</td><td>52</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: login.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>login.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="login.anrcollege.edu login.anrcollege.edu"><td>login.anrcollege.edu</td><td>login.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arizona state university login.asu.edu"><td>Arizona State University</td><td>login.asu.edu</td><td>1</td><td>97</td><td>97</td><td>77</td><td>83</td></tr>
 <tr data-search="augusta university login.augusta.edu"><td>Augusta University</td><td>login.augusta.edu</td><td>1</td><td>100</td><td>88</td><td>100</td><td>90</td></tr>
 <tr data-search="augusta technical college login.augustatech.edu"><td>Augusta Technical College</td><td>login.augustatech.edu</td><td>1</td><td>98</td><td>92</td><td>81</td><td>58</td></tr>
@@ -3410,7 +3410,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="claflin university mail.claflin.edu"><td>Claflin University</td><td>mail.claflin.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="college of dupage mail.cod.edu"><td>College of DuPage</td><td>mail.cod.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="conservative theological university, conservative christian academy, first conservative baptist church, jacksonville, fl mail.conservative.edu"><td>Conservative Theological University, Conservative Christian Academy, First Conservative Baptist Church, Jacksonville, FL</td><td>mail.conservative.edu</td><td>1</td><td>71</td><td>90</td><td>96</td><td>92</td></tr>
-<tr data-search="mail.csuniv.edu mail.csuniv.edu"><td>mail.csuniv.edu</td><td>mail.csuniv.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
+<tr data-search="charleston southern university mail.csuniv.edu"><td>Charleston Southern University</td><td>mail.csuniv.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="digital university of america + peace university, usa mail.digital.edu"><td>Digital University of America + Peace University, USA</td><td>mail.digital.edu</td><td>1</td><td>100</td><td>96</td><td>96</td><td>100</td></tr>
 <tr data-search="dunwoody college of technology mail.dunwoody.edu"><td>Dunwoody College of Technology</td><td>mail.dunwoody.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="elgin community college (ecc) homepage mail.elgin.edu"><td>Elgin Community College (ECC) Homepage</td><td>mail.elgin.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
@@ -3418,7 +3418,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="east tennessee state university mail.etsu.edu"><td>East Tennessee State University</td><td>mail.etsu.edu</td><td>1</td><td>100</td><td>78</td><td>96</td><td>100</td></tr>
 <tr data-search="florida southern college mail.flsouthern.edu"><td>Florida Southern College</td><td>mail.flsouthern.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="franklin pierce university mail.franklinpierce.edu"><td>Franklin Pierce University</td><td>mail.franklinpierce.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
-<tr data-search="garrett college mail.garrettcollege.edu"><td>Garrett College</td><td>mail.garrettcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="mail.garrettcollege.edu mail.garrettcollege.edu"><td>mail.garrettcollege.edu</td><td>mail.garrettcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="georgia institute of cosmetology mail.gic.edu"><td>Georgia Institute of Cosmetology</td><td>mail.gic.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="henry ford community college mail.hfcc.edu"><td>Henry Ford Community College</td><td>mail.hfcc.edu</td><td>1</td><td>100</td><td>94</td><td>96</td><td>90</td></tr>
 <tr data-search="college of mount st. joseph mail.msj.edu"><td>College of Mount St. Joseph</td><td>mail.msj.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
@@ -3466,7 +3466,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="georgia state university math.gsu.edu"><td>Georgia State University</td><td>math.gsu.edu</td><td>1</td><td>78</td><td>96</td><td>31</td><td>85</td></tr>
 <tr data-search="hanover college math.hanover.edu"><td>Hanover College</td><td>math.hanover.edu</td><td>1</td><td>100</td><td>88</td><td>100</td><td>75</td></tr>
 <tr data-search="henry ford community college math.hfcc.edu"><td>Henry Ford Community College</td><td>math.hfcc.edu</td><td>1</td><td>100</td><td>94</td><td>96</td><td>90</td></tr>
-<tr data-search="high point university © 2012 math.highpoint.edu"><td>High Point University © 2012</td><td>math.highpoint.edu</td><td>1</td><td>100</td><td>75</td><td>73</td><td>90</td></tr>
+<tr data-search="math.highpoint.edu math.highpoint.edu"><td>math.highpoint.edu</td><td>math.highpoint.edu</td><td>1</td><td>100</td><td>75</td><td>73</td><td>90</td></tr>
 <tr data-search="harvey mudd college math.hmc.edu"><td>Harvey Mudd College</td><td>math.hmc.edu</td><td>1</td><td>100</td><td>96</td><td>100</td><td>92</td></tr>
 <tr data-search="hobart and william smith colleges math.hws.edu"><td>Hobart and William Smith Colleges</td><td>math.hws.edu</td><td>1</td><td>99</td><td>71</td><td>100</td><td>82</td></tr>
 <tr data-search="mathematics.emory.edu mathematics.emory.edu"><td>mathematics.emory.edu</td><td>mathematics.emory.edu</td><td>1</td><td>100</td><td>94</td><td>73</td><td>82</td></tr>
@@ -3497,7 +3497,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american international university - bangladesh moodle.aiub.edu"><td>American International University - Bangladesh</td><td>moodle.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="amherst college moodle.amherst.edu"><td>Amherst College</td><td>moodle.amherst.edu</td><td>1</td><td>94</td><td>95</td><td>88</td><td>54</td></tr>
 <tr data-search="aaniiih nakoda college moodle.ancollege.edu"><td>Aaniiih Nakoda College</td><td>moodle.ancollege.edu</td><td>1</td><td>100</td><td>98</td><td>100</td><td>91</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: moodle.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>moodle.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="moodle.anrcollege.edu moodle.anrcollege.edu"><td>moodle.anrcollege.edu</td><td>moodle.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="asia pacific theological seminary (apts) moodle.apts.edu"><td>Asia Pacific Theological Seminary (APTS)</td><td>moodle.apts.edu</td><td>1</td><td>96</td><td>86</td><td>100</td><td>91</td></tr>
 <tr data-search="atlantic university moodle.atlanticuniv.edu"><td>Atlantic University</td><td>moodle.atlanticuniv.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>54</td></tr>
 <tr data-search="american university in cairo moodle.aucegypt.edu"><td>American University in Cairo</td><td>moodle.aucegypt.edu</td><td>1</td><td>86</td><td>90</td><td>100</td><td>40</td></tr>
@@ -3582,7 +3582,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="allen university my.allenuniversity.edu"><td>Allen University</td><td>my.allenuniversity.edu</td><td>1</td><td>100</td><td>80</td><td>92</td><td>91</td></tr>
 <tr data-search="american career college my.americancareercollege.edu"><td>American Career College</td><td>my.americancareercollege.edu</td><td>1</td><td>90</td><td>62</td><td>77</td><td>82</td></tr>
 <tr data-search="amrita university my.amrita.edu"><td>Amrita University</td><td>my.amrita.edu</td><td>1</td><td>95</td><td>88</td><td>96</td><td>75</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: my.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>my.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="my.anrcollege.edu my.anrcollege.edu"><td>my.anrcollege.edu</td><td>my.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="aquinas college my.aquinas.edu"><td>Aquinas College</td><td>my.aquinas.edu</td><td>1</td><td>57</td><td>100</td><td>96</td><td>83</td></tr>
 <tr data-search="arkansas baptist college my.arkansasbaptist.edu"><td>Arkansas Baptist College</td><td>my.arkansasbaptist.edu</td><td>1</td><td>99</td><td>95</td><td>77</td><td>73</td></tr>
 <tr data-search="asbury theological seminary my.asburyseminary.edu"><td>Asbury Theological Seminary</td><td>my.asburyseminary.edu</td><td>1</td><td>85</td><td>88</td><td>96</td><td>100</td></tr>
@@ -3623,7 +3623,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="carl albert state college my.carlalbert.edu"><td>Carl Albert State College</td><td>my.carlalbert.edu</td><td>1</td><td>95</td><td>100</td><td>96</td><td>91</td></tr>
 <tr data-search="carleton college my.carlow.edu"><td>Carleton College</td><td>my.carlow.edu</td><td>1</td><td>100</td><td>100</td><td>73</td><td>54</td></tr>
 <tr data-search="carolina christian college winston my.carolina.edu"><td>Carolina Christian College Winston</td><td>my.carolina.edu</td><td>1</td><td>100</td><td>93</td><td>96</td><td>91</td></tr>
-<tr data-search="carroll university my.carrollu.edu"><td>Carroll University</td><td>my.carrollu.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>50</td></tr>
+<tr data-search="my.carrollu.edu my.carrollu.edu"><td>my.carrollu.edu</td><td>my.carrollu.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>50</td></tr>
 <tr data-search="case western reserve university my.case.edu"><td>Case Western Reserve University</td><td>my.case.edu</td><td>1</td><td>95</td><td>95</td><td>77</td><td>92</td></tr>
 <tr data-search="cayuga county community college my.cayuga-cc.edu"><td>Cayuga County Community College</td><td>my.cayuga-cc.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="cbd college my.cbd.edu"><td>CBD College</td><td>my.cbd.edu</td><td>1</td><td>99</td><td>97</td><td>96</td><td>54</td></tr>
@@ -3648,7 +3648,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="christopher newport university my.cnu.edu"><td>Christopher Newport University</td><td>my.cnu.edu</td><td>1</td><td>100</td><td>95</td><td>73</td><td>92</td></tr>
 <tr data-search="coconino community college my.coconino.edu"><td>Coconino Community College</td><td>my.coconino.edu</td><td>1</td><td>99</td><td>87</td><td>69</td><td>45</td></tr>
 <tr data-search="coe college my.coe.edu"><td>Coe College</td><td>my.coe.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>83</td></tr>
-<tr data-search="college of charleston my.cofc.edu"><td>College of Charleston</td><td>my.cofc.edu</td><td>1</td><td>49</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="my.cofc.edu my.cofc.edu"><td>my.cofc.edu</td><td>my.cofc.edu</td><td>1</td><td>49</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="cogswell polytechnical college my.cogswell.edu"><td>Cogswell Polytechnical College</td><td>my.cogswell.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="colby college my.colby.edu"><td>Colby College</td><td>my.colby.edu</td><td>1</td><td>94</td><td>80</td><td>50</td><td>92</td></tr>
 <tr data-search="colgate is a nationally recognized liberal arts college set on a beautiful campus in central new york. my.colgate.edu"><td>Colgate is a nationally recognized liberal arts college set on a beautiful campus in central New York.</td><td>my.colgate.edu</td><td>1</td><td>100</td><td>50</td><td>88</td><td>45</td></tr>
@@ -3747,7 +3747,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="baton rouge community college mybrcc.edu"><td>Baton Rouge Community College</td><td>mybrcc.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>92</td></tr>
 <tr data-search="american international university - bangladesh myportal.aiub.edu"><td>American International University - Bangladesh</td><td>myportal.aiub.edu</td><td>1</td><td>53</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="american career college myportal.americancareercollege.edu"><td>American Career College</td><td>myportal.americancareercollege.edu</td><td>1</td><td>100</td><td>93</td><td>69</td><td>91</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: myportal.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>myportal.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="myportal.anrcollege.edu myportal.anrcollege.edu"><td>myportal.anrcollege.edu</td><td>myportal.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="california polytechnic state university - san luis obispo myportal.calpoly.edu"><td>California Polytechnic State University - San Luis Obispo</td><td>myportal.calpoly.edu</td><td>1</td><td>100</td><td>87</td><td>100</td><td>90</td></tr>
 <tr data-search="columbia college of missouri myportal.ccis.edu"><td>Columbia College of Missouri</td><td>myportal.ccis.edu</td><td>2</td><td>69</td><td>100</td><td>96</td><td>82</td></tr>
 <tr data-search="myportal.charleston.edu myportal.charleston.edu"><td>myportal.charleston.edu</td><td>myportal.charleston.edu</td><td>1</td><td>97</td><td>84</td><td>58</td><td>54</td></tr>
@@ -3790,7 +3790,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="fox valley technical college home page news.fvtc.edu"><td>Fox Valley Technical College Home Page</td><td>news.fvtc.edu</td><td>1</td><td>100</td><td>90</td><td>96</td><td>85</td></tr>
 <tr data-search="georgia institute of technology news.gatech.edu"><td>Georgia Institute of Technology</td><td>news.gatech.edu</td><td>1</td><td>99</td><td>83</td><td>73</td><td>100</td></tr>
 <tr data-search="grand canyon university is a private christian university in phoenix, az news.gcu.edu"><td>Grand Canyon University is a private Christian University in Phoenix, AZ</td><td>news.gcu.edu</td><td>1</td><td>100</td><td>85</td><td>69</td><td>85</td></tr>
-<tr data-search="grambling state university news.gram.edu"><td>Grambling State University</td><td>news.gram.edu</td><td>1</td><td>74</td><td>93</td><td>96</td><td>45</td></tr>
+<tr data-search="news.gram.edu news.gram.edu"><td>news.gram.edu</td><td>news.gram.edu</td><td>1</td><td>74</td><td>93</td><td>96</td><td>45</td></tr>
 <tr data-search="georgia state university news.gsu.edu"><td>Georgia State University</td><td>news.gsu.edu</td><td>1</td><td>70</td><td>89</td><td>54</td><td>92</td></tr>
 <tr data-search="harding university news.harding.edu"><td>Harding University</td><td>news.harding.edu</td><td>1</td><td>100</td><td>79</td><td>92</td><td>82</td></tr>
 <tr data-search="harvard university news.harvard.edu"><td>Harvard University</td><td>news.harvard.edu</td><td>1</td><td>100</td><td>100</td><td>73</td><td>92</td></tr>
@@ -3808,7 +3808,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="notre dame college notredame.edu"><td>Notre Dame College</td><td>notredame.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="american international university - bangladesh nursing.aiub.edu"><td>American International University - Bangladesh</td><td>nursing.aiub.edu</td><td>1</td><td>59</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: nursing.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>nursing.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="assumption university of thailand nursing.au.edu"><td>Assumption University of Thailand</td><td>nursing.au.edu</td><td>1</td><td>53</td><td>70</td><td>92</td><td>50</td></tr>
+<tr data-search="nursing.au.edu nursing.au.edu"><td>nursing.au.edu</td><td>nursing.au.edu</td><td>1</td><td>53</td><td>70</td><td>92</td><td>50</td></tr>
 <tr data-search="auburn university nursing.auburn.edu"><td>Auburn University</td><td>nursing.auburn.edu</td><td>1</td><td>67</td><td>97</td><td>100</td><td>92</td></tr>
 <tr data-search="concordia college - st. paul nursing.csp.edu"><td>Concordia College - St. Paul</td><td>nursing.csp.edu</td><td>1</td><td>100</td><td>83</td><td>73</td><td>46</td></tr>
 <tr data-search="eastern west virginia community and technical college nursing.dewv.edu"><td>Eastern West Virginia Community and Technical College</td><td>nursing.dewv.edu</td><td>1</td><td>100</td><td>96</td><td>77</td><td>100</td></tr>
@@ -3854,15 +3854,15 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="bismarck state college online.bismarckstate.edu"><td>Bismarck State College</td><td>online.bismarckstate.edu</td><td>1</td><td>99</td><td>81</td><td>77</td><td>42</td></tr>
 <tr data-search="career training – online career training programs – blackstone career institute online.blackstone.edu"><td>Career Training – Online Career Training Programs – Blackstone Career Institute</td><td>online.blackstone.edu</td><td>1</td><td>100</td><td>93</td><td>96</td><td>54</td></tr>
 <tr data-search="brigham young university online.byu.edu"><td>Brigham Young University</td><td>online.byu.edu</td><td>1</td><td>98</td><td>95</td><td>77</td><td>92</td></tr>
-<tr data-search="california coast university online.calcoast.edu"><td>California Coast University</td><td>online.calcoast.edu</td><td>1</td><td>100</td><td>86</td><td>73</td><td>91</td></tr>
+<tr data-search="online.calcoast.edu online.calcoast.edu"><td>online.calcoast.edu</td><td>online.calcoast.edu</td><td>1</td><td>100</td><td>86</td><td>73</td><td>91</td></tr>
 <tr data-search="calhoun community college online.calhoun.edu"><td>Calhoun Community College</td><td>online.calhoun.edu</td><td>1</td><td>80</td><td>99</td><td>58</td><td>100</td></tr>
 <tr data-search="california state university system online.calstate.edu"><td>California State University System</td><td>online.calstate.edu</td><td>1</td><td>95</td><td>100</td><td>58</td><td>100</td></tr>
 <tr data-search="campbell university online.campbell.edu"><td>Campbell University</td><td>online.campbell.edu</td><td>1</td><td>95</td><td>95</td><td>73</td><td>92</td></tr>
 <tr data-search="carl albert state college online.carlalbert.edu"><td>Carl Albert State College</td><td>online.carlalbert.edu</td><td>1</td><td>91</td><td>87</td><td>73</td><td>77</td></tr>
-<tr data-search="columbia college washington d.c. online.ccdc.edu"><td>Columbia College Washington D.C.</td><td>online.ccdc.edu</td><td>1</td><td>100</td><td>83</td><td>96</td><td>82</td></tr>
+<tr data-search="online.ccdc.edu online.ccdc.edu"><td>online.ccdc.edu</td><td>online.ccdc.edu</td><td>1</td><td>100</td><td>83</td><td>96</td><td>82</td></tr>
 <tr data-search="central christian college of ks online.centralchristian.edu"><td>Central Christian College of KS</td><td>online.centralchristian.edu</td><td>1</td><td>99</td><td>90</td><td>100</td><td>92</td></tr>
 <tr data-search="central georgia technical college online.centralgatech.edu"><td>Central Georgia Technical College</td><td>online.centralgatech.edu</td><td>1</td><td>100</td><td>50</td><td>88</td><td>80</td></tr>
-<tr data-search="chamberlain college of nursing online.chamberlain.edu"><td>Chamberlain College of Nursing</td><td>online.chamberlain.edu</td><td>1</td><td>100</td><td>57</td><td>92</td><td>75</td></tr>
+<tr data-search="online.chamberlain.edu online.chamberlain.edu"><td>online.chamberlain.edu</td><td>online.chamberlain.edu</td><td>1</td><td>100</td><td>57</td><td>92</td><td>75</td></tr>
 <tr data-search="champlain college online.champlain.edu"><td>Champlain College</td><td>online.champlain.edu</td><td>1</td><td>96</td><td>100</td><td>69</td><td>100</td></tr>
 <tr data-search="chemeketa community college online.chemeketa.edu"><td>Chemeketa Community College</td><td>online.chemeketa.edu</td><td>1</td><td>96</td><td>96</td><td>100</td><td>92</td></tr>
 <tr data-search="chester college of new england â· fine arts â· graphic design â· photography â· creative writing â· professional writing â· interdisciplinary arts â· chester, new hampshire online.cheyney.edu"><td>Chester College of New England Â· Fine Arts Â· Graphic Design Â· Photography Â· Creative Writing Â· Professional Writing Â· Interdisciplinary Arts Â· Chester, New Hampshire</td><td>online.cheyney.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>91</td></tr>
@@ -3983,7 +3983,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="aga khan university portal.aku.edu"><td>Aga Khan University</td><td>portal.aku.edu</td><td>1</td><td>100</td><td>63</td><td>88</td><td>82</td></tr>
 <tr data-search="alliant international university; california graduate schools, graduate degrees; undergraduate bachelors completion degrees portal.alliant.edu"><td>Alliant International University; California Graduate Schools, Graduate Degrees; Undergraduate Bachelors Completion Degrees</td><td>portal.alliant.edu</td><td>1</td><td>99</td><td>88</td><td>96</td><td>82</td></tr>
 <tr data-search="al-quds university - the arab university in jerusalem portal.alquds.edu"><td>Al-Quds University - The Arab University in Jerusalem</td><td>portal.alquds.edu</td><td>1</td><td>86</td><td>90</td><td>100</td><td>58</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: portal.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>portal.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="portal.anrcollege.edu portal.anrcollege.edu"><td>portal.anrcollege.edu</td><td>portal.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="asbury theological seminary portal.asburyseminary.edu"><td>Asbury Theological Seminary</td><td>portal.asburyseminary.edu</td><td>1</td><td>100</td><td>85</td><td>96</td><td>90</td></tr>
 <tr data-search="aiken technical college portal.atc.edu"><td>Aiken Technical College</td><td>portal.atc.edu</td><td>1</td><td>100</td><td>100</td><td>73</td><td>54</td></tr>
 <tr data-search="atlantic university college portal.atlanticu.edu"><td>Atlantic University College</td><td>portal.atlanticu.edu</td><td>1</td><td>99</td><td>93</td><td>96</td><td>91</td></tr>
@@ -4024,7 +4024,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="georgia institute of cosmetology portal.gic.edu"><td>Georgia Institute of Cosmetology</td><td>portal.gic.edu</td><td>1</td><td>87</td><td>92</td><td>100</td><td>83</td></tr>
 <tr data-search="grace college &amp; theological seminary in indiana portal.grace.edu"><td>Grace College &amp; Theological Seminary in Indiana</td><td>portal.grace.edu</td><td>1</td><td>87</td><td>95</td><td>54</td><td>73</td></tr>
 <tr data-search="graceland university portal.graceland.edu"><td>Graceland University</td><td>portal.graceland.edu</td><td>1</td><td>100</td><td>82</td><td>88</td><td>80</td></tr>
-<tr data-search="grambling state university portal.gram.edu"><td>Grambling State University</td><td>portal.gram.edu</td><td>1</td><td>78</td><td>93</td><td>96</td><td>45</td></tr>
+<tr data-search="portal.gram.edu portal.gram.edu"><td>portal.gram.edu</td><td>portal.gram.edu</td><td>1</td><td>78</td><td>93</td><td>96</td><td>45</td></tr>
 <tr data-search="guam community college portal.guamcc.edu"><td>Guam Community College</td><td>portal.guamcc.edu</td><td>1</td><td>100</td><td>83</td><td>96</td><td>100</td></tr>
 <tr data-search="gwinnett college portal.gwinnettcollege.edu"><td>Gwinnett College</td><td>portal.gwinnettcollege.edu</td><td>1</td><td>93</td><td>93</td><td>92</td><td>91</td></tr>
 <tr data-search="george washington university portal.gwu.edu"><td>George Washington University</td><td>portal.gwu.edu</td><td>1</td><td>62</td><td>100</td><td>96</td><td>83</td></tr>
@@ -4039,7 +4039,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="post.davenport.edu post.davenport.edu"><td>post.davenport.edu</td><td>post.davenport.edu</td><td>1</td><td>99</td><td>96</td><td>77</td><td>100</td></tr>
 <tr data-search="pratt.duke.edu pratt.duke.edu"><td>pratt.duke.edu</td><td>pratt.duke.edu</td><td>1</td><td>94</td><td>91</td><td>77</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh president.aiub.edu"><td>American International University - Bangladesh</td><td>president.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: president.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>president.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="president.anrcollege.edu president.anrcollege.edu"><td>president.anrcollege.edu</td><td>president.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arizona state university president.asu.edu"><td>Arizona State University</td><td>president.asu.edu</td><td>1</td><td>95</td><td>87</td><td>92</td><td>77</td></tr>
 <tr data-search="assumption university of thailand president.au.edu"><td>Assumption University of Thailand</td><td>president.au.edu</td><td>1</td><td>35</td><td>86</td><td>92</td><td>54</td></tr>
 <tr data-search="belmont university president.belmont.edu"><td>Belmont University</td><td>president.belmont.edu</td><td>1</td><td>66</td><td>83</td><td>77</td><td>85</td></tr>
@@ -4061,7 +4061,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="frederick community college privacy.frederick.edu"><td>Frederick Community College</td><td>privacy.frederick.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="george washington university privacy.gwu.edu"><td>George Washington University</td><td>privacy.gwu.edu</td><td>1</td><td>100</td><td>96</td><td>96</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh provost.aiub.edu"><td>American International University - Bangladesh</td><td>provost.aiub.edu</td><td>1</td><td>50</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: provost.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>provost.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="provost.anrcollege.edu provost.anrcollege.edu"><td>provost.anrcollege.edu</td><td>provost.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="arizona state university provost.asu.edu"><td>Arizona State University</td><td>provost.asu.edu</td><td>1</td><td>95</td><td>98</td><td>96</td><td>92</td></tr>
 <tr data-search="california polytechnic state university - san luis obispo provost.calpoly.edu"><td>California Polytechnic State University - San Luis Obispo</td><td>provost.calpoly.edu</td><td>1</td><td>100</td><td>95</td><td>96</td><td>100</td></tr>
 <tr data-search="cornell university provost.cornell.edu"><td>Cornell University</td><td>provost.cornell.edu</td><td>1</td><td>94</td><td>100</td><td>100</td><td>83</td></tr>
@@ -4124,7 +4124,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="auburn university research.auburn.edu"><td>Auburn University</td><td>research.auburn.edu</td><td>1</td><td>98</td><td>100</td><td>100</td><td>92</td></tr>
 <tr data-search="barry university, miami shores, florida research.barstow.edu"><td>Barry University, Miami Shores, Florida</td><td>research.barstow.edu</td><td>1</td><td>100</td><td>93</td><td>100</td><td>91</td></tr>
 <tr data-search="butler university research.butler.edu"><td>Butler University</td><td>research.butler.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>91</td></tr>
-<tr data-search="brigham young university research.byu.edu"><td>Brigham Young University</td><td>research.byu.edu</td><td>1</td><td>98</td><td>90</td><td>100</td><td>54</td></tr>
+<tr data-search="research.byu.edu research.byu.edu"><td>research.byu.edu</td><td>research.byu.edu</td><td>1</td><td>98</td><td>90</td><td>100</td><td>54</td></tr>
 <tr data-search="california polytechnic state university - san luis obispo research.calpoly.edu"><td>California Polytechnic State University - San Luis Obispo</td><td>research.calpoly.edu</td><td>1</td><td>100</td><td>91</td><td>96</td><td>100</td></tr>
 <tr data-search="calvin college research.calvin.edu"><td>Calvin College</td><td>research.calvin.edu</td><td>1</td><td>100</td><td>84</td><td>96</td><td>100</td></tr>
 <tr data-search="college of eastern utah research.ceu.edu"><td>College of Eastern Utah</td><td>research.ceu.edu</td><td>1</td><td>100</td><td>97</td><td>92</td><td>83</td></tr>
@@ -4139,7 +4139,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="florida institute of technology research.fit.edu"><td>Florida Institute of Technology</td><td>research.fit.edu</td><td>1</td><td>98</td><td>100</td><td>73</td><td>91</td></tr>
 <tr data-search="florida international university research.fiu.edu"><td>Florida International University</td><td>research.fiu.edu</td><td>1</td><td>100</td><td>76</td><td>96</td><td>77</td></tr>
 <tr data-search="frederick community college research.frederick.edu"><td>Frederick Community College</td><td>research.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
-<tr data-search="georgia institute of technology research.gatech.edu"><td>Georgia Institute of Technology</td><td>research.gatech.edu</td><td>1</td><td>96</td><td>89</td><td>77</td><td>85</td></tr>
+<tr data-search="research.gatech.edu research.gatech.edu"><td>research.gatech.edu</td><td>research.gatech.edu</td><td>1</td><td>96</td><td>89</td><td>77</td><td>85</td></tr>
 <tr data-search="grand canyon university is a private christian university in phoenix, az research.gcu.edu"><td>Grand Canyon University is a private Christian University in Phoenix, AZ</td><td>research.gcu.edu</td><td>1</td><td>96</td><td>85</td><td>100</td><td>77</td></tr>
 <tr data-search="great falls college montana state university research.gfcmsu.edu"><td>Great Falls College Montana State University</td><td>research.gfcmsu.edu</td><td>1</td><td>95</td><td>96</td><td>100</td><td>83</td></tr>
 <tr data-search="georgia state university research.gsu.edu"><td>Georgia State University</td><td>research.gsu.edu</td><td>1</td><td>74</td><td>77</td><td>54</td><td>85</td></tr>
@@ -4245,7 +4245,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="american international university - bangladesh sso.aiub.edu"><td>American International University - Bangladesh</td><td>sso.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="allen university sso.allenuniversity.edu"><td>Allen University</td><td>sso.allenuniversity.edu</td><td>2</td><td>98</td><td>94</td><td>50</td><td>36</td></tr>
 <tr data-search="amberton university sso.amberton.edu"><td>Amberton University</td><td>sso.amberton.edu</td><td>2</td><td>98</td><td>82</td><td>50</td><td>45</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: sso.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>sso.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="sso.anrcollege.edu sso.anrcollege.edu"><td>sso.anrcollege.edu</td><td>sso.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="antioch university sso.antioch.edu"><td>Antioch University</td><td>sso.antioch.edu</td><td>5</td><td>100</td><td>97</td><td>99</td><td>62</td></tr>
 <tr data-search="assumption university of thailand sso.au.edu"><td>Assumption University of Thailand</td><td>sso.au.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>90</td></tr>
 <tr data-search="averett college sso.averett.edu"><td>Averett College</td><td>sso.averett.edu</td><td>1</td><td>100</td><td>92</td><td>81</td><td>58</td></tr>
@@ -4259,7 +4259,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="college of the marshall islands sso.cmi.edu"><td>College of the Marshall Islands</td><td>sso.cmi.edu</td><td>2</td><td>98</td><td>94</td><td>46</td><td>45</td></tr>
 <tr data-search="central michigan university sso.cmich.edu"><td>Central Michigan University</td><td>sso.cmich.edu</td><td>1</td><td>100</td><td>64</td><td>92</td><td>42</td></tr>
 <tr data-search="coahoma community college sso.coahomacc.edu"><td>Coahoma Community College</td><td>sso.coahomacc.edu</td><td>2</td><td>100</td><td>94</td><td>50</td><td>36</td></tr>
-<tr data-search="bethune-cookman university sso.cookman.edu"><td>Bethune-Cookman University</td><td>sso.cookman.edu</td><td>2</td><td>99</td><td>84</td><td>50</td><td>45</td></tr>
+<tr data-search="sso.cookman.edu sso.cookman.edu"><td>sso.cookman.edu</td><td>sso.cookman.edu</td><td>2</td><td>99</td><td>84</td><td>50</td><td>45</td></tr>
 <tr data-search="dakota county technical college sso.dctc.edu"><td>Dakota County Technical College</td><td>sso.dctc.edu</td><td>2</td><td>100</td><td>64</td><td>100</td><td>82</td></tr>
 <tr data-search="delta state university sso.deltastate.edu"><td>Delta State University</td><td>sso.deltastate.edu</td><td>1</td><td>100</td><td>60</td><td>73</td><td>82</td></tr>
 <tr data-search="sso.ewu.edu sso.ewu.edu"><td>sso.ewu.edu</td><td>sso.ewu.edu</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
@@ -4309,7 +4309,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="brown university static.brown.edu"><td>Brown University</td><td>static.brown.edu</td><td>1</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
 <tr data-search="brigham young university static.byu.edu"><td>Brigham Young University</td><td>static.byu.edu</td><td>1</td><td>100</td><td>59</td><td>96</td><td>80</td></tr>
 <tr data-search="cedarville university static.cedarville.edu"><td>Cedarville University</td><td>static.cedarville.edu</td><td>1</td><td>74</td><td>82</td><td>73</td><td>92</td></tr>
-<tr data-search="college of charleston static.cofc.edu"><td>College of Charleston</td><td>static.cofc.edu</td><td>1</td><td>53</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="static.cofc.edu static.cofc.edu"><td>static.cofc.edu</td><td>static.cofc.edu</td><td>1</td><td>53</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="frederick community college static.frederick.edu"><td>Frederick Community College</td><td>static.frederick.edu</td><td>1</td><td>93</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="grinnell college static.grinnell.edu"><td>Grinnell College</td><td>static.grinnell.edu</td><td>1</td><td>100</td><td>77</td><td>100</td><td>91</td></tr>
 <tr data-search="abilene christian university, a christian college in abilene, texas status.acu.edu"><td>Abilene Christian University, a Christian college in Abilene, Texas</td><td>status.acu.edu</td><td>1</td><td>99</td><td>81</td><td>77</td><td>92</td></tr>
@@ -4520,7 +4520,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="duke university sustainability.duke.edu"><td>Duke University</td><td>sustainability.duke.edu</td><td>1</td><td>91</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="florida international university sustainability.fiu.edu"><td>Florida International University</td><td>sustainability.fiu.edu</td><td>1</td><td>54</td><td>86</td><td>96</td><td>92</td></tr>
 <tr data-search="frederick community college sustainability.frederick.edu"><td>Frederick Community College</td><td>sustainability.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
-<tr data-search="fullerton college sustainability.fullcoll.edu"><td>Fullerton College</td><td>sustainability.fullcoll.edu</td><td>1</td><td>76</td><td>96</td><td>77</td><td>85</td></tr>
+<tr data-search="sustainability.fullcoll.edu sustainability.fullcoll.edu"><td>sustainability.fullcoll.edu</td><td>sustainability.fullcoll.edu</td><td>1</td><td>76</td><td>96</td><td>77</td><td>85</td></tr>
 <tr data-search="california state university, fullerton sustainability.fullerton.edu"><td>California State University, Fullerton</td><td>sustainability.fullerton.edu</td><td>1</td><td>100</td><td>100</td><td>96</td><td>91</td></tr>
 <tr data-search="georgia institute of technology sustainability.gatech.edu"><td>Georgia Institute of Technology</td><td>sustainability.gatech.edu</td><td>1</td><td>98</td><td>90</td><td>77</td><td>92</td></tr>
 <tr data-search="georgia state university sustainability.gsu.edu"><td>Georgia State University</td><td>sustainability.gsu.edu</td><td>1</td><td>90</td><td>98</td><td>58</td><td>85</td></tr>
@@ -4572,7 +4572,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="abilene christian university, a christian college in abilene, texas theology.acu.edu"><td>Abilene Christian University, a Christian college in Abilene, Texas</td><td>theology.acu.edu</td><td>1</td><td>95</td><td>78</td><td>54</td><td>50</td></tr>
 <tr data-search="american international university - bangladesh theology.aiub.edu"><td>American International University - Bangladesh</td><td>theology.aiub.edu</td><td>1</td><td>57</td><td>94</td><td>96</td><td>100</td></tr>
 <tr data-search="::akkineni nageswara rao college,gudivada:: theology.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>theology.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-<tr data-search="ave maria university &gt; home theology.avemaria.edu"><td>Ave Maria University &gt; Home</td><td>theology.avemaria.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="theology.avemaria.edu theology.avemaria.edu"><td>theology.avemaria.edu</td><td>theology.avemaria.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="bard college theology.bard.edu"><td>Bard College</td><td>theology.bard.edu</td><td>1</td><td>94</td><td>100</td><td>73</td><td>92</td></tr>
 <tr data-search="foothill college home theology.fordham.edu"><td>Foothill College Home</td><td>theology.fordham.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="frederick community college theology.frederick.edu"><td>Frederick Community College</td><td>theology.frederick.edu</td><td>1</td><td>100</td><td>100</td><td>77</td><td>92</td></tr>
@@ -4640,11 +4640,11 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="vince.csueastbay.edu vince.csueastbay.edu"><td>vince.csueastbay.edu</td><td>vince.csueastbay.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="university of virginia, charlottesville virginia.edu"><td>University of Virginia, Charlottesville</td><td>virginia.edu</td><td>1</td><td>95</td><td>88</td><td>69</td><td>100</td></tr>
 <tr data-search="american international university - bangladesh vpaa.aiub.edu"><td>American International University - Bangladesh</td><td>vpaa.aiub.edu</td><td>1</td><td>54</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: vpaa.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>vpaa.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="vpaa.anrcollege.edu vpaa.anrcollege.edu"><td>vpaa.anrcollege.edu</td><td>vpaa.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="frederick community college vpaa.frederick.edu"><td>Frederick Community College</td><td>vpaa.frederick.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="an-najah national university vpaa.najah.edu"><td>An-Najah National University</td><td>vpaa.najah.edu</td><td>1</td><td>60</td><td>69</td><td>46</td><td>75</td></tr>
 <tr data-search="american international university - bangladesh vpsa.aiub.edu"><td>American International University - Bangladesh</td><td>vpsa.aiub.edu</td><td>1</td><td>51</td><td>94</td><td>96</td><td>100</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: vpsa.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>vpsa.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="vpsa.anrcollege.edu vpsa.anrcollege.edu"><td>vpsa.anrcollege.edu</td><td>vpsa.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="frederick community college vpsa.frederick.edu"><td>Frederick Community College</td><td>vpsa.frederick.edu</td><td>1</td><td>99</td><td>100</td><td>77</td><td>92</td></tr>
 <tr data-search="virginia polytechnic institute and state university (virginia tech) vt.edu"><td>Virginia Polytechnic Institute and State University (Virginia Tech)</td><td>vt.edu</td><td>1</td><td>87</td><td>96</td><td>77</td><td>83</td></tr>
 <tr data-search="free university (virginia theological university) vtu.edu"><td>Free University (Virginia Theological University)</td><td>vtu.edu</td><td>1</td><td>100</td><td>63</td><td>85</td><td>91</td></tr>
@@ -4664,7 +4664,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="abraham lincoln university webmail.alu.edu"><td>Abraham Lincoln University</td><td>webmail.alu.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>45</td></tr>
 <tr data-search="alvin community college webmail.alvincollege.edu"><td>Alvin Community College</td><td>webmail.alvincollege.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="american career college webmail.americancareercollege.edu"><td>American Career College</td><td>webmail.americancareercollege.edu</td><td>1</td><td>100</td><td>75</td><td>81</td><td>50</td></tr>
-<tr data-search="::akkineni nageswara rao college,gudivada:: webmail.anrcollege.edu"><td>::AKKINENI NAGESWARA RAO COLLEGE,GUDIVADA::</td><td>webmail.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr data-search="webmail.anrcollege.edu webmail.anrcollege.edu"><td>webmail.anrcollege.edu</td><td>webmail.anrcollege.edu</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
 <tr data-search="asia pacific theological seminary (apts) webmail.apts.edu"><td>Asia Pacific Theological Seminary (APTS)</td><td>webmail.apts.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>50</td></tr>
 <tr data-search=":: american university in dubai :: webmail.aud.edu"><td>:: American University in Dubai ::</td><td>webmail.aud.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
 <tr data-search="ave maria university &gt; home webmail.avemaria.edu"><td>Ave Maria University &gt; Home</td><td>webmail.avemaria.edu</td><td>1</td><td>100</td><td>95</td><td>73</td><td>66</td></tr>
@@ -4683,7 +4683,7 @@ _Stats as of 2026-11-14 12:09 UTC — last scan: 2026-11-14_
 <tr data-search="colorado institute of massage therapy webmail.cimt.edu"><td>Colorado Institute of Massage Therapy</td><td>webmail.cimt.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>50</td></tr>
 <tr data-search="california nurses educational institute webmail.cnei.edu"><td>California Nurses Educational Institute</td><td>webmail.cnei.edu</td><td>1</td><td>100</td><td>78</td><td>96</td><td>50</td></tr>
 <tr data-search="coconino community college webmail.coconino.edu"><td>Coconino Community College</td><td>webmail.coconino.edu</td><td>1</td><td>100</td><td>82</td><td>92</td><td>50</td></tr>
-<tr data-search="college of charleston webmail.cofc.edu"><td>College of Charleston</td><td>webmail.cofc.edu</td><td>1</td><td>43</td><td>96</td><td>73</td><td>100</td></tr>
+<tr data-search="webmail.cofc.edu webmail.cofc.edu"><td>webmail.cofc.edu</td><td>webmail.cofc.edu</td><td>1</td><td>43</td><td>96</td><td>73</td><td>100</td></tr>
 <tr data-search="columbus university webmail.columbus.edu"><td>Columbus University</td><td>webmail.columbus.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>50</td></tr>
 <tr data-search="conservative theological university, conservative christian academy, first conservative baptist church, jacksonville, fl webmail.conservative.edu"><td>Conservative Theological University, Conservative Christian Academy, First Conservative Baptist Church, Jacksonville, FL</td><td>webmail.conservative.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>45</td></tr>
 <tr data-search="crowley\&#x27;s ridge college webmail.crc.edu"><td>Crowley\&#x27;s Ridge College</td><td>webmail.crc.edu</td><td>1</td><td>100</td><td>75</td><td>100</td><td>50</td></tr>
