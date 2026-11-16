@@ -8,45 +8,45 @@ layout: page
 <div id="sm-tier-pie-container" style="float:right;margin:0 0 1rem 1.5rem;width:260px;max-width:45%;">
 <svg role="img" aria-labelledby="pie-title pie-desc" viewBox="0 0 240 314" width="240" height="314" xmlns="http://www.w3.org/2000/svg">
 <title id="pie-title">Social media tier distribution</title>
-<desc id="pie-desc">Pie chart: social media tier distribution across 14,192 scanned pages. Legacy only: 4,819 (34.0%), Modern only: 32 (0.2%), Mixed: 2,415 (17.0%), No Social: 6,100 (43.0%)</desc>
-<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 189.151,167.604 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 4,819 (36.1%)</title></path>
-<path d="M 120,110 L 189.151,167.604 A 90,90 0 0,1 188.276,168.638 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 32 (0.2%)</title></path>
-<path d="M 120,110 L 188.276,168.638 A 90,90 0 0,1 95.642,196.641 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 2,415 (18.1%)</title></path>
-<path d="M 120,110 L 95.642,196.641 A 90,90 0 0,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 6,100 (45.6%)</title></path>
+<desc id="pie-desc">Pie chart: social media tier distribution across 16,106 scanned pages. Legacy only: 5,491 (34.1%), Modern only: 37 (0.2%), Mixed: 2,850 (17.7%), No Social: 7,239 (44.9%)</desc>
+<path d="M 120,110 L 120.000,20.000 A 90,90 0 0,1 192.275,163.632 Z" fill="#1a8cd8" stroke="#fff" stroke-width="1"><title>Twitter/X only: 5,491 (35.2%)</title></path>
+<path d="M 120,110 L 192.275,163.632 A 90,90 0 0,1 191.468,164.702 Z" fill="#0085ff" stroke="#fff" stroke-width="1"><title>Modern only: 37 (0.2%)</title></path>
+<path d="M 120,110 L 191.468,164.702 A 90,90 0 0,1 99.559,197.648 Z" fill="#7856ff" stroke="#fff" stroke-width="1"><title>Mixed: 2,850 (18.2%)</title></path>
+<path d="M 120,110 L 99.559,197.648 A 90,90 0 0,1 120.000,20.000 Z" fill="#cccccc" stroke="#fff" stroke-width="1"><title>No Social: 7,239 (46.4%)</title></path>
 <rect x="20" y="216" width="14" height="14" fill="#1a8cd8"/>
-<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (36.1%)</text>
+<text x="40" y="227" font-size="11" font-family="sans-serif" fill="#333">Twitter/X only (35.2%)</text>
 <rect x="20" y="238" width="14" height="14" fill="#0085ff"/>
 <text x="40" y="249" font-size="11" font-family="sans-serif" fill="#333">Modern only (0.2%)</text>
 <rect x="20" y="260" width="14" height="14" fill="#7856ff"/>
-<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (18.1%)</text>
+<text x="40" y="271" font-size="11" font-family="sans-serif" fill="#333">Mixed (18.2%)</text>
 <rect x="20" y="282" width="14" height="14" fill="#cccccc"/>
-<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (45.6%)</text>
+<text x="40" y="293" font-size="11" font-family="sans-serif" fill="#333">No Social (46.4%)</text>
 </svg>
 <p style="text-align:center;font-size:0.75em;margin:0.3rem 0 0;color:#555;font-style:italic;">Social media tier distribution</p>
 </div>
 
-_Stats as of 2026-11-15 12:43 UTC — last scan: 2026-11-15_
+_Stats as of 2026-11-16 13:37 UTC — last scan: 2026-11-16_
 
-**21** scan batches run
+**25** scan batches run
 
-**10,349** of **23,652** available pages scanned (**43.8%** coverage)
-**9,382** of **10,349** scanned pages were reachable (**90.7%**)
+**12,263** of **23,652** available pages scanned (**51.8%** coverage)
+**11,293** of **12,263** scanned pages were reachable (**92.1%**)
 
 **Legacy social media** (older, centralised platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
-| 🐦 Twitter | **2,466** | 23.8% | 26.3% |
-| ✖ X | **1,085** | 10.5% | 11.6% |
-| 👍 Facebook | **4,878** | 47.1% | 52.0% |
-| 💼 LinkedIn | **3,364** | 32.5% | 35.9% |
+| 🐦 Twitter | **2,929** | 23.9% | 25.9% |
+| ✖ X | **1,260** | 10.3% | 11.2% |
+| 👍 Facebook | **5,716** | 46.6% | 50.6% |
+| 💼 LinkedIn | **4,026** | 32.8% | 35.7% |
 
 **Modern / open social media** (decentralised or open platforms):
 
 | Platform | Pages with link | % of scanned | % of reachable |
 |----------|----------------|:------------:|:--------------:|
-| 🦋 Bluesky | **91** | 0.9% | 1.0% |
-| 🐘 Mastodon / Fediverse | **1,526** | 14.7% | 16.3% |
+| 🦋 Bluesky | **117** | 1.0% | 1.0% |
+| 🐘 Mastodon / Fediverse | **1,867** | 15.2% | 16.5% |
 
 <div style="clear:both;"></div>
 
@@ -60,8 +60,8 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Rank | Country | Sovereignty Score | No Social | Modern Only | Legacy Exposure | Tier |
 |------|---------|:-----------------:|:---------:|:-----------:|:---------------:|------|
-| 1 | Usa Edu Master Subdomains | 53.7% | 5,010 | 25 | 50.9% | 🥉 Growing |
-| 2 | Usa Edu Master | 37.6% | 1,062 | 7 | 83.4% | ⚠️ Legacy-heavy |
+| 1 | Usa Edu Master Subdomains | 54.6% | 6,139 | 30 | 51.6% | 🥉 Growing |
+| 2 | Usa Edu Master | 38.0% | 1,072 | 7 | 85.5% | ⚠️ Legacy-heavy |
 | 3 | Usa Edu Top100 | 31.5% | 28 | 0 | 89.9% | ⚠️ Legacy-heavy |
 
 ---
@@ -72,10 +72,10 @@ Countries ranked by **Digital Sovereignty Score** — the percentage of reachabl
 
 | Country | Scanned | Available | Reachable | Sov. Score | No Social | Legacy-only | Twitter | X | Facebook | LinkedIn | Modern | Mixed | Bluesky | Mastodon | Scan Period |
 |---------|---------|-----------|-----------|:----------:|-----------|-------------|---------|---|----------|----------|--------|-------|---------|----------|-------------|
-| Usa Edu Master | 3,749 | 3,763 | 2,841 | 37.6% | 1,062 | 1,461 | 1,190 | 442 | 2,359 | 1,642 | 7 | 911 | 57 | 897 | Oct 2026 – Nov 2026 |
-| Usa Edu Master Subdomains | 10,343 | 19,789 | 9,373 | 53.7% | 5,010 | 3,323 | 2,372 | 1,043 | 4,694 | 3,230 | 25 | 1,459 | 84 | 1,455 | Oct 2026 – Nov 2026 |
+| Usa Edu Master | 3,749 | 3,763 | 2,841 | 38.0% | 1,072 | 1,500 | 1,221 | 455 | 2,419 | 1,683 | 7 | 932 | 58 | 918 | Oct 2026 – Nov 2026 |
+| Usa Edu Master Subdomains | 12,257 | 19,789 | 11,289 | 54.6% | 6,139 | 3,956 | 2,926 | 1,258 | 5,711 | 4,022 | 30 | 1,873 | 116 | 1,864 | Oct 2026 – Nov 2026 |
 | Usa Edu Top100 | 100 | 100 | 89 | 31.5% | 28 | 35 | 46 | 27 | 80 | 64 | 0 | 45 | 8 | 42 | Oct 2026 – Nov 2026 |
-| **Total** | **14,192** | **23,652** | **12,303** | **49.8%** | **6,100** | **4,819** | **3,608** | **1,512** | **7,133** | **4,936** | **32** | **2,415** | **149** | **2,394** | — |
+| **Total** | **16,106** | **23,652** | **14,219** | **51.2%** | **7,239** | **5,491** | **4,193** | **1,740** | **8,210** | **5,769** | **37** | **2,850** | **182** | **2,824** | — |
 
 > Hover or focus any non-zero country-table count to preview matching pages. Activate the number to keep the preview open. Full machine-readable data is available as the [social-media-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 

@@ -5,14 +5,14 @@ layout: page
 
 <!-- ACCESSIBILITY_STATS_START -->
 
-_Stats as of 2026-11-15 12:43 UTC — last scan: 2026-11-15_
+_Stats as of 2026-11-16 13:37 UTC — last scan: 2026-11-16_
 
-**48** scan batches run
+**54** scan batches run
 
-**8,312** of **23,652** available domains scanned (**35.1%** coverage)
-**7,351** of **8,312** scanned domains were reachable (**88.4%**)
-**2,768** of **7,351** reachable domains have an accessibility statement (**37.7%**)
-**2,250** domains have the statement link in the footer (**81.3%** of domains with a statement)
+**8,947** of **23,652** available domains scanned (**37.8%** coverage)
+**7,986** of **8,947** scanned domains were reachable (**89.3%**)
+**3,112** of **7,986** reachable domains have an accessibility statement (**39.0%**)
+**2,562** domains have the statement link in the footer (**82.3%** of domains with a statement)
 
 📥 Machine-readable results are available as the [accessibility-data.json artifact (machine-readable JSON)](https://github.com/mgifford/edu-scans/actions/workflows/generate-scan-progress.yml).
 
@@ -26,10 +26,10 @@ Each country entry in the JSON file includes page-level evidence for pages with 
 
 | Country | Domains | Available | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 3,763 | 2,846 | 1,501 | 1,257 | 52.7% | Oct 2026 – Nov 2026 |
-| Usa Edu Master Subdomains | 8,306 | 19,789 | 7,341 | 2,544 | 2,067 | 34.7% | Oct 2026 – Nov 2026 |
+| Usa Edu Master | 3,780 | 3,763 | 2,846 | 1,521 | 1,262 | 53.4% | Oct 2026 – Nov 2026 |
+| Usa Edu Master Subdomains | 8,941 | 19,789 | 7,978 | 2,942 | 2,431 | 36.9% | Oct 2026 – Nov 2026 |
 | Usa Edu Top100 | 101 | 100 | 90 | 75 | 70 | 83.3% | Oct 2026 – Nov 2026 |
-| **Total** | **12,187** | **23,652** | **10,277** | **4,120** | **3,394** | **40.1%** | — |
+| **Total** | **12,822** | **23,652** | **10,914** | **4,538** | **3,763** | **41.6%** | — |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
 
