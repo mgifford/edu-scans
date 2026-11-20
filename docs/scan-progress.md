@@ -3,7 +3,7 @@ title: Scan Progress Report
 layout: page
 ---
 
-_Generated: 2026-11-19 14:24 UTC_
+_Generated: 2026-11-20 13:59 UTC_
 
 This report tracks how far along each scan type is across all countries. It is regenerated automatically after every scan run.
 
@@ -28,6 +28,7 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 
 | Date | Accessibility | Social Media | Technology | Third-Party JS | Lighthouse |
 |------|--------------|--------------|------------|----------------|------------|
+| 2026-11-20 | 55.8% | 68.1% | 68.1% | 14.1% | 26.0% |
 | 2026-11-19 | 55.8% | 68.1% | 68.1% | 14.1% | 26.0% |
 | 2026-11-18 | 55.8% | 68.1% | 68.1% | 14.1% | 24.0% |
 | 2026-11-17 | 55.8% | 68.1% | 68.1% | 14.1% | 24.0% |
@@ -41,7 +42,6 @@ Coverage percentage for each scan type, updated daily. When a scan type is far b
 | 2026-11-09 | 60.0% | 69.9% | 69.9% | 16.4% | 21.6% |
 | 2026-11-08 | 59.2% | 66.5% | 66.5% | 16.4% | 21.6% |
 | 2026-11-07 | 61.5% | 69.1% | 69.1% | 17.0% | 22.4% |
-| 2026-11-06 | 61.5% | 69.1% | 69.1% | 17.0% | 19.7% |
 
 > Percentages are calculated as *pages scanned* ÷ *total pages available* × 100. Lighthouse scans take longer per URL and may lag other scan types; the auto-prioritisation step compensates by triggering extra runs for the most-lagging scan each day.
 
@@ -150,8 +150,8 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | Domains | Reachable | Has Statement | In Footer | Statement % | Scan Period |
 |---------|---------|-----------|--------------|-----------|------------|-------------|
-| Usa Edu Master | 3,780 | 2,846 | 1,536 | 1,265 | 54% | Oct 2026 – Nov 2026 |
-| Usa Edu Master Subdomains | 9,320 | 8,359 | 3,177 | 2,614 | 38% | Oct 2026 – Nov 2026 |
+| Usa Edu Master | 3,780 | 2,846 | 1,538 | 1,265 | 54% | Oct 2026 – Nov 2026 |
+| Usa Edu Master Subdomains | 9,320 | 8,361 | 3,190 | 2,618 | 38% | Oct 2026 – Nov 2026 |
 | Usa Edu Top100 | 101 | 90 | 75 | 70 | 83% | Oct 2026 – Nov 2026 |
 
 > **Statement %** is the percentage of *reachable* domains that contain at least one link to an accessibility statement.
@@ -160,7 +160,7 @@ Checks whether each institution's website links to an accessibility statement. E
 
 | Country | URLs Scanned | Last Scan |
 |---------|-------------|----------|
-| Usa Edu Master | 3,330 | 2026-11-19 |
+| Usa Edu Master | 3,330 | 2026-11-20 |
 
 ## Countries With Social Scan But No URL Validation
 
